@@ -1,0 +1,360 @@
+# baseURI: urn:x-evn-master:movieontology
+
+BASE   <urn:x-evn-master:movieontology>
+PREFIX metadata: <http://topbraid.org/metadata#>
+PREFIX teamwork: <http://topbraid.org/teamwork#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX MovieSHACL3: <http://example.org/ontologies/MovieSHACL3#>
+PREFIX graphql: <http://datashapes.org/graphql#>
+PREFIX dash: <http://datashapes.org/dash#>
+
+<urn:x-evn-master:movieontology>
+        owl:imports          <http://datashapes.org/graphql>;
+        rdf:type             owl:Ontology;
+        <http://topbraid.org/swa#defaultNamespace>  "http://example.org/ontologies/MovieOntology#";
+        rdfs:label           "MovieSHACL";
+        metadata:status      metadata:UnderDevelopmentStatus;
+        graphql:publicClass  MovieSHACL3:Person;
+        graphql:publicClass  <http://rdfex.org/withImports?uri=urn:x-evn-master:movieshacl3:shedden/Movie>;
+        graphql:publicClass  MovieSHACL3:Award;
+        graphql:publicClass  MovieSHACL3:AwardCategory .
+
+MovieSHACL3:Actor  rdfs:subClassOf  MovieSHACL3:Person;
+        rdf:type         sh:NodeShape;
+        rdf:type         owl:Class;
+        rdfs:label       "Actor";
+        rdfs:comment     "A person who performs a role in a movie by portraying a character.\n" .
+
+MovieSHACL3:Person  rdfs:subClassOf  owl:Thing;
+        rdf:type         sh:NodeShape;
+        rdf:type         owl:Class;
+        rdfs:label       "Person"@en;
+        rdfs:comment     " An individual involved in the creation or production of a movie. A Person may participate in one or more roles, such as actor or director.\n"@en;
+        sh:property      MovieSHACL3:Person-hasIdentifier;
+        sh:property      MovieSHACL3:Person-label .
+
+MovieSHACL3:Person-hasIdentifier
+        rdf:type     sh:PropertyShape;
+        sh:nodeKind  sh:IRI;
+        sh:class     MovieSHACL3:Identifier;
+        sh:name      "hasIdentifier";
+        sh:path      MovieSHACL3:hasIdentifier .
+
+MovieSHACL3:Person-label
+        rdf:type       sh:PropertyShape;
+        graphql:name   "labels";
+        sh:name        "labels";
+        sh:path        rdfs:label;
+        sh:or          dash:StringOrLangString;
+        sh:singleLine  true .
+
+MovieSHACL3:tmdb  rdf:type  MovieSHACL3:IdentifierScheme;
+        rdfs:label  "tmdb"@en .
+
+MovieSHACL3:IdentifierScheme
+        rdfs:subClassOf  owl:Thing;
+        rdf:type         sh:NodeShape;
+        rdf:type         owl:Class;
+        rdfs:label       "IdentifierScheme";
+        rdfs:comment     "A controlled vocabulary of identifier schemes (e.g., tmdb, imdb, wikidata).\n"@en;
+        sh:property      MovieSHACL3:IdentifierScheme-label .
+
+MovieSHACL3:Identifier-scheme
+        rdf:type     sh:PropertyShape;
+        sh:nodeKind  sh:IRI;
+        sh:class     MovieSHACL3:IdentifierScheme;
+        sh:name      "scheme";
+        sh:path      MovieSHACL3:scheme;
+        sh:maxCount  1;
+        sh:minCount  1 .
+
+MovieSHACL3:Nomination-yearFilm
+        rdf:type     sh:PropertyShape;
+        sh:name      "yearFilm";
+        sh:path      MovieSHACL3:yearFilm;
+        sh:maxCount  1;
+        sh:datatype  xsd:gYear;
+        sh:minCount  1 .
+
+MovieSHACL3:AwardCeremony
+        rdfs:subClassOf  owl:Thing;
+        rdf:type         sh:NodeShape;
+        rdf:type         owl:Class;
+        rdfs:label       "AwardCeremony";
+        rdfs:comment     "An award ceremony event for a specific year (e.g., the 96th Academy Awards), typically recognizing films from a prior release year.\n"@en;
+        sh:property      MovieSHACL3:AwardCeremony-yearCeremony;
+        sh:property      MovieSHACL3:AwardCeremony-ceremonyNumber;
+        sh:property      MovieSHACL3:AwardCeremony-label .
+
+MovieSHACL3:AwardCeremony-yearCeremony
+        rdf:type     sh:PropertyShape;
+        sh:name      "yearCeremony";
+        sh:path      MovieSHACL3:yearCeremony;
+        sh:maxCount  1;
+        sh:datatype  xsd:gYear;
+        sh:minCount  1 .
+
+MovieSHACL3:AwardCeremony-ceremonyNumber
+        rdf:type     sh:PropertyShape;
+        sh:name      "ceremonyNumber";
+        sh:path      MovieSHACL3:ceremonyNumber;
+        sh:maxCount  1;
+        sh:datatype  xsd:integer;
+        sh:minCount  1 .
+
+MovieSHACL3:AwardCeremony-label
+        rdf:type       sh:PropertyShape;
+        graphql:name   "labels";
+        sh:name        "labels";
+        sh:path        rdfs:label;
+        sh:or          dash:StringOrLangString;
+        sh:singleLine  true .
+
+MovieSHACL3:Identifier-label
+        rdf:type       sh:PropertyShape;
+        graphql:name   "labels";
+        sh:name        "labels";
+        sh:path        rdfs:label;
+        sh:or          dash:StringOrLangString;
+        sh:singleLine  true .
+
+<http://rdfex.org/withImports?uri=urn:x-evn-master:movieshacl3:shedden/Movie-label>
+        rdf:type       sh:PropertyShape;
+        graphql:name   "labels";
+        sh:name        "labels";
+        sh:path        rdfs:label;
+        sh:or          dash:StringOrLangString;
+        sh:singleLine  true .
+
+<http://rdfex.org/withImports?uri=urn:x-evn-master:movieshacl3:shedden/Movie-hasDirector>
+        rdf:type     sh:PropertyShape;
+        sh:nodeKind  sh:IRI;
+        sh:class     MovieSHACL3:Director;
+        sh:name      "hasDirector";
+        sh:path      MovieSHACL3:hasDirector;
+        sh:minCount  1 .
+
+MovieSHACL3:Director  rdfs:subClassOf  MovieSHACL3:Person;
+        rdf:type         sh:NodeShape;
+        rdf:type         owl:Class;
+        rdfs:label       "Director";
+        rdfs:comment     "A person responsible for overseeing the creative and artistic aspects of a movie, including directing performances and guiding the overall vision of the film.\n" .
+
+MovieSHACL3:Nomination
+        rdfs:subClassOf  owl:Thing;
+        rdf:type         sh:NodeShape;
+        rdf:type         owl:Class;
+        rdfs:label       "Nomination";
+        rdfs:comment     "A nomination for an award category at a specific ceremony, optionally tied to a film and a person.\n"@en;
+        sh:property      MovieSHACL3:Nomination-yearFilm;
+        sh:property      MovieSHACL3:Nomination-hasCeremony;
+        sh:property      MovieSHACL3:Nomination-previousNominations;
+        sh:property      MovieSHACL3:Nomination-winner;
+        sh:property      MovieSHACL3:Nomination-hasCanonCategory;
+        sh:property      MovieSHACL3:Nomination-label;
+        sh:property      MovieSHACL3:Nomination-hasFilm;
+        sh:property      MovieSHACL3:Nomination-hasNominee;
+        sh:property      MovieSHACL3:Nomination-hasCategory;
+        sh:property      MovieSHACL3:Nomination-previousWins .
+
+MovieSHACL3:Nomination-hasCeremony
+        rdf:type     sh:PropertyShape;
+        sh:nodeKind  sh:IRI;
+        sh:class     MovieSHACL3:AwardCeremony;
+        sh:name      "hasCeremony";
+        sh:path      MovieSHACL3:hasCeremony;
+        sh:minCount  1 .
+
+MovieSHACL3:Nomination-previousNominations
+        rdf:type     sh:PropertyShape;
+        sh:name      "previousNominations";
+        sh:path      MovieSHACL3:previousNominations;
+        sh:maxCount  1;
+        sh:datatype  xsd:integer .
+
+MovieSHACL3:Nomination-winner
+        rdf:type     sh:PropertyShape;
+        sh:name      "winner";
+        sh:path      MovieSHACL3:winner;
+        sh:maxCount  1;
+        sh:datatype  xsd:boolean;
+        sh:minCount  1 .
+
+MovieSHACL3:Nomination-hasCanonCategory
+        rdf:type     sh:PropertyShape;
+        sh:nodeKind  sh:IRI;
+        sh:class     MovieSHACL3:AwardCategory;
+        sh:name      "hasCanonCategory";
+        sh:path      MovieSHACL3:hasCanonCategory;
+        sh:maxCount  1 .
+
+MovieSHACL3:Nomination-label
+        rdf:type       sh:PropertyShape;
+        graphql:name   "labels";
+        sh:name        "labels";
+        sh:path        rdfs:label;
+        sh:or          dash:StringOrLangString;
+        sh:singleLine  true .
+
+MovieSHACL3:Nomination-hasFilm
+        rdf:type     sh:PropertyShape;
+        sh:nodeKind  sh:IRI;
+        sh:class     <http://rdfex.org/withImports?uri=urn:x-evn-master:movieshacl3:shedden/Movie>;
+        sh:name      "hasFilm";
+        sh:path      MovieSHACL3:hasFilm;
+        sh:maxCount  1 .
+
+MovieSHACL3:Nomination-hasNominee
+        rdf:type     sh:PropertyShape;
+        sh:nodeKind  sh:IRI;
+        sh:class     MovieSHACL3:Person;
+        sh:name      "hasNominee";
+        sh:path      MovieSHACL3:hasNominee;
+        sh:minCount  1 .
+
+MovieSHACL3:Nomination-hasCategory
+        rdf:type     sh:PropertyShape;
+        sh:nodeKind  sh:IRI;
+        sh:class     MovieSHACL3:AwardCategory;
+        sh:name      "hasCategory";
+        sh:path      MovieSHACL3:hasCategory;
+        sh:minCount  1 .
+
+MovieSHACL3:Nomination-previousWins
+        rdf:type     sh:PropertyShape;
+        sh:name      "previousWins";
+        sh:path      MovieSHACL3:previousWins;
+        sh:maxCount  1;
+        sh:datatype  xsd:integer .
+
+MovieSHACL3:Award-label
+        rdf:type       sh:PropertyShape;
+        graphql:name   "labels";
+        sh:name        "labels";
+        sh:path        rdfs:label;
+        sh:or          dash:StringOrLangString;
+        sh:singleLine  true .
+
+<http://rdfex.org/withImports?uri=urn:x-evn-master:movieshacl3:shedden/Movie>
+        rdfs:subClassOf  owl:Thing;
+        rdf:type         sh:NodeShape;
+        rdf:type         owl:Class;
+        rdfs:label       "Movie";
+        rdfs:comment     "A motion picture or film released to the public. A Movie represents a completed creative work and may be associated with people (such as directors and actors), genres, release information, and awards.\n"@en;
+        sh:property      <http://rdfex.org/withImports?uri=urn:x-evn-master:movieshacl3:shedden/Movie-label>;
+        sh:property      <http://rdfex.org/withImports?uri=urn:x-evn-master:movieshacl3:shedden/Movie-hasDirector>;
+        sh:property      MovieSHACL3:Movie-hasIdentifier;
+        sh:property      MovieSHACL3:Movie-wikidataId;
+        sh:property      <http://rdfex.org/withImports?uri=urn:x-evn-master:movieshacl3:shedden/Movie-title>;
+        sh:property      <http://rdfex.org/withImports?uri=urn:x-evn-master:movieshacl3:shedden/Movie-releaseYear>;
+        sh:property      MovieSHACL3:Movie-tmdbId;
+        sh:property      MovieSHACL3:Movie-imdbId .
+
+MovieSHACL3:AwardCategory-label
+        rdf:type       sh:PropertyShape;
+        graphql:name   "labels";
+        sh:name        "labels";
+        sh:path        rdfs:label;
+        sh:or          dash:StringOrLangString;
+        sh:singleLine  true .
+
+MovieSHACL3:Identifier
+        rdfs:subClassOf  owl:Thing;
+        rdf:type         sh:NodeShape;
+        rdf:type         owl:Class;
+        rdfs:label       "Identifier";
+        rdfs:comment     "An external identifier for a Person or Movie (e.g., TMDB, IMDb, Wikidata).\n"@en;
+        sh:property      MovieSHACL3:Identifier-scheme;
+        sh:property      MovieSHACL3:Identifier-label;
+        sh:property      MovieSHACL3:Identifier-value .
+
+MovieSHACL3:Identifier-value
+        rdf:type     sh:PropertyShape;
+        sh:name      "value";
+        sh:path      MovieSHACL3:value;
+        sh:maxCount  1;
+        sh:datatype  xsd:string;
+        sh:minCount  1 .
+
+MovieSHACL3:Award  rdfs:subClassOf  owl:Thing;
+        rdf:type         sh:NodeShape;
+        rdf:type         owl:Class;
+        rdfs:label       "Award";
+        rdfs:comment     "A recognition or honor bestowed on a movie or person for achievement in filmmaking, typically granted by an awarding body or organization.\n";
+        sh:property      MovieSHACL3:Award-label .
+
+MovieSHACL3:IdentifierScheme-label
+        rdf:type       sh:PropertyShape;
+        graphql:name   "labels";
+        sh:name        "labels";
+        sh:path        rdfs:label;
+        sh:or          dash:StringOrLangString;
+        sh:singleLine  true .
+
+MovieSHACL3:Movie-hasIdentifier
+        rdf:type     sh:PropertyShape;
+        sh:nodeKind  sh:IRI;
+        sh:class     MovieSHACL3:Identifier;
+        sh:name      "hasIdentifier";
+        sh:path      MovieSHACL3:hasIdentifier .
+
+MovieSHACL3:Movie-wikidataId
+        rdf:type     sh:PropertyShape;
+        sh:name      "wikidataId";
+        sh:path      MovieSHACL3:wikidataId;
+        sh:maxCount  1;
+        sh:datatype  xsd:string .
+
+MovieSHACL3:imdb  rdf:type  MovieSHACL3:IdentifierScheme;
+        rdfs:label  "imdb"@en .
+
+<http://rdfex.org/withImports?uri=urn:x-evn-master:movieshacl3:shedden/Movie-title>
+        rdf:type     sh:PropertyShape;
+        sh:name      "title";
+        sh:path      MovieSHACL3:title;
+        sh:maxCount  1;
+        sh:datatype  xsd:string;
+        sh:minCount  1 .
+
+<http://rdfex.org/withImports?uri=urn:x-evn-master:movieshacl3:shedden/Movie-releaseYear>
+        rdf:type     sh:PropertyShape;
+        sh:name      "releaseYear";
+        sh:path      MovieSHACL3:releaseYear;
+        sh:maxCount  1;
+        sh:datatype  xsd:gYear;
+        sh:minCount  1 .
+
+MovieSHACL3:AwardCategory
+        rdfs:subClassOf  owl:Thing;
+        rdf:type         sh:NodeShape;
+        rdf:type         owl:Class;
+        rdfs:label       "AwardCategory";
+        sh:property      MovieSHACL3:AwardCategory-label .
+
+MovieSHACL3:Movie-tmdbId
+        rdf:type     sh:PropertyShape;
+        sh:name      "tmdbId";
+        sh:path      MovieSHACL3:tmdbId;
+        sh:maxCount  1;
+        sh:datatype  xsd:string .
+
+MovieSHACL3:wikidata  rdf:type  MovieSHACL3:IdentifierScheme;
+        rdfs:label  "wikidata"@en .
+
+MovieSHACL3:Genre  rdfs:subClassOf  owl:Thing;
+        rdf:type         sh:NodeShape;
+        rdf:type         owl:Class;
+        rdfs:label       "Genre";
+        rdfs:comment     "A category used to classify movies based on shared thematic, narrative, or stylistic characteristics, such as Drama, Comedy, or Science Fiction.\n" .
+
+MovieSHACL3:Movie-imdbId
+        rdf:type       sh:PropertyShape;
+        sh:name        "imdbId";
+        sh:path        MovieSHACL3:imdbId;
+        sh:maxCount    1;
+        sh:datatype    xsd:string;
+        dash:uriStart  "example.org/movie-" .
