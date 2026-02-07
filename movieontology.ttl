@@ -247,6 +247,7 @@ MovieSHACL3:Award-label
         rdfs:comment     "A motion picture or film released to the public. A Movie represents a completed creative work and may be associated with people (such as directors and actors), genres, release information, and awards.\n"@en;
         sh:property      <http://rdfex.org/withImports?uri=urn:x-evn-master:movieshacl3:shedden/Movie-label>;
         sh:property      <http://rdfex.org/withImports?uri=urn:x-evn-master:movieshacl3:shedden/Movie-hasDirector>;
+        sh:property      MovieSHACL3:Movie-hasNomination;
         sh:property      MovieSHACL3:Movie-hasIdentifier;
         sh:property      MovieSHACL3:Movie-wikidataId;
         sh:property      <http://rdfex.org/withImports?uri=urn:x-evn-master:movieshacl3:shedden/Movie-title>;
@@ -301,6 +302,13 @@ MovieSHACL3:Movie-hasIdentifier
         sh:class     MovieSHACL3:Identifier;
         sh:name      "hasIdentifier";
         sh:path      MovieSHACL3:hasIdentifier .
+
+MovieSHACL3:Movie-hasNomination
+        rdf:type     sh:PropertyShape;
+        sh:nodeKind  sh:IRI;
+        sh:class     MovieSHACL3:Nomination;
+        sh:name      "hasNomination";
+        sh:path      MovieSHACL3:hasNomination .
 
 MovieSHACL3:Movie-wikidataId
         rdf:type     sh:PropertyShape;
