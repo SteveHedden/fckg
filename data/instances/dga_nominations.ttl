@@ -1,0 +1,1538 @@
+@prefix msh: <http://example.org/ontologies/MovieSHACL3#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+msh:Nomination_dga_1948_outstanding_directing_feature_film_a_letter_to_three_wives_5895ad8d5df0 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1948 ;
+    msh:hasFilm msh:Film_a_letter_to_three_wives_1949 ;
+    msh:hasNominee msh:Person_joseph_l_mankiewicz ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1949_outstanding_directing_feature_film_all_the_king_s_men_03eb7f592f5c a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1949 ;
+    msh:hasFilm msh:Film_all_the_king_s_men_1949 ;
+    msh:hasNominee msh:Person_robert_rossen ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1950_outstanding_directing_feature_film_all_about_eve_3f0fd7b6765a a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1950 ;
+    msh:hasFilm msh:Film_all_about_eve_1950 ;
+    msh:hasNominee msh:Person_joseph_l_mankiewicz ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1951_outstanding_directing_feature_film_a_place_in_the_sun_a45361330d0a a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1951 ;
+    msh:hasFilm msh:Film_a_place_in_the_sun_1950 ;
+    msh:hasNominee msh:Person_george_stevens ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1952_outstanding_directing_feature_film_the_quiet_man_b71c9c6b0c2c a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1952 ;
+    msh:hasFilm msh:Film_the_quiet_man_1952 ;
+    msh:hasNominee msh:Person_john_ford ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1953_outstanding_directing_feature_film_from_here_to_eternity_ed167a7a2021 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1953 ;
+    msh:hasFilm msh:Film_from_here_to_eternity_1953 ;
+    msh:hasNominee msh:Person_fred_zinnemann ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1954_outstanding_directing_feature_film_on_the_waterfront_9efaf3e4d814 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1954 ;
+    msh:hasFilm msh:Film_on_the_waterfront_1954 ;
+    msh:hasNominee msh:Person_elia_kazan ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1955_outstanding_directing_feature_film_marty_116b907fbf42 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1955 ;
+    msh:hasFilm msh:Film_marty_1955 ;
+    msh:hasNominee msh:Person_delbert_mann ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1956_outstanding_directing_feature_film_giant_7ae3a67998b0 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1956 ;
+    msh:hasFilm msh:Film_giant_1956 ;
+    msh:hasNominee msh:Person_george_stevens ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1957_outstanding_directing_feature_film_the_bridge_on_the_river_kwai_4ed5fc84c6ef a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1957 ;
+    msh:hasFilm msh:Film_the_bridge_on_the_river_kwai_1957 ;
+    msh:hasNominee msh:Person_david_lean ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1958_outstanding_directing_feature_film_gigi_708d2c2b00c6 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1958 ;
+    msh:hasFilm msh:Film_gigi_1958 ;
+    msh:hasNominee msh:Person_vincente_minnelli ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1959_outstanding_directing_feature_film_ben_hur_ef24a0142cf3 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1959 ;
+    msh:hasFilm msh:Film_ben_hur_1959 ;
+    msh:hasNominee msh:Person_william_wyler ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1960_outstanding_directing_feature_film_the_apartment_446bbefaea0c a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1960 ;
+    msh:hasFilm msh:Film_the_apartment_1960 ;
+    msh:hasNominee msh:Person_billy_wilder ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1961_outstanding_directing_feature_film_west_side_story_c58eeb7917f0 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1961 ;
+    msh:hasFilm msh:Film_west_side_story_1960 ;
+    msh:hasNominee msh:Person_jerome_robbins,
+        msh:Person_robert_wise ;
+    msh:nomineeType "COLLABORATION" ;
+    msh:winner true .
+
+msh:Nomination_dga_1962_outstanding_directing_feature_film_lawrence_of_arabia_389a32a1f2c0 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1962 ;
+    msh:hasFilm msh:Film_lawrence_of_arabia_1962 ;
+    msh:hasNominee msh:Person_david_lean ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1963_outstanding_directing_feature_film_tom_jones_d8d98624a52c a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1963 ;
+    msh:hasFilm msh:Film_tom_jones_1963 ;
+    msh:hasNominee msh:Person_tony_richardson ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1964_outstanding_directing_feature_film_my_fair_lady_6a592655303a a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1964 ;
+    msh:hasFilm msh:Film_my_fair_lady_1964 ;
+    msh:hasNominee msh:Person_george_cukor ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1965_outstanding_directing_feature_film_the_sound_of_music_7cdc55f4afe3 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1965 ;
+    msh:hasFilm msh:Film_the_sound_of_music_1965 ;
+    msh:hasNominee msh:Person_robert_wise ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1966_outstanding_directing_feature_film_a_man_for_all_seasons_7602d96928f9 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1966 ;
+    msh:hasFilm msh:Film_a_man_for_all_seasons_1966 ;
+    msh:hasNominee msh:Person_fred_zinnemann ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1967_outstanding_directing_feature_film_the_graduate_142d7c105bd9 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1967 ;
+    msh:hasFilm msh:Film_the_graduate_1967 ;
+    msh:hasNominee msh:Person_mike_nichols ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1968_outstanding_directing_feature_film_the_lion_in_winter_96d6e4758f30 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1968 ;
+    msh:hasFilm msh:Film_the_lion_in_winter_1968 ;
+    msh:hasNominee msh:Person_anthony_harvey ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1969_outstanding_directing_feature_film_midnight_cowboy_657f8ce53293 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1969 ;
+    msh:hasFilm msh:Film_midnight_cowboy_1969 ;
+    msh:hasNominee msh:Person_john_schlesinger ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1970_outstanding_directing_feature_film_patton_43546c807b22 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1970 ;
+    msh:hasFilm msh:Film_patton_1970 ;
+    msh:hasNominee msh:Person_franklin_j_schaffner ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1971_outstanding_directing_feature_film_the_french_connection_b2561c2702ed a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1971 ;
+    msh:hasFilm msh:Film_the_french_connection_1971 ;
+    msh:hasNominee msh:Person_william_friedkin ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1972_outstanding_directing_feature_film_the_godfather_f9393e97b24b a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1972 ;
+    msh:hasFilm msh:Film_the_godfather_1972 ;
+    msh:hasNominee msh:Person_francis_ford_coppola ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1973_outstanding_directing_feature_film_the_sting_0ae0f4732788 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1973 ;
+    msh:hasFilm msh:Film_the_sting_1973 ;
+    msh:hasNominee msh:Person_george_roy_hill ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1974_outstanding_directing_feature_film_the_godfather_part_ii_c6bbefcab6e1 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1974 ;
+    msh:hasFilm msh:Film_the_godfather_part_ii_1974 ;
+    msh:hasNominee msh:Person_francis_ford_coppola ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1975_outstanding_directing_feature_film_one_flew_over_the_cuckoo_s_nest_6d865d51a5b8 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1975 ;
+    msh:hasFilm msh:Film_one_flew_over_the_cuckoo_s_nest_1975 ;
+    msh:hasNominee msh:Person_milo_forman ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1976_outstanding_directing_feature_film_rocky_7f6471669b42 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1976 ;
+    msh:hasFilm msh:Film_rocky_1976 ;
+    msh:hasNominee msh:Person_john_g_avildsen ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1977_outstanding_directing_feature_film_annie_hall_6616a48e03cd a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1977 ;
+    msh:hasFilm msh:Film_annie_hall_1977 ;
+    msh:hasNominee msh:Person_woody_allen ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1978_outstanding_directing_feature_film_the_deer_hunter_daaa8e15867b a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1978 ;
+    msh:hasFilm msh:Film_the_deer_hunter_1978 ;
+    msh:hasNominee msh:Person_michael_cimino ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1979_outstanding_directing_feature_film_kramer_vs_kramer_a4323632c748 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1979 ;
+    msh:hasFilm msh:Film_kramer_vs_kramer_1979 ;
+    msh:hasNominee msh:Person_robert_benton ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1980_outstanding_directing_feature_film_ordinary_people_ef91d3f2a021 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1980 ;
+    msh:hasFilm msh:Film_ordinary_people_1980 ;
+    msh:hasNominee msh:Person_robert_redford ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1981_outstanding_directing_feature_film_reds_2705a3b9d0e5 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1981 ;
+    msh:hasFilm msh:Film_reds_1981 ;
+    msh:hasNominee msh:Person_warren_beatty ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1982_outstanding_directing_feature_film_gandhi_6dbab55800ff a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1982 ;
+    msh:hasFilm msh:Film_gandhi_1982 ;
+    msh:hasNominee msh:Person_richard_attenborough ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1983_outstanding_directing_feature_film_terms_of_endearment_01c157906003 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1983 ;
+    msh:hasFilm msh:Film_terms_of_endearment_1983 ;
+    msh:hasNominee msh:Person_james_l_brooks ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1984_outstanding_directing_feature_film_amadeus_8f5c4d59f850 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1984 ;
+    msh:hasFilm msh:Film_amadeus_1984 ;
+    msh:hasNominee msh:Person_milo_forman ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1985_outstanding_directing_feature_film_the_color_purple_f2d434de2163 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1985 ;
+    msh:hasFilm msh:Film_the_color_purple_1984 ;
+    msh:hasNominee msh:Person_steven_spielberg ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1986_outstanding_directing_feature_film_platoon_1292cdc32223 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1986 ;
+    msh:hasFilm msh:Film_platoon_1986 ;
+    msh:hasNominee msh:Person_oliver_stone ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1987_outstanding_directing_feature_film_the_last_emperor_86f2519bf3af a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1987 ;
+    msh:hasFilm msh:Film_the_last_emperor_1987 ;
+    msh:hasNominee msh:Person_bernardo_bertolucci ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1988_outstanding_directing_feature_film_rain_man_883a2ce3d75b a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1988 ;
+    msh:hasFilm msh:Film_rain_man_1988 ;
+    msh:hasNominee msh:Person_barry_levinson ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1989_outstanding_directing_feature_film_born_on_the_fourth_of_july_aa600666324c a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1989 ;
+    msh:hasFilm msh:Film_born_on_the_fourth_of_july_1989 ;
+    msh:hasNominee msh:Person_oliver_stone ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1990_outstanding_directing_feature_film_dances_with_wolves_6ec47837d024 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1990 ;
+    msh:hasFilm msh:Film_dances_with_wolves_1990 ;
+    msh:hasNominee msh:Person_kevin_costner ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1991_outstanding_directing_feature_film_the_silence_of_the_lambs_aa0be1e21ee0 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1991 ;
+    msh:hasFilm msh:Film_the_silence_of_the_lambs_1991 ;
+    msh:hasNominee msh:Person_jonathan_demme ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1992_outstanding_directing_feature_film_unforgiven_1a926d2bacb2 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1992 ;
+    msh:hasFilm msh:Film_unforgiven_1992 ;
+    msh:hasNominee msh:Person_clint_eastwood ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1993_outstanding_directing_feature_film_schindler_s_list_a3be1b1c3bcb a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1993 ;
+    msh:hasFilm msh:Film_schindler_s_list_1993 ;
+    msh:hasNominee msh:Person_steven_spielberg ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1994_outstanding_directing_feature_film_forrest_gump_5ff9cf13f911 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1994 ;
+    msh:hasFilm msh:Film_forrest_gump_1994 ;
+    msh:hasNominee msh:Person_robert_zemeckis ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1995_outstanding_directing_feature_film_apollo_13_b3173cd1e594 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1995 ;
+    msh:hasFilm msh:Film_apollo_13_1995 ;
+    msh:hasNominee msh:Person_ron_howard ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1996_outstanding_directing_feature_film_the_english_patient_926ce8f97f58 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1996 ;
+    msh:hasFilm msh:Film_the_english_patient_1996 ;
+    msh:hasNominee msh:Person_anthony_minghella ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1997_outstanding_directing_feature_film_titanic_ae9eb09a0c66 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1997 ;
+    msh:hasFilm msh:Film_titanic_1996 ;
+    msh:hasNominee msh:Person_james_cameron ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1998_outstanding_directing_feature_film_saving_private_ryan_2f05eca7c0ab a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1998 ;
+    msh:hasFilm msh:Film_saving_private_ryan_1998 ;
+    msh:hasNominee msh:Person_steven_spielberg ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_1999_outstanding_directing_feature_film_american_beauty_4b12fc418d29 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_1999 ;
+    msh:hasFilm msh:Film_american_beauty_1999 ;
+    msh:hasNominee msh:Person_sam_mendes ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_2000_outstanding_directing_feature_film_crouching_tiger_hidden_dragon_6d9a760dec2e a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_2000 ;
+    msh:hasFilm msh:Film_crouching_tiger_hidden_dragon_2000 ;
+    msh:hasNominee msh:Person_ang_lee ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_2001_outstanding_directing_feature_film_a_beautiful_mind_58ff80df17a3 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_2001 ;
+    msh:hasFilm msh:Film_a_beautiful_mind_2001 ;
+    msh:hasNominee msh:Person_ron_howard ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_2002_outstanding_directing_feature_film_chicago_f628c2333539 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_2002 ;
+    msh:hasFilm msh:Film_chicago_2002 ;
+    msh:hasNominee msh:Person_rob_marshall ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_2003_outstanding_directing_feature_film_the_lord_of_the_rings_the_return_of_the_king_c3527381ee93 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_2003 ;
+    msh:hasFilm msh:Film_the_lord_of_the_rings_the_return_of_the_king_2003 ;
+    msh:hasNominee msh:Person_peter_jackson ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_2004_outstanding_directing_feature_film_million_dollar_baby_7ba149bd0ac0 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_2004 ;
+    msh:hasFilm msh:Film_million_dollar_baby_2004 ;
+    msh:hasNominee msh:Person_clint_eastwood ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_2005_outstanding_directing_feature_film_brokeback_mountain_ea045f37fb32 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_2005 ;
+    msh:hasFilm msh:Film_brokeback_mountain_2005 ;
+    msh:hasNominee msh:Person_ang_lee ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_2006_outstanding_directing_feature_film_the_departed_baff6f786449 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_2006 ;
+    msh:hasFilm msh:Film_the_departed_2006 ;
+    msh:hasNominee msh:Person_martin_scorsese ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_2007_outstanding_directing_feature_film_no_country_for_old_men_7949febead70 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_2007 ;
+    msh:hasFilm msh:Film_no_country_for_old_men_2007 ;
+    msh:hasNominee msh:Person_ethan_coen,
+        msh:Person_joel_coen ;
+    msh:nomineeType "COLLABORATION" ;
+    msh:winner true .
+
+msh:Nomination_dga_2008_outstanding_directing_feature_film_slumdog_millionaire_b38ac55bdd5d a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_2008 ;
+    msh:hasFilm msh:Film_slumdog_millionaire_2008 ;
+    msh:hasNominee msh:Person_danny_boyle ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_2009_outstanding_directing_feature_film_the_hurt_locker_ca56aef30a4f a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_2009 ;
+    msh:hasFilm msh:Film_the_hurt_locker_2009 ;
+    msh:hasNominee msh:Person_kathryn_bigelow ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_2010_outstanding_directing_feature_film_the_king_s_speech_1e435715c65a a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_2010 ;
+    msh:hasFilm msh:Film_the_king_s_speech_2010 ;
+    msh:hasNominee msh:Person_tom_hooper ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_2011_outstanding_directing_feature_film_the_artist_a9cb5e95a967 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_2011 ;
+    msh:hasFilm msh:Film_the_artist_2011 ;
+    msh:hasNominee msh:Person_michel_hazanavicius ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_2012_outstanding_directing_feature_film_argo_408a202ab1fd a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_2012 ;
+    msh:hasFilm msh:Film_argo_2012 ;
+    msh:hasNominee msh:Person_ben_affleck ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_2013_outstanding_directing_feature_film_gravity_7b89ceb235d6 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_2013 ;
+    msh:hasFilm msh:Film_gravity_2013 ;
+    msh:hasNominee msh:Person_alfonso_cuar_n ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_2014_outstanding_directing_feature_film_birdman_or_the_unexpected_virtue_of_ignorance_4057f450b3b5 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_2014 ;
+    msh:hasFilm msh:Film_birdman_or_the_unexpected_virtue_of_ignorance_2014 ;
+    msh:hasNominee msh:Person_alejandro_g_i_rritu ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_2015_outstanding_directing_feature_film_the_revenant_9fe850ceb820 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_2015 ;
+    msh:hasFilm msh:Film_the_revenant_2015 ;
+    msh:hasNominee msh:Person_alejandro_g_i_rritu ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_2016_outstanding_directing_feature_film_la_la_land_e7e41e1156c1 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_2016 ;
+    msh:hasFilm msh:Film_la_la_land_2016 ;
+    msh:hasNominee msh:Person_damien_chazelle ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_2017_outstanding_directing_feature_film_the_shape_of_water_4118032dc719 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_2017 ;
+    msh:hasFilm msh:Film_the_shape_of_water_2017 ;
+    msh:hasNominee msh:Person_guillermo_del_toro ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_2018_outstanding_directing_feature_film_roma_80f7670c1a66 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_2018 ;
+    msh:hasFilm msh:Film_roma_2018 ;
+    msh:hasNominee msh:Person_alfonso_cuar_n ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_2019_outstanding_directing_feature_film_1917_b1c022814e14 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_2019 ;
+    msh:hasFilm msh:Film_1917_2019 ;
+    msh:hasNominee msh:Person_sam_mendes ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_2020_outstanding_directing_feature_film_nomadland_18e55561a5ca a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_2020 ;
+    msh:hasFilm msh:Film_nomadland_2020 ;
+    msh:hasNominee msh:Person_chlo_zhao ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_2021_outstanding_directing_feature_film_the_power_of_the_dog_bd7b07d99957 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_2021 ;
+    msh:hasFilm msh:Film_the_power_of_the_dog_2021 ;
+    msh:hasNominee msh:Person_jane_campion ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_2022_outstanding_directing_feature_film_everything_everywhere_all_at_once_ad61fb962393 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_2022 ;
+    msh:hasFilm msh:Film_everything_everywhere_all_at_once_2022 ;
+    msh:hasNominee msh:Person_daniel_kwan,
+        msh:Person_daniel_scheinert ;
+    msh:nomineeType "COLLABORATION" ;
+    msh:winner true .
+
+msh:Nomination_dga_2023_outstanding_directing_feature_film_oppenheimer_e6838a890bd3 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_2023 ;
+    msh:hasFilm msh:Film_oppenheimer_2023 ;
+    msh:hasNominee msh:Person_christopher_nolan ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_2024_outstanding_directing_feature_film_anora_1ff84c5cc9b6 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_2024 ;
+    msh:hasFilm msh:Film_anora_2024 ;
+    msh:hasNominee msh:Person_sean_baker ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_dga_2025_outstanding_directing_feature_film_one_battle_after_another_4051e9a92602 a msh:Nomination ;
+    msh:hasCategory msh:Category_dga_outstanding_directing_feature_film ;
+    msh:hasCeremony msh:Ceremony_dga_2025 ;
+    msh:hasFilm msh:Film_one_battle_after_another_2025 ;
+    msh:hasNominee msh:Person_paul_thomas_anderson ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Ceremony_dga_1948 a msh:AwardCeremony ;
+    msh:ceremonyName "1948 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1948"^^xsd:gYear .
+
+msh:Ceremony_dga_1949 a msh:AwardCeremony ;
+    msh:ceremonyName "1949 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1949"^^xsd:gYear .
+
+msh:Ceremony_dga_1950 a msh:AwardCeremony ;
+    msh:ceremonyName "1950 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1950"^^xsd:gYear .
+
+msh:Ceremony_dga_1951 a msh:AwardCeremony ;
+    msh:ceremonyName "1951 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1951"^^xsd:gYear .
+
+msh:Ceremony_dga_1952 a msh:AwardCeremony ;
+    msh:ceremonyName "1952 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1952"^^xsd:gYear .
+
+msh:Ceremony_dga_1953 a msh:AwardCeremony ;
+    msh:ceremonyName "1953 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1953"^^xsd:gYear .
+
+msh:Ceremony_dga_1954 a msh:AwardCeremony ;
+    msh:ceremonyName "1954 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1954"^^xsd:gYear .
+
+msh:Ceremony_dga_1955 a msh:AwardCeremony ;
+    msh:ceremonyName "1955 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1955"^^xsd:gYear .
+
+msh:Ceremony_dga_1956 a msh:AwardCeremony ;
+    msh:ceremonyName "1956 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1956"^^xsd:gYear .
+
+msh:Ceremony_dga_1957 a msh:AwardCeremony ;
+    msh:ceremonyName "1957 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1957"^^xsd:gYear .
+
+msh:Ceremony_dga_1958 a msh:AwardCeremony ;
+    msh:ceremonyName "1958 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1958"^^xsd:gYear .
+
+msh:Ceremony_dga_1959 a msh:AwardCeremony ;
+    msh:ceremonyName "1959 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1959"^^xsd:gYear .
+
+msh:Ceremony_dga_1960 a msh:AwardCeremony ;
+    msh:ceremonyName "1960 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1960"^^xsd:gYear .
+
+msh:Ceremony_dga_1961 a msh:AwardCeremony ;
+    msh:ceremonyName "1961 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1961"^^xsd:gYear .
+
+msh:Ceremony_dga_1962 a msh:AwardCeremony ;
+    msh:ceremonyName "1962 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1962"^^xsd:gYear .
+
+msh:Ceremony_dga_1963 a msh:AwardCeremony ;
+    msh:ceremonyName "1963 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1963"^^xsd:gYear .
+
+msh:Ceremony_dga_1964 a msh:AwardCeremony ;
+    msh:ceremonyName "1964 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1964"^^xsd:gYear .
+
+msh:Ceremony_dga_1965 a msh:AwardCeremony ;
+    msh:ceremonyName "1965 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1965"^^xsd:gYear .
+
+msh:Ceremony_dga_1966 a msh:AwardCeremony ;
+    msh:ceremonyName "1966 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1966"^^xsd:gYear .
+
+msh:Ceremony_dga_1967 a msh:AwardCeremony ;
+    msh:ceremonyName "1967 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1967"^^xsd:gYear .
+
+msh:Ceremony_dga_1968 a msh:AwardCeremony ;
+    msh:ceremonyName "1968 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1968"^^xsd:gYear .
+
+msh:Ceremony_dga_1969 a msh:AwardCeremony ;
+    msh:ceremonyName "1969 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1969"^^xsd:gYear .
+
+msh:Ceremony_dga_1970 a msh:AwardCeremony ;
+    msh:ceremonyName "1970 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1970"^^xsd:gYear .
+
+msh:Ceremony_dga_1971 a msh:AwardCeremony ;
+    msh:ceremonyName "1971 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1971"^^xsd:gYear .
+
+msh:Ceremony_dga_1972 a msh:AwardCeremony ;
+    msh:ceremonyName "1972 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1972"^^xsd:gYear .
+
+msh:Ceremony_dga_1973 a msh:AwardCeremony ;
+    msh:ceremonyName "1973 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1973"^^xsd:gYear .
+
+msh:Ceremony_dga_1974 a msh:AwardCeremony ;
+    msh:ceremonyName "1974 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1974"^^xsd:gYear .
+
+msh:Ceremony_dga_1975 a msh:AwardCeremony ;
+    msh:ceremonyName "1975 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1975"^^xsd:gYear .
+
+msh:Ceremony_dga_1976 a msh:AwardCeremony ;
+    msh:ceremonyName "1976 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1976"^^xsd:gYear .
+
+msh:Ceremony_dga_1977 a msh:AwardCeremony ;
+    msh:ceremonyName "1977 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1977"^^xsd:gYear .
+
+msh:Ceremony_dga_1978 a msh:AwardCeremony ;
+    msh:ceremonyName "1978 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1978"^^xsd:gYear .
+
+msh:Ceremony_dga_1979 a msh:AwardCeremony ;
+    msh:ceremonyName "1979 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1979"^^xsd:gYear .
+
+msh:Ceremony_dga_1980 a msh:AwardCeremony ;
+    msh:ceremonyName "1980 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1980"^^xsd:gYear .
+
+msh:Ceremony_dga_1981 a msh:AwardCeremony ;
+    msh:ceremonyName "1981 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1981"^^xsd:gYear .
+
+msh:Ceremony_dga_1982 a msh:AwardCeremony ;
+    msh:ceremonyName "1982 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1982"^^xsd:gYear .
+
+msh:Ceremony_dga_1983 a msh:AwardCeremony ;
+    msh:ceremonyName "1983 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1983"^^xsd:gYear .
+
+msh:Ceremony_dga_1984 a msh:AwardCeremony ;
+    msh:ceremonyName "1984 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1984"^^xsd:gYear .
+
+msh:Ceremony_dga_1985 a msh:AwardCeremony ;
+    msh:ceremonyName "1985 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1985"^^xsd:gYear .
+
+msh:Ceremony_dga_1986 a msh:AwardCeremony ;
+    msh:ceremonyName "1986 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1986"^^xsd:gYear .
+
+msh:Ceremony_dga_1987 a msh:AwardCeremony ;
+    msh:ceremonyName "1987 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1987"^^xsd:gYear .
+
+msh:Ceremony_dga_1988 a msh:AwardCeremony ;
+    msh:ceremonyName "1988 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1988"^^xsd:gYear .
+
+msh:Ceremony_dga_1989 a msh:AwardCeremony ;
+    msh:ceremonyName "1989 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1989"^^xsd:gYear .
+
+msh:Ceremony_dga_1990 a msh:AwardCeremony ;
+    msh:ceremonyName "1990 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1990"^^xsd:gYear .
+
+msh:Ceremony_dga_1991 a msh:AwardCeremony ;
+    msh:ceremonyName "1991 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1991"^^xsd:gYear .
+
+msh:Ceremony_dga_1992 a msh:AwardCeremony ;
+    msh:ceremonyName "1992 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1992"^^xsd:gYear .
+
+msh:Ceremony_dga_1993 a msh:AwardCeremony ;
+    msh:ceremonyName "1993 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1993"^^xsd:gYear .
+
+msh:Ceremony_dga_1994 a msh:AwardCeremony ;
+    msh:ceremonyName "1994 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1994"^^xsd:gYear .
+
+msh:Ceremony_dga_1995 a msh:AwardCeremony ;
+    msh:ceremonyName "1995 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1995"^^xsd:gYear .
+
+msh:Ceremony_dga_1996 a msh:AwardCeremony ;
+    msh:ceremonyName "1996 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1996"^^xsd:gYear .
+
+msh:Ceremony_dga_1997 a msh:AwardCeremony ;
+    msh:ceremonyName "1997 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1997"^^xsd:gYear .
+
+msh:Ceremony_dga_1998 a msh:AwardCeremony ;
+    msh:ceremonyName "1998 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1998"^^xsd:gYear .
+
+msh:Ceremony_dga_1999 a msh:AwardCeremony ;
+    msh:ceremonyName "1999 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "1999"^^xsd:gYear .
+
+msh:Ceremony_dga_2000 a msh:AwardCeremony ;
+    msh:ceremonyName "2000 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "2000"^^xsd:gYear .
+
+msh:Ceremony_dga_2001 a msh:AwardCeremony ;
+    msh:ceremonyName "2001 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "2001"^^xsd:gYear .
+
+msh:Ceremony_dga_2002 a msh:AwardCeremony ;
+    msh:ceremonyName "2002 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "2002"^^xsd:gYear .
+
+msh:Ceremony_dga_2003 a msh:AwardCeremony ;
+    msh:ceremonyName "2003 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "2003"^^xsd:gYear .
+
+msh:Ceremony_dga_2004 a msh:AwardCeremony ;
+    msh:ceremonyName "2004 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "2004"^^xsd:gYear .
+
+msh:Ceremony_dga_2005 a msh:AwardCeremony ;
+    msh:ceremonyName "2005 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "2005"^^xsd:gYear .
+
+msh:Ceremony_dga_2006 a msh:AwardCeremony ;
+    msh:ceremonyName "2006 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "2006"^^xsd:gYear .
+
+msh:Ceremony_dga_2007 a msh:AwardCeremony ;
+    msh:ceremonyName "2007 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "2007"^^xsd:gYear .
+
+msh:Ceremony_dga_2008 a msh:AwardCeremony ;
+    msh:ceremonyName "2008 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "2008"^^xsd:gYear .
+
+msh:Ceremony_dga_2009 a msh:AwardCeremony ;
+    msh:ceremonyName "2009 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "2009"^^xsd:gYear .
+
+msh:Ceremony_dga_2010 a msh:AwardCeremony ;
+    msh:ceremonyName "2010 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "2010"^^xsd:gYear .
+
+msh:Ceremony_dga_2011 a msh:AwardCeremony ;
+    msh:ceremonyName "2011 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "2011"^^xsd:gYear .
+
+msh:Ceremony_dga_2012 a msh:AwardCeremony ;
+    msh:ceremonyName "2012 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "2012"^^xsd:gYear .
+
+msh:Ceremony_dga_2013 a msh:AwardCeremony ;
+    msh:ceremonyName "2013 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "2013"^^xsd:gYear .
+
+msh:Ceremony_dga_2014 a msh:AwardCeremony ;
+    msh:ceremonyName "2014 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "2014"^^xsd:gYear .
+
+msh:Ceremony_dga_2015 a msh:AwardCeremony ;
+    msh:ceremonyName "2015 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "2015"^^xsd:gYear .
+
+msh:Ceremony_dga_2016 a msh:AwardCeremony ;
+    msh:ceremonyName "2016 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "2016"^^xsd:gYear .
+
+msh:Ceremony_dga_2017 a msh:AwardCeremony ;
+    msh:ceremonyName "2017 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "2017"^^xsd:gYear .
+
+msh:Ceremony_dga_2018 a msh:AwardCeremony ;
+    msh:ceremonyName "2018 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "2018"^^xsd:gYear .
+
+msh:Ceremony_dga_2019 a msh:AwardCeremony ;
+    msh:ceremonyName "2019 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "2019"^^xsd:gYear .
+
+msh:Ceremony_dga_2020 a msh:AwardCeremony ;
+    msh:ceremonyName "2020 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "2020"^^xsd:gYear .
+
+msh:Ceremony_dga_2021 a msh:AwardCeremony ;
+    msh:ceremonyName "2021 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "2021"^^xsd:gYear .
+
+msh:Ceremony_dga_2022 a msh:AwardCeremony ;
+    msh:ceremonyName "2022 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "2022"^^xsd:gYear .
+
+msh:Ceremony_dga_2023 a msh:AwardCeremony ;
+    msh:ceremonyName "2023 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "2023"^^xsd:gYear .
+
+msh:Ceremony_dga_2024 a msh:AwardCeremony ;
+    msh:ceremonyName "2024 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "2024"^^xsd:gYear .
+
+msh:Ceremony_dga_2025 a msh:AwardCeremony ;
+    msh:ceremonyName "2025 DGA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_dga ;
+    msh:yearCeremony "2025"^^xsd:gYear .
+
+msh:Film_1917_2019 a msh:Film ;
+    msh:releaseYear "2019"^^xsd:gYear ;
+    msh:title "1917" .
+
+msh:Film_a_beautiful_mind_2001 a msh:Film ;
+    msh:releaseYear "2001"^^xsd:gYear ;
+    msh:title "A Beautiful Mind" .
+
+msh:Film_a_letter_to_three_wives_1949 a msh:Film ;
+    msh:releaseYear "1949"^^xsd:gYear ;
+    msh:title "A Letter to Three Wives" .
+
+msh:Film_a_man_for_all_seasons_1966 a msh:Film ;
+    msh:releaseYear "1966"^^xsd:gYear ;
+    msh:title "A Man for All Seasons" .
+
+msh:Film_a_place_in_the_sun_1950 a msh:Film ;
+    msh:releaseYear "1950"^^xsd:gYear ;
+    msh:title "A Place in the Sun" .
+
+msh:Film_all_about_eve_1950 a msh:Film ;
+    msh:releaseYear "1950"^^xsd:gYear ;
+    msh:title "All About Eve" .
+
+msh:Film_all_the_king_s_men_1949 a msh:Film ;
+    msh:releaseYear "1949"^^xsd:gYear ;
+    msh:title "All the King's Men" .
+
+msh:Film_amadeus_1984 a msh:Film ;
+    msh:releaseYear "1984"^^xsd:gYear ;
+    msh:title "Amadeus" .
+
+msh:Film_american_beauty_1999 a msh:Film ;
+    msh:releaseYear "1999"^^xsd:gYear ;
+    msh:title "American Beauty" .
+
+msh:Film_annie_hall_1977 a msh:Film ;
+    msh:releaseYear "1977"^^xsd:gYear ;
+    msh:title "Annie Hall" .
+
+msh:Film_anora_2024 a msh:Film ;
+    msh:releaseYear "2024"^^xsd:gYear ;
+    msh:title "Anora" .
+
+msh:Film_apollo_13_1995 a msh:Film ;
+    msh:releaseYear "1995"^^xsd:gYear ;
+    msh:title "Apollo 13" .
+
+msh:Film_argo_2012 a msh:Film ;
+    msh:releaseYear "2012"^^xsd:gYear ;
+    msh:title "Argo" .
+
+msh:Film_ben_hur_1959 a msh:Film ;
+    msh:releaseYear "1959"^^xsd:gYear ;
+    msh:title "Ben-Hur" .
+
+msh:Film_birdman_or_the_unexpected_virtue_of_ignorance_2014 a msh:Film ;
+    msh:releaseYear "2014"^^xsd:gYear ;
+    msh:title "Birdman or (The Unexpected Virtue of Ignorance)" .
+
+msh:Film_born_on_the_fourth_of_july_1989 a msh:Film ;
+    msh:releaseYear "1989"^^xsd:gYear ;
+    msh:title "Born on the Fourth of July" .
+
+msh:Film_brokeback_mountain_2005 a msh:Film ;
+    msh:releaseYear "2005"^^xsd:gYear ;
+    msh:title "Brokeback Mountain" .
+
+msh:Film_chicago_2002 a msh:Film ;
+    msh:releaseYear "2002"^^xsd:gYear ;
+    msh:title "Chicago" .
+
+msh:Film_crouching_tiger_hidden_dragon_2000 a msh:Film ;
+    msh:releaseYear "2000"^^xsd:gYear ;
+    msh:title "Crouching Tiger, Hidden Dragon" .
+
+msh:Film_dances_with_wolves_1990 a msh:Film ;
+    msh:releaseYear "1990"^^xsd:gYear ;
+    msh:title "Dances with Wolves" .
+
+msh:Film_everything_everywhere_all_at_once_2022 a msh:Film ;
+    msh:releaseYear "2022"^^xsd:gYear ;
+    msh:title "Everything Everywhere All at Once" .
+
+msh:Film_forrest_gump_1994 a msh:Film ;
+    msh:releaseYear "1994"^^xsd:gYear ;
+    msh:title "Forrest Gump" .
+
+msh:Film_from_here_to_eternity_1953 a msh:Film ;
+    msh:releaseYear "1953"^^xsd:gYear ;
+    msh:title "From Here to Eternity" .
+
+msh:Film_gandhi_1982 a msh:Film ;
+    msh:releaseYear "1982"^^xsd:gYear ;
+    msh:title "Gandhi" .
+
+msh:Film_giant_1956 a msh:Film ;
+    msh:releaseYear "1956"^^xsd:gYear ;
+    msh:title "Giant" .
+
+msh:Film_gigi_1958 a msh:Film ;
+    msh:releaseYear "1958"^^xsd:gYear ;
+    msh:title "Gigi" .
+
+msh:Film_gravity_2013 a msh:Film ;
+    msh:releaseYear "2013"^^xsd:gYear ;
+    msh:title "Gravity" .
+
+msh:Film_kramer_vs_kramer_1979 a msh:Film ;
+    msh:releaseYear "1979"^^xsd:gYear ;
+    msh:title "Kramer vs. Kramer" .
+
+msh:Film_la_la_land_2016 a msh:Film ;
+    msh:releaseYear "2016"^^xsd:gYear ;
+    msh:title "La La Land" .
+
+msh:Film_lawrence_of_arabia_1962 a msh:Film ;
+    msh:releaseYear "1962"^^xsd:gYear ;
+    msh:title "Lawrence of Arabia" .
+
+msh:Film_marty_1955 a msh:Film ;
+    msh:releaseYear "1955"^^xsd:gYear ;
+    msh:title "Marty" .
+
+msh:Film_midnight_cowboy_1969 a msh:Film ;
+    msh:releaseYear "1969"^^xsd:gYear ;
+    msh:title "Midnight Cowboy" .
+
+msh:Film_million_dollar_baby_2004 a msh:Film ;
+    msh:releaseYear "2004"^^xsd:gYear ;
+    msh:title "Million Dollar Baby" .
+
+msh:Film_my_fair_lady_1964 a msh:Film ;
+    msh:releaseYear "1964"^^xsd:gYear ;
+    msh:title "My Fair Lady" .
+
+msh:Film_no_country_for_old_men_2007 a msh:Film ;
+    msh:releaseYear "2007"^^xsd:gYear ;
+    msh:title "No Country for Old Men" .
+
+msh:Film_nomadland_2020 a msh:Film ;
+    msh:releaseYear "2020"^^xsd:gYear ;
+    msh:title "Nomadland" .
+
+msh:Film_on_the_waterfront_1954 a msh:Film ;
+    msh:releaseYear "1954"^^xsd:gYear ;
+    msh:title "On the Waterfront" .
+
+msh:Film_one_battle_after_another_2025 a msh:Film ;
+    msh:releaseYear "2025"^^xsd:gYear ;
+    msh:title "One Battle After Another" .
+
+msh:Film_one_flew_over_the_cuckoo_s_nest_1975 a msh:Film ;
+    msh:releaseYear "1975"^^xsd:gYear ;
+    msh:title "One Flew Over the Cuckoo's Nest" .
+
+msh:Film_oppenheimer_2023 a msh:Film ;
+    msh:releaseYear "2023"^^xsd:gYear ;
+    msh:title "Oppenheimer" .
+
+msh:Film_ordinary_people_1980 a msh:Film ;
+    msh:releaseYear "1980"^^xsd:gYear ;
+    msh:title "Ordinary People" .
+
+msh:Film_patton_1970 a msh:Film ;
+    msh:releaseYear "1970"^^xsd:gYear ;
+    msh:title "Patton" .
+
+msh:Film_platoon_1986 a msh:Film ;
+    msh:releaseYear "1986"^^xsd:gYear ;
+    msh:title "Platoon" .
+
+msh:Film_rain_man_1988 a msh:Film ;
+    msh:releaseYear "1988"^^xsd:gYear ;
+    msh:title "Rain Man" .
+
+msh:Film_reds_1981 a msh:Film ;
+    msh:releaseYear "1981"^^xsd:gYear ;
+    msh:title "Reds" .
+
+msh:Film_rocky_1976 a msh:Film ;
+    msh:releaseYear "1976"^^xsd:gYear ;
+    msh:title "Rocky" .
+
+msh:Film_roma_2018 a msh:Film ;
+    msh:releaseYear "2018"^^xsd:gYear ;
+    msh:title "Roma" .
+
+msh:Film_saving_private_ryan_1998 a msh:Film ;
+    msh:releaseYear "1998"^^xsd:gYear ;
+    msh:title "Saving Private Ryan" .
+
+msh:Film_schindler_s_list_1993 a msh:Film ;
+    msh:releaseYear "1993"^^xsd:gYear ;
+    msh:title "Schindler's List" .
+
+msh:Film_slumdog_millionaire_2008 a msh:Film ;
+    msh:releaseYear "2008"^^xsd:gYear ;
+    msh:title "Slumdog Millionaire" .
+
+msh:Film_terms_of_endearment_1983 a msh:Film ;
+    msh:releaseYear "1983"^^xsd:gYear ;
+    msh:title "Terms of Endearment" .
+
+msh:Film_the_apartment_1960 a msh:Film ;
+    msh:releaseYear "1960"^^xsd:gYear ;
+    msh:title "The Apartment" .
+
+msh:Film_the_artist_2011 a msh:Film ;
+    msh:releaseYear "2011"^^xsd:gYear ;
+    msh:title "The Artist" .
+
+msh:Film_the_bridge_on_the_river_kwai_1957 a msh:Film ;
+    msh:releaseYear "1957"^^xsd:gYear ;
+    msh:title "The Bridge on the River Kwai" .
+
+msh:Film_the_color_purple_1984 a msh:Film ;
+    msh:releaseYear "1984"^^xsd:gYear ;
+    msh:title "The Color Purple" .
+
+msh:Film_the_deer_hunter_1978 a msh:Film ;
+    msh:releaseYear "1978"^^xsd:gYear ;
+    msh:title "The Deer Hunter" .
+
+msh:Film_the_departed_2006 a msh:Film ;
+    msh:releaseYear "2006"^^xsd:gYear ;
+    msh:title "The Departed" .
+
+msh:Film_the_english_patient_1996 a msh:Film ;
+    msh:releaseYear "1996"^^xsd:gYear ;
+    msh:title "The English Patient" .
+
+msh:Film_the_french_connection_1971 a msh:Film ;
+    msh:releaseYear "1971"^^xsd:gYear ;
+    msh:title "The French Connection" .
+
+msh:Film_the_godfather_1972 a msh:Film ;
+    msh:releaseYear "1972"^^xsd:gYear ;
+    msh:title "The Godfather" .
+
+msh:Film_the_godfather_part_ii_1974 a msh:Film ;
+    msh:releaseYear "1974"^^xsd:gYear ;
+    msh:title "The Godfather Part II" .
+
+msh:Film_the_graduate_1967 a msh:Film ;
+    msh:releaseYear "1967"^^xsd:gYear ;
+    msh:title "The Graduate" .
+
+msh:Film_the_hurt_locker_2009 a msh:Film ;
+    msh:releaseYear "2009"^^xsd:gYear ;
+    msh:title "The Hurt Locker" .
+
+msh:Film_the_king_s_speech_2010 a msh:Film ;
+    msh:releaseYear "2010"^^xsd:gYear ;
+    msh:title "The King's Speech" .
+
+msh:Film_the_last_emperor_1987 a msh:Film ;
+    msh:releaseYear "1987"^^xsd:gYear ;
+    msh:title "The Last Emperor" .
+
+msh:Film_the_lion_in_winter_1968 a msh:Film ;
+    msh:releaseYear "1968"^^xsd:gYear ;
+    msh:title "The Lion in Winter" .
+
+msh:Film_the_lord_of_the_rings_the_return_of_the_king_2003 a msh:Film ;
+    msh:releaseYear "2003"^^xsd:gYear ;
+    msh:title "The Lord of the Rings: The Return of the King" .
+
+msh:Film_the_power_of_the_dog_2021 a msh:Film ;
+    msh:releaseYear "2021"^^xsd:gYear ;
+    msh:title "The Power of the Dog" .
+
+msh:Film_the_quiet_man_1952 a msh:Film ;
+    msh:releaseYear "1952"^^xsd:gYear ;
+    msh:title "The Quiet Man" .
+
+msh:Film_the_revenant_2015 a msh:Film ;
+    msh:releaseYear "2015"^^xsd:gYear ;
+    msh:title "The Revenant" .
+
+msh:Film_the_shape_of_water_2017 a msh:Film ;
+    msh:releaseYear "2017"^^xsd:gYear ;
+    msh:title "The Shape of Water" .
+
+msh:Film_the_silence_of_the_lambs_1991 a msh:Film ;
+    msh:releaseYear "1991"^^xsd:gYear ;
+    msh:title "The Silence of the Lambs" .
+
+msh:Film_the_sound_of_music_1965 a msh:Film ;
+    msh:releaseYear "1965"^^xsd:gYear ;
+    msh:title "The Sound of Music" .
+
+msh:Film_the_sting_1973 a msh:Film ;
+    msh:releaseYear "1973"^^xsd:gYear ;
+    msh:title "The Sting" .
+
+msh:Film_titanic_1996 a msh:Film ;
+    msh:releaseYear "1996"^^xsd:gYear ;
+    msh:title "Titanic" .
+
+msh:Film_tom_jones_1963 a msh:Film ;
+    msh:releaseYear "1963"^^xsd:gYear ;
+    msh:title "Tom Jones" .
+
+msh:Film_unforgiven_1992 a msh:Film ;
+    msh:releaseYear "1992"^^xsd:gYear ;
+    msh:title "Unforgiven" .
+
+msh:Film_west_side_story_1960 a msh:Film ;
+    msh:releaseYear "1960"^^xsd:gYear ;
+    msh:title "West Side Story" .
+
+msh:Person_anthony_harvey a msh:Person ;
+    msh:fullName "Anthony Harvey" .
+
+msh:Person_anthony_minghella a msh:Person ;
+    msh:fullName "Anthony Minghella" .
+
+msh:Person_barry_levinson a msh:Person ;
+    msh:fullName "Barry Levinson" .
+
+msh:Person_ben_affleck a msh:Person ;
+    msh:fullName "Ben Affleck" .
+
+msh:Person_bernardo_bertolucci a msh:Person ;
+    msh:fullName "Bernardo Bertolucci" .
+
+msh:Person_billy_wilder a msh:Person ;
+    msh:fullName "Billy Wilder" .
+
+msh:Person_chlo_zhao a msh:Person ;
+    msh:fullName "Chloé Zhao" .
+
+msh:Person_christopher_nolan a msh:Person ;
+    msh:fullName "Christopher Nolan" .
+
+msh:Person_damien_chazelle a msh:Person ;
+    msh:fullName "Damien Chazelle" .
+
+msh:Person_daniel_kwan a msh:Person ;
+    msh:fullName "Daniel Kwan" .
+
+msh:Person_daniel_scheinert a msh:Person ;
+    msh:fullName "Daniel Scheinert" .
+
+msh:Person_danny_boyle a msh:Person ;
+    msh:fullName "Danny Boyle" .
+
+msh:Person_delbert_mann a msh:Person ;
+    msh:fullName "Delbert Mann" .
+
+msh:Person_elia_kazan a msh:Person ;
+    msh:fullName "Elia Kazan" .
+
+msh:Person_ethan_coen a msh:Person ;
+    msh:fullName "Ethan Coen" .
+
+msh:Person_franklin_j_schaffner a msh:Person ;
+    msh:fullName "Franklin J. Schaffner" .
+
+msh:Person_george_cukor a msh:Person ;
+    msh:fullName "George Cukor" .
+
+msh:Person_george_roy_hill a msh:Person ;
+    msh:fullName "George Roy Hill" .
+
+msh:Person_guillermo_del_toro a msh:Person ;
+    msh:fullName "Guillermo del Toro" .
+
+msh:Person_james_cameron a msh:Person ;
+    msh:fullName "James Cameron" .
+
+msh:Person_james_l_brooks a msh:Person ;
+    msh:fullName "James L. Brooks" .
+
+msh:Person_jane_campion a msh:Person ;
+    msh:fullName "Jane Campion" .
+
+msh:Person_jerome_robbins a msh:Person ;
+    msh:fullName "Jerome Robbins" .
+
+msh:Person_joel_coen a msh:Person ;
+    msh:fullName "Joel Coen" .
+
+msh:Person_john_ford a msh:Person ;
+    msh:fullName "John Ford" .
+
+msh:Person_john_g_avildsen a msh:Person ;
+    msh:fullName "John G. Avildsen" .
+
+msh:Person_john_schlesinger a msh:Person ;
+    msh:fullName "John Schlesinger" .
+
+msh:Person_jonathan_demme a msh:Person ;
+    msh:fullName "Jonathan Demme" .
+
+msh:Person_kathryn_bigelow a msh:Person ;
+    msh:fullName "Kathryn Bigelow" .
+
+msh:Person_kevin_costner a msh:Person ;
+    msh:fullName "Kevin Costner" .
+
+msh:Person_martin_scorsese a msh:Person ;
+    msh:fullName "Martin Scorsese" .
+
+msh:Person_michael_cimino a msh:Person ;
+    msh:fullName "Michael Cimino" .
+
+msh:Person_michel_hazanavicius a msh:Person ;
+    msh:fullName "Michel Hazanavicius" .
+
+msh:Person_mike_nichols a msh:Person ;
+    msh:fullName "Mike Nichols" .
+
+msh:Person_paul_thomas_anderson a msh:Person ;
+    msh:fullName "Paul Thomas Anderson" .
+
+msh:Person_peter_jackson a msh:Person ;
+    msh:fullName "Peter Jackson" .
+
+msh:Person_richard_attenborough a msh:Person ;
+    msh:fullName "Richard Attenborough" .
+
+msh:Person_rob_marshall a msh:Person ;
+    msh:fullName "Rob Marshall" .
+
+msh:Person_robert_benton a msh:Person ;
+    msh:fullName "Robert Benton" .
+
+msh:Person_robert_redford a msh:Person ;
+    msh:fullName "Robert Redford" .
+
+msh:Person_robert_rossen a msh:Person ;
+    msh:fullName "Robert Rossen" .
+
+msh:Person_robert_zemeckis a msh:Person ;
+    msh:fullName "Robert Zemeckis" .
+
+msh:Person_sean_baker a msh:Person ;
+    msh:fullName "Sean Baker" .
+
+msh:Person_tom_hooper a msh:Person ;
+    msh:fullName "Tom Hooper" .
+
+msh:Person_tony_richardson a msh:Person ;
+    msh:fullName "Tony Richardson" .
+
+msh:Person_vincente_minnelli a msh:Person ;
+    msh:fullName "Vincente Minnelli" .
+
+msh:Person_warren_beatty a msh:Person ;
+    msh:fullName "Warren Beatty" .
+
+msh:Person_william_friedkin a msh:Person ;
+    msh:fullName "William Friedkin" .
+
+msh:Person_william_wyler a msh:Person ;
+    msh:fullName "William Wyler" .
+
+msh:Person_woody_allen a msh:Person ;
+    msh:fullName "Woody Allen" .
+
+msh:Person_alejandro_g_i_rritu a msh:Person ;
+    msh:fullName "Alejandro G. Iñárritu" .
+
+msh:Person_alfonso_cuar_n a msh:Person ;
+    msh:fullName "Alfonso Cuarón" .
+
+msh:Person_ang_lee a msh:Person ;
+    msh:fullName "Ang Lee" .
+
+msh:Person_clint_eastwood a msh:Person ;
+    msh:fullName "Clint Eastwood" .
+
+msh:Person_david_lean a msh:Person ;
+    msh:fullName "David Lean" .
+
+msh:Person_francis_ford_coppola a msh:Person ;
+    msh:fullName "Francis Ford Coppola" .
+
+msh:Person_fred_zinnemann a msh:Person ;
+    msh:fullName "Fred Zinnemann" .
+
+msh:Person_george_stevens a msh:Person ;
+    msh:fullName "George Stevens" .
+
+msh:Person_joseph_l_mankiewicz a msh:Person ;
+    msh:fullName "Joseph L. Mankiewicz" .
+
+msh:Person_milo_forman a msh:Person ;
+    msh:fullName "Miloš Forman" .
+
+msh:Person_oliver_stone a msh:Person ;
+    msh:fullName "Oliver Stone" .
+
+msh:Person_robert_wise a msh:Person ;
+    msh:fullName "Robert Wise" .
+
+msh:Person_ron_howard a msh:Person ;
+    msh:fullName "Ron Howard" .
+
+msh:Person_sam_mendes a msh:Person ;
+    msh:fullName "Sam Mendes" .
+
+msh:Person_steven_spielberg a msh:Person ;
+    msh:fullName "Steven Spielberg" .
+
+msh:Category_dga_outstanding_directing_feature_film a msh:AwardCategory ;
+    rdfs:label "Outstanding Directing - Feature Film" ;
+    msh:categoryName "Outstanding Directing - Feature Film" ;
+    msh:hasAwardSystem msh:AwardSystem_dga .
+
+msh:AwardSystem_dga a msh:AwardSystem ;
+    rdfs:label "DGA" ;
+    msh:shortName "DGA" ;
+    msh:systemName "DGA" .
+

@@ -1,0 +1,2584 @@
+@prefix msh: <http://example.org/ontologies/MovieSHACL3#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+msh:Nomination_sag_1994_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_forrest_gump_d58dcb09a571 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_1994 ;
+    msh:hasFilm msh:Film_forrest_gump_1994 ;
+    msh:hasNominee msh:Person_tom_hanks ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_1994_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_nobody_s_fool_2ca5787b947f a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_1994 ;
+    msh:hasFilm msh:Film_nobody_s_fool_1994 ;
+    msh:hasNominee msh:Person_paul_newman ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_1994_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_pulp_fiction_b2c2b46f5287 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_1994 ;
+    msh:hasFilm msh:Film_pulp_fiction_1994 ;
+    msh:hasNominee msh:Person_john_travolta ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_1994_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_shawshank_redemption_478186d57eb6 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_1994 ;
+    msh:hasFilm msh:Film_the_shawshank_redemption_1994 ;
+    msh:hasNominee msh:Person_tim_robbins ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_1994_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_shawshank_redemption_6858a36387d6 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_1994 ;
+    msh:hasFilm msh:Film_the_shawshank_redemption_1994 ;
+    msh:hasNominee msh:Person_morgan_freeman ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_1995_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_cry_the_beloved_country_168d985f7563 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_1995 ;
+    msh:hasFilm msh:Film_cry_the_beloved_country_1994 ;
+    msh:hasNominee msh:Person_james_earl_jones ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_1995_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_dead_man_walking_8b952c4495dd a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_1995 ;
+    msh:hasFilm msh:Film_dead_man_walking_1995 ;
+    msh:hasNominee msh:Person_sean_penn ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_1995_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_il_postino_the_postman_65ceaa4116d9 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_1995 ;
+    msh:hasFilm msh:Film_il_postino_the_postman_1994 ;
+    msh:hasNominee msh:Person_massimo_troisi ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_1995_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_leaving_las_vegas_bc91b5104901 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_1995 ;
+    msh:hasFilm msh:Film_leaving_las_vegas_1995 ;
+    msh:hasNominee msh:Person_nicolas_cage ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_1995_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_nixon_a44a79bfdc51 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_1995 ;
+    msh:hasFilm msh:Film_nixon_1995 ;
+    msh:hasNominee msh:Person_anthony_hopkins ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_1996_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_jerry_maguire_fed74ea5a333 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_1996 ;
+    msh:hasFilm msh:Film_jerry_maguire_1996 ;
+    msh:hasNominee msh:Person_tom_cruise ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_1996_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_shine_6bee90334578 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_1996 ;
+    msh:hasFilm msh:Film_shine_1996 ;
+    msh:hasNominee msh:Person_geoffrey_rush ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_1996_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_sling_blade_c59fe14b1cc8 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_1996 ;
+    msh:hasFilm msh:Film_sling_blade_1996 ;
+    msh:hasNominee msh:Person_billy_bob_thornton ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_1996_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_english_patient_46878213ec94 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_1996 ;
+    msh:hasFilm msh:Film_the_english_patient_1996 ;
+    msh:hasNominee msh:Person_ralph_fiennes ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_1996_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_people_vs_larry_flynt_b9a987409f55 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_1996 ;
+    msh:hasFilm msh:Film_the_people_vs_larry_flynt_1996 ;
+    msh:hasNominee msh:Person_woody_harrelson ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_1997_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_as_good_as_it_gets_44eeca2f685e a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_1997 ;
+    msh:hasFilm msh:Film_as_good_as_it_gets_1997 ;
+    msh:hasNominee msh:Person_jack_nicholson ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_1997_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_good_will_hunting_6d322cc3ee40 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_1997 ;
+    msh:hasFilm msh:Film_good_will_hunting_1997 ;
+    msh:hasNominee msh:Person_matt_damon ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_1997_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_apostle_62113b71f253 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_1997 ;
+    msh:hasFilm msh:Film_the_apostle_1997 ;
+    msh:hasNominee msh:Person_robert_duvall ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_1997_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_ulee_s_gold_8f7ae5fe9019 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_1997 ;
+    msh:hasFilm msh:Film_ulee_s_gold_1997 ;
+    msh:hasNominee msh:Person_peter_fonda ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_1997_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_wag_the_dog_64ff38ed4cf8 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_1997 ;
+    msh:hasFilm msh:Film_wag_the_dog_1997 ;
+    msh:hasNominee msh:Person_dustin_hoffman ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_1998_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_affliction_c99b1a31acd5 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_1998 ;
+    msh:hasFilm msh:Film_affliction_1998 ;
+    msh:hasNominee msh:Person_nick_nolte ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_1998_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_gods_and_monsters_9440a730413c a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_1998 ;
+    msh:hasFilm msh:Film_gods_and_monsters_1998 ;
+    msh:hasNominee msh:Person_ian_mckellen ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_1998_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_life_is_beautiful_16dbbf6563e8 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_1998 ;
+    msh:hasFilm msh:Film_life_is_beautiful_1998 ;
+    msh:hasNominee msh:Person_roberto_benigni ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_1998_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_saving_private_ryan_cf595c74ff75 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_1998 ;
+    msh:hasFilm msh:Film_saving_private_ryan_1998 ;
+    msh:hasNominee msh:Person_tom_hanks ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_1998_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_shakespeare_in_love_029977b9ffb7 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_1998 ;
+    msh:hasFilm msh:Film_shakespeare_in_love_1998 ;
+    msh:hasNominee msh:Person_joseph_fiennes ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_1999_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_actor_31c84b3ae1ec a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_1999 ;
+    msh:hasFilm msh:Film_actor_2023 ;
+    msh:hasNominee msh:Person_year ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_1999_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_american_beauty_fb77136965fe a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_1999 ;
+    msh:hasFilm msh:Film_american_beauty_1999 ;
+    msh:hasNominee msh:Person_kevin_spacey ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_1999_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_flawless_5a8e49164c7b a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_1999 ;
+    msh:hasFilm msh:Film_flawless_1998 ;
+    msh:hasNominee msh:Person_philip_seymour_hoffman ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_1999_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_man_on_the_moon_341cc46783b8 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_1999 ;
+    msh:hasFilm msh:Film_man_on_the_moon_1998 ;
+    msh:hasNominee msh:Person_jim_carrey ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_1999_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_hurricane_403190bf19be a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_1999 ;
+    msh:hasFilm msh:Film_the_hurricane_1998 ;
+    msh:hasNominee msh:Person_denzel_washington ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_1999_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_insider_acb94e2319c3 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_1999 ;
+    msh:hasFilm msh:Film_the_insider_1999 ;
+    msh:hasNominee msh:Person_russell_crowe ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2000_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_billy_elliot_21d97d8e76a1 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2000 ;
+    msh:hasFilm msh:Film_billy_elliot_2000 ;
+    msh:hasNominee msh:Person_jamie_bell ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2000_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_gladiator_26f288e02e8b a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2000 ;
+    msh:hasFilm msh:Film_gladiator_2000 ;
+    msh:hasNominee msh:Person_russell_crowe ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2000_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_quills_80dd9ed8b1f6 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2000 ;
+    msh:hasFilm msh:Film_quills_2000 ;
+    msh:hasNominee msh:Person_geoffrey_rush ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2000_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_traffic_fe6ae4709bb3 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2000 ;
+    msh:hasFilm msh:Film_traffic_2000 ;
+    msh:hasNominee msh:Person_benicio_del_toro_won_academy_award_for_best_supporting_actor ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_2001_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_a_beautiful_mind_eddf3ef1b6f7 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2001 ;
+    msh:hasFilm msh:Film_a_beautiful_mind_2001 ;
+    msh:hasNominee msh:Person_russell_crowe ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_2001_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_i_am_sam_faca57a3972f a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2001 ;
+    msh:hasFilm msh:Film_i_am_sam_2001 ;
+    msh:hasNominee msh:Person_sean_penn ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2001_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_in_the_bedroom_c50e4eb3113c a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2001 ;
+    msh:hasFilm msh:Film_in_the_bedroom_2001 ;
+    msh:hasNominee msh:Person_tom_wilkinson ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2001_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_life_as_a_house_91e0ff0f4267 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2001 ;
+    msh:hasFilm msh:Film_life_as_a_house_2000 ;
+    msh:hasNominee msh:Person_kevin_kline ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2001_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_training_day_16a388c0e85d a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2001 ;
+    msh:hasFilm msh:Film_training_day_2001 ;
+    msh:hasNominee msh:Person_denzel_washington ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2002_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_about_schmidt_070aca1ebb0a a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2002 ;
+    msh:hasFilm msh:Film_about_schmidt_2002 ;
+    msh:hasNominee msh:Person_jack_nicholson ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2002_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_adaptation_782f7d8dbd39 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2002 ;
+    msh:hasFilm msh:Film_adaptation_2002 ;
+    msh:hasNominee msh:Person_nicolas_cage ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2002_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_chicago_2da09764cc61 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2002 ;
+    msh:hasFilm msh:Film_chicago_2002 ;
+    msh:hasNominee msh:Person_richard_gere ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2002_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_gangs_of_new_york_91e75a10d248 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2002 ;
+    msh:hasFilm msh:Film_gangs_of_new_york_2002 ;
+    msh:hasNominee msh:Person_daniel_day_lewis ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_2002_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_pianist_e800ff06142a a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2002 ;
+    msh:hasFilm msh:Film_the_pianist_2002 ;
+    msh:hasNominee msh:Person_adrien_brody ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2003_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_house_of_sand_and_fog_f2db9ab34ade a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2003 ;
+    msh:hasFilm msh:Film_house_of_sand_and_fog_2003 ;
+    msh:hasNominee msh:Person_ben_kingsley ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2003_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_lost_in_translation_fc2f1a67bd5e a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2003 ;
+    msh:hasFilm msh:Film_lost_in_translation_2003 ;
+    msh:hasNominee msh:Person_bill_murray ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2003_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_mystic_river_f114d4a69d11 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2003 ;
+    msh:hasFilm msh:Film_mystic_river_2003 ;
+    msh:hasNominee msh:Person_sean_penn ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2003_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_pirates_of_the_caribbean_the_curse_of_the_black_pearl_02ff092cec3b a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2003 ;
+    msh:hasFilm msh:Film_pirates_of_the_caribbean_the_curse_of_the_black_pearl_2003 ;
+    msh:hasNominee msh:Person_johnny_depp ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_2003_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_station_agent_20bc3564709b a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2003 ;
+    msh:hasFilm msh:Film_the_station_agent_2002 ;
+    msh:hasNominee msh:Person_peter_dinklage ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2004_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_finding_neverland_eee46db56fc9 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2004 ;
+    msh:hasFilm msh:Film_finding_neverland_2004 ;
+    msh:hasNominee msh:Person_johnny_depp ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2004_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_hotel_rwanda_0a76ec72e209 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2004 ;
+    msh:hasFilm msh:Film_hotel_rwanda_2004 ;
+    msh:hasNominee msh:Person_don_cheadle ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2004_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_ray_6d2f87a3246e a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2004 ;
+    msh:hasFilm msh:Film_ray_2004 ;
+    msh:hasNominee msh:Person_jamie_foxx ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_2004_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_sideways_c99ade92a2c0 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2004 ;
+    msh:hasFilm msh:Film_sideways_2004 ;
+    msh:hasNominee msh:Person_paul_giamatti ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2004_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_aviator_0feed5a2c305 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2004 ;
+    msh:hasFilm msh:Film_the_aviator_2004 ;
+    msh:hasNominee msh:Person_leonardo_dicaprio ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2005_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_brokeback_mountain_e6755616953a a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2005 ;
+    msh:hasFilm msh:Film_brokeback_mountain_2005 ;
+    msh:hasNominee msh:Person_heath_ledger ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2005_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_capote_8d4c77c3a537 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2005 ;
+    msh:hasFilm msh:Film_capote_2005 ;
+    msh:hasNominee msh:Person_philip_seymour_hoffman ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_2005_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_cinderella_man_bf7a089e9586 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2005 ;
+    msh:hasFilm msh:Film_cinderella_man_2005 ;
+    msh:hasNominee msh:Person_russell_crowe ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2005_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_good_night_and_good_luck_97762036973c a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2005 ;
+    msh:hasFilm msh:Film_good_night_and_good_luck_2005 ;
+    msh:hasNominee msh:Person_david_strathairn ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2005_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_walk_the_line_7c6a7f44f5ac a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2005 ;
+    msh:hasFilm msh:Film_walk_the_line_2005 ;
+    msh:hasNominee msh:Person_joaquin_phoenix ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2006_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_blood_diamond_2de36f9f4049 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2006 ;
+    msh:hasFilm msh:Film_blood_diamond_2006 ;
+    msh:hasNominee msh:Person_leonardo_dicaprio ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2006_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_half_nelson_4101ab97a33e a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2006 ;
+    msh:hasFilm msh:Film_half_nelson_2006 ;
+    msh:hasNominee msh:Person_ryan_gosling ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2006_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_last_king_of_scotland_9ea687d343cf a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2006 ;
+    msh:hasFilm msh:Film_the_last_king_of_scotland_2006 ;
+    msh:hasNominee msh:Person_forest_whitaker ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_2006_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_pursuit_of_happyness_44eda7eda143 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2006 ;
+    msh:hasFilm msh:Film_the_pursuit_of_happyness_2006 ;
+    msh:hasNominee msh:Person_will_smith ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2006_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_venus_6059ac8145e1 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2006 ;
+    msh:hasFilm msh:Film_venus_2006 ;
+    msh:hasNominee msh:Person_peter_o_toole ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2007_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_eastern_promises_007aad38169b a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2007 ;
+    msh:hasFilm msh:Film_eastern_promises_2007 ;
+    msh:hasNominee msh:Person_viggo_mortensen ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2007_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_into_the_wild_422a09095fe5 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2007 ;
+    msh:hasFilm msh:Film_into_the_wild_2007 ;
+    msh:hasNominee msh:Person_emile_hirsch ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2007_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_lars_and_the_real_girl_336302b2bd96 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2007 ;
+    msh:hasFilm msh:Film_lars_and_the_real_girl_2007 ;
+    msh:hasNominee msh:Person_ryan_gosling ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2007_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_michael_clayton_6c4ee6a95ab3 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2007 ;
+    msh:hasFilm msh:Film_michael_clayton_2007 ;
+    msh:hasNominee msh:Person_george_clooney ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2007_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_there_will_be_blood_a92e2aea5b98 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2007 ;
+    msh:hasFilm msh:Film_there_will_be_blood_2007 ;
+    msh:hasNominee msh:Person_daniel_day_lewis ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_2008_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_frost_nixon_25eb0a9f7680 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2008 ;
+    msh:hasFilm msh:Film_frost_nixon_2008 ;
+    msh:hasNominee msh:Person_frank_langella ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2008_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_milk_da06d7ccb6b7 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2008 ;
+    msh:hasFilm msh:Film_milk_2008 ;
+    msh:hasNominee msh:Person_sean_penn ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_2008_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_curious_case_of_benjamin_button_8ab03b640412 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2008 ;
+    msh:hasFilm msh:Film_the_curious_case_of_benjamin_button_2008 ;
+    msh:hasNominee msh:Person_brad_pitt ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2008_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_visitor_26ef82bd5836 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2008 ;
+    msh:hasFilm msh:Film_the_visitor_2008 ;
+    msh:hasNominee msh:Person_richard_jenkins ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2008_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_wrestler_5beffdeae8a4 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2008 ;
+    msh:hasFilm msh:Film_the_wrestler_2008 ;
+    msh:hasNominee msh:Person_mickey_rourke ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2009_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_a_single_man_70b2fdb00644 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2009 ;
+    msh:hasFilm msh:Film_a_single_man_2009 ;
+    msh:hasNominee msh:Person_colin_firth ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2009_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_actor_b601c5e4b8b6 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2009 ;
+    msh:hasFilm msh:Film_actor_2023 ;
+    msh:hasNominee msh:Person_year ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2009_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_crazy_heart_2ef7ac315519 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2009 ;
+    msh:hasFilm msh:Film_crazy_heart_2009 ;
+    msh:hasNominee msh:Person_jeff_bridges ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_2009_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_invictus_b8a12cebd854 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2009 ;
+    msh:hasFilm msh:Film_invictus_2009 ;
+    msh:hasNominee msh:Person_morgan_freeman ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2009_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_hurt_locker_ed6768be090f a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2009 ;
+    msh:hasFilm msh:Film_the_hurt_locker_2009 ;
+    msh:hasNominee msh:Person_jeremy_renner ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2009_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_up_in_the_air_56f8911b2580 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2009 ;
+    msh:hasFilm msh:Film_up_in_the_air_2009 ;
+    msh:hasNominee msh:Person_george_clooney ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2010_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_127_hours_938459432bc4 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2010 ;
+    msh:hasFilm msh:Film_127_hours_2010 ;
+    msh:hasNominee msh:Person_james_franco ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2010_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_get_low_c659da9b6986 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2010 ;
+    msh:hasFilm msh:Film_get_low_2009 ;
+    msh:hasNominee msh:Person_robert_duvall ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2010_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_king_s_speech_523e39c3774a a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2010 ;
+    msh:hasFilm msh:Film_the_king_s_speech_2010 ;
+    msh:hasNominee msh:Person_colin_firth ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_2010_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_social_network_44b4786269ca a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2010 ;
+    msh:hasFilm msh:Film_the_social_network_2010 ;
+    msh:hasNominee msh:Person_jesse_eisenberg ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2010_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_true_grit_a83879abde08 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2010 ;
+    msh:hasFilm msh:Film_true_grit_2009 ;
+    msh:hasNominee msh:Person_jeff_bridges ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2011_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_a_better_life_e93b6bef003d a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2011 ;
+    msh:hasFilm msh:Film_a_better_life_2011 ;
+    msh:hasNominee msh:Person_demi_n_bichir ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2011_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_j_edgar_626661839656 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2011 ;
+    msh:hasFilm msh:Film_j_edgar_2010 ;
+    msh:hasNominee msh:Person_leonardo_dicaprio ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2011_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_moneyball_7eeb6b696ee6 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2011 ;
+    msh:hasFilm msh:Film_moneyball_2011 ;
+    msh:hasNominee msh:Person_brad_pitt ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2011_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_artist_fa2d639d0724 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2011 ;
+    msh:hasFilm msh:Film_the_artist_2011 ;
+    msh:hasNominee msh:Person_jean_dujardin ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_2011_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_descendants_b848aad3eeeb a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2011 ;
+    msh:hasFilm msh:Film_the_descendants_2011 ;
+    msh:hasNominee msh:Person_george_clooney ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2012_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_flight_29218d6bb2ac a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2012 ;
+    msh:hasFilm msh:Film_flight_2012 ;
+    msh:hasNominee msh:Person_denzel_washington ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2012_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_les_mis_rables_1258ea512f90 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2012 ;
+    msh:hasFilm msh:Film_les_mis_rables_2012 ;
+    msh:hasNominee msh:Person_hugh_jackman ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2012_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_lincoln_df13ca3f6426 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2012 ;
+    msh:hasFilm msh:Film_lincoln_2012 ;
+    msh:hasNominee msh:Person_daniel_day_lewis ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_2012_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_silver_linings_playbook_8b7aa3f37d9e a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2012 ;
+    msh:hasFilm msh:Film_silver_linings_playbook_2012 ;
+    msh:hasNominee msh:Person_bradley_cooper ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2012_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_sessions_fa00f3c5da1f a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2012 ;
+    msh:hasFilm msh:Film_the_sessions_2012 ;
+    msh:hasNominee msh:Person_john_hawkes ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2013_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_12_years_a_slave_dea7b2d2189c a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2013 ;
+    msh:hasFilm msh:Film_12_years_a_slave_2013 ;
+    msh:hasNominee msh:Person_chiwetel_ejiofor ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2013_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_captain_phillips_160b5ffeafa2 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2013 ;
+    msh:hasFilm msh:Film_captain_phillips_2013 ;
+    msh:hasNominee msh:Person_tom_hanks ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2013_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_dallas_buyers_club_58e85bad4b5f a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2013 ;
+    msh:hasFilm msh:Film_dallas_buyers_club_2013 ;
+    msh:hasNominee msh:Person_matthew_mcconaughey ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_2013_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_nebraska_4e8935cef7b0 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2013 ;
+    msh:hasFilm msh:Film_nebraska_2013 ;
+    msh:hasNominee msh:Person_bruce_dern ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2013_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_butler_0af057aafd7b a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2013 ;
+    msh:hasFilm msh:Film_the_butler_2012 ;
+    msh:hasNominee msh:Person_forest_whitaker ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2014_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_birdman_1b16622d0f5f a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2014 ;
+    msh:hasFilm msh:Film_birdman_2013 ;
+    msh:hasNominee msh:Person_michael_keaton ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2014_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_foxcatcher_a6c4c22db41d a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2014 ;
+    msh:hasFilm msh:Film_foxcatcher_2014 ;
+    msh:hasNominee msh:Person_steve_carell ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2014_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_nightcrawler_ed7dfd812808 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2014 ;
+    msh:hasFilm msh:Film_nightcrawler_2014 ;
+    msh:hasNominee msh:Person_jake_gyllenhaal ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2014_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_imitation_game_e95a562fd900 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2014 ;
+    msh:hasFilm msh:Film_the_imitation_game_2014 ;
+    msh:hasNominee msh:Person_benedict_cumberbatch ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2014_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_theory_of_everything_17b652ed8289 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2014 ;
+    msh:hasFilm msh:Film_the_theory_of_everything_2014 ;
+    msh:hasNominee msh:Person_eddie_redmayne ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_2015_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_black_mass_71a5fe11485e a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2015 ;
+    msh:hasFilm msh:Film_black_mass_2014 ;
+    msh:hasNominee msh:Person_johnny_depp ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2015_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_steve_jobs_84dc5dc239d8 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2015 ;
+    msh:hasFilm msh:Film_steve_jobs_2015 ;
+    msh:hasNominee msh:Person_michael_fassbender ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2015_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_danish_girl_7fb884368844 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2015 ;
+    msh:hasFilm msh:Film_the_danish_girl_2015 ;
+    msh:hasNominee msh:Person_eddie_redmayne ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2015_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_revenant_543b5dac78f5 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2015 ;
+    msh:hasFilm msh:Film_the_revenant_2015 ;
+    msh:hasNominee msh:Person_leonardo_dicaprio ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_2015_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_trumbo_aaf21bea9f7e a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2015 ;
+    msh:hasFilm msh:Film_trumbo_2015 ;
+    msh:hasNominee msh:Person_bryan_cranston ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2016_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_captain_fantastic_8a92a45609d1 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2016 ;
+    msh:hasFilm msh:Film_captain_fantastic_2016 ;
+    msh:hasNominee msh:Person_viggo_mortensen ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2016_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_fences_09a47672bba9 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2016 ;
+    msh:hasFilm msh:Film_fences_2016 ;
+    msh:hasNominee msh:Person_denzel_washington ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_2016_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_hacksaw_ridge_f9639347aaef a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2016 ;
+    msh:hasFilm msh:Film_hacksaw_ridge_2016 ;
+    msh:hasNominee msh:Person_andrew_garfield ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2016_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_la_la_land_3b91059108fe a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2016 ;
+    msh:hasFilm msh:Film_la_la_land_2016 ;
+    msh:hasNominee msh:Person_ryan_gosling ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2016_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_manchester_by_the_sea_3b5e77faf357 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2016 ;
+    msh:hasFilm msh:Film_manchester_by_the_sea_2016 ;
+    msh:hasNominee msh:Person_casey_affleck ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2017_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_call_me_by_your_name_99a3a713aeba a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2017 ;
+    msh:hasFilm msh:Film_call_me_by_your_name_2017 ;
+    msh:hasNominee msh:Person_timoth_e_chalamet ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2017_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_darkest_hour_af6ebfe7fde5 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2017 ;
+    msh:hasFilm msh:Film_darkest_hour_2017 ;
+    msh:hasNominee msh:Person_gary_oldman ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_2017_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_get_out_0bff81e4c0e3 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2017 ;
+    msh:hasFilm msh:Film_get_out_2017 ;
+    msh:hasNominee msh:Person_daniel_kaluuya ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2017_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_roman_j_israel_esq_37d1b49c8f2f a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2017 ;
+    msh:hasFilm msh:Film_roman_j_israel_esq_2017 ;
+    msh:hasNominee msh:Person_denzel_washington ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2017_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_disaster_artist_3ebcb8588b18 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2017 ;
+    msh:hasFilm msh:Film_the_disaster_artist_2017 ;
+    msh:hasNominee msh:Person_james_franco ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2018_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_a_star_is_born_81b1dc335733 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2018 ;
+    msh:hasFilm msh:Film_a_star_is_born_2017 ;
+    msh:hasNominee msh:Person_bradley_cooper ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2018_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_blackkklansman_ac33f1d282ac a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2018 ;
+    msh:hasFilm msh:Film_blackkklansman_2018 ;
+    msh:hasNominee msh:Person_john_david_washington ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2018_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_bohemian_rhapsody_03b1c2ac32ae a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2018 ;
+    msh:hasFilm msh:Film_bohemian_rhapsody_2018 ;
+    msh:hasNominee msh:Person_rami_malek ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_2018_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_green_book_b511e5f8420b a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2018 ;
+    msh:hasFilm msh:Film_green_book_2018 ;
+    msh:hasNominee msh:Person_viggo_mortensen ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2018_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_vice_b6ef907bc3e5 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2018 ;
+    msh:hasFilm msh:Film_vice_2018 ;
+    msh:hasNominee msh:Person_christian_bale ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2019_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_actor_c6f60a006219 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2019 ;
+    msh:hasFilm msh:Film_actor_2023 ;
+    msh:hasNominee msh:Person_year ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2019_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_ford_v_ferrari_2f4aedcb4884 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2019 ;
+    msh:hasFilm msh:Film_ford_v_ferrari_2019 ;
+    msh:hasNominee msh:Person_christian_bale ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2019_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_joker_63fc1091980a a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2019 ;
+    msh:hasFilm msh:Film_joker_2019 ;
+    msh:hasNominee msh:Person_joaquin_phoenix ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_2019_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_marriage_story_bf639d38bce3 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2019 ;
+    msh:hasFilm msh:Film_marriage_story_2019 ;
+    msh:hasNominee msh:Person_adam_driver ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2019_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_once_upon_a_time_in_hollywood_63e9c3b98d4e a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2019 ;
+    msh:hasFilm msh:Film_once_upon_a_time_in_hollywood_2019 ;
+    msh:hasNominee msh:Person_leonardo_dicaprio ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2019_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_rocketman_21305f9a5d24 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2019 ;
+    msh:hasFilm msh:Film_rocketman_2019 ;
+    msh:hasNominee msh:Person_taron_egerton ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2020_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_ma_rainey_s_black_bottom_c0263c4c56e2 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2020 ;
+    msh:hasFilm msh:Film_ma_rainey_s_black_bottom_2020 ;
+    msh:hasNominee msh:Person_chadwick_boseman ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_2020_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_mank_5aab3e80eeac a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2020 ;
+    msh:hasFilm msh:Film_mank_2020 ;
+    msh:hasNominee msh:Person_gary_oldman ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2020_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_minari_fd1cf0cb921c a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2020 ;
+    msh:hasFilm msh:Film_minari_2020 ;
+    msh:hasNominee msh:Person_steven_yeun ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2020_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_sound_of_metal_cefc439b4cc9 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2020 ;
+    msh:hasFilm msh:Film_sound_of_metal_2020 ;
+    msh:hasNominee msh:Person_riz_ahmed ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2020_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_father_cbf2d59a85b4 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2020 ;
+    msh:hasFilm msh:Film_the_father_2020 ;
+    msh:hasNominee msh:Person_anthony_hopkins ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2021_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_being_the_ricardos_21d16aa20ffd a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2021 ;
+    msh:hasFilm msh:Film_being_the_ricardos_2021 ;
+    msh:hasNominee msh:Person_javier_bardem ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2021_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_king_richard_b3e3c1511b7c a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2021 ;
+    msh:hasFilm msh:Film_king_richard_2021 ;
+    msh:hasNominee msh:Person_will_smith ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_2021_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_power_of_the_dog_29c2b8b0cb44 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2021 ;
+    msh:hasFilm msh:Film_the_power_of_the_dog_2021 ;
+    msh:hasNominee msh:Person_benedict_cumberbatch ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2021_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_tragedy_of_macbeth_375683980ef4 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2021 ;
+    msh:hasFilm msh:Film_the_tragedy_of_macbeth_2021 ;
+    msh:hasNominee msh:Person_denzel_washington ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2021_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_tick_tick_boom_292b21e4b31b a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2021 ;
+    msh:hasFilm msh:Film_tick_tick_boom_2021 ;
+    msh:hasNominee msh:Person_andrew_garfield ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2022_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_elvis_5a4f2c94b647 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2022 ;
+    msh:hasFilm msh:Film_elvis_2022 ;
+    msh:hasNominee msh:Person_austin_butler ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2022_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_hustle_e823db130130 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2022 ;
+    msh:hasFilm msh:Film_hustle_2021 ;
+    msh:hasNominee msh:Person_adam_sandler ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2022_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_living_71b9be83264b a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2022 ;
+    msh:hasFilm msh:Film_living_2022 ;
+    msh:hasNominee msh:Person_bill_nighy ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2022_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_banshees_of_inisherin_b939b0bd4360 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2022 ;
+    msh:hasFilm msh:Film_the_banshees_of_inisherin_2022 ;
+    msh:hasNominee msh:Person_colin_farrell ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2022_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_whale_e105dd96a81e a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2022 ;
+    msh:hasFilm msh:Film_the_whale_2022 ;
+    msh:hasNominee msh:Person_brendan_fraser ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_2023_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_american_fiction_34b6ed36e0d6 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2023 ;
+    msh:hasFilm msh:Film_american_fiction_2023 ;
+    msh:hasNominee msh:Person_jeffrey_wright ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2023_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_maestro_6fa289c2f236 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2023 ;
+    msh:hasFilm msh:Film_maestro_2022 ;
+    msh:hasNominee msh:Person_bradley_cooper ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2023_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_oppenheimer_0129d55ef2d3 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2023 ;
+    msh:hasFilm msh:Film_oppenheimer_2023 ;
+    msh:hasNominee msh:Person_cillian_murphy ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_2023_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_rustin_4824b5e5c8b5 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2023 ;
+    msh:hasFilm msh:Film_rustin_2023 ;
+    msh:hasNominee msh:Person_colman_domingo ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2023_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_holdovers_20e93f4dc8c0 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2023 ;
+    msh:hasFilm msh:Film_the_holdovers_2023 ;
+    msh:hasNominee msh:Person_paul_giamatti ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2024_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_a_complete_unknown_562068eb0152 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2024 ;
+    msh:hasFilm msh:Film_a_complete_unknown_2024 ;
+    msh:hasNominee msh:Person_timoth_e_chalamet ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_2024_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_actor_b928733a8f7f a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2024 ;
+    msh:hasFilm msh:Film_actor_2023 ;
+    msh:hasNominee msh:Person_year ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2024_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_conclave_b21205006073 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2024 ;
+    msh:hasFilm msh:Film_conclave_2024 ;
+    msh:hasNominee msh:Person_ralph_fiennes ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2024_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_indicates_a_posthumous_nominee_77ef015da262 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2024 ;
+    msh:hasFilm msh:Film_indicates_a_posthumous_nominee_2023 ;
+    msh:hasNominee msh:Person_unknown ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_2024_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_indicates_a_posthumous_winner_156462db36c7 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2024 ;
+    msh:hasFilm msh:Film_indicates_a_posthumous_winner_2023 ;
+    msh:hasNominee msh:Person_unknown ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_2024_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_indicates_the_academy_award_winner_eced3898ef3f a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2024 ;
+    msh:hasFilm msh:Film_indicates_the_academy_award_winner_2023 ;
+    msh:hasNominee msh:Person_unknown ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_2024_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_queer_39b39b942bae a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2024 ;
+    msh:hasFilm msh:Film_queer_2023 ;
+    msh:hasNominee msh:Person_daniel_craig ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2024_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_sing_sing_1470912e7089 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2024 ;
+    msh:hasFilm msh:Film_sing_sing_2024 ;
+    msh:hasNominee msh:Person_colman_domingo ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2024_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_brutalist_534a9f1cc4f3 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2024 ;
+    msh:hasFilm msh:Film_the_brutalist_2024 ;
+    msh:hasNominee msh:Person_adrien_brody ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2024_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_timoth_e_chalamet_for_a_complete_unknown_2024_890bfa50689c a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2024 ;
+    msh:hasFilm msh:Film_timoth_e_chalamet_for_a_complete_unknown_2024_2023 ;
+    msh:hasNominee msh:Person_currently_held_by ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_anthony_hopkins_the_father_2021_a62d0d8dcc1e a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2025 ;
+    msh:hasFilm msh:Film_anthony_hopkins_the_father_2021_2024 ;
+    msh:hasNominee msh:Person_oldest_nominee ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_blue_moon_5f1f2e67deaa a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2025 ;
+    msh:hasFilm msh:Film_blue_moon_2025 ;
+    msh:hasNominee msh:Person_ethan_hawke ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_bugonia_fdde65894488 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2025 ;
+    msh:hasFilm msh:Film_bugonia_2025 ;
+    msh:hasNominee msh:Person_jesse_plemons ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_daniel_day_lewis_95521b31443e a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2025 ;
+    msh:hasFilm msh:Film_daniel_day_lewis_2024 ;
+    msh:hasNominee msh:Person_actor_with_most_awards ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_denzel_washington_fences_2017_ddc9b8b23c19 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2025 ;
+    msh:hasFilm msh:Film_denzel_washington_fences_2017_2024 ;
+    msh:hasNominee msh:Person_oldest_winner ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_george_clooney_bradley_cooper_ryan_gosling_viggo_mortensen_f5a5d702281a a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2025 ;
+    msh:hasFilm msh:Film_george_clooney_bradley_cooper_ryan_gosling_viggo_mortensen_2024 ;
+    msh:hasNominee msh:Person_actor_with_most_nominations_without_ever_winning ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_leading_actor_98c6ea629c77 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2025 ;
+    msh:hasFilm msh:Film_leading_actor_2024 ;
+    msh:hasNominee msh:Person_superlative ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_leonardo_dicaprio_denzel_washington_3eaf3894b249 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2025 ;
+    msh:hasFilm msh:Film_leonardo_dicaprio_denzel_washington_2024 ;
+    msh:hasNominee msh:Person_actor_with_most_nominations ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_marty_supreme_0c7f6994fc95 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2025 ;
+    msh:hasFilm msh:Film_marty_supreme_2025 ;
+    msh:hasNominee msh:Person_timoth_e_chalamet ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_one_battle_after_another_22ffbbc14fbf a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2025 ;
+    msh:hasFilm msh:Film_one_battle_after_another_2025 ;
+    msh:hasNominee msh:Person_leonardo_dicaprio ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_sinners_90dc574d3ff9 a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2025 ;
+    msh:hasFilm msh:Film_sinners_2025 ;
+    msh:hasNominee msh:Person_michael_b_jordan ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false .
+
+msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_shawshank_redemption_08bd7935ddea a msh:Nomination ;
+    msh:hasCategory msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role ;
+    msh:hasCeremony msh:Ceremony_sag_2025 ;
+    msh:hasFilm msh:Film_the_shawshank_redemption_1994 ;
+    msh:hasNominee msh:Person_film_with_most_nominations ;
+    msh:nomineeType "PERSON" ;
+    msh:winner true .
+
+msh:Film_127_hours_2010 a msh:Film ;
+    msh:releaseYear "2010"^^xsd:gYear ;
+    msh:title "127 Hours" .
+
+msh:Film_12_years_a_slave_2013 a msh:Film ;
+    msh:releaseYear "2013"^^xsd:gYear ;
+    msh:title "12 Years a Slave" .
+
+msh:Film_a_beautiful_mind_2001 a msh:Film ;
+    msh:releaseYear "2001"^^xsd:gYear ;
+    msh:title "A Beautiful Mind" .
+
+msh:Film_a_better_life_2011 a msh:Film ;
+    msh:releaseYear "2011"^^xsd:gYear ;
+    msh:title "A Better Life" .
+
+msh:Film_a_complete_unknown_2024 a msh:Film ;
+    msh:releaseYear "2024"^^xsd:gYear ;
+    msh:title "A Complete Unknown" .
+
+msh:Film_a_single_man_2009 a msh:Film ;
+    msh:releaseYear "2009"^^xsd:gYear ;
+    msh:title "A Single Man" .
+
+msh:Film_a_star_is_born_2017 a msh:Film ;
+    msh:releaseYear "2017"^^xsd:gYear ;
+    msh:title "A Star Is Born" .
+
+msh:Film_about_schmidt_2002 a msh:Film ;
+    msh:releaseYear "2002"^^xsd:gYear ;
+    msh:title "About Schmidt" .
+
+msh:Film_adaptation_2002 a msh:Film ;
+    msh:releaseYear "2002"^^xsd:gYear ;
+    msh:title "Adaptation." .
+
+msh:Film_affliction_1998 a msh:Film ;
+    msh:releaseYear "1998"^^xsd:gYear ;
+    msh:title "Affliction" .
+
+msh:Film_american_beauty_1999 a msh:Film ;
+    msh:releaseYear "1999"^^xsd:gYear ;
+    msh:title "American Beauty" .
+
+msh:Film_american_fiction_2023 a msh:Film ;
+    msh:releaseYear "2023"^^xsd:gYear ;
+    msh:title "American Fiction" .
+
+msh:Film_anthony_hopkins_the_father_2021_2024 a msh:Film ;
+    msh:releaseYear "2024"^^xsd:gYear ;
+    msh:title "Anthony Hopkins ( The Father , 2021)" .
+
+msh:Film_as_good_as_it_gets_1997 a msh:Film ;
+    msh:releaseYear "1997"^^xsd:gYear ;
+    msh:title "As Good as It Gets" .
+
+msh:Film_being_the_ricardos_2021 a msh:Film ;
+    msh:releaseYear "2021"^^xsd:gYear ;
+    msh:title "Being the Ricardos" .
+
+msh:Film_billy_elliot_2000 a msh:Film ;
+    msh:releaseYear "2000"^^xsd:gYear ;
+    msh:title "Billy Elliot" .
+
+msh:Film_birdman_2013 a msh:Film ;
+    msh:releaseYear "2013"^^xsd:gYear ;
+    msh:title "Birdman" .
+
+msh:Film_black_mass_2014 a msh:Film ;
+    msh:releaseYear "2014"^^xsd:gYear ;
+    msh:title "Black Mass" .
+
+msh:Film_blackkklansman_2018 a msh:Film ;
+    msh:releaseYear "2018"^^xsd:gYear ;
+    msh:title "BlacKkKlansman" .
+
+msh:Film_blood_diamond_2006 a msh:Film ;
+    msh:releaseYear "2006"^^xsd:gYear ;
+    msh:title "Blood Diamond" .
+
+msh:Film_blue_moon_2025 a msh:Film ;
+    msh:releaseYear "2025"^^xsd:gYear ;
+    msh:title "Blue Moon" .
+
+msh:Film_bohemian_rhapsody_2018 a msh:Film ;
+    msh:releaseYear "2018"^^xsd:gYear ;
+    msh:title "Bohemian Rhapsody" .
+
+msh:Film_brokeback_mountain_2005 a msh:Film ;
+    msh:releaseYear "2005"^^xsd:gYear ;
+    msh:title "Brokeback Mountain" .
+
+msh:Film_bugonia_2025 a msh:Film ;
+    msh:releaseYear "2025"^^xsd:gYear ;
+    msh:title "Bugonia" .
+
+msh:Film_call_me_by_your_name_2017 a msh:Film ;
+    msh:releaseYear "2017"^^xsd:gYear ;
+    msh:title "Call Me by Your Name" .
+
+msh:Film_capote_2005 a msh:Film ;
+    msh:releaseYear "2005"^^xsd:gYear ;
+    msh:title "Capote" .
+
+msh:Film_captain_fantastic_2016 a msh:Film ;
+    msh:releaseYear "2016"^^xsd:gYear ;
+    msh:title "Captain Fantastic" .
+
+msh:Film_captain_phillips_2013 a msh:Film ;
+    msh:releaseYear "2013"^^xsd:gYear ;
+    msh:title "Captain Phillips" .
+
+msh:Film_chicago_2002 a msh:Film ;
+    msh:releaseYear "2002"^^xsd:gYear ;
+    msh:title "Chicago" .
+
+msh:Film_cinderella_man_2005 a msh:Film ;
+    msh:releaseYear "2005"^^xsd:gYear ;
+    msh:title "Cinderella Man" .
+
+msh:Film_conclave_2024 a msh:Film ;
+    msh:releaseYear "2024"^^xsd:gYear ;
+    msh:title "Conclave" .
+
+msh:Film_crazy_heart_2009 a msh:Film ;
+    msh:releaseYear "2009"^^xsd:gYear ;
+    msh:title "Crazy Heart" .
+
+msh:Film_cry_the_beloved_country_1994 a msh:Film ;
+    msh:releaseYear "1994"^^xsd:gYear ;
+    msh:title "Cry, the Beloved Country" .
+
+msh:Film_dallas_buyers_club_2013 a msh:Film ;
+    msh:releaseYear "2013"^^xsd:gYear ;
+    msh:title "Dallas Buyers Club" .
+
+msh:Film_daniel_day_lewis_2024 a msh:Film ;
+    msh:releaseYear "2024"^^xsd:gYear ;
+    msh:title "Daniel Day-Lewis" .
+
+msh:Film_darkest_hour_2017 a msh:Film ;
+    msh:releaseYear "2017"^^xsd:gYear ;
+    msh:title "Darkest Hour" .
+
+msh:Film_dead_man_walking_1995 a msh:Film ;
+    msh:releaseYear "1995"^^xsd:gYear ;
+    msh:title "Dead Man Walking" .
+
+msh:Film_denzel_washington_fences_2017_2024 a msh:Film ;
+    msh:releaseYear "2024"^^xsd:gYear ;
+    msh:title "Denzel Washington ( Fences , 2017)" .
+
+msh:Film_eastern_promises_2007 a msh:Film ;
+    msh:releaseYear "2007"^^xsd:gYear ;
+    msh:title "Eastern Promises" .
+
+msh:Film_elvis_2022 a msh:Film ;
+    msh:releaseYear "2022"^^xsd:gYear ;
+    msh:title "Elvis" .
+
+msh:Film_fences_2016 a msh:Film ;
+    msh:releaseYear "2016"^^xsd:gYear ;
+    msh:title "Fences" .
+
+msh:Film_finding_neverland_2004 a msh:Film ;
+    msh:releaseYear "2004"^^xsd:gYear ;
+    msh:title "Finding Neverland" .
+
+msh:Film_flawless_1998 a msh:Film ;
+    msh:releaseYear "1998"^^xsd:gYear ;
+    msh:title "Flawless" .
+
+msh:Film_flight_2012 a msh:Film ;
+    msh:releaseYear "2012"^^xsd:gYear ;
+    msh:title "Flight" .
+
+msh:Film_ford_v_ferrari_2019 a msh:Film ;
+    msh:releaseYear "2019"^^xsd:gYear ;
+    msh:title "Ford v Ferrari" .
+
+msh:Film_forrest_gump_1994 a msh:Film ;
+    msh:releaseYear "1994"^^xsd:gYear ;
+    msh:title "Forrest Gump" .
+
+msh:Film_foxcatcher_2014 a msh:Film ;
+    msh:releaseYear "2014"^^xsd:gYear ;
+    msh:title "Foxcatcher" .
+
+msh:Film_frost_nixon_2008 a msh:Film ;
+    msh:releaseYear "2008"^^xsd:gYear ;
+    msh:title "Frost/Nixon" .
+
+msh:Film_gangs_of_new_york_2002 a msh:Film ;
+    msh:releaseYear "2002"^^xsd:gYear ;
+    msh:title "Gangs of New York" .
+
+msh:Film_george_clooney_bradley_cooper_ryan_gosling_viggo_mortensen_2024 a msh:Film ;
+    msh:releaseYear "2024"^^xsd:gYear ;
+    msh:title "George Clooney , Bradley Cooper , Ryan Gosling , Viggo Mortensen" .
+
+msh:Film_get_low_2009 a msh:Film ;
+    msh:releaseYear "2009"^^xsd:gYear ;
+    msh:title "Get Low" .
+
+msh:Film_get_out_2017 a msh:Film ;
+    msh:releaseYear "2017"^^xsd:gYear ;
+    msh:title "Get Out" .
+
+msh:Film_gladiator_2000 a msh:Film ;
+    msh:releaseYear "2000"^^xsd:gYear ;
+    msh:title "Gladiator" .
+
+msh:Film_gods_and_monsters_1998 a msh:Film ;
+    msh:releaseYear "1998"^^xsd:gYear ;
+    msh:title "Gods and Monsters" .
+
+msh:Film_good_night_and_good_luck_2005 a msh:Film ;
+    msh:releaseYear "2005"^^xsd:gYear ;
+    msh:title "Good Night, and Good Luck ." .
+
+msh:Film_good_will_hunting_1997 a msh:Film ;
+    msh:releaseYear "1997"^^xsd:gYear ;
+    msh:title "Good Will Hunting" .
+
+msh:Film_green_book_2018 a msh:Film ;
+    msh:releaseYear "2018"^^xsd:gYear ;
+    msh:title "Green Book" .
+
+msh:Film_hacksaw_ridge_2016 a msh:Film ;
+    msh:releaseYear "2016"^^xsd:gYear ;
+    msh:title "Hacksaw Ridge" .
+
+msh:Film_half_nelson_2006 a msh:Film ;
+    msh:releaseYear "2006"^^xsd:gYear ;
+    msh:title "Half Nelson" .
+
+msh:Film_hotel_rwanda_2004 a msh:Film ;
+    msh:releaseYear "2004"^^xsd:gYear ;
+    msh:title "Hotel Rwanda" .
+
+msh:Film_house_of_sand_and_fog_2003 a msh:Film ;
+    msh:releaseYear "2003"^^xsd:gYear ;
+    msh:title "House of Sand and Fog" .
+
+msh:Film_hustle_2021 a msh:Film ;
+    msh:releaseYear "2021"^^xsd:gYear ;
+    msh:title "Hustle" .
+
+msh:Film_i_am_sam_2001 a msh:Film ;
+    msh:releaseYear "2001"^^xsd:gYear ;
+    msh:title "I Am Sam" .
+
+msh:Film_il_postino_the_postman_1994 a msh:Film ;
+    msh:releaseYear "1994"^^xsd:gYear ;
+    msh:title "Il Postino: The Postman" .
+
+msh:Film_in_the_bedroom_2001 a msh:Film ;
+    msh:releaseYear "2001"^^xsd:gYear ;
+    msh:title "In the Bedroom" .
+
+msh:Film_indicates_a_posthumous_nominee_2023 a msh:Film ;
+    msh:releaseYear "2023"^^xsd:gYear ;
+    msh:title "Indicates a posthumous nominee" .
+
+msh:Film_indicates_a_posthumous_winner_2023 a msh:Film ;
+    msh:releaseYear "2023"^^xsd:gYear ;
+    msh:title "Indicates a posthumous winner" .
+
+msh:Film_indicates_the_academy_award_winner_2023 a msh:Film ;
+    msh:releaseYear "2023"^^xsd:gYear ;
+    msh:title "Indicates the Academy Award winner" .
+
+msh:Film_into_the_wild_2007 a msh:Film ;
+    msh:releaseYear "2007"^^xsd:gYear ;
+    msh:title "Into the Wild" .
+
+msh:Film_invictus_2009 a msh:Film ;
+    msh:releaseYear "2009"^^xsd:gYear ;
+    msh:title "Invictus" .
+
+msh:Film_j_edgar_2010 a msh:Film ;
+    msh:releaseYear "2010"^^xsd:gYear ;
+    msh:title "J. Edgar" .
+
+msh:Film_jerry_maguire_1996 a msh:Film ;
+    msh:releaseYear "1996"^^xsd:gYear ;
+    msh:title "Jerry Maguire" .
+
+msh:Film_joker_2019 a msh:Film ;
+    msh:releaseYear "2019"^^xsd:gYear ;
+    msh:title "Joker" .
+
+msh:Film_king_richard_2021 a msh:Film ;
+    msh:releaseYear "2021"^^xsd:gYear ;
+    msh:title "King Richard" .
+
+msh:Film_la_la_land_2016 a msh:Film ;
+    msh:releaseYear "2016"^^xsd:gYear ;
+    msh:title "La La Land" .
+
+msh:Film_lars_and_the_real_girl_2007 a msh:Film ;
+    msh:releaseYear "2007"^^xsd:gYear ;
+    msh:title "Lars and the Real Girl" .
+
+msh:Film_leading_actor_2024 a msh:Film ;
+    msh:releaseYear "2024"^^xsd:gYear ;
+    msh:title "Leading Actor" .
+
+msh:Film_leaving_las_vegas_1995 a msh:Film ;
+    msh:releaseYear "1995"^^xsd:gYear ;
+    msh:title "Leaving Las Vegas" .
+
+msh:Film_leonardo_dicaprio_denzel_washington_2024 a msh:Film ;
+    msh:releaseYear "2024"^^xsd:gYear ;
+    msh:title "Leonardo DiCaprio , Denzel Washington" .
+
+msh:Film_les_mis_rables_2012 a msh:Film ;
+    msh:releaseYear "2012"^^xsd:gYear ;
+    msh:title "Les Misérables" .
+
+msh:Film_life_as_a_house_2000 a msh:Film ;
+    msh:releaseYear "2000"^^xsd:gYear ;
+    msh:title "Life as a House" .
+
+msh:Film_life_is_beautiful_1998 a msh:Film ;
+    msh:releaseYear "1998"^^xsd:gYear ;
+    msh:title "Life Is Beautiful" .
+
+msh:Film_lincoln_2012 a msh:Film ;
+    msh:releaseYear "2012"^^xsd:gYear ;
+    msh:title "Lincoln" .
+
+msh:Film_living_2022 a msh:Film ;
+    msh:releaseYear "2022"^^xsd:gYear ;
+    msh:title "Living" .
+
+msh:Film_lost_in_translation_2003 a msh:Film ;
+    msh:releaseYear "2003"^^xsd:gYear ;
+    msh:title "Lost in Translation" .
+
+msh:Film_ma_rainey_s_black_bottom_2020 a msh:Film ;
+    msh:releaseYear "2020"^^xsd:gYear ;
+    msh:title "Ma Rainey's Black Bottom" .
+
+msh:Film_maestro_2022 a msh:Film ;
+    msh:releaseYear "2022"^^xsd:gYear ;
+    msh:title "Maestro" .
+
+msh:Film_man_on_the_moon_1998 a msh:Film ;
+    msh:releaseYear "1998"^^xsd:gYear ;
+    msh:title "Man on the Moon" .
+
+msh:Film_manchester_by_the_sea_2016 a msh:Film ;
+    msh:releaseYear "2016"^^xsd:gYear ;
+    msh:title "Manchester by the Sea" .
+
+msh:Film_mank_2020 a msh:Film ;
+    msh:releaseYear "2020"^^xsd:gYear ;
+    msh:title "Mank" .
+
+msh:Film_marriage_story_2019 a msh:Film ;
+    msh:releaseYear "2019"^^xsd:gYear ;
+    msh:title "Marriage Story" .
+
+msh:Film_marty_supreme_2025 a msh:Film ;
+    msh:releaseYear "2025"^^xsd:gYear ;
+    msh:title "Marty Supreme" .
+
+msh:Film_michael_clayton_2007 a msh:Film ;
+    msh:releaseYear "2007"^^xsd:gYear ;
+    msh:title "Michael Clayton" .
+
+msh:Film_milk_2008 a msh:Film ;
+    msh:releaseYear "2008"^^xsd:gYear ;
+    msh:title "Milk" .
+
+msh:Film_minari_2020 a msh:Film ;
+    msh:releaseYear "2020"^^xsd:gYear ;
+    msh:title "Minari" .
+
+msh:Film_moneyball_2011 a msh:Film ;
+    msh:releaseYear "2011"^^xsd:gYear ;
+    msh:title "Moneyball" .
+
+msh:Film_mystic_river_2003 a msh:Film ;
+    msh:releaseYear "2003"^^xsd:gYear ;
+    msh:title "Mystic River" .
+
+msh:Film_nebraska_2013 a msh:Film ;
+    msh:releaseYear "2013"^^xsd:gYear ;
+    msh:title "Nebraska" .
+
+msh:Film_nightcrawler_2014 a msh:Film ;
+    msh:releaseYear "2014"^^xsd:gYear ;
+    msh:title "Nightcrawler" .
+
+msh:Film_nixon_1995 a msh:Film ;
+    msh:releaseYear "1995"^^xsd:gYear ;
+    msh:title "Nixon" .
+
+msh:Film_nobody_s_fool_1994 a msh:Film ;
+    msh:releaseYear "1994"^^xsd:gYear ;
+    msh:title "Nobody's Fool" .
+
+msh:Film_once_upon_a_time_in_hollywood_2019 a msh:Film ;
+    msh:releaseYear "2019"^^xsd:gYear ;
+    msh:title "Once Upon a Time in Hollywood" .
+
+msh:Film_one_battle_after_another_2025 a msh:Film ;
+    msh:releaseYear "2025"^^xsd:gYear ;
+    msh:title "One Battle After Another" .
+
+msh:Film_oppenheimer_2023 a msh:Film ;
+    msh:releaseYear "2023"^^xsd:gYear ;
+    msh:title "Oppenheimer" .
+
+msh:Film_pirates_of_the_caribbean_the_curse_of_the_black_pearl_2003 a msh:Film ;
+    msh:releaseYear "2003"^^xsd:gYear ;
+    msh:title "Pirates of the Caribbean: The Curse of the Black Pearl" .
+
+msh:Film_pulp_fiction_1994 a msh:Film ;
+    msh:releaseYear "1994"^^xsd:gYear ;
+    msh:title "Pulp Fiction" .
+
+msh:Film_queer_2023 a msh:Film ;
+    msh:releaseYear "2023"^^xsd:gYear ;
+    msh:title "Queer" .
+
+msh:Film_quills_2000 a msh:Film ;
+    msh:releaseYear "2000"^^xsd:gYear ;
+    msh:title "Quills" .
+
+msh:Film_ray_2004 a msh:Film ;
+    msh:releaseYear "2004"^^xsd:gYear ;
+    msh:title "Ray" .
+
+msh:Film_rocketman_2019 a msh:Film ;
+    msh:releaseYear "2019"^^xsd:gYear ;
+    msh:title "Rocketman" .
+
+msh:Film_roman_j_israel_esq_2017 a msh:Film ;
+    msh:releaseYear "2017"^^xsd:gYear ;
+    msh:title "Roman J. Israel, Esq." .
+
+msh:Film_rustin_2023 a msh:Film ;
+    msh:releaseYear "2023"^^xsd:gYear ;
+    msh:title "Rustin" .
+
+msh:Film_saving_private_ryan_1998 a msh:Film ;
+    msh:releaseYear "1998"^^xsd:gYear ;
+    msh:title "Saving Private Ryan" .
+
+msh:Film_shakespeare_in_love_1998 a msh:Film ;
+    msh:releaseYear "1998"^^xsd:gYear ;
+    msh:title "Shakespeare in Love" .
+
+msh:Film_shine_1996 a msh:Film ;
+    msh:releaseYear "1996"^^xsd:gYear ;
+    msh:title "Shine" .
+
+msh:Film_sideways_2004 a msh:Film ;
+    msh:releaseYear "2004"^^xsd:gYear ;
+    msh:title "Sideways" .
+
+msh:Film_silver_linings_playbook_2012 a msh:Film ;
+    msh:releaseYear "2012"^^xsd:gYear ;
+    msh:title "Silver Linings Playbook" .
+
+msh:Film_sing_sing_2024 a msh:Film ;
+    msh:releaseYear "2024"^^xsd:gYear ;
+    msh:title "Sing Sing" .
+
+msh:Film_sinners_2025 a msh:Film ;
+    msh:releaseYear "2025"^^xsd:gYear ;
+    msh:title "Sinners" .
+
+msh:Film_sling_blade_1996 a msh:Film ;
+    msh:releaseYear "1996"^^xsd:gYear ;
+    msh:title "Sling Blade" .
+
+msh:Film_sound_of_metal_2020 a msh:Film ;
+    msh:releaseYear "2020"^^xsd:gYear ;
+    msh:title "Sound of Metal" .
+
+msh:Film_steve_jobs_2015 a msh:Film ;
+    msh:releaseYear "2015"^^xsd:gYear ;
+    msh:title "Steve Jobs" .
+
+msh:Film_the_apostle_1997 a msh:Film ;
+    msh:releaseYear "1997"^^xsd:gYear ;
+    msh:title "The Apostle" .
+
+msh:Film_the_artist_2011 a msh:Film ;
+    msh:releaseYear "2011"^^xsd:gYear ;
+    msh:title "The Artist" .
+
+msh:Film_the_aviator_2004 a msh:Film ;
+    msh:releaseYear "2004"^^xsd:gYear ;
+    msh:title "The Aviator" .
+
+msh:Film_the_banshees_of_inisherin_2022 a msh:Film ;
+    msh:releaseYear "2022"^^xsd:gYear ;
+    msh:title "The Banshees of Inisherin" .
+
+msh:Film_the_brutalist_2024 a msh:Film ;
+    msh:releaseYear "2024"^^xsd:gYear ;
+    msh:title "The Brutalist" .
+
+msh:Film_the_butler_2012 a msh:Film ;
+    msh:releaseYear "2012"^^xsd:gYear ;
+    msh:title "The Butler" .
+
+msh:Film_the_curious_case_of_benjamin_button_2008 a msh:Film ;
+    msh:releaseYear "2008"^^xsd:gYear ;
+    msh:title "The Curious Case of Benjamin Button" .
+
+msh:Film_the_danish_girl_2015 a msh:Film ;
+    msh:releaseYear "2015"^^xsd:gYear ;
+    msh:title "The Danish Girl" .
+
+msh:Film_the_descendants_2011 a msh:Film ;
+    msh:releaseYear "2011"^^xsd:gYear ;
+    msh:title "The Descendants" .
+
+msh:Film_the_disaster_artist_2017 a msh:Film ;
+    msh:releaseYear "2017"^^xsd:gYear ;
+    msh:title "The Disaster Artist" .
+
+msh:Film_the_english_patient_1996 a msh:Film ;
+    msh:releaseYear "1996"^^xsd:gYear ;
+    msh:title "The English Patient" .
+
+msh:Film_the_father_2020 a msh:Film ;
+    msh:releaseYear "2020"^^xsd:gYear ;
+    msh:title "The Father" .
+
+msh:Film_the_holdovers_2023 a msh:Film ;
+    msh:releaseYear "2023"^^xsd:gYear ;
+    msh:title "The Holdovers" .
+
+msh:Film_the_hurricane_1998 a msh:Film ;
+    msh:releaseYear "1998"^^xsd:gYear ;
+    msh:title "The Hurricane" .
+
+msh:Film_the_hurt_locker_2009 a msh:Film ;
+    msh:releaseYear "2009"^^xsd:gYear ;
+    msh:title "The Hurt Locker" .
+
+msh:Film_the_imitation_game_2014 a msh:Film ;
+    msh:releaseYear "2014"^^xsd:gYear ;
+    msh:title "The Imitation Game" .
+
+msh:Film_the_insider_1999 a msh:Film ;
+    msh:releaseYear "1999"^^xsd:gYear ;
+    msh:title "The Insider" .
+
+msh:Film_the_king_s_speech_2010 a msh:Film ;
+    msh:releaseYear "2010"^^xsd:gYear ;
+    msh:title "The King's Speech" .
+
+msh:Film_the_last_king_of_scotland_2006 a msh:Film ;
+    msh:releaseYear "2006"^^xsd:gYear ;
+    msh:title "The Last King of Scotland" .
+
+msh:Film_the_people_vs_larry_flynt_1996 a msh:Film ;
+    msh:releaseYear "1996"^^xsd:gYear ;
+    msh:title "The People vs. Larry Flynt" .
+
+msh:Film_the_pianist_2002 a msh:Film ;
+    msh:releaseYear "2002"^^xsd:gYear ;
+    msh:title "The Pianist" .
+
+msh:Film_the_power_of_the_dog_2021 a msh:Film ;
+    msh:releaseYear "2021"^^xsd:gYear ;
+    msh:title "The Power of the Dog" .
+
+msh:Film_the_pursuit_of_happyness_2006 a msh:Film ;
+    msh:releaseYear "2006"^^xsd:gYear ;
+    msh:title "The Pursuit of Happyness" .
+
+msh:Film_the_revenant_2015 a msh:Film ;
+    msh:releaseYear "2015"^^xsd:gYear ;
+    msh:title "The Revenant" .
+
+msh:Film_the_sessions_2012 a msh:Film ;
+    msh:releaseYear "2012"^^xsd:gYear ;
+    msh:title "The Sessions" .
+
+msh:Film_the_social_network_2010 a msh:Film ;
+    msh:releaseYear "2010"^^xsd:gYear ;
+    msh:title "The Social Network" .
+
+msh:Film_the_station_agent_2002 a msh:Film ;
+    msh:releaseYear "2002"^^xsd:gYear ;
+    msh:title "The Station Agent" .
+
+msh:Film_the_theory_of_everything_2014 a msh:Film ;
+    msh:releaseYear "2014"^^xsd:gYear ;
+    msh:title "The Theory of Everything" .
+
+msh:Film_the_tragedy_of_macbeth_2021 a msh:Film ;
+    msh:releaseYear "2021"^^xsd:gYear ;
+    msh:title "The Tragedy of Macbeth" .
+
+msh:Film_the_visitor_2008 a msh:Film ;
+    msh:releaseYear "2008"^^xsd:gYear ;
+    msh:title "The Visitor" .
+
+msh:Film_the_whale_2022 a msh:Film ;
+    msh:releaseYear "2022"^^xsd:gYear ;
+    msh:title "The Whale" .
+
+msh:Film_the_wrestler_2008 a msh:Film ;
+    msh:releaseYear "2008"^^xsd:gYear ;
+    msh:title "The Wrestler" .
+
+msh:Film_there_will_be_blood_2007 a msh:Film ;
+    msh:releaseYear "2007"^^xsd:gYear ;
+    msh:title "There Will Be Blood" .
+
+msh:Film_tick_tick_boom_2021 a msh:Film ;
+    msh:releaseYear "2021"^^xsd:gYear ;
+    msh:title "Tick, Tick...Boom!" .
+
+msh:Film_timoth_e_chalamet_for_a_complete_unknown_2024_2023 a msh:Film ;
+    msh:releaseYear "2023"^^xsd:gYear ;
+    msh:title "Timothée Chalamet for A Complete Unknown ( 2024 )" .
+
+msh:Film_traffic_2000 a msh:Film ;
+    msh:releaseYear "2000"^^xsd:gYear ;
+    msh:title "Traffic" .
+
+msh:Film_training_day_2001 a msh:Film ;
+    msh:releaseYear "2001"^^xsd:gYear ;
+    msh:title "Training Day" .
+
+msh:Film_true_grit_2009 a msh:Film ;
+    msh:releaseYear "2009"^^xsd:gYear ;
+    msh:title "True Grit" .
+
+msh:Film_trumbo_2015 a msh:Film ;
+    msh:releaseYear "2015"^^xsd:gYear ;
+    msh:title "Trumbo" .
+
+msh:Film_ulee_s_gold_1997 a msh:Film ;
+    msh:releaseYear "1997"^^xsd:gYear ;
+    msh:title "Ulee's Gold" .
+
+msh:Film_up_in_the_air_2009 a msh:Film ;
+    msh:releaseYear "2009"^^xsd:gYear ;
+    msh:title "Up in the Air" .
+
+msh:Film_venus_2006 a msh:Film ;
+    msh:releaseYear "2006"^^xsd:gYear ;
+    msh:title "Venus" .
+
+msh:Film_vice_2018 a msh:Film ;
+    msh:releaseYear "2018"^^xsd:gYear ;
+    msh:title "Vice" .
+
+msh:Film_wag_the_dog_1997 a msh:Film ;
+    msh:releaseYear "1997"^^xsd:gYear ;
+    msh:title "Wag the Dog" .
+
+msh:Film_walk_the_line_2005 a msh:Film ;
+    msh:releaseYear "2005"^^xsd:gYear ;
+    msh:title "Walk the Line" .
+
+msh:Person_actor_with_most_awards a msh:Person ;
+    msh:fullName "Actor with most awards" .
+
+msh:Person_actor_with_most_nominations a msh:Person ;
+    msh:fullName "Actor with most nominations" .
+
+msh:Person_actor_with_most_nominations_without_ever_winning a msh:Person ;
+    msh:fullName "Actor with most nominations without ever winning" .
+
+msh:Person_adam_driver a msh:Person ;
+    msh:fullName "Adam Driver" .
+
+msh:Person_adam_sandler a msh:Person ;
+    msh:fullName "Adam Sandler" .
+
+msh:Person_austin_butler a msh:Person ;
+    msh:fullName "Austin Butler" .
+
+msh:Person_ben_kingsley a msh:Person ;
+    msh:fullName "Ben Kingsley" .
+
+msh:Person_benicio_del_toro_won_academy_award_for_best_supporting_actor a msh:Person ;
+    msh:fullName "Benicio del Toro ‡ won Academy Award for Best Supporting Actor" .
+
+msh:Person_bill_murray a msh:Person ;
+    msh:fullName "Bill Murray" .
+
+msh:Person_bill_nighy a msh:Person ;
+    msh:fullName "Bill Nighy" .
+
+msh:Person_billy_bob_thornton a msh:Person ;
+    msh:fullName "Billy Bob Thornton" .
+
+msh:Person_brendan_fraser a msh:Person ;
+    msh:fullName "Brendan Fraser ‡" .
+
+msh:Person_bruce_dern a msh:Person ;
+    msh:fullName "Bruce Dern" .
+
+msh:Person_bryan_cranston a msh:Person ;
+    msh:fullName "Bryan Cranston" .
+
+msh:Person_casey_affleck a msh:Person ;
+    msh:fullName "Casey Affleck ‡" .
+
+msh:Person_chadwick_boseman a msh:Person ;
+    msh:fullName "Chadwick Boseman †" .
+
+msh:Person_chiwetel_ejiofor a msh:Person ;
+    msh:fullName "Chiwetel Ejiofor" .
+
+msh:Person_cillian_murphy a msh:Person ;
+    msh:fullName "Cillian Murphy ‡" .
+
+msh:Person_colin_farrell a msh:Person ;
+    msh:fullName "Colin Farrell" .
+
+msh:Person_currently_held_by a msh:Person ;
+    msh:fullName "Currently held by" .
+
+msh:Person_daniel_craig a msh:Person ;
+    msh:fullName "Daniel Craig" .
+
+msh:Person_daniel_kaluuya a msh:Person ;
+    msh:fullName "Daniel Kaluuya" .
+
+msh:Person_david_strathairn a msh:Person ;
+    msh:fullName "David Strathairn" .
+
+msh:Person_demi_n_bichir a msh:Person ;
+    msh:fullName "Demián Bichir" .
+
+msh:Person_don_cheadle a msh:Person ;
+    msh:fullName "Don Cheadle" .
+
+msh:Person_dustin_hoffman a msh:Person ;
+    msh:fullName "Dustin Hoffman" .
+
+msh:Person_emile_hirsch a msh:Person ;
+    msh:fullName "Emile Hirsch" .
+
+msh:Person_ethan_hawke a msh:Person ;
+    msh:fullName "Ethan Hawke" .
+
+msh:Person_film_with_most_nominations a msh:Person ;
+    msh:fullName "Film with most nominations" .
+
+msh:Person_frank_langella a msh:Person ;
+    msh:fullName "Frank Langella" .
+
+msh:Person_heath_ledger a msh:Person ;
+    msh:fullName "Heath Ledger" .
+
+msh:Person_hugh_jackman a msh:Person ;
+    msh:fullName "Hugh Jackman" .
+
+msh:Person_ian_mckellen a msh:Person ;
+    msh:fullName "Ian McKellen" .
+
+msh:Person_jake_gyllenhaal a msh:Person ;
+    msh:fullName "Jake Gyllenhaal" .
+
+msh:Person_james_earl_jones a msh:Person ;
+    msh:fullName "James Earl Jones" .
+
+msh:Person_jamie_bell a msh:Person ;
+    msh:fullName "Jamie Bell" .
+
+msh:Person_jamie_foxx a msh:Person ;
+    msh:fullName "Jamie Foxx ‡" .
+
+msh:Person_javier_bardem a msh:Person ;
+    msh:fullName "Javier Bardem" .
+
+msh:Person_jean_dujardin a msh:Person ;
+    msh:fullName "Jean Dujardin ‡" .
+
+msh:Person_jeffrey_wright a msh:Person ;
+    msh:fullName "Jeffrey Wright" .
+
+msh:Person_jeremy_renner a msh:Person ;
+    msh:fullName "Jeremy Renner" .
+
+msh:Person_jesse_eisenberg a msh:Person ;
+    msh:fullName "Jesse Eisenberg" .
+
+msh:Person_jesse_plemons a msh:Person ;
+    msh:fullName "Jesse Plemons" .
+
+msh:Person_jim_carrey a msh:Person ;
+    msh:fullName "Jim Carrey" .
+
+msh:Person_john_david_washington a msh:Person ;
+    msh:fullName "John David Washington" .
+
+msh:Person_john_hawkes a msh:Person ;
+    msh:fullName "John Hawkes" .
+
+msh:Person_john_travolta a msh:Person ;
+    msh:fullName "John Travolta" .
+
+msh:Person_joseph_fiennes a msh:Person ;
+    msh:fullName "Joseph Fiennes" .
+
+msh:Person_kevin_kline a msh:Person ;
+    msh:fullName "Kevin Kline" .
+
+msh:Person_kevin_spacey a msh:Person ;
+    msh:fullName "Kevin Spacey ‡" .
+
+msh:Person_massimo_troisi a msh:Person ;
+    msh:fullName "Massimo Troisi †" .
+
+msh:Person_matt_damon a msh:Person ;
+    msh:fullName "Matt Damon" .
+
+msh:Person_matthew_mcconaughey a msh:Person ;
+    msh:fullName "Matthew McConaughey ‡" .
+
+msh:Person_michael_b_jordan a msh:Person ;
+    msh:fullName "Michael B. Jordan" .
+
+msh:Person_michael_fassbender a msh:Person ;
+    msh:fullName "Michael Fassbender" .
+
+msh:Person_michael_keaton a msh:Person ;
+    msh:fullName "Michael Keaton" .
+
+msh:Person_mickey_rourke a msh:Person ;
+    msh:fullName "Mickey Rourke" .
+
+msh:Person_nick_nolte a msh:Person ;
+    msh:fullName "Nick Nolte" .
+
+msh:Person_oldest_nominee a msh:Person ;
+    msh:fullName "Oldest Nominee" .
+
+msh:Person_oldest_winner a msh:Person ;
+    msh:fullName "Oldest Winner" .
+
+msh:Person_paul_newman a msh:Person ;
+    msh:fullName "Paul Newman" .
+
+msh:Person_peter_dinklage a msh:Person ;
+    msh:fullName "Peter Dinklage" .
+
+msh:Person_peter_fonda a msh:Person ;
+    msh:fullName "Peter Fonda" .
+
+msh:Person_peter_o_toole a msh:Person ;
+    msh:fullName "Peter O'Toole" .
+
+msh:Person_rami_malek a msh:Person ;
+    msh:fullName "Rami Malek ‡" .
+
+msh:Person_richard_gere a msh:Person ;
+    msh:fullName "Richard Gere" .
+
+msh:Person_richard_jenkins a msh:Person ;
+    msh:fullName "Richard Jenkins" .
+
+msh:Person_riz_ahmed a msh:Person ;
+    msh:fullName "Riz Ahmed" .
+
+msh:Person_roberto_benigni a msh:Person ;
+    msh:fullName "Roberto Benigni ‡" .
+
+msh:Person_steve_carell a msh:Person ;
+    msh:fullName "Steve Carell" .
+
+msh:Person_steven_yeun a msh:Person ;
+    msh:fullName "Steven Yeun" .
+
+msh:Person_superlative a msh:Person ;
+    msh:fullName "Superlative" .
+
+msh:Person_taron_egerton a msh:Person ;
+    msh:fullName "Taron Egerton" .
+
+msh:Person_tim_robbins a msh:Person ;
+    msh:fullName "Tim Robbins" .
+
+msh:Person_tom_cruise a msh:Person ;
+    msh:fullName "Tom Cruise" .
+
+msh:Person_tom_wilkinson a msh:Person ;
+    msh:fullName "Tom Wilkinson" .
+
+msh:Person_woody_harrelson a msh:Person ;
+    msh:fullName "Woody Harrelson" .
+
+msh:Person_adrien_brody a msh:Person ;
+    msh:fullName "Adrien Brody ‡" .
+
+msh:Person_andrew_garfield a msh:Person ;
+    msh:fullName "Andrew Garfield" .
+
+msh:Person_anthony_hopkins a msh:Person ;
+    msh:fullName "Anthony Hopkins" .
+
+msh:Person_benedict_cumberbatch a msh:Person ;
+    msh:fullName "Benedict Cumberbatch" .
+
+msh:Person_brad_pitt a msh:Person ;
+    msh:fullName "Brad Pitt" .
+
+msh:Person_christian_bale a msh:Person ;
+    msh:fullName "Christian Bale" .
+
+msh:Person_colin_firth a msh:Person ;
+    msh:fullName "Colin Firth" .
+
+msh:Person_colman_domingo a msh:Person ;
+    msh:fullName "Colman Domingo" .
+
+msh:Person_eddie_redmayne a msh:Person ;
+    msh:fullName "Eddie Redmayne ‡" .
+
+msh:Person_forest_whitaker a msh:Person ;
+    msh:fullName "Forest Whitaker ‡" .
+
+msh:Person_gary_oldman a msh:Person ;
+    msh:fullName "Gary Oldman ‡" .
+
+msh:Person_geoffrey_rush a msh:Person ;
+    msh:fullName "Geoffrey Rush ‡" .
+
+msh:Person_jack_nicholson a msh:Person ;
+    msh:fullName "Jack Nicholson ‡" .
+
+msh:Person_james_franco a msh:Person ;
+    msh:fullName "James Franco" .
+
+msh:Person_jeff_bridges a msh:Person ;
+    msh:fullName "Jeff Bridges ‡" .
+
+msh:Person_joaquin_phoenix a msh:Person ;
+    msh:fullName "Joaquin Phoenix" .
+
+msh:Person_morgan_freeman a msh:Person ;
+    msh:fullName "Morgan Freeman" .
+
+msh:Person_nicolas_cage a msh:Person ;
+    msh:fullName "Nicolas Cage ‡" .
+
+msh:Person_paul_giamatti a msh:Person ;
+    msh:fullName "Paul Giamatti" .
+
+msh:Person_philip_seymour_hoffman a msh:Person ;
+    msh:fullName "Philip Seymour Hoffman" .
+
+msh:Person_ralph_fiennes a msh:Person ;
+    msh:fullName "Ralph Fiennes" .
+
+msh:Person_robert_duvall a msh:Person ;
+    msh:fullName "Robert Duvall" .
+
+msh:Person_will_smith a msh:Person ;
+    msh:fullName "Will Smith" .
+
+msh:Film_the_shawshank_redemption_1994 a msh:Film ;
+    msh:releaseYear "1994"^^xsd:gYear ;
+    msh:title "The Shawshank Redemption" .
+
+msh:Person_bradley_cooper a msh:Person ;
+    msh:fullName "Bradley Cooper" .
+
+msh:Person_daniel_day_lewis a msh:Person ;
+    msh:fullName "Daniel Day-Lewis" .
+
+msh:Person_george_clooney a msh:Person ;
+    msh:fullName "George Clooney" .
+
+msh:Person_johnny_depp a msh:Person ;
+    msh:fullName "Johnny Depp" .
+
+msh:Person_ryan_gosling a msh:Person ;
+    msh:fullName "Ryan Gosling" .
+
+msh:Person_timoth_e_chalamet a msh:Person ;
+    msh:fullName "Timothée Chalamet" .
+
+msh:Person_tom_hanks a msh:Person ;
+    msh:fullName "Tom Hanks ‡" .
+
+msh:Person_unknown a msh:Person ;
+    msh:fullName "†" .
+
+msh:Person_viggo_mortensen a msh:Person ;
+    msh:fullName "Viggo Mortensen" .
+
+msh:Ceremony_sag_2000 a msh:AwardCeremony ;
+    msh:ceremonyName "2000 SAG Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "2000"^^xsd:gYear .
+
+msh:Film_actor_2023 a msh:Film ;
+    msh:releaseYear "2023"^^xsd:gYear ;
+    msh:title "Actor" .
+
+msh:Person_russell_crowe a msh:Person ;
+    msh:fullName "Russell Crowe" .
+
+msh:Person_sean_penn a msh:Person ;
+    msh:fullName "Sean Penn" .
+
+msh:Person_year a msh:Person ;
+    msh:fullName "Year" .
+
+msh:Ceremony_sag_1994 a msh:AwardCeremony ;
+    msh:ceremonyName "1994 SAG Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "1994"^^xsd:gYear .
+
+msh:Ceremony_sag_1995 a msh:AwardCeremony ;
+    msh:ceremonyName "1995 SAG Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "1995"^^xsd:gYear .
+
+msh:Ceremony_sag_1996 a msh:AwardCeremony ;
+    msh:ceremonyName "1996 SAG Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "1996"^^xsd:gYear .
+
+msh:Ceremony_sag_1997 a msh:AwardCeremony ;
+    msh:ceremonyName "1997 SAG Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "1997"^^xsd:gYear .
+
+msh:Ceremony_sag_1998 a msh:AwardCeremony ;
+    msh:ceremonyName "1998 SAG Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "1998"^^xsd:gYear .
+
+msh:Ceremony_sag_2001 a msh:AwardCeremony ;
+    msh:ceremonyName "2001 SAG Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "2001"^^xsd:gYear .
+
+msh:Ceremony_sag_2002 a msh:AwardCeremony ;
+    msh:ceremonyName "2002 SAG Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "2002"^^xsd:gYear .
+
+msh:Ceremony_sag_2003 a msh:AwardCeremony ;
+    msh:ceremonyName "2003 SAG Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "2003"^^xsd:gYear .
+
+msh:Ceremony_sag_2004 a msh:AwardCeremony ;
+    msh:ceremonyName "2004 SAG Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "2004"^^xsd:gYear .
+
+msh:Ceremony_sag_2005 a msh:AwardCeremony ;
+    msh:ceremonyName "2005 SAG Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "2005"^^xsd:gYear .
+
+msh:Ceremony_sag_2006 a msh:AwardCeremony ;
+    msh:ceremonyName "2006 SAG Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "2006"^^xsd:gYear .
+
+msh:Ceremony_sag_2007 a msh:AwardCeremony ;
+    msh:ceremonyName "2007 SAG Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "2007"^^xsd:gYear .
+
+msh:Ceremony_sag_2008 a msh:AwardCeremony ;
+    msh:ceremonyName "2008 SAG Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "2008"^^xsd:gYear .
+
+msh:Ceremony_sag_2010 a msh:AwardCeremony ;
+    msh:ceremonyName "2010 SAG Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "2010"^^xsd:gYear .
+
+msh:Ceremony_sag_2011 a msh:AwardCeremony ;
+    msh:ceremonyName "2011 SAG Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "2011"^^xsd:gYear .
+
+msh:Ceremony_sag_2012 a msh:AwardCeremony ;
+    msh:ceremonyName "2012 SAG Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "2012"^^xsd:gYear .
+
+msh:Ceremony_sag_2013 a msh:AwardCeremony ;
+    msh:ceremonyName "2013 SAG Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "2013"^^xsd:gYear .
+
+msh:Ceremony_sag_2014 a msh:AwardCeremony ;
+    msh:ceremonyName "2014 SAG Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "2014"^^xsd:gYear .
+
+msh:Ceremony_sag_2015 a msh:AwardCeremony ;
+    msh:ceremonyName "2015 SAG Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "2015"^^xsd:gYear .
+
+msh:Ceremony_sag_2016 a msh:AwardCeremony ;
+    msh:ceremonyName "2016 SAG Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "2016"^^xsd:gYear .
+
+msh:Ceremony_sag_2017 a msh:AwardCeremony ;
+    msh:ceremonyName "2017 SAG Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "2017"^^xsd:gYear .
+
+msh:Ceremony_sag_2018 a msh:AwardCeremony ;
+    msh:ceremonyName "2018 SAG Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "2018"^^xsd:gYear .
+
+msh:Ceremony_sag_2020 a msh:AwardCeremony ;
+    msh:ceremonyName "2020 SAG Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "2020"^^xsd:gYear .
+
+msh:Ceremony_sag_2021 a msh:AwardCeremony ;
+    msh:ceremonyName "2021 SAG Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "2021"^^xsd:gYear .
+
+msh:Ceremony_sag_2022 a msh:AwardCeremony ;
+    msh:ceremonyName "2022 SAG Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "2022"^^xsd:gYear .
+
+msh:Ceremony_sag_2023 a msh:AwardCeremony ;
+    msh:ceremonyName "2023 SAG Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "2023"^^xsd:gYear .
+
+msh:Ceremony_sag_1999 a msh:AwardCeremony ;
+    msh:ceremonyName "1999 SAG Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "1999"^^xsd:gYear .
+
+msh:Ceremony_sag_2009 a msh:AwardCeremony ;
+    msh:ceremonyName "2009 SAG Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "2009"^^xsd:gYear .
+
+msh:Ceremony_sag_2019 a msh:AwardCeremony ;
+    msh:ceremonyName "2019 SAG Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "2019"^^xsd:gYear .
+
+msh:Person_denzel_washington a msh:Person ;
+    msh:fullName "Denzel Washington" .
+
+msh:Person_leonardo_dicaprio a msh:Person ;
+    msh:fullName "Leonardo DiCaprio" .
+
+msh:Ceremony_sag_2024 a msh:AwardCeremony ;
+    msh:ceremonyName "2024 SAG Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "2024"^^xsd:gYear .
+
+msh:Ceremony_sag_2025 a msh:AwardCeremony ;
+    msh:ceremonyName "2025 SAG Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "2025"^^xsd:gYear .
+
+msh:AwardSystem_sag a msh:AwardSystem ;
+    rdfs:label "SAG" ;
+    msh:shortName "SAG" ;
+    msh:systemName "SAG" .
+
+msh:Category_sag_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role a msh:AwardCategory ;
+    rdfs:label "Actor Award for Outstanding Performance by a Male Actor in a Leading Role" ;
+    msh:categoryName "Actor Award for Outstanding Performance by a Male Actor in a Leading Role" ;
+    msh:hasAwardSystem msh:AwardSystem_sag .
+

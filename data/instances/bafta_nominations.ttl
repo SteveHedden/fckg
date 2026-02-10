@@ -1,0 +1,509 @@
+@prefix msh: <http://example.org/ontologies/MovieSHACL3#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+msh:Nomination_bafta_1949_best_film_the_best_years_of_our_lives_e4a87364d70d a msh:Nomination ;
+    msh:hasCategory msh:Category_bafta_best_film ;
+    msh:hasCeremony msh:Ceremony_bafta_1949 ;
+    msh:hasFilm msh:Film_the_best_years_of_our_lives_1946 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_bafta_1954_best_film_forbidden_games_28b46a043c03 a msh:Nomination ;
+    msh:hasCategory msh:Category_bafta_best_film ;
+    msh:hasCeremony msh:Ceremony_bafta_1954 ;
+    msh:hasFilm msh:Film_forbidden_games_1953 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_bafta_1955_best_film_the_wages_of_fear_951002e02158 a msh:Nomination ;
+    msh:hasCategory msh:Category_bafta_best_film ;
+    msh:hasCeremony msh:Ceremony_bafta_1955 ;
+    msh:hasFilm msh:Film_the_wages_of_fear_1954 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_bafta_1956_best_film_richard_iii_6d26df7047c9 a msh:Nomination ;
+    msh:hasCategory msh:Category_bafta_best_film ;
+    msh:hasCeremony msh:Ceremony_bafta_1956 ;
+    msh:hasFilm msh:Film_richard_iii_1955 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_bafta_1958_best_film_pather_panchali_8e5a5011205b a msh:Nomination ;
+    msh:hasCategory msh:Category_bafta_best_film ;
+    msh:hasCeremony msh:Ceremony_bafta_1958 ;
+    msh:hasFilm msh:Film_pather_panchali_1957 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_bafta_1962_best_film_the_hustler_3b3147b3efcf a msh:Nomination ;
+    msh:hasCategory msh:Category_bafta_best_film ;
+    msh:hasCeremony msh:Ceremony_bafta_1962 ;
+    msh:hasFilm msh:Film_the_hustler_1961 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_bafta_1965_best_film_dr_strangelove_d064e6ab4c23 a msh:Nomination ;
+    msh:hasCategory msh:Category_bafta_best_film ;
+    msh:hasCeremony msh:Ceremony_bafta_1965 ;
+    msh:hasFilm msh:Film_dr_strangelove_1964 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_bafta_1976_best_film_one_flew_over_the_cuckoo_s_nest_d093dbddffcd a msh:Nomination ;
+    msh:hasCategory msh:Category_bafta_best_film ;
+    msh:hasCeremony msh:Ceremony_bafta_1976 ;
+    msh:hasFilm msh:Film_one_flew_over_the_cuckoo_s_nest_1975 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_bafta_1979_best_film_julia_dca81512d6df a msh:Nomination ;
+    msh:hasCategory msh:Category_bafta_best_film ;
+    msh:hasCeremony msh:Ceremony_bafta_1979 ;
+    msh:hasFilm msh:Film_julia_1977 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_bafta_1987_best_film_a_room_with_a_view_dc82afe47927 a msh:Nomination ;
+    msh:hasCategory msh:Category_bafta_best_film ;
+    msh:hasCeremony msh:Ceremony_bafta_1987 ;
+    msh:hasFilm msh:Film_a_room_with_a_view_1986 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_bafta_1990_best_film_dead_poets_society_ee47f43577df a msh:Nomination ;
+    msh:hasCategory msh:Category_bafta_best_film ;
+    msh:hasCeremony msh:Ceremony_bafta_1990 ;
+    msh:hasFilm msh:Film_dead_poets_society_1989 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_bafta_1993_best_film_schindler_s_list_42f90ebaad1b a msh:Nomination ;
+    msh:hasCategory msh:Category_bafta_best_film ;
+    msh:hasCeremony msh:Ceremony_bafta_1993 ;
+    msh:hasFilm msh:Film_schindler_s_list_1993 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_bafta_1994_best_film_four_weddings_and_a_funeral_f2dbc6ce3109 a msh:Nomination ;
+    msh:hasCategory msh:Category_bafta_best_film ;
+    msh:hasCeremony msh:Ceremony_bafta_1994 ;
+    msh:hasFilm msh:Film_four_weddings_and_a_funeral_1994 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_bafta_1997_best_film_the_english_patient_152d1633b982 a msh:Nomination ;
+    msh:hasCategory msh:Category_bafta_best_film ;
+    msh:hasCeremony msh:Ceremony_bafta_1997 ;
+    msh:hasFilm msh:Film_the_english_patient_1996 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_bafta_2000_best_film_american_beauty_8716abf7cda6 a msh:Nomination ;
+    msh:hasCategory msh:Category_bafta_best_film ;
+    msh:hasCeremony msh:Ceremony_bafta_2000 ;
+    msh:hasFilm msh:Film_american_beauty_1999 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_bafta_2000_best_film_gladiator_e261003f964d a msh:Nomination ;
+    msh:hasCategory msh:Category_bafta_best_film ;
+    msh:hasCeremony msh:Ceremony_bafta_2000 ;
+    msh:hasFilm msh:Film_gladiator_2000 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_bafta_2002_best_film_the_lord_of_the_rings_the_fellowship_of_the_ring_9052b100020b a msh:Nomination ;
+    msh:hasCategory msh:Category_bafta_best_film ;
+    msh:hasCeremony msh:Ceremony_bafta_2002 ;
+    msh:hasFilm msh:Film_the_lord_of_the_rings_the_fellowship_of_the_ring_2001 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_bafta_2005_best_film_brokeback_mountain_2c76409a2be4 a msh:Nomination ;
+    msh:hasCategory msh:Category_bafta_best_film ;
+    msh:hasCeremony msh:Ceremony_bafta_2005 ;
+    msh:hasFilm msh:Film_brokeback_mountain_2005 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_bafta_2007_best_film_the_queen_28f46d1b49b0 a msh:Nomination ;
+    msh:hasCategory msh:Category_bafta_best_film ;
+    msh:hasCeremony msh:Ceremony_bafta_2007 ;
+    msh:hasFilm msh:Film_the_queen_2006 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_bafta_2009_best_film_slumdog_millionaire_d59dbb34e6bd a msh:Nomination ;
+    msh:hasCategory msh:Category_bafta_best_film ;
+    msh:hasCeremony msh:Ceremony_bafta_2009 ;
+    msh:hasFilm msh:Film_slumdog_millionaire_2008 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_bafta_2009_best_film_the_hurt_locker_7750e2bfc8d1 a msh:Nomination ;
+    msh:hasCategory msh:Category_bafta_best_film ;
+    msh:hasCeremony msh:Ceremony_bafta_2009 ;
+    msh:hasFilm msh:Film_the_hurt_locker_2009 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_bafta_2010_best_film_the_king_s_speech_2c86e26b4b22 a msh:Nomination ;
+    msh:hasCategory msh:Category_bafta_best_film ;
+    msh:hasCeremony msh:Ceremony_bafta_2010 ;
+    msh:hasFilm msh:Film_the_king_s_speech_2010 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_bafta_2012_best_film_argo_2ea727917443 a msh:Nomination ;
+    msh:hasCategory msh:Category_bafta_best_film ;
+    msh:hasCeremony msh:Ceremony_bafta_2012 ;
+    msh:hasFilm msh:Film_argo_2012 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_bafta_2013_best_film_12_years_a_slave_f85e4508840a a msh:Nomination ;
+    msh:hasCategory msh:Category_bafta_best_film ;
+    msh:hasCeremony msh:Ceremony_bafta_2013 ;
+    msh:hasFilm msh:Film_12_years_a_slave_2013 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_bafta_2015_best_film_boyhood_5db4f48ddf43 a msh:Nomination ;
+    msh:hasCategory msh:Category_bafta_best_film ;
+    msh:hasCeremony msh:Ceremony_bafta_2015 ;
+    msh:hasFilm msh:Film_boyhood_2014 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_bafta_2015_best_film_the_revenant_381ec7b23be2 a msh:Nomination ;
+    msh:hasCategory msh:Category_bafta_best_film ;
+    msh:hasCeremony msh:Ceremony_bafta_2015 ;
+    msh:hasFilm msh:Film_the_revenant_2015 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_bafta_2018_best_film_three_billboards_outside_ebbing_missouri_39805314b50f a msh:Nomination ;
+    msh:hasCategory msh:Category_bafta_best_film ;
+    msh:hasCeremony msh:Ceremony_bafta_2018 ;
+    msh:hasFilm msh:Film_three_billboards_outside_ebbing_missouri_2017 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_bafta_2019_best_film_roma_87eaf2ddf0aa a msh:Nomination ;
+    msh:hasCategory msh:Category_bafta_best_film ;
+    msh:hasCeremony msh:Ceremony_bafta_2019 ;
+    msh:hasFilm msh:Film_roma_2018 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_bafta_2023_best_film_all_quiet_on_the_western_front_4dc45a6a3f03 a msh:Nomination ;
+    msh:hasCategory msh:Category_bafta_best_film ;
+    msh:hasCeremony msh:Ceremony_bafta_2023 ;
+    msh:hasFilm msh:Film_all_quiet_on_the_western_front_2022 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_bafta_2024_best_film_oppenheimer_4fc4b4228e90 a msh:Nomination ;
+    msh:hasCategory msh:Category_bafta_best_film ;
+    msh:hasCeremony msh:Ceremony_bafta_2024 ;
+    msh:hasFilm msh:Film_oppenheimer_2023 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Ceremony_bafta_1949 a msh:AwardCeremony ;
+    msh:ceremonyName "1949 BAFTA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_bafta ;
+    msh:yearCeremony "1949"^^xsd:gYear .
+
+msh:Ceremony_bafta_1954 a msh:AwardCeremony ;
+    msh:ceremonyName "1954 BAFTA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_bafta ;
+    msh:yearCeremony "1954"^^xsd:gYear .
+
+msh:Ceremony_bafta_1955 a msh:AwardCeremony ;
+    msh:ceremonyName "1955 BAFTA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_bafta ;
+    msh:yearCeremony "1955"^^xsd:gYear .
+
+msh:Ceremony_bafta_1956 a msh:AwardCeremony ;
+    msh:ceremonyName "1956 BAFTA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_bafta ;
+    msh:yearCeremony "1956"^^xsd:gYear .
+
+msh:Ceremony_bafta_1958 a msh:AwardCeremony ;
+    msh:ceremonyName "1958 BAFTA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_bafta ;
+    msh:yearCeremony "1958"^^xsd:gYear .
+
+msh:Ceremony_bafta_1962 a msh:AwardCeremony ;
+    msh:ceremonyName "1962 BAFTA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_bafta ;
+    msh:yearCeremony "1962"^^xsd:gYear .
+
+msh:Ceremony_bafta_1965 a msh:AwardCeremony ;
+    msh:ceremonyName "1965 BAFTA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_bafta ;
+    msh:yearCeremony "1965"^^xsd:gYear .
+
+msh:Ceremony_bafta_1976 a msh:AwardCeremony ;
+    msh:ceremonyName "1976 BAFTA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_bafta ;
+    msh:yearCeremony "1976"^^xsd:gYear .
+
+msh:Ceremony_bafta_1979 a msh:AwardCeremony ;
+    msh:ceremonyName "1979 BAFTA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_bafta ;
+    msh:yearCeremony "1979"^^xsd:gYear .
+
+msh:Ceremony_bafta_1987 a msh:AwardCeremony ;
+    msh:ceremonyName "1987 BAFTA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_bafta ;
+    msh:yearCeremony "1987"^^xsd:gYear .
+
+msh:Ceremony_bafta_1990 a msh:AwardCeremony ;
+    msh:ceremonyName "1990 BAFTA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_bafta ;
+    msh:yearCeremony "1990"^^xsd:gYear .
+
+msh:Ceremony_bafta_1993 a msh:AwardCeremony ;
+    msh:ceremonyName "1993 BAFTA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_bafta ;
+    msh:yearCeremony "1993"^^xsd:gYear .
+
+msh:Ceremony_bafta_1994 a msh:AwardCeremony ;
+    msh:ceremonyName "1994 BAFTA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_bafta ;
+    msh:yearCeremony "1994"^^xsd:gYear .
+
+msh:Ceremony_bafta_1997 a msh:AwardCeremony ;
+    msh:ceremonyName "1997 BAFTA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_bafta ;
+    msh:yearCeremony "1997"^^xsd:gYear .
+
+msh:Ceremony_bafta_2002 a msh:AwardCeremony ;
+    msh:ceremonyName "2002 BAFTA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_bafta ;
+    msh:yearCeremony "2002"^^xsd:gYear .
+
+msh:Ceremony_bafta_2005 a msh:AwardCeremony ;
+    msh:ceremonyName "2005 BAFTA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_bafta ;
+    msh:yearCeremony "2005"^^xsd:gYear .
+
+msh:Ceremony_bafta_2007 a msh:AwardCeremony ;
+    msh:ceremonyName "2007 BAFTA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_bafta ;
+    msh:yearCeremony "2007"^^xsd:gYear .
+
+msh:Ceremony_bafta_2010 a msh:AwardCeremony ;
+    msh:ceremonyName "2010 BAFTA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_bafta ;
+    msh:yearCeremony "2010"^^xsd:gYear .
+
+msh:Ceremony_bafta_2012 a msh:AwardCeremony ;
+    msh:ceremonyName "2012 BAFTA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_bafta ;
+    msh:yearCeremony "2012"^^xsd:gYear .
+
+msh:Ceremony_bafta_2013 a msh:AwardCeremony ;
+    msh:ceremonyName "2013 BAFTA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_bafta ;
+    msh:yearCeremony "2013"^^xsd:gYear .
+
+msh:Ceremony_bafta_2018 a msh:AwardCeremony ;
+    msh:ceremonyName "2018 BAFTA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_bafta ;
+    msh:yearCeremony "2018"^^xsd:gYear .
+
+msh:Ceremony_bafta_2019 a msh:AwardCeremony ;
+    msh:ceremonyName "2019 BAFTA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_bafta ;
+    msh:yearCeremony "2019"^^xsd:gYear .
+
+msh:Ceremony_bafta_2023 a msh:AwardCeremony ;
+    msh:ceremonyName "2023 BAFTA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_bafta ;
+    msh:yearCeremony "2023"^^xsd:gYear .
+
+msh:Ceremony_bafta_2024 a msh:AwardCeremony ;
+    msh:ceremonyName "2024 BAFTA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_bafta ;
+    msh:yearCeremony "2024"^^xsd:gYear .
+
+msh:Film_12_years_a_slave_2013 a msh:Film ;
+    msh:imdbId "tt2024544" ;
+    msh:releaseYear "2013"^^xsd:gYear ;
+    msh:title "12 Years a Slave" .
+
+msh:Film_a_room_with_a_view_1986 a msh:Film ;
+    msh:imdbId "tt0091867" ;
+    msh:releaseYear "1986"^^xsd:gYear ;
+    msh:title "A Room with a View" .
+
+msh:Film_all_quiet_on_the_western_front_2022 a msh:Film ;
+    msh:imdbId "tt1016150" ;
+    msh:releaseYear "2022"^^xsd:gYear ;
+    msh:title "All Quiet on the Western Front" .
+
+msh:Film_american_beauty_1999 a msh:Film ;
+    msh:imdbId "tt0169547" ;
+    msh:releaseYear "1999"^^xsd:gYear ;
+    msh:title "American Beauty" .
+
+msh:Film_argo_2012 a msh:Film ;
+    msh:imdbId "tt1024648" ;
+    msh:releaseYear "2012"^^xsd:gYear ;
+    msh:title "Argo" .
+
+msh:Film_boyhood_2014 a msh:Film ;
+    msh:imdbId "tt1065073" ;
+    msh:releaseYear "2014"^^xsd:gYear ;
+    msh:title "Boyhood" .
+
+msh:Film_brokeback_mountain_2005 a msh:Film ;
+    msh:imdbId "tt0388795" ;
+    msh:releaseYear "2005"^^xsd:gYear ;
+    msh:title "Brokeback Mountain" .
+
+msh:Film_dead_poets_society_1989 a msh:Film ;
+    msh:imdbId "tt0097165" ;
+    msh:releaseYear "1989"^^xsd:gYear ;
+    msh:title "Dead Poets Society" .
+
+msh:Film_dr_strangelove_1964 a msh:Film ;
+    msh:imdbId "tt0057012" ;
+    msh:releaseYear "1964"^^xsd:gYear ;
+    msh:title "Dr. Strangelove" .
+
+msh:Film_forbidden_games_1953 a msh:Film ;
+    msh:imdbId "tt0043686" ;
+    msh:releaseYear "1953"^^xsd:gYear ;
+    msh:title "Forbidden Games" .
+
+msh:Film_four_weddings_and_a_funeral_1994 a msh:Film ;
+    msh:imdbId "tt0109831" ;
+    msh:releaseYear "1994"^^xsd:gYear ;
+    msh:title "Four Weddings and a Funeral" .
+
+msh:Film_gladiator_2000 a msh:Film ;
+    msh:imdbId "tt0172495" ;
+    msh:releaseYear "2000"^^xsd:gYear ;
+    msh:title "Gladiator" .
+
+msh:Film_julia_1977 a msh:Film ;
+    msh:imdbId "tt0076245" ;
+    msh:releaseYear "1977"^^xsd:gYear ;
+    msh:title "Julia" .
+
+msh:Film_one_flew_over_the_cuckoo_s_nest_1975 a msh:Film ;
+    msh:imdbId "tt0073486" ;
+    msh:releaseYear "1975"^^xsd:gYear ;
+    msh:title "One Flew Over the Cuckoo's Nest" .
+
+msh:Film_oppenheimer_2023 a msh:Film ;
+    msh:imdbId "tt15398776" ;
+    msh:releaseYear "2023"^^xsd:gYear ;
+    msh:title "Oppenheimer" .
+
+msh:Film_pather_panchali_1957 a msh:Film ;
+    msh:imdbId "tt0048473" ;
+    msh:releaseYear "1957"^^xsd:gYear ;
+    msh:title "Pather Panchali" .
+
+msh:Film_richard_iii_1955 a msh:Film ;
+    msh:imdbId "tt0049674" ;
+    msh:releaseYear "1955"^^xsd:gYear ;
+    msh:title "Richard III" .
+
+msh:Film_roma_2018 a msh:Film ;
+    msh:imdbId "tt6155172" ;
+    msh:releaseYear "2018"^^xsd:gYear ;
+    msh:title "Roma" .
+
+msh:Film_schindler_s_list_1993 a msh:Film ;
+    msh:imdbId "tt0108052" ;
+    msh:releaseYear "1993"^^xsd:gYear ;
+    msh:title "Schindler's List" .
+
+msh:Film_slumdog_millionaire_2008 a msh:Film ;
+    msh:imdbId "tt1010048" ;
+    msh:releaseYear "2008"^^xsd:gYear ;
+    msh:title "Slumdog Millionaire" .
+
+msh:Film_the_best_years_of_our_lives_1946 a msh:Film ;
+    msh:imdbId "tt0036868" ;
+    msh:releaseYear "1946"^^xsd:gYear ;
+    msh:title "The Best Years of Our Lives" .
+
+msh:Film_the_english_patient_1996 a msh:Film ;
+    msh:imdbId "tt0116209" ;
+    msh:releaseYear "1996"^^xsd:gYear ;
+    msh:title "The English Patient" .
+
+msh:Film_the_hurt_locker_2009 a msh:Film ;
+    msh:imdbId "tt0887912" ;
+    msh:releaseYear "2009"^^xsd:gYear ;
+    msh:title "The Hurt Locker" .
+
+msh:Film_the_hustler_1961 a msh:Film ;
+    msh:imdbId "tt0054997" ;
+    msh:releaseYear "1961"^^xsd:gYear ;
+    msh:title "The Hustler" .
+
+msh:Film_the_king_s_speech_2010 a msh:Film ;
+    msh:imdbId "tt1504320" ;
+    msh:releaseYear "2010"^^xsd:gYear ;
+    msh:title "The King's Speech" .
+
+msh:Film_the_lord_of_the_rings_the_fellowship_of_the_ring_2001 a msh:Film ;
+    msh:imdbId "tt0120737" ;
+    msh:releaseYear "2001"^^xsd:gYear ;
+    msh:title "The Lord of the Rings: The Fellowship of the Ring" .
+
+msh:Film_the_queen_2006 a msh:Film ;
+    msh:imdbId "tt0436697" ;
+    msh:releaseYear "2006"^^xsd:gYear ;
+    msh:title "The Queen" .
+
+msh:Film_the_revenant_2015 a msh:Film ;
+    msh:imdbId "tt1663202" ;
+    msh:releaseYear "2015"^^xsd:gYear ;
+    msh:title "The Revenant" .
+
+msh:Film_the_wages_of_fear_1954 a msh:Film ;
+    msh:imdbId "tt0046268" ;
+    msh:releaseYear "1954"^^xsd:gYear ;
+    msh:title "The Wages of Fear" .
+
+msh:Film_three_billboards_outside_ebbing_missouri_2017 a msh:Film ;
+    msh:imdbId "tt5027774" ;
+    msh:releaseYear "2017"^^xsd:gYear ;
+    msh:title "Three Billboards Outside Ebbing, Missouri" .
+
+msh:Ceremony_bafta_2000 a msh:AwardCeremony ;
+    msh:ceremonyName "2000 BAFTA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_bafta ;
+    msh:yearCeremony "2000"^^xsd:gYear .
+
+msh:Ceremony_bafta_2009 a msh:AwardCeremony ;
+    msh:ceremonyName "2009 BAFTA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_bafta ;
+    msh:yearCeremony "2009"^^xsd:gYear .
+
+msh:Ceremony_bafta_2015 a msh:AwardCeremony ;
+    msh:ceremonyName "2015 BAFTA Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_bafta ;
+    msh:yearCeremony "2015"^^xsd:gYear .
+
+msh:AwardSystem_bafta a msh:AwardSystem ;
+    rdfs:label "BAFTA" ;
+    msh:shortName "BAFTA" ;
+    msh:systemName "BAFTA" .
+
+msh:Category_bafta_best_film a msh:AwardCategory ;
+    rdfs:label "Best Film" ;
+    msh:categoryName "Best Film" ;
+    msh:hasAwardSystem msh:AwardSystem_bafta .
+

@@ -38,7 +38,9 @@ MovieSHACL3:Person  rdfs:subClassOf  owl:Thing;
         rdfs:comment     "An individual involved in the creation or production of a movie. A Person may participate in one or more roles (director, actor, producer, etc.) via relationship properties on Film. Roles are expressed through relationships, not subclasses.\n"@en;
         sh:property      MovieSHACL3:Person-fullName;
         sh:property      MovieSHACL3:Person-birthYear;
+        sh:property      MovieSHACL3:Person-birthPlace;
         sh:property      MovieSHACL3:Person-biography;
+        sh:property      MovieSHACL3:Person-tmdbPersonId;
         sh:property      MovieSHACL3:Person-hasIdentifier;
         sh:property      MovieSHACL3:Person-label .
 
@@ -61,6 +63,20 @@ MovieSHACL3:Person-biography
         rdf:type     sh:PropertyShape;
         sh:name      "biography";
         sh:path      MovieSHACL3:biography;
+        sh:maxCount  1;
+        sh:datatype  xsd:string .
+
+MovieSHACL3:Person-birthPlace
+        rdf:type     sh:PropertyShape;
+        sh:name      "birthPlace";
+        sh:path      MovieSHACL3:birthPlace;
+        sh:maxCount  1;
+        sh:datatype  xsd:string .
+
+MovieSHACL3:Person-tmdbPersonId
+        rdf:type     sh:PropertyShape;
+        sh:name      "tmdbPersonId";
+        sh:path      MovieSHACL3:tmdbPersonId;
         sh:maxCount  1;
         sh:datatype  xsd:string .
 
@@ -398,8 +414,18 @@ MovieSHACL3:Film
         sh:property      MovieSHACL3:Film-country;
         sh:property      MovieSHACL3:Film-productionCompany;
         sh:property      MovieSHACL3:Film-budget;
+        sh:property      MovieSHACL3:Film-revenue;
+        sh:property      MovieSHACL3:Film-tmdbRating;
+        sh:property      MovieSHACL3:Film-tmdbPopularity;
+        sh:property      MovieSHACL3:Film-originalLanguage;
+        sh:property      MovieSHACL3:Film-releaseDate;
+        sh:property      MovieSHACL3:Film-imdbRating;
+        sh:property      MovieSHACL3:Film-rottenTomatoesScore;
+        sh:property      MovieSHACL3:Film-metacriticScore;
+        sh:property      MovieSHACL3:Film-mpaaRating;
         sh:property      MovieSHACL3:Film-boxOffice;
-        sh:property      MovieSHACL3:Film-synopsis .
+        sh:property      MovieSHACL3:Film-synopsis;
+        sh:property      MovieSHACL3:Film-enrichedAt .
 
 MovieSHACL3:AwardCategory-label
         rdf:type       sh:PropertyShape;
@@ -580,8 +606,76 @@ MovieSHACL3:Film-budget
         sh:name           "budget";
         sh:path           MovieSHACL3:budget;
         sh:maxCount       1;
-        sh:datatype       xsd:decimal;
+        sh:or             ( [ sh:datatype xsd:integer ] [ sh:datatype xsd:decimal ] );
         sh:minInclusive   0 .
+
+MovieSHACL3:Film-revenue
+        rdf:type          sh:PropertyShape;
+        sh:name           "revenue";
+        sh:path           MovieSHACL3:revenue;
+        sh:maxCount       1;
+        sh:datatype       xsd:integer;
+        sh:minInclusive   0 .
+
+MovieSHACL3:Film-tmdbRating
+        rdf:type     sh:PropertyShape;
+        sh:name      "tmdbRating";
+        sh:path      MovieSHACL3:tmdbRating;
+        sh:maxCount  1;
+        sh:datatype  xsd:float .
+
+MovieSHACL3:Film-tmdbPopularity
+        rdf:type     sh:PropertyShape;
+        sh:name      "tmdbPopularity";
+        sh:path      MovieSHACL3:tmdbPopularity;
+        sh:maxCount  1;
+        sh:datatype  xsd:float .
+
+MovieSHACL3:Film-originalLanguage
+        rdf:type     sh:PropertyShape;
+        sh:name      "originalLanguage";
+        sh:path      MovieSHACL3:originalLanguage;
+        sh:maxCount  1;
+        sh:datatype  xsd:string .
+
+MovieSHACL3:Film-releaseDate
+        rdf:type     sh:PropertyShape;
+        sh:name      "releaseDate";
+        sh:path      MovieSHACL3:releaseDate;
+        sh:maxCount  1;
+        sh:datatype  xsd:date .
+
+MovieSHACL3:Film-imdbRating
+        rdf:type     sh:PropertyShape;
+        sh:name      "imdbRating";
+        sh:path      MovieSHACL3:imdbRating;
+        sh:maxCount  1;
+        sh:datatype  xsd:float .
+
+MovieSHACL3:Film-rottenTomatoesScore
+        rdf:type          sh:PropertyShape;
+        sh:name           "rottenTomatoesScore";
+        sh:path           MovieSHACL3:rottenTomatoesScore;
+        sh:maxCount       1;
+        sh:datatype       xsd:integer;
+        sh:minInclusive   0;
+        sh:maxInclusive   100 .
+
+MovieSHACL3:Film-metacriticScore
+        rdf:type          sh:PropertyShape;
+        sh:name           "metacriticScore";
+        sh:path           MovieSHACL3:metacriticScore;
+        sh:maxCount       1;
+        sh:datatype       xsd:integer;
+        sh:minInclusive   0;
+        sh:maxInclusive   100 .
+
+MovieSHACL3:Film-mpaaRating
+        rdf:type     sh:PropertyShape;
+        sh:name      "mpaaRating";
+        sh:path      MovieSHACL3:mpaaRating;
+        sh:maxCount  1;
+        sh:datatype  xsd:string .
 
 MovieSHACL3:Film-boxOffice
         rdf:type          sh:PropertyShape;
@@ -597,3 +691,11 @@ MovieSHACL3:Film-synopsis
         sh:path      MovieSHACL3:synopsis;
         sh:maxCount  1;
         sh:datatype  xsd:string .
+
+MovieSHACL3:Film-enrichedAt
+        rdf:type     sh:PropertyShape;
+        sh:name      "enrichedAt";
+        sh:path      MovieSHACL3:enrichedAt;
+        sh:maxCount  1;
+        sh:datatype  xsd:date;
+        rdfs:comment "Date when enrichment data was collected from external APIs." .

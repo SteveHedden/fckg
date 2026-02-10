@@ -1,0 +1,542 @@
+@prefix msh: <http://example.org/ontologies/MovieSHACL3#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+msh:Nomination_golden_globes_1954_best_motion_picture_drama_the_robe_4e663ca0ff16 a msh:Nomination ;
+    msh:hasCategory msh:Category_golden_globes_best_motion_picture_drama ;
+    msh:hasCeremony msh:Ceremony_golden_globes_1954 ;
+    msh:hasFilm msh:Film_the_robe_1953 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_golden_globes_1954_best_motion_picture_musical_or_comedy_carmen_jones_59ea69e73f2c a msh:Nomination ;
+    msh:hasCategory msh:Category_golden_globes_best_motion_picture_musical_or_comedy ;
+    msh:hasCeremony msh:Ceremony_golden_globes_1954 ;
+    msh:hasFilm msh:Film_carmen_jones_1954 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_golden_globes_1956_best_motion_picture_drama_east_of_eden_bcb1316140de a msh:Nomination ;
+    msh:hasCategory msh:Category_golden_globes_best_motion_picture_drama ;
+    msh:hasCeremony msh:Ceremony_golden_globes_1956 ;
+    msh:hasFilm msh:Film_east_of_eden_1955 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_golden_globes_1958_best_motion_picture_drama_the_defiant_ones_46ce9cc810d1 a msh:Nomination ;
+    msh:hasCategory msh:Category_golden_globes_best_motion_picture_drama ;
+    msh:hasCeremony msh:Ceremony_golden_globes_1958 ;
+    msh:hasFilm msh:Film_the_defiant_ones_1958 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_golden_globes_1960_best_motion_picture_drama_spartacus_ac9967651c6c a msh:Nomination ;
+    msh:hasCategory msh:Category_golden_globes_best_motion_picture_drama ;
+    msh:hasCeremony msh:Ceremony_golden_globes_1960 ;
+    msh:hasFilm msh:Film_spartacus_1960 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_golden_globes_1964_best_motion_picture_drama_the_cardinal_d72656da78de a msh:Nomination ;
+    msh:hasCategory msh:Category_golden_globes_best_motion_picture_drama ;
+    msh:hasCeremony msh:Ceremony_golden_globes_1964 ;
+    msh:hasFilm msh:Film_the_cardinal_1963 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_golden_globes_1965_best_motion_picture_drama_doctor_zhivago_c4311ec1583f a msh:Nomination ;
+    msh:hasCategory msh:Category_golden_globes_best_motion_picture_drama ;
+    msh:hasCeremony msh:Ceremony_golden_globes_1965 ;
+    msh:hasFilm msh:Film_doctor_zhivago_1965 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_golden_globes_1967_best_motion_picture_musical_or_comedy_lawrence_turman_5de2036fa085 a msh:Nomination ;
+    msh:hasCategory msh:Category_golden_globes_best_motion_picture_musical_or_comedy ;
+    msh:hasCeremony msh:Ceremony_golden_globes_1967 ;
+    msh:hasFilm msh:Film_lawrence_turman_1966 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_golden_globes_1969_best_motion_picture_musical_or_comedy_the_secret_of_santa_vittoria_888600449eb0 a msh:Nomination ;
+    msh:hasCategory msh:Category_golden_globes_best_motion_picture_musical_or_comedy ;
+    msh:hasCeremony msh:Ceremony_golden_globes_1969 ;
+    msh:hasFilm msh:Film_the_secret_of_santa_vittoria_1969 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_golden_globes_1970_best_motion_picture_drama_love_story_66000634ff34 a msh:Nomination ;
+    msh:hasCategory msh:Category_golden_globes_best_motion_picture_drama ;
+    msh:hasCeremony msh:Ceremony_golden_globes_1970 ;
+    msh:hasFilm msh:Film_love_story_1970 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_golden_globes_1973_best_motion_picture_drama_the_godfather_228c36b26330 a msh:Nomination ;
+    msh:hasCategory msh:Category_golden_globes_best_motion_picture_drama ;
+    msh:hasCeremony msh:Ceremony_golden_globes_1973 ;
+    msh:hasFilm msh:Film_the_godfather_1972 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_golden_globes_1974_best_motion_picture_drama_the_exorcist_351e7d701a92 a msh:Nomination ;
+    msh:hasCategory msh:Category_golden_globes_best_motion_picture_drama ;
+    msh:hasCeremony msh:Ceremony_golden_globes_1974 ;
+    msh:hasFilm msh:Film_the_exorcist_1973 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_golden_globes_1978_best_motion_picture_drama_midnight_express_03e500a99916 a msh:Nomination ;
+    msh:hasCategory msh:Category_golden_globes_best_motion_picture_drama ;
+    msh:hasCeremony msh:Ceremony_golden_globes_1978 ;
+    msh:hasFilm msh:Film_midnight_express_1978 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_golden_globes_1983_best_motion_picture_drama_e_t_the_extra_terrestrial_8095c81aa77e a msh:Nomination ;
+    msh:hasCategory msh:Category_golden_globes_best_motion_picture_drama ;
+    msh:hasCeremony msh:Ceremony_golden_globes_1983 ;
+    msh:hasFilm msh:Film_e_t_the_extra_terrestrial_1982 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_golden_globes_1986_best_motion_picture_drama_platoon_17f19f1bc960 a msh:Nomination ;
+    msh:hasCategory msh:Category_golden_globes_best_motion_picture_drama ;
+    msh:hasCeremony msh:Ceremony_golden_globes_1986 ;
+    msh:hasFilm msh:Film_platoon_1986 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_golden_globes_1996_best_motion_picture_drama_the_english_patient_7015d1614fca a msh:Nomination ;
+    msh:hasCategory msh:Category_golden_globes_best_motion_picture_drama ;
+    msh:hasCeremony msh:Ceremony_golden_globes_1996 ;
+    msh:hasFilm msh:Film_the_english_patient_1996 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_golden_globes_1999_best_motion_picture_drama_saving_private_ryan_69ce8abe891e a msh:Nomination ;
+    msh:hasCategory msh:Category_golden_globes_best_motion_picture_drama ;
+    msh:hasCeremony msh:Ceremony_golden_globes_1999 ;
+    msh:hasFilm msh:Film_saving_private_ryan_1998 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_golden_globes_2003_best_motion_picture_musical_or_comedy_lost_in_translation_565970627460 a msh:Nomination ;
+    msh:hasCategory msh:Category_golden_globes_best_motion_picture_musical_or_comedy ;
+    msh:hasCeremony msh:Ceremony_golden_globes_2003 ;
+    msh:hasFilm msh:Film_lost_in_translation_2003 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_golden_globes_2009_best_motion_picture_drama_slumdog_millionaire_82593c566083 a msh:Nomination ;
+    msh:hasCategory msh:Category_golden_globes_best_motion_picture_drama ;
+    msh:hasCeremony msh:Ceremony_golden_globes_2009 ;
+    msh:hasFilm msh:Film_slumdog_millionaire_2008 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_golden_globes_2010_best_motion_picture_drama_avatar_36a5aa785bd5 a msh:Nomination ;
+    msh:hasCategory msh:Category_golden_globes_best_motion_picture_drama ;
+    msh:hasCeremony msh:Ceremony_golden_globes_2010 ;
+    msh:hasFilm msh:Film_avatar_2009 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_golden_globes_2013_best_motion_picture_drama_12_years_a_slave_78c76aca0306 a msh:Nomination ;
+    msh:hasCategory msh:Category_golden_globes_best_motion_picture_drama ;
+    msh:hasCeremony msh:Ceremony_golden_globes_2013 ;
+    msh:hasFilm msh:Film_12_years_a_slave_2013 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_golden_globes_2017_best_motion_picture_drama_moonlight_dd40a4178d75 a msh:Nomination ;
+    msh:hasCategory msh:Category_golden_globes_best_motion_picture_drama ;
+    msh:hasCeremony msh:Ceremony_golden_globes_2017 ;
+    msh:hasFilm msh:Film_moonlight_2016 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_golden_globes_2018_best_motion_picture_drama_three_billboards_outside_ebbing_missouri_664e869ec15d a msh:Nomination ;
+    msh:hasCategory msh:Category_golden_globes_best_motion_picture_drama ;
+    msh:hasCeremony msh:Ceremony_golden_globes_2018 ;
+    msh:hasFilm msh:Film_three_billboards_outside_ebbing_missouri_2017 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_golden_globes_2019_best_motion_picture_drama_bohemian_rhapsody_7e5bd7e045c1 a msh:Nomination ;
+    msh:hasCategory msh:Category_golden_globes_best_motion_picture_drama ;
+    msh:hasCeremony msh:Ceremony_golden_globes_2019 ;
+    msh:hasFilm msh:Film_bohemian_rhapsody_2018 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_golden_globes_2020_best_motion_picture_drama_1917_ceffd8c3b8bb a msh:Nomination ;
+    msh:hasCategory msh:Category_golden_globes_best_motion_picture_drama ;
+    msh:hasCeremony msh:Ceremony_golden_globes_2020 ;
+    msh:hasFilm msh:Film_1917_2019 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_golden_globes_2021_best_motion_picture_drama_the_power_of_the_dog_70b61217a46e a msh:Nomination ;
+    msh:hasCategory msh:Category_golden_globes_best_motion_picture_drama ;
+    msh:hasCeremony msh:Ceremony_golden_globes_2021 ;
+    msh:hasFilm msh:Film_the_power_of_the_dog_2021 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_golden_globes_2021_best_motion_picture_musical_or_comedy_west_side_story_92f2fb3dd7bd a msh:Nomination ;
+    msh:hasCategory msh:Category_golden_globes_best_motion_picture_musical_or_comedy ;
+    msh:hasCeremony msh:Ceremony_golden_globes_2021 ;
+    msh:hasFilm msh:Film_west_side_story_2020 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_golden_globes_2023_best_motion_picture_drama_the_fabelmans_ed350c3f7383 a msh:Nomination ;
+    msh:hasCategory msh:Category_golden_globes_best_motion_picture_drama ;
+    msh:hasCeremony msh:Ceremony_golden_globes_2023 ;
+    msh:hasFilm msh:Film_the_fabelmans_2022 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_golden_globes_2023_best_motion_picture_musical_or_comedy_poor_things_c37647ff9d59 a msh:Nomination ;
+    msh:hasCategory msh:Category_golden_globes_best_motion_picture_musical_or_comedy ;
+    msh:hasCeremony msh:Ceremony_golden_globes_2023 ;
+    msh:hasFilm msh:Film_poor_things_2023 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_golden_globes_2023_best_motion_picture_musical_or_comedy_the_banshees_of_inisherin_86e2a59c8dd5 a msh:Nomination ;
+    msh:hasCategory msh:Category_golden_globes_best_motion_picture_musical_or_comedy ;
+    msh:hasCeremony msh:Ceremony_golden_globes_2023 ;
+    msh:hasFilm msh:Film_the_banshees_of_inisherin_2022 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_golden_globes_2024_best_motion_picture_drama_oppenheimer_c5d66467f336 a msh:Nomination ;
+    msh:hasCategory msh:Category_golden_globes_best_motion_picture_drama ;
+    msh:hasCeremony msh:Ceremony_golden_globes_2024 ;
+    msh:hasFilm msh:Film_oppenheimer_2023 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Nomination_golden_globes_2025_best_motion_picture_drama_the_brutalist_d8c0c9b6eb7a a msh:Nomination ;
+    msh:hasCategory msh:Category_golden_globes_best_motion_picture_drama ;
+    msh:hasCeremony msh:Ceremony_golden_globes_2025 ;
+    msh:hasFilm msh:Film_the_brutalist_2024 ;
+    msh:nomineeType "FILM" ;
+    msh:winner true .
+
+msh:Ceremony_golden_globes_1956 a msh:AwardCeremony ;
+    msh:ceremonyName "1956 Golden Globes" ;
+    msh:hasAwardSystem msh:AwardSystem_golden_globes ;
+    msh:yearCeremony "1956"^^xsd:gYear .
+
+msh:Ceremony_golden_globes_1958 a msh:AwardCeremony ;
+    msh:ceremonyName "1958 Golden Globes" ;
+    msh:hasAwardSystem msh:AwardSystem_golden_globes ;
+    msh:yearCeremony "1958"^^xsd:gYear .
+
+msh:Ceremony_golden_globes_1960 a msh:AwardCeremony ;
+    msh:ceremonyName "1960 Golden Globes" ;
+    msh:hasAwardSystem msh:AwardSystem_golden_globes ;
+    msh:yearCeremony "1960"^^xsd:gYear .
+
+msh:Ceremony_golden_globes_1964 a msh:AwardCeremony ;
+    msh:ceremonyName "1964 Golden Globes" ;
+    msh:hasAwardSystem msh:AwardSystem_golden_globes ;
+    msh:yearCeremony "1964"^^xsd:gYear .
+
+msh:Ceremony_golden_globes_1965 a msh:AwardCeremony ;
+    msh:ceremonyName "1965 Golden Globes" ;
+    msh:hasAwardSystem msh:AwardSystem_golden_globes ;
+    msh:yearCeremony "1965"^^xsd:gYear .
+
+msh:Ceremony_golden_globes_1967 a msh:AwardCeremony ;
+    msh:ceremonyName "1967 Golden Globes" ;
+    msh:hasAwardSystem msh:AwardSystem_golden_globes ;
+    msh:yearCeremony "1967"^^xsd:gYear .
+
+msh:Ceremony_golden_globes_1969 a msh:AwardCeremony ;
+    msh:ceremonyName "1969 Golden Globes" ;
+    msh:hasAwardSystem msh:AwardSystem_golden_globes ;
+    msh:yearCeremony "1969"^^xsd:gYear .
+
+msh:Ceremony_golden_globes_1970 a msh:AwardCeremony ;
+    msh:ceremonyName "1970 Golden Globes" ;
+    msh:hasAwardSystem msh:AwardSystem_golden_globes ;
+    msh:yearCeremony "1970"^^xsd:gYear .
+
+msh:Ceremony_golden_globes_1973 a msh:AwardCeremony ;
+    msh:ceremonyName "1973 Golden Globes" ;
+    msh:hasAwardSystem msh:AwardSystem_golden_globes ;
+    msh:yearCeremony "1973"^^xsd:gYear .
+
+msh:Ceremony_golden_globes_1974 a msh:AwardCeremony ;
+    msh:ceremonyName "1974 Golden Globes" ;
+    msh:hasAwardSystem msh:AwardSystem_golden_globes ;
+    msh:yearCeremony "1974"^^xsd:gYear .
+
+msh:Ceremony_golden_globes_1978 a msh:AwardCeremony ;
+    msh:ceremonyName "1978 Golden Globes" ;
+    msh:hasAwardSystem msh:AwardSystem_golden_globes ;
+    msh:yearCeremony "1978"^^xsd:gYear .
+
+msh:Ceremony_golden_globes_1983 a msh:AwardCeremony ;
+    msh:ceremonyName "1983 Golden Globes" ;
+    msh:hasAwardSystem msh:AwardSystem_golden_globes ;
+    msh:yearCeremony "1983"^^xsd:gYear .
+
+msh:Ceremony_golden_globes_1986 a msh:AwardCeremony ;
+    msh:ceremonyName "1986 Golden Globes" ;
+    msh:hasAwardSystem msh:AwardSystem_golden_globes ;
+    msh:yearCeremony "1986"^^xsd:gYear .
+
+msh:Ceremony_golden_globes_1996 a msh:AwardCeremony ;
+    msh:ceremonyName "1996 Golden Globes" ;
+    msh:hasAwardSystem msh:AwardSystem_golden_globes ;
+    msh:yearCeremony "1996"^^xsd:gYear .
+
+msh:Ceremony_golden_globes_1999 a msh:AwardCeremony ;
+    msh:ceremonyName "1999 Golden Globes" ;
+    msh:hasAwardSystem msh:AwardSystem_golden_globes ;
+    msh:yearCeremony "1999"^^xsd:gYear .
+
+msh:Ceremony_golden_globes_2003 a msh:AwardCeremony ;
+    msh:ceremonyName "2003 Golden Globes" ;
+    msh:hasAwardSystem msh:AwardSystem_golden_globes ;
+    msh:yearCeremony "2003"^^xsd:gYear .
+
+msh:Ceremony_golden_globes_2009 a msh:AwardCeremony ;
+    msh:ceremonyName "2009 Golden Globes" ;
+    msh:hasAwardSystem msh:AwardSystem_golden_globes ;
+    msh:yearCeremony "2009"^^xsd:gYear .
+
+msh:Ceremony_golden_globes_2010 a msh:AwardCeremony ;
+    msh:ceremonyName "2010 Golden Globes" ;
+    msh:hasAwardSystem msh:AwardSystem_golden_globes ;
+    msh:yearCeremony "2010"^^xsd:gYear .
+
+msh:Ceremony_golden_globes_2013 a msh:AwardCeremony ;
+    msh:ceremonyName "2013 Golden Globes" ;
+    msh:hasAwardSystem msh:AwardSystem_golden_globes ;
+    msh:yearCeremony "2013"^^xsd:gYear .
+
+msh:Ceremony_golden_globes_2017 a msh:AwardCeremony ;
+    msh:ceremonyName "2017 Golden Globes" ;
+    msh:hasAwardSystem msh:AwardSystem_golden_globes ;
+    msh:yearCeremony "2017"^^xsd:gYear .
+
+msh:Ceremony_golden_globes_2018 a msh:AwardCeremony ;
+    msh:ceremonyName "2018 Golden Globes" ;
+    msh:hasAwardSystem msh:AwardSystem_golden_globes ;
+    msh:yearCeremony "2018"^^xsd:gYear .
+
+msh:Ceremony_golden_globes_2019 a msh:AwardCeremony ;
+    msh:ceremonyName "2019 Golden Globes" ;
+    msh:hasAwardSystem msh:AwardSystem_golden_globes ;
+    msh:yearCeremony "2019"^^xsd:gYear .
+
+msh:Ceremony_golden_globes_2020 a msh:AwardCeremony ;
+    msh:ceremonyName "2020 Golden Globes" ;
+    msh:hasAwardSystem msh:AwardSystem_golden_globes ;
+    msh:yearCeremony "2020"^^xsd:gYear .
+
+msh:Ceremony_golden_globes_2024 a msh:AwardCeremony ;
+    msh:ceremonyName "2024 Golden Globes" ;
+    msh:hasAwardSystem msh:AwardSystem_golden_globes ;
+    msh:yearCeremony "2024"^^xsd:gYear .
+
+msh:Ceremony_golden_globes_2025 a msh:AwardCeremony ;
+    msh:ceremonyName "2025 Golden Globes" ;
+    msh:hasAwardSystem msh:AwardSystem_golden_globes ;
+    msh:yearCeremony "2025"^^xsd:gYear .
+
+msh:Film_12_years_a_slave_2013 a msh:Film ;
+    msh:imdbId "tt2024544" ;
+    msh:releaseYear "2013"^^xsd:gYear ;
+    msh:title "12 Years a Slave" .
+
+msh:Film_1917_2019 a msh:Film ;
+    msh:imdbId "tt8579674" ;
+    msh:releaseYear "2019"^^xsd:gYear ;
+    msh:title "1917" .
+
+msh:Film_avatar_2009 a msh:Film ;
+    msh:imdbId "tt0499549" ;
+    msh:releaseYear "2009"^^xsd:gYear ;
+    msh:title "Avatar" .
+
+msh:Film_bohemian_rhapsody_2018 a msh:Film ;
+    msh:imdbId "tt1727824" ;
+    msh:releaseYear "2018"^^xsd:gYear ;
+    msh:title "Bohemian Rhapsody" .
+
+msh:Film_carmen_jones_1954 a msh:Film ;
+    msh:imdbId "tt0046828" ;
+    msh:releaseYear "1954"^^xsd:gYear ;
+    msh:title "Carmen Jones" .
+
+msh:Film_doctor_zhivago_1965 a msh:Film ;
+    msh:imdbId "tt0059113" ;
+    msh:releaseYear "1965"^^xsd:gYear ;
+    msh:title "Doctor Zhivago" .
+
+msh:Film_e_t_the_extra_terrestrial_1982 a msh:Film ;
+    msh:imdbId "tt0083866" ;
+    msh:releaseYear "1982"^^xsd:gYear ;
+    msh:title "E.T. the Extra-Terrestrial" .
+
+msh:Film_east_of_eden_1955 a msh:Film ;
+    msh:imdbId "tt0048028" ;
+    msh:releaseYear "1955"^^xsd:gYear ;
+    msh:title "East of Eden" .
+
+msh:Film_lawrence_turman_1966 a msh:Film ;
+    msh:releaseYear "1966"^^xsd:gYear ;
+    msh:title "Lawrence Turman" .
+
+msh:Film_lost_in_translation_2003 a msh:Film ;
+    msh:imdbId "tt0335266" ;
+    msh:releaseYear "2003"^^xsd:gYear ;
+    msh:title "Lost in Translation" .
+
+msh:Film_love_story_1970 a msh:Film ;
+    msh:imdbId "tt0066011" ;
+    msh:releaseYear "1970"^^xsd:gYear ;
+    msh:title "Love Story" .
+
+msh:Film_midnight_express_1978 a msh:Film ;
+    msh:imdbId "tt0077928" ;
+    msh:releaseYear "1978"^^xsd:gYear ;
+    msh:title "Midnight Express" .
+
+msh:Film_moonlight_2016 a msh:Film ;
+    msh:imdbId "tt4975722" ;
+    msh:releaseYear "2016"^^xsd:gYear ;
+    msh:title "Moonlight" .
+
+msh:Film_oppenheimer_2023 a msh:Film ;
+    msh:imdbId "tt15398776" ;
+    msh:releaseYear "2023"^^xsd:gYear ;
+    msh:title "Oppenheimer" .
+
+msh:Film_platoon_1986 a msh:Film ;
+    msh:imdbId "tt0091763" ;
+    msh:releaseYear "1986"^^xsd:gYear ;
+    msh:title "Platoon" .
+
+msh:Film_poor_things_2023 a msh:Film ;
+    msh:imdbId "tt14230458" ;
+    msh:releaseYear "2023"^^xsd:gYear ;
+    msh:title "Poor Things" .
+
+msh:Film_saving_private_ryan_1998 a msh:Film ;
+    msh:imdbId "tt0120815" ;
+    msh:releaseYear "1998"^^xsd:gYear ;
+    msh:title "Saving Private Ryan" .
+
+msh:Film_slumdog_millionaire_2008 a msh:Film ;
+    msh:imdbId "tt1010048" ;
+    msh:releaseYear "2008"^^xsd:gYear ;
+    msh:title "Slumdog Millionaire" .
+
+msh:Film_spartacus_1960 a msh:Film ;
+    msh:imdbId "tt0054331" ;
+    msh:releaseYear "1960"^^xsd:gYear ;
+    msh:title "Spartacus" .
+
+msh:Film_the_banshees_of_inisherin_2022 a msh:Film ;
+    msh:imdbId "tt11813216" ;
+    msh:releaseYear "2022"^^xsd:gYear ;
+    msh:title "The Banshees of Inisherin" .
+
+msh:Film_the_brutalist_2024 a msh:Film ;
+    msh:imdbId "tt8999762" ;
+    msh:releaseYear "2024"^^xsd:gYear ;
+    msh:title "The Brutalist" .
+
+msh:Film_the_cardinal_1963 a msh:Film ;
+    msh:imdbId "tt0056907" ;
+    msh:releaseYear "1963"^^xsd:gYear ;
+    msh:title "The Cardinal" .
+
+msh:Film_the_defiant_ones_1958 a msh:Film ;
+    msh:imdbId "tt0051525" ;
+    msh:releaseYear "1958"^^xsd:gYear ;
+    msh:title "The Defiant Ones" .
+
+msh:Film_the_english_patient_1996 a msh:Film ;
+    msh:imdbId "tt0116209" ;
+    msh:releaseYear "1996"^^xsd:gYear ;
+    msh:title "The English Patient" .
+
+msh:Film_the_exorcist_1973 a msh:Film ;
+    msh:imdbId "tt0070047" ;
+    msh:releaseYear "1973"^^xsd:gYear ;
+    msh:title "The Exorcist" .
+
+msh:Film_the_fabelmans_2022 a msh:Film ;
+    msh:imdbId "tt14208870" ;
+    msh:releaseYear "2022"^^xsd:gYear ;
+    msh:title "The Fabelmans" .
+
+msh:Film_the_godfather_1972 a msh:Film ;
+    msh:imdbId "tt0068646" ;
+    msh:releaseYear "1972"^^xsd:gYear ;
+    msh:title "The Godfather" .
+
+msh:Film_the_power_of_the_dog_2021 a msh:Film ;
+    msh:imdbId "tt10293406" ;
+    msh:releaseYear "2021"^^xsd:gYear ;
+    msh:title "The Power of the Dog" .
+
+msh:Film_the_robe_1953 a msh:Film ;
+    msh:imdbId "tt0046247" ;
+    msh:releaseYear "1953"^^xsd:gYear ;
+    msh:title "The Robe" .
+
+msh:Film_the_secret_of_santa_vittoria_1969 a msh:Film ;
+    msh:imdbId "tt0064952" ;
+    msh:releaseYear "1969"^^xsd:gYear ;
+    msh:title "The Secret of Santa Vittoria" .
+
+msh:Film_three_billboards_outside_ebbing_missouri_2017 a msh:Film ;
+    msh:imdbId "tt5027774" ;
+    msh:releaseYear "2017"^^xsd:gYear ;
+    msh:title "Three Billboards Outside Ebbing, Missouri" .
+
+msh:Film_west_side_story_2020 a msh:Film ;
+    msh:imdbId "tt3581652" ;
+    msh:releaseYear "2020"^^xsd:gYear ;
+    msh:title "West Side Story" .
+
+msh:Ceremony_golden_globes_1954 a msh:AwardCeremony ;
+    msh:ceremonyName "1954 Golden Globes" ;
+    msh:hasAwardSystem msh:AwardSystem_golden_globes ;
+    msh:yearCeremony "1954"^^xsd:gYear .
+
+msh:Ceremony_golden_globes_2021 a msh:AwardCeremony ;
+    msh:ceremonyName "2021 Golden Globes" ;
+    msh:hasAwardSystem msh:AwardSystem_golden_globes ;
+    msh:yearCeremony "2021"^^xsd:gYear .
+
+msh:Ceremony_golden_globes_2023 a msh:AwardCeremony ;
+    msh:ceremonyName "2023 Golden Globes" ;
+    msh:hasAwardSystem msh:AwardSystem_golden_globes ;
+    msh:yearCeremony "2023"^^xsd:gYear .
+
+msh:Category_golden_globes_best_motion_picture_musical_or_comedy a msh:AwardCategory ;
+    rdfs:label "Best Motion Picture - Musical or Comedy" ;
+    msh:categoryName "Best Motion Picture - Musical or Comedy" ;
+    msh:hasAwardSystem msh:AwardSystem_golden_globes .
+
+msh:Category_golden_globes_best_motion_picture_drama a msh:AwardCategory ;
+    rdfs:label "Best Motion Picture - Drama" ;
+    msh:categoryName "Best Motion Picture - Drama" ;
+    msh:hasAwardSystem msh:AwardSystem_golden_globes .
+
+msh:AwardSystem_golden_globes a msh:AwardSystem ;
+    rdfs:label "GOLDEN_GLOBES" ;
+    msh:shortName "GOLDEN_GLOBES" ;
+    msh:systemName "GOLDEN_GLOBES" .
+
