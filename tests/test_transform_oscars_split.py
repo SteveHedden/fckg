@@ -206,7 +206,7 @@ def test_transform_oscars_split_builds_aligned_split_graphs(tmp_path: Path) -> N
     assert not list(films_graph.triples((None, MSH.wikidataId, None)))
 
     nominee_types = {str(obj) for obj in nominations_graph.objects(None, MSH.nomineeType)}
-    assert nominee_types == {"FILM", "PERSON", "COLLABORATION"}
+    assert nominee_types == {"FILM", "PERSON"}
 
     film_uris = {s for s in films_graph.subjects(RDF.type, MSH.Film)}
     nominee_uris = {s for s in people_graph.subjects(RDF.type, MSH.Person)}
@@ -347,7 +347,6 @@ def test_oscar_split_instances_are_within_expected_bounds_and_shacl_conform() ->
         "actor in a supporting role",
         "actress in a supporting role",
     }
-    saw_collaboration = False
     for nom in nominations_graph.subjects(RDF.type, MSH.Nomination):
         nominee_count = len(set(nominations_graph.objects(nom, MSH.hasNominee)))
         category_uri = next(nominations_graph.objects(nom, MSH.hasCategory), None)
@@ -360,9 +359,10 @@ def test_oscar_split_instances_are_within_expected_bounds_and_shacl_conform() ->
             assert nominee_count == 1
         nominee_type_obj = next(nominations_graph.objects(nom, MSH.nomineeType), None)
         if nominee_type_obj is not None and str(nominee_type_obj) == "COLLABORATION":
-            assert nominee_count >= 1
-            saw_collaboration = True
-    assert saw_collaboration
+            assert nominee_count > 1
+        if category_name in acting_categories:
+            assert nominee_type_obj is not None
+            assert str(nominee_type_obj) == "PERSON"
 
     mutiny_nominations = [
         nom
@@ -376,6 +376,10 @@ def test_oscar_split_instances_are_within_expected_bounds_and_shacl_conform() ->
         )
     ]
     assert len(mutiny_nominations) == 3
+    for nom in mutiny_nominations:
+        nominee_type_obj = next(nominations_graph.objects(nom, MSH.nomineeType), None)
+        assert nominee_type_obj is not None
+        assert str(nominee_type_obj) == "PERSON"
 
     sunrise_cinematography_nominations = [
         nom
@@ -389,10 +393,11 @@ def test_oscar_split_instances_are_within_expected_bounds_and_shacl_conform() ->
         )
     ]
     assert sunrise_cinematography_nominations
-    assert any(
-        str(next(nominations_graph.objects(nom, MSH.nomineeType), "")) == "COLLABORATION"
-        for nom in sunrise_cinematography_nominations
-    )
+    for nom in sunrise_cinematography_nominations:
+        nominee_type_obj = next(nominations_graph.objects(nom, MSH.nomineeType), None)
+        nominee_count = len(set(nominations_graph.objects(nom, MSH.hasNominee)))
+        if nominee_type_obj is not None and str(nominee_type_obj) == "COLLABORATION":
+            assert nominee_count > 1
 
     def _as_str(x: str | None) -> str | None:
         if x is None:

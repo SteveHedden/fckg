@@ -222,7 +222,6 @@ def _build_graphs(rows: list[dict[str, str]]) -> tuple[Graph, Graph, Graph, dict
     categories: dict[str, URIRef] = {}
     category_labels: dict[str, str] = {}
     row_nominations: list[RowNomination] = []
-    nominee_counts_by_group: dict[tuple[int, str, str, int], set[str]] = {}
     ceremony_numbers: dict[int, int] = {}
 
     for row in rows:
@@ -294,8 +293,6 @@ def _build_graphs(rows: list[dict[str, str]]) -> tuple[Graph, Graph, Graph, dict
         film_key = (film_name or "").casefold()
         group_key = (year_ceremony, category_key, film_key, year_film)
         nominee_token = str(person_uri).split("#")[-1] if person_uri is not None else None
-        if nominee_token:
-            nominee_counts_by_group.setdefault(group_key, set()).add(nominee_token)
         row_nominations.append(
             RowNomination(
                 ceremony_year=year_ceremony,
@@ -378,7 +375,8 @@ def _build_graphs(rows: list[dict[str, str]]) -> tuple[Graph, Graph, Graph, dict
             )
             nomination_uris.add(nomination_uri)
 
-            nominee_count = len(nominee_counts_by_group.get(base.group_key, set()))
+            nomination_nominee_uris = sorted({n.nominee_uri for n in resolved_rows if n.nominee_uri is not None}, key=str)
+            nominee_count = len(nomination_nominee_uris)
             nominee_type = infer_nominee_type(base.category_name, nominee_count)
             film_uri = next((n.film_uri for n in resolved_rows if n.film_uri is not None), None)
             canon_category_uri = next((n.canon_category_uri for n in resolved_rows if n.canon_category_uri is not None), None)
@@ -392,7 +390,7 @@ def _build_graphs(rows: list[dict[str, str]]) -> tuple[Graph, Graph, Graph, dict
                 nominations_graph.set((nomination_uri, MSH.hasFilm, film_uri))
             if canon_category_uri is not None:
                 nominations_graph.set((nomination_uri, MSH.hasCanonCategory, canon_category_uri))
-            for nominee_uri in sorted({n.nominee_uri for n in resolved_rows if n.nominee_uri is not None}, key=str):
+            for nominee_uri in nomination_nominee_uris:
                 nominations_graph.add((nomination_uri, MSH.hasNominee, nominee_uri))
 
     for film in sorted(films.values(), key=lambda f: str(f.uri)):
