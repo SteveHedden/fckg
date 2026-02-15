@@ -1,6 +1,6 @@
 # Film Club Knowledge Graph (FCKG)
 
-An RDF/OWL knowledge graph of award nominations across six major film award systems, designed for predictive modeling, longitudinal analysis, and enrichment via external APIs.
+An RDF knowledge graph of award nominations across six major film award systems, with a SHACL-based ontology for validation and inference. Designed for predictive modeling, longitudinal analysis, and enrichment via external APIs.
 
 ## Data Foundation
 
@@ -8,7 +8,7 @@ The publishable data foundation consists of the ontology plus instance data. Eve
 
 ### Ontology
 
-`movieontology.ttl` defines the schema using OWL classes with SHACL validation shapes:
+`movieontology.ttl` defines the schema using SHACL node shapes and property shapes:
 
 | Class | Description |
 |-------|-------------|
