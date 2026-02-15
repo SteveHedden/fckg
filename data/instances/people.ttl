@@ -1169,10 +1169,6 @@ msh:Person_Alfredo_Giannetti a msh:Person ;
     msh:fullName "Alfredo Giannetti" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0316251> .
 
-msh:Person_Algeria a msh:Person ;
-    rdfs:label "Algeria" ;
-    msh:fullName "Algeria" .
-
 msh:Person_Algernon_G_Walker a msh:Person ;
     rdfs:label "Algernon G. Walker" ;
     msh:fullName "Algernon G. Walker" ;
@@ -2212,11 +2208,6 @@ msh:Person_Annette_Sch_ffler a msh:Person ;
     msh:fullName "Annette Schäffler" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0778105> .
 
-msh:Person_Annie_Dorfmann a msh:Person ;
-    rdfs:label "Annie Dorfmann" ;
-    msh:fullName "Annie Dorfmann" ;
-    msh:hasIdentifier <https://www.imdb.com/name/nm0216142> .
-
 msh:Person_Annie_Lennox a msh:Person ;
     rdfs:label "Annie Lennox" ;
     msh:fullName "Annie Lennox" ;
@@ -2478,10 +2469,6 @@ msh:Person_Archie_Stout a msh:Person ;
     rdfs:label "Archie Stout" ;
     msh:fullName "Archie Stout" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0005887> .
-
-msh:Person_Argentina a msh:Person ;
-    rdfs:label "Argentina" ;
-    msh:fullName "Argentina" .
 
 msh:Person_Argosy_Wanger a msh:Person ;
     rdfs:label "Argosy-Wanger" ;
@@ -2918,6 +2905,11 @@ msh:Person_Assheton_Gorton a msh:Person ;
     msh:fullName "Assheton Gorton" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0331378> .
 
+msh:Person_Associates_Inc a msh:Person ;
+    rdfs:label "Associates Inc." ;
+    msh:entityType "ORGANIZATION" ;
+    msh:fullName "Associates Inc." .
+
 msh:Person_Atanas_Georgiev a msh:Person ;
     rdfs:label "Atanas Georgiev" ;
     msh:fullName "Atanas Georgiev" ;
@@ -2970,15 +2962,12 @@ msh:Person_Austin_Roberts a msh:Person ;
 
 msh:Person_Australian_Department_of_Information_Film_Unit a msh:Person ;
     rdfs:label "Australian Department of Information Film Unit" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "Australian Department of Information Film Unit" .
 
 msh:Person_Australian_News a msh:Person ;
     rdfs:label "Australian News" ;
     msh:fullName "Australian News" .
-
-msh:Person_Austria a msh:Person ;
-    rdfs:label "Austria" ;
-    msh:fullName "Austria" .
 
 msh:Person_Autumn_Durald_Arkapaw a msh:Person ;
     rdfs:label "Autumn Durald Arkapaw" ;
@@ -3319,9 +3308,9 @@ msh:Person_Bastien_Dubois a msh:Person ;
     msh:fullName "Bastien Dubois" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm3777126> .
 
-msh:Person_Bausch_Lomb_Optical_Company a msh:Person ;
-    rdfs:label "Bausch & Lomb Optical Company" ;
-    msh:fullName "Bausch & Lomb Optical Company" .
+msh:Person_Bausch a msh:Person ;
+    rdfs:label "Bausch" ;
+    msh:fullName "Bausch" .
 
 msh:Person_Bayley_Silleck a msh:Person ;
     rdfs:label "Bayley Silleck" ;
@@ -3395,11 +3384,12 @@ msh:Person_Beirne_Lay_Jr a msh:Person ;
 
 msh:Person_Belgian_Ministry_of_Information a msh:Person ;
     rdfs:label "Belgian Ministry of Information" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "Belgian Ministry of Information" .
 
-msh:Person_Bell_and_Howell_Company a msh:Person ;
-    rdfs:label "Bell and Howell Company" ;
-    msh:fullName "Bell and Howell Company" .
+msh:Person_Bell a msh:Person ;
+    rdfs:label "Bell" ;
+    msh:fullName "Bell" .
 
 msh:Person_Bella_Spewack a msh:Person ;
     rdfs:label "Bella Spewack" ;
@@ -3861,10 +3851,6 @@ msh:Person_Bhanu_Athaiya a msh:Person ;
     msh:fullName "Bhanu Athaiya" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0040390> .
 
-msh:Person_Bhutan a msh:Person ;
-    rdfs:label "Bhutan" ;
-    msh:fullName "Bhutan" .
-
 msh:Person_Bianca_Oana a msh:Person ;
     rdfs:label "Bianca Oana" ;
     msh:fullName "Bianca Oana" ;
@@ -4050,10 +4036,6 @@ msh:Person_Bill_Westenhofer a msh:Person ;
     rdfs:label "Bill Westenhofer" ;
     msh:fullName "Bill Westenhofer" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0922543> .
-
-msh:Person_Bill_and_Coo_in_which_artistry_and_patience_blended_in_a_novel_and_entertaining_use_of_the_medium_of_motion_pictures a msh:Person ;
-    rdfs:label "Bill and Coo, in which artistry and patience blended in a novel and entertaining use of the medium of motion pictures." ;
-    msh:fullName "Bill and Coo, in which artistry and patience blended in a novel and entertaining use of the medium of motion pictures." .
 
 msh:Person_Billie_Burke a msh:Person ;
     rdfs:label "Billie Burke" ;
@@ -4435,14 +4417,6 @@ msh:Person_Borja_Cobeaga a msh:Person ;
     msh:fullName "Borja Cobeaga" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm1141070> .
 
-msh:Person_Bosnia_Herzegovina a msh:Person ;
-    rdfs:label "Bosnia & Herzegovina" ;
-    msh:fullName "Bosnia & Herzegovina" .
-
-msh:Person_Bosnia_and_Herzegovina a msh:Person ;
-    rdfs:label "Bosnia and Herzegovina" ;
-    msh:fullName "Bosnia and Herzegovina" .
-
 msh:Person_Boyd_Estus a msh:Person ;
     rdfs:label "Boyd Estus" ;
     msh:fullName "Boyd Estus" ;
@@ -4552,10 +4526,6 @@ msh:Person_Braulio_Mantovani a msh:Person ;
     rdfs:label "Braulio Mantovani" ;
     msh:fullName "Braulio Mantovani" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm1130251> .
-
-msh:Person_Brazil a msh:Person ;
-    rdfs:label "Brazil" ;
-    msh:fullName "Brazil" .
 
 msh:Person_Brecht_Van_Elslande a msh:Person ;
     rdfs:label "Brecht Van Elslande" ;
@@ -4759,6 +4729,7 @@ msh:Person_Brigitte_Broch a msh:Person ;
 
 msh:Person_British_Ministry_of_Information a msh:Person ;
     rdfs:label "British Ministry of Information" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "British Ministry of Information" .
 
 msh:Person_Broderick_Crawford a msh:Person ;
@@ -4961,9 +4932,9 @@ msh:Person_Bryan_Litson a msh:Person ;
     msh:fullName "Bryan Litson" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm1849618> .
 
-msh:Person_Bryce_Dessner_Lyrics_by_Nick_Cave a msh:Person ;
-    rdfs:label "Bryce Dessner; Lyrics by Nick Cave" ;
-    msh:fullName "Bryce Dessner; Lyrics by Nick Cave" .
+msh:Person_Bryce_Dessner a msh:Person ;
+    rdfs:label "Bryce Dessner" ;
+    msh:fullName "Bryce Dessner" .
 
 msh:Person_Bryn_Mooser a msh:Person ;
     rdfs:label "Bryn Mooser" ;
@@ -5208,10 +5179,6 @@ msh:Person_Calvin_Jackson a msh:Person ;
     rdfs:label "Calvin Jackson" ;
     msh:fullName "Calvin Jackson" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0413330> .
-
-msh:Person_Cambodia a msh:Person ;
-    rdfs:label "Cambodia" ;
-    msh:fullName "Cambodia" .
 
 msh:Person_Cameron_Crowe a msh:Person ;
     rdfs:label "Cameron Crowe" ;
@@ -5983,10 +5950,6 @@ msh:Person_Charles_Guggenheim a msh:Person ;
     msh:fullName "Charles Guggenheim" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0346549> .
 
-msh:Person_Charles_Guggenheim_Associates_Inc a msh:Person ;
-    rdfs:label "Charles Guggenheim & Associates Inc." ;
-    msh:fullName "Charles Guggenheim & Associates Inc." .
-
 msh:Person_Charles_H_Joffe a msh:Person ;
     rdfs:label "Charles H. Joffe" ;
     msh:fullName "Charles H. Joffe" ;
@@ -6310,10 +6273,6 @@ msh:Person_Chief_Dan_George a msh:Person ;
     rdfs:label "Chief Dan George" ;
     msh:fullName "Chief Dan George" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0313381> .
-
-msh:Person_Chile a msh:Person ;
-    rdfs:label "Chile" ;
-    msh:fullName "Chile" .
 
 msh:Person_Chill_Wills a msh:Person ;
     rdfs:label "Chill Wills" ;
@@ -7227,10 +7186,6 @@ msh:Person_Colman_Domingo a msh:Person ;
     msh:fullName "Colman Domingo" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0231458> .
 
-msh:Person_Colombia a msh:Person ;
-    rdfs:label "Colombia" ;
-    msh:fullName "Colombia" .
-
 msh:Person_Comitato_Organizzatore_Del_Giochi_Della_XVII_Olimpiade a msh:Person ;
     rdfs:label "Comitato Organizzatore Del Giochi Della XVII Olimpiade" ;
     msh:fullName "Comitato Organizzatore Del Giochi Della XVII Olimpiade" .
@@ -7445,16 +7400,13 @@ msh:Person_Crispin_Struthers a msh:Person ;
 
 msh:Person_Crown_Film_Unit a msh:Person ;
     rdfs:label "Crown Film Unit" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "Crown Film Unit" .
 
 msh:Person_Crystal_Jurado a msh:Person ;
     rdfs:label "Crystal Jurado" ;
     msh:fullName "Crystal Jurado" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm10455135> .
-
-msh:Person_Cuba a msh:Person ;
-    rdfs:label "Cuba" ;
-    msh:fullName "Cuba" .
 
 msh:Person_Cuba_Gooding_Jr a msh:Person ;
     rdfs:label "Cuba Gooding Jr." ;
@@ -7545,14 +7497,6 @@ msh:Person_Cyrus_Neshvad a msh:Person ;
     rdfs:label "Cyrus Neshvad" ;
     msh:fullName "Cyrus Neshvad" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm1293977> .
-
-msh:Person_Czech_Republic a msh:Person ;
-    rdfs:label "Czech Republic" ;
-    msh:fullName "Czech Republic" .
-
-msh:Person_Czechoslovakia a msh:Person ;
-    rdfs:label "Czechoslovakia" ;
-    msh:fullName "Czechoslovakia" .
 
 msh:Person_DEaubonne a msh:Person ;
     rdfs:label "D'Eaubonne" ;
@@ -9605,6 +9549,7 @@ msh:Person_Dido a msh:Person ;
 
 msh:Person_Dido_Film_GmbH a msh:Person ;
     rdfs:label "Dido-Film-GmbH" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "Dido-Film-GmbH" .
 
 msh:Person_Diego_Fabbri a msh:Person ;
@@ -10425,6 +10370,7 @@ msh:Person_Earle_Mack a msh:Person ;
 
 msh:Person_Eastman_Kodak_Company a msh:Person ;
     rdfs:label "Eastman Kodak Company" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "Eastman Kodak Company" .
 
 msh:Person_Eckehard_Munck a msh:Person ;
@@ -10944,6 +10890,10 @@ msh:Person_Eirik_Tveiten a msh:Person ;
     rdfs:label "Eirik Tveiten" ;
     msh:fullName "Eirik Tveiten" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm5012126> .
+
+msh:Person_Ejae a msh:Person ;
+    rdfs:label "Ejae" ;
+    msh:fullName "Ejae" .
 
 msh:Person_Elaine_Holliman a msh:Person ;
     rdfs:label "Elaine Holliman" ;
@@ -11820,10 +11770,6 @@ msh:Person_Estelle_Parsons a msh:Person ;
     msh:fullName "Estelle Parsons" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0663820> .
 
-msh:Person_Estonia a msh:Person ;
-    rdfs:label "Estonia" ;
-    msh:fullName "Estonia" .
-
 msh:Person_Ethan_Coen a msh:Person ;
     rdfs:label "Ethan Coen" ;
     msh:fullName "Ethan Coen" ;
@@ -12065,6 +12011,7 @@ msh:Person_Faith_Hubley a msh:Person ;
 
 msh:Person_Falcon_Films_Inc a msh:Person ;
     rdfs:label "Falcon Films Inc." ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "Falcon Films Inc." .
 
 msh:Person_Fali_Bilimoria a msh:Person ;
@@ -12111,10 +12058,6 @@ msh:Person_Faye_Dunaway a msh:Person ;
     rdfs:label "Faye Dunaway" ;
     msh:fullName "Faye Dunaway" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0001159> .
-
-msh:Person_Federal_Republic_of_Germany a msh:Person ;
-    rdfs:label "Federal Republic of Germany" ;
-    msh:fullName "Federal Republic of Germany" .
 
 msh:Person_Federico_Fellini a msh:Person ;
     rdfs:label "Federico Fellini" ;
@@ -12222,11 +12165,8 @@ msh:Person_Film_Associates a msh:Person ;
 
 msh:Person_Film_Documents_Inc a msh:Person ;
     rdfs:label "Film Documents Inc." ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "Film Documents Inc." .
-
-msh:Person_Finland a msh:Person ;
-    rdfs:label "Finland" ;
-    msh:fullName "Finland" .
 
 msh:Person_Finneas_OConnell a msh:Person ;
     rdfs:label "Finneas O'Connell" ;
@@ -12984,11 +12924,6 @@ msh:Person_Fred_Zinnemann a msh:Person ;
     msh:fullName "Fred Zinnemann" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0003593> .
 
-msh:Person_Fred_Zinnemann_with_the_cooperation_of_Paramount_Pictures_Corporation_for_the_Los_Angeles_Orthopaedic_Hospital a msh:Person ;
-    rdfs:label "Fred Zinnemann with the cooperation of Paramount Pictures Corporation for the Los Angeles Orthopaedic Hospital'" ;
-    msh:fullName "Fred Zinnemann with the cooperation of Paramount Pictures Corporation for the Los Angeles Orthopaedic Hospital'" ;
-    msh:hasIdentifier <https://www.imdb.com/name/nm0003593> .
-
 msh:Person_Fredda_Weiss a msh:Person ;
     rdfs:label "Fredda Weiss" ;
     msh:fullName "Fredda Weiss" ;
@@ -13589,6 +13524,7 @@ msh:Person_Gene_de_Paul a msh:Person ;
 
 msh:Person_General_Service a msh:Person ;
     rdfs:label "General Service" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "General Service" .
 
 msh:Person_Genevieve_Bujold a msh:Person ;
@@ -14086,10 +14022,6 @@ msh:Person_Georges_Perinal a msh:Person ;
     msh:fullName "Georges Perinal" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0005838> .
 
-msh:Person_Georgia a msh:Person ;
-    rdfs:label "Georgia" ;
-    msh:fullName "Georgia" .
-
 msh:Person_Georgie_Stoll a msh:Person ;
     rdfs:label "Georgie Stoll" ;
     msh:fullName "Georgie Stoll" ;
@@ -14159,14 +14091,6 @@ msh:Person_Germaine_Franco a msh:Person ;
     rdfs:label "Germaine Franco" ;
     msh:fullName "Germaine Franco" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm1184901> .
-
-msh:Person_German_Democratic_Republic a msh:Person ;
-    rdfs:label "German Democratic Republic" ;
-    msh:fullName "German Democratic Republic" .
-
-msh:Person_German_Federal_Republic a msh:Person ;
-    rdfs:label "German Federal Republic" ;
-    msh:fullName "German Federal Republic" .
 
 msh:Person_Gerry_Goffin a msh:Person ;
     rdfs:label "Gerry Goffin" ;
@@ -14700,10 +14624,6 @@ msh:Person_Grayson_Hall a msh:Person ;
     msh:fullName "Grayson Hall" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0355621> .
 
-msh:Person_Greece a msh:Person ;
-    rdfs:label "Greece" ;
-    msh:fullName "Greece" .
-
 msh:Person_Greer_Garson a msh:Person ;
     rdfs:label "Greer Garson" ;
     msh:fullName "Greer Garson" ;
@@ -15054,11 +14974,6 @@ msh:Person_Gwyneth_Paltrow a msh:Person ;
     msh:fullName "Gwyneth Paltrow" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0000569> .
 
-msh:Person_Gyula_Trebitsch a msh:Person ;
-    rdfs:label "Gyula Trebitsch" ;
-    msh:fullName "Gyula Trebitsch" ;
-    msh:hasIdentifier <https://www.imdb.com/name/nm0871632> .
-
 msh:Person_H_B_Warner a msh:Person ;
     rdfs:label "H. B. Warner" ;
     msh:fullName "H. B. Warner" ;
@@ -15191,6 +15106,7 @@ msh:Person_Hal_Roach a msh:Person ;
 
 msh:Person_Hal_Roach_production_company a msh:Person ;
     rdfs:label "Hal Roach (production company)" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "Hal Roach (production company)" .
 
 msh:Person_Hal_Rosson a msh:Person ;
@@ -16163,10 +16079,6 @@ msh:Person_Hong_Chau a msh:Person ;
     msh:fullName "Hong Chau" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm2186865> .
 
-msh:Person_Hong_Kong a msh:Person ;
-    rdfs:label "Hong Kong" ;
-    msh:fullName "Hong Kong" .
-
 msh:Person_Hope_Emerson a msh:Person ;
     rdfs:label "Hope Emerson" ;
     msh:fullName "Hope Emerson" ;
@@ -16301,6 +16213,11 @@ msh:Person_Howard_W_Koch a msh:Person ;
     rdfs:label "Howard W. Koch" ;
     msh:fullName "Howard W. Koch" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0462322> .
+
+msh:Person_Howell_Company a msh:Person ;
+    rdfs:label "Howell Company" ;
+    msh:entityType "ORGANIZATION" ;
+    msh:fullName "Howell Company" .
 
 msh:Person_Hoyt_Yeatman a msh:Person ;
     rdfs:label "Hoyt Yeatman" ;
@@ -16452,10 +16369,6 @@ msh:Person_Humphrey_Swingler a msh:Person ;
     msh:fullName "Humphrey Swingler" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0842718> .
 
-msh:Person_Hungary a msh:Person ;
-    rdfs:label "Hungary" ;
-    msh:fullName "Hungary" .
-
 msh:Person_Hunt_Stromberg a msh:Person ;
     rdfs:label "Hunt Stromberg" ;
     msh:fullName "Hunt Stromberg" ;
@@ -16576,10 +16489,6 @@ msh:Person_Ibon_Cormenzana a msh:Person ;
     msh:fullName "Ibon Cormenzana" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm1028742> .
 
-msh:Person_Iceland a msh:Person ;
-    rdfs:label "Iceland" ;
-    msh:fullName "Iceland" .
-
 msh:Person_Ida_Kaminska a msh:Person ;
     rdfs:label "Ida Kaminska" ;
     msh:fullName "Ida Kaminska" ;
@@ -16634,10 +16543,6 @@ msh:Person_Ina_Fichman a msh:Person ;
     msh:fullName "Ina Fichman" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0275649> .
 
-msh:Person_India a msh:Person ;
-    rdfs:label "India" ;
-    msh:fullName "India" .
-
 msh:Person_Indro_Montanelli a msh:Person ;
     rdfs:label "Indro Montanelli" ;
     msh:fullName "Indro Montanelli" ;
@@ -16645,6 +16550,7 @@ msh:Person_Indro_Montanelli a msh:Person ;
 
 msh:Person_Information_Bureau a msh:Person ;
     rdfs:label "Information Bureau" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "Information Bureau" .
 
 msh:Person_Inga_Ibsdotter_Lilleaas a msh:Person ;
@@ -16696,14 +16602,6 @@ msh:Person_Ira_Wohl a msh:Person ;
     rdfs:label "Ira Wohl" ;
     msh:fullName "Ira Wohl" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0937390> .
-
-msh:Person_Iran a msh:Person ;
-    rdfs:label "Iran" ;
-    msh:fullName "Iran" .
-
-msh:Person_Ireland a msh:Person ;
-    rdfs:label "Ireland" ;
-    msh:fullName "Ireland" .
 
 msh:Person_Irene a msh:Person ;
     rdfs:label "Irene" ;
@@ -16875,10 +16773,6 @@ msh:Person_Isobel_Lennart a msh:Person ;
     msh:fullName "Isobel Lennart" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0501973> .
 
-msh:Person_Israel a msh:Person ;
-    rdfs:label "Israel" ;
-    msh:fullName "Israel" .
-
 msh:Person_Ivan_Goff a msh:Person ;
     rdfs:label "Ivan Goff" ;
     msh:fullName "Ivan Goff" ;
@@ -16913,10 +16807,6 @@ msh:Person_Ivan_Sharrock a msh:Person ;
     rdfs:label "Ivan Sharrock" ;
     msh:fullName "Ivan Sharrock" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0789331> .
-
-msh:Person_Ivory_Coast a msh:Person ;
-    rdfs:label "Ivory Coast" ;
-    msh:fullName "Ivory Coast" .
 
 msh:Person_Izak_Ben_Meir a msh:Person ;
     rdfs:label "Izak Ben-Meir" ;
@@ -19018,6 +18908,7 @@ msh:Person_Jesse_Eisenberg a msh:Person ;
 
 msh:Person_Jesse_L_Lasky_production_company a msh:Person ;
     rdfs:label "Jesse L. Lasky (production company)" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "Jesse L. Lasky (production company)" .
 
 msh:Person_Jesse_Plemons a msh:Person ;
@@ -21137,10 +21028,6 @@ msh:Person_Jonny_Greenwood a msh:Person ;
     msh:fullName "Jonny Greenwood" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0339351> .
 
-msh:Person_Jordan a msh:Person ;
-    rdfs:label "Jordan" ;
-    msh:fullName "Jordan" .
-
 msh:Person_Jordan_Cronenweth a msh:Person ;
     rdfs:label "Jordan Cronenweth" ;
     msh:fullName "Jordan Cronenweth" ;
@@ -22346,10 +22233,6 @@ msh:Person_Kay_Rose a msh:Person ;
     msh:fullName "Kay Rose" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0741515> .
 
-msh:Person_Kazakhstan a msh:Person ;
-    rdfs:label "Kazakhstan" ;
-    msh:fullName "Kazakhstan" .
-
 msh:Person_Kazu_Hiro a msh:Person ;
     rdfs:label "Kazu Hiro" ;
     msh:fullName "Kazu Hiro" ;
@@ -22807,6 +22690,7 @@ msh:Person_Kimberly_Steward a msh:Person ;
 
 msh:Person_King_Bros_Productions_Inc a msh:Person ;
     rdfs:label "King Bros. Productions Inc." ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "King Bros. Productions Inc." .
 
 msh:Person_King_Vidor a msh:Person ;
@@ -22903,10 +22787,6 @@ msh:Person_Klaus_Maria_Brandauer a msh:Person ;
     rdfs:label "Klaus Maria Brandauer" ;
     msh:fullName "Klaus Maria Brandauer" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0001970> .
-
-msh:Person_Kleber_Mendon_a_Filho a msh:Person ;
-    rdfs:label "Kleber Mendonça Filho" ;
-    msh:fullName "Kleber Mendonça Filho" .
 
 msh:Person_Kobe_Bryant a msh:Person ;
     rdfs:label "Kobe Bryant" ;
@@ -23228,10 +23108,6 @@ msh:Person_Laszlo_Gorog a msh:Person ;
     msh:fullName "Laszlo Gorog" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0351444> .
 
-msh:Person_Latvia a msh:Person ;
-    rdfs:label "Latvia" ;
-    msh:fullName "Latvia" .
-
 msh:Person_Laura_Allen a msh:Person ;
     rdfs:label "Laura Allen" ;
     msh:fullName "Laura Allen" ;
@@ -23471,10 +23347,6 @@ msh:Person_Leandro_Estebecorena a msh:Person ;
     rdfs:label "Leandro Estebecorena" ;
     msh:fullName "Leandro Estebecorena" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm1739145> .
-
-msh:Person_Lebanon a msh:Person ;
-    rdfs:label "Lebanon" ;
-    msh:fullName "Lebanon" .
 
 msh:Person_Lee_Daniels a msh:Person ;
     rdfs:label "Lee Daniels" ;
@@ -24375,6 +24247,11 @@ msh:Person_Lol_Crawley a msh:Person ;
     msh:fullName "Lol Crawley" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0187018> .
 
+msh:Person_Lomb_Optical_Company a msh:Person ;
+    rdfs:label "Lomb Optical Company" ;
+    msh:entityType "ORGANIZATION" ;
+    msh:fullName "Lomb Optical Company" .
+
 msh:Person_Lon_Bender a msh:Person ;
     rdfs:label "Lon Bender" ;
     msh:fullName "Lon Bender" ;
@@ -24386,6 +24263,7 @@ msh:Person_London_Film a msh:Person ;
 
 msh:Person_London_Film_Production a msh:Person ;
     rdfs:label "London Film Production" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "London Film Production" .
 
 msh:Person_Lonne_Elder_III a msh:Person ;
@@ -24645,6 +24523,7 @@ msh:Person_Lt_John_Koenig a msh:Person ;
 
 msh:Person_Ltd a msh:Person ;
     rdfs:label "Ltd." ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "Ltd." .
 
 msh:Person_Lu_Yue a msh:Person ;
@@ -25009,6 +24888,7 @@ msh:Person_Madeline_Sharafian a msh:Person ;
 
 msh:Person_Mafilm_Studio a msh:Person ;
     rdfs:label "Mafilm Studio" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "Mafilm Studio" .
 
 msh:Person_Maggie_Gray a msh:Person ;
@@ -26234,11 +26114,6 @@ msh:Person_Masamichi_Satoh a msh:Person ;
     msh:fullName "Masamichi Satoh" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0766305> .
 
-msh:Person_Masayuki_Takagi a msh:Person ;
-    rdfs:label "Masayuki Takagi" ;
-    msh:fullName "Masayuki Takagi" ;
-    msh:hasIdentifier <https://www.imdb.com/name/nm0847067> .
-
 msh:Person_Mason_Novick a msh:Person ;
     rdfs:label "Mason Novick" ;
     msh:fullName "Mason Novick" ;
@@ -26488,10 +26363,6 @@ msh:Person_Maurice_Richlin a msh:Person ;
     rdfs:label "Maurice Richlin" ;
     msh:fullName "Maurice Richlin" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0725009> .
-
-msh:Person_Mauritania a msh:Person ;
-    rdfs:label "Mauritania" ;
-    msh:fullName "Mauritania" .
 
 msh:Person_Maurizio_Millenotti a msh:Person ;
     rdfs:label "Maurizio Millenotti" ;
@@ -26869,10 +26740,6 @@ msh:Person_Metro_Goldwyn_Mayer_British a msh:Person ;
 msh:Person_Metro_Goldwyn_Mayer_London a msh:Person ;
     rdfs:label "Metro-Goldwyn-Mayer London" ;
     msh:fullName "Metro-Goldwyn-Mayer London" .
-
-msh:Person_Mexico a msh:Person ;
-    rdfs:label "Mexico" ;
-    msh:fullName "Mexico" .
 
 msh:Person_Mia_Neal a msh:Person ;
     rdfs:label "Mia Neal" ;
@@ -28061,10 +27928,6 @@ msh:Person_Monique_Prudhomme a msh:Person ;
     msh:fullName "Monique Prudhomme" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0698889> .
 
-msh:Person_Monsieur_Vincent_voted_by_the_Academy_Board_of_Governors_as_the_most_outstanding_foreign_language_film_released_in_the_United_States_during_1948 a msh:Person ;
-    rdfs:label "Monsieur Vincent - voted by the Academy Board of Governors as the most outstanding foreign language film released in the United States during 1948." ;
-    msh:fullName "Monsieur Vincent - voted by the Academy Board of Governors as the most outstanding foreign language film released in the United States during 1948." .
-
 msh:Person_Montgomery_Clift a msh:Person ;
     rdfs:label "Montgomery Clift" ;
     msh:fullName "Montgomery Clift" ;
@@ -28175,9 +28038,9 @@ msh:Person_Moss_Mabry a msh:Person ;
     msh:fullName "Moss Mabry" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0531117> .
 
-msh:Person_Motion_Picture_and_Television_Fund a msh:Person ;
-    rdfs:label "Motion Picture and Television Fund" ;
-    msh:fullName "Motion Picture and Television Fund" .
+msh:Person_Motion_Picture a msh:Person ;
+    rdfs:label "Motion Picture" ;
+    msh:fullName "Motion Picture" .
 
 msh:Person_Mstyslav_Chernov a msh:Person ;
     rdfs:label "Mstyslav Chernov" ;
@@ -28217,10 +28080,6 @@ msh:Person_Murray_Spivack a msh:Person ;
 msh:Person_Music a msh:Person ;
     rdfs:label "Music" ;
     msh:fullName "Music" .
-
-msh:Person_Music_by_Nick_Cave a msh:Person ;
-    rdfs:label "Music by Nick Cave" ;
-    msh:fullName "Music by Nick Cave" .
 
 msh:Person_Mychael_Danna a msh:Person ;
     rdfs:label "Mychael Danna" ;
@@ -28514,6 +28373,7 @@ msh:Person_Nedrick_Young a msh:Person ;
 
 msh:Person_Negro_Marches_On_Inc a msh:Person ;
     rdfs:label "Negro Marches On Inc." ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "Negro Marches On Inc." .
 
 msh:Person_Neil_Corbould a msh:Person ;
@@ -28591,10 +28451,6 @@ msh:Person_Nena_Danevic a msh:Person ;
     msh:fullName "Nena Danevic" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0199437> .
 
-msh:Person_Nepal a msh:Person ;
-    rdfs:label "Nepal" ;
-    msh:fullName "Nepal" .
-
 msh:Person_Nestor_Almendros a msh:Person ;
     rdfs:label "Nestor Almendros" ;
     msh:fullName "Nestor Almendros" ;
@@ -28602,6 +28458,7 @@ msh:Person_Nestor_Almendros a msh:Person ;
 
 msh:Person_New_Zealand_Screen_Board a msh:Person ;
     rdfs:label "New Zealand Screen Board" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "New Zealand Screen Board" .
 
 msh:Person_Ngila_Dickson a msh:Person ;
@@ -28613,10 +28470,6 @@ msh:Person_Nia_Vardalos a msh:Person ;
     rdfs:label "Nia Vardalos" ;
     msh:fullName "Nia Vardalos" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0889522> .
-
-msh:Person_Nicaragua a msh:Person ;
-    rdfs:label "Nicaragua" ;
-    msh:fullName "Nicaragua" .
 
 msh:Person_Nicholas_Britell a msh:Person ;
     rdfs:label "Nicholas Britell" ;
@@ -28647,6 +28500,10 @@ msh:Person_Nicholas_Musuraca a msh:Person ;
     rdfs:label "Nicholas Musuraca" ;
     msh:fullName "Nicholas Musuraca" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0002228> .
+
+msh:Person_Nicholas_Pike a msh:Person ;
+    rdfs:label "Nicholas Pike" ;
+    msh:fullName "Nicholas Pike" .
 
 msh:Person_Nicholas_Pileggi a msh:Person ;
     rdfs:label "Nicholas Pileggi" ;
@@ -28687,6 +28544,10 @@ msh:Person_Nick_Bruno a msh:Person ;
     rdfs:label "Nick Bruno" ;
     msh:fullName "Nick Bruno" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm2939767> .
+
+msh:Person_Nick_Cave a msh:Person ;
+    rdfs:label "Nick Cave" ;
+    msh:fullName "Nick Cave" .
 
 msh:Person_Nick_Davis a msh:Person ;
     rdfs:label "Nick Davis" ;
@@ -29142,14 +29003,6 @@ msh:Person_Norman_Wexler a msh:Person ;
     msh:fullName "Norman Wexler" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0923319> .
 
-msh:Person_North_Macedonia a msh:Person ;
-    rdfs:label "North Macedonia" ;
-    msh:fullName "North Macedonia" .
-
-msh:Person_Norway a msh:Person ;
-    rdfs:label "Norway" ;
-    msh:fullName "Norway" .
-
 msh:Person_Nova_Scotia a msh:Person ;
     rdfs:label "Nova Scotia" ;
     msh:fullName "Nova Scotia" .
@@ -29168,11 +29021,6 @@ msh:Person_Nuria_Gonz_lez_Blanco a msh:Person ;
     rdfs:label "Nuria González Blanco" ;
     msh:fullName "Nuria González Blanco" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm4447482> .
-
-msh:Person_O_Dalsgaard_Olsen a msh:Person ;
-    rdfs:label "O. Dalsgaard-Olsen" ;
-    msh:fullName "O. Dalsgaard-Olsen" ;
-    msh:hasIdentifier <https://www.imdb.com/name/nm11004642> .
 
 msh:Person_Obie_Benz a msh:Person ;
     rdfs:label "Obie Benz" ;
@@ -29208,10 +29056,6 @@ msh:Person_Oliver_Jones a msh:Person ;
     rdfs:label "Oliver Jones" ;
     msh:fullName "Oliver Jones" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm2885050> .
-
-msh:Person_Oliver_Laxe a msh:Person ;
-    rdfs:label "Oliver Laxe" ;
-    msh:fullName "Oliver Laxe" .
 
 msh:Person_Oliver_Marsh a msh:Person ;
     rdfs:label "Oliver Marsh" ;
@@ -29492,10 +29336,6 @@ msh:Person_Paddy_Chayefsky a msh:Person ;
     msh:fullName "Paddy Chayefsky" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0154665> .
 
-msh:Person_Palestine a msh:Person ;
-    rdfs:label "Palestine" ;
-    msh:fullName "Palestine" .
-
 msh:Person_Pam_LeBlanc a msh:Person ;
     rdfs:label "Pam LeBlanc" ;
     msh:fullName "Pam LeBlanc" ;
@@ -29561,6 +29401,7 @@ msh:Person_Paramount_Publix a msh:Person ;
 
 msh:Person_Paramount_Studio a msh:Person ;
     rdfs:label "Paramount Studio" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "Paramount Studio" .
 
 msh:Person_Pascal_Caucheteux a msh:Person ;
@@ -30329,10 +30170,6 @@ msh:Person_Penelope_Milford a msh:Person ;
     msh:fullName "Penelope Milford" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0587340> .
 
-msh:Person_Peoples_Republic_of_China a msh:Person ;
-    rdfs:label "People's Republic of China" ;
-    msh:fullName "People's Republic of China" .
-
 msh:Person_Pepe_Danquart a msh:Person ;
     rdfs:label "Pepe Danquart" ;
     msh:fullName "Pepe Danquart" ;
@@ -30377,10 +30214,6 @@ msh:Person_Perry_Wolff a msh:Person ;
     rdfs:label "Perry Wolff" ;
     msh:fullName "Perry Wolff" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0938306> .
-
-msh:Person_Peru a msh:Person ;
-    rdfs:label "Peru" ;
-    msh:fullName "Peru" .
 
 msh:Person_Pete_Clark a msh:Person ;
     rdfs:label "Pete Clark" ;
@@ -30949,6 +30782,7 @@ msh:Person_Phil_Tippett a msh:Person ;
 
 msh:Person_Philadelphia_Housing_Association a msh:Person ;
     rdfs:label "Philadelphia Housing Association" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "Philadelphia Housing Association" .
 
 msh:Person_Philip_Brennan a msh:Person ;
@@ -31278,10 +31112,6 @@ msh:Person_Pud_Cusack a msh:Person ;
     msh:fullName "Pud Cusack" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0193650> .
 
-msh:Person_Puerto_Rico a msh:Person ;
-    rdfs:label "Puerto Rico" ;
-    msh:fullName "Puerto Rico" .
-
 msh:Person_Queen_Latifah a msh:Person ;
     rdfs:label "Queen Latifah" ;
     msh:fullName "Queen Latifah" ;
@@ -31428,6 +31258,7 @@ msh:Person_Rachel_Winter a msh:Person ;
 
 msh:Person_Radio_Corporation_of_America a msh:Person ;
     rdfs:label "Radio Corporation of America" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "Radio Corporation of America" .
 
 msh:Person_Ralf_D_Bode a msh:Person ;
@@ -31990,6 +31821,7 @@ msh:Person_Republic a msh:Person ;
 
 msh:Person_Republic_Studio a msh:Person ;
     rdfs:label "Republic Studio" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "Republic Studio" .
 
 msh:Person_Resul_Pookutty a msh:Person ;
@@ -34033,10 +33865,6 @@ msh:Person_Roman_Polanski a msh:Person ;
     msh:fullName "Roman Polanski" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0000591> .
 
-msh:Person_Romania a msh:Person ;
-    rdfs:label "Romania" ;
-    msh:fullName "Romania" .
-
 msh:Person_Ron_Bartlett a msh:Person ;
     rdfs:label "Ron Bartlett" ;
     msh:fullName "Ron Bartlett" ;
@@ -34541,10 +34369,6 @@ msh:Person_Russell_Williams_II a msh:Person ;
     rdfs:label "Russell Williams II" ;
     msh:fullName "Russell Williams II" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0007020> .
-
-msh:Person_Russia a msh:Person ;
-    rdfs:label "Russia" ;
-    msh:fullName "Russia" .
 
 msh:Person_Ruth_Carter a msh:Person ;
     rdfs:label "Ruth Carter" ;
@@ -35826,10 +35650,6 @@ msh:Person_Shirley_W_Smith a msh:Person ;
     msh:fullName "Shirley W. Smith" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0809964> .
 
-msh:Person_Shoe_Shine_the_high_quality_of_this_motion_picture_brought_to_eloquent_life_in_a_country_scarred_by_war_is_proof_to_the_world_that_the_creative_spirit_can_triumph_over_adversity a msh:Person ;
-    rdfs:label "Shoe-Shine - the high quality of this motion picture, brought to eloquent life in a country scarred by war, is proof to the world that the creative spirit can triumph over adversity." ;
-    msh:fullName "Shoe-Shine - the high quality of this motion picture, brought to eloquent life in a country scarred by war, is proof to the world that the creative spirit can triumph over adversity." .
-
 msh:Person_Shohreh_Aghdashloo a msh:Person ;
     rdfs:label "Shohreh Aghdashloo" ;
     msh:fullName "Shohreh Aghdashloo" ;
@@ -36130,9 +35950,10 @@ msh:Person_Smriti_Mundhra a msh:Person ;
     msh:fullName "Smriti Mundhra" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0612731> .
 
-msh:Person_Society_of_Motion_Picture_and_Television_Engineers a msh:Person ;
-    rdfs:label "Society of Motion Picture and Television Engineers" ;
-    msh:fullName "Society of Motion Picture and Television Engineers" .
+msh:Person_Society_of_Motion_Picture a msh:Person ;
+    rdfs:label "Society of Motion Picture" ;
+    msh:entityType "ORGANIZATION" ;
+    msh:fullName "Society of Motion Picture" .
 
 msh:Person_Sofia_Coppola a msh:Person ;
     rdfs:label "Sofia Coppola" ;
@@ -36161,6 +35982,7 @@ msh:Person_Sol_Lesser a msh:Person ;
 
 msh:Person_Sol_Lesser_production_company a msh:Person ;
     rdfs:label "Sol Lesser (production company)" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "Sol Lesser (production company)" .
 
 msh:Person_Sol_Polito a msh:Person ;
@@ -36210,15 +36032,8 @@ msh:Person_Sophie_Okonedo a msh:Person ;
 
 msh:Person_Sound_Service_Inc a msh:Person ;
     rdfs:label "Sound Service Inc." ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "Sound Service Inc." .
-
-msh:Person_South_Africa a msh:Person ;
-    rdfs:label "South Africa" ;
-    msh:fullName "South Africa" .
-
-msh:Person_South_Korea a msh:Person ;
-    rdfs:label "South Korea" ;
-    msh:fullName "South Korea" .
 
 msh:Person_Sparky_Greene a msh:Person ;
     rdfs:label "Sparky Greene" ;
@@ -36257,6 +36072,7 @@ msh:Person_Spring_Byington a msh:Person ;
 
 msh:Person_St_Francis_Xavier_University a msh:Person ;
     rdfs:label "St. Francis-Xavier University" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "St. Francis-Xavier University" .
 
 msh:Person_St_phan_Roelants a msh:Person ;
@@ -37293,10 +37109,6 @@ msh:Person_Swen_Gillberg a msh:Person ;
     msh:fullName "Swen Gillberg" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm1089828> .
 
-msh:Person_Switzerland a msh:Person ;
-    rdfs:label "Switzerland" ;
-    msh:fullName "Switzerland" .
-
 msh:Person_Sy_Gomberg a msh:Person ;
     rdfs:label "Sy Gomberg" ;
     msh:fullName "Sy Gomberg" ;
@@ -37401,10 +37213,6 @@ msh:Person_Taika_Waititi a msh:Person ;
     rdfs:label "Taika Waititi" ;
     msh:fullName "Taika Waititi" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0169806> .
-
-msh:Person_Taiwan a msh:Person ;
-    rdfs:label "Taiwan" ;
-    msh:fullName "Taiwan" .
 
 msh:Person_Taizoh_Kawashima a msh:Person ;
     rdfs:label "Taizoh Kawashima" ;
@@ -37685,6 +37493,15 @@ msh:Person_Teddy_Schwarzman a msh:Person ;
     msh:fullName "Teddy Schwarzman" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm3267061> .
 
+msh:Person_Television_Engineers a msh:Person ;
+    rdfs:label "Television Engineers" ;
+    msh:fullName "Television Engineers" .
+
+msh:Person_Television_Fund a msh:Person ;
+    rdfs:label "Television Fund" ;
+    msh:entityType "ORGANIZATION" ;
+    msh:fullName "Television Fund" .
+
 msh:Person_Telly_Savalas a msh:Person ;
     rdfs:label "Telly Savalas" ;
     msh:fullName "Telly Savalas" ;
@@ -37895,20 +37712,19 @@ msh:Person_The_Beatles a msh:Person ;
     msh:fullName "The Beatles" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm1397313> .
 
-msh:Person_The_Bicycle_Thief_voted_by_the_Academy_Board_of_Governors_as_the_most_outstanding_foreign_language_film_released_in_the_United_States_during_1949 a msh:Person ;
-    rdfs:label "The Bicycle Thief - voted by the Academy Board of Governors as the most outstanding foreign language film released in the United States during 1949." ;
-    msh:fullName "The Bicycle Thief - voted by the Academy Board of Governors as the most outstanding foreign language film released in the United States during 1949." .
-
 msh:Person_The_British_Ministry_of_Information a msh:Person ;
     rdfs:label "The British Ministry of Information" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "The British Ministry of Information" .
 
 msh:Person_The_Caddo_Company a msh:Person ;
     rdfs:label "The Caddo Company" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "The Caddo Company" .
 
 msh:Person_The_Danish_Government_Film_Office a msh:Person ;
     rdfs:label "The Danish Government Film Office" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "The Danish Government Film Office" .
 
 msh:Person_The_Edge a msh:Person ;
@@ -37916,12 +37732,9 @@ msh:Person_The_Edge a msh:Person ;
     msh:fullName "The Edge" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0857253> .
 
-msh:Person_The_Former_Yugoslav_Republic_of_Macedonia a msh:Person ;
-    rdfs:label "The Former Yugoslav Republic of Macedonia" ;
-    msh:fullName "The Former Yugoslav Republic of Macedonia" .
-
 msh:Person_The_Government_Film_Committee_of_Denmark a msh:Person ;
     rdfs:label "The Government Film Committee of Denmark" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "The Government Film Committee of Denmark" .
 
 msh:Person_The_Governments_of_Great_Britain a msh:Person ;
@@ -37930,39 +37743,32 @@ msh:Person_The_Governments_of_Great_Britain a msh:Person ;
 
 msh:Person_The_International_Alliance_of_Theatrical_Stage_Employees a msh:Person ;
     rdfs:label "The International Alliance of Theatrical Stage Employees" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "The International Alliance of Theatrical Stage Employees" .
 
 msh:Person_The_March_of_Time a msh:Person ;
     rdfs:label "The March of Time" ;
     msh:fullName "The March of Time" .
 
-msh:Person_The_March_of_Time_for_its_significance_to_motion_pictures_and_for_having_revolutionized_one_of_the_most_important_branches_of_the_industry_the_newsreel a msh:Person ;
-    rdfs:label "The March of Time for its significance to motion pictures and for having revolutionized one of the most important branches of the industry - the newsreel." ;
-    msh:fullName "The March of Time for its significance to motion pictures and for having revolutionized one of the most important branches of the industry - the newsreel." .
-
 msh:Person_The_Motion_Picture_Relief_Fund a msh:Person ;
     rdfs:label "The Motion Picture Relief Fund" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "The Motion Picture Relief Fund" .
 
 msh:Person_The_Museum_of_Modern_Art a msh:Person ;
     rdfs:label "The Museum of Modern Art" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "The Museum of Modern Art" .
 
 msh:Person_The_Museum_of_Modern_Art_Film_Library a msh:Person ;
     rdfs:label "The Museum of Modern Art Film Library" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "The Museum of Modern Art Film Library" .
-
-msh:Person_The_Netherlands a msh:Person ;
-    rdfs:label "The Netherlands" ;
-    msh:fullName "The Netherlands" .
 
 msh:Person_The_Netherlands_Information_Bureau a msh:Person ;
     rdfs:label "The Netherlands Information Bureau" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "The Netherlands Information Bureau" .
-
-msh:Person_The_Palestinian_Territories a msh:Person ;
-    rdfs:label "The Palestinian Territories" ;
-    msh:fullName "The Palestinian Territories" .
 
 msh:Person_The_Weeknd a msh:Person ;
     rdfs:label "The Weeknd" ;
@@ -39130,10 +38936,6 @@ msh:Person_Tullio_Pinelli a msh:Person ;
     msh:fullName "Tullio Pinelli" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0684083> .
 
-msh:Person_Tunisia a msh:Person ;
-    rdfs:label "Tunisia" ;
-    msh:fullName "Tunisia" .
-
 msh:Person_Two_Cities a msh:Person ;
     rdfs:label "Two Cities" ;
     msh:fullName "Two Cities" .
@@ -39202,48 +39004,49 @@ msh:Person_Union_of_South_Africa a msh:Person ;
     rdfs:label "Union of South Africa" ;
     msh:fullName "Union of South Africa" .
 
-msh:Person_Union_of_Soviet_Socialist_Republics a msh:Person ;
-    rdfs:label "Union of Soviet Socialist Republics" ;
-    msh:fullName "Union of Soviet Socialist Republics" .
-
-msh:Person_United_Kingdom a msh:Person ;
-    rdfs:label "United Kingdom" ;
-    msh:fullName "United Kingdom" .
-
 msh:Person_United_Productions_of_America a msh:Person ;
     rdfs:label "United Productions of America" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "United Productions of America" .
 
 msh:Person_United_States_Air_Force a msh:Person ;
     rdfs:label "United States Air Force" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "United States Air Force" .
 
 msh:Person_United_States_Army a msh:Person ;
     rdfs:label "United States Army" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "United States Army" .
 
 msh:Person_United_States_Army_4th_Signal_Photographic_Unit a msh:Person ;
     rdfs:label "United States Army 4th Signal Photographic Unit" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "United States Army 4th Signal Photographic Unit" .
 
 msh:Person_United_States_Army_Air_Force a msh:Person ;
     rdfs:label "United States Army Air Force" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "United States Army Air Force" .
 
 msh:Person_United_States_Army_Air_Force_1st_Motion_Picture_Unit a msh:Person ;
     rdfs:label "United States Army Air Force 1st Motion Picture Unit" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "United States Army Air Force 1st Motion Picture Unit" .
 
 msh:Person_United_States_Army_Pictorial_Service a msh:Person ;
     rdfs:label "United States Army Pictorial Service" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "United States Army Pictorial Service" .
 
 msh:Person_United_States_Army_Signal_Corps a msh:Person ;
     rdfs:label "United States Army Signal Corps" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "United States Army Signal Corps" .
 
 msh:Person_United_States_Army_Special_Services a msh:Person ;
     rdfs:label "United States Army Special Services" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "United States Army Special Services" .
 
 msh:Person_United_States_Coast_Guard a msh:Person ;
@@ -39252,18 +39055,22 @@ msh:Person_United_States_Coast_Guard a msh:Person ;
 
 msh:Person_United_States_Department_of_Agriculture a msh:Person ;
     rdfs:label "United States Department of Agriculture" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "United States Department of Agriculture" .
 
 msh:Person_United_States_Department_of_State_Office_of_Information a msh:Person ;
     rdfs:label "United States Department of State Office of Information" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "United States Department of State Office of Information" .
 
 msh:Person_United_States_Department_of_War a msh:Person ;
     rdfs:label "United States Department of War" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "United States Department of War" .
 
 msh:Person_United_States_Department_of_War_Special_Service_Division a msh:Person ;
     rdfs:label "United States Department of War Special Service Division" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "United States Department of War Special Service Division" .
 
 msh:Person_United_States_Information_Agency a msh:Person ;
@@ -39280,30 +39087,37 @@ msh:Person_United_States_Merchant_Marine a msh:Person ;
 
 msh:Person_United_States_Navy a msh:Person ;
     rdfs:label "United States Navy" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "United States Navy" .
 
 msh:Person_United_States_Navy_Bureau_of_Aeronautics a msh:Person ;
     rdfs:label "United States Navy Bureau of Aeronautics" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "United States Navy Bureau of Aeronautics" .
 
 msh:Person_United_States_Office_for_Emergency_Management_Film_Unit a msh:Person ;
     rdfs:label "United States Office for Emergency Management Film Unit" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "United States Office for Emergency Management Film Unit" .
 
 msh:Person_United_States_Office_of_Strategic_Services_Field_Photographic_Bureau a msh:Person ;
     rdfs:label "United States Office of Strategic Services Field Photographic Bureau" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "United States Office of Strategic Services Field Photographic Bureau" .
 
 msh:Person_United_States_Office_of_War_Information a msh:Person ;
     rdfs:label "United States Office of War Information" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "United States Office of War Information" .
 
 msh:Person_United_States_Office_of_War_Information_Domestic_Motion_Picture_Bureau a msh:Person ;
     rdfs:label "United States Office of War Information Domestic Motion Picture Bureau" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "United States Office of War Information Domestic Motion Picture Bureau" .
 
 msh:Person_United_States_Office_of_War_Information_Overseas_Motion_Picture_Bureau a msh:Person ;
     rdfs:label "United States Office of War Information Overseas Motion Picture Bureau" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "United States Office of War Information Overseas Motion Picture Bureau" .
 
 msh:Person_Universal_City a msh:Person ;
@@ -39312,16 +39126,13 @@ msh:Person_Universal_City a msh:Person ;
 
 msh:Person_Universal_International a msh:Person ;
     rdfs:label "Universal-International" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "Universal-International" .
 
 msh:Person_Urie_McCleary a msh:Person ;
     rdfs:label "Urie McCleary" ;
     msh:fullName "Urie McCleary" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0565720> .
-
-msh:Person_Uruguay a msh:Person ;
-    rdfs:label "Uruguay" ;
-    msh:fullName "Uruguay" .
 
 msh:Person_V_Uvarov a msh:Person ;
     rdfs:label "V. Uvarov" ;
@@ -39562,10 +39373,6 @@ msh:Person_Victoria_Warmerdam a msh:Person ;
     rdfs:label "Victoria Warmerdam" ;
     msh:fullName "Victoria Warmerdam" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm6255610> .
-
-msh:Person_Vietnam a msh:Person ;
-    rdfs:label "Vietnam" ;
-    msh:fullName "Vietnam" .
 
 msh:Person_Viggo_Mortensen a msh:Person ;
     rdfs:label "Viggo Mortensen" ;
@@ -39996,11 +39803,6 @@ msh:Person_Walter_Kent a msh:Person ;
     msh:fullName "Walter Kent" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0448876> .
 
-msh:Person_Walter_Koppel a msh:Person ;
-    rdfs:label "Walter Koppel" ;
-    msh:fullName "Walter Koppel" ;
-    msh:hasIdentifier <https://www.imdb.com/name/nm0465904> .
-
 msh:Person_Walter_Lang a msh:Person ;
     rdfs:label "Walter Lang" ;
     msh:fullName "Walter Lang" ;
@@ -40113,6 +39915,7 @@ msh:Person_Walter_Wanger a msh:Person ;
 
 msh:Person_Walter_Wanger_production_company a msh:Person ;
     rdfs:label "Walter Wanger (production company)" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "Walter Wanger (production company)" .
 
 msh:Person_Walter_Wottitz a msh:Person ;
@@ -40147,6 +39950,7 @@ msh:Person_Warner_Baxter a msh:Person ;
 
 msh:Person_Warner_Bros_Studio a msh:Person ;
     rdfs:label "Warner Bros. Studio" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "Warner Bros. Studio" .
 
 msh:Person_Warren_Beatty a msh:Person ;
@@ -40269,12 +40073,9 @@ msh:Person_Wesley_Ruggles a msh:Person ;
     msh:fullName "Wesley Ruggles" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0749484> .
 
-msh:Person_West_Germany a msh:Person ;
-    rdfs:label "West Germany" ;
-    msh:fullName "West Germany" .
-
 msh:Person_Westrex_Sound_Services_Inc a msh:Person ;
     rdfs:label "Westrex Sound Services Inc." ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "Westrex Sound Services Inc." .
 
 msh:Person_Whit_Stillman a msh:Person ;
@@ -41044,6 +40845,7 @@ msh:Person_Wolfgang_Reitherman a msh:Person ;
 
 msh:Person_Woodard_Productions_Inc a msh:Person ;
     rdfs:label "Woodard Productions Inc." ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "Woodard Productions Inc." .
 
 msh:Person_Woody_Allen a msh:Person ;
@@ -41155,10 +40957,6 @@ msh:Person_Yoshiro_Muraki a msh:Person ;
     rdfs:label "Yoshiro Muraki" ;
     msh:fullName "Yoshiro Muraki" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0613499> .
-
-msh:Person_Yugoslavia a msh:Person ;
-    rdfs:label "Yugoslavia" ;
-    msh:fullName "Yugoslavia" .
 
 msh:Person_Yuh_Jung_Youn a msh:Person ;
     rdfs:label "Yuh-Jung Youn" ;
@@ -41313,24 +41111,9 @@ msh:Person_in_collaboration_with_Jean_Claude_Carri_re a msh:Person ;
     msh:fullName "in collaboration with Jean-Claude Carrière" ;
     msh:hasIdentifier <https://www.imdb.com/name/nm0140643> .
 
-msh:Person_lyrics_by_Diane_Warren a msh:Person ;
-    rdfs:label "lyrics by Diane Warren" ;
-    msh:fullName "lyrics by Diane Warren" .
-
-msh:Person_lyrics_by_Ejae a msh:Person ;
-    rdfs:label "lyrics by Ejae" ;
-    msh:fullName "lyrics by Ejae" .
-
-msh:Person_lyrics_by_Nicholas_Pike a msh:Person ;
-    rdfs:label "lyrics by Nicholas Pike" ;
-    msh:fullName "lyrics by Nicholas Pike" .
-
-msh:Person_lyrics_by_Raphael_Saadiq a msh:Person ;
-    rdfs:label "lyrics by Raphael Saadiq" ;
-    msh:fullName "lyrics by Raphael Saadiq" .
-
 msh:Person_the_American_Society_of_Cinematographers a msh:Person ;
     rdfs:label "the American Society of Cinematographers" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "the American Society of Cinematographers" .
 
 msh:Person_the_National_Endowment_for_the_Arts a msh:Person ;
@@ -41339,10 +41122,12 @@ msh:Person_the_National_Endowment_for_the_Arts a msh:Person ;
 
 msh:Person_the_RCA_Manufacturing_Company a msh:Person ;
     rdfs:label "the RCA Manufacturing Company" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "the RCA Manufacturing Company" .
 
 msh:Person_the_Technicolor_Company a msh:Person ;
     rdfs:label "the Technicolor Company" ;
+    msh:entityType "ORGANIZATION" ;
     msh:fullName "the Technicolor Company" .
 
 msh:Person_the_United_States_of_America a msh:Person ;
@@ -45278,6 +45063,11 @@ msh:Person_the_United_States_of_America a msh:Person ;
     rdfs:label "imdb:nm0003574" ;
     msh:scheme msh:imdb ;
     msh:value "nm0003574" .
+
+<https://www.imdb.com/name/nm0003593> a msh:Identifier ;
+    rdfs:label "imdb:nm0003593" ;
+    msh:scheme msh:imdb ;
+    msh:value "nm0003593" .
 
 <https://www.imdb.com/name/nm0003606> a msh:Identifier ;
     rdfs:label "imdb:nm0003606" ;
@@ -52253,11 +52043,6 @@ msh:Person_the_United_States_of_America a msh:Person ;
     rdfs:label "imdb:nm0215455" ;
     msh:scheme msh:imdb ;
     msh:value "nm0215455" .
-
-<https://www.imdb.com/name/nm0216142> a msh:Identifier ;
-    rdfs:label "imdb:nm0216142" ;
-    msh:scheme msh:imdb ;
-    msh:value "nm0216142" .
 
 <https://www.imdb.com/name/nm0216212> a msh:Identifier ;
     rdfs:label "imdb:nm0216212" ;
@@ -59258,11 +59043,6 @@ msh:Person_the_United_States_of_America a msh:Person ;
     rdfs:label "imdb:nm0465745" ;
     msh:scheme msh:imdb ;
     msh:value "nm0465745" .
-
-<https://www.imdb.com/name/nm0465904> a msh:Identifier ;
-    rdfs:label "imdb:nm0465904" ;
-    msh:scheme msh:imdb ;
-    msh:value "nm0465904" .
 
 <https://www.imdb.com/name/nm0465932> a msh:Identifier ;
     rdfs:label "imdb:nm0465932" ;
@@ -69419,11 +69199,6 @@ msh:Person_the_United_States_of_America a msh:Person ;
     msh:scheme msh:imdb ;
     msh:value "nm0846967" .
 
-<https://www.imdb.com/name/nm0847067> a msh:Identifier ;
-    rdfs:label "imdb:nm0847067" ;
-    msh:scheme msh:imdb ;
-    msh:value "nm0847067" .
-
 <https://www.imdb.com/name/nm0847223> a msh:Identifier ;
     rdfs:label "imdb:nm0847223" ;
     msh:scheme msh:imdb ;
@@ -70043,11 +69818,6 @@ msh:Person_the_United_States_of_America a msh:Person ;
     rdfs:label "imdb:nm0871423" ;
     msh:scheme msh:imdb ;
     msh:value "nm0871423" .
-
-<https://www.imdb.com/name/nm0871632> a msh:Identifier ;
-    rdfs:label "imdb:nm0871632" ;
-    msh:scheme msh:imdb ;
-    msh:value "nm0871632" .
 
 <https://www.imdb.com/name/nm0872134> a msh:Identifier ;
     rdfs:label "imdb:nm0872134" ;
@@ -73148,11 +72918,6 @@ msh:Person_the_United_States_of_America a msh:Person ;
     rdfs:label "imdb:nm11004638" ;
     msh:scheme msh:imdb ;
     msh:value "nm11004638" .
-
-<https://www.imdb.com/name/nm11004642> a msh:Identifier ;
-    rdfs:label "imdb:nm11004642" ;
-    msh:scheme msh:imdb ;
-    msh:value "nm11004642" .
 
 <https://www.imdb.com/name/nm11004643> a msh:Identifier ;
     rdfs:label "imdb:nm11004643" ;
@@ -79188,11 +78953,6 @@ msh:Person_the_United_States_of_America a msh:Person ;
     rdfs:label "imdb:nm0002770" ;
     msh:scheme msh:imdb ;
     msh:value "nm0002770" .
-
-<https://www.imdb.com/name/nm0003593> a msh:Identifier ;
-    rdfs:label "imdb:nm0003593" ;
-    msh:scheme msh:imdb ;
-    msh:value "nm0003593" .
 
 <https://www.imdb.com/name/nm0004212> a msh:Identifier ;
     rdfs:label "imdb:nm0004212" ;

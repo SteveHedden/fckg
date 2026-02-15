@@ -3,6 +3,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 msh:Nomination_pga_1989_best_theatrical_motion_picture_driving_miss_daisy_d7b5eb08a31e9126 a msh:Nomination ;
+    rdfs:label "PGA - 1989 - Best Theatrical Motion Picture - Driving Miss Daisy" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1989 ;
     msh:hasFilm msh:Film_Driving_Miss_Daisy_1989 ;
@@ -13,6 +14,7 @@ msh:Nomination_pga_1989_best_theatrical_motion_picture_driving_miss_daisy_d7b5eb
     msh:yearFilm "1989"^^xsd:gYear .
 
 msh:Nomination_pga_1990_best_theatrical_motion_picture_dances_with_wolves_c997d87163da13ef a msh:Nomination ;
+    rdfs:label "PGA - 1990 - Best Theatrical Motion Picture - Dances with Wolves" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1990 ;
     msh:hasFilm msh:Film_Dances_with_Wolves_1990 ;
@@ -23,6 +25,7 @@ msh:Nomination_pga_1990_best_theatrical_motion_picture_dances_with_wolves_c997d8
     msh:yearFilm "1990"^^xsd:gYear .
 
 msh:Nomination_pga_1991_best_theatrical_motion_picture_at_play_in_the_fields_of_the_lord_fb2fed5bca3d9653 a msh:Nomination ;
+    rdfs:label "PGA - 1991 - Best Theatrical Motion Picture - At Play in the Fields of the Lord" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1991 ;
     msh:hasFilm msh:Film_At_Play_in_the_Fields_of_the_Lord_1991 ;
@@ -32,6 +35,7 @@ msh:Nomination_pga_1991_best_theatrical_motion_picture_at_play_in_the_fields_of_
     msh:yearFilm "1991"^^xsd:gYear .
 
 msh:Nomination_pga_1991_best_theatrical_motion_picture_boyz_n_the_hood_e1aabcb746e3bd01 a msh:Nomination ;
+    rdfs:label "PGA - 1991 - Best Theatrical Motion Picture - Boyz n the Hood" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1991 ;
     msh:hasFilm msh:Film_Boyz_n_the_Hood_1991 ;
@@ -41,6 +45,7 @@ msh:Nomination_pga_1991_best_theatrical_motion_picture_boyz_n_the_hood_e1aabcb74
     msh:yearFilm "1991"^^xsd:gYear .
 
 msh:Nomination_pga_1991_best_theatrical_motion_picture_jfk_2fe5e2a5a1b1035a a msh:Nomination ;
+    rdfs:label "PGA - 1991 - Best Theatrical Motion Picture - JFK" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1991 ;
     msh:hasFilm msh:Film_JFK_1991 ;
@@ -51,6 +56,7 @@ msh:Nomination_pga_1991_best_theatrical_motion_picture_jfk_2fe5e2a5a1b1035a a ms
     msh:yearFilm "1991"^^xsd:gYear .
 
 msh:Nomination_pga_1991_best_theatrical_motion_picture_the_commitments_26599e0ded9a4323 a msh:Nomination ;
+    rdfs:label "PGA - 1991 - Best Theatrical Motion Picture - The Commitments" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1991 ;
     msh:hasFilm msh:Film_The_Commitments_1991 ;
@@ -61,6 +67,7 @@ msh:Nomination_pga_1991_best_theatrical_motion_picture_the_commitments_26599e0de
     msh:yearFilm "1991"^^xsd:gYear .
 
 msh:Nomination_pga_1991_best_theatrical_motion_picture_the_prince_of_tides_21cbc9c60745a4a0 a msh:Nomination ;
+    rdfs:label "PGA - 1991 - Best Theatrical Motion Picture - The Prince of Tides" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1991 ;
     msh:hasFilm msh:Film_The_Prince_of_Tides_1991 ;
@@ -71,6 +78,7 @@ msh:Nomination_pga_1991_best_theatrical_motion_picture_the_prince_of_tides_21cbc
     msh:yearFilm "1991"^^xsd:gYear .
 
 msh:Nomination_pga_1991_best_theatrical_motion_picture_the_silence_of_the_lambs_b245ed66b2d804af a msh:Nomination ;
+    rdfs:label "PGA - 1991 - Best Theatrical Motion Picture - The Silence of the Lambs" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1991 ;
     msh:hasFilm msh:Film_The_Silence_of_the_Lambs_1991 ;
@@ -82,6 +90,7 @@ msh:Nomination_pga_1991_best_theatrical_motion_picture_the_silence_of_the_lambs_
     msh:yearFilm "1991"^^xsd:gYear .
 
 msh:Nomination_pga_1992_best_theatrical_motion_picture_a_few_good_men_c8067c07cc8dfa3c a msh:Nomination ;
+    rdfs:label "PGA - 1992 - Best Theatrical Motion Picture - A Few Good Men" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1992 ;
     msh:hasFilm msh:Film_A_Few_Good_Men_1992 ;
@@ -93,6 +102,7 @@ msh:Nomination_pga_1992_best_theatrical_motion_picture_a_few_good_men_c8067c07cc
     msh:yearFilm "1992"^^xsd:gYear .
 
 msh:Nomination_pga_1992_best_theatrical_motion_picture_howards_end_0a20c92fc685ef61 a msh:Nomination ;
+    rdfs:label "PGA - 1992 - Best Theatrical Motion Picture - Howards End" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1992 ;
     msh:hasFilm msh:Film_Howards_End_1992 ;
@@ -102,6 +112,7 @@ msh:Nomination_pga_1992_best_theatrical_motion_picture_howards_end_0a20c92fc685e
     msh:yearFilm "1992"^^xsd:gYear .
 
 msh:Nomination_pga_1992_best_theatrical_motion_picture_scent_of_a_woman_730a7c2d07c236ec a msh:Nomination ;
+    rdfs:label "PGA - 1992 - Best Theatrical Motion Picture - Scent of a Woman" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1992 ;
     msh:hasFilm msh:Film_Scent_of_a_Woman_1992 ;
@@ -111,6 +122,7 @@ msh:Nomination_pga_1992_best_theatrical_motion_picture_scent_of_a_woman_730a7c2d
     msh:yearFilm "1992"^^xsd:gYear .
 
 msh:Nomination_pga_1992_best_theatrical_motion_picture_the_crying_game_0aae3453201aea08 a msh:Nomination ;
+    rdfs:label "PGA - 1992 - Best Theatrical Motion Picture - The Crying Game" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1992 ;
     msh:hasFilm msh:Film_The_Crying_Game_1992 ;
@@ -120,6 +132,7 @@ msh:Nomination_pga_1992_best_theatrical_motion_picture_the_crying_game_0aae34532
     msh:yearFilm "1992"^^xsd:gYear .
 
 msh:Nomination_pga_1992_best_theatrical_motion_picture_unforgiven_4fa45b792484278e a msh:Nomination ;
+    rdfs:label "PGA - 1992 - Best Theatrical Motion Picture - Unforgiven" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1992 ;
     msh:hasFilm msh:Film_Unforgiven_1992 ;
@@ -130,6 +143,7 @@ msh:Nomination_pga_1992_best_theatrical_motion_picture_unforgiven_4fa45b79248427
     msh:yearFilm "1992"^^xsd:gYear .
 
 msh:Nomination_pga_1993_best_theatrical_motion_picture_in_the_name_of_the_father_13fdee1a046d16ab a msh:Nomination ;
+    rdfs:label "PGA - 1993 - Best Theatrical Motion Picture - In the Name of the Father" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1993 ;
     msh:hasFilm msh:Film_In_the_Name_of_the_Father_1993 ;
@@ -139,6 +153,7 @@ msh:Nomination_pga_1993_best_theatrical_motion_picture_in_the_name_of_the_father
     msh:yearFilm "1993"^^xsd:gYear .
 
 msh:Nomination_pga_1993_best_theatrical_motion_picture_schindlers_list_8b760eeb8bde4b44 a msh:Nomination ;
+    rdfs:label "PGA - 1993 - Best Theatrical Motion Picture - Schindler's List" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1993 ;
     msh:hasFilm msh:Film_Schindlers_List_1993 ;
@@ -150,6 +165,7 @@ msh:Nomination_pga_1993_best_theatrical_motion_picture_schindlers_list_8b760eeb8
     msh:yearFilm "1993"^^xsd:gYear .
 
 msh:Nomination_pga_1993_best_theatrical_motion_picture_the_fugitive_03ec115a0b07f021 a msh:Nomination ;
+    rdfs:label "PGA - 1993 - Best Theatrical Motion Picture - The Fugitive" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1993 ;
     msh:hasFilm msh:Film_The_Fugitive_1993 ;
@@ -159,6 +175,7 @@ msh:Nomination_pga_1993_best_theatrical_motion_picture_the_fugitive_03ec115a0b07
     msh:yearFilm "1993"^^xsd:gYear .
 
 msh:Nomination_pga_1993_best_theatrical_motion_picture_the_piano_b06e44103d84c38d a msh:Nomination ;
+    rdfs:label "PGA - 1993 - Best Theatrical Motion Picture - The Piano" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1993 ;
     msh:hasFilm msh:Film_The_Piano_1993 ;
@@ -168,6 +185,7 @@ msh:Nomination_pga_1993_best_theatrical_motion_picture_the_piano_b06e44103d84c38
     msh:yearFilm "1993"^^xsd:gYear .
 
 msh:Nomination_pga_1993_best_theatrical_motion_picture_the_remains_of_the_day_036f40d0e345db6f a msh:Nomination ;
+    rdfs:label "PGA - 1993 - Best Theatrical Motion Picture - The Remains of the Day" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1993 ;
     msh:hasFilm msh:Film_The_Remains_of_the_Day_1993 ;
@@ -179,6 +197,7 @@ msh:Nomination_pga_1993_best_theatrical_motion_picture_the_remains_of_the_day_03
     msh:yearFilm "1993"^^xsd:gYear .
 
 msh:Nomination_pga_1994_best_theatrical_motion_picture_forrest_gump_d2e71b2009f018f6 a msh:Nomination ;
+    rdfs:label "PGA - 1994 - Best Theatrical Motion Picture - Forrest Gump" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1994 ;
     msh:hasFilm msh:Film_Forrest_Gump_1994 ;
@@ -190,6 +209,7 @@ msh:Nomination_pga_1994_best_theatrical_motion_picture_forrest_gump_d2e71b2009f0
     msh:yearFilm "1994"^^xsd:gYear .
 
 msh:Nomination_pga_1994_best_theatrical_motion_picture_four_weddings_and_a_funeral_a3105672b2ad08a4 a msh:Nomination ;
+    rdfs:label "PGA - 1994 - Best Theatrical Motion Picture - Four Weddings and a Funeral" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1994 ;
     msh:hasFilm msh:Film_Four_Weddings_and_a_Funeral_1994 ;
@@ -199,6 +219,7 @@ msh:Nomination_pga_1994_best_theatrical_motion_picture_four_weddings_and_a_funer
     msh:yearFilm "1994"^^xsd:gYear .
 
 msh:Nomination_pga_1994_best_theatrical_motion_picture_pulp_fiction_9f6ea3c7cbce6aa8 a msh:Nomination ;
+    rdfs:label "PGA - 1994 - Best Theatrical Motion Picture - Pulp Fiction" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1994 ;
     msh:hasFilm msh:Film_Pulp_Fiction_1994 ;
@@ -208,6 +229,7 @@ msh:Nomination_pga_1994_best_theatrical_motion_picture_pulp_fiction_9f6ea3c7cbce
     msh:yearFilm "1994"^^xsd:gYear .
 
 msh:Nomination_pga_1994_best_theatrical_motion_picture_quiz_show_a73c73bcea08aaf0 a msh:Nomination ;
+    rdfs:label "PGA - 1994 - Best Theatrical Motion Picture - Quiz Show" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1994 ;
     msh:hasFilm msh:Film_Quiz_Show_1994 ;
@@ -220,6 +242,7 @@ msh:Nomination_pga_1994_best_theatrical_motion_picture_quiz_show_a73c73bcea08aaf
     msh:yearFilm "1994"^^xsd:gYear .
 
 msh:Nomination_pga_1994_best_theatrical_motion_picture_the_shawshank_redemption_3d365d025706b882 a msh:Nomination ;
+    rdfs:label "PGA - 1994 - Best Theatrical Motion Picture - The Shawshank Redemption" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1994 ;
     msh:hasFilm msh:Film_The_Shawshank_Redemption_1994 ;
@@ -229,6 +252,7 @@ msh:Nomination_pga_1994_best_theatrical_motion_picture_the_shawshank_redemption_
     msh:yearFilm "1994"^^xsd:gYear .
 
 msh:Nomination_pga_1995_best_theatrical_motion_picture_apollo_13_ed944cd7ddfe13c9 a msh:Nomination ;
+    rdfs:label "PGA - 1995 - Best Theatrical Motion Picture - Apollo 13" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1995 ;
     msh:hasFilm msh:Film_Apollo_13_1995 ;
@@ -238,6 +262,7 @@ msh:Nomination_pga_1995_best_theatrical_motion_picture_apollo_13_ed944cd7ddfe13c
     msh:yearFilm "1995"^^xsd:gYear .
 
 msh:Nomination_pga_1995_best_theatrical_motion_picture_dead_man_walking_8cfe6dd400871b6d a msh:Nomination ;
+    rdfs:label "PGA - 1995 - Best Theatrical Motion Picture - Dead Man Walking" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1995 ;
     msh:hasFilm msh:Film_Dead_Man_Walking_1995 ;
@@ -248,6 +273,7 @@ msh:Nomination_pga_1995_best_theatrical_motion_picture_dead_man_walking_8cfe6dd4
     msh:yearFilm "1995"^^xsd:gYear .
 
 msh:Nomination_pga_1995_best_theatrical_motion_picture_il_postino_the_postman_86f5eca531e1bdf5 a msh:Nomination ;
+    rdfs:label "PGA - 1995 - Best Theatrical Motion Picture - Il Postino: The Postman" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1995 ;
     msh:hasFilm msh:Film_Il_Postino_The_Postman_1995 ;
@@ -259,6 +285,7 @@ msh:Nomination_pga_1995_best_theatrical_motion_picture_il_postino_the_postman_86
     msh:yearFilm "1995"^^xsd:gYear .
 
 msh:Nomination_pga_1995_best_theatrical_motion_picture_leaving_las_vegas_04c4f87afad2d746 a msh:Nomination ;
+    rdfs:label "PGA - 1995 - Best Theatrical Motion Picture - Leaving Las Vegas" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1995 ;
     msh:hasFilm msh:Film_Leaving_Las_Vegas_1995 ;
@@ -269,6 +296,7 @@ msh:Nomination_pga_1995_best_theatrical_motion_picture_leaving_las_vegas_04c4f87
     msh:yearFilm "1995"^^xsd:gYear .
 
 msh:Nomination_pga_1995_best_theatrical_motion_picture_sense_and_sensibility_c51e02aa76d9c963 a msh:Nomination ;
+    rdfs:label "PGA - 1995 - Best Theatrical Motion Picture - Sense and Sensibility" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1995 ;
     msh:hasFilm msh:Film_Sense_and_Sensibility_1995 ;
@@ -278,6 +306,7 @@ msh:Nomination_pga_1995_best_theatrical_motion_picture_sense_and_sensibility_c51
     msh:yearFilm "1995"^^xsd:gYear .
 
 msh:Nomination_pga_1995_best_theatrical_motion_picture_the_american_president_30fdcf79e84dcd3a a msh:Nomination ;
+    rdfs:label "PGA - 1995 - Best Theatrical Motion Picture - The American President" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1995 ;
     msh:hasFilm msh:Film_The_American_President_1995 ;
@@ -287,6 +316,7 @@ msh:Nomination_pga_1995_best_theatrical_motion_picture_the_american_president_30
     msh:yearFilm "1995"^^xsd:gYear .
 
 msh:Nomination_pga_1995_best_theatrical_motion_picture_the_bridges_of_madison_county_e03c101f8279a813 a msh:Nomination ;
+    rdfs:label "PGA - 1995 - Best Theatrical Motion Picture - The Bridges of Madison County" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1995 ;
     msh:hasFilm msh:Film_The_Bridges_of_Madison_County_1995 ;
@@ -297,6 +327,7 @@ msh:Nomination_pga_1995_best_theatrical_motion_picture_the_bridges_of_madison_co
     msh:yearFilm "1995"^^xsd:gYear .
 
 msh:Nomination_pga_1996_best_theatrical_motion_picture_fargo_c6c910151bfbba47 a msh:Nomination ;
+    rdfs:label "PGA - 1996 - Best Theatrical Motion Picture - Fargo" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1996 ;
     msh:hasFilm msh:Film_Fargo_1996 ;
@@ -306,6 +337,7 @@ msh:Nomination_pga_1996_best_theatrical_motion_picture_fargo_c6c910151bfbba47 a 
     msh:yearFilm "1996"^^xsd:gYear .
 
 msh:Nomination_pga_1996_best_theatrical_motion_picture_hamlet_8d159960d3493fd7 a msh:Nomination ;
+    rdfs:label "PGA - 1996 - Best Theatrical Motion Picture - Hamlet" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1996 ;
     msh:hasFilm msh:Film_Hamlet_1996 ;
@@ -315,6 +347,7 @@ msh:Nomination_pga_1996_best_theatrical_motion_picture_hamlet_8d159960d3493fd7 a
     msh:yearFilm "1996"^^xsd:gYear .
 
 msh:Nomination_pga_1996_best_theatrical_motion_picture_shine_091630c73a6c0d34 a msh:Nomination ;
+    rdfs:label "PGA - 1996 - Best Theatrical Motion Picture - Shine" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1996 ;
     msh:hasFilm msh:Film_Shine_1996 ;
@@ -324,6 +357,7 @@ msh:Nomination_pga_1996_best_theatrical_motion_picture_shine_091630c73a6c0d34 a 
     msh:yearFilm "1996"^^xsd:gYear .
 
 msh:Nomination_pga_1996_best_theatrical_motion_picture_the_english_patient_4c8b3983cfc8f2aa a msh:Nomination ;
+    rdfs:label "PGA - 1996 - Best Theatrical Motion Picture - The English Patient" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1996 ;
     msh:hasFilm msh:Film_The_English_Patient_1996 ;
@@ -333,6 +367,7 @@ msh:Nomination_pga_1996_best_theatrical_motion_picture_the_english_patient_4c8b3
     msh:yearFilm "1996"^^xsd:gYear .
 
 msh:Nomination_pga_1996_best_theatrical_motion_picture_the_people_vs_larry_flynt_cf6fb4660365f035 a msh:Nomination ;
+    rdfs:label "PGA - 1996 - Best Theatrical Motion Picture - The People vs. Larry Flynt" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1996 ;
     msh:hasFilm msh:Film_The_People_vs_Larry_Flynt_1996 ;
@@ -344,6 +379,7 @@ msh:Nomination_pga_1996_best_theatrical_motion_picture_the_people_vs_larry_flynt
     msh:yearFilm "1996"^^xsd:gYear .
 
 msh:Nomination_pga_1997_best_theatrical_motion_picture_amistad_1ee7a8b13687d397 a msh:Nomination ;
+    rdfs:label "PGA - 1997 - Best Theatrical Motion Picture - Amistad" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1997 ;
     msh:hasFilm msh:Film_Amistad_1997 ;
@@ -355,6 +391,7 @@ msh:Nomination_pga_1997_best_theatrical_motion_picture_amistad_1ee7a8b13687d397 
     msh:yearFilm "1997"^^xsd:gYear .
 
 msh:Nomination_pga_1997_best_theatrical_motion_picture_as_good_as_it_gets_b2eabb89928780d9 a msh:Nomination ;
+    rdfs:label "PGA - 1997 - Best Theatrical Motion Picture - As Good as It Gets" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1997 ;
     msh:hasFilm msh:Film_As_Good_as_It_Gets_1997 ;
@@ -366,6 +403,7 @@ msh:Nomination_pga_1997_best_theatrical_motion_picture_as_good_as_it_gets_b2eabb
     msh:yearFilm "1997"^^xsd:gYear .
 
 msh:Nomination_pga_1997_best_theatrical_motion_picture_good_will_hunting_1ea7eadf50fe5dfd a msh:Nomination ;
+    rdfs:label "PGA - 1997 - Best Theatrical Motion Picture - Good Will Hunting" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1997 ;
     msh:hasFilm msh:Film_Good_Will_Hunting_1997 ;
@@ -375,6 +413,7 @@ msh:Nomination_pga_1997_best_theatrical_motion_picture_good_will_hunting_1ea7ead
     msh:yearFilm "1997"^^xsd:gYear .
 
 msh:Nomination_pga_1997_best_theatrical_motion_picture_l_a_confidential_d9995e097f2e4f52 a msh:Nomination ;
+    rdfs:label "PGA - 1997 - Best Theatrical Motion Picture - L.A. Confidential" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1997 ;
     msh:hasFilm msh:Film_L_A_Confidential_1997 ;
@@ -386,6 +425,7 @@ msh:Nomination_pga_1997_best_theatrical_motion_picture_l_a_confidential_d9995e09
     msh:yearFilm "1997"^^xsd:gYear .
 
 msh:Nomination_pga_1997_best_theatrical_motion_picture_titanic_23155d9ced57d4dd a msh:Nomination ;
+    rdfs:label "PGA - 1997 - Best Theatrical Motion Picture - Titanic" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1997 ;
     msh:hasFilm msh:Film_Titanic_1997 ;
@@ -396,6 +436,7 @@ msh:Nomination_pga_1997_best_theatrical_motion_picture_titanic_23155d9ced57d4dd 
     msh:yearFilm "1997"^^xsd:gYear .
 
 msh:Nomination_pga_1998_best_theatrical_motion_picture_gods_and_monsters_59b0c2e69ace0b3c a msh:Nomination ;
+    rdfs:label "PGA - 1998 - Best Theatrical Motion Picture - Gods and Monsters" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1998 ;
     msh:hasFilm msh:Film_Gods_and_Monsters_1998 ;
@@ -407,6 +448,7 @@ msh:Nomination_pga_1998_best_theatrical_motion_picture_gods_and_monsters_59b0c2e
     msh:yearFilm "1998"^^xsd:gYear .
 
 msh:Nomination_pga_1998_best_theatrical_motion_picture_life_is_beautiful_be280d6a388d399f a msh:Nomination ;
+    rdfs:label "PGA - 1998 - Best Theatrical Motion Picture - Life Is Beautiful" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1998 ;
     msh:hasFilm msh:Film_Life_Is_Beautiful_1998 ;
@@ -417,6 +459,7 @@ msh:Nomination_pga_1998_best_theatrical_motion_picture_life_is_beautiful_be280d6
     msh:yearFilm "1998"^^xsd:gYear .
 
 msh:Nomination_pga_1998_best_theatrical_motion_picture_saving_private_ryan_1f4acfad23d311ae a msh:Nomination ;
+    rdfs:label "PGA - 1998 - Best Theatrical Motion Picture - Saving Private Ryan" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1998 ;
     msh:hasFilm msh:Film_Saving_Private_Ryan_1998 ;
@@ -431,6 +474,7 @@ msh:Nomination_pga_1998_best_theatrical_motion_picture_saving_private_ryan_1f4ac
     msh:yearFilm "1998"^^xsd:gYear .
 
 msh:Nomination_pga_1998_best_theatrical_motion_picture_shakespeare_in_love_521f044fe54891cd a msh:Nomination ;
+    rdfs:label "PGA - 1998 - Best Theatrical Motion Picture - Shakespeare in Love" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1998 ;
     msh:hasFilm msh:Film_Shakespeare_in_Love_1998 ;
@@ -444,6 +488,7 @@ msh:Nomination_pga_1998_best_theatrical_motion_picture_shakespeare_in_love_521f0
     msh:yearFilm "1998"^^xsd:gYear .
 
 msh:Nomination_pga_1998_best_theatrical_motion_picture_waking_ned_77864637f70abc46 a msh:Nomination ;
+    rdfs:label "PGA - 1998 - Best Theatrical Motion Picture - Waking Ned" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1998 ;
     msh:hasFilm msh:Film_Waking_Ned_1998 ;
@@ -454,6 +499,7 @@ msh:Nomination_pga_1998_best_theatrical_motion_picture_waking_ned_77864637f70abc
     msh:yearFilm "1998"^^xsd:gYear .
 
 msh:Nomination_pga_1999_best_theatrical_motion_picture_american_beauty_efa5cd26cc6b4dbe a msh:Nomination ;
+    rdfs:label "PGA - 1999 - Best Theatrical Motion Picture - American Beauty" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1999 ;
     msh:hasFilm msh:Film_American_Beauty_1999 ;
@@ -464,6 +510,7 @@ msh:Nomination_pga_1999_best_theatrical_motion_picture_american_beauty_efa5cd26c
     msh:yearFilm "1999"^^xsd:gYear .
 
 msh:Nomination_pga_1999_best_theatrical_motion_picture_being_john_malkovich_9400f495411a3133 a msh:Nomination ;
+    rdfs:label "PGA - 1999 - Best Theatrical Motion Picture - Being John Malkovich" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1999 ;
     msh:hasFilm msh:Film_Being_John_Malkovich_1999 ;
@@ -476,6 +523,7 @@ msh:Nomination_pga_1999_best_theatrical_motion_picture_being_john_malkovich_9400
     msh:yearFilm "1999"^^xsd:gYear .
 
 msh:Nomination_pga_1999_best_theatrical_motion_picture_the_cider_house_rules_d57f149a5f573774 a msh:Nomination ;
+    rdfs:label "PGA - 1999 - Best Theatrical Motion Picture - The Cider House Rules" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1999 ;
     msh:hasFilm msh:Film_The_Cider_House_Rules_1999 ;
@@ -485,6 +533,7 @@ msh:Nomination_pga_1999_best_theatrical_motion_picture_the_cider_house_rules_d57
     msh:yearFilm "1999"^^xsd:gYear .
 
 msh:Nomination_pga_1999_best_theatrical_motion_picture_the_hurricane_a45bb4d7c0a08743 a msh:Nomination ;
+    rdfs:label "PGA - 1999 - Best Theatrical Motion Picture - The Hurricane" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1999 ;
     msh:hasFilm msh:Film_The_Hurricane_1999 ;
@@ -496,6 +545,7 @@ msh:Nomination_pga_1999_best_theatrical_motion_picture_the_hurricane_a45bb4d7c0a
     msh:yearFilm "1999"^^xsd:gYear .
 
 msh:Nomination_pga_1999_best_theatrical_motion_picture_the_insider_9ee8c29227a786bf a msh:Nomination ;
+    rdfs:label "PGA - 1999 - Best Theatrical Motion Picture - The Insider" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_1999 ;
     msh:hasFilm msh:Film_The_Insider_1999 ;
@@ -506,6 +556,7 @@ msh:Nomination_pga_1999_best_theatrical_motion_picture_the_insider_9ee8c29227a78
     msh:yearFilm "1999"^^xsd:gYear .
 
 msh:Nomination_pga_2000_best_theatrical_motion_picture_almost_famous_8e0ffde1f6b73362 a msh:Nomination ;
+    rdfs:label "PGA - 2000 - Best Theatrical Motion Picture - Almost Famous" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2000 ;
     msh:hasFilm msh:Film_Almost_Famous_2000 ;
@@ -516,6 +567,7 @@ msh:Nomination_pga_2000_best_theatrical_motion_picture_almost_famous_8e0ffde1f6b
     msh:yearFilm "2000"^^xsd:gYear .
 
 msh:Nomination_pga_2000_best_theatrical_motion_picture_billy_elliot_c4ea6efda31a88ff a msh:Nomination ;
+    rdfs:label "PGA - 2000 - Best Theatrical Motion Picture - Billy Elliot" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2000 ;
     msh:hasFilm msh:Film_Billy_Elliot_2000 ;
@@ -526,6 +578,7 @@ msh:Nomination_pga_2000_best_theatrical_motion_picture_billy_elliot_c4ea6efda31a
     msh:yearFilm "2000"^^xsd:gYear .
 
 msh:Nomination_pga_2000_best_theatrical_motion_picture_crouching_tiger_hidden_dragon_302a394d0c667929 a msh:Nomination ;
+    rdfs:label "PGA - 2000 - Best Theatrical Motion Picture - Crouching Tiger, Hidden Dragon" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2000 ;
     msh:hasFilm msh:Film_Crouching_Tiger_Hidden_Dragon_2000 ;
@@ -537,6 +590,7 @@ msh:Nomination_pga_2000_best_theatrical_motion_picture_crouching_tiger_hidden_dr
     msh:yearFilm "2000"^^xsd:gYear .
 
 msh:Nomination_pga_2000_best_theatrical_motion_picture_erin_brockovich_be930b1bbf0f2e0f a msh:Nomination ;
+    rdfs:label "PGA - 2000 - Best Theatrical Motion Picture - Erin Brockovich" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2000 ;
     msh:hasFilm msh:Film_Erin_Brockovich_2000 ;
@@ -548,6 +602,7 @@ msh:Nomination_pga_2000_best_theatrical_motion_picture_erin_brockovich_be930b1bb
     msh:yearFilm "2000"^^xsd:gYear .
 
 msh:Nomination_pga_2000_best_theatrical_motion_picture_gladiator_b0d2860131221eb3 a msh:Nomination ;
+    rdfs:label "PGA - 2000 - Best Theatrical Motion Picture - Gladiator" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2000 ;
     msh:hasFilm msh:Film_Gladiator_2000 ;
@@ -558,6 +613,7 @@ msh:Nomination_pga_2000_best_theatrical_motion_picture_gladiator_b0d2860131221eb
     msh:yearFilm "2000"^^xsd:gYear .
 
 msh:Nomination_pga_2001_best_theatrical_motion_picture_a_beautiful_mind_4e57214a1c1d79c3 a msh:Nomination ;
+    rdfs:label "PGA - 2001 - Best Theatrical Motion Picture - A Beautiful Mind" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2001 ;
     msh:hasFilm msh:Film_A_Beautiful_Mind_2001 ;
@@ -568,6 +624,7 @@ msh:Nomination_pga_2001_best_theatrical_motion_picture_a_beautiful_mind_4e57214a
     msh:yearFilm "2001"^^xsd:gYear .
 
 msh:Nomination_pga_2001_best_theatrical_motion_picture_harry_potter_and_the_sorcerers_stone_0cd6fec21061a509 a msh:Nomination ;
+    rdfs:label "PGA - 2001 - Best Theatrical Motion Picture - Harry Potter and the Sorcerer's Stone" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2001 ;
     msh:hasFilm msh:Film_Harry_Potter_and_the_Sorcerers_Stone_2001 ;
@@ -577,6 +634,7 @@ msh:Nomination_pga_2001_best_theatrical_motion_picture_harry_potter_and_the_sorc
     msh:yearFilm "2001"^^xsd:gYear .
 
 msh:Nomination_pga_2001_best_theatrical_motion_picture_moulin_rouge_378a033e42af8bde a msh:Nomination ;
+    rdfs:label "PGA - 2001 - Best Theatrical Motion Picture - Moulin Rouge!" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2001 ;
     msh:hasFilm msh:Film_Moulin_Rouge_2001 ;
@@ -588,6 +646,7 @@ msh:Nomination_pga_2001_best_theatrical_motion_picture_moulin_rouge_378a033e42af
     msh:yearFilm "2001"^^xsd:gYear .
 
 msh:Nomination_pga_2001_best_theatrical_motion_picture_shrek_a1a00f5d9f561f18 a msh:Nomination ;
+    rdfs:label "PGA - 2001 - Best Theatrical Motion Picture - Shrek" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2001 ;
     msh:hasFilm msh:Film_Shrek_2001 ;
@@ -599,6 +658,7 @@ msh:Nomination_pga_2001_best_theatrical_motion_picture_shrek_a1a00f5d9f561f18 a 
     msh:yearFilm "2001"^^xsd:gYear .
 
 msh:Nomination_pga_2001_best_theatrical_motion_picture_the_lord_of_the_rings_the_fellowship_of_the_ring_77b56e251b927e8d a msh:Nomination ;
+    rdfs:label "PGA - 2001 - Best Theatrical Motion Picture - The Lord of the Rings: The Fellowship of the Ring" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2001 ;
     msh:hasFilm msh:Film_The_Lord_of_the_Rings_The_Fellowship_of_the_Ring_2001 ;
@@ -610,6 +670,7 @@ msh:Nomination_pga_2001_best_theatrical_motion_picture_the_lord_of_the_rings_the
     msh:yearFilm "2001"^^xsd:gYear .
 
 msh:Nomination_pga_2002_best_theatrical_motion_picture_adaptation_8a0705a4354dfef7 a msh:Nomination ;
+    rdfs:label "PGA - 2002 - Best Theatrical Motion Picture - Adaptation" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2002 ;
     msh:hasFilm msh:Film_Adaptation_2002 ;
@@ -621,6 +682,7 @@ msh:Nomination_pga_2002_best_theatrical_motion_picture_adaptation_8a0705a4354dfe
     msh:yearFilm "2002"^^xsd:gYear .
 
 msh:Nomination_pga_2002_best_theatrical_motion_picture_chicago_cdf4fa5df489a6a8 a msh:Nomination ;
+    rdfs:label "PGA - 2002 - Best Theatrical Motion Picture - Chicago" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2002 ;
     msh:hasFilm msh:Film_Chicago_2002 ;
@@ -630,6 +692,7 @@ msh:Nomination_pga_2002_best_theatrical_motion_picture_chicago_cdf4fa5df489a6a8 
     msh:yearFilm "2002"^^xsd:gYear .
 
 msh:Nomination_pga_2002_best_theatrical_motion_picture_gangs_of_new_york_4ea8bb9fb8586ff8 a msh:Nomination ;
+    rdfs:label "PGA - 2002 - Best Theatrical Motion Picture - Gangs of New York" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2002 ;
     msh:hasFilm msh:Film_Gangs_of_New_York_2002 ;
@@ -640,6 +703,7 @@ msh:Nomination_pga_2002_best_theatrical_motion_picture_gangs_of_new_york_4ea8bb9
     msh:yearFilm "2002"^^xsd:gYear .
 
 msh:Nomination_pga_2002_best_theatrical_motion_picture_my_big_fat_greek_wedding_7de2f63325ef4d93 a msh:Nomination ;
+    rdfs:label "PGA - 2002 - Best Theatrical Motion Picture - My Big Fat Greek Wedding" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2002 ;
     msh:hasFilm msh:Film_My_Big_Fat_Greek_Wedding_2002 ;
@@ -651,6 +715,7 @@ msh:Nomination_pga_2002_best_theatrical_motion_picture_my_big_fat_greek_wedding_
     msh:yearFilm "2002"^^xsd:gYear .
 
 msh:Nomination_pga_2002_best_theatrical_motion_picture_road_to_perdition_541226472c05c913 a msh:Nomination ;
+    rdfs:label "PGA - 2002 - Best Theatrical Motion Picture - Road to Perdition" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2002 ;
     msh:hasFilm msh:Film_Road_to_Perdition_2002 ;
@@ -661,6 +726,7 @@ msh:Nomination_pga_2002_best_theatrical_motion_picture_road_to_perdition_5412264
     msh:yearFilm "2002"^^xsd:gYear .
 
 msh:Nomination_pga_2002_best_theatrical_motion_picture_the_lord_of_the_rings_the_two_towers_e8a3c33a05cb37e7 a msh:Nomination ;
+    rdfs:label "PGA - 2002 - Best Theatrical Motion Picture - The Lord of the Rings: The Two Towers" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2002 ;
     msh:hasFilm msh:Film_The_Lord_of_the_Rings_The_Two_Towers_2002 ;
@@ -672,6 +738,7 @@ msh:Nomination_pga_2002_best_theatrical_motion_picture_the_lord_of_the_rings_the
     msh:yearFilm "2002"^^xsd:gYear .
 
 msh:Nomination_pga_2003_best_theatrical_motion_picture_cold_mountain_ce8f4024bdb0fb1d a msh:Nomination ;
+    rdfs:label "PGA - 2003 - Best Theatrical Motion Picture - Cold Mountain" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2003 ;
     msh:hasFilm msh:Film_Cold_Mountain_2003 ;
@@ -681,6 +748,7 @@ msh:Nomination_pga_2003_best_theatrical_motion_picture_cold_mountain_ce8f4024bdb
     msh:yearFilm "2003"^^xsd:gYear .
 
 msh:Nomination_pga_2003_best_theatrical_motion_picture_master_and_commander_the_far_side_of_the_world_c1dddf51c7d77659 a msh:Nomination ;
+    rdfs:label "PGA - 2003 - Best Theatrical Motion Picture - Master and Commander: The Far Side of the World" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2003 ;
     msh:hasFilm msh:Film_Master_and_Commander_The_Far_Side_of_the_World_2003 ;
@@ -692,6 +760,7 @@ msh:Nomination_pga_2003_best_theatrical_motion_picture_master_and_commander_the_
     msh:yearFilm "2003"^^xsd:gYear .
 
 msh:Nomination_pga_2003_best_theatrical_motion_picture_mystic_river_2f4b81101c5eb954 a msh:Nomination ;
+    rdfs:label "PGA - 2003 - Best Theatrical Motion Picture - Mystic River" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2003 ;
     msh:hasFilm msh:Film_Mystic_River_2003 ;
@@ -703,6 +772,7 @@ msh:Nomination_pga_2003_best_theatrical_motion_picture_mystic_river_2f4b81101c5e
     msh:yearFilm "2003"^^xsd:gYear .
 
 msh:Nomination_pga_2003_best_theatrical_motion_picture_seabiscuit_dc90043990994e81 a msh:Nomination ;
+    rdfs:label "PGA - 2003 - Best Theatrical Motion Picture - Seabiscuit" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2003 ;
     msh:hasFilm msh:Film_Seabiscuit_2003 ;
@@ -714,6 +784,7 @@ msh:Nomination_pga_2003_best_theatrical_motion_picture_seabiscuit_dc90043990994e
     msh:yearFilm "2003"^^xsd:gYear .
 
 msh:Nomination_pga_2003_best_theatrical_motion_picture_the_last_samurai_d74b50b257a641d0 a msh:Nomination ;
+    rdfs:label "PGA - 2003 - Best Theatrical Motion Picture - The Last Samurai" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2003 ;
     msh:hasFilm msh:Film_The_Last_Samurai_2003 ;
@@ -726,6 +797,7 @@ msh:Nomination_pga_2003_best_theatrical_motion_picture_the_last_samurai_d74b50b2
     msh:yearFilm "2003"^^xsd:gYear .
 
 msh:Nomination_pga_2003_best_theatrical_motion_picture_the_lord_of_the_rings_the_return_of_the_king_c753f03b91cca9eb a msh:Nomination ;
+    rdfs:label "PGA - 2003 - Best Theatrical Motion Picture - The Lord of the Rings: The Return of the King" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2003 ;
     msh:hasFilm msh:Film_The_Lord_of_the_Rings_The_Return_of_the_King_2003 ;
@@ -737,6 +809,7 @@ msh:Nomination_pga_2003_best_theatrical_motion_picture_the_lord_of_the_rings_the
     msh:yearFilm "2003"^^xsd:gYear .
 
 msh:Nomination_pga_2004_best_theatrical_motion_picture_finding_neverland_8a0da6daa2d4ea45 a msh:Nomination ;
+    rdfs:label "PGA - 2004 - Best Theatrical Motion Picture - Finding Neverland" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2004 ;
     msh:hasFilm msh:Film_Finding_Neverland_2004 ;
@@ -747,6 +820,7 @@ msh:Nomination_pga_2004_best_theatrical_motion_picture_finding_neverland_8a0da6d
     msh:yearFilm "2004"^^xsd:gYear .
 
 msh:Nomination_pga_2004_best_theatrical_motion_picture_million_dollar_baby_6a9d43950f446f60 a msh:Nomination ;
+    rdfs:label "PGA - 2004 - Best Theatrical Motion Picture - Million Dollar Baby" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2004 ;
     msh:hasFilm msh:Film_Million_Dollar_Baby_2004 ;
@@ -758,6 +832,7 @@ msh:Nomination_pga_2004_best_theatrical_motion_picture_million_dollar_baby_6a9d4
     msh:yearFilm "2004"^^xsd:gYear .
 
 msh:Nomination_pga_2004_best_theatrical_motion_picture_sideways_6d1bb00f152850a9 a msh:Nomination ;
+    rdfs:label "PGA - 2004 - Best Theatrical Motion Picture - Sideways" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2004 ;
     msh:hasFilm msh:Film_Sideways_2004 ;
@@ -767,6 +842,7 @@ msh:Nomination_pga_2004_best_theatrical_motion_picture_sideways_6d1bb00f152850a9
     msh:yearFilm "2004"^^xsd:gYear .
 
 msh:Nomination_pga_2004_best_theatrical_motion_picture_the_aviator_a2a429ea17ac6a8a a msh:Nomination ;
+    rdfs:label "PGA - 2004 - Best Theatrical Motion Picture - The Aviator" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2004 ;
     msh:hasFilm msh:Film_The_Aviator_2004 ;
@@ -777,6 +853,7 @@ msh:Nomination_pga_2004_best_theatrical_motion_picture_the_aviator_a2a429ea17ac6
     msh:yearFilm "2004"^^xsd:gYear .
 
 msh:Nomination_pga_2004_best_theatrical_motion_picture_the_incredibles_960a1d0d0d3f99f5 a msh:Nomination ;
+    rdfs:label "PGA - 2004 - Best Theatrical Motion Picture - The Incredibles" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2004 ;
     msh:hasFilm msh:Film_The_Incredibles_2004 ;
@@ -786,6 +863,7 @@ msh:Nomination_pga_2004_best_theatrical_motion_picture_the_incredibles_960a1d0d0
     msh:yearFilm "2004"^^xsd:gYear .
 
 msh:Nomination_pga_2005_best_theatrical_motion_picture_brokeback_mountain_94cf91186600e649 a msh:Nomination ;
+    rdfs:label "PGA - 2005 - Best Theatrical Motion Picture - Brokeback Mountain" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2005 ;
     msh:hasFilm msh:Film_Brokeback_Mountain_2005 ;
@@ -796,6 +874,7 @@ msh:Nomination_pga_2005_best_theatrical_motion_picture_brokeback_mountain_94cf91
     msh:yearFilm "2005"^^xsd:gYear .
 
 msh:Nomination_pga_2005_best_theatrical_motion_picture_capote_ddc8e066d857502f a msh:Nomination ;
+    rdfs:label "PGA - 2005 - Best Theatrical Motion Picture - Capote" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2005 ;
     msh:hasFilm msh:Film_Capote_2005 ;
@@ -807,6 +886,7 @@ msh:Nomination_pga_2005_best_theatrical_motion_picture_capote_ddc8e066d857502f a
     msh:yearFilm "2005"^^xsd:gYear .
 
 msh:Nomination_pga_2005_best_theatrical_motion_picture_crash_0a55f6583474aecf a msh:Nomination ;
+    rdfs:label "PGA - 2005 - Best Theatrical Motion Picture - Crash" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2005 ;
     msh:hasFilm msh:Film_Crash_2005 ;
@@ -817,6 +897,7 @@ msh:Nomination_pga_2005_best_theatrical_motion_picture_crash_0a55f6583474aecf a 
     msh:yearFilm "2005"^^xsd:gYear .
 
 msh:Nomination_pga_2005_best_theatrical_motion_picture_good_night_and_good_luck_9eb870932105b1cc a msh:Nomination ;
+    rdfs:label "PGA - 2005 - Best Theatrical Motion Picture - Good Night, and Good Luck" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2005 ;
     msh:hasFilm msh:Film_Good_Night_and_Good_Luck_2005 ;
@@ -826,6 +907,7 @@ msh:Nomination_pga_2005_best_theatrical_motion_picture_good_night_and_good_luck_
     msh:yearFilm "2005"^^xsd:gYear .
 
 msh:Nomination_pga_2005_best_theatrical_motion_picture_walk_the_line_f9103ce899561c3e a msh:Nomination ;
+    rdfs:label "PGA - 2005 - Best Theatrical Motion Picture - Walk the Line" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2005 ;
     msh:hasFilm msh:Film_Walk_the_Line_2005 ;
@@ -836,6 +918,7 @@ msh:Nomination_pga_2005_best_theatrical_motion_picture_walk_the_line_f9103ce8995
     msh:yearFilm "2005"^^xsd:gYear .
 
 msh:Nomination_pga_2006_best_theatrical_motion_picture_babel_02f949b3a1de84b1 a msh:Nomination ;
+    rdfs:label "PGA - 2006 - Best Theatrical Motion Picture - Babel" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2006 ;
     msh:hasFilm msh:Film_Babel_2006 ;
@@ -847,6 +930,7 @@ msh:Nomination_pga_2006_best_theatrical_motion_picture_babel_02f949b3a1de84b1 a 
     msh:yearFilm "2006"^^xsd:gYear .
 
 msh:Nomination_pga_2006_best_theatrical_motion_picture_dreamgirls_5b07c1273686de6c a msh:Nomination ;
+    rdfs:label "PGA - 2006 - Best Theatrical Motion Picture - Dreamgirls" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2006 ;
     msh:hasFilm msh:Film_Dreamgirls_2006 ;
@@ -856,6 +940,7 @@ msh:Nomination_pga_2006_best_theatrical_motion_picture_dreamgirls_5b07c1273686de
     msh:yearFilm "2006"^^xsd:gYear .
 
 msh:Nomination_pga_2006_best_theatrical_motion_picture_little_miss_sunshine_2635873fac42244e a msh:Nomination ;
+    rdfs:label "PGA - 2006 - Best Theatrical Motion Picture - Little Miss Sunshine" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2006 ;
     msh:hasFilm msh:Film_Little_Miss_Sunshine_2006 ;
@@ -869,6 +954,7 @@ msh:Nomination_pga_2006_best_theatrical_motion_picture_little_miss_sunshine_2635
     msh:yearFilm "2006"^^xsd:gYear .
 
 msh:Nomination_pga_2006_best_theatrical_motion_picture_the_departed_1dfc4ca5b009fe58 a msh:Nomination ;
+    rdfs:label "PGA - 2006 - Best Theatrical Motion Picture - The Departed" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2006 ;
     msh:hasFilm msh:Film_The_Departed_2006 ;
@@ -878,6 +964,7 @@ msh:Nomination_pga_2006_best_theatrical_motion_picture_the_departed_1dfc4ca5b009
     msh:yearFilm "2006"^^xsd:gYear .
 
 msh:Nomination_pga_2006_best_theatrical_motion_picture_the_queen_3ed82639cd4058c2 a msh:Nomination ;
+    rdfs:label "PGA - 2006 - Best Theatrical Motion Picture - The Queen" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2006 ;
     msh:hasFilm msh:Film_The_Queen_2006 ;
@@ -889,6 +976,7 @@ msh:Nomination_pga_2006_best_theatrical_motion_picture_the_queen_3ed82639cd4058c
     msh:yearFilm "2006"^^xsd:gYear .
 
 msh:Nomination_pga_2007_best_theatrical_motion_picture_juno_c1fec182a7abf9dc a msh:Nomination ;
+    rdfs:label "PGA - 2007 - Best Theatrical Motion Picture - Juno" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2007 ;
     msh:hasFilm msh:Film_Juno_2007 ;
@@ -900,6 +988,7 @@ msh:Nomination_pga_2007_best_theatrical_motion_picture_juno_c1fec182a7abf9dc a m
     msh:yearFilm "2007"^^xsd:gYear .
 
 msh:Nomination_pga_2007_best_theatrical_motion_picture_michael_clayton_68301da04065a7b0 a msh:Nomination ;
+    rdfs:label "PGA - 2007 - Best Theatrical Motion Picture - Michael Clayton" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2007 ;
     msh:hasFilm msh:Film_Michael_Clayton_2007 ;
@@ -911,6 +1000,7 @@ msh:Nomination_pga_2007_best_theatrical_motion_picture_michael_clayton_68301da04
     msh:yearFilm "2007"^^xsd:gYear .
 
 msh:Nomination_pga_2007_best_theatrical_motion_picture_no_country_for_old_men_1075385d733fd5d6 a msh:Nomination ;
+    rdfs:label "PGA - 2007 - Best Theatrical Motion Picture - No Country for Old Men" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2007 ;
     msh:hasFilm msh:Film_No_Country_for_Old_Men_2007 ;
@@ -922,6 +1012,7 @@ msh:Nomination_pga_2007_best_theatrical_motion_picture_no_country_for_old_men_10
     msh:yearFilm "2007"^^xsd:gYear .
 
 msh:Nomination_pga_2007_best_theatrical_motion_picture_the_diving_bell_and_the_butterfly_de6178101cbe3e1e a msh:Nomination ;
+    rdfs:label "PGA - 2007 - Best Theatrical Motion Picture - The Diving Bell and the Butterfly" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2007 ;
     msh:hasFilm msh:Film_The_Diving_Bell_and_the_Butterfly_2007 ;
@@ -932,6 +1023,7 @@ msh:Nomination_pga_2007_best_theatrical_motion_picture_the_diving_bell_and_the_b
     msh:yearFilm "2007"^^xsd:gYear .
 
 msh:Nomination_pga_2007_best_theatrical_motion_picture_there_will_be_blood_14d9e22fdfde61fb a msh:Nomination ;
+    rdfs:label "PGA - 2007 - Best Theatrical Motion Picture - There Will Be Blood" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2007 ;
     msh:hasFilm msh:Film_There_Will_Be_Blood_2007 ;
@@ -943,6 +1035,7 @@ msh:Nomination_pga_2007_best_theatrical_motion_picture_there_will_be_blood_14d9e
     msh:yearFilm "2007"^^xsd:gYear .
 
 msh:Nomination_pga_2008_best_theatrical_motion_picture_frost_nixon_1dc6f58356b5c623 a msh:Nomination ;
+    rdfs:label "PGA - 2008 - Best Theatrical Motion Picture - Frost/Nixon" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2008 ;
     msh:hasFilm msh:Film_Frost_Nixon_2008 ;
@@ -954,6 +1047,7 @@ msh:Nomination_pga_2008_best_theatrical_motion_picture_frost_nixon_1dc6f58356b5c
     msh:yearFilm "2008"^^xsd:gYear .
 
 msh:Nomination_pga_2008_best_theatrical_motion_picture_milk_ded63b9d8e05c499 a msh:Nomination ;
+    rdfs:label "PGA - 2008 - Best Theatrical Motion Picture - Milk" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2008 ;
     msh:hasFilm msh:Film_Milk_2008 ;
@@ -964,6 +1058,7 @@ msh:Nomination_pga_2008_best_theatrical_motion_picture_milk_ded63b9d8e05c499 a m
     msh:yearFilm "2008"^^xsd:gYear .
 
 msh:Nomination_pga_2008_best_theatrical_motion_picture_slumdog_millionaire_fcdbbe3ccd5d4493 a msh:Nomination ;
+    rdfs:label "PGA - 2008 - Best Theatrical Motion Picture - Slumdog Millionaire" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2008 ;
     msh:hasFilm msh:Film_Slumdog_Millionaire_2008 ;
@@ -973,6 +1068,7 @@ msh:Nomination_pga_2008_best_theatrical_motion_picture_slumdog_millionaire_fcdbb
     msh:yearFilm "2008"^^xsd:gYear .
 
 msh:Nomination_pga_2008_best_theatrical_motion_picture_the_curious_case_of_benjamin_button_3adefcc1f91bd44a a msh:Nomination ;
+    rdfs:label "PGA - 2008 - Best Theatrical Motion Picture - The Curious Case of Benjamin Button" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2008 ;
     msh:hasFilm msh:Film_The_Curious_Case_of_Benjamin_Button_2008 ;
@@ -984,6 +1080,7 @@ msh:Nomination_pga_2008_best_theatrical_motion_picture_the_curious_case_of_benja
     msh:yearFilm "2008"^^xsd:gYear .
 
 msh:Nomination_pga_2008_best_theatrical_motion_picture_the_dark_knight_b1950a81380001f2 a msh:Nomination ;
+    rdfs:label "PGA - 2008 - Best Theatrical Motion Picture - The Dark Knight" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2008 ;
     msh:hasFilm msh:Film_The_Dark_Knight_2008 ;
@@ -995,6 +1092,7 @@ msh:Nomination_pga_2008_best_theatrical_motion_picture_the_dark_knight_b1950a813
     msh:yearFilm "2008"^^xsd:gYear .
 
 msh:Nomination_pga_2009_best_theatrical_motion_picture_an_education_0e8f359e8b29bc5e a msh:Nomination ;
+    rdfs:label "PGA - 2009 - Best Theatrical Motion Picture - An Education" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2009 ;
     msh:hasFilm msh:Film_An_Education_2009 ;
@@ -1005,6 +1103,7 @@ msh:Nomination_pga_2009_best_theatrical_motion_picture_an_education_0e8f359e8b29
     msh:yearFilm "2009"^^xsd:gYear .
 
 msh:Nomination_pga_2009_best_theatrical_motion_picture_avatar_b5461794be83725e a msh:Nomination ;
+    rdfs:label "PGA - 2009 - Best Theatrical Motion Picture - Avatar" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2009 ;
     msh:hasFilm msh:Film_Avatar_2009 ;
@@ -1015,6 +1114,7 @@ msh:Nomination_pga_2009_best_theatrical_motion_picture_avatar_b5461794be83725e a
     msh:yearFilm "2009"^^xsd:gYear .
 
 msh:Nomination_pga_2009_best_theatrical_motion_picture_district_9_ce8db99e90d86205 a msh:Nomination ;
+    rdfs:label "PGA - 2009 - Best Theatrical Motion Picture - District 9" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2009 ;
     msh:hasFilm msh:Film_District_9_2009 ;
@@ -1025,6 +1125,7 @@ msh:Nomination_pga_2009_best_theatrical_motion_picture_district_9_ce8db99e90d862
     msh:yearFilm "2009"^^xsd:gYear .
 
 msh:Nomination_pga_2009_best_theatrical_motion_picture_inglourious_basterds_baf9be94541e1d46 a msh:Nomination ;
+    rdfs:label "PGA - 2009 - Best Theatrical Motion Picture - Inglourious Basterds" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2009 ;
     msh:hasFilm msh:Film_Inglourious_Basterds_2009 ;
@@ -1034,6 +1135,7 @@ msh:Nomination_pga_2009_best_theatrical_motion_picture_inglourious_basterds_baf9
     msh:yearFilm "2009"^^xsd:gYear .
 
 msh:Nomination_pga_2009_best_theatrical_motion_picture_invictus_ae7b56447b4dcdbe a msh:Nomination ;
+    rdfs:label "PGA - 2009 - Best Theatrical Motion Picture - Invictus" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2009 ;
     msh:hasFilm msh:Film_Invictus_2009 ;
@@ -1046,6 +1148,7 @@ msh:Nomination_pga_2009_best_theatrical_motion_picture_invictus_ae7b56447b4dcdbe
     msh:yearFilm "2009"^^xsd:gYear .
 
 msh:Nomination_pga_2009_best_theatrical_motion_picture_precious_caf053b856edcb64 a msh:Nomination ;
+    rdfs:label "PGA - 2009 - Best Theatrical Motion Picture - Precious" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2009 ;
     msh:hasFilm msh:Film_Precious_2009 ;
@@ -1057,6 +1160,7 @@ msh:Nomination_pga_2009_best_theatrical_motion_picture_precious_caf053b856edcb64
     msh:yearFilm "2009"^^xsd:gYear .
 
 msh:Nomination_pga_2009_best_theatrical_motion_picture_star_trek_99eed089eaa8c2b7 a msh:Nomination ;
+    rdfs:label "PGA - 2009 - Best Theatrical Motion Picture - Star Trek" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2009 ;
     msh:hasFilm msh:Film_Star_Trek_2009 ;
@@ -1067,6 +1171,7 @@ msh:Nomination_pga_2009_best_theatrical_motion_picture_star_trek_99eed089eaa8c2b
     msh:yearFilm "2009"^^xsd:gYear .
 
 msh:Nomination_pga_2009_best_theatrical_motion_picture_the_hurt_locker_e4d0b25583b16d75 a msh:Nomination ;
+    rdfs:label "PGA - 2009 - Best Theatrical Motion Picture - The Hurt Locker" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2009 ;
     msh:hasFilm msh:Film_The_Hurt_Locker_2009 ;
@@ -1079,6 +1184,7 @@ msh:Nomination_pga_2009_best_theatrical_motion_picture_the_hurt_locker_e4d0b2558
     msh:yearFilm "2009"^^xsd:gYear .
 
 msh:Nomination_pga_2009_best_theatrical_motion_picture_up_8204100b6c1a4b75 a msh:Nomination ;
+    rdfs:label "PGA - 2009 - Best Theatrical Motion Picture - Up" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2009 ;
     msh:hasFilm msh:Film_Up_2009 ;
@@ -1088,6 +1194,7 @@ msh:Nomination_pga_2009_best_theatrical_motion_picture_up_8204100b6c1a4b75 a msh
     msh:yearFilm "2009"^^xsd:gYear .
 
 msh:Nomination_pga_2009_best_theatrical_motion_picture_up_in_the_air_4368a3d65f38a3b4 a msh:Nomination ;
+    rdfs:label "PGA - 2009 - Best Theatrical Motion Picture - Up in the Air" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2009 ;
     msh:hasFilm msh:Film_Up_in_the_Air_2009 ;
@@ -1099,6 +1206,7 @@ msh:Nomination_pga_2009_best_theatrical_motion_picture_up_in_the_air_4368a3d65f3
     msh:yearFilm "2009"^^xsd:gYear .
 
 msh:Nomination_pga_2010_best_theatrical_motion_picture_127_hours_80692b8dae40d8d7 a msh:Nomination ;
+    rdfs:label "PGA - 2010 - Best Theatrical Motion Picture - 127 Hours" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2010 ;
     msh:hasFilm msh:Film_127_Hours_2010 ;
@@ -1109,6 +1217,7 @@ msh:Nomination_pga_2010_best_theatrical_motion_picture_127_hours_80692b8dae40d8d
     msh:yearFilm "2010"^^xsd:gYear .
 
 msh:Nomination_pga_2010_best_theatrical_motion_picture_black_swan_8697adf8cfb67aa5 a msh:Nomination ;
+    rdfs:label "PGA - 2010 - Best Theatrical Motion Picture - Black Swan" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2010 ;
     msh:hasFilm msh:Film_Black_Swan_2010 ;
@@ -1120,6 +1229,7 @@ msh:Nomination_pga_2010_best_theatrical_motion_picture_black_swan_8697adf8cfb67a
     msh:yearFilm "2010"^^xsd:gYear .
 
 msh:Nomination_pga_2010_best_theatrical_motion_picture_inception_d0cf52a4643cd1f3 a msh:Nomination ;
+    rdfs:label "PGA - 2010 - Best Theatrical Motion Picture - Inception" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2010 ;
     msh:hasFilm msh:Film_Inception_2010 ;
@@ -1130,6 +1240,7 @@ msh:Nomination_pga_2010_best_theatrical_motion_picture_inception_d0cf52a4643cd1f
     msh:yearFilm "2010"^^xsd:gYear .
 
 msh:Nomination_pga_2010_best_theatrical_motion_picture_the_fighter_f3363ab5ee565aa9 a msh:Nomination ;
+    rdfs:label "PGA - 2010 - Best Theatrical Motion Picture - The Fighter" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2010 ;
     msh:hasFilm msh:Film_The_Fighter_2010 ;
@@ -1141,6 +1252,7 @@ msh:Nomination_pga_2010_best_theatrical_motion_picture_the_fighter_f3363ab5ee565
     msh:yearFilm "2010"^^xsd:gYear .
 
 msh:Nomination_pga_2010_best_theatrical_motion_picture_the_kids_are_all_right_22f80e8a1dfc08f6 a msh:Nomination ;
+    rdfs:label "PGA - 2010 - Best Theatrical Motion Picture - The Kids Are All Right" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2010 ;
     msh:hasFilm msh:Film_The_Kids_Are_All_Right_2010 ;
@@ -1152,6 +1264,7 @@ msh:Nomination_pga_2010_best_theatrical_motion_picture_the_kids_are_all_right_22
     msh:yearFilm "2010"^^xsd:gYear .
 
 msh:Nomination_pga_2010_best_theatrical_motion_picture_the_kings_speech_8c213eb45aaa8240 a msh:Nomination ;
+    rdfs:label "PGA - 2010 - Best Theatrical Motion Picture - The King's Speech" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2010 ;
     msh:hasFilm msh:Film_The_Kings_Speech_2010 ;
@@ -1163,6 +1276,7 @@ msh:Nomination_pga_2010_best_theatrical_motion_picture_the_kings_speech_8c213eb4
     msh:yearFilm "2010"^^xsd:gYear .
 
 msh:Nomination_pga_2010_best_theatrical_motion_picture_the_social_network_6e8b3a184b381d2d a msh:Nomination ;
+    rdfs:label "PGA - 2010 - Best Theatrical Motion Picture - The Social Network" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2010 ;
     msh:hasFilm msh:Film_The_Social_Network_2010 ;
@@ -1175,6 +1289,7 @@ msh:Nomination_pga_2010_best_theatrical_motion_picture_the_social_network_6e8b3a
     msh:yearFilm "2010"^^xsd:gYear .
 
 msh:Nomination_pga_2010_best_theatrical_motion_picture_the_town_26957a1923d850bf a msh:Nomination ;
+    rdfs:label "PGA - 2010 - Best Theatrical Motion Picture - The Town" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2010 ;
     msh:hasFilm msh:Film_The_Town_2010 ;
@@ -1185,6 +1300,7 @@ msh:Nomination_pga_2010_best_theatrical_motion_picture_the_town_26957a1923d850bf
     msh:yearFilm "2010"^^xsd:gYear .
 
 msh:Nomination_pga_2010_best_theatrical_motion_picture_toy_story_3_064d868f00173cb1 a msh:Nomination ;
+    rdfs:label "PGA - 2010 - Best Theatrical Motion Picture - Toy Story 3" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2010 ;
     msh:hasFilm msh:Film_Toy_Story_3_2010 ;
@@ -1194,6 +1310,7 @@ msh:Nomination_pga_2010_best_theatrical_motion_picture_toy_story_3_064d868f00173
     msh:yearFilm "2010"^^xsd:gYear .
 
 msh:Nomination_pga_2010_best_theatrical_motion_picture_true_grit_8dc580dfd5f323dd a msh:Nomination ;
+    rdfs:label "PGA - 2010 - Best Theatrical Motion Picture - True Grit" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2010 ;
     msh:hasFilm msh:Film_True_Grit_2010 ;
@@ -1205,6 +1322,7 @@ msh:Nomination_pga_2010_best_theatrical_motion_picture_true_grit_8dc580dfd5f323d
     msh:yearFilm "2010"^^xsd:gYear .
 
 msh:Nomination_pga_2011_best_theatrical_motion_picture_bridesmaids_f397d9165f2689bf a msh:Nomination ;
+    rdfs:label "PGA - 2011 - Best Theatrical Motion Picture - Bridesmaids" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2011 ;
     msh:hasFilm msh:Film_Bridesmaids_2011 ;
@@ -1216,6 +1334,7 @@ msh:Nomination_pga_2011_best_theatrical_motion_picture_bridesmaids_f397d9165f268
     msh:yearFilm "2011"^^xsd:gYear .
 
 msh:Nomination_pga_2011_best_theatrical_motion_picture_hugo_40884cd7f1422e1d a msh:Nomination ;
+    rdfs:label "PGA - 2011 - Best Theatrical Motion Picture - Hugo" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2011 ;
     msh:hasFilm msh:Film_Hugo_2011 ;
@@ -1226,6 +1345,7 @@ msh:Nomination_pga_2011_best_theatrical_motion_picture_hugo_40884cd7f1422e1d a m
     msh:yearFilm "2011"^^xsd:gYear .
 
 msh:Nomination_pga_2011_best_theatrical_motion_picture_midnight_in_paris_da45020c71b8c668 a msh:Nomination ;
+    rdfs:label "PGA - 2011 - Best Theatrical Motion Picture - Midnight in Paris" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2011 ;
     msh:hasFilm msh:Film_Midnight_in_Paris_2011 ;
@@ -1236,6 +1356,7 @@ msh:Nomination_pga_2011_best_theatrical_motion_picture_midnight_in_paris_da45020
     msh:yearFilm "2011"^^xsd:gYear .
 
 msh:Nomination_pga_2011_best_theatrical_motion_picture_moneyball_af17bf32ed3d67dd a msh:Nomination ;
+    rdfs:label "PGA - 2011 - Best Theatrical Motion Picture - Moneyball" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2011 ;
     msh:hasFilm msh:Film_Moneyball_2011 ;
@@ -1247,6 +1368,7 @@ msh:Nomination_pga_2011_best_theatrical_motion_picture_moneyball_af17bf32ed3d67d
     msh:yearFilm "2011"^^xsd:gYear .
 
 msh:Nomination_pga_2011_best_theatrical_motion_picture_the_artist_c86cb16bb4f812de a msh:Nomination ;
+    rdfs:label "PGA - 2011 - Best Theatrical Motion Picture - The Artist" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2011 ;
     msh:hasFilm msh:Film_The_Artist_2011 ;
@@ -1256,6 +1378,7 @@ msh:Nomination_pga_2011_best_theatrical_motion_picture_the_artist_c86cb16bb4f812
     msh:yearFilm "2011"^^xsd:gYear .
 
 msh:Nomination_pga_2011_best_theatrical_motion_picture_the_descendants_0ca07ffbe2e17c82 a msh:Nomination ;
+    rdfs:label "PGA - 2011 - Best Theatrical Motion Picture - The Descendants" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2011 ;
     msh:hasFilm msh:Film_The_Descendants_2011 ;
@@ -1267,6 +1390,7 @@ msh:Nomination_pga_2011_best_theatrical_motion_picture_the_descendants_0ca07ffbe
     msh:yearFilm "2011"^^xsd:gYear .
 
 msh:Nomination_pga_2011_best_theatrical_motion_picture_the_girl_with_the_dragon_tattoo_916f401ba3cc5cde a msh:Nomination ;
+    rdfs:label "PGA - 2011 - Best Theatrical Motion Picture - The Girl with the Dragon Tattoo" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2011 ;
     msh:hasFilm msh:Film_The_Girl_with_the_Dragon_Tattoo_2011 ;
@@ -1277,6 +1401,7 @@ msh:Nomination_pga_2011_best_theatrical_motion_picture_the_girl_with_the_dragon_
     msh:yearFilm "2011"^^xsd:gYear .
 
 msh:Nomination_pga_2011_best_theatrical_motion_picture_the_help_390f62ccbd00f646 a msh:Nomination ;
+    rdfs:label "PGA - 2011 - Best Theatrical Motion Picture - The Help" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2011 ;
     msh:hasFilm msh:Film_The_Help_2011 ;
@@ -1288,6 +1413,7 @@ msh:Nomination_pga_2011_best_theatrical_motion_picture_the_help_390f62ccbd00f646
     msh:yearFilm "2011"^^xsd:gYear .
 
 msh:Nomination_pga_2011_best_theatrical_motion_picture_the_ides_of_march_b73b9edc64982a69 a msh:Nomination ;
+    rdfs:label "PGA - 2011 - Best Theatrical Motion Picture - The Ides of March" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2011 ;
     msh:hasFilm msh:Film_The_Ides_of_March_2011 ;
@@ -1299,6 +1425,7 @@ msh:Nomination_pga_2011_best_theatrical_motion_picture_the_ides_of_march_b73b9ed
     msh:yearFilm "2011"^^xsd:gYear .
 
 msh:Nomination_pga_2011_best_theatrical_motion_picture_war_horse_ad47236fac55fa55 a msh:Nomination ;
+    rdfs:label "PGA - 2011 - Best Theatrical Motion Picture - War Horse" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2011 ;
     msh:hasFilm msh:Film_War_Horse_2011 ;
@@ -1309,6 +1436,7 @@ msh:Nomination_pga_2011_best_theatrical_motion_picture_war_horse_ad47236fac55fa5
     msh:yearFilm "2011"^^xsd:gYear .
 
 msh:Nomination_pga_2012_best_theatrical_motion_picture_argo_00fcd9425156b6e5 a msh:Nomination ;
+    rdfs:label "PGA - 2012 - Best Theatrical Motion Picture - Argo" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2012 ;
     msh:hasFilm msh:Film_Argo_2012 ;
@@ -1320,6 +1448,7 @@ msh:Nomination_pga_2012_best_theatrical_motion_picture_argo_00fcd9425156b6e5 a m
     msh:yearFilm "2012"^^xsd:gYear .
 
 msh:Nomination_pga_2012_best_theatrical_motion_picture_beasts_of_the_southern_wild_f4cfe3227a4dbc96 a msh:Nomination ;
+    rdfs:label "PGA - 2012 - Best Theatrical Motion Picture - Beasts of the Southern Wild" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2012 ;
     msh:hasFilm msh:Film_Beasts_of_the_Southern_Wild_2012 ;
@@ -1331,6 +1460,7 @@ msh:Nomination_pga_2012_best_theatrical_motion_picture_beasts_of_the_southern_wi
     msh:yearFilm "2012"^^xsd:gYear .
 
 msh:Nomination_pga_2012_best_theatrical_motion_picture_django_unchained_f29a2c7efc555b50 a msh:Nomination ;
+    rdfs:label "PGA - 2012 - Best Theatrical Motion Picture - Django Unchained" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2012 ;
     msh:hasFilm msh:Film_Django_Unchained_2012 ;
@@ -1342,6 +1472,7 @@ msh:Nomination_pga_2012_best_theatrical_motion_picture_django_unchained_f29a2c7e
     msh:yearFilm "2012"^^xsd:gYear .
 
 msh:Nomination_pga_2012_best_theatrical_motion_picture_les_mis_rables_e6e126b28c8f4581 a msh:Nomination ;
+    rdfs:label "PGA - 2012 - Best Theatrical Motion Picture - Les Misérables" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2012 ;
     msh:hasFilm msh:Film_Les_Mis_rables_2012 ;
@@ -1354,6 +1485,7 @@ msh:Nomination_pga_2012_best_theatrical_motion_picture_les_mis_rables_e6e126b28c
     msh:yearFilm "2012"^^xsd:gYear .
 
 msh:Nomination_pga_2012_best_theatrical_motion_picture_life_of_pi_2bffcbd8efabc1a4 a msh:Nomination ;
+    rdfs:label "PGA - 2012 - Best Theatrical Motion Picture - Life of Pi" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2012 ;
     msh:hasFilm msh:Film_Life_of_Pi_2012 ;
@@ -1365,6 +1497,7 @@ msh:Nomination_pga_2012_best_theatrical_motion_picture_life_of_pi_2bffcbd8efabc1
     msh:yearFilm "2012"^^xsd:gYear .
 
 msh:Nomination_pga_2012_best_theatrical_motion_picture_lincoln_89695d71154bb692 a msh:Nomination ;
+    rdfs:label "PGA - 2012 - Best Theatrical Motion Picture - Lincoln" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2012 ;
     msh:hasFilm msh:Film_Lincoln_2012 ;
@@ -1375,6 +1508,7 @@ msh:Nomination_pga_2012_best_theatrical_motion_picture_lincoln_89695d71154bb692 
     msh:yearFilm "2012"^^xsd:gYear .
 
 msh:Nomination_pga_2012_best_theatrical_motion_picture_moonrise_kingdom_45f0e93063f265e8 a msh:Nomination ;
+    rdfs:label "PGA - 2012 - Best Theatrical Motion Picture - Moonrise Kingdom" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2012 ;
     msh:hasFilm msh:Film_Moonrise_Kingdom_2012 ;
@@ -1387,6 +1521,7 @@ msh:Nomination_pga_2012_best_theatrical_motion_picture_moonrise_kingdom_45f0e930
     msh:yearFilm "2012"^^xsd:gYear .
 
 msh:Nomination_pga_2012_best_theatrical_motion_picture_silver_linings_playbook_5202db1ab5d69ded a msh:Nomination ;
+    rdfs:label "PGA - 2012 - Best Theatrical Motion Picture - Silver Linings Playbook" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2012 ;
     msh:hasFilm msh:Film_Silver_Linings_Playbook_2012 ;
@@ -1398,6 +1533,7 @@ msh:Nomination_pga_2012_best_theatrical_motion_picture_silver_linings_playbook_5
     msh:yearFilm "2012"^^xsd:gYear .
 
 msh:Nomination_pga_2012_best_theatrical_motion_picture_skyfall_47958493b4af0afb a msh:Nomination ;
+    rdfs:label "PGA - 2012 - Best Theatrical Motion Picture - Skyfall" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2012 ;
     msh:hasFilm msh:Film_Skyfall_2012 ;
@@ -1408,6 +1544,7 @@ msh:Nomination_pga_2012_best_theatrical_motion_picture_skyfall_47958493b4af0afb 
     msh:yearFilm "2012"^^xsd:gYear .
 
 msh:Nomination_pga_2012_best_theatrical_motion_picture_zero_dark_thirty_79c95e531e56f1ad a msh:Nomination ;
+    rdfs:label "PGA - 2012 - Best Theatrical Motion Picture - Zero Dark Thirty" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2012 ;
     msh:hasFilm msh:Film_Zero_Dark_Thirty_2012 ;
@@ -1419,6 +1556,7 @@ msh:Nomination_pga_2012_best_theatrical_motion_picture_zero_dark_thirty_79c95e53
     msh:yearFilm "2012"^^xsd:gYear .
 
 msh:Nomination_pga_2013_best_theatrical_motion_picture_12_years_a_slave_f1477e1393f7c28c a msh:Nomination ;
+    rdfs:label "PGA - 2013 - Best Theatrical Motion Picture - 12 Years a Slave" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2013 ;
     msh:hasFilm msh:Film_12_Years_a_Slave_2013 ;
@@ -1432,6 +1570,7 @@ msh:Nomination_pga_2013_best_theatrical_motion_picture_12_years_a_slave_f1477e13
     msh:yearFilm "2013"^^xsd:gYear .
 
 msh:Nomination_pga_2013_best_theatrical_motion_picture_american_hustle_19870cde943a666f a msh:Nomination ;
+    rdfs:label "PGA - 2013 - Best Theatrical Motion Picture - American Hustle" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2013 ;
     msh:hasFilm msh:Film_American_Hustle_2013 ;
@@ -1444,6 +1583,7 @@ msh:Nomination_pga_2013_best_theatrical_motion_picture_american_hustle_19870cde9
     msh:yearFilm "2013"^^xsd:gYear .
 
 msh:Nomination_pga_2013_best_theatrical_motion_picture_blue_jasmine_0706918d7c644cd5 a msh:Nomination ;
+    rdfs:label "PGA - 2013 - Best Theatrical Motion Picture - Blue Jasmine" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2013 ;
     msh:hasFilm msh:Film_Blue_Jasmine_2013 ;
@@ -1454,6 +1594,7 @@ msh:Nomination_pga_2013_best_theatrical_motion_picture_blue_jasmine_0706918d7c64
     msh:yearFilm "2013"^^xsd:gYear .
 
 msh:Nomination_pga_2013_best_theatrical_motion_picture_captain_phillips_b6f16b55d39b46b2 a msh:Nomination ;
+    rdfs:label "PGA - 2013 - Best Theatrical Motion Picture - Captain Phillips" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2013 ;
     msh:hasFilm msh:Film_Captain_Phillips_2013 ;
@@ -1465,6 +1606,7 @@ msh:Nomination_pga_2013_best_theatrical_motion_picture_captain_phillips_b6f16b55
     msh:yearFilm "2013"^^xsd:gYear .
 
 msh:Nomination_pga_2013_best_theatrical_motion_picture_dallas_buyers_club_6bcc3a2c571d9975 a msh:Nomination ;
+    rdfs:label "PGA - 2013 - Best Theatrical Motion Picture - Dallas Buyers Club" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2013 ;
     msh:hasFilm msh:Film_Dallas_Buyers_Club_2013 ;
@@ -1475,6 +1617,7 @@ msh:Nomination_pga_2013_best_theatrical_motion_picture_dallas_buyers_club_6bcc3a
     msh:yearFilm "2013"^^xsd:gYear .
 
 msh:Nomination_pga_2013_best_theatrical_motion_picture_gravity_0207ada1bd234452 a msh:Nomination ;
+    rdfs:label "PGA - 2013 - Best Theatrical Motion Picture - Gravity" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2013 ;
     msh:hasFilm msh:Film_Gravity_2013 ;
@@ -1485,6 +1628,7 @@ msh:Nomination_pga_2013_best_theatrical_motion_picture_gravity_0207ada1bd234452 
     msh:yearFilm "2013"^^xsd:gYear .
 
 msh:Nomination_pga_2013_best_theatrical_motion_picture_her_c2c29a8a0ab1422c a msh:Nomination ;
+    rdfs:label "PGA - 2013 - Best Theatrical Motion Picture - Her" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2013 ;
     msh:hasFilm msh:Film_Her_2013 ;
@@ -1496,6 +1640,7 @@ msh:Nomination_pga_2013_best_theatrical_motion_picture_her_c2c29a8a0ab1422c a ms
     msh:yearFilm "2013"^^xsd:gYear .
 
 msh:Nomination_pga_2013_best_theatrical_motion_picture_nebraska_cda18b32e72367e0 a msh:Nomination ;
+    rdfs:label "PGA - 2013 - Best Theatrical Motion Picture - Nebraska" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2013 ;
     msh:hasFilm msh:Film_Nebraska_2013 ;
@@ -1506,6 +1651,7 @@ msh:Nomination_pga_2013_best_theatrical_motion_picture_nebraska_cda18b32e72367e0
     msh:yearFilm "2013"^^xsd:gYear .
 
 msh:Nomination_pga_2013_best_theatrical_motion_picture_saving_mr_banks_da6e9693f509f537 a msh:Nomination ;
+    rdfs:label "PGA - 2013 - Best Theatrical Motion Picture - Saving Mr. Banks" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2013 ;
     msh:hasFilm msh:Film_Saving_Mr_Banks_2013 ;
@@ -1517,6 +1663,7 @@ msh:Nomination_pga_2013_best_theatrical_motion_picture_saving_mr_banks_da6e9693f
     msh:yearFilm "2013"^^xsd:gYear .
 
 msh:Nomination_pga_2013_best_theatrical_motion_picture_the_wolf_of_wall_street_065727b704dab779 a msh:Nomination ;
+    rdfs:label "PGA - 2013 - Best Theatrical Motion Picture - The Wolf of Wall Street" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2013 ;
     msh:hasFilm msh:Film_The_Wolf_of_Wall_Street_2013 ;
@@ -1528,6 +1675,7 @@ msh:Nomination_pga_2013_best_theatrical_motion_picture_the_wolf_of_wall_street_0
     msh:yearFilm "2013"^^xsd:gYear .
 
 msh:Nomination_pga_2014_best_theatrical_motion_picture_american_sniper_7dea1a5a36c749cb a msh:Nomination ;
+    rdfs:label "PGA - 2014 - Best Theatrical Motion Picture - American Sniper" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2014 ;
     msh:hasFilm msh:Film_American_Sniper_2014 ;
@@ -1541,6 +1689,7 @@ msh:Nomination_pga_2014_best_theatrical_motion_picture_american_sniper_7dea1a5a3
     msh:yearFilm "2014"^^xsd:gYear .
 
 msh:Nomination_pga_2014_best_theatrical_motion_picture_birdman_fd3fa426ad0e9b16 a msh:Nomination ;
+    rdfs:label "PGA - 2014 - Best Theatrical Motion Picture - Birdman" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2014 ;
     msh:hasFilm msh:Film_Birdman_2014 ;
@@ -1552,6 +1701,7 @@ msh:Nomination_pga_2014_best_theatrical_motion_picture_birdman_fd3fa426ad0e9b16 
     msh:yearFilm "2014"^^xsd:gYear .
 
 msh:Nomination_pga_2014_best_theatrical_motion_picture_birdman_or_the_unexpected_virtue_of_ignorance_6b780909a269222a a msh:Nomination ;
+    rdfs:label "PGA - 2014 - Best Theatrical Motion Picture - Birdman or (The Unexpected Virtue of Ignorance)" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2014 ;
     msh:hasFilm msh:Film_Birdman_or_The_Unexpected_Virtue_of_Ignorance_2014 ;
@@ -1563,6 +1713,7 @@ msh:Nomination_pga_2014_best_theatrical_motion_picture_birdman_or_the_unexpected
     msh:yearFilm "2014"^^xsd:gYear .
 
 msh:Nomination_pga_2014_best_theatrical_motion_picture_boyhood_ca147ec95a076db2 a msh:Nomination ;
+    rdfs:label "PGA - 2014 - Best Theatrical Motion Picture - Boyhood" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2014 ;
     msh:hasFilm msh:Film_Boyhood_2014 ;
@@ -1573,6 +1724,7 @@ msh:Nomination_pga_2014_best_theatrical_motion_picture_boyhood_ca147ec95a076db2 
     msh:yearFilm "2014"^^xsd:gYear .
 
 msh:Nomination_pga_2014_best_theatrical_motion_picture_foxcatcher_56c84949a4b9bc95 a msh:Nomination ;
+    rdfs:label "PGA - 2014 - Best Theatrical Motion Picture - Foxcatcher" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2014 ;
     msh:hasFilm msh:Film_Foxcatcher_2014 ;
@@ -1584,6 +1736,7 @@ msh:Nomination_pga_2014_best_theatrical_motion_picture_foxcatcher_56c84949a4b9bc
     msh:yearFilm "2014"^^xsd:gYear .
 
 msh:Nomination_pga_2014_best_theatrical_motion_picture_gone_girl_b9a69881c2a5d68b a msh:Nomination ;
+    rdfs:label "PGA - 2014 - Best Theatrical Motion Picture - Gone Girl" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2014 ;
     msh:hasFilm msh:Film_Gone_Girl_2014 ;
@@ -1593,6 +1746,7 @@ msh:Nomination_pga_2014_best_theatrical_motion_picture_gone_girl_b9a69881c2a5d68
     msh:yearFilm "2014"^^xsd:gYear .
 
 msh:Nomination_pga_2014_best_theatrical_motion_picture_nightcrawler_005172ceefa24978 a msh:Nomination ;
+    rdfs:label "PGA - 2014 - Best Theatrical Motion Picture - Nightcrawler" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2014 ;
     msh:hasFilm msh:Film_Nightcrawler_2014 ;
@@ -1603,6 +1757,7 @@ msh:Nomination_pga_2014_best_theatrical_motion_picture_nightcrawler_005172ceefa2
     msh:yearFilm "2014"^^xsd:gYear .
 
 msh:Nomination_pga_2014_best_theatrical_motion_picture_the_grand_budapest_hotel_fc0097876c93b94c a msh:Nomination ;
+    rdfs:label "PGA - 2014 - Best Theatrical Motion Picture - The Grand Budapest Hotel" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2014 ;
     msh:hasFilm msh:Film_The_Grand_Budapest_Hotel_2014 ;
@@ -1615,6 +1770,7 @@ msh:Nomination_pga_2014_best_theatrical_motion_picture_the_grand_budapest_hotel_
     msh:yearFilm "2014"^^xsd:gYear .
 
 msh:Nomination_pga_2014_best_theatrical_motion_picture_the_imitation_game_13cb62e9777da009 a msh:Nomination ;
+    rdfs:label "PGA - 2014 - Best Theatrical Motion Picture - The Imitation Game" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2014 ;
     msh:hasFilm msh:Film_The_Imitation_Game_2014 ;
@@ -1626,6 +1782,7 @@ msh:Nomination_pga_2014_best_theatrical_motion_picture_the_imitation_game_13cb62
     msh:yearFilm "2014"^^xsd:gYear .
 
 msh:Nomination_pga_2014_best_theatrical_motion_picture_the_theory_of_everything_ec5036e03f2acbc0 a msh:Nomination ;
+    rdfs:label "PGA - 2014 - Best Theatrical Motion Picture - The Theory of Everything" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2014 ;
     msh:hasFilm msh:Film_The_Theory_of_Everything_2014 ;
@@ -1638,6 +1795,7 @@ msh:Nomination_pga_2014_best_theatrical_motion_picture_the_theory_of_everything_
     msh:yearFilm "2014"^^xsd:gYear .
 
 msh:Nomination_pga_2014_best_theatrical_motion_picture_whiplash_21aa65118e5aa769 a msh:Nomination ;
+    rdfs:label "PGA - 2014 - Best Theatrical Motion Picture - Whiplash" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2014 ;
     msh:hasFilm msh:Film_Whiplash_2014 ;
@@ -1649,6 +1807,7 @@ msh:Nomination_pga_2014_best_theatrical_motion_picture_whiplash_21aa65118e5aa769
     msh:yearFilm "2014"^^xsd:gYear .
 
 msh:Nomination_pga_2015_best_theatrical_motion_picture_bridge_of_spies_2a7f0c49b4ffcd4c a msh:Nomination ;
+    rdfs:label "PGA - 2015 - Best Theatrical Motion Picture - Bridge of Spies" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2015 ;
     msh:hasFilm msh:Film_Bridge_of_Spies_2015 ;
@@ -1660,6 +1819,7 @@ msh:Nomination_pga_2015_best_theatrical_motion_picture_bridge_of_spies_2a7f0c49b
     msh:yearFilm "2015"^^xsd:gYear .
 
 msh:Nomination_pga_2015_best_theatrical_motion_picture_brooklyn_6aea5644456ea828 a msh:Nomination ;
+    rdfs:label "PGA - 2015 - Best Theatrical Motion Picture - Brooklyn" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2015 ;
     msh:hasFilm msh:Film_Brooklyn_2015 ;
@@ -1670,6 +1830,7 @@ msh:Nomination_pga_2015_best_theatrical_motion_picture_brooklyn_6aea5644456ea828
     msh:yearFilm "2015"^^xsd:gYear .
 
 msh:Nomination_pga_2015_best_theatrical_motion_picture_ex_machina_f31199c48f52a6d0 a msh:Nomination ;
+    rdfs:label "PGA - 2015 - Best Theatrical Motion Picture - Ex Machina" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2015 ;
     msh:hasFilm msh:Film_Ex_Machina_2015 ;
@@ -1680,6 +1841,7 @@ msh:Nomination_pga_2015_best_theatrical_motion_picture_ex_machina_f31199c48f52a6
     msh:yearFilm "2015"^^xsd:gYear .
 
 msh:Nomination_pga_2015_best_theatrical_motion_picture_mad_max_fury_road_6604a68772afbd3b a msh:Nomination ;
+    rdfs:label "PGA - 2015 - Best Theatrical Motion Picture - Mad Max: Fury Road" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2015 ;
     msh:hasFilm msh:Film_Mad_Max_Fury_Road_2015 ;
@@ -1690,6 +1852,7 @@ msh:Nomination_pga_2015_best_theatrical_motion_picture_mad_max_fury_road_6604a68
     msh:yearFilm "2015"^^xsd:gYear .
 
 msh:Nomination_pga_2015_best_theatrical_motion_picture_sicario_aa28fb69f25f962d a msh:Nomination ;
+    rdfs:label "PGA - 2015 - Best Theatrical Motion Picture - Sicario" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2015 ;
     msh:hasFilm msh:Film_Sicario_2015 ;
@@ -1701,6 +1864,7 @@ msh:Nomination_pga_2015_best_theatrical_motion_picture_sicario_aa28fb69f25f962d 
     msh:yearFilm "2015"^^xsd:gYear .
 
 msh:Nomination_pga_2015_best_theatrical_motion_picture_spotlight_ede4b63dcd5a1788 a msh:Nomination ;
+    rdfs:label "PGA - 2015 - Best Theatrical Motion Picture - Spotlight" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2015 ;
     msh:hasFilm msh:Film_Spotlight_2015 ;
@@ -1713,6 +1877,7 @@ msh:Nomination_pga_2015_best_theatrical_motion_picture_spotlight_ede4b63dcd5a178
     msh:yearFilm "2015"^^xsd:gYear .
 
 msh:Nomination_pga_2015_best_theatrical_motion_picture_straight_outta_compton_01ced9b85c0d7bc8 a msh:Nomination ;
+    rdfs:label "PGA - 2015 - Best Theatrical Motion Picture - Straight Outta Compton" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2015 ;
     msh:hasFilm msh:Film_Straight_Outta_Compton_2015 ;
@@ -1726,6 +1891,7 @@ msh:Nomination_pga_2015_best_theatrical_motion_picture_straight_outta_compton_01
     msh:yearFilm "2015"^^xsd:gYear .
 
 msh:Nomination_pga_2015_best_theatrical_motion_picture_the_big_short_74f652f54b7a4771 a msh:Nomination ;
+    rdfs:label "PGA - 2015 - Best Theatrical Motion Picture - The Big Short" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2015 ;
     msh:hasFilm msh:Film_The_Big_Short_2015 ;
@@ -1737,6 +1903,7 @@ msh:Nomination_pga_2015_best_theatrical_motion_picture_the_big_short_74f652f54b7
     msh:yearFilm "2015"^^xsd:gYear .
 
 msh:Nomination_pga_2015_best_theatrical_motion_picture_the_martian_6e4073213df4da39 a msh:Nomination ;
+    rdfs:label "PGA - 2015 - Best Theatrical Motion Picture - The Martian" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2015 ;
     msh:hasFilm msh:Film_The_Martian_2015 ;
@@ -1749,6 +1916,7 @@ msh:Nomination_pga_2015_best_theatrical_motion_picture_the_martian_6e4073213df4d
     msh:yearFilm "2015"^^xsd:gYear .
 
 msh:Nomination_pga_2015_best_theatrical_motion_picture_the_revenant_a45464ef0e45de09 a msh:Nomination ;
+    rdfs:label "PGA - 2015 - Best Theatrical Motion Picture - The Revenant" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2015 ;
     msh:hasFilm msh:Film_The_Revenant_2015 ;
@@ -1762,6 +1930,7 @@ msh:Nomination_pga_2015_best_theatrical_motion_picture_the_revenant_a45464ef0e45
     msh:yearFilm "2015"^^xsd:gYear .
 
 msh:Nomination_pga_2016_best_theatrical_motion_picture_arrival_3dcd88d3a4ab9c46 a msh:Nomination ;
+    rdfs:label "PGA - 2016 - Best Theatrical Motion Picture - Arrival" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2016 ;
     msh:hasFilm msh:Film_Arrival_2016 ;
@@ -1774,6 +1943,7 @@ msh:Nomination_pga_2016_best_theatrical_motion_picture_arrival_3dcd88d3a4ab9c46 
     msh:yearFilm "2016"^^xsd:gYear .
 
 msh:Nomination_pga_2016_best_theatrical_motion_picture_deadpool_68b8a5d60628d37f a msh:Nomination ;
+    rdfs:label "PGA - 2016 - Best Theatrical Motion Picture - Deadpool" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2016 ;
     msh:hasFilm msh:Film_Deadpool_2016 ;
@@ -1785,6 +1955,7 @@ msh:Nomination_pga_2016_best_theatrical_motion_picture_deadpool_68b8a5d60628d37f
     msh:yearFilm "2016"^^xsd:gYear .
 
 msh:Nomination_pga_2016_best_theatrical_motion_picture_fences_c7a7f8ebb221c9d9 a msh:Nomination ;
+    rdfs:label "PGA - 2016 - Best Theatrical Motion Picture - Fences" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2016 ;
     msh:hasFilm msh:Film_Fences_2016 ;
@@ -1796,6 +1967,7 @@ msh:Nomination_pga_2016_best_theatrical_motion_picture_fences_c7a7f8ebb221c9d9 a
     msh:yearFilm "2016"^^xsd:gYear .
 
 msh:Nomination_pga_2016_best_theatrical_motion_picture_hacksaw_ridge_98066fc819945bf6 a msh:Nomination ;
+    rdfs:label "PGA - 2016 - Best Theatrical Motion Picture - Hacksaw Ridge" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2016 ;
     msh:hasFilm msh:Film_Hacksaw_Ridge_2016 ;
@@ -1806,6 +1978,7 @@ msh:Nomination_pga_2016_best_theatrical_motion_picture_hacksaw_ridge_98066fc8199
     msh:yearFilm "2016"^^xsd:gYear .
 
 msh:Nomination_pga_2016_best_theatrical_motion_picture_hell_or_high_water_36d74ed723a6dbee a msh:Nomination ;
+    rdfs:label "PGA - 2016 - Best Theatrical Motion Picture - Hell or High Water" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2016 ;
     msh:hasFilm msh:Film_Hell_or_High_Water_2016 ;
@@ -1816,6 +1989,7 @@ msh:Nomination_pga_2016_best_theatrical_motion_picture_hell_or_high_water_36d74e
     msh:yearFilm "2016"^^xsd:gYear .
 
 msh:Nomination_pga_2016_best_theatrical_motion_picture_hidden_figures_1c451c14c10e7a98 a msh:Nomination ;
+    rdfs:label "PGA - 2016 - Best Theatrical Motion Picture - Hidden Figures" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2016 ;
     msh:hasFilm msh:Film_Hidden_Figures_2016 ;
@@ -1829,6 +2003,7 @@ msh:Nomination_pga_2016_best_theatrical_motion_picture_hidden_figures_1c451c14c1
     msh:yearFilm "2016"^^xsd:gYear .
 
 msh:Nomination_pga_2016_best_theatrical_motion_picture_la_la_land_ac2689310eb44ddd a msh:Nomination ;
+    rdfs:label "PGA - 2016 - Best Theatrical Motion Picture - La La Land" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2016 ;
     msh:hasFilm msh:Film_La_La_Land_2016 ;
@@ -1840,6 +2015,7 @@ msh:Nomination_pga_2016_best_theatrical_motion_picture_la_la_land_ac2689310eb44d
     msh:yearFilm "2016"^^xsd:gYear .
 
 msh:Nomination_pga_2016_best_theatrical_motion_picture_lion_ec50a2622d4d0b64 a msh:Nomination ;
+    rdfs:label "PGA - 2016 - Best Theatrical Motion Picture - Lion" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2016 ;
     msh:hasFilm msh:Film_Lion_2016 ;
@@ -1851,6 +2027,7 @@ msh:Nomination_pga_2016_best_theatrical_motion_picture_lion_ec50a2622d4d0b64 a m
     msh:yearFilm "2016"^^xsd:gYear .
 
 msh:Nomination_pga_2016_best_theatrical_motion_picture_manchester_by_the_sea_fb8a23a8c9b1ef28 a msh:Nomination ;
+    rdfs:label "PGA - 2016 - Best Theatrical Motion Picture - Manchester by the Sea" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2016 ;
     msh:hasFilm msh:Film_Manchester_by_the_Sea_2016 ;
@@ -1864,6 +2041,7 @@ msh:Nomination_pga_2016_best_theatrical_motion_picture_manchester_by_the_sea_fb8
     msh:yearFilm "2016"^^xsd:gYear .
 
 msh:Nomination_pga_2016_best_theatrical_motion_picture_moonlight_6237f53880571056 a msh:Nomination ;
+    rdfs:label "PGA - 2016 - Best Theatrical Motion Picture - Moonlight" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2016 ;
     msh:hasFilm msh:Film_Moonlight_2016 ;
@@ -1875,6 +2053,7 @@ msh:Nomination_pga_2016_best_theatrical_motion_picture_moonlight_6237f5388057105
     msh:yearFilm "2016"^^xsd:gYear .
 
 msh:Nomination_pga_2017_best_theatrical_motion_picture_call_me_by_your_name_0b14db8034a82574 a msh:Nomination ;
+    rdfs:label "PGA - 2017 - Best Theatrical Motion Picture - Call Me by Your Name" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2017 ;
     msh:hasFilm msh:Film_Call_Me_by_Your_Name_2017 ;
@@ -1887,6 +2066,7 @@ msh:Nomination_pga_2017_best_theatrical_motion_picture_call_me_by_your_name_0b14
     msh:yearFilm "2017"^^xsd:gYear .
 
 msh:Nomination_pga_2017_best_theatrical_motion_picture_dunkirk_26b1d23b3b79341c a msh:Nomination ;
+    rdfs:label "PGA - 2017 - Best Theatrical Motion Picture - Dunkirk" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2017 ;
     msh:hasFilm msh:Film_Dunkirk_2017 ;
@@ -1897,6 +2077,7 @@ msh:Nomination_pga_2017_best_theatrical_motion_picture_dunkirk_26b1d23b3b79341c 
     msh:yearFilm "2017"^^xsd:gYear .
 
 msh:Nomination_pga_2017_best_theatrical_motion_picture_get_out_56117d0139d35bc2 a msh:Nomination ;
+    rdfs:label "PGA - 2017 - Best Theatrical Motion Picture - Get Out" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2017 ;
     msh:hasFilm msh:Film_Get_Out_2017 ;
@@ -1909,6 +2090,7 @@ msh:Nomination_pga_2017_best_theatrical_motion_picture_get_out_56117d0139d35bc2 
     msh:yearFilm "2017"^^xsd:gYear .
 
 msh:Nomination_pga_2017_best_theatrical_motion_picture_i_tonya_4de43795f046d828 a msh:Nomination ;
+    rdfs:label "PGA - 2017 - Best Theatrical Motion Picture - I, Tonya" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2017 ;
     msh:hasFilm msh:Film_I_Tonya_2017 ;
@@ -1921,6 +2103,7 @@ msh:Nomination_pga_2017_best_theatrical_motion_picture_i_tonya_4de43795f046d828 
     msh:yearFilm "2017"^^xsd:gYear .
 
 msh:Nomination_pga_2017_best_theatrical_motion_picture_lady_bird_d2bc08ffd6d14066 a msh:Nomination ;
+    rdfs:label "PGA - 2017 - Best Theatrical Motion Picture - Lady Bird" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2017 ;
     msh:hasFilm msh:Film_Lady_Bird_2017 ;
@@ -1932,6 +2115,7 @@ msh:Nomination_pga_2017_best_theatrical_motion_picture_lady_bird_d2bc08ffd6d1406
     msh:yearFilm "2017"^^xsd:gYear .
 
 msh:Nomination_pga_2017_best_theatrical_motion_picture_mollys_game_8f4b40142b867d5b a msh:Nomination ;
+    rdfs:label "PGA - 2017 - Best Theatrical Motion Picture - Molly's Game" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2017 ;
     msh:hasFilm msh:Film_Mollys_Game_2017 ;
@@ -1943,6 +2127,7 @@ msh:Nomination_pga_2017_best_theatrical_motion_picture_mollys_game_8f4b40142b867
     msh:yearFilm "2017"^^xsd:gYear .
 
 msh:Nomination_pga_2017_best_theatrical_motion_picture_the_big_sick_e4d337e60cbb2c7a a msh:Nomination ;
+    rdfs:label "PGA - 2017 - Best Theatrical Motion Picture - The Big Sick" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2017 ;
     msh:hasFilm msh:Film_The_Big_Sick_2017 ;
@@ -1953,6 +2138,7 @@ msh:Nomination_pga_2017_best_theatrical_motion_picture_the_big_sick_e4d337e60cbb
     msh:yearFilm "2017"^^xsd:gYear .
 
 msh:Nomination_pga_2017_best_theatrical_motion_picture_the_post_a4324d997b10591a a msh:Nomination ;
+    rdfs:label "PGA - 2017 - Best Theatrical Motion Picture - The Post" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2017 ;
     msh:hasFilm msh:Film_The_Post_2017 ;
@@ -1964,6 +2150,7 @@ msh:Nomination_pga_2017_best_theatrical_motion_picture_the_post_a4324d997b10591a
     msh:yearFilm "2017"^^xsd:gYear .
 
 msh:Nomination_pga_2017_best_theatrical_motion_picture_the_shape_of_water_d8d5a7cbd2dbdaf7 a msh:Nomination ;
+    rdfs:label "PGA - 2017 - Best Theatrical Motion Picture - The Shape of Water" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2017 ;
     msh:hasFilm msh:Film_The_Shape_of_Water_2017 ;
@@ -1974,6 +2161,7 @@ msh:Nomination_pga_2017_best_theatrical_motion_picture_the_shape_of_water_d8d5a7
     msh:yearFilm "2017"^^xsd:gYear .
 
 msh:Nomination_pga_2017_best_theatrical_motion_picture_three_billboards_outside_ebbing_missouri_143d9dc0176aa35d a msh:Nomination ;
+    rdfs:label "PGA - 2017 - Best Theatrical Motion Picture - Three Billboards Outside Ebbing, Missouri" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2017 ;
     msh:hasFilm msh:Film_Three_Billboards_Outside_Ebbing_Missouri_2017 ;
@@ -1985,6 +2173,7 @@ msh:Nomination_pga_2017_best_theatrical_motion_picture_three_billboards_outside_
     msh:yearFilm "2017"^^xsd:gYear .
 
 msh:Nomination_pga_2017_best_theatrical_motion_picture_wonder_woman_16002c5fa1ac0792 a msh:Nomination ;
+    rdfs:label "PGA - 2017 - Best Theatrical Motion Picture - Wonder Woman" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2017 ;
     msh:hasFilm msh:Film_Wonder_Woman_2017 ;
@@ -1997,6 +2186,7 @@ msh:Nomination_pga_2017_best_theatrical_motion_picture_wonder_woman_16002c5fa1ac
     msh:yearFilm "2017"^^xsd:gYear .
 
 msh:Nomination_pga_2018_best_theatrical_motion_picture_a_quiet_place_8c04fb5518d031cb a msh:Nomination ;
+    rdfs:label "PGA - 2018 - Best Theatrical Motion Picture - A Quiet Place" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2018 ;
     msh:hasFilm msh:Film_A_Quiet_Place_2018 ;
@@ -2008,6 +2198,7 @@ msh:Nomination_pga_2018_best_theatrical_motion_picture_a_quiet_place_8c04fb5518d
     msh:yearFilm "2018"^^xsd:gYear .
 
 msh:Nomination_pga_2018_best_theatrical_motion_picture_a_star_is_born_919f818c95e03d45 a msh:Nomination ;
+    rdfs:label "PGA - 2018 - Best Theatrical Motion Picture - A Star Is Born" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2018 ;
     msh:hasFilm msh:Film_A_Star_Is_Born_2018 ;
@@ -2019,6 +2210,7 @@ msh:Nomination_pga_2018_best_theatrical_motion_picture_a_star_is_born_919f818c95
     msh:yearFilm "2018"^^xsd:gYear .
 
 msh:Nomination_pga_2018_best_theatrical_motion_picture_black_panther_8384a16df846aa2e a msh:Nomination ;
+    rdfs:label "PGA - 2018 - Best Theatrical Motion Picture - Black Panther" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2018 ;
     msh:hasFilm msh:Film_Black_Panther_2018 ;
@@ -2028,6 +2220,7 @@ msh:Nomination_pga_2018_best_theatrical_motion_picture_black_panther_8384a16df84
     msh:yearFilm "2018"^^xsd:gYear .
 
 msh:Nomination_pga_2018_best_theatrical_motion_picture_blackkklansman_1ce58bc27db7d2b1 a msh:Nomination ;
+    rdfs:label "PGA - 2018 - Best Theatrical Motion Picture - BlacKkKlansman" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2018 ;
     msh:hasFilm msh:Film_BlacKkKlansman_2018 ;
@@ -2041,6 +2234,7 @@ msh:Nomination_pga_2018_best_theatrical_motion_picture_blackkklansman_1ce58bc27d
     msh:yearFilm "2018"^^xsd:gYear .
 
 msh:Nomination_pga_2018_best_theatrical_motion_picture_bohemian_rhapsody_3a3716e635844671 a msh:Nomination ;
+    rdfs:label "PGA - 2018 - Best Theatrical Motion Picture - Bohemian Rhapsody" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2018 ;
     msh:hasFilm msh:Film_Bohemian_Rhapsody_2018 ;
@@ -2050,6 +2244,7 @@ msh:Nomination_pga_2018_best_theatrical_motion_picture_bohemian_rhapsody_3a3716e
     msh:yearFilm "2018"^^xsd:gYear .
 
 msh:Nomination_pga_2018_best_theatrical_motion_picture_crazy_rich_asians_ad750d70d01a36c1 a msh:Nomination ;
+    rdfs:label "PGA - 2018 - Best Theatrical Motion Picture - Crazy Rich Asians" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2018 ;
     msh:hasFilm msh:Film_Crazy_Rich_Asians_2018 ;
@@ -2061,6 +2256,7 @@ msh:Nomination_pga_2018_best_theatrical_motion_picture_crazy_rich_asians_ad750d7
     msh:yearFilm "2018"^^xsd:gYear .
 
 msh:Nomination_pga_2018_best_theatrical_motion_picture_green_book_4af22bc0714dfa59 a msh:Nomination ;
+    rdfs:label "PGA - 2018 - Best Theatrical Motion Picture - Green Book" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2018 ;
     msh:hasFilm msh:Film_Green_Book_2018 ;
@@ -2074,6 +2270,7 @@ msh:Nomination_pga_2018_best_theatrical_motion_picture_green_book_4af22bc0714dfa
     msh:yearFilm "2018"^^xsd:gYear .
 
 msh:Nomination_pga_2018_best_theatrical_motion_picture_roma_0cb5cb12e178870b a msh:Nomination ;
+    rdfs:label "PGA - 2018 - Best Theatrical Motion Picture - Roma" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2018 ;
     msh:hasFilm msh:Film_Roma_2018 ;
@@ -2084,6 +2281,7 @@ msh:Nomination_pga_2018_best_theatrical_motion_picture_roma_0cb5cb12e178870b a m
     msh:yearFilm "2018"^^xsd:gYear .
 
 msh:Nomination_pga_2018_best_theatrical_motion_picture_the_favourite_35cdaff8ef923651 a msh:Nomination ;
+    rdfs:label "PGA - 2018 - Best Theatrical Motion Picture - The Favourite" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2018 ;
     msh:hasFilm msh:Film_The_Favourite_2018 ;
@@ -2096,6 +2294,7 @@ msh:Nomination_pga_2018_best_theatrical_motion_picture_the_favourite_35cdaff8ef9
     msh:yearFilm "2018"^^xsd:gYear .
 
 msh:Nomination_pga_2018_best_theatrical_motion_picture_vice_5c6c5f998c2ceff0 a msh:Nomination ;
+    rdfs:label "PGA - 2018 - Best Theatrical Motion Picture - Vice" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2018 ;
     msh:hasFilm msh:Film_Vice_2018 ;
@@ -2108,6 +2307,7 @@ msh:Nomination_pga_2018_best_theatrical_motion_picture_vice_5c6c5f998c2ceff0 a m
     msh:yearFilm "2018"^^xsd:gYear .
 
 msh:Nomination_pga_2019_best_theatrical_motion_picture_1917_867f5a1ab23edb8c a msh:Nomination ;
+    rdfs:label "PGA - 2019 - Best Theatrical Motion Picture - 1917" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2019 ;
     msh:hasFilm msh:Film_1917_2019 ;
@@ -2120,6 +2320,7 @@ msh:Nomination_pga_2019_best_theatrical_motion_picture_1917_867f5a1ab23edb8c a m
     msh:yearFilm "2019"^^xsd:gYear .
 
 msh:Nomination_pga_2019_best_theatrical_motion_picture_ford_v_ferrari_3d65f075ebf00a52 a msh:Nomination ;
+    rdfs:label "PGA - 2019 - Best Theatrical Motion Picture - Ford v Ferrari" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2019 ;
     msh:hasFilm msh:Film_Ford_v_Ferrari_2019 ;
@@ -2131,6 +2332,7 @@ msh:Nomination_pga_2019_best_theatrical_motion_picture_ford_v_ferrari_3d65f075eb
     msh:yearFilm "2019"^^xsd:gYear .
 
 msh:Nomination_pga_2019_best_theatrical_motion_picture_jojo_rabbit_594f66a1f7918566 a msh:Nomination ;
+    rdfs:label "PGA - 2019 - Best Theatrical Motion Picture - Jojo Rabbit" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2019 ;
     msh:hasFilm msh:Film_Jojo_Rabbit_2019 ;
@@ -2141,6 +2343,7 @@ msh:Nomination_pga_2019_best_theatrical_motion_picture_jojo_rabbit_594f66a1f7918
     msh:yearFilm "2019"^^xsd:gYear .
 
 msh:Nomination_pga_2019_best_theatrical_motion_picture_joker_cb48e8cd98b3dc7f a msh:Nomination ;
+    rdfs:label "PGA - 2019 - Best Theatrical Motion Picture - Joker" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2019 ;
     msh:hasFilm msh:Film_Joker_2019 ;
@@ -2152,6 +2355,7 @@ msh:Nomination_pga_2019_best_theatrical_motion_picture_joker_cb48e8cd98b3dc7f a 
     msh:yearFilm "2019"^^xsd:gYear .
 
 msh:Nomination_pga_2019_best_theatrical_motion_picture_knives_out_1284be8741432cef a msh:Nomination ;
+    rdfs:label "PGA - 2019 - Best Theatrical Motion Picture - Knives Out" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2019 ;
     msh:hasFilm msh:Film_Knives_Out_2019 ;
@@ -2162,6 +2366,7 @@ msh:Nomination_pga_2019_best_theatrical_motion_picture_knives_out_1284be8741432c
     msh:yearFilm "2019"^^xsd:gYear .
 
 msh:Nomination_pga_2019_best_theatrical_motion_picture_little_women_be046317864ba2e6 a msh:Nomination ;
+    rdfs:label "PGA - 2019 - Best Theatrical Motion Picture - Little Women" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2019 ;
     msh:hasFilm msh:Film_Little_Women_2019 ;
@@ -2171,6 +2376,7 @@ msh:Nomination_pga_2019_best_theatrical_motion_picture_little_women_be046317864b
     msh:yearFilm "2019"^^xsd:gYear .
 
 msh:Nomination_pga_2019_best_theatrical_motion_picture_marriage_story_3c16337f2b05465b a msh:Nomination ;
+    rdfs:label "PGA - 2019 - Best Theatrical Motion Picture - Marriage Story" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2019 ;
     msh:hasFilm msh:Film_Marriage_Story_2019 ;
@@ -2181,6 +2387,7 @@ msh:Nomination_pga_2019_best_theatrical_motion_picture_marriage_story_3c16337f2b
     msh:yearFilm "2019"^^xsd:gYear .
 
 msh:Nomination_pga_2019_best_theatrical_motion_picture_once_upon_a_time_in_hollywood_562675f64fe9c22f a msh:Nomination ;
+    rdfs:label "PGA - 2019 - Best Theatrical Motion Picture - Once Upon a Time in Hollywood" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2019 ;
     msh:hasFilm msh:Film_Once_Upon_a_Time_in_Hollywood_2019 ;
@@ -2192,6 +2399,7 @@ msh:Nomination_pga_2019_best_theatrical_motion_picture_once_upon_a_time_in_holly
     msh:yearFilm "2019"^^xsd:gYear .
 
 msh:Nomination_pga_2019_best_theatrical_motion_picture_parasite_d10275a8c3381f0d a msh:Nomination ;
+    rdfs:label "PGA - 2019 - Best Theatrical Motion Picture - Parasite" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2019 ;
     msh:hasFilm msh:Film_Parasite_2019 ;
@@ -2202,6 +2410,7 @@ msh:Nomination_pga_2019_best_theatrical_motion_picture_parasite_d10275a8c3381f0d
     msh:yearFilm "2019"^^xsd:gYear .
 
 msh:Nomination_pga_2019_best_theatrical_motion_picture_the_irishman_af82052f0c2b490c a msh:Nomination ;
+    rdfs:label "PGA - 2019 - Best Theatrical Motion Picture - The Irishman" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2019 ;
     msh:hasFilm msh:Film_The_Irishman_2019 ;
@@ -2214,6 +2423,7 @@ msh:Nomination_pga_2019_best_theatrical_motion_picture_the_irishman_af82052f0c2b
     msh:yearFilm "2019"^^xsd:gYear .
 
 msh:Nomination_pga_2020_best_theatrical_motion_picture_borat_subsequent_moviefilm_6fa452fbf82a4c2d a msh:Nomination ;
+    rdfs:label "PGA - 2020 - Best Theatrical Motion Picture - Borat Subsequent Moviefilm" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2020 ;
     msh:hasFilm msh:Film_Borat_Subsequent_Moviefilm_2020 ;
@@ -2225,6 +2435,7 @@ msh:Nomination_pga_2020_best_theatrical_motion_picture_borat_subsequent_moviefil
     msh:yearFilm "2020"^^xsd:gYear .
 
 msh:Nomination_pga_2020_best_theatrical_motion_picture_judas_and_the_black_messiah_6d3df25cce9927e8 a msh:Nomination ;
+    rdfs:label "PGA - 2020 - Best Theatrical Motion Picture - Judas and the Black Messiah" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2020 ;
     msh:hasFilm msh:Film_Judas_and_the_Black_Messiah_2020 ;
@@ -2236,6 +2447,7 @@ msh:Nomination_pga_2020_best_theatrical_motion_picture_judas_and_the_black_messi
     msh:yearFilm "2020"^^xsd:gYear .
 
 msh:Nomination_pga_2020_best_theatrical_motion_picture_ma_rainey_s_black_bottom_1a955c8803e05c3a a msh:Nomination ;
+    rdfs:label "PGA - 2020 - Best Theatrical Motion Picture - Ma Rainey’s Black Bottom" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2020 ;
     msh:hasFilm msh:Film_Ma_Rainey_s_Black_Bottom_2020 ;
@@ -2246,6 +2458,7 @@ msh:Nomination_pga_2020_best_theatrical_motion_picture_ma_rainey_s_black_bottom_
     msh:yearFilm "2020"^^xsd:gYear .
 
 msh:Nomination_pga_2020_best_theatrical_motion_picture_mank_149156d23b534f43 a msh:Nomination ;
+    rdfs:label "PGA - 2020 - Best Theatrical Motion Picture - Mank" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2020 ;
     msh:hasFilm msh:Film_Mank_2020 ;
@@ -2257,6 +2470,7 @@ msh:Nomination_pga_2020_best_theatrical_motion_picture_mank_149156d23b534f43 a m
     msh:yearFilm "2020"^^xsd:gYear .
 
 msh:Nomination_pga_2020_best_theatrical_motion_picture_minari_43c08cbf2b286402 a msh:Nomination ;
+    rdfs:label "PGA - 2020 - Best Theatrical Motion Picture - Minari" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2020 ;
     msh:hasFilm msh:Film_Minari_2020 ;
@@ -2266,6 +2480,7 @@ msh:Nomination_pga_2020_best_theatrical_motion_picture_minari_43c08cbf2b286402 a
     msh:yearFilm "2020"^^xsd:gYear .
 
 msh:Nomination_pga_2020_best_theatrical_motion_picture_nomadland_3404ac23f26389e4 a msh:Nomination ;
+    rdfs:label "PGA - 2020 - Best Theatrical Motion Picture - Nomadland" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2020 ;
     msh:hasFilm msh:Film_Nomadland_2020 ;
@@ -2279,6 +2494,7 @@ msh:Nomination_pga_2020_best_theatrical_motion_picture_nomadland_3404ac23f26389e
     msh:yearFilm "2020"^^xsd:gYear .
 
 msh:Nomination_pga_2020_best_theatrical_motion_picture_one_night_in_miami_7257a0ee3f6c058b a msh:Nomination ;
+    rdfs:label "PGA - 2020 - Best Theatrical Motion Picture - One Night in Miami..." ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2020 ;
     msh:hasFilm msh:Film_One_Night_in_Miami_2020 ;
@@ -2290,6 +2506,7 @@ msh:Nomination_pga_2020_best_theatrical_motion_picture_one_night_in_miami_7257a0
     msh:yearFilm "2020"^^xsd:gYear .
 
 msh:Nomination_pga_2020_best_theatrical_motion_picture_promising_young_woman_c9a745b4d5f36883 a msh:Nomination ;
+    rdfs:label "PGA - 2020 - Best Theatrical Motion Picture - Promising Young Woman" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2020 ;
     msh:hasFilm msh:Film_Promising_Young_Woman_2020 ;
@@ -2303,6 +2520,7 @@ msh:Nomination_pga_2020_best_theatrical_motion_picture_promising_young_woman_c9a
     msh:yearFilm "2020"^^xsd:gYear .
 
 msh:Nomination_pga_2020_best_theatrical_motion_picture_sound_of_metal_fdc6de98096cb0dd a msh:Nomination ;
+    rdfs:label "PGA - 2020 - Best Theatrical Motion Picture - Sound of Metal" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2020 ;
     msh:hasFilm msh:Film_Sound_of_Metal_2020 ;
@@ -2313,6 +2531,7 @@ msh:Nomination_pga_2020_best_theatrical_motion_picture_sound_of_metal_fdc6de9809
     msh:yearFilm "2020"^^xsd:gYear .
 
 msh:Nomination_pga_2020_best_theatrical_motion_picture_the_trial_of_the_chicago_7_a5c532d1e7d4f989 a msh:Nomination ;
+    rdfs:label "PGA - 2020 - Best Theatrical Motion Picture - The Trial of the Chicago 7" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2020 ;
     msh:hasFilm msh:Film_The_Trial_of_the_Chicago_7_2020 ;
@@ -2323,6 +2542,7 @@ msh:Nomination_pga_2020_best_theatrical_motion_picture_the_trial_of_the_chicago_
     msh:yearFilm "2020"^^xsd:gYear .
 
 msh:Nomination_pga_2021_best_theatrical_motion_picture_being_the_ricardos_c2d2ef7ea0b8e438 a msh:Nomination ;
+    rdfs:label "PGA - 2021 - Best Theatrical Motion Picture - Being the Ricardos" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2021 ;
     msh:hasFilm msh:Film_Being_the_Ricardos_2021 ;
@@ -2332,6 +2552,7 @@ msh:Nomination_pga_2021_best_theatrical_motion_picture_being_the_ricardos_c2d2ef
     msh:yearFilm "2021"^^xsd:gYear .
 
 msh:Nomination_pga_2021_best_theatrical_motion_picture_belfast_e30266b5c9dd765d a msh:Nomination ;
+    rdfs:label "PGA - 2021 - Best Theatrical Motion Picture - Belfast" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2021 ;
     msh:hasFilm msh:Film_Belfast_2021 ;
@@ -2344,6 +2565,7 @@ msh:Nomination_pga_2021_best_theatrical_motion_picture_belfast_e30266b5c9dd765d 
     msh:yearFilm "2021"^^xsd:gYear .
 
 msh:Nomination_pga_2021_best_theatrical_motion_picture_coda_4a28fb317e0ab6e4 a msh:Nomination ;
+    rdfs:label "PGA - 2021 - Best Theatrical Motion Picture - CODA" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2021 ;
     msh:hasFilm msh:Film_CODA_2021 ;
@@ -2355,6 +2577,7 @@ msh:Nomination_pga_2021_best_theatrical_motion_picture_coda_4a28fb317e0ab6e4 a m
     msh:yearFilm "2021"^^xsd:gYear .
 
 msh:Nomination_pga_2021_best_theatrical_motion_picture_dont_look_up_8ba7ec74c7ccdee7 a msh:Nomination ;
+    rdfs:label "PGA - 2021 - Best Theatrical Motion Picture - Don't Look Up" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2021 ;
     msh:hasFilm msh:Film_Dont_Look_Up_2021 ;
@@ -2365,6 +2588,7 @@ msh:Nomination_pga_2021_best_theatrical_motion_picture_dont_look_up_8ba7ec74c7cc
     msh:yearFilm "2021"^^xsd:gYear .
 
 msh:Nomination_pga_2021_best_theatrical_motion_picture_dune_c80d99ac2206c85d a msh:Nomination ;
+    rdfs:label "PGA - 2021 - Best Theatrical Motion Picture - Dune" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2021 ;
     msh:hasFilm msh:Film_Dune_2021 ;
@@ -2376,6 +2600,7 @@ msh:Nomination_pga_2021_best_theatrical_motion_picture_dune_c80d99ac2206c85d a m
     msh:yearFilm "2021"^^xsd:gYear .
 
 msh:Nomination_pga_2021_best_theatrical_motion_picture_king_richard_a11cfe8751cddcc6 a msh:Nomination ;
+    rdfs:label "PGA - 2021 - Best Theatrical Motion Picture - King Richard" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2021 ;
     msh:hasFilm msh:Film_King_Richard_2021 ;
@@ -2387,6 +2612,7 @@ msh:Nomination_pga_2021_best_theatrical_motion_picture_king_richard_a11cfe8751cd
     msh:yearFilm "2021"^^xsd:gYear .
 
 msh:Nomination_pga_2021_best_theatrical_motion_picture_licorice_pizza_0bca8f90d5a70b68 a msh:Nomination ;
+    rdfs:label "PGA - 2021 - Best Theatrical Motion Picture - Licorice Pizza" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2021 ;
     msh:hasFilm msh:Film_Licorice_Pizza_2021 ;
@@ -2398,6 +2624,7 @@ msh:Nomination_pga_2021_best_theatrical_motion_picture_licorice_pizza_0bca8f90d5
     msh:yearFilm "2021"^^xsd:gYear .
 
 msh:Nomination_pga_2021_best_theatrical_motion_picture_the_power_of_the_dog_3a83d92316eb16ce a msh:Nomination ;
+    rdfs:label "PGA - 2021 - Best Theatrical Motion Picture - The Power of the Dog" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2021 ;
     msh:hasFilm msh:Film_The_Power_of_the_Dog_2021 ;
@@ -2411,6 +2638,7 @@ msh:Nomination_pga_2021_best_theatrical_motion_picture_the_power_of_the_dog_3a83
     msh:yearFilm "2021"^^xsd:gYear .
 
 msh:Nomination_pga_2021_best_theatrical_motion_picture_tick_tick_boom_546d9d458284273c a msh:Nomination ;
+    rdfs:label "PGA - 2021 - Best Theatrical Motion Picture - Tick, Tick... Boom!" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2021 ;
     msh:hasFilm msh:Film_Tick_Tick_Boom_2021 ;
@@ -2421,6 +2649,7 @@ msh:Nomination_pga_2021_best_theatrical_motion_picture_tick_tick_boom_546d9d4582
     msh:yearFilm "2021"^^xsd:gYear .
 
 msh:Nomination_pga_2021_best_theatrical_motion_picture_west_side_story_ecdd1062d1a4196c a msh:Nomination ;
+    rdfs:label "PGA - 2021 - Best Theatrical Motion Picture - West Side Story" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2021 ;
     msh:hasFilm msh:Film_West_Side_Story_2021 ;
@@ -2431,6 +2660,7 @@ msh:Nomination_pga_2021_best_theatrical_motion_picture_west_side_story_ecdd1062d
     msh:yearFilm "2021"^^xsd:gYear .
 
 msh:Nomination_pga_2022_best_theatrical_motion_picture_avatar_the_way_of_water_1ba63f9ea372efd4 a msh:Nomination ;
+    rdfs:label "PGA - 2022 - Best Theatrical Motion Picture - Avatar: The Way of Water" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2022 ;
     msh:hasFilm msh:Film_Avatar_The_Way_of_Water_2022 ;
@@ -2441,6 +2671,7 @@ msh:Nomination_pga_2022_best_theatrical_motion_picture_avatar_the_way_of_water_1
     msh:yearFilm "2022"^^xsd:gYear .
 
 msh:Nomination_pga_2022_best_theatrical_motion_picture_black_panther_wakanda_forever_4e417c59ae23737a a msh:Nomination ;
+    rdfs:label "PGA - 2022 - Best Theatrical Motion Picture - Black Panther: Wakanda Forever" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2022 ;
     msh:hasFilm msh:Film_Black_Panther_Wakanda_Forever_2022 ;
@@ -2451,6 +2682,7 @@ msh:Nomination_pga_2022_best_theatrical_motion_picture_black_panther_wakanda_for
     msh:yearFilm "2022"^^xsd:gYear .
 
 msh:Nomination_pga_2022_best_theatrical_motion_picture_elvis_c531c7be293124b0 a msh:Nomination ;
+    rdfs:label "PGA - 2022 - Best Theatrical Motion Picture - Elvis" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2022 ;
     msh:hasFilm msh:Film_Elvis_2022 ;
@@ -2464,6 +2696,7 @@ msh:Nomination_pga_2022_best_theatrical_motion_picture_elvis_c531c7be293124b0 a 
     msh:yearFilm "2022"^^xsd:gYear .
 
 msh:Nomination_pga_2022_best_theatrical_motion_picture_everything_everywhere_all_at_once_24fdba13857e629f a msh:Nomination ;
+    rdfs:label "PGA - 2022 - Best Theatrical Motion Picture - Everything Everywhere All at Once" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2022 ;
     msh:hasFilm msh:Film_Everything_Everywhere_All_at_Once_2022 ;
@@ -2475,6 +2708,7 @@ msh:Nomination_pga_2022_best_theatrical_motion_picture_everything_everywhere_all
     msh:yearFilm "2022"^^xsd:gYear .
 
 msh:Nomination_pga_2022_best_theatrical_motion_picture_glass_onion_a_knives_out_mystery_6a46947c060edb95 a msh:Nomination ;
+    rdfs:label "PGA - 2022 - Best Theatrical Motion Picture - Glass Onion: A Knives Out Mystery" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2022 ;
     msh:hasFilm msh:Film_Glass_Onion_A_Knives_Out_Mystery_2022 ;
@@ -2485,6 +2719,7 @@ msh:Nomination_pga_2022_best_theatrical_motion_picture_glass_onion_a_knives_out_
     msh:yearFilm "2022"^^xsd:gYear .
 
 msh:Nomination_pga_2022_best_theatrical_motion_picture_t_r_8ad90a157f943e07 a msh:Nomination ;
+    rdfs:label "PGA - 2022 - Best Theatrical Motion Picture - Tár" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2022 ;
     msh:hasFilm msh:Film_T_r_2022 ;
@@ -2496,6 +2731,7 @@ msh:Nomination_pga_2022_best_theatrical_motion_picture_t_r_8ad90a157f943e07 a ms
     msh:yearFilm "2022"^^xsd:gYear .
 
 msh:Nomination_pga_2022_best_theatrical_motion_picture_the_banshees_of_inisherin_a4752d94a994b5f2 a msh:Nomination ;
+    rdfs:label "PGA - 2022 - Best Theatrical Motion Picture - The Banshees of Inisherin" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2022 ;
     msh:hasFilm msh:Film_The_Banshees_of_Inisherin_2022 ;
@@ -2507,6 +2743,7 @@ msh:Nomination_pga_2022_best_theatrical_motion_picture_the_banshees_of_inisherin
     msh:yearFilm "2022"^^xsd:gYear .
 
 msh:Nomination_pga_2022_best_theatrical_motion_picture_the_fabelmans_ecc76a2167995fa4 a msh:Nomination ;
+    rdfs:label "PGA - 2022 - Best Theatrical Motion Picture - The Fabelmans" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2022 ;
     msh:hasFilm msh:Film_The_Fabelmans_2022 ;
@@ -2518,6 +2755,7 @@ msh:Nomination_pga_2022_best_theatrical_motion_picture_the_fabelmans_ecc76a21679
     msh:yearFilm "2022"^^xsd:gYear .
 
 msh:Nomination_pga_2022_best_theatrical_motion_picture_the_whale_4e1979c9b73e19c5 a msh:Nomination ;
+    rdfs:label "PGA - 2022 - Best Theatrical Motion Picture - The Whale" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2022 ;
     msh:hasFilm msh:Film_The_Whale_2022 ;
@@ -2529,6 +2767,7 @@ msh:Nomination_pga_2022_best_theatrical_motion_picture_the_whale_4e1979c9b73e19c
     msh:yearFilm "2022"^^xsd:gYear .
 
 msh:Nomination_pga_2022_best_theatrical_motion_picture_top_gun_maverick_7f579c5edf08c179 a msh:Nomination ;
+    rdfs:label "PGA - 2022 - Best Theatrical Motion Picture - Top Gun: Maverick" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2022 ;
     msh:hasFilm msh:Film_Top_Gun_Maverick_2022 ;
@@ -2541,6 +2780,7 @@ msh:Nomination_pga_2022_best_theatrical_motion_picture_top_gun_maverick_7f579c5e
     msh:yearFilm "2022"^^xsd:gYear .
 
 msh:Nomination_pga_2023_best_theatrical_motion_picture_american_fiction_fb20edaece6805c5 a msh:Nomination ;
+    rdfs:label "PGA - 2023 - Best Theatrical Motion Picture - American Fiction" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2023 ;
     msh:hasFilm msh:Film_American_Fiction_2023 ;
@@ -2553,6 +2793,7 @@ msh:Nomination_pga_2023_best_theatrical_motion_picture_american_fiction_fb20edae
     msh:yearFilm "2023"^^xsd:gYear .
 
 msh:Nomination_pga_2023_best_theatrical_motion_picture_anatomy_of_a_fall_514d98a768b3f474 a msh:Nomination ;
+    rdfs:label "PGA - 2023 - Best Theatrical Motion Picture - Anatomy of a Fall" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2023 ;
     msh:hasFilm msh:Film_Anatomy_of_a_Fall_2023 ;
@@ -2563,6 +2804,7 @@ msh:Nomination_pga_2023_best_theatrical_motion_picture_anatomy_of_a_fall_514d98a
     msh:yearFilm "2023"^^xsd:gYear .
 
 msh:Nomination_pga_2023_best_theatrical_motion_picture_barbie_be5d4069c1d7a290 a msh:Nomination ;
+    rdfs:label "PGA - 2023 - Best Theatrical Motion Picture - Barbie" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2023 ;
     msh:hasFilm msh:Film_Barbie_2023 ;
@@ -2575,6 +2817,7 @@ msh:Nomination_pga_2023_best_theatrical_motion_picture_barbie_be5d4069c1d7a290 a
     msh:yearFilm "2023"^^xsd:gYear .
 
 msh:Nomination_pga_2023_best_theatrical_motion_picture_killers_of_the_flower_moon_b435d4eb65f3dd3e a msh:Nomination ;
+    rdfs:label "PGA - 2023 - Best Theatrical Motion Picture - Killers of the Flower Moon" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2023 ;
     msh:hasFilm msh:Film_Killers_of_the_Flower_Moon_2023 ;
@@ -2587,6 +2830,7 @@ msh:Nomination_pga_2023_best_theatrical_motion_picture_killers_of_the_flower_moo
     msh:yearFilm "2023"^^xsd:gYear .
 
 msh:Nomination_pga_2023_best_theatrical_motion_picture_maestro_68ef860af34db721 a msh:Nomination ;
+    rdfs:label "PGA - 2023 - Best Theatrical Motion Picture - Maestro" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2023 ;
     msh:hasFilm msh:Film_Maestro_2023 ;
@@ -2600,6 +2844,7 @@ msh:Nomination_pga_2023_best_theatrical_motion_picture_maestro_68ef860af34db721 
     msh:yearFilm "2023"^^xsd:gYear .
 
 msh:Nomination_pga_2023_best_theatrical_motion_picture_oppenheimer_0b098ff7ec35cff0 a msh:Nomination ;
+    rdfs:label "PGA - 2023 - Best Theatrical Motion Picture - Oppenheimer" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2023 ;
     msh:hasFilm msh:Film_Oppenheimer_2023 ;
@@ -2611,6 +2856,7 @@ msh:Nomination_pga_2023_best_theatrical_motion_picture_oppenheimer_0b098ff7ec35c
     msh:yearFilm "2023"^^xsd:gYear .
 
 msh:Nomination_pga_2023_best_theatrical_motion_picture_past_lives_b4a6ba5f4a7342f9 a msh:Nomination ;
+    rdfs:label "PGA - 2023 - Best Theatrical Motion Picture - Past Lives" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2023 ;
     msh:hasFilm msh:Film_Past_Lives_2023 ;
@@ -2622,6 +2868,7 @@ msh:Nomination_pga_2023_best_theatrical_motion_picture_past_lives_b4a6ba5f4a7342
     msh:yearFilm "2023"^^xsd:gYear .
 
 msh:Nomination_pga_2023_best_theatrical_motion_picture_poor_things_37e6a8c64f4bd594 a msh:Nomination ;
+    rdfs:label "PGA - 2023 - Best Theatrical Motion Picture - Poor Things" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2023 ;
     msh:hasFilm msh:Film_Poor_Things_2023 ;
@@ -2634,6 +2881,7 @@ msh:Nomination_pga_2023_best_theatrical_motion_picture_poor_things_37e6a8c64f4bd
     msh:yearFilm "2023"^^xsd:gYear .
 
 msh:Nomination_pga_2023_best_theatrical_motion_picture_the_holdovers_eacf4e0d9c4a0033 a msh:Nomination ;
+    rdfs:label "PGA - 2023 - Best Theatrical Motion Picture - The Holdovers" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2023 ;
     msh:hasFilm msh:Film_The_Holdovers_2023 ;
@@ -2643,6 +2891,7 @@ msh:Nomination_pga_2023_best_theatrical_motion_picture_the_holdovers_eacf4e0d9c4
     msh:yearFilm "2023"^^xsd:gYear .
 
 msh:Nomination_pga_2023_best_theatrical_motion_picture_the_zone_of_interest_82ac3257c7660da8 a msh:Nomination ;
+    rdfs:label "PGA - 2023 - Best Theatrical Motion Picture - The Zone of Interest" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2023 ;
     msh:hasFilm msh:Film_The_Zone_of_Interest_2023 ;
@@ -2652,6 +2901,7 @@ msh:Nomination_pga_2023_best_theatrical_motion_picture_the_zone_of_interest_82ac
     msh:yearFilm "2023"^^xsd:gYear .
 
 msh:Nomination_pga_2024_best_theatrical_motion_picture_a_complete_unknown_cc1da62b270fdae2 a msh:Nomination ;
+    rdfs:label "PGA - 2024 - Best Theatrical Motion Picture - A Complete Unknown" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2024 ;
     msh:hasFilm msh:Film_A_Complete_Unknown_2024 ;
@@ -2663,6 +2913,7 @@ msh:Nomination_pga_2024_best_theatrical_motion_picture_a_complete_unknown_cc1da6
     msh:yearFilm "2024"^^xsd:gYear .
 
 msh:Nomination_pga_2024_best_theatrical_motion_picture_a_real_pain_f57a98154b4a2b52 a msh:Nomination ;
+    rdfs:label "PGA - 2024 - Best Theatrical Motion Picture - A Real Pain" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2024 ;
     msh:hasFilm msh:Film_A_Real_Pain_2024 ;
@@ -2673,6 +2924,7 @@ msh:Nomination_pga_2024_best_theatrical_motion_picture_a_real_pain_f57a98154b4a2
     msh:yearFilm "2024"^^xsd:gYear .
 
 msh:Nomination_pga_2024_best_theatrical_motion_picture_anora_1f1f0d20203917e6 a msh:Nomination ;
+    rdfs:label "PGA - 2024 - Best Theatrical Motion Picture - Anora" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2024 ;
     msh:hasFilm msh:Film_Anora_2024 ;
@@ -2684,6 +2936,7 @@ msh:Nomination_pga_2024_best_theatrical_motion_picture_anora_1f1f0d20203917e6 a 
     msh:yearFilm "2024"^^xsd:gYear .
 
 msh:Nomination_pga_2024_best_theatrical_motion_picture_conclave_4acc99b1b2362172 a msh:Nomination ;
+    rdfs:label "PGA - 2024 - Best Theatrical Motion Picture - Conclave" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2024 ;
     msh:hasFilm msh:Film_Conclave_2024 ;
@@ -2695,6 +2948,7 @@ msh:Nomination_pga_2024_best_theatrical_motion_picture_conclave_4acc99b1b2362172
     msh:yearFilm "2024"^^xsd:gYear .
 
 msh:Nomination_pga_2024_best_theatrical_motion_picture_dune_part_two_4ecba5cb0e1bfb7c a msh:Nomination ;
+    rdfs:label "PGA - 2024 - Best Theatrical Motion Picture - Dune: Part Two" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2024 ;
     msh:hasFilm msh:Film_Dune_Part_Two_2024 ;
@@ -2707,6 +2961,7 @@ msh:Nomination_pga_2024_best_theatrical_motion_picture_dune_part_two_4ecba5cb0e1
     msh:yearFilm "2024"^^xsd:gYear .
 
 msh:Nomination_pga_2024_best_theatrical_motion_picture_emilia_p_rez_827ebeb0f2fd9c81 a msh:Nomination ;
+    rdfs:label "PGA - 2024 - Best Theatrical Motion Picture - Emilia Pérez" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2024 ;
     msh:hasFilm msh:Film_Emilia_P_rez_2024 ;
@@ -2717,6 +2972,7 @@ msh:Nomination_pga_2024_best_theatrical_motion_picture_emilia_p_rez_827ebeb0f2fd
     msh:yearFilm "2024"^^xsd:gYear .
 
 msh:Nomination_pga_2024_best_theatrical_motion_picture_september_5_544945cbc54a137d a msh:Nomination ;
+    rdfs:label "PGA - 2024 - Best Theatrical Motion Picture - September 5" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2024 ;
     msh:hasFilm msh:Film_September_5_2024 ;
@@ -2730,6 +2986,7 @@ msh:Nomination_pga_2024_best_theatrical_motion_picture_september_5_544945cbc54a1
     msh:yearFilm "2024"^^xsd:gYear .
 
 msh:Nomination_pga_2024_best_theatrical_motion_picture_the_brutalist_c18252147c1f89be a msh:Nomination ;
+    rdfs:label "PGA - 2024 - Best Theatrical Motion Picture - The Brutalist" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2024 ;
     msh:hasFilm msh:Film_The_Brutalist_2024 ;
@@ -2743,6 +3000,7 @@ msh:Nomination_pga_2024_best_theatrical_motion_picture_the_brutalist_c18252147c1
     msh:yearFilm "2024"^^xsd:gYear .
 
 msh:Nomination_pga_2024_best_theatrical_motion_picture_the_substance_8f77075efb31b589 a msh:Nomination ;
+    rdfs:label "PGA - 2024 - Best Theatrical Motion Picture - The Substance" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2024 ;
     msh:hasFilm msh:Film_The_Substance_2024 ;
@@ -2754,6 +3012,7 @@ msh:Nomination_pga_2024_best_theatrical_motion_picture_the_substance_8f77075efb3
     msh:yearFilm "2024"^^xsd:gYear .
 
 msh:Nomination_pga_2024_best_theatrical_motion_picture_wicked_39323a8a26188b0f a msh:Nomination ;
+    rdfs:label "PGA - 2024 - Best Theatrical Motion Picture - Wicked" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2024 ;
     msh:hasFilm msh:Film_Wicked_2024 ;
@@ -2763,6 +3022,7 @@ msh:Nomination_pga_2024_best_theatrical_motion_picture_wicked_39323a8a26188b0f a
     msh:yearFilm "2024"^^xsd:gYear .
 
 msh:Nomination_pga_2025_best_theatrical_motion_picture_bugonia_36341c7064edfca7 a msh:Nomination ;
+    rdfs:label "PGA - 2025 - Best Theatrical Motion Picture - Bugonia" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2025 ;
     msh:hasFilm msh:Film_Bugonia_2025 ;
@@ -2776,6 +3036,7 @@ msh:Nomination_pga_2025_best_theatrical_motion_picture_bugonia_36341c7064edfca7 
     msh:yearFilm "2025"^^xsd:gYear .
 
 msh:Nomination_pga_2025_best_theatrical_motion_picture_f1_49b4b4ecb5f7ed5c a msh:Nomination ;
+    rdfs:label "PGA - 2025 - Best Theatrical Motion Picture - F1" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2025 ;
     msh:hasFilm msh:Film_F1_2025 ;
@@ -2784,6 +3045,7 @@ msh:Nomination_pga_2025_best_theatrical_motion_picture_f1_49b4b4ecb5f7ed5c a msh
     msh:yearFilm "2025"^^xsd:gYear .
 
 msh:Nomination_pga_2025_best_theatrical_motion_picture_frankenstein_4820e0e874b3024b a msh:Nomination ;
+    rdfs:label "PGA - 2025 - Best Theatrical Motion Picture - Frankenstein" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2025 ;
     msh:hasFilm msh:Film_Frankenstein_2025 ;
@@ -2795,6 +3057,7 @@ msh:Nomination_pga_2025_best_theatrical_motion_picture_frankenstein_4820e0e874b3
     msh:yearFilm "2025"^^xsd:gYear .
 
 msh:Nomination_pga_2025_best_theatrical_motion_picture_hamnet_1a2c59d3a6abc5d7 a msh:Nomination ;
+    rdfs:label "PGA - 2025 - Best Theatrical Motion Picture - Hamnet" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2025 ;
     msh:hasFilm msh:Film_Hamnet_2025 ;
@@ -2808,6 +3071,7 @@ msh:Nomination_pga_2025_best_theatrical_motion_picture_hamnet_1a2c59d3a6abc5d7 a
     msh:yearFilm "2025"^^xsd:gYear .
 
 msh:Nomination_pga_2025_best_theatrical_motion_picture_marty_supreme_d2389d5f4961e312 a msh:Nomination ;
+    rdfs:label "PGA - 2025 - Best Theatrical Motion Picture - Marty Supreme" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2025 ;
     msh:hasFilm msh:Film_Marty_Supreme_2025 ;
@@ -2816,6 +3080,7 @@ msh:Nomination_pga_2025_best_theatrical_motion_picture_marty_supreme_d2389d5f496
     msh:yearFilm "2025"^^xsd:gYear .
 
 msh:Nomination_pga_2025_best_theatrical_motion_picture_one_battle_after_another_5be8398f4ab8b9b8 a msh:Nomination ;
+    rdfs:label "PGA - 2025 - Best Theatrical Motion Picture - One Battle After Another" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2025 ;
     msh:hasFilm msh:Film_One_Battle_After_Another_2025 ;
@@ -2827,6 +3092,7 @@ msh:Nomination_pga_2025_best_theatrical_motion_picture_one_battle_after_another_
     msh:yearFilm "2025"^^xsd:gYear .
 
 msh:Nomination_pga_2025_best_theatrical_motion_picture_sentimental_value_bfd081a72f730b88 a msh:Nomination ;
+    rdfs:label "PGA - 2025 - Best Theatrical Motion Picture - Sentimental Value" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2025 ;
     msh:hasFilm msh:Film_Sentimental_Value_2025 ;
@@ -2837,6 +3103,7 @@ msh:Nomination_pga_2025_best_theatrical_motion_picture_sentimental_value_bfd081a
     msh:yearFilm "2025"^^xsd:gYear .
 
 msh:Nomination_pga_2025_best_theatrical_motion_picture_sinners_000f78ebfe752c5c a msh:Nomination ;
+    rdfs:label "PGA - 2025 - Best Theatrical Motion Picture - Sinners" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2025 ;
     msh:hasFilm msh:Film_Sinners_2025 ;
@@ -2848,6 +3115,7 @@ msh:Nomination_pga_2025_best_theatrical_motion_picture_sinners_000f78ebfe752c5c 
     msh:yearFilm "2025"^^xsd:gYear .
 
 msh:Nomination_pga_2025_best_theatrical_motion_picture_train_dreams_a6902b9a5c1c564c a msh:Nomination ;
+    rdfs:label "PGA - 2025 - Best Theatrical Motion Picture - Train Dreams" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2025 ;
     msh:hasFilm msh:Film_Train_Dreams_2025 ;
@@ -2861,6 +3129,7 @@ msh:Nomination_pga_2025_best_theatrical_motion_picture_train_dreams_a6902b9a5c1c
     msh:yearFilm "2025"^^xsd:gYear .
 
 msh:Nomination_pga_2025_best_theatrical_motion_picture_weapons_804738ee04a13264 a msh:Nomination ;
+    rdfs:label "PGA - 2025 - Best Theatrical Motion Picture - Weapons" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2025 ;
     msh:hasFilm msh:Film_Weapons_2025 ;

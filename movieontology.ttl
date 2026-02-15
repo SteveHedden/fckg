@@ -42,6 +42,7 @@ MovieSHACL3:Person  rdfs:subClassOf  owl:Thing;
         sh:property      MovieSHACL3:Person-biography;
         sh:property      MovieSHACL3:Person-tmdbPersonId;
         sh:property      MovieSHACL3:Person-hasIdentifier;
+        sh:property      MovieSHACL3:Person-entityType;
         sh:property      MovieSHACL3:Person-label .
 
 MovieSHACL3:Person-fullName
@@ -86,6 +87,14 @@ MovieSHACL3:Person-hasIdentifier
         sh:class     MovieSHACL3:Identifier;
         sh:name      "hasIdentifier";
         sh:path      MovieSHACL3:hasIdentifier .
+
+MovieSHACL3:Person-entityType
+        rdf:type     sh:PropertyShape;
+        sh:name      "entityType";
+        sh:path      MovieSHACL3:entityType;
+        sh:maxCount  1;
+        sh:datatype  xsd:string;
+        sh:in        ( "PERSON" "ORGANIZATION" ) .
 
 MovieSHACL3:Person-label
         rdf:type       sh:PropertyShape;
@@ -295,6 +304,8 @@ MovieSHACL3:Nomination
         sh:property      MovieSHACL3:Nomination-label;
         sh:property      MovieSHACL3:Nomination-hasFilm;
         sh:property      MovieSHACL3:Nomination-hasNominee;
+        sh:property      MovieSHACL3:Nomination-submittingCountry;
+        sh:property      MovieSHACL3:Nomination-note;
         sh:property      MovieSHACL3:Nomination-hasCategory;
         sh:property      MovieSHACL3:Nomination-previousWins;
         sh:property      MovieSHACL3:Nomination-nomineeType .
@@ -354,6 +365,20 @@ MovieSHACL3:Nomination-hasNominee
         sh:class     MovieSHACL3:Person;
         sh:name      "hasNominee";
         sh:path      MovieSHACL3:hasNominee .
+
+MovieSHACL3:Nomination-submittingCountry
+        rdf:type     sh:PropertyShape;
+        sh:name      "submittingCountry";
+        sh:path      MovieSHACL3:submittingCountry;
+        sh:maxCount  1;
+        sh:datatype  xsd:string .
+
+MovieSHACL3:Nomination-note
+        rdf:type     sh:PropertyShape;
+        sh:name      "note";
+        sh:path      MovieSHACL3:note;
+        sh:maxCount  1;
+        sh:datatype  xsd:string .
 
 MovieSHACL3:Nomination-hasCategory
         rdf:type     sh:PropertyShape;
@@ -425,7 +450,131 @@ MovieSHACL3:Film
         sh:property      MovieSHACL3:Film-mpaaRating;
         sh:property      MovieSHACL3:Film-boxOffice;
         sh:property      MovieSHACL3:Film-synopsis;
-        sh:property      MovieSHACL3:Film-enrichedAt .
+        sh:property      MovieSHACL3:Film-enrichedAt ;
+        sh:rule          MovieSHACL3:Film-inferNominations;
+        sh:rule          MovieSHACL3:Film-inferDirector;
+        sh:rule          MovieSHACL3:Film-inferActor;
+        sh:rule          MovieSHACL3:Film-inferWriter;
+        sh:rule          MovieSHACL3:Film-inferProducer;
+        sh:rule          MovieSHACL3:Film-inferCinematographer;
+        sh:rule          MovieSHACL3:Film-inferComposer .
+
+MovieSHACL3:Film-inferNominations
+        rdf:type      sh:SPARQLRule;
+        rdfs:label    "Infer nominations for this film";
+        rdfs:comment  "Links a Film to all Nomination events that reference it via hasFilm.";
+        sh:order      0;
+        sh:construct  """
+            PREFIX msh: <http://example.org/ontologies/MovieSHACL3#>
+            CONSTRUCT { $this msh:hasNomination ?nom . }
+            WHERE { ?nom msh:hasFilm $this . }
+        """ .
+
+MovieSHACL3:Film-inferDirector
+        rdf:type      sh:SPARQLRule;
+        rdfs:label    "Infer directors from directing nominations";
+        rdfs:comment  "Links a Film to Person entities nominated in a directing category.";
+        sh:order      1;
+        sh:construct  """
+            PREFIX msh: <http://example.org/ontologies/MovieSHACL3#>
+            CONSTRUCT { $this msh:hasDirector ?person . }
+            WHERE {
+                ?nom msh:hasFilm $this ;
+                     msh:hasNominee ?person ;
+                     msh:hasCanonCategory ?cat .
+                FILTER(?cat IN (
+                    msh:Category_oscars_DIRECTING,
+                    msh:Category_oscars_DIRECTING_Comedy_Picture,
+                    msh:Category_oscars_DIRECTING_Dramatic_Picture,
+                    msh:Category_dga_Outstanding_Directing_Feature_Film,
+                    msh:Category_golden_globes_Best_Director_Motion_Picture,
+                    msh:Category_bafta_Best_Direction
+                ))
+            }
+        """ .
+
+MovieSHACL3:Film-inferActor
+        rdf:type      sh:SPARQLRule;
+        rdfs:label    "Infer actors from acting nominations";
+        rdfs:comment  "Links a Film to Person entities nominated in an acting category.";
+        sh:order      1;
+        sh:construct  """
+            PREFIX msh: <http://example.org/ontologies/MovieSHACL3#>
+            CONSTRUCT { $this msh:hasActor ?person . }
+            WHERE {
+                ?nom msh:hasFilm $this ;
+                     msh:hasNominee ?person ;
+                     msh:hasCanonCategory ?cat .
+                FILTER(?cat IN (
+                    msh:Category_oscars_ACTOR_IN_A_LEADING_ROLE,
+                    msh:Category_oscars_ACTOR_IN_A_SUPPORTING_ROLE,
+                    msh:Category_oscars_ACTRESS_IN_A_LEADING_ROLE,
+                    msh:Category_oscars_ACTRESS_IN_A_SUPPORTING_ROLE
+                ))
+            }
+        """ .
+
+MovieSHACL3:Film-inferWriter
+        rdf:type      sh:SPARQLRule;
+        rdfs:label    "Infer writers from writing nominations";
+        rdfs:comment  "Links a Film to Person entities nominated in a writing category.";
+        sh:order      1;
+        sh:construct  """
+            PREFIX msh: <http://example.org/ontologies/MovieSHACL3#>
+            CONSTRUCT { $this msh:hasWriter ?person . }
+            WHERE {
+                ?nom msh:hasFilm $this ;
+                     msh:hasNominee ?person ;
+                     msh:hasCanonCategory ?cat .
+                FILTER(STRSTARTS(STR(?cat), STR(msh:Category_oscars_WRITING)))
+            }
+        """ .
+
+MovieSHACL3:Film-inferProducer
+        rdf:type      sh:SPARQLRule;
+        rdfs:label    "Infer producers from Best Picture nominations";
+        rdfs:comment  "Links a Film to Person entities nominated as producers in Best Picture.";
+        sh:order      1;
+        sh:construct  """
+            PREFIX msh: <http://example.org/ontologies/MovieSHACL3#>
+            CONSTRUCT { $this msh:hasProducer ?person . }
+            WHERE {
+                ?nom msh:hasFilm $this ;
+                     msh:hasNominee ?person ;
+                     msh:hasCanonCategory msh:Category_oscars_BEST_PICTURE .
+            }
+        """ .
+
+MovieSHACL3:Film-inferCinematographer
+        rdf:type      sh:SPARQLRule;
+        rdfs:label    "Infer cinematographers from cinematography nominations";
+        rdfs:comment  "Links a Film to Person entities nominated in a cinematography category.";
+        sh:order      1;
+        sh:construct  """
+            PREFIX msh: <http://example.org/ontologies/MovieSHACL3#>
+            CONSTRUCT { $this msh:hasCinematographer ?person . }
+            WHERE {
+                ?nom msh:hasFilm $this ;
+                     msh:hasNominee ?person ;
+                     msh:hasCanonCategory ?cat .
+                FILTER(STRSTARTS(STR(?cat), STR(msh:Category_oscars_CINEMATOGRAPHY)))
+            }
+        """ .
+
+MovieSHACL3:Film-inferComposer
+        rdf:type      sh:SPARQLRule;
+        rdfs:label    "Infer composers from music/score nominations";
+        rdfs:comment  "Links a Film to Person entities nominated in an original score category.";
+        sh:order      1;
+        sh:construct  """
+            PREFIX msh: <http://example.org/ontologies/MovieSHACL3#>
+            CONSTRUCT { $this msh:hasComposer ?person . }
+            WHERE {
+                ?nom msh:hasFilm $this ;
+                     msh:hasNominee ?person ;
+                     msh:hasCanonCategory msh:Category_oscars_MUSIC_Original_Score .
+            }
+        """ .
 
 MovieSHACL3:AwardCategory-label
         rdf:type       sh:PropertyShape;
@@ -564,8 +713,7 @@ MovieSHACL3:Film-imdbId
         sh:name        "imdbId";
         sh:path        MovieSHACL3:imdbId;
         sh:maxCount    1;
-        sh:datatype    xsd:string;
-        dash:uriStart  "example.org/movie-" .
+        sh:datatype    xsd:string .
 
 MovieSHACL3:Film-runtime
         rdf:type          sh:PropertyShape;

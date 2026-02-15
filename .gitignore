@@ -1,0 +1,67 @@
+# Environment and local config
+.env
+.venv/
+venv/
+env/
+.mcp.json
+
+# Taskmaster workspace state
+.taskmaster/
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Test and notebook artifacts
+.pytest_cache/
+.ipynb_checkpoints/
+
+# IDE/editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Regenerable enrichment caches
+*_cache.csv
+*_cache_OLD.csv
+
+# Local/private data artifacts (not for publication)
+data/enriched/
+data/raw/
+data/staging/
+data/legacy/
+
+# Keep canonical public instance graphs trackable
+!data/instances/
+!data/instances/*.ttl
+
+# Internal pipeline code (not part of published foundation)
+scripts/
+tests/
+features/
+model/
+enrichment/
+ingestion/
+foundation/
+query_api/
+apps/
+docs/
+pyproject.toml
+requirements*.txt
+*.csv
+
+# Local planning/agent artifacts
+CLAUDE.md
+.claude/
+oscar_prediction_data_infrastructure_prd.md
+docs/notebooks/archive/
