@@ -111,6 +111,10 @@ Run `fckg_demo_simply.ipynb` to:
 2. Execute example SPARQL queries
 3. See single-title API examples for TMDB, OMDb, and Wikidata
 
+## Acknowledgments
+
+Oscar nomination data is derived from [DLu/oscar_data](https://github.com/DLu/oscar_data) (BSD-2-Clause). Copyright (c) David Lu. See that repository for the original dataset and license terms.
+
 ## License
 
 MIT. See `LICENSE`.
