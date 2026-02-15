@@ -29,22 +29,6 @@ The publishable data foundation consists of the ontology plus instance data. Eve
 - **hasCategory vs hasCanonCategory**: `hasCategory` is the historical category name; `hasCanonCategory` maps to a normalized modern equivalent (Oscar data only)
 - **External IDs**: Films and Persons carry identifiers via `hasIdentifier` pointing to full URL IRIs (e.g., `<https://www.imdb.com/title/tt15398776>`)
 
-#### SHACL Inference Rules
-
-The ontology includes SHACL-AF (`sh:SPARQLRule`) rules on the Film class that infer role relationships from nomination data:
-
-| Rule | Infers | Source |
-|------|--------|--------|
-| Film-inferNominations | `hasNomination` | All nominations referencing the film |
-| Film-inferDirector | `hasDirector` | Directing category nominations |
-| Film-inferActor | `hasActor` | Acting category nominations |
-| Film-inferWriter | `hasWriter` | Writing category nominations |
-| Film-inferProducer | `hasProducer` | Best Picture nominations (producers are the nominees) |
-| Film-inferCinematographer | `hasCinematographer` | Cinematography category nominations |
-| Film-inferComposer | `hasComposer` | Original Score nominations |
-
-These rules fire in SHACL-AF compatible engines (e.g., TopBraid EDG) and produce inferred triples without modifying the instance data.
-
 ### Instance Data
 
 All instance files live under `data/instances/`:
