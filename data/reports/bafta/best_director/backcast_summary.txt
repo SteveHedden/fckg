@@ -1,0 +1,12 @@
+Category: best_director
+Award system: bafta
+Model: LR
+Features: ['dga_winner', 'dga_nominee', 'previous_director_wins', 'above_line_noms', 'num_wikidata_awards', 'log_revenue', 'budget_revenue_ratio', 'imdb_rating', 'metacritic_score']
+Years: 2016..2024
+n_years: 9
+AUC: 0.8280
+top1: 6
+top1_pct: 66.7%
+top3: 8
+top3_pct: 88.9%
+avg_rank: 1.7778

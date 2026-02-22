@@ -1,0 +1,12 @@
+Category: best_adapted_screenplay
+Award system: bafta
+Model: GB
+Features: ['globe_winner', 'above_line_noms', 'directing_nom', 'previous_adapted_screenplay_wins', 'num_wikidata_awards', 'log_revenue', 'budget_revenue_ratio', 'imdb_rating', 'metacritic_score']
+Years: 2016..2024
+n_years: 9
+AUC: 0.6140
+top1: 3
+top1_pct: 33.3%
+top3: 7
+top3_pct: 77.8%
+avg_rank: 3.0000

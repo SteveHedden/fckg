@@ -1,0 +1,12 @@
+Category: cinematography
+Award system: bafta
+Model: LR+RF
+Features: ['directing_nom', 'above_line_noms', 'previous_cinematography_wins', 'runtime', 'num_wikidata_awards', 'log_budget', 'imdb_rating', 'metacritic_score']
+Years: 2016..2024
+n_years: 9
+AUC: 0.6229
+top1: 4
+top1_pct: 44.4%
+top3: 7
+top3_pct: 77.8%
+avg_rank: 2.2222

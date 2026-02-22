@@ -1,0 +1,12 @@
+Category: best_actor
+Award system: bafta
+Model: LR+RF
+Features: ['writing_noms', 'previous_actor_wins', 'globe_actor_winner', 'runtime', 'num_wikidata_awards', 'log_revenue', 'budget_revenue_ratio', 'imdb_rating', 'metacritic_score']
+Years: 2016..2025
+n_years: 9
+AUC: 0.8244
+top1: 5
+top1_pct: 55.6%
+top3: 8
+top3_pct: 88.9%
+avg_rank: 1.6667

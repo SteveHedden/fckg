@@ -1,0 +1,12 @@
+Category: best_original_screenplay
+Award system: bafta
+Model: LR
+Features: ['globe_winner', 'above_line_noms', 'directing_nom', 'previous_original_screenplay_wins', 'num_wikidata_awards', 'log_revenue', 'budget_revenue_ratio', 'imdb_rating', 'metacritic_score']
+Years: 2016..2024
+n_years: 8
+AUC: 0.6187
+top1: 3
+top1_pct: 37.5%
+top3: 5
+top3_pct: 62.5%
+avg_rank: 2.7500

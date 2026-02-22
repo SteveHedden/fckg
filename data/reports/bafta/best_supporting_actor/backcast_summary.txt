@@ -1,0 +1,12 @@
+Category: best_supporting_actor
+Award system: bafta
+Model: LR
+Features: ['writing_noms', 'previous_supporting_actor_wins', 'globe_supporting_actor_winner', 'runtime', 'num_wikidata_awards', 'log_revenue', 'budget_revenue_ratio', 'imdb_rating', 'metacritic_score']
+Years: 2016..2024
+n_years: 7
+AUC: 0.8862
+top1: 4
+top1_pct: 57.1%
+top3: 7
+top3_pct: 100.0%
+avg_rank: 1.5714

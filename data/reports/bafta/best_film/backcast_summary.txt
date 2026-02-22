@@ -1,0 +1,12 @@
+Category: best_film
+Award system: bafta
+Model: LR
+Features: ['globe_winner', 'dga_winner', 'above_line_noms', 'acting_noms', 'num_wikidata_awards', 'log_revenue', 'budget_revenue_ratio', 'imdb_rating', 'metacritic_score']
+Years: 2016..2024
+n_years: 7
+AUC: 0.9156
+top1: 6
+top1_pct: 85.7%
+top3: 7
+top3_pct: 100.0%
+avg_rank: 1.2857
