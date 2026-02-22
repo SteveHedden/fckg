@@ -1,0 +1,9 @@
+rank,feature,importance
+1,imdb_rating,0.20225034710772014
+2,log_budget,0.182960351391926
+3,runtime,0.14659710787555905
+4,num_wikidata_awards,0.11494202493078162
+5,above_line_noms,0.09439151241058069
+6,metacritic_score,0.08985592118458992
+7,previous_cinematography_wins,0.08557625469408536
+8,directing_nom,0.0834264804047574

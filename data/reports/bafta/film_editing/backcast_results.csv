@@ -1,0 +1,47 @@
+year_film,nominee_label,winner,prob,rank,top_pick,actual_winner,winner_rank,correct
+2016,Jennifer Lame (Manchester by the Sea),False,0.6776,1,Jennifer Lame (Manchester by the Sea),John Gilbert (Hacksaw Ridge),3,False
+2016,Joe Walker (Arrival),False,0.1284,2,Jennifer Lame (Manchester by the Sea),John Gilbert (Hacksaw Ridge),3,False
+2016,John Gilbert (Hacksaw Ridge),True,0.1023,3,Jennifer Lame (Manchester by the Sea),John Gilbert (Hacksaw Ridge),3,False
+2016,Person_Joan_Sobel (Nocturnal Animals),False,0.0909,4,Jennifer Lame (Manchester by the Sea),John Gilbert (Hacksaw Ridge),3,False
+2016,Tom Cross (La La Land),False,0.0497,5,Jennifer Lame (Manchester by the Sea),John Gilbert (Hacksaw Ridge),3,False
+2017,Sidney Wolinsky (The Shape of Water),False,0.307,1,Sidney Wolinsky (The Shape of Water),Jonathan Amos (Baby Driver),2,False
+2017,Jonathan Amos (Baby Driver),True,0.085,2,Sidney Wolinsky (The Shape of Water),Jonathan Amos (Baby Driver),2,False
+2017,Paul Machliss (Baby Driver),True,0.085,3,Sidney Wolinsky (The Shape of Water),Jonathan Amos (Baby Driver),2,False
+2017,Lee Smith (Dunkirk),False,0.0279,4,Sidney Wolinsky (The Shape of Water),Jonathan Amos (Baby Driver),2,False
+2017,Joe Walker (Blade Runner 2049),False,0.0172,5,Sidney Wolinsky (The Shape of Water),Jonathan Amos (Baby Driver),2,False
+2018,Yorgos Mavropsaridis (The Favourite),False,0.7329,1,Yorgos Mavropsaridis (The Favourite),Hank Corwin (Vice),5,False
+2018,Person_Adam_Gough (Roma),False,0.6741,2,Yorgos Mavropsaridis (The Favourite),Hank Corwin (Vice),5,False
+2018,Alfonso Cuarón (Roma),False,0.6741,3,Yorgos Mavropsaridis (The Favourite),Hank Corwin (Vice),5,False
+2018,Tom Cross (First Man),False,0.0448,4,Yorgos Mavropsaridis (The Favourite),Hank Corwin (Vice),5,False
+2018,Hank Corwin (Vice),True,0.0132,5,Yorgos Mavropsaridis (The Favourite),Hank Corwin (Vice),5,False
+2018,John Ottman (Bohemian Rhapsody),False,0.0081,6,Yorgos Mavropsaridis (The Favourite),Hank Corwin (Vice),5,False
+2019,Tom Eagles (Jojo Rabbit),False,0.5995,1,Tom Eagles (Jojo Rabbit),Andrew Buckland (Ford v Ferrari),2,False
+2019,Andrew Buckland (Ford v Ferrari),True,0.291,2,Tom Eagles (Jojo Rabbit),Andrew Buckland (Ford v Ferrari),2,False
+2019,Michael McCusker (Ford v Ferrari),True,0.291,3,Tom Eagles (Jojo Rabbit),Andrew Buckland (Ford v Ferrari),2,False
+2019,Thelma Schoonmaker (The Irishman),False,0.1295,4,Tom Eagles (Jojo Rabbit),Andrew Buckland (Ford v Ferrari),2,False
+2019,Jeff Groth (Joker),False,0.0206,5,Tom Eagles (Jojo Rabbit),Andrew Buckland (Ford v Ferrari),2,False
+2020,Frédéric Thoraval (Promising Young Woman),False,0.8657,1,Frédéric Thoraval (Promising Young Woman),Mikkel E. G. Nielsen (Sound of Metal),3,False
+2020,Yorgos Lamprinos (The Father),False,0.3619,2,Frédéric Thoraval (Promising Young Woman),Mikkel E. G. Nielsen (Sound of Metal),3,False
+2020,Mikkel E. G. Nielsen (Sound of Metal),True,0.2727,3,Frédéric Thoraval (Promising Young Woman),Mikkel E. G. Nielsen (Sound of Metal),3,False
+2020,Chloé Zhao (Nomadland),False,0.1829,4,Frédéric Thoraval (Promising Young Woman),Mikkel E. G. Nielsen (Sound of Metal),3,False
+2020,Alan Baumgarten (The Trial of the Chicago 7),False,0.0951,5,Frédéric Thoraval (Promising Young Woman),Mikkel E. G. Nielsen (Sound of Metal),3,False
+2021,Person_na_N_Dhongha_le (Belfast),False,0.1745,1,Person_na_N_Dhongha_le (Belfast),Elliot Graham (No Time to Die),3,False
+2021,Joe Walker (Dune),False,0.0812,2,Person_na_N_Dhongha_le (Belfast),Elliot Graham (No Time to Die),3,False
+2021,Elliot Graham (No Time to Die),True,0.0234,3,Person_na_N_Dhongha_le (Belfast),Elliot Graham (No Time to Die),3,False
+2021,Tom Cross (No Time to Die),True,0.0234,4,Person_na_N_Dhongha_le (Belfast),Elliot Graham (No Time to Die),3,False
+2021,Andy Jurgensen (Licorice Pizza),False,0.019,5,Person_na_N_Dhongha_le (Belfast),Elliot Graham (No Time to Die),3,False
+2022,Eddie Hamilton (Top Gun: Maverick),False,0.4826,1,Eddie Hamilton (Top Gun: Maverick),Paul Rogers (Everything Everywhere All at Once),6,False
+2022,Mikkel E. G. Nielsen (The Banshees of Inisherin),False,0.3693,2,Eddie Hamilton (Top Gun: Maverick),Paul Rogers (Everything Everywhere All at Once),6,False
+2022,Person_Sven_Budelmann (All Quiet on the Western Front),False,0.3073,3,Eddie Hamilton (Top Gun: Maverick),Paul Rogers (Everything Everywhere All at Once),6,False
+2022,Jonathan Redmond (Elvis),False,0.1443,4,Eddie Hamilton (Top Gun: Maverick),Paul Rogers (Everything Everywhere All at Once),6,False
+2022,Matt Villa (Elvis),False,0.1443,5,Eddie Hamilton (Top Gun: Maverick),Paul Rogers (Everything Everywhere All at Once),6,False
+2022,Paul Rogers (Everything Everywhere All at Once),True,0.0276,6,Eddie Hamilton (Top Gun: Maverick),Paul Rogers (Everything Everywhere All at Once),6,False
+2023,Person_Paul_Watts (The Zone of Interest),False,0.6717,1,Person_Paul_Watts (The Zone of Interest),Jennifer Lame (Oppenheimer),5,False
+2023,Laurent Sénéchal (Anatomy of a Fall),False,0.3706,2,Person_Paul_Watts (The Zone of Interest),Jennifer Lame (Oppenheimer),5,False
+2023,Yorgos Mavropsaridis (Poor Things),False,0.1547,3,Person_Paul_Watts (The Zone of Interest),Jennifer Lame (Oppenheimer),5,False
+2023,Thelma Schoonmaker (Killers of the Flower Moon),False,0.0305,4,Person_Paul_Watts (The Zone of Interest),Jennifer Lame (Oppenheimer),5,False
+2023,Jennifer Lame (Oppenheimer),True,0.0127,5,Person_Paul_Watts (The Zone of Interest),Jennifer Lame (Oppenheimer),5,False
+2024,Nick Emerson (Conclave),True,0.608,1,Nick Emerson (Conclave),Nick Emerson (Conclave),1,True
+2024,Sean Baker (Anora),False,0.4747,2,Nick Emerson (Conclave),Nick Emerson (Conclave),1,True
+2024,Joe Walker (Dune: Part Two),False,0.0887,3,Nick Emerson (Conclave),Nick Emerson (Conclave),1,True
+2024,Juliette Welfling (Emilia Pérez),False,0.061,4,Nick Emerson (Conclave),Nick Emerson (Conclave),1,True

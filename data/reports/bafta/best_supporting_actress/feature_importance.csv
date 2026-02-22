@@ -1,0 +1,10 @@
+rank,feature,importance
+1,runtime,0.3411974757514176
+2,globe_supporting_actress_winner,0.1361703561709478
+3,num_wikidata_awards,0.12060502015282973
+4,budget_revenue_ratio,0.10520828172012668
+5,metacritic_score,0.10300991087219506
+6,log_revenue,0.09419561686011717
+7,imdb_rating,0.08045691184357218
+8,previous_supporting_actress_wins,0.010205154506262613
+9,writing_noms,0.00895127212253112

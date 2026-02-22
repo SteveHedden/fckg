@@ -1,0 +1,10 @@
+rank,feature,importance
+1,dga_winner,0.21739378865080047
+2,metacritic_score,0.1925379517876546
+3,dga_nominee,0.17620118565465676
+4,log_revenue,0.13190347121756824
+5,num_wikidata_awards,0.100386608238937
+6,previous_director_wins,0.07591130120877199
+7,above_line_noms,0.06480770478805442
+8,imdb_rating,0.03851633856398599
+9,budget_revenue_ratio,0.002341649889570518

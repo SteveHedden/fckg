@@ -1,0 +1,30 @@
+year_film,nominee_label,winner,prob,rank,top_pick,actual_winner,winner_rank,correct
+2016,La La Land,True,0.9125,1,La La Land,La La Land,1,True
+2016,Manchester by the Sea,False,0.5761,2,La La Land,La La Land,1,True
+2016,Moonlight,False,0.4916,3,La La Land,La La Land,1,True
+2016,Arrival,False,0.3198,4,La La Land,La La Land,1,True
+2018,Roma,True,0.7061,1,Roma,Roma,1,True
+2018,Green Book,False,0.4728,2,Roma,Roma,1,True
+2018,The Favourite,False,0.465,3,Roma,Roma,1,True
+2018,BlacKkKlansman,False,0.2293,4,Roma,Roma,1,True
+2019,1917,True,0.6393,1,1917,1917,1,True
+2019,Joker,False,0.3915,2,1917,1917,1,True
+2019,The Irishman,False,0.3517,3,1917,1917,1,True
+2020,Nomadland,True,0.7536,1,Nomadland,Nomadland,1,True
+2020,The Father,False,0.3293,2,Nomadland,Nomadland,1,True
+2020,The Trial of the Chicago 7,False,0.2006,3,Nomadland,Nomadland,1,True
+2020,Promising Young Woman,False,0.1225,4,Nomadland,Nomadland,1,True
+2021,The Power of the Dog,True,0.927,1,The Power of the Dog,The Power of the Dog,1,True
+2021,Belfast,False,0.2733,2,The Power of the Dog,The Power of the Dog,1,True
+2021,Licorice Pizza,False,0.1925,3,The Power of the Dog,The Power of the Dog,1,True
+2021,Don't Look Up,False,0.1572,4,The Power of the Dog,The Power of the Dog,1,True
+2021,Dune,False,0.1361,5,The Power of the Dog,The Power of the Dog,1,True
+2023,Oppenheimer,True,0.936,1,Oppenheimer,Oppenheimer,1,True
+2023,The Holdovers,False,0.5632,2,Oppenheimer,Oppenheimer,1,True
+2023,Poor Things,False,0.2575,3,Oppenheimer,Oppenheimer,1,True
+2023,Killers of the Flower Moon,False,0.138,4,Oppenheimer,Oppenheimer,1,True
+2024,Anora,False,0.8321,1,Anora,Conclave,3,False
+2024,The Brutalist,False,0.4768,2,Anora,Conclave,3,False
+2024,Conclave,True,0.323,3,Anora,Conclave,3,False
+2024,A Complete Unknown,False,0.1873,4,Anora,Conclave,3,False
+2024,Emilia Pérez,False,0.1089,5,Anora,Conclave,3,False

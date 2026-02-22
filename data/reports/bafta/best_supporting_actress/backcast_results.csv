@@ -1,0 +1,39 @@
+year_film,nominee_label,winner,prob,rank,top_pick,actual_winner,winner_rank,correct
+2016,Viola Davis (Fences),True,0.3985,1,Viola Davis (Fences),Viola Davis (Fences),1,True
+2016,Nicole Kidman (Lion),False,0.2112,2,Viola Davis (Fences),Viola Davis (Fences),1,True
+2016,Naomie Harris (Moonlight),False,0.0844,3,Viola Davis (Fences),Viola Davis (Fences),1,True
+2016,Michelle Williams (Manchester by the Sea),False,0.0654,4,Viola Davis (Fences),Viola Davis (Fences),1,True
+2017,Octavia Spencer (The Shape of Water),False,0.4139,1,Octavia Spencer (The Shape of Water),"Allison Janney (I, Tonya)",2,False
+2017,"Allison Janney (I, Tonya)",True,0.251,2,Octavia Spencer (The Shape of Water),"Allison Janney (I, Tonya)",2,False
+2017,Kristin Scott Thomas (Darkest Hour),False,0.1305,3,Octavia Spencer (The Shape of Water),"Allison Janney (I, Tonya)",2,False
+2017,Lesley Manville (Phantom Thread),False,0.0347,4,Octavia Spencer (The Shape of Water),"Allison Janney (I, Tonya)",2,False
+2017,Laurie Metcalf (Lady Bird),False,0.0123,5,Octavia Spencer (The Shape of Water),"Allison Janney (I, Tonya)",2,False
+2018,Rachel Weisz (The Favourite),True,0.307,1,Rachel Weisz (The Favourite),Rachel Weisz (The Favourite),1,True
+2018,Emma Stone (The Favourite),False,0.307,2,Rachel Weisz (The Favourite),Rachel Weisz (The Favourite),1,True
+2018,Amy Adams (Vice),False,0.1876,3,Rachel Weisz (The Favourite),Rachel Weisz (The Favourite),1,True
+2018,Person_Claire_Foy (First Man),False,0.125,4,Rachel Weisz (The Favourite),Rachel Weisz (The Favourite),1,True
+2018,Margot Robbie (Mary Queen of Scots),False,0.0172,5,Rachel Weisz (The Favourite),Rachel Weisz (The Favourite),1,True
+2019,Laura Dern (Marriage Story),True,0.0443,1,Laura Dern (Marriage Story),Laura Dern (Marriage Story),1,True
+2019,Florence Pugh (Little Women),False,0.0442,2,Laura Dern (Marriage Story),Laura Dern (Marriage Story),1,True
+2019,Margot Robbie (Bombshell),False,0.0107,3,Laura Dern (Marriage Story),Laura Dern (Marriage Story),1,True
+2019,Scarlett Johansson (Jojo Rabbit),False,0.004,4,Laura Dern (Marriage Story),Laura Dern (Marriage Story),1,True
+2020,Person_Youn_Yuh_jung (Minari),True,0.242,1,Person_Youn_Yuh_jung (Minari),Person_Youn_Yuh_jung (Minari),1,True
+2020,Person_Dominique_Fishback (Judas and the Black Messiah),False,0.0403,2,Person_Youn_Yuh_jung (Minari),Person_Youn_Yuh_jung (Minari),1,True
+2021,Ariana DeBose (West Side Story),True,0.4721,1,Ariana DeBose (West Side Story),Ariana DeBose (West Side Story),1,True
+2021,Jessie Buckley (The Lost Daughter),False,0.4507,2,Ariana DeBose (West Side Story),Ariana DeBose (West Side Story),1,True
+2021,Person_Aunjanue_Ellis_Taylor (King Richard),False,0.0608,3,Ariana DeBose (West Side Story),Ariana DeBose (West Side Story),1,True
+2021,Person_Caitr_ona_Balfe (Belfast),False,0.0453,4,Ariana DeBose (West Side Story),Ariana DeBose (West Side Story),1,True
+2022,Angela Bassett (Black Panther: Wakanda Forever),False,0.8743,1,Angela Bassett (Black Panther: Wakanda Forever),Kerry Condon (The Banshees of Inisherin),2,False
+2022,Kerry Condon (The Banshees of Inisherin),True,0.2794,2,Angela Bassett (Black Panther: Wakanda Forever),Kerry Condon (The Banshees of Inisherin),2,False
+2022,Hong Chau (The Whale),False,0.1892,3,Angela Bassett (Black Panther: Wakanda Forever),Kerry Condon (The Banshees of Inisherin),2,False
+2022,Jamie Lee Curtis (Everything Everywhere All at Once),False,0.132,4,Angela Bassett (Black Panther: Wakanda Forever),Kerry Condon (The Banshees of Inisherin),2,False
+2022,Person_Dolly_de_Leon (Triangle of Sadness),False,0.1255,5,Angela Bassett (Black Panther: Wakanda Forever),Kerry Condon (The Banshees of Inisherin),2,False
+2023,Da'Vine Joy Randolph (The Holdovers),True,0.4355,1,Da'Vine Joy Randolph (The Holdovers),Da'Vine Joy Randolph (The Holdovers),1,True
+2023,Danielle Brooks (The Color Purple),False,0.0485,2,Da'Vine Joy Randolph (The Holdovers),Da'Vine Joy Randolph (The Holdovers),1,True
+2023,Emily Blunt (Oppenheimer),False,0.0232,3,Da'Vine Joy Randolph (The Holdovers),Da'Vine Joy Randolph (The Holdovers),1,True
+2023,Person_Sandra_Huller (The Zone of Interest),False,0.0149,4,Da'Vine Joy Randolph (The Holdovers),Da'Vine Joy Randolph (The Holdovers),1,True
+2024,Isabella Rossellini (Conclave),False,0.5773,1,Isabella Rossellini (Conclave),Zoe Saldaña (Emilia Pérez),2,False
+2024,Zoe Saldaña (Emilia Pérez),True,0.1456,2,Isabella Rossellini (Conclave),Zoe Saldaña (Emilia Pérez),2,False
+2024,Felicity Jones (The Brutalist),False,0.068,3,Isabella Rossellini (Conclave),Zoe Saldaña (Emilia Pérez),2,False
+2024,Person_Selena_Gomez (Emilia Pérez),False,0.059,4,Isabella Rossellini (Conclave),Zoe Saldaña (Emilia Pérez),2,False
+2024,Ariana Grande (Wicked),False,0.0364,5,Isabella Rossellini (Conclave),Zoe Saldaña (Emilia Pérez),2,False

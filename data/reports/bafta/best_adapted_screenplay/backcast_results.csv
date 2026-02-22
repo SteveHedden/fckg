@@ -1,0 +1,59 @@
+year_film,nominee_label,winner,prob,rank,top_pick,actual_winner,winner_rank,correct
+2016,Person_Tom_Ford (Nocturnal Animals),False,0.9238,1,Person_Tom_Ford (Nocturnal Animals),Luke Davies (Lion),4,False
+2016,Allison Schroeder (Hidden Figures),False,0.3563,2,Person_Tom_Ford (Nocturnal Animals),Luke Davies (Lion),4,False
+2016,Theodore Melfi (Hidden Figures),False,0.3563,3,Person_Tom_Ford (Nocturnal Animals),Luke Davies (Lion),4,False
+2016,Luke Davies (Lion),True,0.0692,4,Person_Tom_Ford (Nocturnal Animals),Luke Davies (Lion),4,False
+2016,Eric Heisserer (Arrival),False,0.0332,5,Person_Tom_Ford (Nocturnal Animals),Luke Davies (Lion),4,False
+2016,Person_Andrew_Knight (Hacksaw Ridge),False,0.0011,6,Person_Tom_Ford (Nocturnal Animals),Luke Davies (Lion),4,False
+2016,Person_Robert_Schenkkan (Hacksaw Ridge),False,0.0011,7,Person_Tom_Ford (Nocturnal Animals),Luke Davies (Lion),4,False
+2017,James Ivory (Call Me by Your Name),True,0.1459,1,James Ivory (Call Me by Your Name),James Ivory (Call Me by Your Name),1,True
+2017,Aaron Sorkin (Molly's Game),False,0.0084,2,James Ivory (Call Me by Your Name),James Ivory (Call Me by Your Name),1,True
+2018,Charlie Wachtel (BlacKkKlansman),True,0.7678,1,Charlie Wachtel (BlacKkKlansman),Charlie Wachtel (BlacKkKlansman),1,True
+2018,David Rabinowitz (BlacKkKlansman),True,0.7678,2,Charlie Wachtel (BlacKkKlansman),Charlie Wachtel (BlacKkKlansman),1,True
+2018,Kevin Willmott (BlacKkKlansman),True,0.7678,3,Charlie Wachtel (BlacKkKlansman),Charlie Wachtel (BlacKkKlansman),1,True
+2018,Person_and_Spike_Lee (BlacKkKlansman),True,0.7678,4,Charlie Wachtel (BlacKkKlansman),Charlie Wachtel (BlacKkKlansman),1,True
+2018,Barry Jenkins (If Beale Street Could Talk),False,0.7672,5,Charlie Wachtel (BlacKkKlansman),Charlie Wachtel (BlacKkKlansman),1,True
+2018,Josh Singer (First Man),False,0.5863,6,Charlie Wachtel (BlacKkKlansman),Charlie Wachtel (BlacKkKlansman),1,True
+2018,Bradley Cooper (A Star Is Born),False,0.4984,7,Charlie Wachtel (BlacKkKlansman),Charlie Wachtel (BlacKkKlansman),1,True
+2018,Eric Roth (A Star Is Born),False,0.4984,8,Charlie Wachtel (BlacKkKlansman),Charlie Wachtel (BlacKkKlansman),1,True
+2018,Person_and_Will_Fetters (A Star Is Born),False,0.4984,9,Charlie Wachtel (BlacKkKlansman),Charlie Wachtel (BlacKkKlansman),1,True
+2018,Jeff Whitty (Can You Ever Forgive Me?),False,0.139,10,Charlie Wachtel (BlacKkKlansman),Charlie Wachtel (BlacKkKlansman),1,True
+2018,Nicole Holofcener (Can You Ever Forgive Me?),False,0.139,11,Charlie Wachtel (BlacKkKlansman),Charlie Wachtel (BlacKkKlansman),1,True
+2019,Greta Gerwig (Little Women),False,0.9236,1,Greta Gerwig (Little Women),Taika Waititi (Jojo Rabbit),2,False
+2019,Taika Waititi (Jojo Rabbit),True,0.1485,2,Greta Gerwig (Little Women),Taika Waititi (Jojo Rabbit),2,False
+2019,Steven Zaillian (The Irishman),False,0.0936,3,Greta Gerwig (Little Women),Taika Waititi (Jojo Rabbit),2,False
+2019,Anthony McCarten (The Two Popes),False,0.0635,4,Greta Gerwig (Little Women),Taika Waititi (Jojo Rabbit),2,False
+2019,Scott Silver (Joker),False,0.0064,5,Greta Gerwig (Little Women),Taika Waititi (Jojo Rabbit),2,False
+2019,Todd Phillips (Joker),False,0.0064,6,Greta Gerwig (Little Women),Taika Waititi (Jojo Rabbit),2,False
+2020,Chloé Zhao (Nomadland),False,0.2934,1,Chloé Zhao (Nomadland),Christopher Hampton (The Father),3,False
+2020,Ramin Bahrani (The White Tiger),False,0.2077,2,Chloé Zhao (Nomadland),Christopher Hampton (The Father),3,False
+2020,Christopher Hampton (The Father),True,0.0182,3,Chloé Zhao (Nomadland),Christopher Hampton (The Father),3,False
+2020,Florian Zeller (The Father),True,0.0182,4,Chloé Zhao (Nomadland),Christopher Hampton (The Father),3,False
+2021,Ryusuke Hamaguchi (Drive My Car),False,0.72,1,Ryusuke Hamaguchi (Drive My Car),Person_Sian_Heder (CODA),3,False
+2021,Takamasa Oe (Drive My Car),False,0.72,2,Ryusuke Hamaguchi (Drive My Car),Person_Sian_Heder (CODA),3,False
+2021,Person_Sian_Heder (CODA),True,0.5187,3,Ryusuke Hamaguchi (Drive My Car),Person_Sian_Heder (CODA),3,False
+2021,Maggie Gyllenhaal (The Lost Daughter),False,0.0737,4,Ryusuke Hamaguchi (Drive My Car),Person_Sian_Heder (CODA),3,False
+2021,Eric Roth (Dune),False,0.0465,5,Ryusuke Hamaguchi (Drive My Car),Person_Sian_Heder (CODA),3,False
+2021,Jon Spaihts (Dune),False,0.0465,6,Ryusuke Hamaguchi (Drive My Car),Person_Sian_Heder (CODA),3,False
+2021,Person_and_Denis_Villeneuve (Dune),False,0.0465,7,Ryusuke Hamaguchi (Drive My Car),Person_Sian_Heder (CODA),3,False
+2021,Jane Campion (The Power of the Dog),False,0.0121,8,Ryusuke Hamaguchi (Drive My Car),Person_Sian_Heder (CODA),3,False
+2022,Person_Edward_Berger (All Quiet on the Western Front),True,0.8679,1,Person_Edward_Berger (All Quiet on the Western Front),Person_Edward_Berger (All Quiet on the Western Front),1,True
+2022,Lesley Paterson (All Quiet on the Western Front),True,0.8679,2,Person_Edward_Berger (All Quiet on the Western Front),Person_Edward_Berger (All Quiet on the Western Front),1,True
+2022,Person_and_Ian_Stokell (All Quiet on the Western Front),True,0.8679,3,Person_Edward_Berger (All Quiet on the Western Front),Person_Edward_Berger (All Quiet on the Western Front),1,True
+2022,Kazuo Ishiguro (Living),False,0.1729,4,Person_Edward_Berger (All Quiet on the Western Front),Person_Edward_Berger (All Quiet on the Western Front),1,True
+2022,Person_Samuel_D_Hunter (The Whale),False,0.1216,5,Person_Edward_Berger (All Quiet on the Western Front),Person_Edward_Berger (All Quiet on the Western Front),1,True
+2022,Person_Colm_Bair_ad (The Quiet Girl),False,0.0978,6,Person_Edward_Berger (All Quiet on the Western Front),Person_Edward_Berger (All Quiet on the Western Front),1,True
+2023,Tony McNamara (Poor Things),False,0.6456,1,Tony McNamara (Poor Things),Cord Jefferson (American Fiction),2,False
+2023,Cord Jefferson (American Fiction),True,0.3906,2,Tony McNamara (Poor Things),Cord Jefferson (American Fiction),2,False
+2023,Jonathan Glazer (The Zone of Interest),False,0.309,3,Tony McNamara (Poor Things),Cord Jefferson (American Fiction),2,False
+2023,Christopher Nolan (Oppenheimer),False,0.018,4,Tony McNamara (Poor Things),Cord Jefferson (American Fiction),2,False
+2024,Person_Clarence_Divine_Eye_Maclin (Sing Sing),False,0.9188,1,Person_Clarence_Divine_Eye_Maclin (Sing Sing),Peter Straughan (Conclave),10,False
+2024,Clint Bentley (Sing Sing),False,0.9188,2,Person_Clarence_Divine_Eye_Maclin (Sing Sing),Peter Straughan (Conclave),10,False
+2024,Greg Kwedar (Sing Sing),False,0.9188,3,Person_Clarence_Divine_Eye_Maclin (Sing Sing),Peter Straughan (Conclave),10,False
+2024,Person_and_John_Divine_G_Whitfield (Sing Sing),False,0.9188,4,Person_Clarence_Divine_Eye_Maclin (Sing Sing),Peter Straughan (Conclave),10,False
+2024,Jacques Audiard (Emilia Pérez),False,0.9045,5,Person_Clarence_Divine_Eye_Maclin (Sing Sing),Peter Straughan (Conclave),10,False
+2024,Joslyn Barnes (Nickel Boys),False,0.1189,6,Person_Clarence_Divine_Eye_Maclin (Sing Sing),Peter Straughan (Conclave),10,False
+2024,RaMell Ross (Nickel Boys),False,0.1189,7,Person_Clarence_Divine_Eye_Maclin (Sing Sing),Peter Straughan (Conclave),10,False
+2024,James Mangold (A Complete Unknown),False,0.1085,8,Person_Clarence_Divine_Eye_Maclin (Sing Sing),Peter Straughan (Conclave),10,False
+2024,Jay Cocks (A Complete Unknown),False,0.1085,9,Person_Clarence_Divine_Eye_Maclin (Sing Sing),Peter Straughan (Conclave),10,False
+2024,Peter Straughan (Conclave),True,0.103,10,Person_Clarence_Divine_Eye_Maclin (Sing Sing),Peter Straughan (Conclave),10,False

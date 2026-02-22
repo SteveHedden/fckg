@@ -1,0 +1,10 @@
+rank,feature,importance
+1,globe_actress_winner,0.29978533396817736
+2,imdb_rating,0.19124495321545404
+3,num_wikidata_awards,0.17810351788436302
+4,log_revenue,0.14347763440910924
+5,budget_revenue_ratio,0.09435983276012945
+6,runtime,0.07069713951598064
+7,previous_actress_wins,0.017233759293474846
+8,metacritic_score,0.004661309491836405
+9,writing_noms,0.0004365194614750002

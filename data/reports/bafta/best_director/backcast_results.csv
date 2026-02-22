@@ -1,0 +1,41 @@
+year_film,nominee_label,winner,prob,rank,top_pick,actual_winner,winner_rank,correct
+2016,Damien Chazelle (La La Land),True,0.8119,1,Damien Chazelle (La La Land),Damien Chazelle (La La Land),1,True
+2016,Kenneth Lonergan (Manchester by the Sea),False,0.6241,2,Damien Chazelle (La La Land),Damien Chazelle (La La Land),1,True
+2016,Denis Villeneuve (Arrival),False,0.4057,3,Damien Chazelle (La La Land),Damien Chazelle (La La Land),1,True
+2016,Person_Tom_Ford (Nocturnal Animals),False,0.078,4,Damien Chazelle (La La Land),Damien Chazelle (La La Land),1,True
+2017,Christopher Nolan (Dunkirk),False,0.788,1,Christopher Nolan (Dunkirk),Guillermo del Toro (The Shape of Water),2,False
+2017,Guillermo del Toro (The Shape of Water),True,0.7772,2,Christopher Nolan (Dunkirk),Guillermo del Toro (The Shape of Water),2,False
+2017,Luca Guadagnino (Call Me by Your Name),False,0.4211,3,Christopher Nolan (Dunkirk),Guillermo del Toro (The Shape of Water),2,False
+2017,Denis Villeneuve (Blade Runner 2049),False,0.309,4,Christopher Nolan (Dunkirk),Guillermo del Toro (The Shape of Water),2,False
+2018,Alfonso Cuarón (Roma),True,0.9609,1,Alfonso Cuarón (Roma),Alfonso Cuarón (Roma),1,True
+2018,Spike Lee (BlacKkKlansman),False,0.5555,2,Alfonso Cuarón (Roma),Alfonso Cuarón (Roma),1,True
+2018,Person_Pawe_Pawlikowski (Cold War),False,0.5372,3,Alfonso Cuarón (Roma),Alfonso Cuarón (Roma),1,True
+2018,Bradley Cooper (A Star Is Born),False,0.5328,4,Alfonso Cuarón (Roma),Alfonso Cuarón (Roma),1,True
+2018,Yorgos Lanthimos (The Favourite),False,0.2505,5,Alfonso Cuarón (Roma),Alfonso Cuarón (Roma),1,True
+2019,Sam Mendes (1917),True,0.7944,1,Sam Mendes (1917),Sam Mendes (1917),1,True
+2019,Martin Scorsese (The Irishman),False,0.7353,2,Sam Mendes (1917),Sam Mendes (1917),1,True
+2019,Person_Bong_Joon_ho (Parasite),False,0.628,3,Sam Mendes (1917),Sam Mendes (1917),1,True
+2019,Todd Phillips (Joker),False,0.0343,4,Sam Mendes (1917),Sam Mendes (1917),1,True
+2020,Chloé Zhao (Nomadland),True,0.8801,1,Chloé Zhao (Nomadland),Chloé Zhao (Nomadland),1,True
+2020,Lee Isaac Chung (Minari),False,0.6303,2,Chloé Zhao (Nomadland),Chloé Zhao (Nomadland),1,True
+2020,"Person_Jasmila_bani (Quo Vadis, Aida?)",False,0.4771,3,Chloé Zhao (Nomadland),Chloé Zhao (Nomadland),1,True
+2020,Thomas Vinterberg (Another Round),False,0.1354,4,Chloé Zhao (Nomadland),Chloé Zhao (Nomadland),1,True
+2021,Jane Campion (The Power of the Dog),True,0.9275,1,Jane Campion (The Power of the Dog),Jane Campion (The Power of the Dog),1,True
+2021,Paul Thomas Anderson (Licorice Pizza),False,0.6626,2,Jane Campion (The Power of the Dog),Jane Campion (The Power of the Dog),1,True
+2021,Ryusuke Hamaguchi (Drive My Car),False,0.3602,3,Jane Campion (The Power of the Dog),Jane Campion (The Power of the Dog),1,True
+2022,Daniel Kwan (Everything Everywhere All at Once),False,0.7401,1,Daniel Kwan (Everything Everywhere All at Once),Person_Edward_Berger (All Quiet on the Western Front),5,False
+2022,Daniel Scheinert (Everything Everywhere All at Once),False,0.7401,2,Daniel Kwan (Everything Everywhere All at Once),Person_Edward_Berger (All Quiet on the Western Front),5,False
+2022,Todd Field (Tár),False,0.6703,3,Daniel Kwan (Everything Everywhere All at Once),Person_Edward_Berger (All Quiet on the Western Front),5,False
+2022,Martin McDonagh (The Banshees of Inisherin),False,0.4738,4,Daniel Kwan (Everything Everywhere All at Once),Person_Edward_Berger (All Quiet on the Western Front),5,False
+2022,Person_Edward_Berger (All Quiet on the Western Front),True,0.1819,5,Daniel Kwan (Everything Everywhere All at Once),Person_Edward_Berger (All Quiet on the Western Front),5,False
+2023,Christopher Nolan (Oppenheimer),True,0.7871,1,Christopher Nolan (Oppenheimer),Christopher Nolan (Oppenheimer),1,True
+2023,Alexander Payne (The Holdovers),False,0.3736,2,Christopher Nolan (Oppenheimer),Christopher Nolan (Oppenheimer),1,True
+2023,Jonathan Glazer (The Zone of Interest),False,0.2694,3,Christopher Nolan (Oppenheimer),Christopher Nolan (Oppenheimer),1,True
+2023,Justine Triet (Anatomy of a Fall),False,0.2193,4,Christopher Nolan (Oppenheimer),Christopher Nolan (Oppenheimer),1,True
+2023,Bradley Cooper (Maestro),False,0.1884,5,Christopher Nolan (Oppenheimer),Christopher Nolan (Oppenheimer),1,True
+2024,Sean Baker (Anora),False,0.8505,1,Sean Baker (Anora),Brady Corbet (The Brutalist),3,False
+2024,Person_Edward_Berger (Conclave),False,0.5133,2,Sean Baker (Anora),Brady Corbet (The Brutalist),3,False
+2024,Brady Corbet (The Brutalist),True,0.4284,3,Sean Baker (Anora),Brady Corbet (The Brutalist),3,False
+2024,Denis Villeneuve (Dune: Part Two),False,0.237,4,Sean Baker (Anora),Brady Corbet (The Brutalist),3,False
+2024,Coralie Fargeat (The Substance),False,0.1433,5,Sean Baker (Anora),Brady Corbet (The Brutalist),3,False
+2024,Jacques Audiard (Emilia Pérez),False,0.1392,6,Sean Baker (Anora),Brady Corbet (The Brutalist),3,False

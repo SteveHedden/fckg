@@ -59,6 +59,7 @@ docs/
 pyproject.toml
 requirements*.txt
 *.csv
+!data/reports/**/*.csv
 
 # Local planning/agent artifacts
 CLAUDE.md

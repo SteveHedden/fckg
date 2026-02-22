@@ -1,0 +1,27 @@
+year_film,nominee_label,winner,prob,rank,top_pick,actual_winner,winner_rank,correct
+2016,Emma Stone (La La Land),True,0.7867,1,Emma Stone (La La Land),Emma Stone (La La Land),1,True
+2016,Amy Adams (Arrival),False,0.481,2,Emma Stone (La La Land),Emma Stone (La La Land),1,True
+2016,Meryl Streep (Florence Foster Jenkins),False,0.2119,3,Emma Stone (La La Land),Emma Stone (La La Land),1,True
+2016,Natalie Portman (Jackie),False,0.171,4,Emma Stone (La La Land),Emma Stone (La La Land),1,True
+2018,Olivia Colman (The Favourite),True,0.779,1,Olivia Colman (The Favourite),Olivia Colman (The Favourite),1,True
+2018,Glenn Close (The Wife),False,0.6922,2,Olivia Colman (The Favourite),Olivia Colman (The Favourite),1,True
+2018,Melissa McCarthy (Can You Ever Forgive Me?),False,0.2029,3,Olivia Colman (The Favourite),Olivia Colman (The Favourite),1,True
+2018,Lady Gaga (A Star Is Born),False,0.1849,4,Olivia Colman (The Favourite),Olivia Colman (The Favourite),1,True
+2019,Renée Zellweger (Judy),True,0.5459,1,Renée Zellweger (Judy),Renée Zellweger (Judy),1,True
+2019,Scarlett Johansson (Marriage Story),False,0.4323,2,Renée Zellweger (Judy),Renée Zellweger (Judy),1,True
+2019,Saoirse Ronan (Little Women),False,0.2208,3,Renée Zellweger (Judy),Renée Zellweger (Judy),1,True
+2019,Charlize Theron (Bombshell),False,0.1749,4,Renée Zellweger (Judy),Renée Zellweger (Judy),1,True
+2020,Vanessa Kirby (Pieces of a Woman),False,0.3614,1,Vanessa Kirby (Pieces of a Woman),Frances McDormand (Nomadland),2,False
+2020,Frances McDormand (Nomadland),True,0.2284,2,Vanessa Kirby (Pieces of a Woman),Frances McDormand (Nomadland),2,False
+2022,Michelle Yeoh (Everything Everywhere All at Once),False,0.7579,1,Michelle Yeoh (Everything Everywhere All at Once),Cate Blanchett (Tár),2,False
+2022,Cate Blanchett (Tár),True,0.596,2,Michelle Yeoh (Everything Everywhere All at Once),Cate Blanchett (Tár),2,False
+2022,Ana de Armas (Blonde),False,0.0774,3,Michelle Yeoh (Everything Everywhere All at Once),Cate Blanchett (Tár),2,False
+2023,Emma Stone (Poor Things),True,0.7856,1,Emma Stone (Poor Things),Emma Stone (Poor Things),1,True
+2023,Sandra Hüller (Anatomy of a Fall),False,0.3013,2,Emma Stone (Poor Things),Emma Stone (Poor Things),1,True
+2023,Carey Mulligan (Maestro),False,0.1478,3,Emma Stone (Poor Things),Emma Stone (Poor Things),1,True
+2023,Person_Fantasia_Barrino (The Color Purple),False,0.1292,4,Emma Stone (Poor Things),Emma Stone (Poor Things),1,True
+2023,Margot Robbie (Barbie),False,0.0972,5,Emma Stone (Poor Things),Emma Stone (Poor Things),1,True
+2024,Demi Moore (The Substance),False,0.6242,1,Demi Moore (The Substance),Mikey Madison (Anora),2,False
+2024,Mikey Madison (Anora),True,0.1814,2,Demi Moore (The Substance),Mikey Madison (Anora),2,False
+2024,Cynthia Erivo (Wicked),False,0.1357,3,Demi Moore (The Substance),Mikey Madison (Anora),2,False
+2024,Karla Sofía Gascón (Emilia Pérez),False,0.0512,4,Demi Moore (The Substance),Mikey Madison (Anora),2,False

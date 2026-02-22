@@ -1,0 +1,10 @@
+rank,feature,importance
+1,budget_revenue_ratio,0.24176199533952952
+2,imdb_rating,0.23488339428500002
+3,log_revenue,0.19366107378206096
+4,num_wikidata_awards,0.1465997485683222
+5,metacritic_score,0.10043564994262286
+6,previous_adapted_screenplay_wins,0.028984510443386593
+7,globe_winner,0.025144201690286125
+8,above_line_noms,0.025007070868277463
+9,directing_nom,0.0035223550805142706

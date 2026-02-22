@@ -1,0 +1,10 @@
+rank,feature,importance
+1,globe_supporting_actor_winner,0.2689799253427695
+2,metacritic_score,0.16455820710446828
+3,imdb_rating,0.16080469844920958
+4,writing_noms,0.15966432932729524
+5,budget_revenue_ratio,0.10196096769802868
+6,previous_supporting_actor_wins,0.04151721330482614
+7,runtime,0.03832239503324331
+8,log_revenue,0.0321674215912899
+9,num_wikidata_awards,0.03202484214886931
