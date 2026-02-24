@@ -1,0 +1,9 @@
+rank,feature,importance
+1,bafta_actor_winner,0.3280954627034679
+2,log_revenue,0.24863580023860038
+3,budget_revenue_ratio,0.12355214316951481
+4,rotten_tomatoes_pct,0.10931470013026769
+5,num_wikidata_awards,0.06708711624742052
+6,imdb_rating,0.059316641816387454
+7,golden_globes_actor_winner,0.04516919855125661
+8,oscars_actor_nominee,0.018828937143084538

@@ -1,0 +1,76 @@
+year_film,nominee_label,winner,prob,rank,top_pick,actual_winner,winner_rank,correct
+2010,The King's Speech,True,0.6655,1,The King's Speech,The King's Speech,1,True
+2010,Black Swan,False,0.5803,2,The King's Speech,The King's Speech,1,True
+2010,The Social Network,False,0.3129,3,The King's Speech,The King's Speech,1,True
+2010,The Fighter,False,0.2958,4,The King's Speech,The King's Speech,1,True
+2010,The Kids Are All Right,False,0.1703,5,The King's Speech,The King's Speech,1,True
+2011,The Artist,False,0.7942,1,The Artist,The Help,3,False
+2011,Bridesmaids,False,0.3759,2,The Artist,The Help,3,False
+2011,The Help,True,0.3309,3,The Artist,The Help,3,False
+2011,Midnight in Paris,False,0.274,4,The Artist,The Help,3,False
+2011,The Descendants,False,0.1661,5,The Artist,The Help,3,False
+2012,Les Misérables,False,0.5881,1,Les Misérables,Argo,2,False
+2012,Argo,True,0.4759,2,Les Misérables,Argo,2,False
+2012,Lincoln,False,0.2854,3,Les Misérables,Argo,2,False
+2012,Silver Linings Playbook,False,0.2481,4,Les Misérables,Argo,2,False
+2012,The Best Exotic Marigold Hotel,False,0.1692,5,Les Misérables,Argo,2,False
+2013,12 Years a Slave,False,0.542,1,12 Years a Slave,American Hustle,4,False
+2013,The Butler,False,0.3631,2,12 Years a Slave,American Hustle,4,False
+2013,Dallas Buyers Club,False,0.3098,3,12 Years a Slave,American Hustle,4,False
+2013,American Hustle,True,0.222,4,12 Years a Slave,American Hustle,4,False
+2013,August: Osage County,False,0.0219,5,12 Years a Slave,American Hustle,4,False
+2014,Birdman or (The Unexpected Virtue of Ignorance),True,0.6169,1,Birdman or (The Unexpected Virtue of Ignorance),Birdman or (The Unexpected Virtue of Ignorance),1,True
+2014,The Imitation Game,False,0.5018,2,Birdman or (The Unexpected Virtue of Ignorance),Birdman or (The Unexpected Virtue of Ignorance),1,True
+2014,The Grand Budapest Hotel,False,0.454,3,Birdman or (The Unexpected Virtue of Ignorance),Birdman or (The Unexpected Virtue of Ignorance),1,True
+2014,The Theory of Everything,False,0.3773,4,Birdman or (The Unexpected Virtue of Ignorance),Birdman or (The Unexpected Virtue of Ignorance),1,True
+2014,Boyhood,False,0.1457,5,Birdman or (The Unexpected Virtue of Ignorance),Birdman or (The Unexpected Virtue of Ignorance),1,True
+2015,The Big Short,False,0.4786,1,The Big Short,Spotlight,3,False
+2015,Straight Outta Compton,False,0.3381,2,The Big Short,Spotlight,3,False
+2015,Spotlight,True,0.2744,3,The Big Short,Spotlight,3,False
+2015,Beasts of No Nation,False,0.0765,4,The Big Short,Spotlight,3,False
+2015,Trumbo,False,0.045,5,The Big Short,Spotlight,3,False
+2016,Hidden Figures,True,0.3252,1,Hidden Figures,Hidden Figures,1,True
+2016,Manchester by the Sea,False,0.2395,2,Hidden Figures,Hidden Figures,1,True
+2016,Captain Fantastic,False,0.1586,3,Hidden Figures,Hidden Figures,1,True
+2016,Moonlight,False,0.1078,4,Hidden Figures,Hidden Figures,1,True
+2016,Fences,False,0.1041,5,Hidden Figures,Hidden Figures,1,True
+2017,Get Out,False,0.6407,1,Get Out,"Three Billboards outside Ebbing, Missouri",4,False
+2017,Lady Bird,False,0.3457,2,Get Out,"Three Billboards outside Ebbing, Missouri",4,False
+2017,The Big Sick,False,0.1496,3,Get Out,"Three Billboards outside Ebbing, Missouri",4,False
+2017,"Three Billboards outside Ebbing, Missouri",True,0.1342,4,Get Out,"Three Billboards outside Ebbing, Missouri",4,False
+2017,Mudbound,False,0.0093,5,Get Out,"Three Billboards outside Ebbing, Missouri",4,False
+2018,Black Panther,True,0.478,1,Black Panther,Black Panther,1,True
+2018,A Star Is Born,False,0.4328,2,Black Panther,Black Panther,1,True
+2018,Crazy Rich Asians,False,0.338,3,Black Panther,Black Panther,1,True
+2018,BlacKkKlansman,False,0.3009,4,Black Panther,Black Panther,1,True
+2018,Bohemian Rhapsody,False,0.2869,5,Black Panther,Black Panther,1,True
+2019,Parasite,True,0.4036,1,Parasite,Parasite,1,True
+2019,Once upon a Time...in Hollywood,False,0.3891,2,Parasite,Parasite,1,True
+2019,Jojo Rabbit,False,0.2641,3,Parasite,Parasite,1,True
+2019,Bombshell,False,0.1261,4,Parasite,Parasite,1,True
+2019,The Irishman,False,0.025,5,Parasite,Parasite,1,True
+2020,Minari,False,0.1223,1,Minari,The Trial of the Chicago 7,2,False
+2020,The Trial of the Chicago 7,True,0.0118,2,Minari,The Trial of the Chicago 7,2,False
+2020,Ma Rainey's Black Bottom,False,0.0108,3,Minari,The Trial of the Chicago 7,2,False
+2020,One Night in Miami...,False,0.0078,4,Minari,The Trial of the Chicago 7,2,False
+2020,Da 5 Bloods,False,0.0022,5,Minari,The Trial of the Chicago 7,2,False
+2021,CODA,True,0.343,1,CODA,CODA,1,True
+2021,House of Gucci,False,0.2076,2,CODA,CODA,1,True
+2021,King Richard,False,0.2046,3,CODA,CODA,1,True
+2021,Belfast,False,0.1303,4,CODA,CODA,1,True
+2021,Don't Look Up,False,0.1095,5,CODA,CODA,1,True
+2022,Everything Everywhere All at Once,True,0.685,1,Everything Everywhere All at Once,Everything Everywhere All at Once,1,True
+2022,Women Talking,False,0.2817,2,Everything Everywhere All at Once,Everything Everywhere All at Once,1,True
+2022,The Banshees of Inisherin,False,0.2795,3,Everything Everywhere All at Once,Everything Everywhere All at Once,1,True
+2022,Babylon,False,0.1703,4,Everything Everywhere All at Once,Everything Everywhere All at Once,1,True
+2022,The Fabelmans,False,0.0532,5,Everything Everywhere All at Once,Everything Everywhere All at Once,1,True
+2023,Oppenheimer,True,0.6364,1,Oppenheimer,Oppenheimer,1,True
+2023,The Color Purple,False,0.2751,2,Oppenheimer,Oppenheimer,1,True
+2023,Barbie,False,0.2484,3,Oppenheimer,Oppenheimer,1,True
+2023,American Fiction,False,0.2222,4,Oppenheimer,Oppenheimer,1,True
+2023,Killers of the Flower Moon,False,0.0759,5,Oppenheimer,Oppenheimer,1,True
+2024,Anora,False,0.6265,1,Anora,Conclave,2,False
+2024,Conclave,True,0.4162,2,Anora,Conclave,2,False
+2024,Emilia Pérez,False,0.3284,3,Anora,Conclave,2,False
+2024,Wicked,False,0.3263,4,Anora,Conclave,2,False
+2024,A Complete Unknown,False,0.163,5,Anora,Conclave,2,False

@@ -1,0 +1,10 @@
+rank,feature,importance
+1,log_revenue,0.23456277233332035
+2,golden_globes_supporting_actor_winner,0.2028931854960475
+3,oscars_supporting_actor_nominee,0.13241519450561007
+4,imdb_rating,0.0978243651987279
+5,rotten_tomatoes_pct,0.09743962891839333
+6,budget_revenue_ratio,0.08109464229903289
+7,acting_noms,0.05427398586302874
+8,num_wikidata_awards,0.05413704660238429
+9,bafta_supporting_actor_winner,0.04535917878345494

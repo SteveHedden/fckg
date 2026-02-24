@@ -1,0 +1,9 @@
+rank,feature,importance
+1,log_revenue,0.24778944267876432
+2,golden_globes_supporting_actress_winner,0.23228812748780506
+3,previous_supporting_actress_wins,0.13771674597408534
+4,oscars_supporting_actress_nominee,0.10919682982469782
+5,bafta_supporting_actress_winner,0.10466813829754745
+6,acting_noms,0.07722359507593585
+7,num_wikidata_awards,0.07139242327849937
+8,budget_revenue_ratio,0.019724697382664753

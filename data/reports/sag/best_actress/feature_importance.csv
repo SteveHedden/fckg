@@ -1,0 +1,9 @@
+rank,feature,importance
+1,oscars_actress_nominee,0.35942986987879244
+2,golden_globes_actress_winner,0.2619833690949732
+3,imdb_rating,0.15580883794768435
+4,budget_revenue_ratio,0.08132061717272215
+5,log_revenue,0.05017515341914813
+6,num_wikidata_awards,0.0395867031318628
+7,bafta_actress_winner,0.031312132170235436
+8,rotten_tomatoes_pct,0.020383317184581577

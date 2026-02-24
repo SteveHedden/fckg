@@ -1,0 +1,12 @@
+Category: best_ensemble_cast
+Award system: sag
+Model: LR+RF
+Features: ['globe_drama_winner', 'globe_comedy_winner', 'bafta_best_film_winner', 'dga_winner', 'pga_winner', 'cast_previous_noms_sum', 'cast_previous_wins_sum', 'cast_star_power', 'acting_noms', 'log_revenue', 'budget_revenue_ratio', 'num_wikidata_awards']
+Years: 2010..2025
+n_years: 15
+AUC: 0.7156
+top1: 8
+top1_pct: 53.3%
+top3: 13
+top3_pct: 86.7%
+avg_rank: 1.8667

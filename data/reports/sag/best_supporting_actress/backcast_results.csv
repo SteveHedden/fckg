@@ -1,0 +1,46 @@
+year_film,nominee_label,winner,prob,rank,top_pick,actual_winner,winner_rank,correct
+2016,Viola Davis (Fences),True,0.9442,1,Viola Davis (Fences),Viola Davis (Fences),1,True
+2016,Nicole Kidman (Lion),False,0.4156,2,Viola Davis (Fences),Viola Davis (Fences),1,True
+2016,Michelle Williams (Manchester by the Sea),False,0.2453,3,Viola Davis (Fences),Viola Davis (Fences),1,True
+2016,Naomie Harris (Moonlight),False,0.2372,4,Viola Davis (Fences),Viola Davis (Fences),1,True
+2016,Octavia Spencer (Hidden Figures),False,0.095,5,Viola Davis (Fences),Viola Davis (Fences),1,True
+2017,"Allison Janney (I, Tonya)",True,0.9325,1,"Allison Janney (I, Tonya)","Allison Janney (I, Tonya)",1,True
+2017,Laurie Metcalf (Lady Bird),False,0.218,2,"Allison Janney (I, Tonya)","Allison Janney (I, Tonya)",1,True
+2017,Hong Chau (Downsizing),False,0.0997,3,"Allison Janney (I, Tonya)","Allison Janney (I, Tonya)",1,True
+2017,Holly Hunter (The Big Sick),False,0.0267,4,"Allison Janney (I, Tonya)","Allison Janney (I, Tonya)",1,True
+2017,Mary J. Blige (Mudbound),False,0.0013,5,"Allison Janney (I, Tonya)","Allison Janney (I, Tonya)",1,True
+2018,Emma Stone (The Favourite),False,0.4196,1,Emma Stone (The Favourite),Emily Blunt (A Quiet Place),5,False
+2018,Rachel Weisz (The Favourite),False,0.3539,2,Emma Stone (The Favourite),Emily Blunt (A Quiet Place),5,False
+2018,Amy Adams (Vice),False,0.2928,3,Emma Stone (The Favourite),Emily Blunt (A Quiet Place),5,False
+2018,Margot Robbie (Mary Queen of Scots),False,0.0785,4,Emma Stone (The Favourite),Emily Blunt (A Quiet Place),5,False
+2018,Emily Blunt (A Quiet Place),True,0.0143,5,Emma Stone (The Favourite),Emily Blunt (A Quiet Place),5,False
+2019,Laura Dern (Marriage Story),True,0.4718,1,Laura Dern (Marriage Story),Laura Dern (Marriage Story),1,True
+2019,Scarlett Johansson (Jojo Rabbit),False,0.4267,2,Laura Dern (Marriage Story),Laura Dern (Marriage Story),1,True
+2019,Person_Jennifer_Lopez (Hustlers),False,0.2394,3,Laura Dern (Marriage Story),Laura Dern (Marriage Story),1,True
+2019,Margot Robbie (Bombshell),False,0.2297,4,Laura Dern (Marriage Story),Laura Dern (Marriage Story),1,True
+2019,Nicole Kidman (Bombshell),False,0.1019,5,Laura Dern (Marriage Story),Laura Dern (Marriage Story),1,True
+2020,Olivia Colman (The Father),False,0.2312,1,Olivia Colman (The Father),Yuh-Jung Youn (Minari),2,False
+2020,Yuh-Jung Youn (Minari),True,0.1522,2,Olivia Colman (The Father),Yuh-Jung Youn (Minari),2,False
+2020,Person_Helena_Zengel (News of the World),False,0.1242,3,Olivia Colman (The Father),Yuh-Jung Youn (Minari),2,False
+2020,Maria Bakalova (Borat Subsequent Moviefilm: Delivery of Prodigious Bribe to American Regime for Make Benefit Once Glorious Nation of Kazakhstan),False,0.0019,4,Olivia Colman (The Father),Yuh-Jung Youn (Minari),2,False
+2020,Glenn Close (Hillbilly Elegy),False,0.0009,5,Olivia Colman (The Father),Yuh-Jung Youn (Minari),2,False
+2021,Ariana DeBose (West Side Story),True,0.9797,1,Ariana DeBose (West Side Story),Ariana DeBose (West Side Story),1,True
+2021,Person_Caitr_ona_Balfe (Belfast),False,0.2044,2,Ariana DeBose (West Side Story),Ariana DeBose (West Side Story),1,True
+2021,Cate Blanchett (Nightmare Alley),False,0.0286,3,Ariana DeBose (West Side Story),Ariana DeBose (West Side Story),1,True
+2021,Ruth Negga (Passing),False,0.003,4,Ariana DeBose (West Side Story),Ariana DeBose (West Side Story),1,True
+2021,Kirsten Dunst (The Power of the Dog),False,0.0029,5,Ariana DeBose (West Side Story),Ariana DeBose (West Side Story),1,True
+2022,Angela Bassett (Black Panther: Wakanda Forever),False,0.9515,1,Angela Bassett (Black Panther: Wakanda Forever),Jamie Lee Curtis (Everything Everywhere All at Once),4,False
+2022,Kerry Condon (The Banshees of Inisherin),False,0.42,2,Angela Bassett (Black Panther: Wakanda Forever),Jamie Lee Curtis (Everything Everywhere All at Once),4,False
+2022,Hong Chau (The Whale),False,0.3329,3,Angela Bassett (Black Panther: Wakanda Forever),Jamie Lee Curtis (Everything Everywhere All at Once),4,False
+2022,Jamie Lee Curtis (Everything Everywhere All at Once),True,0.2244,4,Angela Bassett (Black Panther: Wakanda Forever),Jamie Lee Curtis (Everything Everywhere All at Once),4,False
+2022,Stephanie Hsu (Everything Everywhere All at Once),False,0.2244,5,Angela Bassett (Black Panther: Wakanda Forever),Jamie Lee Curtis (Everything Everywhere All at Once),4,False
+2023,Da'Vine Joy Randolph (The Holdovers),True,0.9384,1,Da'Vine Joy Randolph (The Holdovers),Da'Vine Joy Randolph (The Holdovers),1,True
+2023,Danielle Brooks (The Color Purple),False,0.3913,2,Da'Vine Joy Randolph (The Holdovers),Da'Vine Joy Randolph (The Holdovers),1,True
+2023,Penélope Cruz (Ferrari),False,0.1639,3,Da'Vine Joy Randolph (The Holdovers),Da'Vine Joy Randolph (The Holdovers),1,True
+2023,Emily Blunt (Oppenheimer),False,0.0783,4,Da'Vine Joy Randolph (The Holdovers),Da'Vine Joy Randolph (The Holdovers),1,True
+2023,Jodie Foster (Nyad),False,0.0069,5,Da'Vine Joy Randolph (The Holdovers),Da'Vine Joy Randolph (The Holdovers),1,True
+2024,Zoe Saldaña (Emilia Pérez),True,0.9539,1,Zoe Saldaña (Emilia Pérez),Zoe Saldaña (Emilia Pérez),1,True
+2024,Ariana Grande (Wicked),False,0.3008,2,Zoe Saldaña (Emilia Pérez),Zoe Saldaña (Emilia Pérez),1,True
+2024,Monica Barbaro (A Complete Unknown),False,0.244,3,Zoe Saldaña (Emilia Pérez),Zoe Saldaña (Emilia Pérez),1,True
+2024,Jamie Lee Curtis (The Last Showgirl),False,0.012,4,Zoe Saldaña (Emilia Pérez),Zoe Saldaña (Emilia Pérez),1,True
+2024,Person_Danielle_Deadwyler (The Piano Lesson),False,0.0037,5,Zoe Saldaña (Emilia Pérez),Zoe Saldaña (Emilia Pérez),1,True

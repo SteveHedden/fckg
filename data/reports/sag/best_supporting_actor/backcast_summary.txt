@@ -1,0 +1,12 @@
+Category: best_supporting_actor
+Award system: sag
+Model: LR+RF
+Features: ['golden_globes_supporting_actor_winner', 'bafta_supporting_actor_winner', 'oscars_supporting_actor_nominee', 'imdb_rating', 'rotten_tomatoes_pct', 'log_revenue', 'budget_revenue_ratio', 'num_wikidata_awards', 'acting_noms']
+Years: 2016..2025
+n_years: 9
+AUC: 0.8765
+top1: 6
+top1_pct: 66.7%
+top3: 9
+top3_pct: 100.0%
+avg_rank: 1.3333

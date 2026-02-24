@@ -1,0 +1,12 @@
+Category: best_supporting_actress
+Award system: sag
+Model: LR
+Features: ['golden_globes_supporting_actress_winner', 'bafta_supporting_actress_winner', 'oscars_supporting_actress_nominee', 'log_revenue', 'budget_revenue_ratio', 'num_wikidata_awards', 'previous_supporting_actress_wins', 'acting_noms']
+Years: 2016..2025
+n_years: 9
+AUC: 0.7886
+top1: 6
+top1_pct: 66.7%
+top3: 7
+top3_pct: 77.8%
+avg_rank: 1.8889
