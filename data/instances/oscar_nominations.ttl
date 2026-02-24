@@ -86491,7 +86491,7 @@ msh:Nomination_oscars_2001_actor_in_a_supporting_role_traffic_b4f0342bb51e175a a
     msh:hasCategory msh:Category_oscars_ACTOR_IN_A_SUPPORTING_ROLE ;
     msh:hasCeremony msh:Ceremony_oscars_2001 ;
     msh:hasFilm msh:Film_Traffic_2000 ;
-    msh:hasNominee msh:Person_Benicio_Del_Toro ;
+    msh:hasNominee msh:Person_Benicio_del_Toro ;
     msh:nomineeType "PERSON" ;
     msh:winner true ;
     msh:yearFilm "2000"^^xsd:gYear .
@@ -90319,7 +90319,7 @@ msh:Nomination_oscars_2004_actor_in_a_supporting_role_21_grams_17c442a610a6b29e 
     msh:hasCategory msh:Category_oscars_ACTOR_IN_A_SUPPORTING_ROLE ;
     msh:hasCeremony msh:Ceremony_oscars_2004 ;
     msh:hasFilm msh:Film_21_Grams_2003 ;
-    msh:hasNominee msh:Person_Benicio_Del_Toro ;
+    msh:hasNominee msh:Person_Benicio_del_Toro ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
     msh:yearFilm "2003"^^xsd:gYear .

@@ -7029,7 +7029,7 @@ msh:Nomination_golden_globes_1966_best_supporting_actress_motion_picture_hawaii_
     msh:hasCategory msh:Category_golden_globes_Best_Supporting_Actress_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_golden_globes_1966 ;
     msh:hasFilm msh:Film_Hawaii_1966 ;
-    msh:hasNominee msh:Person_Jocelyne_LaGarde ;
+    msh:hasNominee msh:Person_Jocelyne_Lagarde ;
     msh:nomineeType "PERSON" ;
     msh:winner true ;
     msh:yearFilm "1966"^^xsd:gYear .
@@ -29354,7 +29354,7 @@ msh:Nomination_golden_globes_2009_best_actress_motion_picture_drama_precious_6d2
     rdfs:label "GOLDEN_GLOBES - 2009 - Best Actress - Motion Picture Drama - Precious" ;
     msh:hasCategory msh:Category_golden_globes_Best_Actress_Motion_Picture_Drama ;
     msh:hasCeremony msh:Ceremony_golden_globes_2009 ;
-    msh:hasFilm msh:Film_Precious_2009 ;
+    msh:hasFilm msh:Film_Precious_Based_on_the_Novel_Push_by_Sapphire_2009 ;
     msh:hasNominee msh:Person_Gabourey_Sidibe ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
@@ -29516,7 +29516,7 @@ msh:Nomination_golden_globes_2009_best_motion_picture_drama_precious_58b192335ca
     rdfs:label "GOLDEN_GLOBES - 2009 - Best Motion Picture - Drama - Precious" ;
     msh:hasCategory msh:Category_golden_globes_Best_Motion_Picture_Drama ;
     msh:hasCeremony msh:Ceremony_golden_globes_2009 ;
-    msh:hasFilm msh:Film_Precious_2009 ;
+    msh:hasFilm msh:Film_Precious_Based_on_the_Novel_Push_by_Sapphire_2009 ;
     msh:hasNominee msh:Person_Asger_Hussain,
         msh:Person_Berrgen_Swason,
         msh:Person_Gary_Magness,
@@ -29747,7 +29747,7 @@ msh:Nomination_golden_globes_2009_best_supporting_actress_motion_picture_preciou
     rdfs:label "GOLDEN_GLOBES - 2009 - Best Supporting Actress - Motion Picture - Precious" ;
     msh:hasCategory msh:Category_golden_globes_Best_Supporting_Actress_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_golden_globes_2009 ;
-    msh:hasFilm msh:Film_Precious_2009 ;
+    msh:hasFilm msh:Film_Precious_Based_on_the_Novel_Push_by_Sapphire_2009 ;
     msh:hasNominee msh:Person_MoNique ;
     msh:nomineeType "PERSON" ;
     msh:winner true ;
@@ -31972,7 +31972,7 @@ msh:Nomination_golden_globes_2014_best_actor_motion_picture_musical_or_comedy_bi
     rdfs:label "GOLDEN_GLOBES - 2014 - Best Actor - Motion Picture Musical or Comedy - Birdman" ;
     msh:hasCategory msh:Category_golden_globes_Best_Actor_Motion_Picture_Musical_or_Comedy ;
     msh:hasCeremony msh:Ceremony_golden_globes_2014 ;
-    msh:hasFilm msh:Film_Birdman_2014 ;
+    msh:hasFilm msh:Film_Birdman_or_The_Unexpected_Virtue_of_Ignorance_2014 ;
     msh:hasNominee msh:Person_Michael_Keaton ;
     msh:nomineeType "PERSON" ;
     msh:winner true ;
@@ -32229,7 +32229,7 @@ msh:Nomination_golden_globes_2014_best_motion_picture_musical_or_comedy_birdman_
     rdfs:label "GOLDEN_GLOBES - 2014 - Best Motion Picture - Musical or Comedy - Birdman" ;
     msh:hasCategory msh:Category_golden_globes_Best_Motion_Picture_Musical_or_Comedy ;
     msh:hasCeremony msh:Ceremony_golden_globes_2014 ;
-    msh:hasFilm msh:Film_Birdman_2014 ;
+    msh:hasFilm msh:Film_Birdman_or_The_Unexpected_Virtue_of_Ignorance_2014 ;
     msh:hasNominee msh:Person_Alejandro_G_I_rritu,
         msh:Person_Arnon_Milchan,
         msh:Person_John_Lesher,
@@ -32293,7 +32293,7 @@ msh:Nomination_golden_globes_2014_best_screenplay_motion_picture_birdman_710922e
     rdfs:label "GOLDEN_GLOBES - 2014 - Best Screenplay - Motion Picture - Birdman" ;
     msh:hasCategory msh:Category_golden_globes_Best_Screenplay_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_golden_globes_2014 ;
-    msh:hasFilm msh:Film_Birdman_2014 ;
+    msh:hasFilm msh:Film_Birdman_or_The_Unexpected_Virtue_of_Ignorance_2014 ;
     msh:hasNominee msh:Person_Alejandro_G_I_rritu,
         msh:Person_Alexander_Dinelaris_Jr,
         msh:Person_Nicol_s_Giacobone,
@@ -32346,7 +32346,7 @@ msh:Nomination_golden_globes_2014_best_supporting_actor_motion_picture_birdman_5
     rdfs:label "GOLDEN_GLOBES - 2014 - Best Supporting Actor - Motion Picture - Birdman" ;
     msh:hasCategory msh:Category_golden_globes_Best_Supporting_Actor_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_golden_globes_2014 ;
-    msh:hasFilm msh:Film_Birdman_2014 ;
+    msh:hasFilm msh:Film_Birdman_or_The_Unexpected_Virtue_of_Ignorance_2014 ;
     msh:hasNominee msh:Person_Edward_Norton ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
@@ -32406,7 +32406,7 @@ msh:Nomination_golden_globes_2014_best_supporting_actress_motion_picture_birdman
     rdfs:label "GOLDEN_GLOBES - 2014 - Best Supporting Actress - Motion Picture - Birdman" ;
     msh:hasCategory msh:Category_golden_globes_Best_Supporting_Actress_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_golden_globes_2014 ;
-    msh:hasFilm msh:Film_Birdman_2014 ;
+    msh:hasFilm msh:Film_Birdman_or_The_Unexpected_Virtue_of_Ignorance_2014 ;
     msh:hasNominee msh:Person_Emma_Stone ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
@@ -33661,7 +33661,7 @@ msh:Nomination_golden_globes_2017_best_actress_motion_picture_drama_three_billbo
     rdfs:label "GOLDEN_GLOBES - 2017 - Best Actress - Motion Picture Drama - Three Billboards Outside Ebbing, Missouri" ;
     msh:hasCategory msh:Category_golden_globes_Best_Actress_Motion_Picture_Drama ;
     msh:hasCeremony msh:Ceremony_golden_globes_2017 ;
-    msh:hasFilm msh:Film_Three_Billboards_Outside_Ebbing_Missouri_2017 ;
+    msh:hasFilm msh:Film_Three_Billboards_outside_Ebbing_Missouri_2017 ;
     msh:hasNominee msh:Person_Frances_McDormand ;
     msh:nomineeType "PERSON" ;
     msh:winner true ;
@@ -33761,7 +33761,7 @@ msh:Nomination_golden_globes_2017_best_director_motion_picture_three_billboards_
     rdfs:label "GOLDEN_GLOBES - 2017 - Best Director - Motion Picture - Three Billboards Outside Ebbing, Missouri" ;
     msh:hasCategory msh:Category_golden_globes_Best_Director_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_golden_globes_2017 ;
-    msh:hasFilm msh:Film_Three_Billboards_Outside_Ebbing_Missouri_2017 ;
+    msh:hasFilm msh:Film_Three_Billboards_outside_Ebbing_Missouri_2017 ;
     msh:hasNominee msh:Person_Martin_McDonagh ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
@@ -33821,7 +33821,7 @@ msh:Nomination_golden_globes_2017_best_motion_picture_drama_three_billboards_out
     rdfs:label "GOLDEN_GLOBES - 2017 - Best Motion Picture - Drama - Three Billboards Outside Ebbing, Missouri" ;
     msh:hasCategory msh:Category_golden_globes_Best_Motion_Picture_Drama ;
     msh:hasCeremony msh:Ceremony_golden_globes_2017 ;
-    msh:hasFilm msh:Film_Three_Billboards_Outside_Ebbing_Missouri_2017 ;
+    msh:hasFilm msh:Film_Three_Billboards_outside_Ebbing_Missouri_2017 ;
     msh:hasNominee msh:Person_Graham_Broadbent,
         msh:Person_Martin_McDonagh,
         msh:Person_Pete_Czernin ;
@@ -33942,7 +33942,7 @@ msh:Nomination_golden_globes_2017_best_screenplay_motion_picture_three_billboard
     rdfs:label "GOLDEN_GLOBES - 2017 - Best Screenplay - Motion Picture - Three Billboards Outside Ebbing, Missouri" ;
     msh:hasCategory msh:Category_golden_globes_Best_Screenplay_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_golden_globes_2017 ;
-    msh:hasFilm msh:Film_Three_Billboards_Outside_Ebbing_Missouri_2017 ;
+    msh:hasFilm msh:Film_Three_Billboards_outside_Ebbing_Missouri_2017 ;
     msh:hasNominee msh:Person_Martin_McDonagh ;
     msh:nomineeType "PERSON" ;
     msh:winner true ;
@@ -33992,7 +33992,7 @@ msh:Nomination_golden_globes_2017_best_supporting_actor_motion_picture_three_bil
     rdfs:label "GOLDEN_GLOBES - 2017 - Best Supporting Actor - Motion Picture - Three Billboards Outside Ebbing, Missouri" ;
     msh:hasCategory msh:Category_golden_globes_Best_Supporting_Actor_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_golden_globes_2017 ;
-    msh:hasFilm msh:Film_Three_Billboards_Outside_Ebbing_Missouri_2017 ;
+    msh:hasFilm msh:Film_Three_Billboards_outside_Ebbing_Missouri_2017 ;
     msh:hasNominee msh:Person_Sam_Rockwell ;
     msh:nomineeType "PERSON" ;
     msh:winner true ;
@@ -34667,7 +34667,7 @@ msh:Nomination_golden_globes_2019_best_actor_motion_picture_musical_or_comedy_on
     rdfs:label "GOLDEN_GLOBES - 2019 - Best Actor - Motion Picture Musical or Comedy - Once Upon a Time in Hollywood" ;
     msh:hasCategory msh:Category_golden_globes_Best_Actor_Motion_Picture_Musical_or_Comedy ;
     msh:hasCeremony msh:Ceremony_golden_globes_2019 ;
-    msh:hasFilm msh:Film_Once_Upon_a_Time_in_Hollywood_2019 ;
+    msh:hasFilm msh:Film_Once_upon_a_Time_in_Hollywood_2019 ;
     msh:hasNominee msh:Person_Leonardo_DiCaprio ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
@@ -34807,7 +34807,7 @@ msh:Nomination_golden_globes_2019_best_director_motion_picture_once_upon_a_time_
     rdfs:label "GOLDEN_GLOBES - 2019 - Best Director - Motion Picture - Once Upon a Time in Hollywood" ;
     msh:hasCategory msh:Category_golden_globes_Best_Director_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_golden_globes_2019 ;
-    msh:hasFilm msh:Film_Once_Upon_a_Time_in_Hollywood_2019 ;
+    msh:hasFilm msh:Film_Once_upon_a_Time_in_Hollywood_2019 ;
     msh:hasNominee msh:Person_Quentin_Tarantino ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
@@ -34941,7 +34941,7 @@ msh:Nomination_golden_globes_2019_best_motion_picture_musical_or_comedy_once_upo
     rdfs:label "GOLDEN_GLOBES - 2019 - Best Motion Picture - Musical or Comedy - Once Upon a Time in Hollywood" ;
     msh:hasCategory msh:Category_golden_globes_Best_Motion_Picture_Musical_or_Comedy ;
     msh:hasCeremony msh:Ceremony_golden_globes_2019 ;
-    msh:hasFilm msh:Film_Once_Upon_a_Time_in_Hollywood_2019 ;
+    msh:hasFilm msh:Film_Once_upon_a_Time_in_Hollywood_2019 ;
     msh:hasNominee msh:Person_David_Heyman,
         msh:Person_Quentin_Tarantino,
         msh:Person_Shannon_McIntosh ;
@@ -34977,7 +34977,7 @@ msh:Nomination_golden_globes_2019_best_screenplay_motion_picture_once_upon_a_tim
     rdfs:label "GOLDEN_GLOBES - 2019 - Best Screenplay - Motion Picture - Once Upon a Time in Hollywood" ;
     msh:hasCategory msh:Category_golden_globes_Best_Screenplay_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_golden_globes_2019 ;
-    msh:hasFilm msh:Film_Once_Upon_a_Time_in_Hollywood_2019 ;
+    msh:hasFilm msh:Film_Once_upon_a_Time_in_Hollywood_2019 ;
     msh:hasNominee msh:Person_Quentin_Tarantino ;
     msh:nomineeType "PERSON" ;
     msh:winner true ;
@@ -35028,7 +35028,7 @@ msh:Nomination_golden_globes_2019_best_supporting_actor_motion_picture_once_upon
     rdfs:label "GOLDEN_GLOBES - 2019 - Best Supporting Actor - Motion Picture - Once Upon a Time in Hollywood" ;
     msh:hasCategory msh:Category_golden_globes_Best_Supporting_Actor_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_golden_globes_2019 ;
-    msh:hasFilm msh:Film_Once_Upon_a_Time_in_Hollywood_2019 ;
+    msh:hasFilm msh:Film_Once_upon_a_Time_in_Hollywood_2019 ;
     msh:hasNominee msh:Person_Brad_Pitt ;
     msh:nomineeType "PERSON" ;
     msh:winner true ;
@@ -35168,7 +35168,7 @@ msh:Nomination_golden_globes_2020_best_actor_motion_picture_musical_or_comedy_bo
     rdfs:label "GOLDEN_GLOBES - 2020 - Best Actor - Motion Picture Musical or Comedy - Borat Subsequent Moviefilm" ;
     msh:hasCategory msh:Category_golden_globes_Best_Actor_Motion_Picture_Musical_or_Comedy ;
     msh:hasCeremony msh:Ceremony_golden_globes_2020 ;
-    msh:hasFilm msh:Film_Borat_Subsequent_Moviefilm_2020 ;
+    msh:hasFilm msh:Film_Borat_Subsequent_Moviefilm_Delivery_of_Prodigious_Bribe_to_American_Regime_for_Make_Benefit_Once_Glorious_Nation_of_Kazakhstan_2020 ;
     msh:hasNominee msh:Person_Sacha_Baron_Cohen ;
     msh:nomineeType "PERSON" ;
     msh:winner true ;
@@ -35268,7 +35268,7 @@ msh:Nomination_golden_globes_2020_best_actress_motion_picture_musical_or_comedy_
     rdfs:label "GOLDEN_GLOBES - 2020 - Best Actress - Motion Picture Musical or Comedy - Borat Subsequent Moviefilm" ;
     msh:hasCategory msh:Category_golden_globes_Best_Actress_Motion_Picture_Musical_or_Comedy ;
     msh:hasCeremony msh:Ceremony_golden_globes_2020 ;
-    msh:hasFilm msh:Film_Borat_Subsequent_Moviefilm_2020 ;
+    msh:hasFilm msh:Film_Borat_Subsequent_Moviefilm_Delivery_of_Prodigious_Bribe_to_American_Regime_for_Make_Benefit_Once_Glorious_Nation_of_Kazakhstan_2020 ;
     msh:hasNominee msh:Person_Maria_Bakalova ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
@@ -35740,7 +35740,7 @@ msh:Nomination_golden_globes_2021_best_actor_motion_picture_musical_or_comedy_ti
     rdfs:label "GOLDEN_GLOBES - 2021 - Best Actor - Motion Picture Musical or Comedy - Tick, Tick... Boom!" ;
     msh:hasCategory msh:Category_golden_globes_Best_Actor_Motion_Picture_Musical_or_Comedy ;
     msh:hasCeremony msh:Ceremony_golden_globes_2021 ;
-    msh:hasFilm msh:Film_Tick_Tick_Boom_2021 ;
+    msh:hasFilm msh:Film_tick_tick_BOOM_2021 ;
     msh:hasNominee msh:Person_Andrew_Garfield ;
     msh:nomineeType "PERSON" ;
     msh:winner true ;

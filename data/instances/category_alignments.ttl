@@ -1,0 +1,333 @@
+# Cross-system award category alignments
+# Maps AwardCategory instances across Oscar, BAFTA, SAG, Golden Globes, DGA, and PGA
+# to abstract AwardConcept hub nodes via msh:realizationOf.
+#
+# Query pattern — find all nominations for a given concept across all systems:
+#
+#   SELECT ?nom ?system WHERE {
+#     ?nom a msh:Nomination ;
+#          msh:hasCeremony/msh:hasAwardSystem/msh:shortName ?system .
+#     { ?nom msh:hasCategory ?cat } UNION { ?nom msh:hasCanonCategory ?cat }
+#     ?cat msh:realizationOf msh:Concept_BestMaleLeadActor .
+#   }
+
+@prefix msh:   <http://example.org/ontologies/MovieSHACL3#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+
+# ---------------------------------------------------------------------------
+# AwardConcept hub instances
+# ---------------------------------------------------------------------------
+
+msh:Concept_BestPicture a msh:AwardConcept ;
+    rdfs:label   "Best Picture"^^xsd:string ;
+    msh:description "The top film/motion picture award across major award systems." .
+
+msh:Concept_BestMaleLeadActor a msh:AwardConcept ;
+    rdfs:label   "Best Male Lead Actor"^^xsd:string ;
+    msh:description "Best performance by a male actor in a leading role." .
+
+msh:Concept_BestFemaleLeadActor a msh:AwardConcept ;
+    rdfs:label   "Best Female Lead Actor"^^xsd:string ;
+    msh:description "Best performance by a female actor in a leading role." .
+
+msh:Concept_BestMaleSupportingActor a msh:AwardConcept ;
+    rdfs:label   "Best Male Supporting Actor"^^xsd:string ;
+    msh:description "Best performance by a male actor in a supporting role." .
+
+msh:Concept_BestFemaleSupportingActor a msh:AwardConcept ;
+    rdfs:label   "Best Female Supporting Actor"^^xsd:string ;
+    msh:description "Best performance by a female actor in a supporting role." .
+
+msh:Concept_BestDirector a msh:AwardConcept ;
+    rdfs:label   "Best Director"^^xsd:string ;
+    msh:description "Best direction of a feature film." .
+
+msh:Concept_BestEnsembleCast a msh:AwardConcept ;
+    rdfs:label   "Best Ensemble Cast"^^xsd:string ;
+    msh:description "Outstanding performance by a complete film cast." .
+
+msh:Concept_BestOriginalScreenplay a msh:AwardConcept ;
+    rdfs:label   "Best Original Screenplay"^^xsd:string ;
+    msh:description "Best original screenplay written directly for the screen." .
+
+msh:Concept_BestAdaptedScreenplay a msh:AwardConcept ;
+    rdfs:label   "Best Adapted Screenplay"^^xsd:string ;
+    msh:description "Best screenplay adapted from pre-existing source material." .
+
+msh:Concept_BestCinematography a msh:AwardConcept ;
+    rdfs:label   "Best Cinematography"^^xsd:string ;
+    msh:description "Outstanding achievement in cinematography." .
+
+msh:Concept_BestFilmEditing a msh:AwardConcept ;
+    rdfs:label   "Best Film Editing"^^xsd:string ;
+    msh:description "Outstanding achievement in film editing." .
+
+
+# ---------------------------------------------------------------------------
+# Oscar — canon categories → concepts
+# (Historical name variants reach these via msh:hasCanonCategory on Nomination)
+# ---------------------------------------------------------------------------
+
+# Best Picture (canon + historical variants that are directly queryable)
+msh:Category_oscars_BEST_PICTURE               msh:realizationOf msh:Concept_BestPicture .
+msh:Category_oscars_BEST_MOTION_PICTURE        msh:realizationOf msh:Concept_BestPicture .
+msh:Category_oscars_OUTSTANDING_MOTION_PICTURE msh:realizationOf msh:Concept_BestPicture .
+msh:Category_oscars_OUTSTANDING_PICTURE        msh:realizationOf msh:Concept_BestPicture .
+msh:Category_oscars_OUTSTANDING_PRODUCTION     msh:realizationOf msh:Concept_BestPicture .
+msh:Category_oscars_UNIQUE_AND_ARTISTIC_PICTURE msh:realizationOf msh:Concept_BestPicture .
+
+# Best Actor
+msh:Category_oscars_ACTOR                  msh:realizationOf msh:Concept_BestMaleLeadActor .
+msh:Category_oscars_ACTOR_IN_A_LEADING_ROLE msh:realizationOf msh:Concept_BestMaleLeadActor .
+
+# Best Actress
+msh:Category_oscars_ACTRESS                   msh:realizationOf msh:Concept_BestFemaleLeadActor .
+msh:Category_oscars_ACTRESS_IN_A_LEADING_ROLE  msh:realizationOf msh:Concept_BestFemaleLeadActor .
+
+# Best Supporting Actor
+msh:Category_oscars_ACTOR_IN_A_SUPPORTING_ROLE msh:realizationOf msh:Concept_BestMaleSupportingActor .
+
+# Best Supporting Actress
+msh:Category_oscars_ACTRESS_IN_A_SUPPORTING_ROLE msh:realizationOf msh:Concept_BestFemaleSupportingActor .
+
+# Best Director (canon + historical split-era variants)
+msh:Category_oscars_DIRECTING                  msh:realizationOf msh:Concept_BestDirector .
+msh:Category_oscars_DIRECTING_Comedy_Picture   msh:realizationOf msh:Concept_BestDirector .
+msh:Category_oscars_DIRECTING_Dramatic_Picture msh:realizationOf msh:Concept_BestDirector .
+
+# Best Original Screenplay (all Oscar original-screenplay variants)
+msh:Category_oscars_WRITING_Original_Screenplay                                                                          msh:realizationOf msh:Concept_BestOriginalScreenplay .
+msh:Category_oscars_WRITING_Screenplay_Original                                                                          msh:realizationOf msh:Concept_BestOriginalScreenplay .
+msh:Category_oscars_WRITING_Screenplay_Written_Directly_for_the_Screen                                                  msh:realizationOf msh:Concept_BestOriginalScreenplay .
+msh:Category_oscars_WRITING_Screenplay_Written_Directly_for_the_Screen_based_on_factual_material_or_on_story_material_not_previously_published_or_produced msh:realizationOf msh:Concept_BestOriginalScreenplay .
+msh:Category_oscars_WRITING_Story_and_Screenplay                                                                         msh:realizationOf msh:Concept_BestOriginalScreenplay .
+msh:Category_oscars_WRITING_Story_and_Screenplay_based_on_factual_material_or_material_not_previously_published_or_produced msh:realizationOf msh:Concept_BestOriginalScreenplay .
+msh:Category_oscars_WRITING_Story_and_Screenplay_based_on_material_not_previously_published_or_produced                 msh:realizationOf msh:Concept_BestOriginalScreenplay .
+msh:Category_oscars_WRITING_Story_and_Screenplay_written_directly_for_the_screen                                        msh:realizationOf msh:Concept_BestOriginalScreenplay .
+msh:Category_oscars_WRITING_Original_Motion_Picture_Story                                                                msh:realizationOf msh:Concept_BestOriginalScreenplay .
+msh:Category_oscars_WRITING_Original_Story                                                                               msh:realizationOf msh:Concept_BestOriginalScreenplay .
+msh:Category_oscars_WRITING_Motion_Picture_Story                                                                         msh:realizationOf msh:Concept_BestOriginalScreenplay .
+
+# Best Adapted Screenplay (all Oscar adapted-screenplay variants)
+msh:Category_oscars_WRITING_Adapted_Screenplay                                          msh:realizationOf msh:Concept_BestAdaptedScreenplay .
+msh:Category_oscars_WRITING_Screenplay_Adapted                                           msh:realizationOf msh:Concept_BestAdaptedScreenplay .
+msh:Category_oscars_WRITING_Screenplay_Adapted_from_Other_Material                      msh:realizationOf msh:Concept_BestAdaptedScreenplay .
+msh:Category_oscars_WRITING_Screenplay_Based_on_Material_Previously_Produced_or_Published msh:realizationOf msh:Concept_BestAdaptedScreenplay .
+msh:Category_oscars_WRITING_Screenplay_Based_on_Material_from_Another_Medium            msh:realizationOf msh:Concept_BestAdaptedScreenplay .
+msh:Category_oscars_WRITING_Screenplay_based_on_material_from_another_medium            msh:realizationOf msh:Concept_BestAdaptedScreenplay .
+msh:Category_oscars_WRITING_Adaptation                                                   msh:realizationOf msh:Concept_BestAdaptedScreenplay .
+
+# Best Cinematography
+msh:Category_oscars_CINEMATOGRAPHY             msh:realizationOf msh:Concept_BestCinematography .
+msh:Category_oscars_CINEMATOGRAPHY_Black_and_White msh:realizationOf msh:Concept_BestCinematography .
+msh:Category_oscars_CINEMATOGRAPHY_Color       msh:realizationOf msh:Concept_BestCinematography .
+
+# Best Film Editing
+msh:Category_oscars_FILM_EDITING               msh:realizationOf msh:Concept_BestFilmEditing .
+
+
+# ---------------------------------------------------------------------------
+# SAG (Screen Actors Guild)
+# ---------------------------------------------------------------------------
+
+msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Male_Actor_in_a_Leading_Role
+    msh:realizationOf msh:Concept_BestMaleLeadActor .
+
+msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Female_Actor_in_a_Leading_Role
+    msh:realizationOf msh:Concept_BestFemaleLeadActor .
+
+msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Male_Actor_in_a_Supporting_Role
+    msh:realizationOf msh:Concept_BestMaleSupportingActor .
+
+msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Female_Actor_in_a_Supporting_Role
+    msh:realizationOf msh:Concept_BestFemaleSupportingActor .
+
+msh:Category_sag_Outstanding_Performance_by_a_Cast_in_a_Motion_Picture
+    msh:realizationOf msh:Concept_BestEnsembleCast .
+
+
+# ---------------------------------------------------------------------------
+# BAFTA
+# ---------------------------------------------------------------------------
+
+msh:Category_bafta_Best_Film                   msh:realizationOf msh:Concept_BestPicture .
+msh:Category_bafta_Best_Actor_in_a_Leading_Role msh:realizationOf msh:Concept_BestMaleLeadActor .
+msh:Category_bafta_Best_Actress_in_a_Leading_Role msh:realizationOf msh:Concept_BestFemaleLeadActor .
+msh:Category_bafta_Best_Actor_in_a_Supporting_Role msh:realizationOf msh:Concept_BestMaleSupportingActor .
+msh:Category_bafta_Best_Actress_in_a_Supporting_Role msh:realizationOf msh:Concept_BestFemaleSupportingActor .
+msh:Category_bafta_Best_Director               msh:realizationOf msh:Concept_BestDirector .
+msh:Category_bafta_Best_Original_Screenplay    msh:realizationOf msh:Concept_BestOriginalScreenplay .
+msh:Category_bafta_Best_Adapted_Screenplay     msh:realizationOf msh:Concept_BestAdaptedScreenplay .
+msh:Category_bafta_Best_Cinematography         msh:realizationOf msh:Concept_BestCinematography .
+msh:Category_bafta_Best_Editing                msh:realizationOf msh:Concept_BestFilmEditing .
+# Note: Category_bafta_Outstanding_British_Film has no cross-system equivalent
+
+
+# ---------------------------------------------------------------------------
+# Golden Globes
+# ---------------------------------------------------------------------------
+
+# Best Picture — GG splits into Drama and Musical/Comedy; both are precursors to Oscar BP
+msh:Category_golden_globes_Best_Motion_Picture_Drama            msh:realizationOf msh:Concept_BestPicture .
+msh:Category_golden_globes_Best_Motion_Picture_Musical_or_Comedy msh:realizationOf msh:Concept_BestPicture .
+
+# Best Actor — GG Drama and Musical/Comedy both map to the same Oscar concept
+msh:Category_golden_globes_Best_Actor_Motion_Picture_Drama            msh:realizationOf msh:Concept_BestMaleLeadActor .
+msh:Category_golden_globes_Best_Actor_Motion_Picture_Musical_or_Comedy msh:realizationOf msh:Concept_BestMaleLeadActor .
+
+# Best Actress
+msh:Category_golden_globes_Best_Actress_Motion_Picture_Drama            msh:realizationOf msh:Concept_BestFemaleLeadActor .
+msh:Category_golden_globes_Best_Actress_Motion_Picture_Musical_or_Comedy msh:realizationOf msh:Concept_BestFemaleLeadActor .
+
+# Supporting
+msh:Category_golden_globes_Best_Supporting_Actor_Motion_Picture   msh:realizationOf msh:Concept_BestMaleSupportingActor .
+msh:Category_golden_globes_Best_Supporting_Actress_Motion_Picture msh:realizationOf msh:Concept_BestFemaleSupportingActor .
+
+# Best Director
+msh:Category_golden_globes_Best_Director_Motion_Picture msh:realizationOf msh:Concept_BestDirector .
+
+# Best Screenplay — GG gives one combined award; link to both screenplay concepts
+# so it surfaces as a precursor signal for either Oscar screenplay category
+msh:Category_golden_globes_Best_Screenplay_Motion_Picture msh:realizationOf msh:Concept_BestOriginalScreenplay .
+msh:Category_golden_globes_Best_Screenplay_Motion_Picture msh:realizationOf msh:Concept_BestAdaptedScreenplay .
+
+
+# ---------------------------------------------------------------------------
+# DGA (Directors Guild of America)
+# ---------------------------------------------------------------------------
+
+msh:Category_dga_Outstanding_Directing_Feature_Film msh:realizationOf msh:Concept_BestDirector .
+
+
+# ---------------------------------------------------------------------------
+# PGA (Producers Guild of America)
+# ---------------------------------------------------------------------------
+
+msh:Category_pga_Best_Theatrical_Motion_Picture msh:realizationOf msh:Concept_BestPicture .
+
+
+# ---------------------------------------------------------------------------
+# Additional AwardConcept instances (Oscar-centric; no current cross-system
+# equivalents beyond Oscar unless noted)
+# ---------------------------------------------------------------------------
+
+msh:Concept_BestOriginalScore a msh:AwardConcept ;
+    rdfs:label   "Best Original Score"^^xsd:string ;
+    msh:description "Best original music score composed for a film." .
+
+msh:Concept_BestOriginalSong a msh:AwardConcept ;
+    rdfs:label   "Best Original Song"^^xsd:string ;
+    msh:description "Best original song written for a film." .
+
+msh:Concept_BestProductionDesign a msh:AwardConcept ;
+    rdfs:label   "Best Production Design"^^xsd:string ;
+    msh:description "Outstanding achievement in production design or art direction." .
+
+msh:Concept_BestCostumeDesign a msh:AwardConcept ;
+    rdfs:label   "Best Costume Design"^^xsd:string ;
+    msh:description "Outstanding achievement in costume design." .
+
+msh:Concept_BestSound a msh:AwardConcept ;
+    rdfs:label   "Best Sound"^^xsd:string ;
+    msh:description "Outstanding achievement in sound (mixing, editing, or recording)." .
+
+msh:Concept_BestVisualEffects a msh:AwardConcept ;
+    rdfs:label   "Best Visual Effects"^^xsd:string ;
+    msh:description "Outstanding achievement in visual effects." .
+
+msh:Concept_BestMakeup a msh:AwardConcept ;
+    rdfs:label   "Best Makeup"^^xsd:string ;
+    msh:description "Outstanding achievement in makeup and hairstyling." .
+
+msh:Concept_BestInternationalFilm a msh:AwardConcept ;
+    rdfs:label   "Best International Film"^^xsd:string ;
+    msh:description "Best non-English-language feature film." .
+
+msh:Concept_BestDocumentaryFeature a msh:AwardConcept ;
+    rdfs:label   "Best Documentary Feature"^^xsd:string ;
+    msh:description "Best feature-length documentary film." .
+
+msh:Concept_BestAnimatedFeature a msh:AwardConcept ;
+    rdfs:label   "Best Animated Feature"^^xsd:string ;
+    msh:description "Best animated feature film." .
+
+msh:Concept_BestOutstandingBritishFilm a msh:AwardConcept ;
+    rdfs:label   "Outstanding British Film"^^xsd:string ;
+    msh:description "BAFTA Outstanding British Film award (no cross-system equivalent)." .
+
+
+# ---------------------------------------------------------------------------
+# Oscar — remaining category → concept links
+# ---------------------------------------------------------------------------
+
+# Original Score
+msh:Category_oscars_MUSIC_Original_Score                               msh:realizationOf msh:Concept_BestOriginalScore .
+msh:Category_oscars_MUSIC_Original_Dramatic_Score                      msh:realizationOf msh:Concept_BestOriginalScore .
+msh:Category_oscars_MUSIC_Original_Music_Score                         msh:realizationOf msh:Concept_BestOriginalScore .
+msh:Category_oscars_MUSIC_Original_Musical_or_Comedy_Score             msh:realizationOf msh:Concept_BestOriginalScore .
+msh:Category_oscars_MUSIC_Music_Score_substantially_original           msh:realizationOf msh:Concept_BestOriginalScore .
+msh:Category_oscars_MUSIC_Original_Score_for_a_motion_picture_not_a_musical msh:realizationOf msh:Concept_BestOriginalScore .
+msh:Category_oscars_MUSIC_Music_Score_of_a_Dramatic_Picture            msh:realizationOf msh:Concept_BestOriginalScore .
+msh:Category_oscars_MUSIC_Music_Score_of_a_Dramatic_or_Comedy_Picture  msh:realizationOf msh:Concept_BestOriginalScore .
+msh:Category_oscars_MUSIC_Scoring                                      msh:realizationOf msh:Concept_BestOriginalScore .
+msh:Category_oscars_MUSIC_Scoring_of_a_Musical_Picture                 msh:realizationOf msh:Concept_BestOriginalScore .
+
+# Original Song
+msh:Category_oscars_MUSIC_Original_Song                                msh:realizationOf msh:Concept_BestOriginalSong .
+msh:Category_oscars_MUSIC_Song                                         msh:realizationOf msh:Concept_BestOriginalSong .
+msh:Category_oscars_MUSIC_Song_Original_for_the_Picture                msh:realizationOf msh:Concept_BestOriginalSong .
+
+# Production Design / Art Direction
+msh:Category_oscars_PRODUCTION_DESIGN            msh:realizationOf msh:Concept_BestProductionDesign .
+msh:Category_oscars_ART_DIRECTION                msh:realizationOf msh:Concept_BestProductionDesign .
+msh:Category_oscars_ART_DIRECTION_Black_and_White msh:realizationOf msh:Concept_BestProductionDesign .
+msh:Category_oscars_ART_DIRECTION_Color           msh:realizationOf msh:Concept_BestProductionDesign .
+
+# Costume Design
+msh:Category_oscars_COSTUME_DESIGN               msh:realizationOf msh:Concept_BestCostumeDesign .
+msh:Category_oscars_COSTUME_DESIGN_Black_and_White msh:realizationOf msh:Concept_BestCostumeDesign .
+msh:Category_oscars_COSTUME_DESIGN_Color          msh:realizationOf msh:Concept_BestCostumeDesign .
+
+# Sound
+msh:Category_oscars_SOUND                        msh:realizationOf msh:Concept_BestSound .
+msh:Category_oscars_SOUND_MIXING                 msh:realizationOf msh:Concept_BestSound .
+msh:Category_oscars_SOUND_EDITING                msh:realizationOf msh:Concept_BestSound .
+msh:Category_oscars_SOUND_EFFECTS                msh:realizationOf msh:Concept_BestSound .
+msh:Category_oscars_SOUND_EFFECTS_EDITING        msh:realizationOf msh:Concept_BestSound .
+msh:Category_oscars_SOUND_RECORDING              msh:realizationOf msh:Concept_BestSound .
+msh:Category_oscars_SPECIAL_ACHIEVEMENT_AWARD_Sound_Editing       msh:realizationOf msh:Concept_BestSound .
+msh:Category_oscars_SPECIAL_ACHIEVEMENT_AWARD_Sound_Effects       msh:realizationOf msh:Concept_BestSound .
+msh:Category_oscars_SPECIAL_ACHIEVEMENT_AWARD_Sound_Effects_Editing msh:realizationOf msh:Concept_BestSound .
+
+# Visual Effects
+msh:Category_oscars_VISUAL_EFFECTS               msh:realizationOf msh:Concept_BestVisualEffects .
+msh:Category_oscars_SPECIAL_VISUAL_EFFECTS       msh:realizationOf msh:Concept_BestVisualEffects .
+msh:Category_oscars_SPECIAL_ACHIEVEMENT_AWARD_Visual_Effects msh:realizationOf msh:Concept_BestVisualEffects .
+
+# Makeup
+msh:Category_oscars_MAKEUP                       msh:realizationOf msh:Concept_BestMakeup .
+msh:Category_oscars_MAKEUP_AND_HAIRSTYLING        msh:realizationOf msh:Concept_BestMakeup .
+
+# International Film
+msh:Category_oscars_INTERNATIONAL_FEATURE_FILM          msh:realizationOf msh:Concept_BestInternationalFilm .
+msh:Category_oscars_FOREIGN_LANGUAGE_FILM               msh:realizationOf msh:Concept_BestInternationalFilm .
+msh:Category_oscars_SPECIAL_FOREIGN_LANGUAGE_FILM_AWARD msh:realizationOf msh:Concept_BestInternationalFilm .
+msh:Category_oscars_HONORARY_FOREIGN_LANGUAGE_FILM_AWARD msh:realizationOf msh:Concept_BestInternationalFilm .
+
+# Documentary Feature
+msh:Category_oscars_DOCUMENTARY                  msh:realizationOf msh:Concept_BestDocumentaryFeature .
+msh:Category_oscars_DOCUMENTARY_FEATURE_FILM     msh:realizationOf msh:Concept_BestDocumentaryFeature .
+msh:Category_oscars_DOCUMENTARY_Feature          msh:realizationOf msh:Concept_BestDocumentaryFeature .
+
+# Animated Feature
+msh:Category_oscars_ANIMATED_FEATURE_FILM        msh:realizationOf msh:Concept_BestAnimatedFeature .
+
+
+# ---------------------------------------------------------------------------
+# BAFTA — Outstanding British Film
+# ---------------------------------------------------------------------------
+
+msh:Category_bafta_Outstanding_British_Film      msh:realizationOf msh:Concept_BestOutstandingBritishFilm .

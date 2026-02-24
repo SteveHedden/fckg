@@ -109399,3 +109399,515 @@ msh:imdb a msh:IdentifierScheme ;
 msh:tmdb a msh:IdentifierScheme ;
     rdfs:label "tmdb" .
 
+msh:Film_Wicked_For_Good_2025 a msh:Film ;
+    rdfs:label "Wicked: For Good" ;
+    msh:hasIdentifier <https://www.imdb.com/title/tt19847976>,
+        <https://www.themoviedb.org/movie/967941>,
+        <https://www.wikidata.org/wiki/Q114817050> ;
+    msh:releaseYear "2025"^^xsd:gYear ;
+    msh:title "Wicked: For Good" .
+
+
+msh:Film_The_River_Wild_1994 a msh:Film ;
+    rdfs:label "The River Wild" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/8987>,
+        <https://www.imdb.com/title/tt0110997>,
+        <https://www.wikidata.org/wiki/Q451630> ;
+    msh:releaseYear "1994"^^xsd:gYear ;
+    msh:title "The River Wild" .
+
+msh:Film_When_a_Man_Loves_a_Woman_1994 a msh:Film ;
+    rdfs:label "When a Man Loves a Woman" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/10449>,
+        <https://www.imdb.com/title/tt0111693>,
+        <https://www.wikidata.org/wiki/Q1928695> ;
+    msh:releaseYear "1994"^^xsd:gYear ;
+    msh:title "When a Man Loves a Woman" .
+
+msh:Film_Cry_the_Beloved_Country_1995 a msh:Film ;
+    rdfs:label "Cry, the Beloved Country" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/34615>,
+        <https://www.imdb.com/title/tt0112749>,
+        <https://www.wikidata.org/wiki/Q3392374> ;
+    msh:releaseYear "1995"^^xsd:gYear ;
+    msh:title "Cry, the Beloved Country" .
+
+msh:Film_Devil_in_a_Blue_Dress_1995 a msh:Film ;
+    rdfs:label "Devil in a Blue Dress" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/8512>,
+        <https://www.imdb.com/title/tt0112857>,
+        <https://www.wikidata.org/wiki/Q1850866> ;
+    msh:releaseYear "1995"^^xsd:gYear ;
+    msh:title "Devil in a Blue Dress" .
+
+msh:Film_Get_Shorty_1995 a msh:Film ;
+    rdfs:label "Get Shorty" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/8012>,
+        <https://www.imdb.com/title/tt0113161>,
+        <https://www.wikidata.org/wiki/Q261923> ;
+    msh:releaseYear "1995"^^xsd:gYear ;
+    msh:title "Get Shorty" .
+
+msh:Film_How_to_Make_an_American_Quilt_1995 a msh:Film ;
+    rdfs:label "How to Make an American Quilt" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/11861>,
+        <https://www.imdb.com/title/tt0113347>,
+        <https://www.wikidata.org/wiki/Q493799> ;
+    msh:releaseYear "1995"^^xsd:gYear ;
+    msh:title "How to Make an American Quilt" .
+
+msh:Film_Il_Postino_The_Postman_1995 a msh:Film ;
+    rdfs:label "The Postman" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/11010>,
+        <https://www.imdb.com/title/tt0110877>,
+        <https://www.wikidata.org/wiki/Q258647> ;
+    msh:releaseYear "1995"^^xsd:gYear ;
+    msh:title "The Postman" .
+
+msh:Film_Murder_in_the_First_1995 a msh:Film ;
+    rdfs:label "Murder in the First" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/8438>,
+        <https://www.imdb.com/title/tt0113870>,
+        <https://www.wikidata.org/wiki/Q1154802> ;
+    msh:releaseYear "1995"^^xsd:gYear ;
+    msh:title "Murder in the First" .
+
+msh:Film_Othello_1995 a msh:Film ;
+    rdfs:label "Othello" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/16420>,
+        <https://www.imdb.com/title/tt0114057>,
+        <https://www.wikidata.org/wiki/Q2036869> ;
+    msh:releaseYear "1995"^^xsd:gYear ;
+    msh:title "Othello" .
+
+msh:Film_Smoke_1995 a msh:Film ;
+    rdfs:label "Smoke" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/10149>,
+        <https://www.imdb.com/title/tt0114478>,
+        <https://www.wikidata.org/wiki/Q653447> ;
+    msh:releaseYear "1995"^^xsd:gYear ;
+    msh:title "Smoke" .
+
+msh:Film_The_Crossing_Guard_1995 a msh:Film ;
+    rdfs:label "The Crossing Guard" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/27526>,
+        <https://www.imdb.com/title/tt0112744>,
+        <https://www.wikidata.org/wiki/Q1141286> ;
+    msh:releaseYear "1995"^^xsd:gYear ;
+    msh:title "The Crossing Guard" .
+
+msh:Film_Unhook_the_Stars_1996 a msh:Film ;
+    rdfs:label "Unhook the Stars" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/48862>,
+        <https://www.imdb.com/title/tt0118044>,
+        <https://www.wikidata.org/wiki/Q1304785> ;
+    msh:releaseYear "1996"^^xsd:gYear ;
+    msh:title "Unhook the Stars" .
+
+msh:Film_Shes_So_Lovely_1997 a msh:Film ;
+    rdfs:label "She's So Lovely" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/38295>,
+        <https://www.imdb.com/title/tt0120112>,
+        <https://www.wikidata.org/wiki/Q637748> ;
+    msh:releaseYear "1997"^^xsd:gYear ;
+    msh:title "She's So Lovely" .
+
+msh:Film_Waking_Ned_Devine_1998 a msh:Film ;
+    rdfs:label "Waking Ned" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/10162>,
+        <https://www.imdb.com/title/tt0166396>,
+        <https://www.wikidata.org/wiki/Q1804855> ;
+    msh:releaseYear "1998"^^xsd:gYear ;
+    msh:title "Waking Ned" .
+
+msh:Film_Flawless_1999 a msh:Film ;
+    rdfs:label "Flawless" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/31582>,
+        <https://www.imdb.com/title/tt0155711>,
+        <https://www.wikidata.org/wiki/Q958626> ;
+    msh:releaseYear "1999"^^xsd:gYear ;
+    msh:title "Flawless" .
+
+msh:Film_Man_on_the_Moon_1999 a msh:Film ;
+    rdfs:label "Man on the Moon" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/1850>,
+        <https://www.imdb.com/title/tt0125664>,
+        <https://www.wikidata.org/wiki/Q1125282> ;
+    msh:releaseYear "1999"^^xsd:gYear ;
+    msh:title "Man on the Moon" .
+
+msh:Film_Bandits_2001 a msh:Film ;
+    rdfs:label "Bandits" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/3172>,
+        <https://www.imdb.com/title/tt0219965>,
+        <https://www.wikidata.org/wiki/Q587847> ;
+    msh:releaseYear "2001"^^xsd:gYear ;
+    msh:title "Bandits" .
+
+msh:Film_Life_as_a_House_2001 a msh:Film ;
+    rdfs:label "Life as a House" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/11457>,
+        <https://www.imdb.com/title/tt0264796>,
+        <https://www.wikidata.org/wiki/Q786099> ;
+    msh:releaseYear "2001"^^xsd:gYear ;
+    msh:title "Life as a House" .
+
+msh:Film_The_Shipping_News_2001 a msh:Film ;
+    rdfs:label "The Shipping News" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/6440>,
+        <https://www.imdb.com/title/tt0120824>,
+        <https://www.wikidata.org/wiki/Q1334930> ;
+    msh:releaseYear "2001"^^xsd:gYear ;
+    msh:title "The Shipping News" .
+
+msh:Film_White_Oleander_2002 a msh:Film ;
+    rdfs:label "White Oleander" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/10994>,
+        <https://www.imdb.com/title/tt0283139>,
+        <https://www.wikidata.org/wiki/Q820218> ;
+    msh:releaseYear "2002"^^xsd:gYear ;
+    msh:title "White Oleander" .
+
+msh:Film_The_Station_Agent_2003 a msh:Film ;
+    rdfs:label "The Station Agent" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/2056>,
+        <https://www.imdb.com/title/tt0340377>,
+        <https://www.wikidata.org/wiki/Q1653448> ;
+    msh:releaseYear "2003"^^xsd:gYear ;
+    msh:title "The Station Agent" .
+
+msh:Film_Spanglish_2004 a msh:Film ;
+    rdfs:label "Spanglish" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/2539>,
+        <https://www.imdb.com/title/tt0371246>,
+        <https://www.wikidata.org/wiki/Q1367647> ;
+    msh:releaseYear "2004"^^xsd:gYear ;
+    msh:title "Spanglish" .
+
+msh:Film_The_Notebook_2004 a msh:Film ;
+    rdfs:label "The Notebook" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/11036>,
+        <https://www.imdb.com/title/tt0332280>,
+        <https://www.wikidata.org/wiki/Q223374> ;
+    msh:releaseYear "2004"^^xsd:gYear ;
+    msh:title "The Notebook" .
+
+msh:Film_Bobby_2006 a msh:Film ;
+    rdfs:label "Bobby" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/10741>,
+        <https://www.imdb.com/title/tt0308055>,
+        <https://www.wikidata.org/wiki/Q679657> ;
+    msh:releaseYear "2006"^^xsd:gYear ;
+    msh:title "Bobby" .
+
+msh:Film_A_Mighty_Heart_2007 a msh:Film ;
+    rdfs:label "A Mighty Heart" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/1988>,
+        <https://www.imdb.com/title/tt0829459>,
+        <https://www.wikidata.org/wiki/Q917355> ;
+    msh:releaseYear "2007"^^xsd:gYear ;
+    msh:title "A Mighty Heart" .
+
+msh:Film_Hairspray_2007 a msh:Film ;
+    rdfs:label "Hairspray" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/2976>,
+        <https://www.imdb.com/title/tt0427327>,
+        <https://www.wikidata.org/wiki/Q222041> ;
+    msh:releaseYear "2007"^^xsd:gYear ;
+    msh:title "Hairspray" .
+
+msh:Film_Conviction_2010 a msh:Film ;
+    rdfs:label "Conviction" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/45094>,
+        <https://www.imdb.com/title/tt1244754>,
+        <https://www.wikidata.org/wiki/Q850276> ;
+    msh:releaseYear "2010"^^xsd:gYear ;
+    msh:title "Conviction" .
+
+msh:Film_Get_Low_2010 a msh:Film ;
+    rdfs:label "Get Low" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/44718>,
+        <https://www.imdb.com/title/tt1194263>,
+        <https://www.wikidata.org/wiki/Q451272> ;
+    msh:releaseYear "2010"^^xsd:gYear ;
+    msh:title "Get Low" .
+
+msh:Film_J_Edgar_2011 a msh:Film ;
+    rdfs:label "J. Edgar" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/88794>,
+        <https://www.imdb.com/title/tt1616195>,
+        <https://www.wikidata.org/wiki/Q1137236> ;
+    msh:releaseYear "2011"^^xsd:gYear ;
+    msh:title "J. Edgar" .
+
+msh:Film_We_Need_to_Talk_About_Kevin_2011 a msh:Film ;
+    rdfs:label "We Need to Talk About Kevin" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/71859>,
+        <https://www.imdb.com/title/tt1242460>,
+        <https://www.wikidata.org/wiki/Q247470> ;
+    msh:releaseYear "2011"^^xsd:gYear ;
+    msh:title "We Need to Talk About Kevin" .
+
+msh:Film_Rust_and_Bone_2012 a msh:Film ;
+    rdfs:label "Rust and Bone" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/97365>,
+        <https://www.imdb.com/title/tt2053425>,
+        <https://www.wikidata.org/wiki/Q73803> ;
+    msh:releaseYear "2012"^^xsd:gYear ;
+    msh:title "Rust and Bone" .
+
+msh:Film_The_Best_Exotic_Marigold_Hotel_2012 a msh:Film ;
+    rdfs:label "The Best Exotic Marigold Hotel" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/74534>,
+        <https://www.imdb.com/title/tt1412386>,
+        <https://www.wikidata.org/wiki/Q830295> ;
+    msh:releaseYear "2012"^^xsd:gYear ;
+    msh:title "The Best Exotic Marigold Hotel" .
+
+msh:Film_The_Paperboy_2012 a msh:Film ;
+    rdfs:label "The Paperboy" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/82390>,
+        <https://www.imdb.com/title/tt1496422>,
+        <https://www.wikidata.org/wiki/Q1026872> ;
+    msh:releaseYear "2012"^^xsd:gYear ;
+    msh:title "The Paperboy" .
+
+msh:Film_Enough_Said_2013 a msh:Film ;
+    rdfs:label "Enough Said" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/209263>,
+        <https://www.imdb.com/title/tt2390361>,
+        <https://www.wikidata.org/wiki/Q14514258> ;
+    msh:releaseYear "2013"^^xsd:gYear ;
+    msh:title "Enough Said" .
+
+msh:Film_Rush_2013 a msh:Film ;
+    rdfs:label "Rush" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/96721>,
+        <https://www.imdb.com/title/tt1979320>,
+        <https://www.wikidata.org/wiki/Q1768437> ;
+    msh:releaseYear "2013"^^xsd:gYear ;
+    msh:title "Rush" .
+
+msh:Film_The_Butler_2013 a msh:Film ;
+    rdfs:label "The Butler" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/132363>,
+        <https://www.imdb.com/title/tt1327773>,
+        <https://www.wikidata.org/wiki/Q3520173> ;
+    msh:releaseYear "2013"^^xsd:gYear ;
+    msh:title "The Butler" .
+
+msh:Film_Cake_2014 a msh:Film ;
+    rdfs:label "Cake" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/284276>,
+        <https://www.imdb.com/title/tt3442006>,
+        <https://www.wikidata.org/wiki/Q16060473> ;
+    msh:releaseYear "2014"^^xsd:gYear ;
+    msh:title "Cake" .
+
+msh:Film_St_Vincent_2014 a msh:Film ;
+    rdfs:label "St. Vincent" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/239563>,
+        <https://www.imdb.com/title/tt2170593>,
+        <https://www.wikidata.org/wiki/Q15039869> ;
+    msh:releaseYear "2014"^^xsd:gYear ;
+    msh:title "St. Vincent" .
+
+msh:Film_99_Homes_2015 a msh:Film ;
+    rdfs:label "99 Homes" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/283235>,
+        <https://www.imdb.com/title/tt2891174>,
+        <https://www.wikidata.org/wiki/Q16147760> ;
+    msh:releaseYear "2015"^^xsd:gYear ;
+    msh:title "99 Homes" .
+
+msh:Film_Beasts_of_No_Nation_2015 a msh:Film ;
+    rdfs:label "Beasts of No Nation" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/283587>,
+        <https://www.imdb.com/title/tt1365050>,
+        <https://www.wikidata.org/wiki/Q17508302> ;
+    msh:releaseYear "2015"^^xsd:gYear ;
+    msh:title "Beasts of No Nation" .
+
+msh:Film_Black_Mass_2015 a msh:Film ;
+    rdfs:label "Black Mass" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/261023>,
+        <https://www.imdb.com/title/tt1355683>,
+        <https://www.wikidata.org/wiki/Q16971610> ;
+    msh:releaseYear "2015"^^xsd:gYear ;
+    msh:title "Black Mass" .
+
+msh:Film_I_Smile_Back_2015 a msh:Film ;
+    rdfs:label "I Smile Back" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/307946>,
+        <https://www.imdb.com/title/tt3640682>,
+        <https://www.wikidata.org/wiki/Q19057528> ;
+    msh:releaseYear "2015"^^xsd:gYear ;
+    msh:title "I Smile Back" .
+
+msh:Film_Woman_in_Gold_2015 a msh:Film ;
+    rdfs:label "Woman in Gold" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/304357>,
+        <https://www.imdb.com/title/tt2404425>,
+        <https://www.wikidata.org/wiki/Q17184103> ;
+    msh:releaseYear "2015"^^xsd:gYear ;
+    msh:title "Woman in Gold" .
+
+msh:Film_The_Girl_on_the_Train_2016 a msh:Film ;
+    rdfs:label "The Girl on the Train" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/346685>,
+        <https://www.imdb.com/title/tt3631112>,
+        <https://www.wikidata.org/wiki/Q21433535> ;
+    msh:releaseYear "2016"^^xsd:gYear ;
+    msh:title "The Girl on the Train" .
+
+msh:Film_Battle_of_the_Sexes_2017 a msh:Film ;
+    rdfs:label "Battle of the Sexes" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/369192>,
+        <https://www.imdb.com/title/tt4622512>,
+        <https://www.wikidata.org/wiki/Q24067722> ;
+    msh:releaseYear "2017"^^xsd:gYear ;
+    msh:title "Battle of the Sexes" .
+
+msh:Film_Downsizing_2017 a msh:Film ;
+    rdfs:label "Downsizing" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/301337>,
+        <https://www.imdb.com/title/tt1389072>,
+        <https://www.wikidata.org/wiki/Q22075017> ;
+    msh:releaseYear "2017"^^xsd:gYear ;
+    msh:title "Downsizing" .
+
+msh:Film_Beautiful_Boy_2018 a msh:Film ;
+    rdfs:label "Beautiful Boy" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/451915>,
+        <https://www.imdb.com/title/tt1226837>,
+        <https://www.wikidata.org/wiki/Q29051576> ;
+    msh:releaseYear "2018"^^xsd:gYear ;
+    msh:title "Beautiful Boy" .
+
+msh:Film_Crazy_Rich_Asians_2018 a msh:Film ;
+    rdfs:label "Crazy Rich Asians" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/455207>,
+        <https://www.imdb.com/title/tt3104988>,
+        <https://www.wikidata.org/wiki/Q29588623> ;
+    msh:releaseYear "2018"^^xsd:gYear ;
+    msh:title "Crazy Rich Asians" .
+
+msh:Film_Hustlers_2019 a msh:Film ;
+    rdfs:label "Hustlers" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/540901>,
+        <https://www.imdb.com/title/tt5503686>,
+        <https://www.wikidata.org/wiki/Q61951916> ;
+    msh:releaseYear "2019"^^xsd:gYear ;
+    msh:title "Hustlers" .
+
+msh:Film_Just_Mercy_2019 a msh:Film ;
+    rdfs:label "Just Mercy" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/522212>,
+        <https://www.imdb.com/title/tt4916630>,
+        <https://www.wikidata.org/wiki/Q56419916> ;
+    msh:releaseYear "2019"^^xsd:gYear ;
+    msh:title "Just Mercy" .
+
+msh:Film_Us_2019 a msh:Film ;
+    rdfs:label "Us" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/458723>,
+        <https://www.imdb.com/title/tt6857112>,
+        <https://www.wikidata.org/wiki/Q56000996> ;
+    msh:releaseYear "2019"^^xsd:gYear ;
+    msh:title "Us" .
+
+msh:Film_Passing_2021 a msh:Film ;
+    rdfs:label "Passing" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/541524>,
+        <https://www.imdb.com/title/tt8893974>,
+        <https://www.wikidata.org/wiki/Q75034904> ;
+    msh:releaseYear "2021"^^xsd:gYear ;
+    msh:title "Passing" .
+
+msh:Film_Respect_2021 a msh:Film ;
+    rdfs:label "Respect" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/592863>,
+        <https://www.imdb.com/title/tt2452150>,
+        <https://www.wikidata.org/wiki/Q79327081> ;
+    msh:releaseYear "2021"^^xsd:gYear ;
+    msh:title "Respect" .
+
+msh:Film_The_Tender_Bar_2021 a msh:Film ;
+    rdfs:label "The Tender Bar" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/727293>,
+        <https://www.imdb.com/title/tt3108894>,
+        <https://www.wikidata.org/wiki/Q105658212> ;
+    msh:releaseYear "2021"^^xsd:gYear ;
+    msh:title "The Tender Bar" .
+
+msh:Film_Hustle_2022 a msh:Film ;
+    rdfs:label "Hustle" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/705861>,
+        <https://www.imdb.com/title/tt8009428>,
+        <https://www.wikidata.org/wiki/Q103377646> ;
+    msh:releaseYear "2022"^^xsd:gYear ;
+    msh:title "Hustle" .
+
+msh:Film_The_Good_Nurse_2022 a msh:Film ;
+    rdfs:label "The Good Nurse" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/541134>,
+        <https://www.imdb.com/title/tt4273800>,
+        <https://www.wikidata.org/wiki/Q106590131> ;
+    msh:releaseYear "2022"^^xsd:gYear ;
+    msh:title "The Good Nurse" .
+
+msh:Film_The_Woman_King_2022 a msh:Film ;
+    rdfs:label "The Woman King" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/724495>,
+        <https://www.imdb.com/title/tt8093700>,
+        <https://www.wikidata.org/wiki/Q109905743> ;
+    msh:releaseYear "2022"^^xsd:gYear ;
+    msh:title "The Woman King" .
+
+msh:Film_Till_2022 a msh:Film ;
+    rdfs:label "Till" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/854239>,
+        <https://www.imdb.com/title/tt4960748>,
+        <https://www.wikidata.org/wiki/Q108532414> ;
+    msh:releaseYear "2022"^^xsd:gYear ;
+    msh:title "Till" .
+
+msh:Film_Ferrari_2023 a msh:Film ;
+    rdfs:label "Ferrari" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/365620>,
+        <https://www.imdb.com/title/tt3758542>,
+        <https://www.wikidata.org/wiki/Q113043714> ;
+    msh:releaseYear "2023"^^xsd:gYear ;
+    msh:title "Ferrari" .
+
+msh:Film_Queer_2024 a msh:Film ;
+    rdfs:label "Queer" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/1059128>,
+        <https://www.imdb.com/title/tt24176060>,
+        <https://www.wikidata.org/wiki/Q116771681> ;
+    msh:releaseYear "2024"^^xsd:gYear ;
+    msh:title "Queer" .
+
+msh:Film_The_Last_Showgirl_2024 a msh:Film ;
+    rdfs:label "The Last Showgirl" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/1235499>,
+        <https://www.imdb.com/title/tt31193791>,
+        <https://www.wikidata.org/wiki/Q124547601> ;
+    msh:releaseYear "2024"^^xsd:gYear ;
+    msh:title "The Last Showgirl" .
+
+msh:Film_The_Piano_Lesson_2024 a msh:Film ;
+    rdfs:label "The Piano Lesson" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/804406>,
+        <https://www.imdb.com/title/tt15507512>,
+        <https://www.wikidata.org/wiki/Q117842630> ;
+    msh:releaseYear "2024"^^xsd:gYear ;
+    msh:title "The Piano Lesson" .
+
+msh:Film_The_Little_Things_2020 a msh:Film ;
+    rdfs:label "The Little Things" ;
+    msh:hasIdentifier <https://www.themoviedb.org/movie/602269>,
+        <https://www.imdb.com/title/tt10016180>,
+        <https://www.wikidata.org/wiki/Q70373108> ;
+    msh:releaseYear "2020"^^xsd:gYear ;
+    msh:title "The Little Things" .

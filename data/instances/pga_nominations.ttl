@@ -1151,7 +1151,7 @@ msh:Nomination_pga_2009_best_theatrical_motion_picture_precious_caf053b856edcb64
     rdfs:label "PGA - 2009 - Best Theatrical Motion Picture - Precious" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2009 ;
-    msh:hasFilm msh:Film_Precious_2009 ;
+    msh:hasFilm msh:Film_Precious_Based_on_the_Novel_Push_by_Sapphire_2009 ;
     msh:hasNominee msh:Person_Gary_Magness,
         msh:Person_Lee_Daniels,
         msh:Person_Sarah_Siegel_Magness ;
@@ -1692,7 +1692,7 @@ msh:Nomination_pga_2014_best_theatrical_motion_picture_birdman_fd3fa426ad0e9b16 
     rdfs:label "PGA - 2014 - Best Theatrical Motion Picture - Birdman" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2014 ;
-    msh:hasFilm msh:Film_Birdman_2014 ;
+    msh:hasFilm msh:Film_Birdman_or_The_Unexpected_Virtue_of_Ignorance_2014 ;
     msh:hasNominee msh:Person_Alejandro_G_I_rritu,
         msh:Person_James_W_Skotchdopole,
         msh:Person_John_Lesher ;
@@ -2164,7 +2164,7 @@ msh:Nomination_pga_2017_best_theatrical_motion_picture_three_billboards_outside_
     rdfs:label "PGA - 2017 - Best Theatrical Motion Picture - Three Billboards Outside Ebbing, Missouri" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2017 ;
-    msh:hasFilm msh:Film_Three_Billboards_Outside_Ebbing_Missouri_2017 ;
+    msh:hasFilm msh:Film_Three_Billboards_outside_Ebbing_Missouri_2017 ;
     msh:hasNominee msh:Person_Graham_Broadbent,
         msh:Person_Martin_McDonagh,
         msh:Person_Pete_Czernin ;
@@ -2390,7 +2390,7 @@ msh:Nomination_pga_2019_best_theatrical_motion_picture_once_upon_a_time_in_holly
     rdfs:label "PGA - 2019 - Best Theatrical Motion Picture - Once Upon a Time in Hollywood" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2019 ;
-    msh:hasFilm msh:Film_Once_Upon_a_Time_in_Hollywood_2019 ;
+    msh:hasFilm msh:Film_Once_upon_a_Time_in_Hollywood_2019 ;
     msh:hasNominee msh:Person_David_Heyman,
         msh:Person_Quentin_Tarantino,
         msh:Person_Shannon_McIntosh ;
@@ -2426,7 +2426,7 @@ msh:Nomination_pga_2020_best_theatrical_motion_picture_borat_subsequent_moviefil
     rdfs:label "PGA - 2020 - Best Theatrical Motion Picture - Borat Subsequent Moviefilm" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2020 ;
-    msh:hasFilm msh:Film_Borat_Subsequent_Moviefilm_2020 ;
+    msh:hasFilm msh:Film_Borat_Subsequent_Moviefilm_Delivery_of_Prodigious_Bribe_to_American_Regime_for_Make_Benefit_Once_Glorious_Nation_of_Kazakhstan_2020 ;
     msh:hasNominee msh:Person_Anthony_Hines,
         msh:Person_Monica_Levinson,
         msh:Person_Sacha_Baron_Cohen ;
@@ -2641,7 +2641,7 @@ msh:Nomination_pga_2021_best_theatrical_motion_picture_tick_tick_boom_546d9d4582
     rdfs:label "PGA - 2021 - Best Theatrical Motion Picture - Tick, Tick... Boom!" ;
     msh:hasCategory msh:Category_pga_Best_Theatrical_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_pga_2021 ;
-    msh:hasFilm msh:Film_Tick_Tick_Boom_2021 ;
+    msh:hasFilm msh:Film_tick_tick_BOOM_2021 ;
     msh:hasNominee msh:Person_Julie_Oh,
         msh:Person_Lin_Manuel_Miranda ;
     msh:nomineeType "COLLABORATION" ;

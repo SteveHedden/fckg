@@ -33059,7 +33059,7 @@ msh:Nomination_bafta_2009_best_actress_in_a_leading_role_precious_c6e203ef64290f
     rdfs:label "BAFTA - 2009 - Best Actress in a Leading Role - Precious" ;
     msh:hasCategory msh:Category_bafta_Best_Actress_in_a_Leading_Role ;
     msh:hasCeremony msh:Ceremony_bafta_2009 ;
-    msh:hasFilm msh:Film_Precious_2009 ;
+    msh:hasFilm msh:Film_Precious_Based_on_the_Novel_Push_by_Sapphire_2009 ;
     msh:hasNominee msh:Person_Gabourey_Sidibe ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
@@ -33099,7 +33099,7 @@ msh:Nomination_bafta_2009_best_actress_in_a_supporting_role_precious_2a0a8e7c2f2
     rdfs:label "BAFTA - 2009 - Best Actress in a Supporting Role - Precious" ;
     msh:hasCategory msh:Category_bafta_Best_Actress_in_a_Supporting_Role ;
     msh:hasCeremony msh:Ceremony_bafta_2009 ;
-    msh:hasFilm msh:Film_Precious_2009 ;
+    msh:hasFilm msh:Film_Precious_Based_on_the_Novel_Push_by_Sapphire_2009 ;
     msh:hasNominee msh:Person_MoNique ;
     msh:nomineeType "PERSON" ;
     msh:winner true ;
@@ -33190,7 +33190,7 @@ msh:Nomination_bafta_2009_best_adapted_screenplay_precious_fa10d314e0b3f613 a ms
     rdfs:label "BAFTA - 2009 - Best Adapted Screenplay - Precious" ;
     msh:hasCategory msh:Category_bafta_Best_Adapted_Screenplay ;
     msh:hasCeremony msh:Ceremony_bafta_2009 ;
-    msh:hasFilm msh:Film_Precious_2009 ;
+    msh:hasFilm msh:Film_Precious_Based_on_the_Novel_Push_by_Sapphire_2009 ;
     msh:hasNominee msh:Person_Geoffrey_Fletcher ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
@@ -33423,7 +33423,7 @@ msh:Nomination_bafta_2009_best_film_precious_034a34e1a40894a3 a msh:Nomination ;
     rdfs:label "BAFTA - 2009 - Best Film - Precious" ;
     msh:hasCategory msh:Category_bafta_Best_Film ;
     msh:hasCeremony msh:Ceremony_bafta_2009 ;
-    msh:hasFilm msh:Film_Precious_2009 ;
+    msh:hasFilm msh:Film_Precious_Based_on_the_Novel_Push_by_Sapphire_2009 ;
     msh:hasNominee msh:Person_Sarah_Siegel_Magness ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
@@ -33433,7 +33433,7 @@ msh:Nomination_bafta_2009_best_film_precious_160a359b53ae2b01 a msh:Nomination ;
     rdfs:label "BAFTA - 2009 - Best Film - Precious" ;
     msh:hasCategory msh:Category_bafta_Best_Film ;
     msh:hasCeremony msh:Ceremony_bafta_2009 ;
-    msh:hasFilm msh:Film_Precious_2009 ;
+    msh:hasFilm msh:Film_Precious_Based_on_the_Novel_Push_by_Sapphire_2009 ;
     msh:hasNominee msh:Person_Lee_Daniels ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
@@ -33443,7 +33443,7 @@ msh:Nomination_bafta_2009_best_film_precious_90ce04e9be4c0f5c a msh:Nomination ;
     rdfs:label "BAFTA - 2009 - Best Film - Precious" ;
     msh:hasCategory msh:Category_bafta_Best_Film ;
     msh:hasCeremony msh:Ceremony_bafta_2009 ;
-    msh:hasFilm msh:Film_Precious_2009 ;
+    msh:hasFilm msh:Film_Precious_Based_on_the_Novel_Push_by_Sapphire_2009 ;
     msh:hasNominee msh:Person_Gary_Magness ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
@@ -37279,7 +37279,7 @@ msh:Nomination_bafta_2014_best_actor_in_a_leading_role_birdman_fa51a3ef01dd5253 
     rdfs:label "BAFTA - 2014 - Best Actor in a Leading Role - Birdman" ;
     msh:hasCategory msh:Category_bafta_Best_Actor_in_a_Leading_Role ;
     msh:hasCeremony msh:Ceremony_bafta_2014 ;
-    msh:hasFilm msh:Film_Birdman_2014 ;
+    msh:hasFilm msh:Film_Birdman_or_The_Unexpected_Virtue_of_Ignorance_2014 ;
     msh:hasNominee msh:Person_Michael_Keaton ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
@@ -37329,7 +37329,7 @@ msh:Nomination_bafta_2014_best_actor_in_a_supporting_role_birdman_feaad2bb345c44
     rdfs:label "BAFTA - 2014 - Best Actor in a Supporting Role - Birdman" ;
     msh:hasCategory msh:Category_bafta_Best_Actor_in_a_Supporting_Role ;
     msh:hasCeremony msh:Ceremony_bafta_2014 ;
-    msh:hasFilm msh:Film_Birdman_2014 ;
+    msh:hasFilm msh:Film_Birdman_or_The_Unexpected_Virtue_of_Ignorance_2014 ;
     msh:hasNominee msh:Person_Edward_Norton ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
@@ -37429,7 +37429,7 @@ msh:Nomination_bafta_2014_best_actress_in_a_supporting_role_birdman_f601442f9027
     rdfs:label "BAFTA - 2014 - Best Actress in a Supporting Role - Birdman" ;
     msh:hasCategory msh:Category_bafta_Best_Actress_in_a_Supporting_Role ;
     msh:hasCeremony msh:Ceremony_bafta_2014 ;
-    msh:hasFilm msh:Film_Birdman_2014 ;
+    msh:hasFilm msh:Film_Birdman_or_The_Unexpected_Virtue_of_Ignorance_2014 ;
     msh:hasNominee msh:Person_Emma_Stone ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
@@ -37529,7 +37529,7 @@ msh:Nomination_bafta_2014_best_cinematography_birdman_7378e3df3ae36c98 a msh:Nom
     rdfs:label "BAFTA - 2014 - Best Cinematography - Birdman" ;
     msh:hasCategory msh:Category_bafta_Best_Cinematography ;
     msh:hasCeremony msh:Ceremony_bafta_2014 ;
-    msh:hasFilm msh:Film_Birdman_2014 ;
+    msh:hasFilm msh:Film_Birdman_or_The_Unexpected_Virtue_of_Ignorance_2014 ;
     msh:hasNominee msh:Person_Emmanuel_Lubezki ;
     msh:nomineeType "PERSON" ;
     msh:winner true ;
@@ -37580,7 +37580,7 @@ msh:Nomination_bafta_2014_best_director_birdman_d6fcd9933e105db1 a msh:Nominatio
     rdfs:label "BAFTA - 2014 - Best Director - Birdman" ;
     msh:hasCategory msh:Category_bafta_Best_Director ;
     msh:hasCeremony msh:Ceremony_bafta_2014 ;
-    msh:hasFilm msh:Film_Birdman_2014 ;
+    msh:hasFilm msh:Film_Birdman_or_The_Unexpected_Virtue_of_Ignorance_2014 ;
     msh:hasNominee msh:Person_Alejandro_G_I_rritu ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
@@ -37630,7 +37630,7 @@ msh:Nomination_bafta_2014_best_editing_birdman_68b6a308446ac21b a msh:Nomination
     rdfs:label "BAFTA - 2014 - Best Editing - Birdman" ;
     msh:hasCategory msh:Category_bafta_Best_Editing ;
     msh:hasCeremony msh:Ceremony_bafta_2014 ;
-    msh:hasFilm msh:Film_Birdman_2014 ;
+    msh:hasFilm msh:Film_Birdman_or_The_Unexpected_Virtue_of_Ignorance_2014 ;
     msh:hasNominee msh:Person_Douglas_Crise,
         msh:Person_Stephen_Mirrione ;
     msh:nomineeType "COLLABORATION" ;
@@ -40059,7 +40059,7 @@ msh:Nomination_bafta_2017_best_actor_in_a_supporting_role_three_billboards_outsi
     rdfs:label "BAFTA - 2017 - Best Actor in a Supporting Role - Three Billboards Outside Ebbing, Missouri" ;
     msh:hasCategory msh:Category_bafta_Best_Actor_in_a_Supporting_Role ;
     msh:hasCeremony msh:Ceremony_bafta_2017 ;
-    msh:hasFilm msh:Film_Three_Billboards_Outside_Ebbing_Missouri_2017 ;
+    msh:hasFilm msh:Film_Three_Billboards_outside_Ebbing_Missouri_2017 ;
     msh:hasNominee msh:Person_Sam_Rockwell ;
     msh:nomineeType "PERSON" ;
     msh:winner true ;
@@ -40069,7 +40069,7 @@ msh:Nomination_bafta_2017_best_actor_in_a_supporting_role_three_billboards_outsi
     rdfs:label "BAFTA - 2017 - Best Actor in a Supporting Role - Three Billboards Outside Ebbing, Missouri" ;
     msh:hasCategory msh:Category_bafta_Best_Actor_in_a_Supporting_Role ;
     msh:hasCeremony msh:Ceremony_bafta_2017 ;
-    msh:hasFilm msh:Film_Three_Billboards_Outside_Ebbing_Missouri_2017 ;
+    msh:hasFilm msh:Film_Three_Billboards_outside_Ebbing_Missouri_2017 ;
     msh:hasNominee msh:Person_Woody_Harrelson ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
@@ -40119,7 +40119,7 @@ msh:Nomination_bafta_2017_best_actress_in_a_leading_role_three_billboards_outsid
     rdfs:label "BAFTA - 2017 - Best Actress in a Leading Role - Three Billboards Outside Ebbing, Missouri" ;
     msh:hasCategory msh:Category_bafta_Best_Actress_in_a_Leading_Role ;
     msh:hasCeremony msh:Ceremony_bafta_2017 ;
-    msh:hasFilm msh:Film_Three_Billboards_Outside_Ebbing_Missouri_2017 ;
+    msh:hasFilm msh:Film_Three_Billboards_outside_Ebbing_Missouri_2017 ;
     msh:hasNominee msh:Person_Frances_McDormand ;
     msh:nomineeType "PERSON" ;
     msh:winner true ;
@@ -40290,7 +40290,7 @@ msh:Nomination_bafta_2017_best_cinematography_three_billboards_outside_ebbing_mi
     rdfs:label "BAFTA - 2017 - Best Cinematography - Three Billboards Outside Ebbing, Missouri" ;
     msh:hasCategory msh:Category_bafta_Best_Cinematography ;
     msh:hasCeremony msh:Ceremony_bafta_2017 ;
-    msh:hasFilm msh:Film_Three_Billboards_Outside_Ebbing_Missouri_2017 ;
+    msh:hasFilm msh:Film_Three_Billboards_outside_Ebbing_Missouri_2017 ;
     msh:hasNominee msh:Person_Ben_Davis ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
@@ -40340,7 +40340,7 @@ msh:Nomination_bafta_2017_best_director_three_billboards_outside_ebbing_missouri
     rdfs:label "BAFTA - 2017 - Best Director - Three Billboards Outside Ebbing, Missouri" ;
     msh:hasCategory msh:Category_bafta_Best_Director ;
     msh:hasCeremony msh:Ceremony_bafta_2017 ;
-    msh:hasFilm msh:Film_Three_Billboards_Outside_Ebbing_Missouri_2017 ;
+    msh:hasFilm msh:Film_Three_Billboards_outside_Ebbing_Missouri_2017 ;
     msh:hasNominee msh:Person_Martin_McDonagh ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
@@ -40391,7 +40391,7 @@ msh:Nomination_bafta_2017_best_editing_three_billboards_outside_ebbing_missouri_
     rdfs:label "BAFTA - 2017 - Best Editing - Three Billboards Outside Ebbing, Missouri" ;
     msh:hasCategory msh:Category_bafta_Best_Editing ;
     msh:hasCeremony msh:Ceremony_bafta_2017 ;
-    msh:hasFilm msh:Film_Three_Billboards_Outside_Ebbing_Missouri_2017 ;
+    msh:hasFilm msh:Film_Three_Billboards_outside_Ebbing_Missouri_2017 ;
     msh:hasNominee msh:Person_Jon_Gregory ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
@@ -40541,7 +40541,7 @@ msh:Nomination_bafta_2017_best_film_three_billboards_outside_ebbing_missouri_207
     rdfs:label "BAFTA - 2017 - Best Film - Three Billboards Outside Ebbing, Missouri" ;
     msh:hasCategory msh:Category_bafta_Best_Film ;
     msh:hasCeremony msh:Ceremony_bafta_2017 ;
-    msh:hasFilm msh:Film_Three_Billboards_Outside_Ebbing_Missouri_2017 ;
+    msh:hasFilm msh:Film_Three_Billboards_outside_Ebbing_Missouri_2017 ;
     msh:hasNominee msh:Person_Martin_McDonagh ;
     msh:nomineeType "PERSON" ;
     msh:winner true ;
@@ -40551,7 +40551,7 @@ msh:Nomination_bafta_2017_best_film_three_billboards_outside_ebbing_missouri_26f
     rdfs:label "BAFTA - 2017 - Best Film - Three Billboards Outside Ebbing, Missouri" ;
     msh:hasCategory msh:Category_bafta_Best_Film ;
     msh:hasCeremony msh:Ceremony_bafta_2017 ;
-    msh:hasFilm msh:Film_Three_Billboards_Outside_Ebbing_Missouri_2017 ;
+    msh:hasFilm msh:Film_Three_Billboards_outside_Ebbing_Missouri_2017 ;
     msh:hasNominee msh:Person_Pete_Czernin ;
     msh:nomineeType "PERSON" ;
     msh:winner true ;
@@ -40561,7 +40561,7 @@ msh:Nomination_bafta_2017_best_film_three_billboards_outside_ebbing_missouri_632
     rdfs:label "BAFTA - 2017 - Best Film - Three Billboards Outside Ebbing, Missouri" ;
     msh:hasCategory msh:Category_bafta_Best_Film ;
     msh:hasCeremony msh:Ceremony_bafta_2017 ;
-    msh:hasFilm msh:Film_Three_Billboards_Outside_Ebbing_Missouri_2017 ;
+    msh:hasFilm msh:Film_Three_Billboards_outside_Ebbing_Missouri_2017 ;
     msh:hasNominee msh:Person_Graham_Broadbent ;
     msh:nomineeType "PERSON" ;
     msh:winner true ;
@@ -40612,7 +40612,7 @@ msh:Nomination_bafta_2017_best_original_screenplay_three_billboards_outside_ebbi
     rdfs:label "BAFTA - 2017 - Best Original Screenplay - Three Billboards Outside Ebbing, Missouri" ;
     msh:hasCategory msh:Category_bafta_Best_Original_Screenplay ;
     msh:hasCeremony msh:Ceremony_bafta_2017 ;
-    msh:hasFilm msh:Film_Three_Billboards_Outside_Ebbing_Missouri_2017 ;
+    msh:hasFilm msh:Film_Three_Billboards_outside_Ebbing_Missouri_2017 ;
     msh:hasNominee msh:Person_Martin_McDonagh ;
     msh:nomineeType "PERSON" ;
     msh:winner true ;
@@ -40832,7 +40832,7 @@ msh:Nomination_bafta_2017_outstanding_british_film_three_billboards_outside_ebbi
     rdfs:label "BAFTA - 2017 - Outstanding British Film - Three Billboards Outside Ebbing, Missouri" ;
     msh:hasCategory msh:Category_bafta_Outstanding_British_Film ;
     msh:hasCeremony msh:Ceremony_bafta_2017 ;
-    msh:hasFilm msh:Film_Three_Billboards_Outside_Ebbing_Missouri_2017 ;
+    msh:hasFilm msh:Film_Three_Billboards_outside_Ebbing_Missouri_2017 ;
     msh:hasNominee msh:Person_Martin_McDonagh ;
     msh:nomineeType "PERSON" ;
     msh:winner true ;
@@ -40842,7 +40842,7 @@ msh:Nomination_bafta_2017_outstanding_british_film_three_billboards_outside_ebbi
     rdfs:label "BAFTA - 2017 - Outstanding British Film - Three Billboards Outside Ebbing, Missouri" ;
     msh:hasCategory msh:Category_bafta_Outstanding_British_Film ;
     msh:hasCeremony msh:Ceremony_bafta_2017 ;
-    msh:hasFilm msh:Film_Three_Billboards_Outside_Ebbing_Missouri_2017 ;
+    msh:hasFilm msh:Film_Three_Billboards_outside_Ebbing_Missouri_2017 ;
     msh:hasNominee msh:Person_Peter_Czernin ;
     msh:nomineeType "PERSON" ;
     msh:winner true ;
@@ -40852,7 +40852,7 @@ msh:Nomination_bafta_2017_outstanding_british_film_three_billboards_outside_ebbi
     rdfs:label "BAFTA - 2017 - Outstanding British Film - Three Billboards Outside Ebbing, Missouri" ;
     msh:hasCategory msh:Category_bafta_Outstanding_British_Film ;
     msh:hasCeremony msh:Ceremony_bafta_2017 ;
-    msh:hasFilm msh:Film_Three_Billboards_Outside_Ebbing_Missouri_2017 ;
+    msh:hasFilm msh:Film_Three_Billboards_outside_Ebbing_Missouri_2017 ;
     msh:hasNominee msh:Person_Graham_Broadbent ;
     msh:nomineeType "PERSON" ;
     msh:winner true ;
@@ -41847,7 +41847,7 @@ msh:Nomination_bafta_2019_best_actor_in_a_leading_role_once_upon_a_time_in_holly
     rdfs:label "BAFTA - 2019 - Best Actor in a Leading Role - Once Upon a Time in Hollywood" ;
     msh:hasCategory msh:Category_bafta_Best_Actor_in_a_Leading_Role ;
     msh:hasCeremony msh:Ceremony_bafta_2019 ;
-    msh:hasFilm msh:Film_Once_Upon_a_Time_in_Hollywood_2019 ;
+    msh:hasFilm msh:Film_Once_upon_a_Time_in_Hollywood_2019 ;
     msh:hasNominee msh:Person_Leonardo_DiCaprio ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
@@ -41887,7 +41887,7 @@ msh:Nomination_bafta_2019_best_actor_in_a_supporting_role_once_upon_a_time_in_ho
     rdfs:label "BAFTA - 2019 - Best Actor in a Supporting Role - Once Upon a Time in Hollywood" ;
     msh:hasCategory msh:Category_bafta_Best_Actor_in_a_Supporting_Role ;
     msh:hasCeremony msh:Ceremony_bafta_2019 ;
-    msh:hasFilm msh:Film_Once_Upon_a_Time_in_Hollywood_2019 ;
+    msh:hasFilm msh:Film_Once_upon_a_Time_in_Hollywood_2019 ;
     msh:hasNominee msh:Person_Brad_Pitt ;
     msh:nomineeType "PERSON" ;
     msh:winner true ;
@@ -42017,7 +42017,7 @@ msh:Nomination_bafta_2019_best_actress_in_a_supporting_role_once_upon_a_time_in_
     rdfs:label "BAFTA - 2019 - Best Actress in a Supporting Role - Once Upon a Time in Hollywood" ;
     msh:hasCategory msh:Category_bafta_Best_Actress_in_a_Supporting_Role ;
     msh:hasCeremony msh:Ceremony_bafta_2019 ;
-    msh:hasFilm msh:Film_Once_Upon_a_Time_in_Hollywood_2019 ;
+    msh:hasFilm msh:Film_Once_upon_a_Time_in_Hollywood_2019 ;
     msh:hasNominee msh:Person_Margot_Robbie ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
@@ -42148,7 +42148,7 @@ msh:Nomination_bafta_2019_best_director_once_upon_a_time_in_hollywood_3bd7aaee88
     rdfs:label "BAFTA - 2019 - Best Director - Once Upon a Time in Hollywood" ;
     msh:hasCategory msh:Category_bafta_Best_Director ;
     msh:hasCeremony msh:Ceremony_bafta_2019 ;
-    msh:hasFilm msh:Film_Once_Upon_a_Time_in_Hollywood_2019 ;
+    msh:hasFilm msh:Film_Once_upon_a_Time_in_Hollywood_2019 ;
     msh:hasNominee msh:Person_Quentin_Tarantino ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
@@ -42209,7 +42209,7 @@ msh:Nomination_bafta_2019_best_editing_once_upon_a_time_in_hollywood_372876ed298
     rdfs:label "BAFTA - 2019 - Best Editing - Once Upon a Time in Hollywood" ;
     msh:hasCategory msh:Category_bafta_Best_Editing ;
     msh:hasCeremony msh:Ceremony_bafta_2019 ;
-    msh:hasFilm msh:Film_Once_Upon_a_Time_in_Hollywood_2019 ;
+    msh:hasFilm msh:Film_Once_upon_a_Time_in_Hollywood_2019 ;
     msh:hasNominee msh:Person_Fred_Raskin ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
@@ -42299,7 +42299,7 @@ msh:Nomination_bafta_2019_best_film_once_upon_a_time_in_hollywood_2051bbf742f58e
     rdfs:label "BAFTA - 2019 - Best Film - Once Upon a Time in Hollywood" ;
     msh:hasCategory msh:Category_bafta_Best_Film ;
     msh:hasCeremony msh:Ceremony_bafta_2019 ;
-    msh:hasFilm msh:Film_Once_Upon_a_Time_in_Hollywood_2019 ;
+    msh:hasFilm msh:Film_Once_upon_a_Time_in_Hollywood_2019 ;
     msh:hasNominee msh:Person_David_Heyman ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
@@ -42309,7 +42309,7 @@ msh:Nomination_bafta_2019_best_film_once_upon_a_time_in_hollywood_8b9cb985ba504a
     rdfs:label "BAFTA - 2019 - Best Film - Once Upon a Time in Hollywood" ;
     msh:hasCategory msh:Category_bafta_Best_Film ;
     msh:hasCeremony msh:Ceremony_bafta_2019 ;
-    msh:hasFilm msh:Film_Once_Upon_a_Time_in_Hollywood_2019 ;
+    msh:hasFilm msh:Film_Once_upon_a_Time_in_Hollywood_2019 ;
     msh:hasNominee msh:Person_Quentin_Tarantino ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
@@ -42319,7 +42319,7 @@ msh:Nomination_bafta_2019_best_film_once_upon_a_time_in_hollywood_9bf0d2d633b0ba
     rdfs:label "BAFTA - 2019 - Best Film - Once Upon a Time in Hollywood" ;
     msh:hasCategory msh:Category_bafta_Best_Film ;
     msh:hasCeremony msh:Ceremony_bafta_2019 ;
-    msh:hasFilm msh:Film_Once_Upon_a_Time_in_Hollywood_2019 ;
+    msh:hasFilm msh:Film_Once_upon_a_Time_in_Hollywood_2019 ;
     msh:hasNominee msh:Person_Shannon_McIntosh ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
@@ -42440,7 +42440,7 @@ msh:Nomination_bafta_2019_best_original_screenplay_once_upon_a_time_in_hollywood
     rdfs:label "BAFTA - 2019 - Best Original Screenplay - Once Upon a Time in Hollywood" ;
     msh:hasCategory msh:Category_bafta_Best_Original_Screenplay ;
     msh:hasCeremony msh:Ceremony_bafta_2019 ;
-    msh:hasFilm msh:Film_Once_Upon_a_Time_in_Hollywood_2019 ;
+    msh:hasFilm msh:Film_Once_upon_a_Time_in_Hollywood_2019 ;
     msh:hasNominee msh:Person_Quentin_Tarantino ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
@@ -42892,7 +42892,7 @@ msh:Nomination_bafta_2020_best_actress_in_a_supporting_role_borat_subsequent_mov
     rdfs:label "BAFTA - 2020 - Best Actress in a Supporting Role - Borat Subsequent Moviefilm" ;
     msh:hasCategory msh:Category_bafta_Best_Actress_in_a_Supporting_Role ;
     msh:hasCeremony msh:Ceremony_bafta_2020 ;
-    msh:hasFilm msh:Film_Borat_Subsequent_Moviefilm_2020 ;
+    msh:hasFilm msh:Film_Borat_Subsequent_Moviefilm_Delivery_of_Prodigious_Bribe_to_American_Regime_for_Make_Benefit_Once_Glorious_Nation_of_Kazakhstan_2020 ;
     msh:hasNominee msh:Person_Maria_Bakalova ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
@@ -47491,7 +47491,7 @@ msh:Nomination_bafta_2025_best_actor_in_a_leading_role_i_swear_e781108299738a3f 
     msh:hasFilm msh:Film_I_Swear_2025 ;
     msh:hasNominee msh:Person_Robert_Aramayo ;
     msh:nomineeType "PERSON" ;
-    msh:winner false ;
+    msh:winner true ;
     msh:yearFilm "2025"^^xsd:gYear .
 
 msh:Nomination_bafta_2025_best_actor_in_a_leading_role_marty_supreme_2ff4ba4b33907e7c a msh:Nomination ;
@@ -47561,7 +47561,7 @@ msh:Nomination_bafta_2025_best_actor_in_a_supporting_role_one_battle_after_anoth
     msh:hasFilm msh:Film_One_Battle_After_Another_2025 ;
     msh:hasNominee msh:Person_Sean_Penn ;
     msh:nomineeType "PERSON" ;
-    msh:winner false ;
+    msh:winner true ;
     msh:yearFilm "2025"^^xsd:gYear .
 
 msh:Nomination_bafta_2025_best_actor_in_a_supporting_role_one_battle_after_another_d2d18b28a9e45a49 a msh:Nomination ;
@@ -47601,7 +47601,7 @@ msh:Nomination_bafta_2025_best_actress_in_a_leading_role_hamnet_1bd837707645cb7f
     msh:hasFilm msh:Film_Hamnet_2025 ;
     msh:hasNominee msh:Person_Jessie_Buckley ;
     msh:nomineeType "PERSON" ;
-    msh:winner false ;
+    msh:winner true ;
     msh:yearFilm "2025"^^xsd:gYear .
 
 msh:Nomination_bafta_2025_best_actress_in_a_leading_role_if_i_had_legs_id_kick_you_a09677a92b29f084 a msh:Nomination ;
@@ -47691,7 +47691,7 @@ msh:Nomination_bafta_2025_best_actress_in_a_supporting_role_sinners_4d283506e018
     msh:hasFilm msh:Film_Sinners_2025 ;
     msh:hasNominee msh:Person_Wunmi_Mosaku ;
     msh:nomineeType "PERSON" ;
-    msh:winner false ;
+    msh:winner true ;
     msh:yearFilm "2025"^^xsd:gYear .
 
 msh:Nomination_bafta_2025_best_actress_in_a_supporting_role_the_ballad_of_wallis_island_d6cd5b797eab3db9 a msh:Nomination ;
@@ -48034,7 +48034,7 @@ msh:Nomination_bafta_2025_best_film_one_battle_after_another_3f6b9242683fe465 a 
     msh:hasFilm msh:Film_One_Battle_After_Another_2025 ;
     msh:hasNominee msh:Person_Paul_Thomas_Anderson ;
     msh:nomineeType "PERSON" ;
-    msh:winner false ;
+    msh:winner true ;
     msh:yearFilm "2025"^^xsd:gYear .
 
 msh:Nomination_bafta_2025_best_film_one_battle_after_another_7e1ada0708a5d55a a msh:Nomination ;
@@ -48044,7 +48044,7 @@ msh:Nomination_bafta_2025_best_film_one_battle_after_another_7e1ada0708a5d55a a 
     msh:hasFilm msh:Film_One_Battle_After_Another_2025 ;
     msh:hasNominee msh:Person_Adam_Somner_p_n ;
     msh:nomineeType "PERSON" ;
-    msh:winner false ;
+    msh:winner true ;
     msh:yearFilm "2025"^^xsd:gYear .
 
 msh:Nomination_bafta_2025_best_film_one_battle_after_another_b93ea9bcc3bd0d3d a msh:Nomination ;
@@ -48054,7 +48054,7 @@ msh:Nomination_bafta_2025_best_film_one_battle_after_another_b93ea9bcc3bd0d3d a 
     msh:hasFilm msh:Film_One_Battle_After_Another_2025 ;
     msh:hasNominee msh:Person_Sara_Murphy ;
     msh:nomineeType "PERSON" ;
-    msh:winner false ;
+    msh:winner true ;
     msh:yearFilm "2025"^^xsd:gYear .
 
 msh:Nomination_bafta_2025_best_film_sentimental_value_178f90b2662a8d4d a msh:Nomination ;

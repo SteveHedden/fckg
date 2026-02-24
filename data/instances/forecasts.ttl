@@ -1,0 +1,245 @@
+@prefix msh: <http://example.org/ontologies/MovieSHACL3#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+# ForecastSet: sag/best_actor/2025 logged 2026-02-24
+msh:ForecastSet_sag_best_actor_2025_20260224 a msh:ForecastSet ;
+    rdfs:label "sag best_actor 2025 forecast logged 2026-02-24" ;
+    msh:forecastSetSystem "sag" ;
+    msh:forecastSetCategory "best_actor" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-02-24"^^xsd:date ;
+    msh:forecastSetModelType "GB" ;
+    msh:forecastSetFeatures "golden_globes_actor_winner,bafta_actor_winner,oscars_actor_nominee,imdb_rating,rotten_tomatoes_pct,log_revenue,budget_revenue_ratio,num_wikidata_awards" ;
+    msh:forecastSetAUC "0.7099"^^xsd:decimal ;
+    msh:forecastSetTop1Pct "0.556"^^xsd:decimal ;
+    msh:hasForecast msh:Forecast_sag_best_actor_2025_Timoth_e_Chalamet_20260224,
+        msh:Forecast_sag_best_actor_2025_Michael_B_Jordan_20260224,
+        msh:Forecast_sag_best_actor_2025_Leonardo_DiCaprio_20260224,
+        msh:Forecast_sag_best_actor_2025_Jesse_Plemons_20260224,
+        msh:Forecast_sag_best_actor_2025_Ethan_Hawke_20260224 .
+
+msh:Forecast_sag_best_actor_2025_Timoth_e_Chalamet_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Timothée Chalamet win the SAG Award for Outstanding Performance by a Male Actor in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_marty_supreme_2ee7a623c049e2a8 ;
+    msh:forecastProbability "0.381"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_sag_best_actor_2025_Michael_B_Jordan_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Michael B. Jordan win the SAG Award for Outstanding Performance by a Male Actor in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_sinners_e3ea26cab39a2e28 ;
+    msh:forecastProbability "0.207"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_sag_best_actor_2025_Leonardo_DiCaprio_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Leonardo DiCaprio win the SAG Award for Outstanding Performance by a Male Actor in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_one_battle_after_another_5b194ce37f170606 ;
+    msh:forecastProbability "0.161"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_sag_best_actor_2025_Jesse_Plemons_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Jesse Plemons win the SAG Award for Outstanding Performance by a Male Actor in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_bugonia_d43c6cb7ccbd717a ;
+    msh:forecastProbability "0.152"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_sag_best_actor_2025_Ethan_Hawke_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Ethan Hawke win the SAG Award for Outstanding Performance by a Male Actor in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_blue_moon_a9d6c399e639a2ac ;
+    msh:forecastProbability "0.099"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+
+# ForecastSet: sag/best_actress/2025 logged 2026-02-24
+msh:ForecastSet_sag_best_actress_2025_20260224 a msh:ForecastSet ;
+    rdfs:label "sag best_actress 2025 forecast logged 2026-02-24" ;
+    msh:forecastSetSystem "sag" ;
+    msh:forecastSetCategory "best_actress" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-02-24"^^xsd:date ;
+    msh:forecastSetModelType "LR" ;
+    msh:forecastSetFeatures "golden_globes_actress_winner,bafta_actress_winner,oscars_actress_nominee,imdb_rating,rotten_tomatoes_pct,log_revenue,budget_revenue_ratio,num_wikidata_awards" ;
+    msh:forecastSetAUC "0.8025"^^xsd:decimal ;
+    msh:forecastSetTop1Pct "0.556"^^xsd:decimal ;
+    msh:hasForecast msh:Forecast_sag_best_actress_2025_Jessie_Buckley_20260224,
+        msh:Forecast_sag_best_actress_2025_Rose_Byrne_20260224,
+        msh:Forecast_sag_best_actress_2025_Emma_Stone_20260224,
+        msh:Forecast_sag_best_actress_2025_Kate_Hudson_20260224,
+        msh:Forecast_sag_best_actress_2025_Chase_Infiniti_20260224 .
+
+msh:Forecast_sag_best_actress_2025_Jessie_Buckley_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Jessie Buckley win the SAG Award for Outstanding Performance by a Female Actor in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_female_actor_in_a_leading_role_hamnet_5e84dbd21fdff70b ;
+    msh:forecastProbability "0.401"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_sag_best_actress_2025_Rose_Byrne_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Rose Byrne win the SAG Award for Outstanding Performance by a Female Actor in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_female_actor_in_a_leading_role_if_i_had_legs_id_kick_you_c23cc762b2724e25 ;
+    msh:forecastProbability "0.282"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_sag_best_actress_2025_Emma_Stone_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Emma Stone win the SAG Award for Outstanding Performance by a Female Actor in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_female_actor_in_a_leading_role_bugonia_e757e5ab0beea47c ;
+    msh:forecastProbability "0.152"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_sag_best_actress_2025_Kate_Hudson_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Kate Hudson win the SAG Award for Outstanding Performance by a Female Actor in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_female_actor_in_a_leading_role_song_sung_blue_4671464f85f15133 ;
+    msh:forecastProbability "0.145"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_sag_best_actress_2025_Chase_Infiniti_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Chase Infiniti win the SAG Award for Outstanding Performance by a Female Actor in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_female_actor_in_a_leading_role_one_battle_after_another_df5d518cc7002a8d ;
+    msh:forecastProbability "0.02"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+
+# ForecastSet: sag/best_supporting_actor/2025 logged 2026-02-24
+msh:ForecastSet_sag_best_supporting_actor_2025_20260224 a msh:ForecastSet ;
+    rdfs:label "sag best_supporting_actor 2025 forecast logged 2026-02-24" ;
+    msh:forecastSetSystem "sag" ;
+    msh:forecastSetCategory "best_supporting_actor" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-02-24"^^xsd:date ;
+    msh:forecastSetModelType "LR+RF" ;
+    msh:forecastSetFeatures "golden_globes_supporting_actor_winner,bafta_supporting_actor_winner,oscars_supporting_actor_nominee,imdb_rating,rotten_tomatoes_pct,log_revenue,budget_revenue_ratio,num_wikidata_awards,acting_noms" ;
+    msh:forecastSetAUC "0.8765"^^xsd:decimal ;
+    msh:forecastSetTop1Pct "0.667"^^xsd:decimal ;
+    msh:hasForecast msh:Forecast_sag_best_supporting_actor_2025_Sean_Penn_20260224,
+        msh:Forecast_sag_best_supporting_actor_2025_Benicio_del_Toro_20260224,
+        msh:Forecast_sag_best_supporting_actor_2025_Person_Miles_Caton_20260224,
+        msh:Forecast_sag_best_supporting_actor_2025_Jacob_Elordi_20260224,
+        msh:Forecast_sag_best_supporting_actor_2025_Paul_Mescal_20260224 .
+
+msh:Forecast_sag_best_supporting_actor_2025_Sean_Penn_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Sean Penn win the SAG Award for Outstanding Performance by a Male Actor in a Supporting Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_in_a_supporting_role_one_battle_after_another_d81fbdff4875d941 ;
+    msh:forecastProbability "0.341341"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_sag_best_supporting_actor_2025_Benicio_del_Toro_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Benicio del Toro win the SAG Award for Outstanding Performance by a Male Actor in a Supporting Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_in_a_supporting_role_one_battle_after_another_d81fbdff4875d941 ;
+    msh:forecastProbability "0.291291"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_sag_best_supporting_actor_2025_Person_Miles_Caton_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Person_Miles_Caton win the SAG Award for Outstanding Performance by a Male Actor in a Supporting Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_in_a_supporting_role_sinners_bc40c11a2b799ab0 ;
+    msh:forecastProbability "0.132132"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_sag_best_supporting_actor_2025_Jacob_Elordi_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Jacob Elordi win the SAG Award for Outstanding Performance by a Male Actor in a Supporting Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_in_a_supporting_role_frankenstein_33eff09e317a9336 ;
+    msh:forecastProbability "0.119119"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_sag_best_supporting_actor_2025_Paul_Mescal_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Paul Mescal win the SAG Award for Outstanding Performance by a Male Actor in a Supporting Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_in_a_supporting_role_hamnet_94e009623c5e4ca5 ;
+    msh:forecastProbability "0.116116"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+
+# ForecastSet: sag/best_supporting_actress/2025 logged 2026-02-24
+msh:ForecastSet_sag_best_supporting_actress_2025_20260224 a msh:ForecastSet ;
+    rdfs:label "sag best_supporting_actress 2025 forecast logged 2026-02-24" ;
+    msh:forecastSetSystem "sag" ;
+    msh:forecastSetCategory "best_supporting_actress" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-02-24"^^xsd:date ;
+    msh:forecastSetModelType "LR" ;
+    msh:forecastSetFeatures "golden_globes_supporting_actress_winner,bafta_supporting_actress_winner,oscars_supporting_actress_nominee,log_revenue,budget_revenue_ratio,num_wikidata_awards,previous_supporting_actress_wins,acting_noms" ;
+    msh:forecastSetAUC "0.7886"^^xsd:decimal ;
+    msh:forecastSetTop1Pct "0.667"^^xsd:decimal ;
+    msh:hasForecast msh:Forecast_sag_best_supporting_actress_2025_Teyana_Taylor_20260224,
+        msh:Forecast_sag_best_supporting_actress_2025_Wunmi_Mosaku_20260224,
+        msh:Forecast_sag_best_supporting_actress_2025_Amy_Madigan_20260224,
+        msh:Forecast_sag_best_supporting_actress_2025_Ariana_Grande_20260224,
+        msh:Forecast_sag_best_supporting_actress_2025_Odessa_A_zion_20260224 .
+
+msh:Forecast_sag_best_supporting_actress_2025_Teyana_Taylor_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Teyana Taylor win the SAG Award for Outstanding Performance by a Female Actor in a Supporting Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_female_actor_in_a_supporting_role_one_battle_after_another_262e2cd36e6a50dd ;
+    msh:forecastProbability "0.368631"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_sag_best_supporting_actress_2025_Wunmi_Mosaku_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Wunmi Mosaku win the SAG Award for Outstanding Performance by a Female Actor in a Supporting Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_female_actor_in_a_supporting_role_sinners_5ea16309dc06d73e ;
+    msh:forecastProbability "0.257742"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_sag_best_supporting_actress_2025_Amy_Madigan_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Amy Madigan win the SAG Award for Outstanding Performance by a Female Actor in a Supporting Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_female_actor_in_a_supporting_role_weapons_af411f347e62f698 ;
+    msh:forecastProbability "0.1998"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_sag_best_supporting_actress_2025_Ariana_Grande_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Ariana Grande win the SAG Award for Outstanding Performance by a Female Actor in a Supporting Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_female_actor_in_a_supporting_role_wicked_for_good_dd611235113952be ;
+    msh:forecastProbability "0.110889"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_sag_best_supporting_actress_2025_Odessa_A_zion_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Odessa A'zion win the SAG Award for Outstanding Performance by a Female Actor in a Supporting Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_female_actor_in_a_supporting_role_marty_supreme_68769b7986760134 ;
+    msh:forecastProbability "0.062937"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+
+# ForecastSet: sag/best_ensemble_cast/2025 logged 2026-02-24
+msh:ForecastSet_sag_best_ensemble_cast_2025_20260224 a msh:ForecastSet ;
+    rdfs:label "sag best_ensemble_cast 2025 forecast logged 2026-02-24" ;
+    msh:forecastSetSystem "sag" ;
+    msh:forecastSetCategory "best_ensemble_cast" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-02-24"^^xsd:date ;
+    msh:forecastSetModelType "LR+RF" ;
+    msh:forecastSetFeatures "globe_drama_winner,globe_comedy_winner,bafta_best_film_winner,dga_winner,pga_winner,cast_previous_noms_sum,cast_previous_wins_sum,cast_star_power,acting_noms,log_revenue,budget_revenue_ratio,num_wikidata_awards" ;
+    msh:forecastSetAUC "0.7156"^^xsd:decimal ;
+    msh:forecastSetTop1Pct "0.533"^^xsd:decimal ;
+    msh:hasForecast msh:Forecast_sag_best_ensemble_cast_2025_One_Battle_After_Another_20260224,
+        msh:Forecast_sag_best_ensemble_cast_2025_Frankenstein_20260224,
+        msh:Forecast_sag_best_ensemble_cast_2025_Sinners_20260224,
+        msh:Forecast_sag_best_ensemble_cast_2025_Marty_Supreme_20260224,
+        msh:Forecast_sag_best_ensemble_cast_2025_Hamnet_20260224 .
+
+msh:Forecast_sag_best_ensemble_cast_2025_One_Battle_After_Another_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will One Battle After Another win the SAG Award for Outstanding Performance by a Cast in a Motion Picture (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_outstanding_performance_by_a_cast_in_a_motion_picture_one_battle_after_another_e0f46c8174a06c77 ;
+    msh:forecastProbability "0.384"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_sag_best_ensemble_cast_2025_Frankenstein_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Frankenstein win the SAG Award for Outstanding Performance by a Cast in a Motion Picture (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_outstanding_performance_by_a_cast_in_a_motion_picture_frankenstein_d6712e97bdbfc474 ;
+    msh:forecastProbability "0.227"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_sag_best_ensemble_cast_2025_Sinners_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Sinners win the SAG Award for Outstanding Performance by a Cast in a Motion Picture (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_outstanding_performance_by_a_cast_in_a_motion_picture_sinners_de9b57c5ce7ba385 ;
+    msh:forecastProbability "0.22"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_sag_best_ensemble_cast_2025_Marty_Supreme_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Marty Supreme win the SAG Award for Outstanding Performance by a Cast in a Motion Picture (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_outstanding_performance_by_a_cast_in_a_motion_picture_marty_supreme_6ce60604054ee902 ;
+    msh:forecastProbability "0.14"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_sag_best_ensemble_cast_2025_Hamnet_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Hamnet win the SAG Award for Outstanding Performance by a Cast in a Motion Picture (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_outstanding_performance_by_a_cast_in_a_motion_picture_hamnet_9994a9453fbe9c15 ;
+    msh:forecastProbability "0.029"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+

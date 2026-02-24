@@ -1261,7 +1261,7 @@ msh:Nomination_sag_1998_outstanding_performance_by_a_cast_in_a_motion_picture_li
     rdfs:label "SAG - 1998 - Outstanding Performance by a Cast in a Motion Picture - Life Is Beautiful ( La vita è bella )" ;
     msh:hasCategory msh:Category_sag_Outstanding_Performance_by_a_Cast_in_a_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_sag_1998 ;
-    msh:hasFilm msh:Film_Life_Is_Beautiful_La_vita_bella_1998 ;
+    msh:hasFilm msh:Film_Life_Is_Beautiful_1998 ;
     msh:hasNominee msh:Person_Amerigo_Fontani,
         msh:Person_Giorgio_Cantarini,
         msh:Person_Giuliana_Lojodice,
@@ -4273,7 +4273,7 @@ msh:Nomination_sag_2009_actor_award_for_outstanding_performance_by_a_female_acto
     rdfs:label "SAG - 2009 - Actor Award for Outstanding Performance by a Female Actor in a Leading Role - Precious" ;
     msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Female_Actor_in_a_Leading_Role ;
     msh:hasCeremony msh:Ceremony_sag_2009 ;
-    msh:hasFilm msh:Film_Precious_2009 ;
+    msh:hasFilm msh:Film_Precious_Based_on_the_Novel_Push_by_Sapphire_2009 ;
     msh:hasNominee msh:Person_Gabourey_Sidibe ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
@@ -4323,7 +4323,7 @@ msh:Nomination_sag_2009_actor_award_for_outstanding_performance_by_a_female_acto
     rdfs:label "SAG - 2009 - Actor Award for Outstanding Performance by a Female Actor in a Supporting Role - Precious" ;
     msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Female_Actor_in_a_Supporting_Role ;
     msh:hasCeremony msh:Ceremony_sag_2009 ;
-    msh:hasFilm msh:Film_Precious_2009 ;
+    msh:hasFilm msh:Film_Precious_Based_on_the_Novel_Push_by_Sapphire_2009 ;
     msh:hasNominee msh:Person_MoNique ;
     msh:nomineeType "PERSON" ;
     msh:winner true ;
@@ -4502,7 +4502,7 @@ msh:Nomination_sag_2009_outstanding_performance_by_a_cast_in_a_motion_picture_pr
     rdfs:label "SAG - 2009 - Outstanding Performance by a Cast in a Motion Picture - Precious" ;
     msh:hasCategory msh:Category_sag_Outstanding_Performance_by_a_Cast_in_a_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_sag_2009 ;
-    msh:hasFilm msh:Film_Precious_2009 ;
+    msh:hasFilm msh:Film_Precious_Based_on_the_Novel_Push_by_Sapphire_2009 ;
     msh:hasNominee msh:Person_Gabourey_Sidibe,
         msh:Person_Lenny_Kravitz,
         msh:Person_Mariah_Carey,
@@ -5735,7 +5735,7 @@ msh:Nomination_sag_2014_actor_award_for_outstanding_performance_by_a_female_acto
     rdfs:label "SAG - 2014 - Actor Award for Outstanding Performance by a Female Actor in a Supporting Role - Birdman" ;
     msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Female_Actor_in_a_Supporting_Role ;
     msh:hasCeremony msh:Ceremony_sag_2014 ;
-    msh:hasFilm msh:Film_Birdman_2014 ;
+    msh:hasFilm msh:Film_Birdman_or_The_Unexpected_Virtue_of_Ignorance_2014 ;
     msh:hasNominee msh:Person_Emma_Stone ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
@@ -5785,7 +5785,7 @@ msh:Nomination_sag_2014_actor_award_for_outstanding_performance_by_a_male_actor_
     rdfs:label "SAG - 2014 - Actor Award for Outstanding Performance by a Male Actor in a Leading Role - Birdman" ;
     msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Male_Actor_in_a_Leading_Role ;
     msh:hasCeremony msh:Ceremony_sag_2014 ;
-    msh:hasFilm msh:Film_Birdman_2014 ;
+    msh:hasFilm msh:Film_Birdman_or_The_Unexpected_Virtue_of_Ignorance_2014 ;
     msh:hasNominee msh:Person_Michael_Keaton ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
@@ -5835,7 +5835,7 @@ msh:Nomination_sag_2014_actor_award_for_outstanding_performance_by_a_male_actor_
     rdfs:label "SAG - 2014 - Actor Award for Outstanding Performance by a Male Actor in a Supporting Role - Birdman" ;
     msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Male_Actor_in_a_Supporting_Role ;
     msh:hasCeremony msh:Ceremony_sag_2014 ;
-    msh:hasFilm msh:Film_Birdman_2014 ;
+    msh:hasFilm msh:Film_Birdman_or_The_Unexpected_Virtue_of_Ignorance_2014 ;
     msh:hasNominee msh:Person_Edward_Norton ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
@@ -5885,7 +5885,7 @@ msh:Nomination_sag_2014_outstanding_performance_by_a_cast_in_a_motion_picture_bi
     rdfs:label "SAG - 2014 - Outstanding Performance by a Cast in a Motion Picture - Birdman" ;
     msh:hasCategory msh:Category_sag_Outstanding_Performance_by_a_Cast_in_a_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_sag_2014 ;
-    msh:hasFilm msh:Film_Birdman_2014 ;
+    msh:hasFilm msh:Film_Birdman_or_The_Unexpected_Virtue_of_Ignorance_2014 ;
     msh:hasNominee msh:Person_Amy_Ryan,
         msh:Person_Andrea_Riseborough,
         msh:Person_Edward_Norton,
@@ -6572,7 +6572,7 @@ msh:Nomination_sag_2017_actor_award_for_outstanding_performance_by_a_female_acto
     rdfs:label "SAG - 2017 - Actor Award for Outstanding Performance by a Female Actor in a Leading Role - Three Billboards Outside Ebbing, Missouri" ;
     msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Female_Actor_in_a_Leading_Role ;
     msh:hasCeremony msh:Ceremony_sag_2017 ;
-    msh:hasFilm msh:Film_Three_Billboards_Outside_Ebbing_Missouri_2017 ;
+    msh:hasFilm msh:Film_Three_Billboards_outside_Ebbing_Missouri_2017 ;
     msh:hasNominee msh:Person_Frances_McDormand ;
     msh:nomineeType "PERSON" ;
     msh:winner true ;
@@ -6722,7 +6722,7 @@ msh:Nomination_sag_2017_actor_award_for_outstanding_performance_by_a_male_actor_
     rdfs:label "SAG - 2017 - Actor Award for Outstanding Performance by a Male Actor in a Supporting Role - Three Billboards Outside Ebbing, Missouri" ;
     msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Male_Actor_in_a_Supporting_Role ;
     msh:hasCeremony msh:Ceremony_sag_2017 ;
-    msh:hasFilm msh:Film_Three_Billboards_Outside_Ebbing_Missouri_2017 ;
+    msh:hasFilm msh:Film_Three_Billboards_outside_Ebbing_Missouri_2017 ;
     msh:hasNominee msh:Person_Sam_Rockwell ;
     msh:nomineeType "PERSON" ;
     msh:winner true ;
@@ -6732,7 +6732,7 @@ msh:Nomination_sag_2017_actor_award_for_outstanding_performance_by_a_male_actor_
     rdfs:label "SAG - 2017 - Actor Award for Outstanding Performance by a Male Actor in a Supporting Role - Three Billboards Outside Ebbing, Missouri" ;
     msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Male_Actor_in_a_Supporting_Role ;
     msh:hasCeremony msh:Ceremony_sag_2017 ;
-    msh:hasFilm msh:Film_Three_Billboards_Outside_Ebbing_Missouri_2017 ;
+    msh:hasFilm msh:Film_Three_Billboards_outside_Ebbing_Missouri_2017 ;
     msh:hasNominee msh:Person_Woody_Harrelson ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
@@ -6810,7 +6810,7 @@ msh:Nomination_sag_2017_outstanding_performance_by_a_cast_in_a_motion_picture_th
     rdfs:label "SAG - 2017 - Outstanding Performance by a Cast in a Motion Picture - Three Billboards Outside Ebbing, Missouri" ;
     msh:hasCategory msh:Category_sag_Outstanding_Performance_by_a_Cast_in_a_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_sag_2017 ;
-    msh:hasFilm msh:Film_Three_Billboards_Outside_Ebbing_Missouri_2017 ;
+    msh:hasFilm msh:Film_Three_Billboards_outside_Ebbing_Missouri_2017 ;
     msh:hasNominee msh:Person_Abbie_Cornish,
         msh:Person_Caleb_Landry_Jones,
         msh:Person_Clarke_Peters,
@@ -7229,7 +7229,7 @@ msh:Nomination_sag_2019_actor_award_for_outstanding_performance_by_a_male_actor_
     rdfs:label "SAG - 2019 - Actor Award for Outstanding Performance by a Male Actor in a Leading Role - Once Upon a Time in Hollywood" ;
     msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Male_Actor_in_a_Leading_Role ;
     msh:hasCeremony msh:Ceremony_sag_2019 ;
-    msh:hasFilm msh:Film_Once_Upon_a_Time_in_Hollywood_2019 ;
+    msh:hasFilm msh:Film_Once_upon_a_Time_in_Hollywood_2019 ;
     msh:hasNominee msh:Person_Leonardo_DiCaprio ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
@@ -7269,7 +7269,7 @@ msh:Nomination_sag_2019_actor_award_for_outstanding_performance_by_a_male_actor_
     rdfs:label "SAG - 2019 - Actor Award for Outstanding Performance by a Male Actor in a Supporting Role - Once Upon a Time in Hollywood" ;
     msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Male_Actor_in_a_Supporting_Role ;
     msh:hasCeremony msh:Ceremony_sag_2019 ;
-    msh:hasFilm msh:Film_Once_Upon_a_Time_in_Hollywood_2019 ;
+    msh:hasFilm msh:Film_Once_upon_a_Time_in_Hollywood_2019 ;
     msh:hasNominee msh:Person_Brad_Pitt ;
     msh:nomineeType "PERSON" ;
     msh:winner true ;
@@ -7324,7 +7324,7 @@ msh:Nomination_sag_2019_outstanding_performance_by_a_cast_in_a_motion_picture_on
     rdfs:label "SAG - 2019 - Outstanding Performance by a Cast in a Motion Picture - Once Upon a Time in Hollywood" ;
     msh:hasCategory msh:Category_sag_Outstanding_Performance_by_a_Cast_in_a_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_sag_2019 ;
-    msh:hasFilm msh:Film_Once_Upon_a_Time_in_Hollywood_2019 ;
+    msh:hasFilm msh:Film_Once_upon_a_Time_in_Hollywood_2019 ;
     msh:hasNominee msh:Person_Al_Pacino,
         msh:Person_Austin_Butler,
         msh:Person_Brad_Pitt,
@@ -7433,7 +7433,7 @@ msh:Nomination_sag_2020_actor_award_for_outstanding_performance_by_a_female_acto
     rdfs:label "SAG - 2020 - Actor Award for Outstanding Performance by a Female Actor in a Supporting Role - Borat Subsequent Moviefilm" ;
     msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Female_Actor_in_a_Supporting_Role ;
     msh:hasCeremony msh:Ceremony_sag_2020 ;
-    msh:hasFilm msh:Film_Borat_Subsequent_Moviefilm_2020 ;
+    msh:hasFilm msh:Film_Borat_Subsequent_Moviefilm_Delivery_of_Prodigious_Bribe_to_American_Regime_for_Make_Benefit_Once_Glorious_Nation_of_Kazakhstan_2020 ;
     msh:hasNominee msh:Person_Maria_Bakalova ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
@@ -7454,7 +7454,7 @@ msh:Nomination_sag_2020_actor_award_for_outstanding_performance_by_a_female_acto
     msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Female_Actor_in_a_Supporting_Role ;
     msh:hasCeremony msh:Ceremony_sag_2020 ;
     msh:hasFilm msh:Film_Minari_2020 ;
-    msh:hasNominee msh:Person_Yuh_jung_Youn ;
+    msh:hasNominee msh:Person_Yuh_Jung_Youn ;
     msh:nomineeType "PERSON" ;
     msh:winner true ;
     msh:yearFilm "2020"^^xsd:gYear .
@@ -7817,7 +7817,7 @@ msh:Nomination_sag_2021_actor_award_for_outstanding_performance_by_a_male_actor_
     rdfs:label "SAG - 2021 - Actor Award for Outstanding Performance by a Male Actor in a Leading Role - Tick, Tick...Boom!" ;
     msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Male_Actor_in_a_Leading_Role ;
     msh:hasCeremony msh:Ceremony_sag_2021 ;
-    msh:hasFilm msh:Film_Tick_Tick_Boom_2021 ;
+    msh:hasFilm msh:Film_tick_tick_BOOM_2021 ;
     msh:hasNominee msh:Person_Andrew_Garfield ;
     msh:nomineeType "PERSON" ;
     msh:winner false ;
@@ -9059,7 +9059,7 @@ msh:Nomination_sag_2025_outstanding_performance_by_a_cast_in_a_motion_picture_on
     msh:hasCategory msh:Category_sag_Outstanding_Performance_by_a_Cast_in_a_Motion_Picture ;
     msh:hasCeremony msh:Ceremony_sag_2025 ;
     msh:hasFilm msh:Film_One_Battle_After_Another_2025 ;
-    msh:hasNominee msh:Person_Benicio_Del_Toro,
+    msh:hasNominee msh:Person_Benicio_del_Toro,
         msh:Person_Chase_Infiniti,
         msh:Person_Leonardo_DiCaprio,
         msh:Person_Regina_Hall,

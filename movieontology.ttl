@@ -533,16 +533,48 @@ MovieSHACL3:Film-releaseYear
         sh:datatype  xsd:gYear;
         sh:minCount  1 .
 
+MovieSHACL3:AwardConcept
+        rdfs:subClassOf  owl:Thing;
+        rdf:type         sh:NodeShape;
+        rdf:type         owl:Class;
+        rdfs:label       "AwardConcept"@en;
+        rdfs:comment     "An abstract achievement concept that groups equivalent award categories across different award systems (e.g., 'Best Male Lead Actor' groups Oscar Best Actor, SAG Male Lead, BAFTA Best Actor, and Golden Globe Drama/Comedy Actor). Used to enable cross-system feature extraction without ad-hoc string matching.\n"@en;
+        sh:property      MovieSHACL3:AwardConcept-label;
+        sh:property      MovieSHACL3:AwardConcept-description .
+
+MovieSHACL3:AwardConcept-label
+        rdf:type       sh:PropertyShape;
+        graphql:name   "labels";
+        sh:name        "labels";
+        sh:path        rdfs:label;
+        sh:or          dash:StringOrLangString;
+        sh:singleLine  true .
+
+MovieSHACL3:AwardConcept-description
+        rdf:type     sh:PropertyShape;
+        sh:name      "description";
+        sh:path      MovieSHACL3:description;
+        sh:maxCount  1;
+        sh:datatype  xsd:string .
+
 MovieSHACL3:AwardCategory
         rdfs:subClassOf  owl:Thing;
         rdf:type         sh:NodeShape;
         rdf:type         owl:Class;
         rdfs:label       "AwardCategory";
-        rdfs:comment     "A specific award category within an award system (e.g., Best Picture for Oscars, Best Film for BAFTA). Categories are system-specific and not normalized across systems in Phase 1.\n"@en;
+        rdfs:comment     "A specific award category within an award system (e.g., Best Picture for Oscars, Best Film for BAFTA). Categories may be linked to an abstract AwardConcept via msh:realizationOf to enable cross-system alignment.\n"@en;
         sh:property      MovieSHACL3:AwardCategory-categoryName;
         sh:property      MovieSHACL3:AwardCategory-label;
         sh:property      MovieSHACL3:AwardCategory-hasAwardSystem;
-        sh:property      MovieSHACL3:AwardCategory-description .
+        sh:property      MovieSHACL3:AwardCategory-description;
+        sh:property      MovieSHACL3:AwardCategory-realizationOf .
+
+MovieSHACL3:AwardCategory-realizationOf
+        rdf:type     sh:PropertyShape;
+        sh:nodeKind  sh:IRI;
+        sh:class     MovieSHACL3:AwardConcept;
+        sh:name      "realizationOf";
+        sh:path      MovieSHACL3:realizationOf .
 
 MovieSHACL3:AwardCategory-categoryName
         rdf:type     sh:PropertyShape;
@@ -723,3 +755,106 @@ MovieSHACL3:Film-enrichedAt
         sh:maxCount  1;
         sh:datatype  xsd:date;
         rdfs:comment "Date when enrichment data was collected from external APIs." .
+
+# ── Forecast classes ────────────────────────────────────────────────────────
+
+MovieSHACL3:ForecastSet
+        rdfs:subClassOf  owl:Thing;
+        rdf:type         owl:Class;
+        rdfs:label       "ForecastSet";
+        rdfs:comment     "A set of probabilistic predictions produced by one model run for a specific award category and ceremony year." .
+
+MovieSHACL3:Forecast
+        rdfs:subClassOf  owl:Thing;
+        rdf:type         owl:Class;
+        rdfs:label       "Forecast";
+        rdfs:comment     "A single binary probabilistic prediction about whether a specific nominee will win an award." .
+
+MovieSHACL3:hasForecast
+        rdf:type         owl:ObjectProperty;
+        rdfs:domain      MovieSHACL3:ForecastSet;
+        rdfs:range       MovieSHACL3:Forecast;
+        rdfs:label       "hasForecast" .
+
+MovieSHACL3:predictsNomination
+        rdf:type         owl:ObjectProperty;
+        rdfs:domain      MovieSHACL3:Forecast;
+        rdfs:range       MovieSHACL3:Nomination;
+        rdfs:label       "predictsNomination";
+        rdfs:comment     "Links a Forecast to the specific Nomination it predicts will resolve as a win." .
+
+MovieSHACL3:forecastQuestion
+        rdf:type         owl:DatatypeProperty;
+        rdfs:domain      MovieSHACL3:Forecast;
+        rdfs:range       xsd:string;
+        rdfs:label       "forecastQuestion";
+        rdfs:comment     "Natural-language question resolved by this forecast (e.g. 'Will X win the SAG Award for Best Actor (2025)?')." .
+
+MovieSHACL3:forecastProbability
+        rdf:type         owl:DatatypeProperty;
+        rdfs:domain      MovieSHACL3:Forecast;
+        rdfs:range       xsd:decimal;
+        rdfs:label       "forecastProbability";
+        rdfs:comment     "Model-assigned probability (0–1) that the linked nomination resolves as a win." .
+
+MovieSHACL3:loggedAt
+        rdf:type         owl:DatatypeProperty;
+        rdfs:domain      MovieSHACL3:Forecast;
+        rdfs:range       xsd:date;
+        rdfs:label       "loggedAt";
+        rdfs:comment     "Date on which this forecast was recorded, before the outcome was known." .
+
+MovieSHACL3:forecastSetSystem
+        rdf:type         owl:DatatypeProperty;
+        rdfs:domain      MovieSHACL3:ForecastSet;
+        rdfs:range       xsd:string;
+        rdfs:label       "forecastSetSystem";
+        rdfs:comment     "Award system alias (e.g. 'sag', 'oscars')." .
+
+MovieSHACL3:forecastSetCategory
+        rdf:type         owl:DatatypeProperty;
+        rdfs:domain      MovieSHACL3:ForecastSet;
+        rdfs:range       xsd:string;
+        rdfs:label       "forecastSetCategory";
+        rdfs:comment     "Category alias (e.g. 'best_actor', 'best_ensemble_cast')." .
+
+MovieSHACL3:forecastSetYear
+        rdf:type         owl:DatatypeProperty;
+        rdfs:domain      MovieSHACL3:ForecastSet;
+        rdfs:range       xsd:gYear;
+        rdfs:label       "forecastSetYear";
+        rdfs:comment     "Film year for which predictions were made." .
+
+MovieSHACL3:forecastSetLoggedAt
+        rdf:type         owl:DatatypeProperty;
+        rdfs:domain      MovieSHACL3:ForecastSet;
+        rdfs:range       xsd:date;
+        rdfs:label       "forecastSetLoggedAt" .
+
+MovieSHACL3:forecastSetModelType
+        rdf:type         owl:DatatypeProperty;
+        rdfs:domain      MovieSHACL3:ForecastSet;
+        rdfs:range       xsd:string;
+        rdfs:label       "forecastSetModelType";
+        rdfs:comment     "Model type used (e.g. 'GB', 'LR+RF')." .
+
+MovieSHACL3:forecastSetFeatures
+        rdf:type         owl:DatatypeProperty;
+        rdfs:domain      MovieSHACL3:ForecastSet;
+        rdfs:range       xsd:string;
+        rdfs:label       "forecastSetFeatures";
+        rdfs:comment     "Comma-separated list of features used by the model." .
+
+MovieSHACL3:forecastSetAUC
+        rdf:type         owl:DatatypeProperty;
+        rdfs:domain      MovieSHACL3:ForecastSet;
+        rdfs:range       xsd:decimal;
+        rdfs:label       "forecastSetAUC";
+        rdfs:comment     "Backtest AUC of the model at time of logging." .
+
+MovieSHACL3:forecastSetTop1Pct
+        rdf:type         owl:DatatypeProperty;
+        rdfs:domain      MovieSHACL3:ForecastSet;
+        rdfs:range       xsd:decimal;
+        rdfs:label       "forecastSetTop1Pct";
+        rdfs:comment     "Backtest top-1 accuracy (0–1) of the model at time of logging." .
