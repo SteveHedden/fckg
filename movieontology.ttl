@@ -1,29 +1,32 @@
 # baseURI: urn:x-evn-master:movieontology
-
-BASE   <urn:x-evn-master:movieontology>
-PREFIX metadata: <http://topbraid.org/metadata#>
-PREFIX teamwork: <http://topbraid.org/teamwork#>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX sh: <http://www.w3.org/ns/shacl#>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX MovieSHACL3: <http://example.org/ontologies/MovieSHACL3#>
-PREFIX graphql: <http://datashapes.org/graphql#>
-PREFIX dash: <http://datashapes.org/dash#>
+@prefix metadata: <http://topbraid.org/metadata#> .
+@prefix teamwork: <http://topbraid.org/teamwork#> .
+@prefix swa: <http://topbraid.org/swa#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix msh: <http://example.org/ontologies/MovieSHACL3#> .
+@prefix MovieSHACL3: <http://example.org/ontologies/MovieSHACL3#> .
+@prefix graphql: <http://datashapes.org/graphql#> .
+@prefix dash: <http://datashapes.org/dash#> .
 
 <urn:x-evn-master:movieontology>
-        owl:imports          <http://datashapes.org/graphql>;
-        rdf:type             owl:Ontology;
-        <http://topbraid.org/swa#defaultNamespace>  "http://example.org/ontologies/MovieOntology#";
-        rdfs:label           "MovieSHACL";
-        metadata:status      metadata:UnderDevelopmentStatus;
+        a <http://teamwork.topbraidlive.org/ontologyprojects#Ontology> ;
+        a teamwork:Vocabulary ;
+        a owl:Ontology ;
         graphql:publicClass  MovieSHACL3:Person;
         graphql:publicClass  MovieSHACL3:Film;
         graphql:publicClass  MovieSHACL3:Award;
         graphql:publicClass  MovieSHACL3:AwardCategory;
         graphql:publicClass  MovieSHACL3:Nomination;
-        graphql:publicClass  MovieSHACL3:AwardSystem .
+        graphql:publicClass  MovieSHACL3:AwardSystem;
+        metadata:status      metadata:UnderDevelopmentStatus ;
+        swa:defaultNamespace "http://example.org/ontologies/MovieSHACL3#" ;
+        rdfs:label           "MovieSHACL" ;
+        owl:imports <http://datashapes.org/graphql> ;
+        owl:imports <http://topbraid.org/teamworkconstraints> .
 
 MovieSHACL3:Actor  rdfs:subClassOf  MovieSHACL3:Person;
         rdf:type         sh:NodeShape;
@@ -44,7 +47,19 @@ MovieSHACL3:Person  rdfs:subClassOf  owl:Thing;
         sh:property      MovieSHACL3:Person-hasIdentifier;
         sh:property      MovieSHACL3:Person-entityType;
         sh:property      MovieSHACL3:Person-label;
-        sh:property      MovieSHACL3:Person-hasNomination .
+        sh:property      MovieSHACL3:Person-hasNomination;
+        sh:property      MovieSHACL3:Person-nominatedFilms;
+        sh:rule [
+            a sh:SPARQLRule ;
+            sh:construct """
+                PREFIX msh: <http://example.org/ontologies/MovieSHACL3#>
+                CONSTRUCT { $this msh:nominatedFor ?film }
+                WHERE {
+                    ?nom msh:hasNominee $this ;
+                         msh:hasFilm ?film .
+                }
+            """ ;
+        ] .
 
 MovieSHACL3:Person-fullName
         rdf:type     sh:PropertyShape;
@@ -514,6 +529,19 @@ MovieSHACL3:Person-hasNomination
         sh:class     MovieSHACL3:Nomination;
         sh:name      "nominations";
         sh:path      [ sh:inversePath MovieSHACL3:hasNominee ] .
+
+MovieSHACL3:nominatedFor
+        rdf:type    owl:ObjectProperty ;
+        rdfs:label  "Nominated Films" ;
+        rdfs:domain MovieSHACL3:Person ;
+        rdfs:range  MovieSHACL3:Film .
+
+MovieSHACL3:Person-nominatedFilms
+        rdf:type     sh:PropertyShape;
+        sh:nodeKind  sh:IRI;
+        sh:class     MovieSHACL3:Film;
+        sh:name      "nominatedFilms";
+        sh:path      MovieSHACL3:nominatedFor .
 
 MovieSHACL3:Film-wikidataId
         rdf:type     sh:PropertyShape;

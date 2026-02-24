@@ -1,10 +1,22 @@
+# baseURI: urn:x-evn-master:people
 @prefix msh: <http://example.org/ontologies/MovieSHACL3#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix datagraph: <http://teamwork.topbraidlive.org/datagraph/datagraphprojects#> .
+@prefix metadata: <http://topbraid.org/metadata#> .
+@prefix teamwork: <http://topbraid.org/teamwork#> .
+@prefix swa: <http://topbraid.org/swa#> .
 
 <urn:x-evn-master:people>
+    a datagraph:DataGraphProject ;
+    a teamwork:Vocabulary ;
     a owl:Ontology ;
+    metadata:status metadata:UnderDevelopmentStatus ;
+    swa:defaultNamespace "http://example.org/ontologies/MovieSHACL3#" ;
+    rdfs:label "People" ;
     owl:imports <urn:x-evn-master:movieontology> ;
+    owl:imports <urn:x-evn-master:films> ;
+    owl:imports <urn:x-evn-master:oscar_nominations> ;
 .
 
 
