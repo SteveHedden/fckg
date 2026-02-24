@@ -1,12 +1,12 @@
 Category: best_actor
 Award system: bafta
-Model: LR+RF
-Features: ['writing_noms', 'previous_actor_wins', 'globe_actor_winner', 'runtime', 'num_wikidata_awards', 'log_revenue', 'budget_revenue_ratio', 'imdb_rating', 'metacritic_score']
+Model: RF
+Features: ['acting_noms', 'cinematography_nom', 'directing_nom', 'writing_noms', 'above_line_noms', 'other_noms', 'pga_winner', 'globe_winner', 'revenue', 'runtime', 'vote_average', 'vote_count', 'popularity', 'imdb_rating', 'rotten_tomatoes_pct', 'log_revenue', 'budget_revenue_ratio', 'english_language', 'has_tagline', 'genre_action', 'genre_adventure', 'genre_comedy', 'genre_drama', 'genre_family', 'genre_fantasy', 'genre_history', 'genre_horror', 'genre_mystery', 'genre_science_fiction', 'genre_thriller', 'genre_war', 'num_production_companies', 'num_wikidata_awards', 'palme_dor', 'cannes_grand_prix', 'golden_lion', 'country_uk', 'country_non_english', 'previous_all_wins', 'previous_actor_nominations', 'previous_actor_wins', 'golden_globes_actor_nominee', 'golden_globes_actor_winner', 'oscars_actor_nominee', 'oscars_actor_winner', 'sag_actor_nominee', 'sag_actor_winner']
 Years: 2016..2025
-n_years: 9
-AUC: 0.8244
-top1: 5
-top1_pct: 55.6%
+n_years: 10
+AUC: 0.8432
+top1: 8
+top1_pct: 80.0%
 top3: 8
-top3_pct: 88.9%
-avg_rank: 1.6667
+top3_pct: 80.0%
+avg_rank: 1.8000

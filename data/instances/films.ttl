@@ -109393,6 +109393,11 @@ msh:msh-local-film a msh:IdentifierScheme ;
 msh:wikidata a msh:IdentifierScheme ;
     rdfs:label "wikidata" .
 
+msh:Film_I_Swear_2025 a msh:Film ;
+    rdfs:label "I Swear" ;
+    msh:releaseYear "2025"^^xsd:gYear ;
+    msh:title "I Swear" .
+
 msh:imdb a msh:IdentifierScheme ;
     rdfs:label "imdb" .
 

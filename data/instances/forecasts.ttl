@@ -243,3 +243,692 @@ msh:Forecast_sag_best_ensemble_cast_2025_Hamnet_20260224 a msh:Forecast ;
     msh:forecastProbability "0.029"^^xsd:decimal ;
     msh:loggedAt "2026-02-24"^^xsd:date .
 
+
+# ForecastSet: kalshi_market sag/best_actor/2025 logged 2026-02-24
+msh:ForecastSet_kalshimarket_sag_best_actor_2025_20260224 a msh:ForecastSet ;
+    rdfs:label "sag best_actor 2025 Kalshi market logged 2026-02-24" ;
+    msh:forecastSetSource "kalshi_market" ;
+    msh:forecastSetSystem "sag" ;
+    msh:forecastSetCategory "best_actor" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-02-24"^^xsd:date ;
+    msh:hasForecast msh:Forecast_kalshi_market_sag_best_actor_2025_Leonardo_DiCaprio_20260224,
+        msh:Forecast_kalshi_market_sag_best_actor_2025_Ethan_Hawke_20260224,
+        msh:Forecast_kalshi_market_sag_best_actor_2025_Jesse_Plemons_20260224,
+        msh:Forecast_kalshi_market_sag_best_actor_2025_Michael_B_Jordan_20260224,
+        msh:Forecast_kalshi_market_sag_best_actor_2025_Timoth_e_Chalamet_20260224 .
+
+msh:Forecast_kalshi_market_sag_best_actor_2025_Leonardo_DiCaprio_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Leonardo DiCaprio win the SAG Award for Outstanding Performance by a Male Actor in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_one_battle_after_another_5b194ce37f170606 ;
+    msh:forecastProbability "0.086538"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_kalshi_market_sag_best_actor_2025_Ethan_Hawke_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Ethan Hawke win the SAG Award for Outstanding Performance by a Male Actor in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_blue_moon_a9d6c399e639a2ac ;
+    msh:forecastProbability "0.076923"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_kalshi_market_sag_best_actor_2025_Jesse_Plemons_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Jesse Plemons win the SAG Award for Outstanding Performance by a Male Actor in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_bugonia_d43c6cb7ccbd717a ;
+    msh:forecastProbability "0.028846"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_kalshi_market_sag_best_actor_2025_Michael_B_Jordan_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Michael B. Jordan win the SAG Award for Outstanding Performance by a Male Actor in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_sinners_e3ea26cab39a2e28 ;
+    msh:forecastProbability "0.182692"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_kalshi_market_sag_best_actor_2025_Timoth_e_Chalamet_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Timothée Chalamet win the SAG Award for Outstanding Performance by a Male Actor in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_marty_supreme_2ee7a623c049e2a8 ;
+    msh:forecastProbability "0.625"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+
+# ForecastSet: kalshi_market sag/best_actress/2025 logged 2026-02-24
+msh:ForecastSet_kalshimarket_sag_best_actress_2025_20260224 a msh:ForecastSet ;
+    rdfs:label "sag best_actress 2025 Kalshi market logged 2026-02-24" ;
+    msh:forecastSetSource "kalshi_market" ;
+    msh:forecastSetSystem "sag" ;
+    msh:forecastSetCategory "best_actress" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-02-24"^^xsd:date ;
+    msh:hasForecast msh:Forecast_kalshi_market_sag_best_actress_2025_Jessie_Buckley_20260224,
+        msh:Forecast_kalshi_market_sag_best_actress_2025_Rose_Byrne_20260224,
+        msh:Forecast_kalshi_market_sag_best_actress_2025_Chase_Infiniti_20260224,
+        msh:Forecast_kalshi_market_sag_best_actress_2025_Emma_Stone_20260224,
+        msh:Forecast_kalshi_market_sag_best_actress_2025_Kate_Hudson_20260224 .
+
+msh:Forecast_kalshi_market_sag_best_actress_2025_Jessie_Buckley_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Jessie Buckley win the SAG Award for Outstanding Performance by a Female Actor in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_female_actor_in_a_leading_role_hamnet_5e84dbd21fdff70b ;
+    msh:forecastProbability "0.910891"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_kalshi_market_sag_best_actress_2025_Rose_Byrne_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Rose Byrne win the SAG Award for Outstanding Performance by a Female Actor in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_female_actor_in_a_leading_role_if_i_had_legs_id_kick_you_c23cc762b2724e25 ;
+    msh:forecastProbability "0.059406"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_kalshi_market_sag_best_actress_2025_Chase_Infiniti_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Chase Infiniti win the SAG Award for Outstanding Performance by a Female Actor in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_female_actor_in_a_leading_role_one_battle_after_another_df5d518cc7002a8d ;
+    msh:forecastProbability "0.009901"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_kalshi_market_sag_best_actress_2025_Emma_Stone_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Emma Stone win the SAG Award for Outstanding Performance by a Female Actor in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_female_actor_in_a_leading_role_bugonia_e757e5ab0beea47c ;
+    msh:forecastProbability "0.009901"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_kalshi_market_sag_best_actress_2025_Kate_Hudson_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Kate Hudson win the SAG Award for Outstanding Performance by a Female Actor in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_female_actor_in_a_leading_role_song_sung_blue_4671464f85f15133 ;
+    msh:forecastProbability "0.009901"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+
+# ForecastSet: kalshi_market sag/best_supporting_actor/2025 logged 2026-02-24
+msh:ForecastSet_kalshimarket_sag_best_supporting_actor_2025_20260224 a msh:ForecastSet ;
+    rdfs:label "sag best_supporting_actor 2025 Kalshi market logged 2026-02-24" ;
+    msh:forecastSetSource "kalshi_market" ;
+    msh:forecastSetSystem "sag" ;
+    msh:forecastSetCategory "best_supporting_actor" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-02-24"^^xsd:date ;
+    msh:hasForecast msh:Forecast_kalshi_market_sag_best_supporting_actor_2025_Benicio_del_Toro_20260224,
+        msh:Forecast_kalshi_market_sag_best_supporting_actor_2025_Jacob_Elordi_20260224,
+        msh:Forecast_kalshi_market_sag_best_supporting_actor_2025_Paul_Mescal_20260224,
+        msh:Forecast_kalshi_market_sag_best_supporting_actor_2025_Sean_Penn_20260224 .
+
+msh:Forecast_kalshi_market_sag_best_supporting_actor_2025_Benicio_del_Toro_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Benicio del Toro win the SAG Award for Outstanding Performance by a Male Actor in a Supporting Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_in_a_supporting_role_one_battle_after_another_d81fbdff4875d941 ;
+    msh:forecastProbability "0.21875"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_kalshi_market_sag_best_supporting_actor_2025_Jacob_Elordi_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Jacob Elordi win the SAG Award for Outstanding Performance by a Male Actor in a Supporting Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_in_a_supporting_role_frankenstein_33eff09e317a9336 ;
+    msh:forecastProbability "0.25"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_kalshi_market_sag_best_supporting_actor_2025_Paul_Mescal_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Paul Mescal win the SAG Award for Outstanding Performance by a Male Actor in a Supporting Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_in_a_supporting_role_hamnet_94e009623c5e4ca5 ;
+    msh:forecastProbability "0.020833"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_kalshi_market_sag_best_supporting_actor_2025_Sean_Penn_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Sean Penn win the SAG Award for Outstanding Performance by a Male Actor in a Supporting Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_in_a_supporting_role_one_battle_after_another_d81fbdff4875d941 ;
+    msh:forecastProbability "0.510417"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+
+# ForecastSet: kalshi_market sag/best_supporting_actress/2025 logged 2026-02-24
+msh:ForecastSet_kalshimarket_sag_best_supporting_actress_2025_20260224 a msh:ForecastSet ;
+    rdfs:label "sag best_supporting_actress 2025 Kalshi market logged 2026-02-24" ;
+    msh:forecastSetSource "kalshi_market" ;
+    msh:forecastSetSystem "sag" ;
+    msh:forecastSetCategory "best_supporting_actress" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-02-24"^^xsd:date ;
+    msh:hasForecast msh:Forecast_kalshi_market_sag_best_supporting_actress_2025_Teyana_Taylor_20260224,
+        msh:Forecast_kalshi_market_sag_best_supporting_actress_2025_Odessa_A_zion_20260224,
+        msh:Forecast_kalshi_market_sag_best_supporting_actress_2025_Wunmi_Mosaku_20260224,
+        msh:Forecast_kalshi_market_sag_best_supporting_actress_2025_Amy_Madigan_20260224,
+        msh:Forecast_kalshi_market_sag_best_supporting_actress_2025_Ariana_Grande_20260224 .
+
+msh:Forecast_kalshi_market_sag_best_supporting_actress_2025_Teyana_Taylor_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Teyana Taylor win the SAG Award for Outstanding Performance by a Female Actor in a Supporting Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_female_actor_in_a_supporting_role_one_battle_after_another_262e2cd36e6a50dd ;
+    msh:forecastProbability "0.529412"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_kalshi_market_sag_best_supporting_actress_2025_Odessa_A_zion_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Odessa A'zion win the SAG Award for Outstanding Performance by a Female Actor in a Supporting Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_female_actor_in_a_supporting_role_marty_supreme_68769b7986760134 ;
+    msh:forecastProbability "0.019608"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_kalshi_market_sag_best_supporting_actress_2025_Wunmi_Mosaku_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Wunmi Mosaku win the SAG Award for Outstanding Performance by a Female Actor in a Supporting Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_female_actor_in_a_supporting_role_sinners_5ea16309dc06d73e ;
+    msh:forecastProbability "0.22549"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_kalshi_market_sag_best_supporting_actress_2025_Amy_Madigan_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Amy Madigan win the SAG Award for Outstanding Performance by a Female Actor in a Supporting Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_female_actor_in_a_supporting_role_weapons_af411f347e62f698 ;
+    msh:forecastProbability "0.215686"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_kalshi_market_sag_best_supporting_actress_2025_Ariana_Grande_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Ariana Grande win the SAG Award for Outstanding Performance by a Female Actor in a Supporting Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_female_actor_in_a_supporting_role_wicked_for_good_dd611235113952be ;
+    msh:forecastProbability "0.009804"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+
+# ForecastSet: kalshi_market sag/best_ensemble_cast/2025 logged 2026-02-24
+msh:ForecastSet_kalshimarket_sag_best_ensemble_cast_2025_20260224 a msh:ForecastSet ;
+    rdfs:label "sag best_ensemble_cast 2025 Kalshi market logged 2026-02-24" ;
+    msh:forecastSetSource "kalshi_market" ;
+    msh:forecastSetSystem "sag" ;
+    msh:forecastSetCategory "best_ensemble_cast" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-02-24"^^xsd:date ;
+    msh:hasForecast msh:Forecast_kalshi_market_sag_best_ensemble_cast_2025_Marty_Supreme_20260224,
+        msh:Forecast_kalshi_market_sag_best_ensemble_cast_2025_One_Battle_After_Another_20260224,
+        msh:Forecast_kalshi_market_sag_best_ensemble_cast_2025_Sinners_20260224,
+        msh:Forecast_kalshi_market_sag_best_ensemble_cast_2025_Frankenstein_20260224,
+        msh:Forecast_kalshi_market_sag_best_ensemble_cast_2025_Hamnet_20260224 .
+
+msh:Forecast_kalshi_market_sag_best_ensemble_cast_2025_Marty_Supreme_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Marty Supreme win the SAG Award for Outstanding Performance by a Cast in a Motion Picture (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_outstanding_performance_by_a_cast_in_a_motion_picture_marty_supreme_6ce60604054ee902 ;
+    msh:forecastProbability "0.072727"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_kalshi_market_sag_best_ensemble_cast_2025_One_Battle_After_Another_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will One Battle After Another win the SAG Award for Outstanding Performance by a Cast in a Motion Picture (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_outstanding_performance_by_a_cast_in_a_motion_picture_one_battle_after_another_e0f46c8174a06c77 ;
+    msh:forecastProbability "0.327273"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_kalshi_market_sag_best_ensemble_cast_2025_Sinners_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Sinners win the SAG Award for Outstanding Performance by a Cast in a Motion Picture (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_outstanding_performance_by_a_cast_in_a_motion_picture_sinners_de9b57c5ce7ba385 ;
+    msh:forecastProbability "0.581818"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_kalshi_market_sag_best_ensemble_cast_2025_Frankenstein_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Frankenstein win the SAG Award for Outstanding Performance by a Cast in a Motion Picture (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_outstanding_performance_by_a_cast_in_a_motion_picture_frankenstein_d6712e97bdbfc474 ;
+    msh:forecastProbability "0.009091"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+msh:Forecast_kalshi_market_sag_best_ensemble_cast_2025_Hamnet_20260224 a msh:Forecast ;
+    msh:forecastQuestion "Will Hamnet win the SAG Award for Outstanding Performance by a Cast in a Motion Picture (2025)?" ;
+    msh:predictsNomination msh:Nomination_sag_2025_outstanding_performance_by_a_cast_in_a_motion_picture_hamnet_9994a9453fbe9c15 ;
+    msh:forecastProbability "0.009091"^^xsd:decimal ;
+    msh:loggedAt "2026-02-24"^^xsd:date .
+
+
+# ForecastSet: kalshi_market bafta/best_actor/2025 logged 2026-02-21
+msh:ForecastSet_kalshimarket_bafta_best_actor_2025_20260221 a msh:ForecastSet ;
+    rdfs:label "bafta best_actor 2025 Kalshi market logged 2026-02-21" ;
+    msh:forecastSetSource "kalshi_market" ;
+    msh:forecastSetSystem "bafta" ;
+    msh:forecastSetCategory "best_actor" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-02-21"^^xsd:date ;
+    msh:hasForecast msh:Forecast_kalshi_market_bafta_best_actor_2025_Leonardo_DiCaprio_20260221,
+        msh:Forecast_kalshi_market_bafta_best_actor_2025_Michael_B_Jordan_20260221,
+        msh:Forecast_kalshi_market_bafta_best_actor_2025_Robert_Aramayo_20260221,
+        msh:Forecast_kalshi_market_bafta_best_actor_2025_Jesse_Plemons_20260221,
+        msh:Forecast_kalshi_market_bafta_best_actor_2025_Ethan_Hawke_20260221,
+        msh:Forecast_kalshi_market_bafta_best_actor_2025_Timoth_e_Chalamet_20260221 .
+
+msh:Forecast_kalshi_market_bafta_best_actor_2025_Leonardo_DiCaprio_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Leonardo DiCaprio win the BAFTA Award for Best Actor in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actor_in_a_leading_role_one_battle_after_another_5dd9544d35146a08 ;
+    msh:forecastProbability "0.065"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_kalshi_market_bafta_best_actor_2025_Michael_B_Jordan_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Michael B. Jordan win the BAFTA Award for Best Actor in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actor_in_a_leading_role_sinners_95a935fda05c7203 ;
+    msh:forecastProbability "0.02"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_kalshi_market_bafta_best_actor_2025_Robert_Aramayo_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Robert Aramayo win the BAFTA Award for Best Actor in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actor_in_a_leading_role_i_swear_e781108299738a3f ;
+    msh:forecastProbability "0.135"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_kalshi_market_bafta_best_actor_2025_Jesse_Plemons_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Jesse Plemons win the BAFTA Award for Best Actor in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actor_in_a_leading_role_bugonia_13e14a6a8e91b11f ;
+    msh:forecastProbability "0.005"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_kalshi_market_bafta_best_actor_2025_Ethan_Hawke_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Ethan Hawke win the BAFTA Award for Best Actor in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actor_in_a_leading_role_blue_moon_0d373a1207503981 ;
+    msh:forecastProbability "0.02"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_kalshi_market_bafta_best_actor_2025_Timoth_e_Chalamet_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Timothée Chalamet win the BAFTA Award for Best Actor in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actor_in_a_leading_role_marty_supreme_2ff4ba4b33907e7c ;
+    msh:forecastProbability "0.755"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+
+
+# ForecastSet: kalshi_market bafta/best_supporting_actor/2025 logged 2026-02-21
+msh:ForecastSet_kalshimarket_bafta_best_supporting_actor_2025_20260221 a msh:ForecastSet ;
+    rdfs:label "bafta best_supporting_actor 2025 Kalshi market logged 2026-02-21" ;
+    msh:forecastSetSource "kalshi_market" ;
+    msh:forecastSetSystem "bafta" ;
+    msh:forecastSetCategory "best_supporting_actor" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-02-21"^^xsd:date ;
+    msh:hasForecast msh:Forecast_kalshi_market_bafta_best_supporting_actor_2025_Stellan_Skarsg_rd_20260221,
+        msh:Forecast_kalshi_market_bafta_best_supporting_actor_2025_Jacob_Elordi_20260221,
+        msh:Forecast_kalshi_market_bafta_best_supporting_actor_2025_Sean_Penn_20260221,
+        msh:Forecast_kalshi_market_bafta_best_supporting_actor_2025_Paul_Mescal_20260221 .
+
+msh:Forecast_kalshi_market_bafta_best_supporting_actor_2025_Stellan_Skarsg_rd_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Stellan Skarsgård win the BAFTA Award for Best Actor in a Supporting Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actor_in_a_supporting_role_sentimental_value_efa98935c59269ba ;
+    msh:forecastProbability "0.717949"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_kalshi_market_bafta_best_supporting_actor_2025_Jacob_Elordi_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Jacob Elordi win the BAFTA Award for Best Actor in a Supporting Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actor_in_a_supporting_role_frankenstein_5c2d2409e519affe ;
+    msh:forecastProbability "0.051282"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_kalshi_market_bafta_best_supporting_actor_2025_Sean_Penn_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Sean Penn win the BAFTA Award for Best Actor in a Supporting Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actor_in_a_supporting_role_one_battle_after_another_2b016901fc3a4cb8 ;
+    msh:forecastProbability "0.061538"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_kalshi_market_bafta_best_supporting_actor_2025_Paul_Mescal_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Paul Mescal win the BAFTA Award for Best Actor in a Supporting Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actor_in_a_supporting_role_hamnet_c9c0bbb30dbc2eab ;
+    msh:forecastProbability "0.169231"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+
+# ForecastSet: kalshi_market bafta/best_supporting_actress/2025 logged 2026-02-21
+msh:ForecastSet_kalshimarket_bafta_best_supporting_actress_2025_20260221 a msh:ForecastSet ;
+    rdfs:label "bafta best_supporting_actress 2025 Kalshi market logged 2026-02-21" ;
+    msh:forecastSetSource "kalshi_market" ;
+    msh:forecastSetSystem "bafta" ;
+    msh:forecastSetCategory "best_supporting_actress" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-02-21"^^xsd:date ;
+    msh:hasForecast msh:Forecast_kalshi_market_bafta_best_supporting_actress_2025_Inga_Ibsdotter_Lilleaas_20260221,
+        msh:Forecast_kalshi_market_bafta_best_supporting_actress_2025_Emily_Watson_20260221,
+        msh:Forecast_kalshi_market_bafta_best_supporting_actress_2025_Wunmi_Mosaku_20260221,
+        msh:Forecast_kalshi_market_bafta_best_supporting_actress_2025_Teyana_Taylor_20260221 .
+
+msh:Forecast_kalshi_market_bafta_best_supporting_actress_2025_Inga_Ibsdotter_Lilleaas_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Inga Ibsdotter Lilleaas win the BAFTA Award for Best Actress in a Supporting Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actress_in_a_supporting_role_sentimental_value_f086e60c3c589fb2 ;
+    msh:forecastProbability "0.266667"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_kalshi_market_bafta_best_supporting_actress_2025_Emily_Watson_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Emily Watson win the BAFTA Award for Best Actress in a Supporting Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actress_in_a_supporting_role_hamnet_be672099b1711863 ;
+    msh:forecastProbability "0.015385"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_kalshi_market_bafta_best_supporting_actress_2025_Wunmi_Mosaku_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Wunmi Mosaku win the BAFTA Award for Best Actress in a Supporting Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actress_in_a_supporting_role_sinners_4d283506e0183157 ;
+    msh:forecastProbability "0.102564"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_kalshi_market_bafta_best_supporting_actress_2025_Teyana_Taylor_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Teyana Taylor win the BAFTA Award for Best Actress in a Supporting Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actress_in_a_supporting_role_one_battle_after_another_e42ae6feb4f14394 ;
+    msh:forecastProbability "0.615385"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+
+# ForecastSet: kalshi_market bafta/best_film/2025 logged 2026-02-21
+msh:ForecastSet_kalshimarket_bafta_best_film_2025_20260221 a msh:ForecastSet ;
+    rdfs:label "bafta best_film 2025 Kalshi market logged 2026-02-21" ;
+    msh:forecastSetSource "kalshi_market" ;
+    msh:forecastSetSystem "bafta" ;
+    msh:forecastSetCategory "best_film" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-02-21"^^xsd:date ;
+    msh:hasForecast msh:Forecast_kalshi_market_bafta_best_film_2025_Hamnet_20260221,
+        msh:Forecast_kalshi_market_bafta_best_film_2025_Marty_Supreme_20260221,
+        msh:Forecast_kalshi_market_bafta_best_film_2025_Sinners_20260221,
+        msh:Forecast_kalshi_market_bafta_best_film_2025_One_Battle_After_Another_20260221,
+        msh:Forecast_kalshi_market_bafta_best_film_2025_Sentimental_Value_20260221 .
+
+msh:Forecast_kalshi_market_bafta_best_film_2025_Hamnet_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Hamnet win the BAFTA Award for Best Film (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_film_hamnet_2e9f20ecf23cdbfd ;
+    msh:forecastProbability "0.115"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_kalshi_market_bafta_best_film_2025_Marty_Supreme_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Marty Supreme win the BAFTA Award for Best Film (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_film_marty_supreme_00ce6e72c16a4425 ;
+    msh:forecastProbability "0.015"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_kalshi_market_bafta_best_film_2025_Sinners_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Sinners win the BAFTA Award for Best Film (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_film_sinners_10164db51197d300 ;
+    msh:forecastProbability "0.035"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_kalshi_market_bafta_best_film_2025_One_Battle_After_Another_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will One Battle After Another win the BAFTA Award for Best Film (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_film_one_battle_after_another_3f6b9242683fe465 ;
+    msh:forecastProbability "0.82"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_kalshi_market_bafta_best_film_2025_Sentimental_Value_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Sentimental Value win the BAFTA Award for Best Film (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_film_sentimental_value_178f90b2662a8d4d ;
+    msh:forecastProbability "0.015"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+
+# ForecastSet: kalshi_market bafta/best_actress/2025 logged 2026-02-21
+msh:ForecastSet_kalshimarket_bafta_best_actress_2025_20260221 a msh:ForecastSet ;
+    rdfs:label "bafta best_actress 2025 Kalshi market logged 2026-02-21" ;
+    msh:forecastSetSource "kalshi_market" ;
+    msh:forecastSetSystem "bafta" ;
+    msh:forecastSetCategory "best_actress" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-02-21"^^xsd:date ;
+    msh:hasForecast msh:Forecast_kalshi_market_bafta_best_actress_2025_Rose_Byrne_20260221,
+        msh:Forecast_kalshi_market_bafta_best_actress_2025_Jessie_Buckley_20260221,
+        msh:Forecast_kalshi_market_bafta_best_actress_2025_Renate_Reinsve_20260221,
+        msh:Forecast_kalshi_market_bafta_best_actress_2025_Chase_Infiniti_20260221,
+        msh:Forecast_kalshi_market_bafta_best_actress_2025_Kate_Hudson_20260221,
+        msh:Forecast_kalshi_market_bafta_best_actress_2025_Emma_Stone_20260221 .
+
+msh:Forecast_kalshi_market_bafta_best_actress_2025_Rose_Byrne_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Rose Byrne win the BAFTA Award for Best Actress in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actress_in_a_leading_role_if_i_had_legs_id_kick_you_a09677a92b29f084 ;
+    msh:forecastProbability "0.019704"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_kalshi_market_bafta_best_actress_2025_Jessie_Buckley_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Jessie Buckley win the BAFTA Award for Best Actress in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actress_in_a_leading_role_hamnet_1bd837707645cb7f ;
+    msh:forecastProbability "0.960591"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_kalshi_market_bafta_best_actress_2025_Renate_Reinsve_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Renate Reinsve win the BAFTA Award for Best Actress in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actress_in_a_leading_role_sentimental_value_2b9cc7338896191a ;
+    msh:forecastProbability "0.004926"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_kalshi_market_bafta_best_actress_2025_Chase_Infiniti_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Chase Infiniti win the BAFTA Award for Best Actress in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actress_in_a_leading_role_one_battle_after_another_66c15ad4bc687a6f ;
+    msh:forecastProbability "0.004926"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_kalshi_market_bafta_best_actress_2025_Kate_Hudson_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Kate Hudson win the BAFTA Award for Best Actress in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actress_in_a_leading_role_song_sung_blue_8abcfcb71c6750fd ;
+    msh:forecastProbability "0.004926"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_kalshi_market_bafta_best_actress_2025_Emma_Stone_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Emma Stone win the BAFTA Award for Best Actress in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actress_in_a_leading_role_bugonia_bc8a917e5e96a165 ;
+    msh:forecastProbability "0.004926"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+
+# ForecastSet: model bafta/best_actor/2025 logged 2026-02-21
+msh:ForecastSet_model_bafta_best_actor_2025_20260221 a msh:ForecastSet ;
+    rdfs:label "bafta best_actor 2025 model forecast logged 2026-02-21" ;
+    msh:forecastSetSource "model" ;
+    msh:forecastSetSystem "bafta" ;
+    msh:forecastSetCategory "best_actor" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-02-21"^^xsd:date ;
+    msh:forecastSetModelType "RF" ;
+    msh:forecastSetFeatures "acting_noms,cinematography_nom,directing_nom,writing_noms,above_line_noms,other_noms,pga_winner,globe_winner,revenue,runtime,vote_average,vote_count,popularity,imdb_rating,rotten_tomatoes_pct,log_revenue,budget_revenue_ratio,english_language,has_tagline,genre_action,genre_adventure,genre_comedy,genre_drama,genre_family,genre_fantasy,genre_history,genre_horror,genre_mystery,genre_science_fiction,genre_thriller,genre_war,num_production_companies,num_wikidata_awards,palme_dor,cannes_grand_prix,golden_lion,country_uk,country_non_english,previous_all_wins,previous_actor_nominations,previous_actor_wins,golden_globes_actor_nominee,golden_globes_actor_winner,oscars_actor_nominee,oscars_actor_winner,sag_actor_nominee,sag_actor_winner" ;
+    msh:forecastSetAUC "0.8432"^^xsd:decimal ;
+    msh:forecastSetTop1Pct "0.8"^^xsd:decimal ;
+    msh:hasForecast msh:Forecast_model_bafta_best_actor_2025_Timoth_e_Chalamet_20260221,
+        msh:Forecast_model_bafta_best_actor_2025_Leonardo_DiCaprio_20260221,
+        msh:Forecast_model_bafta_best_actor_2025_Michael_B_Jordan_20260221,
+        msh:Forecast_model_bafta_best_actor_2025_Ethan_Hawke_20260221,
+        msh:Forecast_model_bafta_best_actor_2025_Jesse_Plemons_20260221,
+        msh:Forecast_model_bafta_best_actor_2025_Robert_Aramayo_20260221 .
+
+msh:Forecast_model_bafta_best_actor_2025_Timoth_e_Chalamet_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Timothée Chalamet win the BAFTA Award for Best Actor in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actor_in_a_leading_role_marty_supreme_2ff4ba4b33907e7c ;
+    msh:forecastProbability "0.299"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_model_bafta_best_actor_2025_Leonardo_DiCaprio_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Leonardo DiCaprio win the BAFTA Award for Best Actor in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actor_in_a_leading_role_one_battle_after_another_5dd9544d35146a08 ;
+    msh:forecastProbability "0.263"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_model_bafta_best_actor_2025_Michael_B_Jordan_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Michael B. Jordan win the BAFTA Award for Best Actor in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actor_in_a_leading_role_sinners_95a935fda05c7203 ;
+    msh:forecastProbability "0.15"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_model_bafta_best_actor_2025_Ethan_Hawke_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Ethan Hawke win the BAFTA Award for Best Actor in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actor_in_a_leading_role_blue_moon_0d373a1207503981 ;
+    msh:forecastProbability "0.149"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_model_bafta_best_actor_2025_Jesse_Plemons_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Jesse Plemons win the BAFTA Award for Best Actor in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actor_in_a_leading_role_bugonia_13e14a6a8e91b11f ;
+    msh:forecastProbability "0.098"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_model_bafta_best_actor_2025_Robert_Aramayo_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Robert Aramayo win the BAFTA Award for Best Actor in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actor_in_a_leading_role_i_swear_e781108299738a3f ;
+    msh:forecastProbability "0.041"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+
+# ForecastSet: model bafta/best_actress/2025 logged 2026-02-21
+msh:ForecastSet_model_bafta_best_actress_2025_20260221 a msh:ForecastSet ;
+    rdfs:label "bafta best_actress 2025 model forecast logged 2026-02-21" ;
+    msh:forecastSetSource "model" ;
+    msh:forecastSetSystem "bafta" ;
+    msh:forecastSetCategory "best_actress" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-02-21"^^xsd:date ;
+    msh:forecastSetModelType "LR" ;
+    msh:forecastSetFeatures "writing_noms,previous_actress_wins,globe_actress_winner,runtime,num_wikidata_awards,log_revenue,budget_revenue_ratio,imdb_rating,metacritic_score" ;
+    msh:forecastSetAUC "0.8195"^^xsd:decimal ;
+    msh:forecastSetTop1Pct "0.571"^^xsd:decimal ;
+    msh:hasForecast msh:Forecast_model_bafta_best_actress_2025_Jessie_Buckley_20260221,
+        msh:Forecast_model_bafta_best_actress_2025_Rose_Byrne_20260221,
+        msh:Forecast_model_bafta_best_actress_2025_Renate_Reinsve_20260221,
+        msh:Forecast_model_bafta_best_actress_2025_Emma_Stone_20260221,
+        msh:Forecast_model_bafta_best_actress_2025_Kate_Hudson_20260221 .
+
+msh:Forecast_model_bafta_best_actress_2025_Jessie_Buckley_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Jessie Buckley win the BAFTA Award for Best Actress in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actress_in_a_leading_role_hamnet_1bd837707645cb7f ;
+    msh:forecastProbability "0.362571"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_model_bafta_best_actress_2025_Rose_Byrne_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Rose Byrne win the BAFTA Award for Best Actress in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actress_in_a_leading_role_if_i_had_legs_id_kick_you_a09677a92b29f084 ;
+    msh:forecastProbability "0.259971"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_model_bafta_best_actress_2025_Renate_Reinsve_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Renate Reinsve win the BAFTA Award for Best Actress in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actress_in_a_leading_role_sentimental_value_2b9cc7338896191a ;
+    msh:forecastProbability "0.149075"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_model_bafta_best_actress_2025_Emma_Stone_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Emma Stone win the BAFTA Award for Best Actress in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actress_in_a_leading_role_bugonia_bc8a917e5e96a165 ;
+    msh:forecastProbability "0.134105"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_model_bafta_best_actress_2025_Kate_Hudson_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Kate Hudson win the BAFTA Award for Best Actress in a Leading Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actress_in_a_leading_role_song_sung_blue_8abcfcb71c6750fd ;
+    msh:forecastProbability "0.094278"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+
+# ForecastSet: model bafta/best_supporting_actor/2025 logged 2026-02-21
+msh:ForecastSet_model_bafta_best_supporting_actor_2025_20260221 a msh:ForecastSet ;
+    rdfs:label "bafta best_supporting_actor 2025 model forecast logged 2026-02-21" ;
+    msh:forecastSetSource "model" ;
+    msh:forecastSetSystem "bafta" ;
+    msh:forecastSetCategory "best_supporting_actor" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-02-21"^^xsd:date ;
+    msh:forecastSetModelType "LR" ;
+    msh:forecastSetFeatures "writing_noms,previous_supporting_actor_wins,globe_supporting_actor_winner,runtime,num_wikidata_awards,log_revenue,budget_revenue_ratio,imdb_rating,metacritic_score" ;
+    msh:forecastSetAUC "0.8862"^^xsd:decimal ;
+    msh:forecastSetTop1Pct "0.571"^^xsd:decimal ;
+    msh:hasForecast msh:Forecast_model_bafta_best_supporting_actor_2025_Stellan_Skarsg_rd_20260221,
+        msh:Forecast_model_bafta_best_supporting_actor_2025_Paul_Mescal_20260221,
+        msh:Forecast_model_bafta_best_supporting_actor_2025_Sean_Penn_20260221,
+        msh:Forecast_model_bafta_best_supporting_actor_2025_Benicio_del_Toro_20260221,
+        msh:Forecast_model_bafta_best_supporting_actor_2025_Jacob_Elordi_20260221 .
+
+msh:Forecast_model_bafta_best_supporting_actor_2025_Stellan_Skarsg_rd_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Stellan Skarsgård win the BAFTA Award for Best Actor in a Supporting Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actor_in_a_supporting_role_sentimental_value_efa98935c59269ba ;
+    msh:forecastProbability "0.401154"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_model_bafta_best_supporting_actor_2025_Paul_Mescal_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Paul Mescal win the BAFTA Award for Best Actor in a Supporting Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actor_in_a_supporting_role_hamnet_c9c0bbb30dbc2eab ;
+    msh:forecastProbability "0.237818"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_model_bafta_best_supporting_actor_2025_Sean_Penn_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Sean Penn win the BAFTA Award for Best Actor in a Supporting Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actor_in_a_supporting_role_one_battle_after_another_2b016901fc3a4cb8 ;
+    msh:forecastProbability "0.144348"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_model_bafta_best_supporting_actor_2025_Benicio_del_Toro_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Benicio del Toro win the BAFTA Award for Best Actor in a Supporting Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actor_in_a_supporting_role_one_battle_after_another_d2d18b28a9e45a49 ;
+    msh:forecastProbability "0.112238"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_model_bafta_best_supporting_actor_2025_Jacob_Elordi_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Jacob Elordi win the BAFTA Award for Best Actor in a Supporting Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actor_in_a_supporting_role_frankenstein_5c2d2409e519affe ;
+    msh:forecastProbability "0.104441"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+
+# ForecastSet: model bafta/best_supporting_actress/2025 logged 2026-02-21
+msh:ForecastSet_model_bafta_best_supporting_actress_2025_20260221 a msh:ForecastSet ;
+    rdfs:label "bafta best_supporting_actress 2025 model forecast logged 2026-02-21" ;
+    msh:forecastSetSource "model" ;
+    msh:forecastSetSystem "bafta" ;
+    msh:forecastSetCategory "best_supporting_actress" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-02-21"^^xsd:date ;
+    msh:forecastSetModelType "GB" ;
+    msh:forecastSetFeatures "writing_noms,previous_supporting_actress_wins,globe_supporting_actress_winner,runtime,num_wikidata_awards,log_revenue,budget_revenue_ratio,imdb_rating,metacritic_score" ;
+    msh:forecastSetAUC "0.7874"^^xsd:decimal ;
+    msh:forecastSetTop1Pct "0.667"^^xsd:decimal ;
+    msh:hasForecast msh:Forecast_model_bafta_best_supporting_actress_2025_Teyana_Taylor_20260221,
+        msh:Forecast_model_bafta_best_supporting_actress_2025_Emily_Watson_20260221,
+        msh:Forecast_model_bafta_best_supporting_actress_2025_Wunmi_Mosaku_20260221,
+        msh:Forecast_model_bafta_best_supporting_actress_2025_Inga_Ibsdotter_Lilleaas_20260221 .
+
+msh:Forecast_model_bafta_best_supporting_actress_2025_Teyana_Taylor_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Teyana Taylor win the BAFTA Award for Best Actress in a Supporting Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actress_in_a_supporting_role_one_battle_after_another_e42ae6feb4f14394 ;
+    msh:forecastProbability "0.642701"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_model_bafta_best_supporting_actress_2025_Emily_Watson_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Emily Watson win the BAFTA Award for Best Actress in a Supporting Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actress_in_a_supporting_role_hamnet_be672099b1711863 ;
+    msh:forecastProbability "0.155926"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_model_bafta_best_supporting_actress_2025_Wunmi_Mosaku_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Wunmi Mosaku win the BAFTA Award for Best Actress in a Supporting Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actress_in_a_supporting_role_sinners_4d283506e0183157 ;
+    msh:forecastProbability "0.105776"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_model_bafta_best_supporting_actress_2025_Inga_Ibsdotter_Lilleaas_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Inga Ibsdotter Lilleaas win the BAFTA Award for Best Actress in a Supporting Role (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_actress_in_a_supporting_role_sentimental_value_f086e60c3c589fb2 ;
+    msh:forecastProbability "0.095597"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+
+# ForecastSet: model bafta/best_film/2025 logged 2026-02-21
+msh:ForecastSet_model_bafta_best_film_2025_20260221 a msh:ForecastSet ;
+    rdfs:label "bafta best_film 2025 model forecast logged 2026-02-21" ;
+    msh:forecastSetSource "model" ;
+    msh:forecastSetSystem "bafta" ;
+    msh:forecastSetCategory "best_film" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-02-21"^^xsd:date ;
+    msh:forecastSetModelType "LR" ;
+    msh:forecastSetFeatures "globe_winner,dga_winner,above_line_noms,acting_noms,num_wikidata_awards,log_revenue,budget_revenue_ratio,imdb_rating,metacritic_score" ;
+    msh:forecastSetAUC "0.9156"^^xsd:decimal ;
+    msh:forecastSetTop1Pct "0.857"^^xsd:decimal ;
+    msh:hasForecast msh:Forecast_model_bafta_best_film_2025_One_Battle_After_Another_20260221,
+        msh:Forecast_model_bafta_best_film_2025_Hamnet_20260221,
+        msh:Forecast_model_bafta_best_film_2025_Sentimental_Value_20260221,
+        msh:Forecast_model_bafta_best_film_2025_Marty_Supreme_20260221,
+        msh:Forecast_model_bafta_best_film_2025_Sinners_20260221 .
+
+msh:Forecast_model_bafta_best_film_2025_One_Battle_After_Another_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will One Battle After Another win the BAFTA Award for Best Film (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_film_one_battle_after_another_3f6b9242683fe465 ;
+    msh:forecastProbability "0.32292"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_model_bafta_best_film_2025_Hamnet_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Hamnet win the BAFTA Award for Best Film (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_film_hamnet_2e9f20ecf23cdbfd ;
+    msh:forecastProbability "0.210931"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_model_bafta_best_film_2025_Sentimental_Value_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Sentimental Value win the BAFTA Award for Best Film (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_film_sentimental_value_178f90b2662a8d4d ;
+    msh:forecastProbability "0.201092"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_model_bafta_best_film_2025_Marty_Supreme_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Marty Supreme win the BAFTA Award for Best Film (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_film_marty_supreme_00ce6e72c16a4425 ;
+    msh:forecastProbability "0.165541"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+
+msh:Forecast_model_bafta_best_film_2025_Sinners_20260221 a msh:Forecast ;
+    msh:forecastQuestion "Will Sinners win the BAFTA Award for Best Film (2025)?" ;
+    msh:predictsNomination msh:Nomination_bafta_2025_best_film_sinners_10164db51197d300 ;
+    msh:forecastProbability "0.099515"^^xsd:decimal ;
+    msh:loggedAt "2026-02-21"^^xsd:date .
+

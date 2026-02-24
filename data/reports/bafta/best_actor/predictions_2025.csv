@@ -1,6 +1,7 @@
-candidate_name,film,prob,rank
-Timothée Chalamet,Marty Supreme,0.5241930919463387,1
-Leonardo DiCaprio,One Battle After Another,0.21602368285217974,2
-Ethan Hawke,Blue Moon,0.16913625045012862,3
-Michael B. Jordan,Sinners,0.12900786413142798,4
-Jesse Plemons,Bugonia,0.12419512541377738,5
+candidate_name,film,win_pct,rank
+Timothée Chalamet,Marty Supreme,29.9,1
+Leonardo DiCaprio,One Battle After Another,26.3,2
+Michael B. Jordan,Sinners,15.0,3
+Ethan Hawke,Blue Moon,14.9,4
+Jesse Plemons,Bugonia,9.8,5
+Robert Aramayo,I Swear,4.1,6

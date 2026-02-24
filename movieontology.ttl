@@ -858,3 +858,10 @@ MovieSHACL3:forecastSetTop1Pct
         rdfs:range       xsd:decimal;
         rdfs:label       "forecastSetTop1Pct";
         rdfs:comment     "Backtest top-1 accuracy (0–1) of the model at time of logging." .
+
+MovieSHACL3:forecastSetSource
+        rdf:type         owl:DatatypeProperty;
+        rdfs:domain      MovieSHACL3:ForecastSet;
+        rdfs:range       xsd:string;
+        rdfs:label       "forecastSetSource";
+        rdfs:comment     "Origin of the forecast probabilities: 'model' for ML model output, 'kalshi_market' for Kalshi prediction market prices." .
