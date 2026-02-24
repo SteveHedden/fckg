@@ -1,6 +1,15 @@
 @prefix msh: <http://example.org/ontologies/MovieSHACL3#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<urn:x-evn-master:sag_nominations>
+    a owl:Ontology ;
+    owl:imports <urn:x-evn-master:movieontology> ;
+    owl:imports <urn:x-evn-master:films> ;
+    owl:imports <urn:x-evn-master:people> ;
+.
+
 
 msh:Nomination_sag_1994_actor_award_for_outstanding_performance_by_a_female_actor_in_a_leading_role_blue_sky_f7a956bd18824dbc a msh:Nomination ;
     rdfs:label "SAG - 1994 - Actor Award for Outstanding Performance by a Female Actor in a Leading Role - Blue Sky" ;

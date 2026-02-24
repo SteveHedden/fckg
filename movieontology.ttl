@@ -43,7 +43,8 @@ MovieSHACL3:Person  rdfs:subClassOf  owl:Thing;
         sh:property      MovieSHACL3:Person-tmdbPersonId;
         sh:property      MovieSHACL3:Person-hasIdentifier;
         sh:property      MovieSHACL3:Person-entityType;
-        sh:property      MovieSHACL3:Person-label .
+        sh:property      MovieSHACL3:Person-label;
+        sh:property      MovieSHACL3:Person-hasNomination .
 
 MovieSHACL3:Person-fullName
         rdf:type     sh:PropertyShape;
@@ -504,8 +505,15 @@ MovieSHACL3:Film-hasNomination
         rdf:type     sh:PropertyShape;
         sh:nodeKind  sh:IRI;
         sh:class     MovieSHACL3:Nomination;
-        sh:name      "hasNomination";
-        sh:path      MovieSHACL3:hasNomination .
+        sh:name      "nominations";
+        sh:path      [ sh:inversePath MovieSHACL3:hasFilm ] .
+
+MovieSHACL3:Person-hasNomination
+        rdf:type     sh:PropertyShape;
+        sh:nodeKind  sh:IRI;
+        sh:class     MovieSHACL3:Nomination;
+        sh:name      "nominations";
+        sh:path      [ sh:inversePath MovieSHACL3:hasNominee ] .
 
 MovieSHACL3:Film-wikidataId
         rdf:type     sh:PropertyShape;

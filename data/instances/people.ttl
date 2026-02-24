@@ -1,5 +1,12 @@
 @prefix msh: <http://example.org/ontologies/MovieSHACL3#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<urn:x-evn-master:people>
+    a owl:Ontology ;
+    owl:imports <urn:x-evn-master:movieontology> ;
+.
+
 
 msh:Person_24 a msh:Person ;
     rdfs:label "24" ;

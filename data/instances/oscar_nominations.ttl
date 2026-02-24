@@ -1,6 +1,15 @@
 @prefix msh: <http://example.org/ontologies/MovieSHACL3#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<urn:x-evn-master:oscar_nominations>
+    a owl:Ontology ;
+    owl:imports <urn:x-evn-master:movieontology> ;
+    owl:imports <urn:x-evn-master:films> ;
+    owl:imports <urn:x-evn-master:people> ;
+.
+
 
 msh:Nomination_oscars_1928_actor_the_last_command_db0bd71132ddd4d6 a msh:Nomination ;
     rdfs:label "Oscars - 1928 - ACTOR - The Last Command" ;

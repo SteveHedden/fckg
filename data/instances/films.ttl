@@ -1,6 +1,13 @@
 @prefix msh: <http://example.org/ontologies/MovieSHACL3#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<urn:x-evn-master:films>
+    a owl:Ontology ;
+    owl:imports <urn:x-evn-master:movieontology> ;
+.
+
 
 msh:Film_102_Dalmatians_2000 a msh:Film ;
     rdfs:label "102 Dalmatians" ;

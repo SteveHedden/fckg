@@ -1,6 +1,15 @@
 @prefix msh: <http://example.org/ontologies/MovieSHACL3#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<urn:x-evn-master:bafta_nominations>
+    a owl:Ontology ;
+    owl:imports <urn:x-evn-master:movieontology> ;
+    owl:imports <urn:x-evn-master:films> ;
+    owl:imports <urn:x-evn-master:people> ;
+.
+
 
 msh:Nomination_bafta_1948_best_film_crossfire_2778ae1a795a55d1 a msh:Nomination ;
     rdfs:label "BAFTA - 1948 - Best Film - Crossfire" ;

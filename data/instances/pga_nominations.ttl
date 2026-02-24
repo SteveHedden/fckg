@@ -1,6 +1,15 @@
 @prefix msh: <http://example.org/ontologies/MovieSHACL3#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<urn:x-evn-master:pga_nominations>
+    a owl:Ontology ;
+    owl:imports <urn:x-evn-master:movieontology> ;
+    owl:imports <urn:x-evn-master:films> ;
+    owl:imports <urn:x-evn-master:people> ;
+.
+
 
 msh:Nomination_pga_1989_best_theatrical_motion_picture_driving_miss_daisy_d7b5eb08a31e9126 a msh:Nomination ;
     rdfs:label "PGA - 1989 - Best Theatrical Motion Picture - Driving Miss Daisy" ;

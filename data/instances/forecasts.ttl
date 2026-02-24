@@ -2,6 +2,21 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<urn:x-evn-master:forecasts>
+    a owl:Ontology ;
+    owl:imports <urn:x-evn-master:movieontology> ;
+    owl:imports <urn:x-evn-master:films> ;
+    owl:imports <urn:x-evn-master:people> ;
+    owl:imports <urn:x-evn-master:oscar_nominations> ;
+    owl:imports <urn:x-evn-master:bafta_nominations> ;
+    owl:imports <urn:x-evn-master:sag_nominations> ;
+    owl:imports <urn:x-evn-master:dga_nominations> ;
+    owl:imports <urn:x-evn-master:golden_globes_nominations> ;
+    owl:imports <urn:x-evn-master:pga_nominations> ;
+.
+
 
 
 # ForecastSet: sag/best_actor/2025 logged 2026-02-24

@@ -1,6 +1,15 @@
 @prefix msh: <http://example.org/ontologies/MovieSHACL3#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<urn:x-evn-master:golden_globes_nominations>
+    a owl:Ontology ;
+    owl:imports <urn:x-evn-master:movieontology> ;
+    owl:imports <urn:x-evn-master:films> ;
+    owl:imports <urn:x-evn-master:people> ;
+.
+
 
 msh:Nomination_golden_globes_1944_best_actor_motion_picture_drama_wilson_357cc6b69b1d9230 a msh:Nomination ;
     rdfs:label "GOLDEN_GLOBES - 1944 - Best Actor - Motion Picture Drama - Wilson" ;
