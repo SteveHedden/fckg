@@ -1,0 +1,16 @@
+scored_at,system,category,year,source,model_type,logged_at,brier,n_candidates
+2026-02-25,bafta,best_actor,2025,kalshi_market,,2026-02-21,0.220550,6
+2026-02-25,bafta,best_actor,2025,model,RF,2026-02-21,0.188759,6
+2026-02-25,bafta,best_actor,2025,polymarket,,2026-02-21,0.235502,6
+2026-02-25,bafta,best_actress,2025,kalshi_market,,2026-02-21,0.000340,6
+2026-02-25,bafta,best_actress,2025,model,LR,2026-02-21,0.104599,5
+2026-02-25,bafta,best_actress,2025,polymarket,,2026-02-21,0.000654,6
+2026-02-25,bafta,best_film,2025,kalshi_market,,2026-02-21,0.009460,5
+2026-02-25,bafta,best_film,2025,model,LR,2026-02-21,0.116135,5
+2026-02-25,bafta,best_film,2025,polymarket,,2026-02-21,0.006495,5
+2026-02-25,bafta,best_supporting_actor,2025,kalshi_market,,2026-02-21,0.356858,4
+2026-02-25,bafta,best_supporting_actor,2025,model,LR,2026-02-21,0.194626,5
+2026-02-25,bafta,best_supporting_actor,2025,polymarket,,2026-02-21,0.298796,5
+2026-02-25,bafta,best_supporting_actress,2025,kalshi_market,,2026-02-21,0.313860,4
+2026-02-25,bafta,best_supporting_actress,2025,model,GB,2026-02-21,0.311538,4
+2026-02-25,bafta,best_supporting_actress,2025,polymarket,,2026-02-21,0.248146,5

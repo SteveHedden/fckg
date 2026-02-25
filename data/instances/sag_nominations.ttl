@@ -1,15 +1,7 @@
 @prefix msh: <http://example.org/ontologies/MovieSHACL3#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-
-<urn:x-evn-master:sag_nominations>
-    a owl:Ontology ;
-    owl:imports <urn:x-evn-master:movieontology> ;
-    owl:imports <urn:x-evn-master:films> ;
-    owl:imports <urn:x-evn-master:people> ;
-.
-
 
 msh:Nomination_sag_1994_actor_award_for_outstanding_performance_by_a_female_actor_in_a_leading_role_blue_sky_f7a956bd18824dbc a msh:Nomination ;
     rdfs:label "SAG - 1994 - Actor Award for Outstanding Performance by a Female Actor in a Leading Role - Blue Sky" ;
@@ -71,14 +63,23 @@ msh:Nomination_sag_1994_actor_award_for_outstanding_performance_by_a_female_acto
     msh:winner true ;
     msh:yearFilm "1994"^^xsd:gYear .
 
-msh:Nomination_sag_1994_actor_award_for_outstanding_performance_by_a_female_actor_in_a_supporting_role_forrest_gump_f53c36f776398025 a msh:Nomination ;
-    rdfs:label "SAG - 1994 - Actor Award for Outstanding Performance by a Female Actor in a Supporting Role - Forrest Gump" ;
+msh:Nomination_sag_1994_actor_award_for_outstanding_performance_by_a_female_actor_in_a_supporting_role_forrest_gump_Robin_Wright a msh:Nomination ;
+    rdfs:label "SAG - 1994 - Actor Award for Outstanding Performance by a Female Actor in a Supporting Role - Forrest Gump - Robin Wright" ;
     msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Female_Actor_in_a_Supporting_Role ;
     msh:hasCeremony msh:Ceremony_sag_1994 ;
     msh:hasFilm msh:Film_Forrest_Gump_1994 ;
-    msh:hasNominee msh:Person_Robin_Wright,
-        msh:Person_Sally_Field ;
-    msh:nomineeType "COLLABORATION" ;
+    msh:hasNominee msh:Person_Robin_Wright ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false ;
+    msh:yearFilm "1994"^^xsd:gYear .
+
+msh:Nomination_sag_1994_actor_award_for_outstanding_performance_by_a_female_actor_in_a_supporting_role_forrest_gump_Sally_Field a msh:Nomination ;
+    rdfs:label "SAG - 1994 - Actor Award for Outstanding Performance by a Female Actor in a Supporting Role - Forrest Gump - Sally Field" ;
+    msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Female_Actor_in_a_Supporting_Role ;
+    msh:hasCeremony msh:Ceremony_sag_1994 ;
+    msh:hasFilm msh:Film_Forrest_Gump_1994 ;
+    msh:hasNominee msh:Person_Sally_Field ;
+    msh:nomineeType "PERSON" ;
     msh:winner false ;
     msh:yearFilm "1994"^^xsd:gYear .
 
@@ -132,14 +133,23 @@ msh:Nomination_sag_1994_actor_award_for_outstanding_performance_by_a_male_actor_
     msh:winner false ;
     msh:yearFilm "1994"^^xsd:gYear .
 
-msh:Nomination_sag_1994_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_shawshank_redemption_6fe6cdf375b987ee a msh:Nomination ;
-    rdfs:label "SAG - 1994 - Actor Award for Outstanding Performance by a Male Actor in a Leading Role - The Shawshank Redemption" ;
+msh:Nomination_sag_1994_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_shawshank_redemption_Morgan_Freeman a msh:Nomination ;
+    rdfs:label "SAG - 1994 - Actor Award for Outstanding Performance by a Male Actor in a Leading Role - The Shawshank Redemption - Morgan Freeman" ;
     msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Male_Actor_in_a_Leading_Role ;
     msh:hasCeremony msh:Ceremony_sag_1994 ;
     msh:hasFilm msh:Film_The_Shawshank_Redemption_1994 ;
-    msh:hasNominee msh:Person_Morgan_Freeman,
-        msh:Person_Tim_Robbins ;
-    msh:nomineeType "COLLABORATION" ;
+    msh:hasNominee msh:Person_Morgan_Freeman ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false ;
+    msh:yearFilm "1994"^^xsd:gYear .
+
+msh:Nomination_sag_1994_actor_award_for_outstanding_performance_by_a_male_actor_in_a_leading_role_the_shawshank_redemption_Tim_Robbins a msh:Nomination ;
+    rdfs:label "SAG - 1994 - Actor Award for Outstanding Performance by a Male Actor in a Leading Role - The Shawshank Redemption - Tim Robbins" ;
+    msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Male_Actor_in_a_Leading_Role ;
+    msh:hasCeremony msh:Ceremony_sag_1994 ;
+    msh:hasFilm msh:Film_The_Shawshank_Redemption_1994 ;
+    msh:hasNominee msh:Person_Tim_Robbins ;
+    msh:nomineeType "PERSON" ;
     msh:winner false ;
     msh:yearFilm "1994"^^xsd:gYear .
 
@@ -665,14 +675,23 @@ msh:Nomination_sag_1996_actor_award_for_outstanding_performance_by_a_male_actor_
     msh:winner false ;
     msh:yearFilm "1996"^^xsd:gYear .
 
-msh:Nomination_sag_1996_actor_award_for_outstanding_performance_by_a_male_actor_in_a_supporting_role_the_birdcage_17ff6840de86e25a a msh:Nomination ;
-    rdfs:label "SAG - 1996 - Actor Award for Outstanding Performance by a Male Actor in a Supporting Role - The Birdcage" ;
+msh:Nomination_sag_1996_actor_award_for_outstanding_performance_by_a_male_actor_in_a_supporting_role_the_birdcage_Hank_Azaria a msh:Nomination ;
+    rdfs:label "SAG - 1996 - Actor Award for Outstanding Performance by a Male Actor in a Supporting Role - The Birdcage - Hank Azaria" ;
     msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Male_Actor_in_a_Supporting_Role ;
     msh:hasCeremony msh:Ceremony_sag_1996 ;
     msh:hasFilm msh:Film_The_Birdcage_1996 ;
-    msh:hasNominee msh:Person_Hank_Azaria,
-        msh:Person_Nathan_Lane ;
-    msh:nomineeType "COLLABORATION" ;
+    msh:hasNominee msh:Person_Hank_Azaria ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false ;
+    msh:yearFilm "1996"^^xsd:gYear .
+
+msh:Nomination_sag_1996_actor_award_for_outstanding_performance_by_a_male_actor_in_a_supporting_role_the_birdcage_Nathan_Lane a msh:Nomination ;
+    rdfs:label "SAG - 1996 - Actor Award for Outstanding Performance by a Male Actor in a Supporting Role - The Birdcage - Nathan Lane" ;
+    msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Male_Actor_in_a_Supporting_Role ;
+    msh:hasCeremony msh:Ceremony_sag_1996 ;
+    msh:hasFilm msh:Film_The_Birdcage_1996 ;
+    msh:hasNominee msh:Person_Nathan_Lane ;
+    msh:nomineeType "PERSON" ;
     msh:winner false ;
     msh:yearFilm "1996"^^xsd:gYear .
 
@@ -1404,14 +1423,23 @@ msh:Nomination_sag_1999_actor_award_for_outstanding_performance_by_a_female_acto
     msh:winner false ;
     msh:yearFilm "1999"^^xsd:gYear .
 
-msh:Nomination_sag_1999_actor_award_for_outstanding_performance_by_a_female_actor_in_a_supporting_role_being_john_malkovich_e2420955d968c9b1 a msh:Nomination ;
-    rdfs:label "SAG - 1999 - Actor Award for Outstanding Performance by a Female Actor in a Supporting Role - Being John Malkovich" ;
+msh:Nomination_sag_1999_actor_award_for_outstanding_performance_by_a_female_actor_in_a_supporting_role_being_john_malkovich_Cameron_Diaz a msh:Nomination ;
+    rdfs:label "SAG - 1999 - Actor Award for Outstanding Performance by a Female Actor in a Supporting Role - Being John Malkovich - Cameron Diaz" ;
     msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Female_Actor_in_a_Supporting_Role ;
     msh:hasCeremony msh:Ceremony_sag_1999 ;
     msh:hasFilm msh:Film_Being_John_Malkovich_1999 ;
-    msh:hasNominee msh:Person_Cameron_Diaz,
-        msh:Person_Catherine_Keener ;
-    msh:nomineeType "COLLABORATION" ;
+    msh:hasNominee msh:Person_Cameron_Diaz ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false ;
+    msh:yearFilm "1999"^^xsd:gYear .
+
+msh:Nomination_sag_1999_actor_award_for_outstanding_performance_by_a_female_actor_in_a_supporting_role_being_john_malkovich_Catherine_Keener a msh:Nomination ;
+    rdfs:label "SAG - 1999 - Actor Award for Outstanding Performance by a Female Actor in a Supporting Role - Being John Malkovich - Catherine Keener" ;
+    msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Female_Actor_in_a_Supporting_Role ;
+    msh:hasCeremony msh:Ceremony_sag_1999 ;
+    msh:hasFilm msh:Film_Being_John_Malkovich_1999 ;
+    msh:hasNominee msh:Person_Catherine_Keener ;
+    msh:nomineeType "PERSON" ;
     msh:winner false ;
     msh:yearFilm "1999"^^xsd:gYear .
 
@@ -1693,14 +1721,23 @@ msh:Nomination_sag_2000_actor_award_for_outstanding_performance_by_a_female_acto
     msh:winner false ;
     msh:yearFilm "2000"^^xsd:gYear .
 
-msh:Nomination_sag_2000_actor_award_for_outstanding_performance_by_a_female_actor_in_a_supporting_role_almost_famous_7268e39db2a924ee a msh:Nomination ;
-    rdfs:label "SAG - 2000 - Actor Award for Outstanding Performance by a Female Actor in a Supporting Role - Almost Famous" ;
+msh:Nomination_sag_2000_actor_award_for_outstanding_performance_by_a_female_actor_in_a_supporting_role_almost_famous_Frances_McDormand a msh:Nomination ;
+    rdfs:label "SAG - 2000 - Actor Award for Outstanding Performance by a Female Actor in a Supporting Role - Almost Famous - Frances McDormand" ;
     msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Female_Actor_in_a_Supporting_Role ;
     msh:hasCeremony msh:Ceremony_sag_2000 ;
     msh:hasFilm msh:Film_Almost_Famous_2000 ;
-    msh:hasNominee msh:Person_Frances_McDormand,
-        msh:Person_Kate_Hudson ;
-    msh:nomineeType "COLLABORATION" ;
+    msh:hasNominee msh:Person_Frances_McDormand ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false ;
+    msh:yearFilm "2000"^^xsd:gYear .
+
+msh:Nomination_sag_2000_actor_award_for_outstanding_performance_by_a_female_actor_in_a_supporting_role_almost_famous_Kate_Hudson a msh:Nomination ;
+    rdfs:label "SAG - 2000 - Actor Award for Outstanding Performance by a Female Actor in a Supporting Role - Almost Famous - Kate Hudson" ;
+    msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Female_Actor_in_a_Supporting_Role ;
+    msh:hasCeremony msh:Ceremony_sag_2000 ;
+    msh:hasFilm msh:Film_Almost_Famous_2000 ;
+    msh:hasNominee msh:Person_Kate_Hudson ;
+    msh:nomineeType "PERSON" ;
     msh:winner false ;
     msh:yearFilm "2000"^^xsd:gYear .
 
@@ -1814,14 +1851,23 @@ msh:Nomination_sag_2000_actor_award_for_outstanding_performance_by_a_male_actor_
     msh:winner false ;
     msh:yearFilm "2000"^^xsd:gYear .
 
-msh:Nomination_sag_2000_actor_award_for_outstanding_performance_by_a_male_actor_in_a_supporting_role_the_contender_5fec087e4fd0a718 a msh:Nomination ;
-    rdfs:label "SAG - 2000 - Actor Award for Outstanding Performance by a Male Actor in a Supporting Role - The Contender" ;
+msh:Nomination_sag_2000_actor_award_for_outstanding_performance_by_a_male_actor_in_a_supporting_role_the_contender_Gary_Oldman a msh:Nomination ;
+    rdfs:label "SAG - 2000 - Actor Award for Outstanding Performance by a Male Actor in a Supporting Role - The Contender - Gary Oldman" ;
     msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Male_Actor_in_a_Supporting_Role ;
     msh:hasCeremony msh:Ceremony_sag_2000 ;
     msh:hasFilm msh:Film_The_Contender_2000 ;
-    msh:hasNominee msh:Person_Gary_Oldman,
-        msh:Person_Jeff_Bridges ;
-    msh:nomineeType "COLLABORATION" ;
+    msh:hasNominee msh:Person_Gary_Oldman ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false ;
+    msh:yearFilm "2000"^^xsd:gYear .
+
+msh:Nomination_sag_2000_actor_award_for_outstanding_performance_by_a_male_actor_in_a_supporting_role_the_contender_Jeff_Bridges a msh:Nomination ;
+    rdfs:label "SAG - 2000 - Actor Award for Outstanding Performance by a Male Actor in a Supporting Role - The Contender - Jeff Bridges" ;
+    msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Male_Actor_in_a_Supporting_Role ;
+    msh:hasCeremony msh:Ceremony_sag_2000 ;
+    msh:hasFilm msh:Film_The_Contender_2000 ;
+    msh:hasNominee msh:Person_Jeff_Bridges ;
+    msh:nomineeType "PERSON" ;
     msh:winner false ;
     msh:yearFilm "2000"^^xsd:gYear .
 
@@ -3273,14 +3319,23 @@ msh:Nomination_sag_2005_actor_award_for_outstanding_performance_by_a_male_actor_
     msh:winner true ;
     msh:yearFilm "2005"^^xsd:gYear .
 
-msh:Nomination_sag_2005_actor_award_for_outstanding_performance_by_a_male_actor_in_a_supporting_role_crash_ee13957d7b735f30 a msh:Nomination ;
-    rdfs:label "SAG - 2005 - Actor Award for Outstanding Performance by a Male Actor in a Supporting Role - Crash" ;
+msh:Nomination_sag_2005_actor_award_for_outstanding_performance_by_a_male_actor_in_a_supporting_role_crash_Don_Cheadle a msh:Nomination ;
+    rdfs:label "SAG - 2005 - Actor Award for Outstanding Performance by a Male Actor in a Supporting Role - Crash - Don Cheadle" ;
     msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Male_Actor_in_a_Supporting_Role ;
     msh:hasCeremony msh:Ceremony_sag_2005 ;
     msh:hasFilm msh:Film_Crash_2005 ;
-    msh:hasNominee msh:Person_Don_Cheadle,
-        msh:Person_Matt_Dillon ;
-    msh:nomineeType "COLLABORATION" ;
+    msh:hasNominee msh:Person_Don_Cheadle ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false ;
+    msh:yearFilm "2005"^^xsd:gYear .
+
+msh:Nomination_sag_2005_actor_award_for_outstanding_performance_by_a_male_actor_in_a_supporting_role_crash_Matt_Dillon a msh:Nomination ;
+    rdfs:label "SAG - 2005 - Actor Award for Outstanding Performance by a Male Actor in a Supporting Role - Crash - Matt Dillon" ;
+    msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Male_Actor_in_a_Supporting_Role ;
+    msh:hasCeremony msh:Ceremony_sag_2005 ;
+    msh:hasFilm msh:Film_Crash_2005 ;
+    msh:hasNominee msh:Person_Matt_Dillon ;
+    msh:nomineeType "PERSON" ;
     msh:winner false ;
     msh:yearFilm "2005"^^xsd:gYear .
 
@@ -3441,14 +3496,23 @@ msh:Nomination_sag_2006_actor_award_for_outstanding_performance_by_a_female_acto
     msh:winner false ;
     msh:yearFilm "2006"^^xsd:gYear .
 
-msh:Nomination_sag_2006_actor_award_for_outstanding_performance_by_a_female_actor_in_a_supporting_role_babel_54abbd15c3995e8c a msh:Nomination ;
-    rdfs:label "SAG - 2006 - Actor Award for Outstanding Performance by a Female Actor in a Supporting Role - Babel" ;
+msh:Nomination_sag_2006_actor_award_for_outstanding_performance_by_a_female_actor_in_a_supporting_role_babel_Adriana_Barraza a msh:Nomination ;
+    rdfs:label "SAG - 2006 - Actor Award for Outstanding Performance by a Female Actor in a Supporting Role - Babel - Adriana Barraza" ;
     msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Female_Actor_in_a_Supporting_Role ;
     msh:hasCeremony msh:Ceremony_sag_2006 ;
     msh:hasFilm msh:Film_Babel_2006 ;
-    msh:hasNominee msh:Person_Adriana_Barraza,
-        msh:Person_Rinko_Kikuchi ;
-    msh:nomineeType "COLLABORATION" ;
+    msh:hasNominee msh:Person_Adriana_Barraza ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false ;
+    msh:yearFilm "2006"^^xsd:gYear .
+
+msh:Nomination_sag_2006_actor_award_for_outstanding_performance_by_a_female_actor_in_a_supporting_role_babel_Rinko_Kikuchi a msh:Nomination ;
+    rdfs:label "SAG - 2006 - Actor Award for Outstanding Performance by a Female Actor in a Supporting Role - Babel - Rinko Kikuchi" ;
+    msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Female_Actor_in_a_Supporting_Role ;
+    msh:hasCeremony msh:Ceremony_sag_2006 ;
+    msh:hasFilm msh:Film_Babel_2006 ;
+    msh:hasNominee msh:Person_Rinko_Kikuchi ;
+    msh:nomineeType "PERSON" ;
     msh:winner false ;
     msh:yearFilm "2006"^^xsd:gYear .
 
@@ -4030,14 +4094,23 @@ msh:Nomination_sag_2008_actor_award_for_outstanding_performance_by_a_female_acto
     msh:winner false ;
     msh:yearFilm "2008"^^xsd:gYear .
 
-msh:Nomination_sag_2008_actor_award_for_outstanding_performance_by_a_female_actor_in_a_supporting_role_doubt_9fe2c2ee236eb76b a msh:Nomination ;
-    rdfs:label "SAG - 2008 - Actor Award for Outstanding Performance by a Female Actor in a Supporting Role - Doubt" ;
+msh:Nomination_sag_2008_actor_award_for_outstanding_performance_by_a_female_actor_in_a_supporting_role_doubt_Amy_Adams a msh:Nomination ;
+    rdfs:label "SAG - 2008 - Actor Award for Outstanding Performance by a Female Actor in a Supporting Role - Doubt - Amy Adams" ;
     msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Female_Actor_in_a_Supporting_Role ;
     msh:hasCeremony msh:Ceremony_sag_2008 ;
     msh:hasFilm msh:Film_Doubt_2008 ;
-    msh:hasNominee msh:Person_Amy_Adams,
-        msh:Person_Viola_Davis ;
-    msh:nomineeType "COLLABORATION" ;
+    msh:hasNominee msh:Person_Amy_Adams ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false ;
+    msh:yearFilm "2008"^^xsd:gYear .
+
+msh:Nomination_sag_2008_actor_award_for_outstanding_performance_by_a_female_actor_in_a_supporting_role_doubt_Viola_Davis a msh:Nomination ;
+    rdfs:label "SAG - 2008 - Actor Award for Outstanding Performance by a Female Actor in a Supporting Role - Doubt - Viola Davis" ;
+    msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Female_Actor_in_a_Supporting_Role ;
+    msh:hasCeremony msh:Ceremony_sag_2008 ;
+    msh:hasFilm msh:Film_Doubt_2008 ;
+    msh:hasNominee msh:Person_Viola_Davis ;
+    msh:nomineeType "PERSON" ;
     msh:winner false ;
     msh:yearFilm "2008"^^xsd:gYear .
 
@@ -4338,14 +4411,23 @@ msh:Nomination_sag_2009_actor_award_for_outstanding_performance_by_a_female_acto
     msh:winner true ;
     msh:yearFilm "2009"^^xsd:gYear .
 
-msh:Nomination_sag_2009_actor_award_for_outstanding_performance_by_a_female_actor_in_a_supporting_role_up_in_the_air_3ff5ffc2980ac2f0 a msh:Nomination ;
-    rdfs:label "SAG - 2009 - Actor Award for Outstanding Performance by a Female Actor in a Supporting Role - Up in the Air" ;
+msh:Nomination_sag_2009_actor_award_for_outstanding_performance_by_a_female_actor_in_a_supporting_role_up_in_the_air_Anna_Kendrick a msh:Nomination ;
+    rdfs:label "SAG - 2009 - Actor Award for Outstanding Performance by a Female Actor in a Supporting Role - Up in the Air - Anna Kendrick" ;
     msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Female_Actor_in_a_Supporting_Role ;
     msh:hasCeremony msh:Ceremony_sag_2009 ;
     msh:hasFilm msh:Film_Up_in_the_Air_2009 ;
-    msh:hasNominee msh:Person_Anna_Kendrick,
-        msh:Person_Vera_Farmiga ;
-    msh:nomineeType "COLLABORATION" ;
+    msh:hasNominee msh:Person_Anna_Kendrick ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false ;
+    msh:yearFilm "2009"^^xsd:gYear .
+
+msh:Nomination_sag_2009_actor_award_for_outstanding_performance_by_a_female_actor_in_a_supporting_role_up_in_the_air_Vera_Farmiga a msh:Nomination ;
+    rdfs:label "SAG - 2009 - Actor Award for Outstanding Performance by a Female Actor in a Supporting Role - Up in the Air - Vera Farmiga" ;
+    msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Female_Actor_in_a_Supporting_Role ;
+    msh:hasCeremony msh:Ceremony_sag_2009 ;
+    msh:hasFilm msh:Film_Up_in_the_Air_2009 ;
+    msh:hasNominee msh:Person_Vera_Farmiga ;
+    msh:nomineeType "PERSON" ;
     msh:winner false ;
     msh:yearFilm "2009"^^xsd:gYear .
 
@@ -6905,14 +6987,23 @@ msh:Nomination_sag_2018_actor_award_for_outstanding_performance_by_a_female_acto
     msh:winner false ;
     msh:yearFilm "2018"^^xsd:gYear .
 
-msh:Nomination_sag_2018_actor_award_for_outstanding_performance_by_a_female_actor_in_a_supporting_role_the_favourite_2bf6caeea3fdf02e a msh:Nomination ;
-    rdfs:label "SAG - 2018 - Actor Award for Outstanding Performance by a Female Actor in a Supporting Role - The Favourite" ;
+msh:Nomination_sag_2018_actor_award_for_outstanding_performance_by_a_female_actor_in_a_supporting_role_the_favourite_Emma_Stone a msh:Nomination ;
+    rdfs:label "SAG - 2018 - Actor Award for Outstanding Performance by a Female Actor in a Supporting Role - The Favourite - Emma Stone" ;
     msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Female_Actor_in_a_Supporting_Role ;
     msh:hasCeremony msh:Ceremony_sag_2018 ;
     msh:hasFilm msh:Film_The_Favourite_2018 ;
-    msh:hasNominee msh:Person_Emma_Stone,
-        msh:Person_Rachel_Weisz ;
-    msh:nomineeType "COLLABORATION" ;
+    msh:hasNominee msh:Person_Emma_Stone ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false ;
+    msh:yearFilm "2018"^^xsd:gYear .
+
+msh:Nomination_sag_2018_actor_award_for_outstanding_performance_by_a_female_actor_in_a_supporting_role_the_favourite_Rachel_Weisz a msh:Nomination ;
+    rdfs:label "SAG - 2018 - Actor Award for Outstanding Performance by a Female Actor in a Supporting Role - The Favourite - Rachel Weisz" ;
+    msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Female_Actor_in_a_Supporting_Role ;
+    msh:hasCeremony msh:Ceremony_sag_2018 ;
+    msh:hasFilm msh:Film_The_Favourite_2018 ;
+    msh:hasNominee msh:Person_Rachel_Weisz ;
+    msh:nomineeType "PERSON" ;
     msh:winner false ;
     msh:yearFilm "2018"^^xsd:gYear .
 
@@ -7163,14 +7254,23 @@ msh:Nomination_sag_2019_actor_award_for_outstanding_performance_by_a_female_acto
     msh:winner false ;
     msh:yearFilm "2019"^^xsd:gYear .
 
-msh:Nomination_sag_2019_actor_award_for_outstanding_performance_by_a_female_actor_in_a_supporting_role_bombshell_96f7eddaa81d3294 a msh:Nomination ;
-    rdfs:label "SAG - 2019 - Actor Award for Outstanding Performance by a Female Actor in a Supporting Role - Bombshell" ;
+msh:Nomination_sag_2019_actor_award_for_outstanding_performance_by_a_female_actor_in_a_supporting_role_bombshell_Margot_Robbie a msh:Nomination ;
+    rdfs:label "SAG - 2019 - Actor Award for Outstanding Performance by a Female Actor in a Supporting Role - Bombshell - Margot Robbie" ;
     msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Female_Actor_in_a_Supporting_Role ;
     msh:hasCeremony msh:Ceremony_sag_2019 ;
     msh:hasFilm msh:Film_Bombshell_2019 ;
-    msh:hasNominee msh:Person_Margot_Robbie,
-        msh:Person_Nicole_Kidman ;
-    msh:nomineeType "COLLABORATION" ;
+    msh:hasNominee msh:Person_Margot_Robbie ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false ;
+    msh:yearFilm "2019"^^xsd:gYear .
+
+msh:Nomination_sag_2019_actor_award_for_outstanding_performance_by_a_female_actor_in_a_supporting_role_bombshell_Nicole_Kidman a msh:Nomination ;
+    rdfs:label "SAG - 2019 - Actor Award for Outstanding Performance by a Female Actor in a Supporting Role - Bombshell - Nicole Kidman" ;
+    msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Female_Actor_in_a_Supporting_Role ;
+    msh:hasCeremony msh:Ceremony_sag_2019 ;
+    msh:hasFilm msh:Film_Bombshell_2019 ;
+    msh:hasNominee msh:Person_Nicole_Kidman ;
+    msh:nomineeType "PERSON" ;
     msh:winner false ;
     msh:yearFilm "2019"^^xsd:gYear .
 
@@ -7284,14 +7384,23 @@ msh:Nomination_sag_2019_actor_award_for_outstanding_performance_by_a_male_actor_
     msh:winner true ;
     msh:yearFilm "2019"^^xsd:gYear .
 
-msh:Nomination_sag_2019_actor_award_for_outstanding_performance_by_a_male_actor_in_a_supporting_role_the_irishman_681e26950aecdfd1 a msh:Nomination ;
-    rdfs:label "SAG - 2019 - Actor Award for Outstanding Performance by a Male Actor in a Supporting Role - The Irishman" ;
+msh:Nomination_sag_2019_actor_award_for_outstanding_performance_by_a_male_actor_in_a_supporting_role_the_irishman_Al_Pacino a msh:Nomination ;
+    rdfs:label "SAG - 2019 - Actor Award for Outstanding Performance by a Male Actor in a Supporting Role - The Irishman - Al Pacino" ;
     msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Male_Actor_in_a_Supporting_Role ;
     msh:hasCeremony msh:Ceremony_sag_2019 ;
     msh:hasFilm msh:Film_The_Irishman_2019 ;
-    msh:hasNominee msh:Person_Al_Pacino,
-        msh:Person_Joe_Pesci ;
-    msh:nomineeType "COLLABORATION" ;
+    msh:hasNominee msh:Person_Al_Pacino ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false ;
+    msh:yearFilm "2019"^^xsd:gYear .
+
+msh:Nomination_sag_2019_actor_award_for_outstanding_performance_by_a_male_actor_in_a_supporting_role_the_irishman_Joe_Pesci a msh:Nomination ;
+    rdfs:label "SAG - 2019 - Actor Award for Outstanding Performance by a Male Actor in a Supporting Role - The Irishman - Joe Pesci" ;
+    msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Male_Actor_in_a_Supporting_Role ;
+    msh:hasCeremony msh:Ceremony_sag_2019 ;
+    msh:hasFilm msh:Film_The_Irishman_2019 ;
+    msh:hasNominee msh:Person_Joe_Pesci ;
+    msh:nomineeType "PERSON" ;
     msh:winner false ;
     msh:yearFilm "2019"^^xsd:gYear .
 
@@ -8126,14 +8235,23 @@ msh:Nomination_sag_2022_actor_award_for_outstanding_performance_by_a_male_actor_
     msh:winner true ;
     msh:yearFilm "2022"^^xsd:gYear .
 
-msh:Nomination_sag_2022_actor_award_for_outstanding_performance_by_a_male_actor_in_a_supporting_role_the_banshees_of_inisherin_678943a3d0cbf891 a msh:Nomination ;
-    rdfs:label "SAG - 2022 - Actor Award for Outstanding Performance by a Male Actor in a Supporting Role - The Banshees of Inisherin" ;
+msh:Nomination_sag_2022_actor_award_for_outstanding_performance_by_a_male_actor_in_a_supporting_role_the_banshees_of_inisherin_Barry_Keoghan a msh:Nomination ;
+    rdfs:label "SAG - 2022 - Actor Award for Outstanding Performance by a Male Actor in a Supporting Role - The Banshees of Inisherin - Barry Keoghan" ;
     msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Male_Actor_in_a_Supporting_Role ;
     msh:hasCeremony msh:Ceremony_sag_2022 ;
     msh:hasFilm msh:Film_The_Banshees_of_Inisherin_2022 ;
-    msh:hasNominee msh:Person_Barry_Keoghan,
-        msh:Person_Brendan_Gleeson ;
-    msh:nomineeType "COLLABORATION" ;
+    msh:hasNominee msh:Person_Barry_Keoghan ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false ;
+    msh:yearFilm "2022"^^xsd:gYear .
+
+msh:Nomination_sag_2022_actor_award_for_outstanding_performance_by_a_male_actor_in_a_supporting_role_the_banshees_of_inisherin_Brendan_Gleeson a msh:Nomination ;
+    rdfs:label "SAG - 2022 - Actor Award for Outstanding Performance by a Male Actor in a Supporting Role - The Banshees of Inisherin - Brendan Gleeson" ;
+    msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Male_Actor_in_a_Supporting_Role ;
+    msh:hasCeremony msh:Ceremony_sag_2022 ;
+    msh:hasFilm msh:Film_The_Banshees_of_Inisherin_2022 ;
+    msh:hasNominee msh:Person_Brendan_Gleeson ;
+    msh:nomineeType "PERSON" ;
     msh:winner false ;
     msh:yearFilm "2022"^^xsd:gYear .
 
@@ -8987,14 +9105,23 @@ msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_
     msh:winner false ;
     msh:yearFilm "2025"^^xsd:gYear .
 
-msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_in_a_supporting_role_one_battle_after_another_d81fbdff4875d941 a msh:Nomination ;
-    rdfs:label "SAG - 2025 - Actor Award for Outstanding Performance by a Male Actor in a Supporting Role - One Battle After Another" ;
+msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_in_a_supporting_role_one_battle_after_another_Benicio_del_Toro a msh:Nomination ;
+    rdfs:label "SAG - 2025 - Actor Award for Outstanding Performance by a Male Actor in a Supporting Role - One Battle After Another - Benicio del Toro" ;
     msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Male_Actor_in_a_Supporting_Role ;
     msh:hasCeremony msh:Ceremony_sag_2025 ;
     msh:hasFilm msh:Film_One_Battle_After_Another_2025 ;
-    msh:hasNominee msh:Person_Benicio_del_Toro,
-        msh:Person_Sean_Penn ;
-    msh:nomineeType "COLLABORATION" ;
+    msh:hasNominee msh:Person_Benicio_del_Toro ;
+    msh:nomineeType "PERSON" ;
+    msh:winner false ;
+    msh:yearFilm "2025"^^xsd:gYear .
+
+msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_in_a_supporting_role_one_battle_after_another_Sean_Penn a msh:Nomination ;
+    rdfs:label "SAG - 2025 - Actor Award for Outstanding Performance by a Male Actor in a Supporting Role - One Battle After Another - Sean Penn" ;
+    msh:hasCategory msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Male_Actor_in_a_Supporting_Role ;
+    msh:hasCeremony msh:Ceremony_sag_2025 ;
+    msh:hasFilm msh:Film_One_Battle_After_Another_2025 ;
+    msh:hasNominee msh:Person_Sean_Penn ;
+    msh:nomineeType "PERSON" ;
     msh:winner false ;
     msh:yearFilm "2025"^^xsd:gYear .
 
@@ -9096,77 +9223,16 @@ msh:Nomination_sag_2025_outstanding_performance_by_a_cast_in_a_motion_picture_si
     msh:winner false ;
     msh:yearFilm "2025"^^xsd:gYear .
 
+<urn:x-evn-master:sag_nominations> a owl:Ontology ;
+    owl:imports <urn:x-evn-master:films>,
+        <urn:x-evn-master:movieontology>,
+        <urn:x-evn-master:people> .
+
 msh:Ceremony_sag_1994 a msh:AwardCeremony ;
     rdfs:label "1994 Screen Actors Guild Awards" ;
     msh:ceremonyName "1994 Screen Actors Guild Awards" ;
     msh:hasAwardSystem msh:AwardSystem_sag ;
     msh:yearCeremony "1994"^^xsd:gYear .
-
-msh:Ceremony_sag_2000 a msh:AwardCeremony ;
-    rdfs:label "2000 Screen Actors Guild Awards" ;
-    msh:ceremonyName "2000 Screen Actors Guild Awards" ;
-    msh:hasAwardSystem msh:AwardSystem_sag ;
-    msh:yearCeremony "2000"^^xsd:gYear .
-
-msh:Ceremony_sag_2019 a msh:AwardCeremony ;
-    rdfs:label "2019 Screen Actors Guild Awards" ;
-    msh:ceremonyName "2019 Screen Actors Guild Awards" ;
-    msh:hasAwardSystem msh:AwardSystem_sag ;
-    msh:yearCeremony "2019"^^xsd:gYear .
-
-msh:Ceremony_sag_1996 a msh:AwardCeremony ;
-    rdfs:label "1996 Screen Actors Guild Awards" ;
-    msh:ceremonyName "1996 Screen Actors Guild Awards" ;
-    msh:hasAwardSystem msh:AwardSystem_sag ;
-    msh:yearCeremony "1996"^^xsd:gYear .
-
-msh:Ceremony_sag_1999 a msh:AwardCeremony ;
-    rdfs:label "1999 Screen Actors Guild Awards" ;
-    msh:ceremonyName "1999 Screen Actors Guild Awards" ;
-    msh:hasAwardSystem msh:AwardSystem_sag ;
-    msh:yearCeremony "1999"^^xsd:gYear .
-
-msh:Ceremony_sag_2005 a msh:AwardCeremony ;
-    rdfs:label "2005 Screen Actors Guild Awards" ;
-    msh:ceremonyName "2005 Screen Actors Guild Awards" ;
-    msh:hasAwardSystem msh:AwardSystem_sag ;
-    msh:yearCeremony "2005"^^xsd:gYear .
-
-msh:Ceremony_sag_2006 a msh:AwardCeremony ;
-    rdfs:label "2006 Screen Actors Guild Awards" ;
-    msh:ceremonyName "2006 Screen Actors Guild Awards" ;
-    msh:hasAwardSystem msh:AwardSystem_sag ;
-    msh:yearCeremony "2006"^^xsd:gYear .
-
-msh:Ceremony_sag_2008 a msh:AwardCeremony ;
-    rdfs:label "2008 Screen Actors Guild Awards" ;
-    msh:ceremonyName "2008 Screen Actors Guild Awards" ;
-    msh:hasAwardSystem msh:AwardSystem_sag ;
-    msh:yearCeremony "2008"^^xsd:gYear .
-
-msh:Ceremony_sag_2009 a msh:AwardCeremony ;
-    rdfs:label "2009 Screen Actors Guild Awards" ;
-    msh:ceremonyName "2009 Screen Actors Guild Awards" ;
-    msh:hasAwardSystem msh:AwardSystem_sag ;
-    msh:yearCeremony "2009"^^xsd:gYear .
-
-msh:Ceremony_sag_2018 a msh:AwardCeremony ;
-    rdfs:label "2018 Screen Actors Guild Awards" ;
-    msh:ceremonyName "2018 Screen Actors Guild Awards" ;
-    msh:hasAwardSystem msh:AwardSystem_sag ;
-    msh:yearCeremony "2018"^^xsd:gYear .
-
-msh:Ceremony_sag_2022 a msh:AwardCeremony ;
-    rdfs:label "2022 Screen Actors Guild Awards" ;
-    msh:ceremonyName "2022 Screen Actors Guild Awards" ;
-    msh:hasAwardSystem msh:AwardSystem_sag ;
-    msh:yearCeremony "2022"^^xsd:gYear .
-
-msh:Ceremony_sag_2025 a msh:AwardCeremony ;
-    rdfs:label "2025 Screen Actors Guild Awards" ;
-    msh:ceremonyName "2025 Screen Actors Guild Awards" ;
-    msh:hasAwardSystem msh:AwardSystem_sag ;
-    msh:yearCeremony "2025"^^xsd:gYear .
 
 msh:Ceremony_sag_1995 a msh:AwardCeremony ;
     rdfs:label "1995 Screen Actors Guild Awards" ;
@@ -9174,11 +9240,29 @@ msh:Ceremony_sag_1995 a msh:AwardCeremony ;
     msh:hasAwardSystem msh:AwardSystem_sag ;
     msh:yearCeremony "1995"^^xsd:gYear .
 
+msh:Ceremony_sag_1996 a msh:AwardCeremony ;
+    rdfs:label "1996 Screen Actors Guild Awards" ;
+    msh:ceremonyName "1996 Screen Actors Guild Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "1996"^^xsd:gYear .
+
 msh:Ceremony_sag_1998 a msh:AwardCeremony ;
     rdfs:label "1998 Screen Actors Guild Awards" ;
     msh:ceremonyName "1998 Screen Actors Guild Awards" ;
     msh:hasAwardSystem msh:AwardSystem_sag ;
     msh:yearCeremony "1998"^^xsd:gYear .
+
+msh:Ceremony_sag_1999 a msh:AwardCeremony ;
+    rdfs:label "1999 Screen Actors Guild Awards" ;
+    msh:ceremonyName "1999 Screen Actors Guild Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "1999"^^xsd:gYear .
+
+msh:Ceremony_sag_2000 a msh:AwardCeremony ;
+    rdfs:label "2000 Screen Actors Guild Awards" ;
+    msh:ceremonyName "2000 Screen Actors Guild Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "2000"^^xsd:gYear .
 
 msh:Ceremony_sag_2001 a msh:AwardCeremony ;
     rdfs:label "2001 Screen Actors Guild Awards" ;
@@ -9198,11 +9282,35 @@ msh:Ceremony_sag_2003 a msh:AwardCeremony ;
     msh:hasAwardSystem msh:AwardSystem_sag ;
     msh:yearCeremony "2003"^^xsd:gYear .
 
+msh:Ceremony_sag_2005 a msh:AwardCeremony ;
+    rdfs:label "2005 Screen Actors Guild Awards" ;
+    msh:ceremonyName "2005 Screen Actors Guild Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "2005"^^xsd:gYear .
+
+msh:Ceremony_sag_2006 a msh:AwardCeremony ;
+    rdfs:label "2006 Screen Actors Guild Awards" ;
+    msh:ceremonyName "2006 Screen Actors Guild Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "2006"^^xsd:gYear .
+
 msh:Ceremony_sag_2007 a msh:AwardCeremony ;
     rdfs:label "2007 Screen Actors Guild Awards" ;
     msh:ceremonyName "2007 Screen Actors Guild Awards" ;
     msh:hasAwardSystem msh:AwardSystem_sag ;
     msh:yearCeremony "2007"^^xsd:gYear .
+
+msh:Ceremony_sag_2008 a msh:AwardCeremony ;
+    rdfs:label "2008 Screen Actors Guild Awards" ;
+    msh:ceremonyName "2008 Screen Actors Guild Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "2008"^^xsd:gYear .
+
+msh:Ceremony_sag_2009 a msh:AwardCeremony ;
+    rdfs:label "2009 Screen Actors Guild Awards" ;
+    msh:ceremonyName "2009 Screen Actors Guild Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "2009"^^xsd:gYear .
 
 msh:Ceremony_sag_2010 a msh:AwardCeremony ;
     rdfs:label "2010 Screen Actors Guild Awards" ;
@@ -9252,6 +9360,18 @@ msh:Ceremony_sag_2017 a msh:AwardCeremony ;
     msh:hasAwardSystem msh:AwardSystem_sag ;
     msh:yearCeremony "2017"^^xsd:gYear .
 
+msh:Ceremony_sag_2018 a msh:AwardCeremony ;
+    rdfs:label "2018 Screen Actors Guild Awards" ;
+    msh:ceremonyName "2018 Screen Actors Guild Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "2018"^^xsd:gYear .
+
+msh:Ceremony_sag_2019 a msh:AwardCeremony ;
+    rdfs:label "2019 Screen Actors Guild Awards" ;
+    msh:ceremonyName "2019 Screen Actors Guild Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "2019"^^xsd:gYear .
+
 msh:Ceremony_sag_2020 a msh:AwardCeremony ;
     rdfs:label "2020 Screen Actors Guild Awards" ;
     msh:ceremonyName "2020 Screen Actors Guild Awards" ;
@@ -9264,6 +9384,12 @@ msh:Ceremony_sag_2021 a msh:AwardCeremony ;
     msh:hasAwardSystem msh:AwardSystem_sag ;
     msh:yearCeremony "2021"^^xsd:gYear .
 
+msh:Ceremony_sag_2022 a msh:AwardCeremony ;
+    rdfs:label "2022 Screen Actors Guild Awards" ;
+    msh:ceremonyName "2022 Screen Actors Guild Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "2022"^^xsd:gYear .
+
 msh:Ceremony_sag_2023 a msh:AwardCeremony ;
     rdfs:label "2023 Screen Actors Guild Awards" ;
     msh:ceremonyName "2023 Screen Actors Guild Awards" ;
@@ -9275,6 +9401,12 @@ msh:Ceremony_sag_2024 a msh:AwardCeremony ;
     msh:ceremonyName "2024 Screen Actors Guild Awards" ;
     msh:hasAwardSystem msh:AwardSystem_sag ;
     msh:yearCeremony "2024"^^xsd:gYear .
+
+msh:Ceremony_sag_2025 a msh:AwardCeremony ;
+    rdfs:label "2025 Screen Actors Guild Awards" ;
+    msh:ceremonyName "2025 Screen Actors Guild Awards" ;
+    msh:hasAwardSystem msh:AwardSystem_sag ;
+    msh:yearCeremony "2025"^^xsd:gYear .
 
 msh:Ceremony_sag_1997 a msh:AwardCeremony ;
     rdfs:label "1997 Screen Actors Guild Awards" ;
@@ -9293,24 +9425,24 @@ msh:AwardSystem_sag a msh:AwardSystem ;
     msh:shortName "SAG" ;
     msh:systemName "Screen Actors Guild Awards" .
 
-msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Female_Actor_in_a_Supporting_Role a msh:AwardCategory ;
-    rdfs:label "Actor Award for Outstanding Performance by a Female Actor in a Supporting Role" ;
-    msh:categoryName "Actor Award for Outstanding Performance by a Female Actor in a Supporting Role" ;
-    msh:hasAwardSystem msh:AwardSystem_sag .
-
-msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Male_Actor_in_a_Supporting_Role a msh:AwardCategory ;
-    rdfs:label "Actor Award for Outstanding Performance by a Male Actor in a Supporting Role" ;
-    msh:categoryName "Actor Award for Outstanding Performance by a Male Actor in a Supporting Role" ;
-    msh:hasAwardSystem msh:AwardSystem_sag .
-
 msh:Category_sag_Outstanding_Performance_by_a_Cast_in_a_Motion_Picture a msh:AwardCategory ;
     rdfs:label "Outstanding Performance by a Cast in a Motion Picture" ;
     msh:categoryName "Outstanding Performance by a Cast in a Motion Picture" ;
     msh:hasAwardSystem msh:AwardSystem_sag .
 
+msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Female_Actor_in_a_Supporting_Role a msh:AwardCategory ;
+    rdfs:label "Actor Award for Outstanding Performance by a Female Actor in a Supporting Role" ;
+    msh:categoryName "Actor Award for Outstanding Performance by a Female Actor in a Supporting Role" ;
+    msh:hasAwardSystem msh:AwardSystem_sag .
+
 msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Male_Actor_in_a_Leading_Role a msh:AwardCategory ;
     rdfs:label "Actor Award for Outstanding Performance by a Male Actor in a Leading Role" ;
     msh:categoryName "Actor Award for Outstanding Performance by a Male Actor in a Leading Role" ;
+    msh:hasAwardSystem msh:AwardSystem_sag .
+
+msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Male_Actor_in_a_Supporting_Role a msh:AwardCategory ;
+    rdfs:label "Actor Award for Outstanding Performance by a Male Actor in a Supporting Role" ;
+    msh:categoryName "Actor Award for Outstanding Performance by a Male Actor in a Supporting Role" ;
     msh:hasAwardSystem msh:AwardSystem_sag .
 
 msh:Category_sag_Actor_Award_for_Outstanding_Performance_by_a_Female_Actor_in_a_Leading_Role a msh:AwardCategory ;
