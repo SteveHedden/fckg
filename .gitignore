@@ -55,7 +55,8 @@ ingestion/
 foundation/
 query_api/
 apps/
-docs/
+docs/*
+!docs/index.html
 pyproject.toml
 requirements*.txt
 *.csv

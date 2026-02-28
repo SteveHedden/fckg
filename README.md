@@ -2,6 +2,8 @@
 
 An RDF knowledge graph of award nominations across six major film award systems, with a SHACL-based ontology for validation and inference. Designed for predictive modeling, longitudinal analysis, and enrichment via external APIs.
 
+**[Interactive Ontology Diagram →](https://stevehedden.github.io/fckg/)**
+
 ## Data Foundation
 
 The publishable data foundation consists of the ontology plus instance data. Everything a consumer needs to load, query, and enrich the graph.

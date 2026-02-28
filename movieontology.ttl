@@ -28,11 +28,6 @@
         owl:imports <http://datashapes.org/graphql> ;
         owl:imports <http://topbraid.org/teamworkconstraints> .
 
-MovieSHACL3:Actor  rdfs:subClassOf  MovieSHACL3:Person;
-        rdf:type         sh:NodeShape;
-        rdf:type         owl:Class;
-        rdfs:label       "Actor";
-        rdfs:comment     "A person who performs a role in a movie by portraying a character.\n" .
 
 MovieSHACL3:Person  rdfs:subClassOf  owl:Thing;
         rdf:type         sh:NodeShape;
@@ -300,11 +295,6 @@ MovieSHACL3:Film-hasCinematographer
         sh:name      "hasCinematographer";
         sh:path      MovieSHACL3:hasCinematographer .
 
-MovieSHACL3:Director  rdfs:subClassOf  MovieSHACL3:Person;
-        rdf:type         sh:NodeShape;
-        rdf:type         owl:Class;
-        rdfs:label       "Director";
-        rdfs:comment     "A person responsible for overseeing the creative and artistic aspects of a movie, including directing performances and guiding the overall vision of the film.\n" .
 
 MovieSHACL3:Nomination
         rdfs:subClassOf  owl:Thing;

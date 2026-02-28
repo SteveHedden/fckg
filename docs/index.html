@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FCKG Ontology — MovieSHACL3</title>
+  <script src="https://cdn.jsdelivr.net/npm/cytoscape@3.28.1/dist/cytoscape.min.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f1117;
+      color: #e2e8f0;
+      padding: 1.5rem 2rem;
+    }
+    h1  { font-size: 1.5rem; font-weight: 700; color: #f8fafc; margin-bottom: 0.3rem; }
+    h2  { font-size: 1.1rem; margin-top: 2.5rem; margin-bottom: 1rem; color: #f1f5f9; }
+    .subtitle { font-size: 0.85rem; color: #94a3b8; margin-bottom: 1.2rem; }
+    code { font-family: monospace; font-size: 0.8rem; color: #94a3b8; }
+
+    .toolbar {
+      display: flex; align-items: center; gap: 1rem;
+      margin-bottom: 0.8rem; flex-wrap: wrap;
+    }
+    .legend {
+      display: flex; align-items: center; gap: 1.2rem; flex-wrap: wrap;
+      font-size: 0.78rem; color: #cbd5e1;
+    }
+    .legend-item { display: flex; align-items: center; gap: 0.4rem; }
+    .dot  { width: 11px; height: 11px; border-radius: 3px; flex-shrink: 0; }
+    .line { width: 22px; height: 2px; flex-shrink: 0; }
+    .line.dashed { background: repeating-linear-gradient(90deg,#6b7280 0,#6b7280 4px,transparent 4px,transparent 8px); }
+    .line.dotted  { background: repeating-linear-gradient(90deg,#4b5563 0,#4b5563 2px,transparent 2px,transparent 6px); }
+    .line.solid   { background: #64748b; }
+
+    button {
+      background: #1e293b; border: 1px solid #334155; color: #cbd5e1;
+      padding: 0.35rem 0.9rem; border-radius: 6px; cursor: pointer; font-size: 0.8rem;
+    }
+    button:hover { background: #334155; }
+
+    #cy {
+      width: 100%; height: 680px;
+      border-radius: 10px;
+      background: #131825;
+      border: 1px solid #1e293b;
+    }
+    .hint { font-size: 0.72rem; color: #475569; margin-top: 0.5rem; }
+
+    table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
+    th { background: #1e2130; color: #94a3b8; text-align: left; padding: 0.55rem 0.9rem; border-bottom: 1px solid #334155; }
+    td { padding: 0.45rem 0.9rem; border-bottom: 1px solid #1e293b; vertical-align: top; line-height: 1.5; }
+    tr:nth-child(even) td { background: #111520; }
+    .cls-core     { color: #60a5fa; font-weight: 600; }
+    .cls-award    { color: #a78bfa; font-weight: 600; }
+    .cls-forecast { color: #34d399; font-weight: 600; }
+    .cls-support  { color: #fbbf24; font-weight: 600; }
+    .prop { color: #a5b4fc; }
+    .req  { color: #86efac; }
+    .opt  { color: #94a3b8; }
+  </style>
+</head>
+<body>
+
+<h1>FCKG Ontology — MovieSHACL3</h1>
+<p class="subtitle">
+  Namespace <code>msh:</code> = <code>http://example.org/ontologies/MovieSHACL3#</code>
+  &nbsp;·&nbsp; All classes are <code>owl:Class</code> + <code>sh:NodeShape</code>
+</p>
+
+<div class="toolbar">
+  <div class="legend">
+    <div class="legend-item"><div class="dot" style="background:#1e3a5f;border:2px solid #3b82f6"></div> Core domain</div>
+    <div class="legend-item"><div class="dot" style="background:#2d1b69;border:2px solid #8b5cf6"></div> Award infrastructure</div>
+    <div class="legend-item"><div class="dot" style="background:#064e3b;border:2px solid #10b981"></div> Forecasting</div>
+    <div class="legend-item"><div class="dot" style="background:#451a03;border:2px solid #f59e0b"></div> Supporting</div>
+    <div class="legend-item"><div class="line solid"></div> object property</div>
+    <div class="legend-item"><div class="line dotted"></div> inverse / derived</div>
+  </div>
+  <button onclick="cy.fit(null,40)">Reset view</button>
+  <button onclick="exportPng()">Export PNG (2×)</button>
+</div>
+
+<div id="cy"></div>
+<p class="hint">Scroll to zoom · drag to pan · drag nodes to rearrange</p>
+
+<script>
+const cy = cytoscape({
+  container: document.getElementById('cy'),
+  elements: {
+    nodes: [
+      // Core domain
+      { data: { id: 'Film',            label: 'Film',            group: 'core'     } },
+      { data: { id: 'Person',          label: 'Person',          group: 'core'     } },
+      { data: { id: 'Genre',           label: 'Genre',           group: 'core'     } },
+      // Award infrastructure
+      { data: { id: 'Nomination',      label: 'Nomination',      group: 'award'    } },
+      { data: { id: 'AwardSystem',     label: 'AwardSystem',     group: 'award'    } },
+      { data: { id: 'AwardCeremony',   label: 'AwardCeremony',   group: 'award'    } },
+      { data: { id: 'AwardCategory',   label: 'AwardCategory',   group: 'award'    } },
+      { data: { id: 'AwardConcept',    label: 'AwardConcept',    group: 'award'    } },
+      // Forecasting
+      { data: { id: 'ForecastSet',     label: 'ForecastSet',     group: 'forecast' } },
+      { data: { id: 'Forecast',        label: 'Forecast',        group: 'forecast' } },
+      // Supporting
+      { data: { id: 'Identifier',      label: 'Identifier',      group: 'support'  } },
+      { data: { id: 'IdentifierScheme',label: 'IdentifierScheme',group: 'support'  } },
+    ],
+    edges: [
+      // Film → Person (6 individual crew role edges, fanned out)
+      { data: { id: 'e-f-hdir', source: 'Film', target: 'Person', label: 'hasDirector',        etype: 'obj' } },
+      { data: { id: 'e-f-hact', source: 'Film', target: 'Person', label: 'hasActor',           etype: 'obj' } },
+      { data: { id: 'e-f-hpro', source: 'Film', target: 'Person', label: 'hasProducer',        etype: 'obj' } },
+      { data: { id: 'e-f-hwri', source: 'Film', target: 'Person', label: 'hasWriter',          etype: 'obj' } },
+      { data: { id: 'e-f-hcom', source: 'Film', target: 'Person', label: 'hasComposer',        etype: 'obj' } },
+      { data: { id: 'e-f-hcin', source: 'Film', target: 'Person', label: 'hasCinematographer', etype: 'obj' } },
+
+      // Film → *
+      { data: { id: 'e-f-g',      source: 'Film',        target: 'Genre',        label: 'hasGenre',        etype: 'obj' } },
+      { data: { id: 'e-f-id',     source: 'Film',        target: 'Identifier',   label: 'hasIdentifier',   etype: 'obj' } },
+      { data: { id: 'e-f-nom',    source: 'Film',        target: 'Nomination',   label: 'nominations (inv:hasFilm)',  etype: 'inv' } },
+
+      // Person → *
+      { data: { id: 'e-p-id',     source: 'Person',      target: 'Identifier',   label: 'hasIdentifier',   etype: 'obj' } },
+      { data: { id: 'e-p-f',      source: 'Person',      target: 'Film',         label: 'nominatedFor (derived)',    etype: 'inv' } },
+      { data: { id: 'e-p-nom',    source: 'Person',      target: 'Nomination',   label: 'nominations (inv:hasNominee)', etype: 'inv' } },
+
+      // Nomination → *
+      { data: { id: 'e-n-f',      source: 'Nomination',  target: 'Film',         label: 'hasFilm',         etype: 'obj' } },
+      { data: { id: 'e-n-p',      source: 'Nomination',  target: 'Person',       label: 'hasNominee',      etype: 'obj' } },
+      { data: { id: 'e-n-cer',    source: 'Nomination',  target: 'AwardCeremony',label: 'hasCeremony',     etype: 'obj' } },
+      { data: { id: 'e-n-cat',    source: 'Nomination',  target: 'AwardCategory',label: 'hasCategory\nhasCanonCategory', etype: 'obj' } },
+
+      // Award hierarchy
+      { data: { id: 'e-cer-sys',  source: 'AwardCeremony', target: 'AwardSystem', label: 'hasAwardSystem', etype: 'obj' } },
+      { data: { id: 'e-cat-sys',  source: 'AwardCategory', target: 'AwardSystem', label: 'hasAwardSystem', etype: 'obj' } },
+      { data: { id: 'e-cat-con',  source: 'AwardCategory', target: 'AwardConcept',label: 'realizationOf',  etype: 'obj' } },
+
+      // Identifier
+      { data: { id: 'e-id-sch',   source: 'Identifier',  target: 'IdentifierScheme', label: 'scheme',     etype: 'obj' } },
+
+      // Forecasting
+      { data: { id: 'e-fs-f',     source: 'ForecastSet', target: 'Forecast',     label: 'hasForecast',     etype: 'obj' } },
+      { data: { id: 'e-fc-n',     source: 'Forecast',    target: 'Nomination',   label: 'predictsNomination', etype: 'obj' } },
+    ]
+  },
+
+  style: [
+    {
+      selector: 'node',
+      style: {
+        label: 'data(label)',
+        'text-valign': 'center',
+        'text-halign': 'center',
+        'font-size': '12px',
+        'font-weight': 'bold',
+        color: '#e2e8f0',
+        width: 'label',
+        height: 'label',
+        padding: '10px',
+        shape: 'roundrectangle',
+        'border-width': 2,
+      }
+    },
+    { selector: 'node[group="core"]',     style: { 'background-color': '#1e3a5f', 'border-color': '#3b82f6' } },
+    { selector: 'node[group="award"]',    style: { 'background-color': '#2d1b69', 'border-color': '#8b5cf6' } },
+    { selector: 'node[group="forecast"]', style: { 'background-color': '#064e3b', 'border-color': '#10b981' } },
+    { selector: 'node[group="support"]',  style: { 'background-color': '#451a03', 'border-color': '#f59e0b' } },
+    {
+      selector: 'node:selected',
+      style: { 'border-width': 3, 'border-color': '#f8fafc' }
+    },
+    {
+      selector: 'edge',
+      style: {
+        label: 'data(label)',
+        'font-size': '9px',
+        color: '#94a3b8',
+        'text-background-color': '#131825',
+        'text-background-opacity': 1,
+        'text-background-padding': '2px',
+        'text-wrap': 'wrap',
+        'text-max-width': '110px',
+        'curve-style': 'bezier',
+        'target-arrow-shape': 'triangle',
+        'line-color': '#334155',
+        'target-arrow-color': '#334155',
+        width: 1.5,
+      }
+    },
+    {
+      selector: 'edge[etype="inherit"]',
+      style: {
+        'line-style': 'dashed',
+        'line-color': '#6b7280',
+        'target-arrow-color': '#6b7280',
+        'target-arrow-shape': 'triangle-tee',
+        color: '#6b7280',
+      }
+    },
+    {
+      selector: 'edge[etype="inv"]',
+      style: {
+        'line-style': 'dotted',
+        'line-color': '#374151',
+        'target-arrow-color': '#374151',
+        'target-arrow-shape': 'vee',
+        color: '#64748b',
+      }
+    },
+
+    // Film → Person fan: 6 edges staggered across one side
+    { selector: '#e-f-hdir', style: { 'curve-style': 'unbundled-bezier', 'control-point-distances': [-140], 'control-point-weights': [0.5] } },
+    { selector: '#e-f-hact', style: { 'curve-style': 'unbundled-bezier', 'control-point-distances': [ -84], 'control-point-weights': [0.5] } },
+    { selector: '#e-f-hpro', style: { 'curve-style': 'unbundled-bezier', 'control-point-distances': [ -28], 'control-point-weights': [0.5] } },
+    { selector: '#e-f-hwri', style: { 'curve-style': 'unbundled-bezier', 'control-point-distances': [  28], 'control-point-weights': [0.5] } },
+    { selector: '#e-f-hcom', style: { 'curve-style': 'unbundled-bezier', 'control-point-distances': [  84], 'control-point-weights': [0.5] } },
+    { selector: '#e-f-hcin', style: { 'curve-style': 'unbundled-bezier', 'control-point-distances': [ 140], 'control-point-weights': [0.5] } },
+
+    // Person → Film: far outside the fan so it doesn't overlap
+    { selector: '#e-p-f',    style: { 'curve-style': 'unbundled-bezier', 'control-point-distances': [-210], 'control-point-weights': [0.5] } },
+
+    // Separate bidirectional Film ↔ Nomination
+    { selector: '#e-f-nom',  style: { 'curve-style': 'unbundled-bezier', 'control-point-distances': [ 100], 'control-point-weights': [0.5], 'text-margin-y': -12 } },
+    { selector: '#e-n-f',    style: { 'curve-style': 'unbundled-bezier', 'control-point-distances': [-100], 'control-point-weights': [0.5], 'text-margin-y':  12 } },
+
+    // Separate bidirectional Person ↔ Nomination
+    { selector: '#e-p-nom',  style: { 'curve-style': 'unbundled-bezier', 'control-point-distances': [ 100], 'control-point-weights': [0.5], 'text-margin-y': -12 } },
+    { selector: '#e-n-p',    style: { 'curve-style': 'unbundled-bezier', 'control-point-distances': [-100], 'control-point-weights': [0.5], 'text-margin-y':  12 } },
+  ],
+
+  layout: {
+    name: 'cose',
+    animate: false,
+    fit: true,
+    padding: 50,
+    randomize: false,
+    nodeRepulsion: 500000,
+    idealEdgeLength: 180,
+    edgeElasticity: 100,
+    nestingFactor: 5,
+    gravity: 60,
+    numIter: 1000,
+    initialTemp: 300,
+    coolingFactor: 0.97,
+    minTemp: 1.0,
+    componentSpacing: 80,
+    nodeOverlap: 10,
+  }
+});
+
+function exportPng() {
+  const link = document.createElement('a');
+  link.href = cy.png({ output: 'base64uri', bg: '#131825', scale: 2, full: true, padding: 40 });
+  link.download = 'fckg_ontology.png';
+  link.click();
+}
+</script>
+
+<!-- ── Property reference ──────────────────────────────────────────────── -->
+<h2>Property Reference</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Class</th>
+      <th>Object Properties (→ target class)</th>
+      <th>Required datatype props</th>
+      <th>Optional datatype props</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="cls-core">Film</td>
+      <td class="prop">hasDirector, hasActor, hasProducer,<br>hasWriter, hasComposer, hasCinematographer (→ Person)<br>hasGenre (→ Genre) · hasIdentifier (→ Identifier)</td>
+      <td class="req">title · releaseYear</td>
+      <td class="opt">tmdbId, imdbId, wikidataId, runtime, language, country, productionCompany, budget, revenue, tmdbRating, tmdbPopularity, originalLanguage, releaseDate, imdbRating, rottenTomatoesScore, metacriticScore, mpaaRating, boxOffice, synopsis, enrichedAt</td>
+    </tr>
+    <tr>
+      <td class="cls-core">Person</td>
+      <td class="prop">hasIdentifier (→ Identifier)<br>nominatedFor (→ Film, SPARQL-derived)</td>
+      <td class="req">fullName</td>
+      <td class="opt">birthYear, birthPlace, biography, tmdbPersonId, entityType ∈ {PERSON, ORGANIZATION}</td>
+    </tr>
+    <tr>
+      <td class="cls-award">Nomination</td>
+      <td class="prop">hasCeremony [1] (→ AwardCeremony)<br>hasCategory [1] · hasCanonCategory (→ AwardCategory)<br>hasFilm (→ Film) · hasNominee (→ Person)</td>
+      <td class="req">yearFilm · winner</td>
+      <td class="opt">nomineeType ∈ {FILM, PERSON, COLLABORATION}, previousNominations, previousWins, submittingCountry, note</td>
+    </tr>
+    <tr>
+      <td class="cls-award">AwardSystem</td>
+      <td class="prop">—</td>
+      <td class="req">systemName · shortName</td>
+      <td class="opt">description</td>
+    </tr>
+    <tr>
+      <td class="cls-award">AwardCeremony</td>
+      <td class="prop">hasAwardSystem [1] (→ AwardSystem)</td>
+      <td class="req">yearCeremony · ceremonyName</td>
+      <td class="opt">ceremonyDate</td>
+    </tr>
+    <tr>
+      <td class="cls-award">AwardCategory</td>
+      <td class="prop">hasAwardSystem [1] (→ AwardSystem)<br>realizationOf (→ AwardConcept)</td>
+      <td class="req">categoryName</td>
+      <td class="opt">description</td>
+    </tr>
+    <tr>
+      <td class="cls-award">AwardConcept</td>
+      <td class="prop">—</td>
+      <td class="req">—</td>
+      <td class="opt">description</td>
+    </tr>
+    <tr>
+      <td class="cls-support">Identifier</td>
+      <td class="prop">scheme [1] (→ IdentifierScheme)</td>
+      <td class="req">value</td>
+      <td class="opt">—</td>
+    </tr>
+    <tr>
+      <td class="cls-support">IdentifierScheme</td>
+      <td class="prop">—</td>
+      <td class="req">—</td>
+      <td class="opt">instances: imdb · tmdb · wikidata</td>
+    </tr>
+    <tr>
+      <td class="cls-forecast">ForecastSet</td>
+      <td class="prop">hasForecast (→ Forecast)</td>
+      <td class="req">—</td>
+      <td class="opt">forecastSetSystem, forecastSetCategory, forecastSetYear, forecastSetLoggedAt, forecastSetModelType, forecastSetFeatures, forecastSetAUC, forecastSetTop1Pct, forecastSetSource ∈ {model, kalshi_market}</td>
+    </tr>
+    <tr>
+      <td class="cls-forecast">Forecast</td>
+      <td class="prop">predictsNomination (→ Nomination)</td>
+      <td class="req">—</td>
+      <td class="opt">forecastQuestion · forecastProbability · loggedAt</td>
+    </tr>
+  </tbody>
+</table>
+
+<p style="margin-top:1.5rem; font-size:0.72rem; color:#475569;">
+  [1] = exactly one required &nbsp;·&nbsp;
+  Dotted arrows = inverse navigation paths (sh:inversePath) or SPARQL-derived properties &nbsp;·&nbsp;
+  Dashed arrows = subClassOf inheritance
+</p>
+
+</body>
+</html>
