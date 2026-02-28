@@ -47,15 +47,15 @@ data/foundation/
 !data/instances/*.ttl
 
 # Internal pipeline code (not part of published foundation)
-scripts/
-tests/
-features/
-model/
-enrichment/
-ingestion/
-foundation/
-query_api/
-apps/
+/scripts/
+/tests/
+/features/
+/model/
+/enrichment/
+/ingestion/
+/foundation/
+/query_api/
+/apps/
 docs/*
 !docs/index.html
 pyproject.toml
