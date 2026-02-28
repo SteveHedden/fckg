@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FCKG Ontology — MovieSHACL3</title>
+  <title>Film Club Knowledge Graph (FCKG)</title>
   <script src="https://cdn.jsdelivr.net/npm/cytoscape@3.28.1/dist/cytoscape.min.js"></script>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -40,7 +40,7 @@
     button:hover { background: #334155; }
 
     #cy {
-      width: 100%; height: 680px;
+      width: 100%; height: 500px;
       border-radius: 10px;
       background: #131825;
       border: 1px solid #1e293b;
@@ -138,7 +138,7 @@
 <body>
 
 <div style="display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:0.5rem;margin-bottom:0.4rem;">
-  <h1 style="margin:0;">FCKG Ontology — MovieSHACL3</h1>
+  <h1 style="margin:0;">Film Club Knowledge Graph (FCKG)</h1>
   <a href="https://github.com/SteveHedden/fckg" target="_blank"
      style="font-size:0.85rem;color:#60a5fa;text-decoration:none;white-space:nowrap;">
     View repo &amp; clone on GitHub →
@@ -327,18 +327,18 @@ const cy = cytoscape({
     name: 'cose',
     animate: false,
     fit: true,
-    padding: 50,
+    padding: 40,
     randomize: false,
-    nodeRepulsion: 500000,
-    idealEdgeLength: 180,
+    nodeRepulsion: 280000,
+    idealEdgeLength: 110,
     edgeElasticity: 100,
     nestingFactor: 5,
-    gravity: 60,
+    gravity: 90,
     numIter: 1000,
     initialTemp: 300,
     coolingFactor: 0.97,
     minTemp: 1.0,
-    componentSpacing: 80,
+    componentSpacing: 50,
     nodeOverlap: 10,
   }
 });
