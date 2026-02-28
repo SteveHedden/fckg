@@ -40,6 +40,7 @@ data/enriched/
 data/raw/
 data/staging/
 data/legacy/
+data/foundation/
 
 # Keep canonical public instance graphs trackable
 !data/instances/
