@@ -89,6 +89,70 @@ The data foundation is designed to be enriched by consumers using whatever sourc
 
 Enriched data should be stored as additive RDF overlays that reference the same Film/Person URIs, not by modifying the foundation files.
 
+## Example Model
+
+`example_model/` is a complete Oscar prediction pipeline built on top of the FCKG data foundation. It demonstrates how to go from raw RDF graph data to ranked win-probability predictions for any supported award category.
+
+### Setup
+
+```bash
+pip install rdflib pyshacl scikit-learn pandas numpy python-dotenv requests matplotlib shap
+cp .env.example .env   # fill in TMDB_API_KEY and OMDB_API_KEY
+```
+
+### Pipeline
+
+**Step 1 — Build foundation graph** (optional; combines ontology + instances into a single validated TTL):
+```bash
+python example_model/foundation_builder.py
+```
+
+**Step 2 — Enrich** (fetches budget, revenue, ratings, genres, festival awards from TMDB / OMDb / Wikidata):
+```bash
+python example_model/enrichment_runner.py           # all films (~2–3 hrs first run)
+python example_model/enrichment_runner.py --year 2024  # only films from one release year
+python example_model/enrichment_runner.py --cache-only # rebuild TTLs from cached responses
+```
+
+**Step 3 — Feature selection** (RFECV identifies predictive features for a category):
+```bash
+python example_model/feature_selection.py --category best_picture
+python example_model/feature_selection.py --category best_actress --conceptual
+python example_model/feature_selection.py --category best_actor --award-system sag --conceptual
+```
+
+`--conceptual` enforces a one-representative-per-concept rule before RFECV: within each group (financial scale, critical reception, audience ratings, etc.) only the single most predictive feature is kept. For acting categories it also groups ceremony-level signals — e.g., `bafta_actress_winner` and `bafta_winner` are treated as one group and the better predictor is kept.
+
+Outputs `data/reports/<category>/selected_features.json`.
+
+**Step 4 — Model selection** (backtests LR, Ridge, RF, GB, and LR+RF; picks the best by AUC):
+```bash
+python example_model/model_selection.py --category best_picture
+python example_model/model_selection.py --category best_actress --award-system sag
+python example_model/model_selection.py --category best_picture --model-types Ridge LR
+python example_model/model_selection.py --category best_picture --start-year 2010 --end-year 2024
+```
+
+Outputs `grid_results.csv`, `backcast_results.csv`, `backcast_summary.txt`, `feature_importance.csv/png` to `data/reports/<category>/`.
+
+**Step 5 — Predict** (trains on all historical data, generates ranked win probabilities with SHAP explanations):
+```bash
+python example_model/predict.py --category best_picture --year 2025
+python example_model/predict.py --category best_actress --award-system sag --year 2025
+python example_model/predict.py --category best_picture --year 2025 --model Ridge \
+    --features pga_winner dga_winner sag_winner globe_drama_winner
+```
+
+Outputs `predictions_<year>.csv`, `shap_values_<year>.csv`, `shap_summary_<year>.png`, and per-nominee waterfall plots to `data/reports/<category>/`.
+
+### Supported categories
+
+| `--award-system` | `--category` options |
+|---|---|
+| `oscars` (default) | `best_picture`, `best_director`, `best_actor`, `best_actress`, `best_supporting_actor`, `best_supporting_actress`, `cinematography`, `editing`, `score`, `adapted_screenplay`, `original_screenplay`, `makeup`, `costume_design`, `visual_effects` |
+| `sag` | `best_ensemble_cast`, `best_actor`, `best_actress`, `best_supporting_actor`, `best_supporting_actress` |
+| `bafta` | `best_film`, `best_director`, `best_actor`, `best_actress`, `best_supporting_actor`, `best_supporting_actress` |
+
 ## Demo Notebook
 
 Run `fckg_demo_simply.ipynb` to:
