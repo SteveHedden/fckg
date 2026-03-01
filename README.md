@@ -16,11 +16,17 @@ The publishable data foundation consists of the ontology plus instance data. Eve
 |-------|-------------|
 | **Film** | A motion picture with title, release year, and external identifiers |
 | **Person** | An individual involved in film production (director, actor, writer, etc.) |
+| **Genre** | A thematic/stylistic classification for films (Drama, Comedy, Science Fiction, etc.) |
 | **Nomination** | A reified time-bound event linking a film and nominee(s) to an award category and ceremony |
 | **AwardSystem** | An award-granting body (Oscars, BAFTA, SAG, DGA, PGA, Golden Globes) |
 | **AwardCeremony** | A specific year's ceremony within an award system |
-| **AwardCategory** | A category within an award system (e.g., Best Picture, Best Director) |
+| **AwardCategory** | A specific category within an award system (e.g., Best Picture, Best Director) |
+| **AwardConcept** | An abstract cross-system achievement concept grouping equivalent categories across award bodies (e.g., "Best Male Lead Actor" groups Oscar Best Actor, SAG Male Lead, BAFTA Best Actor) |
+| **Award** | A recognition or honor bestowed on a film or person (used for festival awards such as Palme d'Or, Golden Lion) |
 | **Identifier** | A reified external identifier (IMDB, TMDB, Wikidata) |
+| **IdentifierScheme** | A controlled vocabulary entry for identifier types (imdb, tmdb, wikidata) |
+| **ForecastSet** | A set of probabilistic predictions from one model run for a specific category and ceremony year |
+| **Forecast** | A single binary probabilistic prediction about whether a specific nomination will resolve as a win |
 
 #### Key Modeling Patterns
 
@@ -39,7 +45,7 @@ All instance files live under `data/instances/`:
 |------|----------|
 | `oscar_nominations.ttl` | ~10,600 Oscar nominations (1927-2025), ceremonies, categories |
 | `films.ttl` | ~6,300 films with titles, release years, and external identifiers |
-| `people.ttl` | ~10,700 persons with names and IMDB identifiers |
+| `people.ttl` | ~8,300 persons with names and IMDB identifiers |
 | `bafta_nominations.ttl` | ~4,800 BAFTA nominations (1948-2025) |
 | `golden_globes_nominations.ttl` | ~3,700 Golden Globe nominations (1944-2025) |
 | `sag_nominations.ttl` | ~780 SAG nominations (1994-2025) |
