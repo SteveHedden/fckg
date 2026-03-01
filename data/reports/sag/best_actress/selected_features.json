@@ -1,0 +1,14 @@
+{
+  "category": "best_actress",
+  "award_system": "sag",
+  "train_end_year": 2025,
+  "n_candidates": 66,
+  "n_ceremonies": 31,
+  "feature_cap": 6,
+  "conceptual_reduction": true,
+  "selected_features": [
+    "oscars_actress_nominee",
+    "golden_globes_actress_winner",
+    "other_noms"
+  ]
+}

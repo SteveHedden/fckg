@@ -1,46 +1,46 @@
 year_film,nominee_label,winner,prob,rank,top_pick,actual_winner,winner_rank,correct
-2016,Jeff Bridges (Hell or High Water),False,0.3504,1,Jeff Bridges (Hell or High Water),Mahershala Ali (Moonlight),2,False
-2016,Mahershala Ali (Moonlight),True,0.2755,2,Jeff Bridges (Hell or High Water),Mahershala Ali (Moonlight),2,False
-2016,Lucas Hedges (Manchester by the Sea),False,0.2477,3,Jeff Bridges (Hell or High Water),Mahershala Ali (Moonlight),2,False
-2016,Dev Patel (Lion),False,0.2288,4,Jeff Bridges (Hell or High Water),Mahershala Ali (Moonlight),2,False
-2016,Person_Hugh_Grant (Florence Foster Jenkins),False,0.0737,5,Jeff Bridges (Hell or High Water),Mahershala Ali (Moonlight),2,False
-2017,"Sam Rockwell (Three Billboards outside Ebbing, Missouri)",True,0.8419,1,"Sam Rockwell (Three Billboards outside Ebbing, Missouri)","Sam Rockwell (Three Billboards outside Ebbing, Missouri)",1,True
-2017,"Woody Harrelson (Three Billboards outside Ebbing, Missouri)",False,0.489,2,"Sam Rockwell (Three Billboards outside Ebbing, Missouri)","Sam Rockwell (Three Billboards outside Ebbing, Missouri)",1,True
-2017,Richard Jenkins (The Shape of Water),False,0.4203,3,"Sam Rockwell (Three Billboards outside Ebbing, Missouri)","Sam Rockwell (Three Billboards outside Ebbing, Missouri)",1,True
-2017,Willem Dafoe (The Florida Project),False,0.3737,4,"Sam Rockwell (Three Billboards outside Ebbing, Missouri)","Sam Rockwell (Three Billboards outside Ebbing, Missouri)",1,True
-2017,Steve Carell (Battle of the Sexes),False,0.1078,5,"Sam Rockwell (Three Billboards outside Ebbing, Missouri)","Sam Rockwell (Three Billboards outside Ebbing, Missouri)",1,True
-2018,Mahershala Ali (Green Book),True,0.7212,1,Mahershala Ali (Green Book),Mahershala Ali (Green Book),1,True
-2018,Sam Elliott (A Star Is Born),False,0.461,2,Mahershala Ali (Green Book),Mahershala Ali (Green Book),1,True
-2018,Adam Driver (BlacKkKlansman),False,0.3771,3,Mahershala Ali (Green Book),Mahershala Ali (Green Book),1,True
-2018,Richard E. Grant (Can You Ever Forgive Me?),False,0.232,4,Mahershala Ali (Green Book),Mahershala Ali (Green Book),1,True
-2018,Timothée Chalamet (Beautiful Boy),False,0.1151,5,Mahershala Ali (Green Book),Mahershala Ali (Green Book),1,True
-2019,Brad Pitt (Once upon a Time...in Hollywood),True,0.766,1,Brad Pitt (Once upon a Time...in Hollywood),Brad Pitt (Once upon a Time...in Hollywood),1,True
-2019,Tom Hanks (A Beautiful Day in the Neighborhood),False,0.3295,2,Brad Pitt (Once upon a Time...in Hollywood),Brad Pitt (Once upon a Time...in Hollywood),1,True
-2019,Al Pacino (The Irishman),False,0.2478,3,Brad Pitt (Once upon a Time...in Hollywood),Brad Pitt (Once upon a Time...in Hollywood),1,True
-2019,Joe Pesci (The Irishman),False,0.2478,4,Brad Pitt (Once upon a Time...in Hollywood),Brad Pitt (Once upon a Time...in Hollywood),1,True
-2019,Jamie Foxx (Just Mercy),False,0.128,5,Brad Pitt (Once upon a Time...in Hollywood),Brad Pitt (Once upon a Time...in Hollywood),1,True
-2020,Daniel Kaluuya (Judas and the Black Messiah),True,0.648,1,Daniel Kaluuya (Judas and the Black Messiah),Daniel Kaluuya (Judas and the Black Messiah),1,True
-2020,Sacha Baron Cohen (The Trial of the Chicago 7),False,0.1401,2,Daniel Kaluuya (Judas and the Black Messiah),Daniel Kaluuya (Judas and the Black Messiah),1,True
-2020,Chadwick Boseman (Da 5 Bloods),False,0.0991,3,Daniel Kaluuya (Judas and the Black Messiah),Daniel Kaluuya (Judas and the Black Messiah),1,True
-2020,Jared Leto (The Little Things),False,0.0913,4,Daniel Kaluuya (Judas and the Black Messiah),Daniel Kaluuya (Judas and the Black Messiah),1,True
-2020,Leslie Odom Jr. (One Night in Miami...),False,0.0727,5,Daniel Kaluuya (Judas and the Black Messiah),Daniel Kaluuya (Judas and the Black Messiah),1,True
-2021,Kodi Smit-McPhee (The Power of the Dog),False,0.2373,1,Kodi Smit-McPhee (The Power of the Dog),Troy Kotsur (CODA),2,False
-2021,Troy Kotsur (CODA),True,0.2278,2,Kodi Smit-McPhee (The Power of the Dog),Troy Kotsur (CODA),2,False
-2021,Jared Leto (House of Gucci),False,0.0961,3,Kodi Smit-McPhee (The Power of the Dog),Troy Kotsur (CODA),2,False
-2021,Bradley Cooper (Licorice Pizza),False,0.0812,4,Kodi Smit-McPhee (The Power of the Dog),Troy Kotsur (CODA),2,False
-2021,Ben Affleck (The Tender Bar),False,0.0456,5,Kodi Smit-McPhee (The Power of the Dog),Troy Kotsur (CODA),2,False
-2022,Barry Keoghan (The Banshees of Inisherin),False,0.3132,1,Barry Keoghan (The Banshees of Inisherin),Ke Huy Quan (Everything Everywhere All at Once),2,False
-2022,Ke Huy Quan (Everything Everywhere All at Once),True,0.2622,2,Barry Keoghan (The Banshees of Inisherin),Ke Huy Quan (Everything Everywhere All at Once),2,False
-2022,Brendan Gleeson (The Banshees of Inisherin),False,0.1995,3,Barry Keoghan (The Banshees of Inisherin),Ke Huy Quan (Everything Everywhere All at Once),2,False
-2022,Person_Paul_Dano (The Fabelmans),False,0.1234,4,Barry Keoghan (The Banshees of Inisherin),Ke Huy Quan (Everything Everywhere All at Once),2,False
-2022,Eddie Redmayne (The Good Nurse),False,0.0257,5,Barry Keoghan (The Banshees of Inisherin),Ke Huy Quan (Everything Everywhere All at Once),2,False
-2023,Robert Downey Jr. (Oppenheimer),True,0.8863,1,Robert Downey Jr. (Oppenheimer),Robert Downey Jr. (Oppenheimer),1,True
-2023,Ryan Gosling (Barbie),False,0.4103,2,Robert Downey Jr. (Oppenheimer),Robert Downey Jr. (Oppenheimer),1,True
-2023,Robert De Niro (Killers of the Flower Moon),False,0.4047,3,Robert Downey Jr. (Oppenheimer),Robert Downey Jr. (Oppenheimer),1,True
-2023,Sterling K. Brown (American Fiction),False,0.2481,4,Robert Downey Jr. (Oppenheimer),Robert Downey Jr. (Oppenheimer),1,True
-2023,Willem Dafoe (Poor Things),False,0.1251,5,Robert Downey Jr. (Oppenheimer),Robert Downey Jr. (Oppenheimer),1,True
-2024,Kieran Culkin (A Real Pain),True,0.7782,1,Kieran Culkin (A Real Pain),Kieran Culkin (A Real Pain),1,True
-2024,Yura Borisov (Anora),False,0.3063,2,Kieran Culkin (A Real Pain),Kieran Culkin (A Real Pain),1,True
-2024,Edward Norton (A Complete Unknown),False,0.2047,3,Kieran Culkin (A Real Pain),Kieran Culkin (A Real Pain),1,True
-2024,Jeremy Strong (The Apprentice),False,0.1714,4,Kieran Culkin (A Real Pain),Kieran Culkin (A Real Pain),1,True
-2024,Person_Jonathan_Bailey (Wicked),False,0.1657,5,Kieran Culkin (A Real Pain),Kieran Culkin (A Real Pain),1,True
+2016,Mahershala Ali (Moonlight),True,0.5021,1,Mahershala Ali (Moonlight),Mahershala Ali (Moonlight),1,True
+2016,Lucas Hedges (Manchester by the Sea),False,0.4584,2,Mahershala Ali (Moonlight),Mahershala Ali (Moonlight),1,True
+2016,Dev Patel (Lion),False,0.4061,3,Mahershala Ali (Moonlight),Mahershala Ali (Moonlight),1,True
+2016,Jeff Bridges (Hell or High Water),False,0.3828,4,Mahershala Ali (Moonlight),Mahershala Ali (Moonlight),1,True
+2016,Person_Hugh_Grant (Florence Foster Jenkins),False,0.2058,5,Mahershala Ali (Moonlight),Mahershala Ali (Moonlight),1,True
+2017,"Sam Rockwell (Three Billboards outside Ebbing, Missouri)",True,0.8506,1,"Sam Rockwell (Three Billboards outside Ebbing, Missouri)","Sam Rockwell (Three Billboards outside Ebbing, Missouri)",1,True
+2017,Richard Jenkins (The Shape of Water),False,0.4018,2,"Sam Rockwell (Three Billboards outside Ebbing, Missouri)","Sam Rockwell (Three Billboards outside Ebbing, Missouri)",1,True
+2017,Willem Dafoe (The Florida Project),False,0.3861,3,"Sam Rockwell (Three Billboards outside Ebbing, Missouri)","Sam Rockwell (Three Billboards outside Ebbing, Missouri)",1,True
+2017,"Woody Harrelson (Three Billboards outside Ebbing, Missouri)",False,0.3846,4,"Sam Rockwell (Three Billboards outside Ebbing, Missouri)","Sam Rockwell (Three Billboards outside Ebbing, Missouri)",1,True
+2017,Steve Carell (Battle of the Sexes),False,0.2068,5,"Sam Rockwell (Three Billboards outside Ebbing, Missouri)","Sam Rockwell (Three Billboards outside Ebbing, Missouri)",1,True
+2018,Adam Driver (BlacKkKlansman),False,0.5238,1,Adam Driver (BlacKkKlansman),Mahershala Ali (Green Book),4,False
+2018,Sam Elliott (A Star Is Born),False,0.4882,2,Adam Driver (BlacKkKlansman),Mahershala Ali (Green Book),4,False
+2018,Richard E. Grant (Can You Ever Forgive Me?),False,0.4013,3,Adam Driver (BlacKkKlansman),Mahershala Ali (Green Book),4,False
+2018,Mahershala Ali (Green Book),True,0.2833,4,Adam Driver (BlacKkKlansman),Mahershala Ali (Green Book),4,False
+2018,Timothée Chalamet (Beautiful Boy),False,0.2242,5,Adam Driver (BlacKkKlansman),Mahershala Ali (Green Book),4,False
+2019,Brad Pitt (Once upon a Time...in Hollywood),True,0.8822,1,Brad Pitt (Once upon a Time...in Hollywood),Brad Pitt (Once upon a Time...in Hollywood),1,True
+2019,Al Pacino (The Irishman),False,0.5277,2,Brad Pitt (Once upon a Time...in Hollywood),Brad Pitt (Once upon a Time...in Hollywood),1,True
+2019,Joe Pesci (The Irishman),False,0.5277,3,Brad Pitt (Once upon a Time...in Hollywood),Brad Pitt (Once upon a Time...in Hollywood),1,True
+2019,Tom Hanks (A Beautiful Day in the Neighborhood),False,0.4274,4,Brad Pitt (Once upon a Time...in Hollywood),Brad Pitt (Once upon a Time...in Hollywood),1,True
+2019,Jamie Foxx (Just Mercy),False,0.1384,5,Brad Pitt (Once upon a Time...in Hollywood),Brad Pitt (Once upon a Time...in Hollywood),1,True
+2020,Daniel Kaluuya (Judas and the Black Messiah),True,0.8715,1,Daniel Kaluuya (Judas and the Black Messiah),Daniel Kaluuya (Judas and the Black Messiah),1,True
+2020,Leslie Odom Jr. (One Night in Miami...),False,0.5058,2,Daniel Kaluuya (Judas and the Black Messiah),Daniel Kaluuya (Judas and the Black Messiah),1,True
+2020,Sacha Baron Cohen (The Trial of the Chicago 7),False,0.5058,3,Daniel Kaluuya (Judas and the Black Messiah),Daniel Kaluuya (Judas and the Black Messiah),1,True
+2020,Chadwick Boseman (Da 5 Bloods),False,0.237,4,Daniel Kaluuya (Judas and the Black Messiah),Daniel Kaluuya (Judas and the Black Messiah),1,True
+2020,Jared Leto (The Little Things),False,0.1468,5,Daniel Kaluuya (Judas and the Black Messiah),Daniel Kaluuya (Judas and the Black Messiah),1,True
+2021,Kodi Smit-McPhee (The Power of the Dog),False,0.8573,1,Kodi Smit-McPhee (The Power of the Dog),Troy Kotsur (CODA),2,False
+2021,Troy Kotsur (CODA),True,0.4982,2,Kodi Smit-McPhee (The Power of the Dog),Troy Kotsur (CODA),2,False
+2021,Bradley Cooper (Licorice Pizza),False,0.186,3,Kodi Smit-McPhee (The Power of the Dog),Troy Kotsur (CODA),2,False
+2021,Ben Affleck (The Tender Bar),False,0.1769,4,Kodi Smit-McPhee (The Power of the Dog),Troy Kotsur (CODA),2,False
+2021,Jared Leto (House of Gucci),False,0.0985,5,Kodi Smit-McPhee (The Power of the Dog),Troy Kotsur (CODA),2,False
+2022,Barry Keoghan (The Banshees of Inisherin),False,0.628,1,Barry Keoghan (The Banshees of Inisherin),Ke Huy Quan (Everything Everywhere All at Once),3,False
+2022,Brendan Gleeson (The Banshees of Inisherin),False,0.4328,2,Barry Keoghan (The Banshees of Inisherin),Ke Huy Quan (Everything Everywhere All at Once),3,False
+2022,Ke Huy Quan (Everything Everywhere All at Once),True,0.4189,3,Barry Keoghan (The Banshees of Inisherin),Ke Huy Quan (Everything Everywhere All at Once),3,False
+2022,Person_Paul_Dano (The Fabelmans),False,0.2277,4,Barry Keoghan (The Banshees of Inisherin),Ke Huy Quan (Everything Everywhere All at Once),3,False
+2022,Eddie Redmayne (The Good Nurse),False,0.1615,5,Barry Keoghan (The Banshees of Inisherin),Ke Huy Quan (Everything Everywhere All at Once),3,False
+2023,Robert Downey Jr. (Oppenheimer),True,0.8788,1,Robert Downey Jr. (Oppenheimer),Robert Downey Jr. (Oppenheimer),1,True
+2023,Ryan Gosling (Barbie),False,0.4705,2,Robert Downey Jr. (Oppenheimer),Robert Downey Jr. (Oppenheimer),1,True
+2023,Sterling K. Brown (American Fiction),False,0.432,3,Robert Downey Jr. (Oppenheimer),Robert Downey Jr. (Oppenheimer),1,True
+2023,Robert De Niro (Killers of the Flower Moon),False,0.3565,4,Robert Downey Jr. (Oppenheimer),Robert Downey Jr. (Oppenheimer),1,True
+2023,Willem Dafoe (Poor Things),False,0.0724,5,Robert Downey Jr. (Oppenheimer),Robert Downey Jr. (Oppenheimer),1,True
+2024,Kieran Culkin (A Real Pain),True,0.8892,1,Kieran Culkin (A Real Pain),Kieran Culkin (A Real Pain),1,True
+2024,Yura Borisov (Anora),False,0.578,2,Kieran Culkin (A Real Pain),Kieran Culkin (A Real Pain),1,True
+2024,Jeremy Strong (The Apprentice),False,0.3765,3,Kieran Culkin (A Real Pain),Kieran Culkin (A Real Pain),1,True
+2024,Edward Norton (A Complete Unknown),False,0.2866,4,Kieran Culkin (A Real Pain),Kieran Culkin (A Real Pain),1,True
+2024,Person_Jonathan_Bailey (Wicked),False,0.186,5,Kieran Culkin (A Real Pain),Kieran Culkin (A Real Pain),1,True

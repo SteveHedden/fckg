@@ -1,0 +1,19 @@
+{
+  "category": "best_supporting_actress",
+  "award_system": "sag",
+  "train_end_year": 2025,
+  "n_candidates": 66,
+  "n_ceremonies": 31,
+  "feature_cap": 6,
+  "conceptual_reduction": true,
+  "selected_features": [
+    "pga_winner",
+    "golden_globes_supporting_actress_winner",
+    "bafta_supporting_actress_winner",
+    "oscars_supporting_actress_nominee",
+    "previous_supporting_actress_wins",
+    "other_noms",
+    "above_line_noms",
+    "acting_noms"
+  ]
+}

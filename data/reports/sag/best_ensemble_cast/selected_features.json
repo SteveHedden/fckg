@@ -1,0 +1,20 @@
+{
+  "category": "best_ensemble_cast",
+  "award_system": "sag",
+  "train_end_year": 2025,
+  "n_candidates": 62,
+  "n_ceremonies": 30,
+  "feature_cap": 6,
+  "conceptual_reduction": true,
+  "selected_features": [
+    "bafta_winner",
+    "dga_winner",
+    "pga_winner",
+    "acting_noms",
+    "cast_star_power",
+    "other_noms",
+    "above_line_noms",
+    "cast_previous_noms_sum",
+    "cast_previous_wins_sum"
+  ]
+}

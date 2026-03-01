@@ -21,7 +21,7 @@ from .evaluation import (
     compute_backtest_metrics,
 )
 
-MODEL_TYPES = ["LR", "RF", "GB", "LR+RF"]
+MODEL_TYPES = ["LR", "Ridge", "RF", "GB", "LR+RF"]
 
 # Columns that are identifiers, targets, or free-text — never used as features.
 _DEFAULT_EXCLUDE: frozenset[str] = frozenset({
@@ -29,6 +29,9 @@ _DEFAULT_EXCLUDE: frozenset[str] = frozenset({
     "nom", "nominee", "nominee_type", "winner",
     "candidate_id", "candidate_name",
     "release_date", "tagline", "mpaa_rating", "original_language",
+    # has_tagline is a data-completeness artifact (missing TMDB records),
+    # not a genuine signal — excluded globally.
+    "has_tagline",
 })
 
 
@@ -36,6 +39,14 @@ def _make_estimator(name: str):
     """Return a fresh sklearn estimator by short name."""
     if name == "LR":
         return LogisticRegression(random_state=42, max_iter=1000, class_weight="balanced")
+    if name == "Ridge":
+        # Stronger L2 regularisation (C=0.1) than plain LR.  Shrinks correlated
+        # precursor coefficients proportionally so none flip to spurious negatives.
+        # penalty='l2' is the default so omitted to avoid the sklearn 1.8 deprecation.
+        return LogisticRegression(
+            C=0.1, solver="lbfgs",
+            random_state=42, max_iter=1000, class_weight="balanced",
+        )
     if name == "RF":
         return RandomForestClassifier(
             n_estimators=200, max_depth=10, min_samples_split=5,
@@ -137,6 +148,12 @@ class OscarCategoryModel:
         train = self._data.copy()
         if len(train) < 30:
             raise ValueError("Insufficient training data for RFECV")
+
+        # Drop all-NaN columns before RFECV — sklearn's imputer silently skips
+        # them which makes selector.support_ shorter than all_cols.
+        all_cols = [c for c in all_cols if train[c].notna().any()]
+        if not all_cols:
+            raise ValueError("All feature columns are entirely NaN")
 
         # Impute + scale before RFECV so NaN columns are kept.
         prep = Pipeline([
@@ -344,8 +361,8 @@ class OscarCategoryModel:
             rf_imp = rf_pipe["model"].feature_importances_
             importances = (lr_imp + rf_imp) / 2
 
-        elif self._model_type == "LR":
-            pipe = self._build_pipeline("LR")
+        elif self._model_type in ("LR", "Ridge"):
+            pipe = self._build_pipeline(self._model_type)
             pipe.fit(X, y)
             importances = np.abs(pipe["model"].coef_[0])
             if importances.sum() > 0:

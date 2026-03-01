@@ -103,12 +103,15 @@ def _S(alias: str, row_type: str, concept_local: str, col_prefix: str | None = N
 
 
 # SAG acting concept URIs used to identify cast members for history aggregation.
+# Includes ensemble cast so that prior ensemble nominations/wins (e.g. MBJ's
+# Black Panther win) count toward cast_star_power and cast history features.
 # Defined here because _concept() must be in scope.
 _SAG_ACTING_CONCEPTS = {
     _concept("Concept_BestMaleLeadActor"),
     _concept("Concept_BestFemaleLeadActor"),
     _concept("Concept_BestMaleSupportingActor"),
     _concept("Concept_BestFemaleSupportingActor"),
+    _concept("Concept_BestEnsembleCast"),
 }
 
 

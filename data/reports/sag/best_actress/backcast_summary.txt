@@ -1,12 +1,9 @@
 Category: best_actress
 Award system: sag
-Model: LR
-Features: ['golden_globes_actress_winner', 'bafta_actress_winner', 'oscars_actress_nominee', 'imdb_rating', 'rotten_tomatoes_pct', 'log_revenue', 'budget_revenue_ratio', 'num_wikidata_awards']
-Years: 2016..2025
-n_years: 9
-AUC: 0.8025
-top1: 5
-top1_pct: 55.6%
-top3: 8
-top3_pct: 88.9%
-avg_rank: 1.7778
+Winning model: Ridge
+Features (3): ['oscars_actress_nominee', 'golden_globes_actress_winner', 'other_noms']
+Years: 2016–2025  (n=9)
+AUC: 0.8333
+top1: 7 (77.8%)
+top3: 9 (100.0%)
+avg_rank: 1.2222

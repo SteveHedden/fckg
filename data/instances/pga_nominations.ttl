@@ -3097,7 +3097,7 @@ msh:Nomination_pga_2025_best_theatrical_motion_picture_one_battle_after_another_
         msh:Person_Paul_Thomas_Anderson,
         msh:Person_Sara_Murphy ;
     msh:nomineeType "COLLABORATION" ;
-    msh:winner false ;
+    msh:winner true ;
     msh:yearFilm "2025"^^xsd:gYear .
 
 msh:Nomination_pga_2025_best_theatrical_motion_picture_sentimental_value_bfd081a72f730b88 a msh:Nomination ;

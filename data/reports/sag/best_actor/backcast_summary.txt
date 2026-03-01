@@ -1,12 +1,9 @@
 Category: best_actor
 Award system: sag
-Model: GB
-Features: ['golden_globes_actor_winner', 'bafta_actor_winner', 'oscars_actor_nominee', 'imdb_rating', 'rotten_tomatoes_pct', 'log_revenue', 'budget_revenue_ratio', 'num_wikidata_awards']
-Years: 2016..2025
-n_years: 9
-AUC: 0.7099
-top1: 5
-top1_pct: 55.6%
-top3: 7
-top3_pct: 77.8%
-avg_rank: 2.0000
+Winning model: Ridge
+Features (8): ['pga_winner', 'bafta_actor_winner', 'golden_globes_actor_winner', 'oscars_actor_nominee', 'dga_winner', 'previous_actor_nominations', 'previous_all_nominations', 'other_noms']
+Years: 2016–2025  (n=9)
+AUC: 0.7469
+top1: 5 (55.6%)
+top3: 9 (100.0%)
+avg_rank: 1.7778

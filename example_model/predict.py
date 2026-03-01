@@ -14,6 +14,12 @@ Output
 ──────
   data/reports/<category>/predictions_<year>.csv
     Columns: candidate_name (acting categories), film, win_pct, rank
+  data/reports/<category>/shap_values_<year>.csv
+    Columns: nominee_label, <feature1>, <feature2>, ...
+  data/reports/<category>/shap_summary_<year>.png
+    Beeswarm plot of SHAP values across all nominees
+  data/reports/<category>/shap/<nominee>_<year>.png
+    Individual waterfall plot for each nominee
 
 Usage
 ─────
@@ -27,7 +33,7 @@ Usage
 
 Requirements
 ────────────
-  pip install rdflib scikit-learn pandas numpy python-dotenv
+  pip install rdflib scikit-learn pandas numpy python-dotenv matplotlib shap
 """
 
 from __future__ import annotations
@@ -38,11 +44,20 @@ import sys
 from pathlib import Path
 
 import pandas as pd
+from sklearn.impute import SimpleImputer
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import StandardScaler
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from features.category_extractor import CategoryExtractor
-from model.category_model import MODEL_TYPES, OscarCategoryModel
+from model.category_model import MODEL_TYPES, OscarCategoryModel, _make_estimator
+from model.visualize import (
+    compute_shap,
+    plot_shap_summary,
+    plot_shap_waterfall,
+    _safe_stem,
+)
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
@@ -172,13 +187,66 @@ def main() -> None:
     else:
         out_df = pred_df[["film", "win_pct", "rank"]].copy()
 
-    # ── 4. Write output ────────────────────────────────────────────────────────
+    # ── 4. Write predictions CSV ───────────────────────────────────────────────
     out_path = output_dir / f"predictions_{predict_year}.csv"
     out_df.to_csv(out_path, index=False)
 
     print(f"\nPredictions for {args.award_system}/{args.category} ({predict_year}):")
     print(out_df.to_string(index=False))
     print(f"\nWrote: {out_path}")
+
+    # ── 5. SHAP analysis ──────────────────────────────────────────────────────
+    print("\nComputing SHAP values ...")
+    train_df = data[data["year_film"] < predict_year]
+    test_df = data[data["year_film"] == predict_year]
+
+    shap_model_type = model_type if model_type != "LR+RF" else "LR"
+    shap_pipe = Pipeline([
+        ("imputer", SimpleImputer(strategy="median")),
+        ("scaler", StandardScaler()),
+        ("model", _make_estimator(shap_model_type)),
+    ])
+    X_train = train_df[selected].values
+    y_train = train_df["winner"].astype(int).values
+    X_test = test_df[selected].values
+    shap_pipe.fit(X_train, y_train)
+
+    sv, base, X_test_t = compute_shap(shap_pipe, X_train, X_test, shap_model_type)
+
+    # Build nominee labels aligned with pred_df row order
+    test_aligned = data[data["year_film"] == predict_year].copy()
+    if extractor.row_type == "nominee":
+        labels = (
+            test_aligned["candidate_name"].fillna("").astype(str)
+            + " ("
+            + test_aligned["film"].fillna("").astype(str)
+            + ")"
+        ).tolist()
+    else:
+        labels = test_aligned["film"].fillna("").astype(str).tolist()
+
+    # SHAP values CSV
+    shap_df = pd.DataFrame(sv, columns=selected)
+    shap_df.insert(0, "nominee_label", labels)
+    shap_csv = output_dir / f"shap_values_{predict_year}.csv"
+    shap_df.to_csv(shap_csv, index=False)
+    print(f"  Wrote: {shap_csv.name}")
+
+    # SHAP summary plot
+    summary_path = output_dir / f"shap_summary_{predict_year}.png"
+    plot_shap_summary(
+        sv, X_test_t, selected, summary_path,
+        title=f"SHAP Summary — {args.category} ({predict_year})",
+    )
+    print(f"  Wrote: {summary_path.name}")
+
+    # Per-nominee waterfall plots
+    shap_dir = output_dir / "shap"
+    shap_dir.mkdir(exist_ok=True)
+    for i, label in enumerate(labels):
+        film_path = shap_dir / f"{_safe_stem(label)}_{predict_year}.png"
+        plot_shap_waterfall(sv[i], base, X_test_t[i], selected, label, film_path)
+    print(f"  Wrote: shap/{len(labels)} waterfall plots")
 
 
 if __name__ == "__main__":

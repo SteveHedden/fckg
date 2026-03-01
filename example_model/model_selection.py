@@ -15,6 +15,7 @@ Outputs (written to data/reports/<category>/)
   backcast_results.csv    — year-by-year nominee probabilities and ranks
   backcast_summary.txt    — summary stats for the winning model
   feature_importance.csv  — feature importance ranking for the winning model
+  feature_importance.png  — bar chart (signed for LR, unsigned for RF/GB)
 
 Usage
 ─────
@@ -32,7 +33,7 @@ Usage
 
 Requirements
 ────────────
-  pip install rdflib scikit-learn pandas numpy python-dotenv
+  pip install rdflib scikit-learn pandas numpy python-dotenv matplotlib
 """
 
 from __future__ import annotations
@@ -53,6 +54,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from features.category_extractor import CategoryExtractor
 from model.category_model import MODEL_TYPES, OscarCategoryModel, _make_estimator
 from model.evaluation import YearResult, compute_backtest_metrics
+from model.visualize import plot_feature_importance
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
@@ -229,6 +231,33 @@ def main() -> None:
 
     importance_df = winning_model.feature_importance(target_year=end_year)
     importance_df.to_csv(output_dir / "feature_importance.csv", index=False)
+
+    # ── Feature importance plot ────────────────────────────────────────────────
+    train_all = data[data["year_film"] < end_year]
+    X_imp = train_all[selected].values
+    y_imp = train_all["winner"].astype(int).values
+    imp_pipe = _fit_pipeline("LR" if winning_type == "LR+RF" else winning_type, X_imp, y_imp)
+
+    if winning_type in ("LR", "Ridge", "LR+RF"):
+        # Linear models: direction is encoded in sign of coefficient
+        raw_imp = imp_pipe["model"].coef_[0]
+        directions = np.sign(raw_imp)
+    else:
+        # RF/GB importances are always positive — compute Pearson correlation
+        # to recover the actual directional relationship with winner
+        raw_imp = imp_pipe["model"].feature_importances_
+        y_series = train_all["winner"].astype(float)
+        directions = np.array([
+            np.sign(train_all[f].corr(y_series)) for f in selected
+        ])
+
+    plot_feature_importance(
+        selected, raw_imp,
+        output_dir / "feature_importance.png",
+        directions=directions,
+        title=f"Feature Importance — {args.category} ({winning_type})",
+    )
+    print("  Wrote: feature_importance.png")
 
     backcast_rows, year_results, all_probs = [], [], []
     for year in range(start_year, end_year + 1):

@@ -22,6 +22,17 @@ Usage
   python feature_selection.py --category best_actress --award-system oscars
   python feature_selection.py --category best_picture --train-end-year 2020
 
+Flags
+─────
+  --conceptual   Enable concept-aware feature reduction before RFECV.
+                 Within each conceptual group (financial scale, critical
+                 reception, audience rating, etc.) only the single best-
+                 performing feature is kept, preventing the model from
+                 double-counting the same underlying signal.  Precursor
+                 award nominee/winner pairs are also auto-detected and
+                 reduced to the winner column.  Recommended for producing
+                 explainable, non-redundant feature sets.
+
 Supported categories (oscars)
 ──────────────────────────────
   best_picture, best_director, best_actor, best_actress,
@@ -42,10 +53,16 @@ import sys
 from pathlib import Path
 
 import pandas as pd
+from sklearn.feature_selection import RFE
+from sklearn.impute import SimpleImputer
+from sklearn.linear_model import LogisticRegression
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import StandardScaler
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from features.category_extractor import CategoryExtractor
+from features.feature_groups import reduce_to_group_representatives
 from model.category_model import OscarCategoryModel, _DEFAULT_EXCLUDE
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -79,6 +96,26 @@ def main() -> None:
         "--output-dir", default=None,
         help="Directory to write selected_features.json (default: data/reports/<category>).",
     )
+    parser.add_argument(
+        "--max-features", type=int, default=None,
+        metavar="N",
+        help=(
+            "Hard cap on the number of selected features. "
+            "Default: auto-computed as max(3, n_ceremonies // 5) — "
+            "the EPV≈5 rule (5 training observations per parameter). "
+            "Override with a specific integer to force a tighter or looser limit."
+        ),
+    )
+    parser.add_argument(
+        "--conceptual", action="store_true",
+        help=(
+            "Enable concept-aware feature reduction before RFECV. "
+            "Keeps one representative per conceptual group (financial, "
+            "critical reception, etc.) and collapses precursor nominee/"
+            "winner pairs to the winner column. Produces more explainable "
+            "feature sets."
+        ),
+    )
     args = parser.parse_args()
 
     # ── 1. Extract features ───────────────────────────────────────────────────
@@ -98,18 +135,49 @@ def main() -> None:
     train_end_year = args.train_end_year if args.train_end_year is not None else max_year
     train_df = data[data["year_film"] < train_end_year].copy()
 
-    print(f"  {len(data)} total rows  |  {_candidate_count(train_df)} candidate features")
+    n_candidates = _candidate_count(train_df)
+    print(f"  {len(data)} total rows  |  {n_candidates} candidate features")
     print(f"  Training on {len(train_df)} rows (year_film < {train_end_year})")
 
     if len(train_df) < 30:
         print(f"Error: only {len(train_df)} training rows — need at least 30.", file=sys.stderr)
         sys.exit(1)
 
-    # ── 2. Run RFECV ──────────────────────────────────────────────────────────
-    print("Running RFECV (this may take a minute) ...")
+    # ── 2. Conceptual reduction (optional) ────────────────────────────────────
+    candidate_cols = [
+        c for c in train_df.columns
+        if c not in _DEFAULT_EXCLUDE and pd.api.types.is_numeric_dtype(train_df[c])
+    ]
+
+    # For SAG categories, Oscar winner columns are future leakage — the Oscars
+    # happen weeks after the SAG ceremony, so the winner cannot be known at
+    # prediction time. Oscar nominee columns are kept (nominations are announced
+    # ~6 weeks before the ceremony, before SAG).
+    if args.award_system == "sag":
+        leaky = [c for c in candidate_cols
+                 if c.startswith("oscars_") and c.endswith("_winner")]
+        if leaky:
+            print(f"  Excluding {len(leaky)} Oscar winner feature(s) "
+                  f"(future leakage for SAG): {leaky}")
+            candidate_cols = [c for c in candidate_cols if c not in leaky]
+
+    if args.conceptual:
+        print("\nApplying conceptual feature grouping ...")
+        report = reduce_to_group_representatives(
+            train_df, candidate_cols, category=args.category
+        )
+        report.print_summary()
+        rfecv_cols = report.selected
+        rfecv_df = train_df[list({*rfecv_cols, "winner", "year_film"})].copy()
+    else:
+        rfecv_df = train_df
+        rfecv_cols = candidate_cols   # RFECV will see all candidates
+
+    # ── 3. Run RFECV ──────────────────────────────────────────────────────────
+    print(f"\nRunning RFECV on {len(rfecv_cols)} features (this may take a minute) ...")
     try:
         model = OscarCategoryModel(
-            train_df,
+            rfecv_df,
             category_name=args.category,
             features="RFECV",
             model_type="LR",
@@ -120,11 +188,58 @@ def main() -> None:
         sys.exit(1)
 
     selected = model.features
-    print(f"\nSelected {len(selected)} features (from {_candidate_count(train_df)} candidates):")
+
+    # ── 4. Apply EPV-based feature cap ────────────────────────────────────────
+    # Precursor award features (*_winner, *_nominee) are each a distinct expert
+    # signal and are never dropped — Ridge handles any correlation between them.
+    # The EPV cap (n_ceremonies ÷ 5) applies only to generic features (financial,
+    # genre, country, ratings, etc.) where overfitting risk is higher.
+    n_ceremonies = int(train_df["year_film"].nunique())
+    other_cap = args.max_features if args.max_features is not None else max(3, n_ceremonies // 5)
+
+    precursor_feats = [
+        f for f in selected
+        if f.endswith("_winner") or f.endswith("_nominee")
+    ]
+    other_feats = [f for f in selected if f not in set(precursor_feats)]
+
+    print(f"\nFeature cap (EPV≈5, n_ceremonies={n_ceremonies}):")
+    print(f"  Precursor features kept in full ({len(precursor_feats)}): {precursor_feats}")
+
+    if len(other_feats) > other_cap:
+        source = (
+            f"--max-features={other_cap}"
+            if args.max_features is not None
+            else f"n_ceremonies={n_ceremonies} ÷ 5 = {other_cap}"
+        )
+        print(f"  Generic features: {len(other_feats)} selected → capping at {other_cap} ({source})")
+        non_precursor_rfecv = [
+            c for c in rfecv_cols
+            if not (c.endswith("_winner") or c.endswith("_nominee"))
+        ]
+        prep = Pipeline([
+            ("imputer", SimpleImputer(strategy="median")),
+            ("scaler", StandardScaler()),
+        ])
+        X_rfe = prep.fit_transform(rfecv_df[non_precursor_rfecv].values)
+        y_rfe = rfecv_df["winner"].astype(int).values
+        rfe = RFE(
+            LogisticRegression(random_state=42, max_iter=1000, class_weight="balanced"),
+            n_features_to_select=other_cap,
+        )
+        rfe.fit(X_rfe, y_rfe)
+        other_feats = [non_precursor_rfecv[i] for i in range(len(non_precursor_rfecv)) if rfe.support_[i]]
+        print(f"  → {len(other_feats)} generic features after RFE cap")
+    else:
+        print(f"  Generic features: {len(other_feats)} selected — within limit of {other_cap}.")
+
+    selected = precursor_feats + other_feats
+
+    print(f"\nFinal {len(selected)} features (from {_candidate_count(train_df)} candidates):")
     for i, f in enumerate(selected, 1):
         print(f"  {i:>2}. {f}")
 
-    # ── 3. Write output ────────────────────────────────────────────────────────
+    # ── 5. Write output ────────────────────────────────────────────────────────
     if args.output_dir:
         output_dir = Path(args.output_dir)
     elif args.award_system == "oscars":
@@ -137,7 +252,10 @@ def main() -> None:
         "category": args.category,
         "award_system": args.award_system,
         "train_end_year": train_end_year,
-        "n_candidates": _candidate_count(train_df),
+        "n_candidates": n_candidates,
+        "n_ceremonies": n_ceremonies,
+        "feature_cap": other_cap,
+        "conceptual_reduction": args.conceptual,
         "selected_features": selected,
     }
     out_path = output_dir / "selected_features.json"

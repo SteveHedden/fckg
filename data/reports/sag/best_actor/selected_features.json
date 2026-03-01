@@ -1,0 +1,19 @@
+{
+  "category": "best_actor",
+  "award_system": "sag",
+  "train_end_year": 2025,
+  "n_candidates": 66,
+  "n_ceremonies": 31,
+  "feature_cap": 6,
+  "conceptual_reduction": true,
+  "selected_features": [
+    "pga_winner",
+    "bafta_actor_winner",
+    "golden_globes_actor_winner",
+    "oscars_actor_nominee",
+    "dga_winner",
+    "previous_actor_nominations",
+    "previous_all_nominations",
+    "other_noms"
+  ]
+}
