@@ -1,0 +1,46 @@
+year_film,nominee_label,winner,prob,rank,top_pick,actual_winner,winner_rank,correct
+2016,Moonlight,True,0.528,1,Moonlight,Moonlight,1,True
+2016,Arrival,False,0.506,2,Moonlight,Moonlight,1,True
+2016,Lion,False,0.4596,3,Moonlight,Moonlight,1,True
+2016,Fences,False,0.4046,4,Moonlight,Moonlight,1,True
+2016,Hidden Figures,False,0.4018,5,Moonlight,Moonlight,1,True
+2017,Molly's Game,False,0.449,1,Molly's Game,Call Me by Your Name,2,False
+2017,Call Me by Your Name,True,0.4292,2,Molly's Game,Call Me by Your Name,2,False
+2017,Mudbound,False,0.4052,3,Molly's Game,Call Me by Your Name,2,False
+2017,Logan,False,0.3686,4,Molly's Game,Call Me by Your Name,2,False
+2017,The Disaster Artist,False,0.3686,5,Molly's Game,Call Me by Your Name,2,False
+2018,A Star Is Born,False,0.4787,1,A Star Is Born,BlacKkKlansman,3,False
+2018,If Beale Street Could Talk,False,0.4759,2,A Star Is Born,BlacKkKlansman,3,False
+2018,BlacKkKlansman,True,0.4686,3,A Star Is Born,BlacKkKlansman,3,False
+2018,The Ballad of Buster Scruggs,False,0.4065,4,A Star Is Born,BlacKkKlansman,3,False
+2018,Can You Ever Forgive Me?,False,0.4028,5,A Star Is Born,BlacKkKlansman,3,False
+2019,The Irishman,False,0.5894,1,The Irishman,Jojo Rabbit,3,False
+2019,Joker,False,0.5563,2,The Irishman,Jojo Rabbit,3,False
+2019,Jojo Rabbit,True,0.5048,3,The Irishman,Jojo Rabbit,3,False
+2019,The Two Popes,False,0.475,4,The Irishman,Jojo Rabbit,3,False
+2019,Little Women,False,0.4541,5,The Irishman,Jojo Rabbit,3,False
+2020,The Father,True,0.5693,1,The Father,The Father,1,True
+2020,Nomadland,False,0.5106,2,The Father,The Father,1,True
+2020,One Night in Miami...,False,0.3958,3,The Father,The Father,1,True
+2020,Borat Subsequent Moviefilm: Delivery of Prodigious Bribe to American Regime for Make Benefit Once Glorious Nation of Kazakhstan,False,0.3838,4,The Father,The Father,1,True
+2020,The White Tiger,False,0.3266,5,The Father,The Father,1,True
+2021,The Power of the Dog,False,0.5983,1,The Power of the Dog,CODA,3,False
+2021,Dune,False,0.5544,2,The Power of the Dog,CODA,3,False
+2021,CODA,True,0.4558,3,The Power of the Dog,CODA,3,False
+2021,The Lost Daughter,False,0.4037,4,The Power of the Dog,CODA,3,False
+2021,Drive My Car,False,0.3487,5,The Power of the Dog,CODA,3,False
+2022,All Quiet on the Western Front,False,0.514,1,All Quiet on the Western Front,Women Talking,3,False
+2022,Top Gun: Maverick,False,0.4553,2,All Quiet on the Western Front,Women Talking,3,False
+2022,Women Talking,True,0.4527,3,All Quiet on the Western Front,Women Talking,3,False
+2022,Living,False,0.3946,4,All Quiet on the Western Front,Women Talking,3,False
+2022,Glass Onion: A Knives Out Mystery,False,0.3743,5,All Quiet on the Western Front,Women Talking,3,False
+2023,Oppenheimer,False,0.6345,1,Oppenheimer,American Fiction,4,False
+2023,Poor Things,False,0.6023,2,Oppenheimer,American Fiction,4,False
+2023,Barbie,False,0.5384,3,Oppenheimer,American Fiction,4,False
+2023,American Fiction,True,0.4874,4,Oppenheimer,American Fiction,4,False
+2023,The Zone of Interest,False,0.4404,5,Oppenheimer,American Fiction,4,False
+2024,Conclave,True,0.7406,1,Conclave,Conclave,1,True
+2024,Emilia Pérez,False,0.5251,2,Conclave,Conclave,1,True
+2024,A Complete Unknown,False,0.484,3,Conclave,Conclave,1,True
+2024,Sing Sing,False,0.4104,4,Conclave,Conclave,1,True
+2024,Nickel Boys,False,0.3996,5,Conclave,Conclave,1,True

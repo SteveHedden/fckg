@@ -1,0 +1,9 @@
+Category: best_picture
+Award system: oscars
+Winning model: ConstrainedLR
+Features (5): ['nominee_previous_noms_max', 'genre_science_fiction', 'pga_winner', 'dga_winner', 'directing_nom']
+Years: 2016–2025  (n=9)
+AUC: 0.9339
+top1: 5 (55.6%)
+top3: 9 (100.0%)
+avg_rank: 1.5556

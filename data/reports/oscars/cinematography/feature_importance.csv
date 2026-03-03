@@ -1,0 +1,10 @@
+rank,feature,importance
+1,other_noms,0.14498291331767985
+2,bafta_cinematography_winner,0.08829790741520425
+3,acting_noms,0.057934898160727374
+4,genre_comedy,-0.05391456658751063
+5,genre_documentary,0.04898625714292516
+6,genre_romance,0.043486343501889055
+7,bafta_cinematography_nominee,0.04261588456137111
+8,music_noms,0.02601267727539115
+9,nsfc_best_film,-0.02193823631517892

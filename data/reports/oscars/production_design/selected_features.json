@@ -1,0 +1,37 @@
+{
+  "category": "production_design",
+  "award_system": "oscars",
+  "train_end_year": 2025,
+  "n_candidates": 79,
+  "n_ceremonies": 97,
+  "feature_cap": 19,
+  "conceptual_reduction": true,
+  "tier1_forced_precursors": [
+    "bafta_production_design_nominee",
+    "bafta_production_design_winner"
+  ],
+  "generic_precursor_nominees_excluded": [],
+  "selected_features": [
+    "bafta_production_design_nominee",
+    "bafta_production_design_winner",
+    "acting_noms",
+    "directing_nom",
+    "music_noms",
+    "writing_noms",
+    "other_noms",
+    "metacritic_score",
+    "english_language",
+    "genre_animation",
+    "genre_music",
+    "genre_romance",
+    "num_wikidata_awards",
+    "lafca_best_film",
+    "country_us",
+    "country_france",
+    "country_non_english",
+    "nominee_previous_noms_max",
+    "nominee_previous_noms_avg",
+    "nominee_previous_wins_sum",
+    "nominee_previous_wins_avg"
+  ]
+}

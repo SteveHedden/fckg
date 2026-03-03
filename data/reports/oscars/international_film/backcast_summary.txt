@@ -1,0 +1,9 @@
+Category: international_film
+Award system: oscars
+Winning model: ConstrainedLR
+Features (19): ['bafta_international_film_nominee', 'bafta_international_film_winner', 'golden_globes_international_film_nominee', 'golden_globes_international_film_winner', 'bafta_winner', 'globe_winner', 'cinematography_nom', 'directing_nom', 'technical_noms', 'writing_noms', 'imdb_rating', 'rotten_tomatoes_pct', 'metacritic_score', 'english_language', 'genre_documentary', 'genre_fantasy', 'genre_romance', 'genre_war', 'num_wikidata_awards']
+Years: 2016–2025  (n=6)
+AUC: 0.8889
+top1: 5 (83.3%)
+top3: 6 (100.0%)
+avg_rank: 1.1667

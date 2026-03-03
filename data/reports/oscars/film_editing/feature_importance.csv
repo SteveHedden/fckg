@@ -1,0 +1,9 @@
+rank,feature,importance
+1,dga_winner,0.16267874838550203
+2,other_noms,0.10528376689760113
+3,bafta_film_editing_winner,0.07112147137055842
+4,bafta_film_editing_nominee,0.06247264655336539
+5,english_language,0.022897827388806333
+6,acting_noms,-0.00900107270800016
+7,nominee_previous_noms_sum,0.006125578877464035
+8,nominee_previous_noms_max,-0.0003141527671542011

@@ -1,0 +1,9 @@
+Category: documentary
+Award system: oscars
+Winning model: ConstrainedLR
+Features (18): ['bafta_documentary_nominee', 'bafta_documentary_winner', 'bafta_winner', 'vote_average', 'vote_count', 'rotten_tomatoes_pct', 'release_month', 'rated_G', 'genre_adventure', 'genre_drama', 'genre_science_fiction', 'genre_war', 'sundance_grand_jury', 'nominee_previous_noms_sum', 'nominee_previous_noms_max', 'nominee_previous_noms_avg', 'nominee_previous_wins_sum', 'nominee_previous_wins_max']
+Years: 2016–2025  (n=9)
+AUC: 0.9105
+top1: 7 (77.8%)
+top3: 9 (100.0%)
+avg_rank: 1.3333

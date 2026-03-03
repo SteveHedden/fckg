@@ -1,0 +1,9 @@
+Category: visual_effects
+Award system: oscars
+Winning model: ConstrainedLR
+Features (14): ['bafta_visual_effects_nominee', 'bafta_visual_effects_winner', 'bafta_winner', 'acting_noms', 'cinematography_nom', 'technical_noms', 'rotten_tomatoes_pct', 'metacritic_score', 'budget_revenue_ratio', 'rated_PG', 'rated_G', 'genre_adventure', 'genre_crime', 'genre_war']
+Years: 2016–2025  (n=9)
+AUC: 0.9506
+top1: 8 (88.9%)
+top3: 9 (100.0%)
+avg_rank: 1.1111

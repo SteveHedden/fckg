@@ -1,0 +1,6 @@
+rank,feature,importance
+1,golden_globes_original_song_winner,0.1485583036444537
+2,golden_globes_original_song_nominee,0.13238676112845432
+3,globe_winner,0.13132139888981065
+4,genre_science_fiction,-0.035384788719181964
+5,genre_horror,-0.030563529512564264

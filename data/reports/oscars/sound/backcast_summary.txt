@@ -1,0 +1,9 @@
+Category: sound
+Award system: oscars
+Winning model: ConstrainedLR
+Features (7): ['bafta_sound_nominee', 'bafta_sound_winner', 'imdb_rating', 'country_france', 'editing_nom', 'other_noms', 'english_language']
+Years: 2016–2025  (n=9)
+AUC: 0.9593
+top1: 8 (88.9%)
+top3: 9 (100.0%)
+avg_rank: 1.1111

@@ -1,0 +1,46 @@
+year_film,nominee_label,winner,prob,rank,top_pick,actual_winner,winner_rank,correct
+2016,Mahershala Ali (Moonlight),True,0.5933,1,Mahershala Ali (Moonlight),Mahershala Ali (Moonlight),1,True
+2016,Jeff Bridges (Hell or High Water),False,0.5552,2,Mahershala Ali (Moonlight),Mahershala Ali (Moonlight),1,True
+2016,Dev Patel (Lion),False,0.5313,3,Mahershala Ali (Moonlight),Mahershala Ali (Moonlight),1,True
+2016,Lucas Hedges (Manchester by the Sea),False,0.4442,4,Mahershala Ali (Moonlight),Mahershala Ali (Moonlight),1,True
+2016,Michael Shannon (Nocturnal Animals),False,0.4027,5,Mahershala Ali (Moonlight),Mahershala Ali (Moonlight),1,True
+2017,"Sam Rockwell (Three Billboards outside Ebbing, Missouri)",True,0.7451,1,"Sam Rockwell (Three Billboards outside Ebbing, Missouri)","Sam Rockwell (Three Billboards outside Ebbing, Missouri)",1,True
+2017,"Woody Harrelson (Three Billboards outside Ebbing, Missouri)",False,0.4841,2,"Sam Rockwell (Three Billboards outside Ebbing, Missouri)","Sam Rockwell (Three Billboards outside Ebbing, Missouri)",1,True
+2017,Christopher Plummer (All the Money in the World),False,0.4595,3,"Sam Rockwell (Three Billboards outside Ebbing, Missouri)","Sam Rockwell (Three Billboards outside Ebbing, Missouri)",1,True
+2017,Willem Dafoe (The Florida Project),False,0.4469,4,"Sam Rockwell (Three Billboards outside Ebbing, Missouri)","Sam Rockwell (Three Billboards outside Ebbing, Missouri)",1,True
+2017,Richard Jenkins (The Shape of Water),False,0.4134,5,"Sam Rockwell (Three Billboards outside Ebbing, Missouri)","Sam Rockwell (Three Billboards outside Ebbing, Missouri)",1,True
+2018,Mahershala Ali (Green Book),True,0.7709,1,Mahershala Ali (Green Book),Mahershala Ali (Green Book),1,True
+2018,Sam Rockwell (Vice),False,0.4991,2,Mahershala Ali (Green Book),Mahershala Ali (Green Book),1,True
+2018,Adam Driver (BlacKkKlansman),False,0.4747,3,Mahershala Ali (Green Book),Mahershala Ali (Green Book),1,True
+2018,Richard E. Grant (Can You Ever Forgive Me?),False,0.4639,4,Mahershala Ali (Green Book),Mahershala Ali (Green Book),1,True
+2018,Sam Elliott (A Star Is Born),False,0.4393,5,Mahershala Ali (Green Book),Mahershala Ali (Green Book),1,True
+2019,Brad Pitt (Once upon a Time...in Hollywood),True,0.7468,1,Brad Pitt (Once upon a Time...in Hollywood),Brad Pitt (Once upon a Time...in Hollywood),1,True
+2019,Joe Pesci (The Irishman),False,0.5121,2,Brad Pitt (Once upon a Time...in Hollywood),Brad Pitt (Once upon a Time...in Hollywood),1,True
+2019,Al Pacino (The Irishman),False,0.4792,3,Brad Pitt (Once upon a Time...in Hollywood),Brad Pitt (Once upon a Time...in Hollywood),1,True
+2019,Anthony Hopkins (The Two Popes),False,0.4673,4,Brad Pitt (Once upon a Time...in Hollywood),Brad Pitt (Once upon a Time...in Hollywood),1,True
+2019,Tom Hanks (A Beautiful Day in the Neighborhood),False,0.4243,5,Brad Pitt (Once upon a Time...in Hollywood),Brad Pitt (Once upon a Time...in Hollywood),1,True
+2020,Daniel Kaluuya (Judas and the Black Messiah),True,0.7439,1,Daniel Kaluuya (Judas and the Black Messiah),Daniel Kaluuya (Judas and the Black Messiah),1,True
+2020,Sacha Baron Cohen (The Trial of the Chicago 7),False,0.4962,2,Daniel Kaluuya (Judas and the Black Messiah),Daniel Kaluuya (Judas and the Black Messiah),1,True
+2020,Lakeith Stanfield (Judas and the Black Messiah),False,0.4584,3,Daniel Kaluuya (Judas and the Black Messiah),Daniel Kaluuya (Judas and the Black Messiah),1,True
+2020,Leslie Odom Jr. (One Night in Miami...),False,0.455,4,Daniel Kaluuya (Judas and the Black Messiah),Daniel Kaluuya (Judas and the Black Messiah),1,True
+2020,Paul Raci (Sound of Metal),False,0.4421,5,Daniel Kaluuya (Judas and the Black Messiah),Daniel Kaluuya (Judas and the Black Messiah),1,True
+2021,Troy Kotsur (CODA),True,0.6587,1,Troy Kotsur (CODA),Troy Kotsur (CODA),1,True
+2021,Kodi Smit-McPhee (The Power of the Dog),False,0.6443,2,Troy Kotsur (CODA),Troy Kotsur (CODA),1,True
+2021,Jesse Plemons (The Power of the Dog),False,0.5006,3,Troy Kotsur (CODA),Troy Kotsur (CODA),1,True
+2021,Ciarán Hinds (Belfast),False,0.46,4,Troy Kotsur (CODA),Troy Kotsur (CODA),1,True
+2021,J.K. Simmons (Being the Ricardos),False,0.4026,5,Troy Kotsur (CODA),Troy Kotsur (CODA),1,True
+2022,Ke Huy Quan (Everything Everywhere All at Once),True,0.7149,1,Ke Huy Quan (Everything Everywhere All at Once),Ke Huy Quan (Everything Everywhere All at Once),1,True
+2022,Barry Keoghan (The Banshees of Inisherin),False,0.5247,2,Ke Huy Quan (Everything Everywhere All at Once),Ke Huy Quan (Everything Everywhere All at Once),1,True
+2022,Brendan Gleeson (The Banshees of Inisherin),False,0.4668,3,Ke Huy Quan (Everything Everywhere All at Once),Ke Huy Quan (Everything Everywhere All at Once),1,True
+2022,Judd Hirsch (The Fabelmans),False,0.4299,4,Ke Huy Quan (Everything Everywhere All at Once),Ke Huy Quan (Everything Everywhere All at Once),1,True
+2022,Brian Tyree Henry (Causeway),False,0.3778,5,Ke Huy Quan (Everything Everywhere All at Once),Ke Huy Quan (Everything Everywhere All at Once),1,True
+2023,Robert Downey Jr. (Oppenheimer),True,0.7729,1,Robert Downey Jr. (Oppenheimer),Robert Downey Jr. (Oppenheimer),1,True
+2023,Robert De Niro (Killers of the Flower Moon),False,0.4931,2,Robert Downey Jr. (Oppenheimer),Robert Downey Jr. (Oppenheimer),1,True
+2023,Mark Ruffalo (Poor Things),False,0.4709,3,Robert Downey Jr. (Oppenheimer),Robert Downey Jr. (Oppenheimer),1,True
+2023,Ryan Gosling (Barbie),False,0.4487,4,Robert Downey Jr. (Oppenheimer),Robert Downey Jr. (Oppenheimer),1,True
+2023,Sterling K. Brown (American Fiction),False,0.4258,5,Robert Downey Jr. (Oppenheimer),Robert Downey Jr. (Oppenheimer),1,True
+2024,Kieran Culkin (A Real Pain),True,0.7452,1,Kieran Culkin (A Real Pain),Kieran Culkin (A Real Pain),1,True
+2024,Edward Norton (A Complete Unknown),False,0.4937,2,Kieran Culkin (A Real Pain),Kieran Culkin (A Real Pain),1,True
+2024,Guy Pearce (The Brutalist),False,0.4586,3,Kieran Culkin (A Real Pain),Kieran Culkin (A Real Pain),1,True
+2024,Yura Borisov (Anora),False,0.4573,4,Kieran Culkin (A Real Pain),Kieran Culkin (A Real Pain),1,True
+2024,Jeremy Strong (The Apprentice),False,0.4196,5,Kieran Culkin (A Real Pain),Kieran Culkin (A Real Pain),1,True

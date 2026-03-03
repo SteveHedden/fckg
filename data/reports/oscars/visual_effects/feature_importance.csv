@@ -1,0 +1,15 @@
+rank,feature,importance
+1,bafta_visual_effects_winner,0.1508774441112695
+2,cinematography_nom,0.14291958364735807
+3,technical_noms,0.1252963435819084
+4,bafta_winner,0.10719230232961678
+5,budget_revenue_ratio,0.102939623164097
+6,rated_G,0.08984303350551243
+7,rotten_tomatoes_pct,0.05409521333331193
+8,metacritic_score,0.05391916563927077
+9,genre_crime,-0.03765143902026112
+10,genre_adventure,-0.03626441680878463
+11,genre_war,-0.0334252373386319
+12,rated_PG,-0.03151518205046166
+13,acting_noms,0.02451792819623039
+14,bafta_visual_effects_nominee,0.0

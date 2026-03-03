@@ -42,8 +42,8 @@ def plot_feature_importance(
     importances : raw values — signed LR coefficients or unsigned RF/GB scores
     directions  : optional array of signs (+1 / -1) for each feature.
                   If None, sign is inferred from importances themselves.
-                  Pass Pearson correlation signs for RF/GB models so that
-                  bars reflect actual directional effect, not just magnitude.
+                  Recommended: pass model-derived contribution signs
+                  (e.g. mean SHAP sign) so colours reflect direction.
     output_path : destination PNG path
     """
     # Determine sign for colouring
@@ -102,7 +102,7 @@ def compute_shap(
     X_test_t = pre.transform(X_test)
     mdl = pipe["model"]
 
-    if model_type in ("LR", "Ridge", "LR+RF"):
+    if model_type in ("LR", "Ridge", "ConstrainedLR", "LR+RF"):
         exp = shap.LinearExplainer(mdl, X_train_t)
         sv = np.array(exp.shap_values(X_test_t))
         if sv.ndim == 3:
@@ -121,6 +121,37 @@ def compute_shap(
         base = float(ev[-1])
 
     return sv, base, X_test_t
+
+
+def compute_direction_signs_from_shap(
+    pipe,
+    X_ref: np.ndarray,
+    model_type: str,
+    max_samples: int = 500,
+) -> np.ndarray | None:
+    """Return per-feature direction signs from mean SHAP contribution.
+
+    Signs are computed as sign(mean SHAP value) across a reference sample.
+    Positive means the feature tends to push win probability up; negative means
+    it tends to push it down.
+    """
+    if X_ref.size == 0:
+        return None
+
+    X_eval = X_ref
+    if X_ref.shape[0] > max_samples:
+        rng = np.random.default_rng(42)
+        idx = rng.choice(X_ref.shape[0], size=max_samples, replace=False)
+        X_eval = X_ref[idx]
+
+    try:
+        sv, _, _ = compute_shap(pipe, X_eval, X_eval, model_type)
+    except Exception:
+        return None
+
+    if sv.ndim != 2 or sv.shape[1] == 0:
+        return None
+    return np.sign(np.nanmean(sv, axis=0))
 
 
 def plot_shap_summary(

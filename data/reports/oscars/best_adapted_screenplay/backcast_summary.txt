@@ -1,0 +1,9 @@
+Category: best_adapted_screenplay
+Award system: oscars
+Winning model: ConstrainedLR
+Features (7): ['bafta_adapted_screenplay_nominee', 'bafta_adapted_screenplay_winner', 'golden_globes_adapted_screenplay_nominee', 'golden_globes_adapted_screenplay_winner', 'technical_noms', 'english_language', 'other_noms']
+Years: 2016–2025  (n=9)
+AUC: 0.6852
+top1: 3 (33.3%)
+top3: 8 (88.9%)
+avg_rank: 2.3333

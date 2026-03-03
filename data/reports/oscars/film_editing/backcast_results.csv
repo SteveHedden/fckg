@@ -1,0 +1,46 @@
+year_film,nominee_label,winner,prob,rank,top_pick,actual_winner,winner_rank,correct
+2016,La La Land,False,0.6693,1,La La Land,Hacksaw Ridge,2,False
+2016,Hacksaw Ridge,True,0.5363,2,La La Land,Hacksaw Ridge,2,False
+2016,Arrival,False,0.5032,3,La La Land,Hacksaw Ridge,2,False
+2016,Moonlight,False,0.4677,4,La La Land,Hacksaw Ridge,2,False
+2016,Hell or High Water,False,0.4307,5,La La Land,Hacksaw Ridge,2,False
+2017,The Shape of Water,False,0.6635,1,The Shape of Water,Dunkirk,3,False
+2017,Baby Driver,False,0.5164,2,The Shape of Water,Dunkirk,3,False
+2017,Dunkirk,True,0.5041,3,The Shape of Water,Dunkirk,3,False
+2017,"Three Billboards outside Ebbing, Missouri",False,0.4493,4,The Shape of Water,Dunkirk,3,False
+2017,"I, Tonya",False,0.4211,5,The Shape of Water,Dunkirk,3,False
+2018,Vice,False,0.5569,1,Vice,Bohemian Rhapsody,3,False
+2018,The Favourite,False,0.5093,2,Vice,Bohemian Rhapsody,3,False
+2018,Bohemian Rhapsody,True,0.475,3,Vice,Bohemian Rhapsody,3,False
+2018,BlacKkKlansman,False,0.45,4,Vice,Bohemian Rhapsody,3,False
+2018,Green Book,False,0.4382,5,Vice,Bohemian Rhapsody,3,False
+2019,Joker,False,0.5302,1,Joker,Ford v Ferrari,3,False
+2019,The Irishman,False,0.5299,2,Joker,Ford v Ferrari,3,False
+2019,Ford v Ferrari,True,0.5218,3,Joker,Ford v Ferrari,3,False
+2019,Jojo Rabbit,False,0.4848,4,Joker,Ford v Ferrari,3,False
+2019,Parasite,False,0.4255,5,Joker,Ford v Ferrari,3,False
+2020,Nomadland,False,0.6042,1,Nomadland,Sound of Metal,2,False
+2020,Sound of Metal,True,0.5418,2,Nomadland,Sound of Metal,2,False
+2020,The Trial of the Chicago 7,False,0.4854,3,Nomadland,Sound of Metal,2,False
+2020,The Father,False,0.4824,4,Nomadland,Sound of Metal,2,False
+2020,Promising Young Woman,False,0.4759,5,Nomadland,Sound of Metal,2,False
+2021,The Power of the Dog,False,0.6064,1,The Power of the Dog,Dune,2,False
+2021,Dune,True,0.5239,2,The Power of the Dog,Dune,2,False
+2021,King Richard,False,0.4486,3,The Power of the Dog,Dune,2,False
+2021,Don't Look Up,False,0.4369,4,The Power of the Dog,Dune,2,False
+2021,"tick, tick...BOOM!",False,0.4164,5,The Power of the Dog,Dune,2,False
+2022,Everything Everywhere All at Once,True,0.6871,1,Everything Everywhere All at Once,Everything Everywhere All at Once,1,True
+2022,Elvis,False,0.5029,2,Everything Everywhere All at Once,Everything Everywhere All at Once,1,True
+2022,The Banshees of Inisherin,False,0.4998,3,Everything Everywhere All at Once,Everything Everywhere All at Once,1,True
+2022,Top Gun: Maverick,False,0.4875,4,Everything Everywhere All at Once,Everything Everywhere All at Once,1,True
+2022,Tár,False,0.449,5,Everything Everywhere All at Once,Everything Everywhere All at Once,1,True
+2023,Oppenheimer,True,0.7143,1,Oppenheimer,Oppenheimer,1,True
+2023,Killers of the Flower Moon,False,0.5355,2,Oppenheimer,Oppenheimer,1,True
+2023,Poor Things,False,0.5275,3,Oppenheimer,Oppenheimer,1,True
+2023,Anatomy of a Fall,False,0.4442,4,Oppenheimer,Oppenheimer,1,True
+2023,The Holdovers,False,0.4375,5,Oppenheimer,Oppenheimer,1,True
+2024,Anora,True,0.596,1,Anora,Anora,1,True
+2024,Conclave,False,0.57,2,Anora,Anora,1,True
+2024,Emilia Pérez,False,0.4922,3,Anora,Anora,1,True
+2024,Wicked,False,0.4815,4,Anora,Anora,1,True
+2024,The Brutalist,False,0.479,5,Anora,Anora,1,True

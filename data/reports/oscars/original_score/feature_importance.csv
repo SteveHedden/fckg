@@ -1,0 +1,15 @@
+rank,feature,importance
+1,directing_nom,0.12049146073103062
+2,editing_nom,0.1106627562894281
+3,golden_globes_original_score_winner,0.10976404615844221
+4,globe_winner,0.08174303193577727
+5,imdb_rating,0.08103134855035332
+6,bafta_original_score_winner,0.06799995065849906
+7,genre_music,0.06773237565372775
+8,genre_thriller,-0.04073728195104583
+9,golden_globes_original_score_nominee,0.03661390658492643
+10,genre_action,-0.03513561369377224
+11,previous_all_nominations,-0.023816502638771973
+12,writing_noms,0.02302878262705699
+13,previous_original_score_nominations,-0.021133328197831886
+14,bafta_original_score_nominee,0.015765037960244657

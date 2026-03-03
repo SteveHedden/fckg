@@ -1,0 +1,13 @@
+year_film,nominee_label,winner,prob,rank,top_pick,actual_winner,winner_rank,correct
+2016,The Salesman,True,0.4867,1,The Salesman,The Salesman,1,True
+2017,Loveless,False,0.5261,1,Loveless,A Fantastic Woman,2,False
+2017,A Fantastic Woman,True,0.4719,2,Loveless,A Fantastic Woman,2,False
+2017,The Insult,False,0.4428,3,Loveless,A Fantastic Woman,2,False
+2017,On Body and Soul,False,0.4078,4,Loveless,A Fantastic Woman,2,False
+2018,Roma,True,0.8759,1,Roma,Roma,1,True
+2018,Capernaum,False,0.5296,2,Roma,Roma,1,True
+2019,Parasite,True,0.873,1,Parasite,Parasite,1,True
+2019,Honeyland,False,0.4096,2,Parasite,Parasite,1,True
+2023,The Zone of Interest,True,0.6815,1,The Zone of Interest,The Zone of Interest,1,True
+2024,I'm Still Here,True,0.5733,1,I'm Still Here,I'm Still Here,1,True
+2024,Flow,False,0.4378,2,I'm Still Here,I'm Still Here,1,True

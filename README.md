@@ -97,7 +97,7 @@ Enriched data should be stored as additive RDF overlays that reference the same 
 
 ## Example Model
 
-`example_model/` is a complete Oscar prediction pipeline built on top of the FCKG data foundation. It demonstrates how to go from raw RDF graph data to ranked win-probability predictions for any supported award category.
+`example_model/` is a complete award prediction pipeline built on top of the FCKG data foundation. It goes from raw RDF graph data to ranked win-probability predictions with SHAP explanations for any supported award category.
 
 ### Setup
 
@@ -120,44 +120,56 @@ python example_model/enrichment_runner.py --year 2024  # only films from one rel
 python example_model/enrichment_runner.py --cache-only # rebuild TTLs from cached responses
 ```
 
-**Step 3 — Feature selection** (RFECV identifies predictive features for a category):
+**Step 3 — Feature selection** (identifies predictive features for a category):
 ```bash
 python example_model/feature_selection.py --category best_picture
-python example_model/feature_selection.py --category best_actress --conceptual
-python example_model/feature_selection.py --category best_actor --award-system sag --conceptual
+python example_model/feature_selection.py --category best_actress
+python example_model/feature_selection.py --category best_actor --award-system sag
 ```
 
-`--conceptual` enforces a one-representative-per-concept rule before RFECV: within each group (financial scale, critical reception, audience ratings, etc.) only the single most predictive feature is kept. For acting categories it also groups ceremony-level signals — e.g., `bafta_actress_winner` and `bafta_winner` are treated as one group and the better predictor is kept.
+Features are handled in three tiers:
 
-Outputs `data/reports/<category>/selected_features.json`.
+- **Tier 1** — Category-specific precursor features (e.g., `bafta_actress_winner` for best_actress): always forced into the model, bypass RFECV.
+- **Tier 2** — Generic precursor winners (e.g., `pga_winner`, `dga_winner`): go through RFECV so the model decides if they add value. Generic `*_nominee` flags are excluded (noisy signal).
+- **Tier 3** — Everything else (ratings, financials, genres, etc.): goes through RFECV.
 
-**Step 4 — Model selection** (backtests LR, Ridge, RF, GB, and LR+RF; picks the best by AUC):
+By default, conceptual feature grouping runs before RFECV: within each group (financial scale, critical reception, audience ratings, etc.) only the single most predictive feature is kept. Disable with `--no-conceptual`.
+
+An EPV-based cap (events-per-variable ≈ 5) limits the number of non-precursor features to prevent overfitting in small-sample categories.
+
+Outputs `data/reports/<award_system>/<category>/selected_features.json`.
+
+**Step 4 — Model selection** (backtests model types and picks the best by AUC):
 ```bash
 python example_model/model_selection.py --category best_picture
 python example_model/model_selection.py --category best_actress --award-system sag
-python example_model/model_selection.py --category best_picture --model-types Ridge LR
+python example_model/model_selection.py --category best_picture --model-types LR RF GB
 python example_model/model_selection.py --category best_picture --start-year 2010 --end-year 2024
 ```
 
-Outputs `grid_results.csv`, `backcast_results.csv`, `backcast_summary.txt`, `feature_importance.csv/png` to `data/reports/<category>/`.
+The default model type is `ConstrainedLR` — a logistic regression with non-negative coefficient constraints on all precursor features. This ensures that winning a precursor award can never hurt a nominee's predicted odds. Other available types: `LR`, `Ridge`, `RF`, `GB`, `LR+RF`.
+
+Outputs `grid_results.csv`, `backcast_results.csv`, `backcast_summary.txt`, `feature_importance.csv/png` to `data/reports/<award_system>/<category>/`.
 
 **Step 5 — Predict** (trains on all historical data, generates ranked win probabilities with SHAP explanations):
 ```bash
 python example_model/predict.py --category best_picture --year 2025
 python example_model/predict.py --category best_actress --award-system sag --year 2025
-python example_model/predict.py --category best_picture --year 2025 --model Ridge \
-    --features pga_winner dga_winner sag_winner globe_drama_winner
+python example_model/predict.py --category best_picture --year 2025 --model LR \
+    --features pga_winner dga_winner sag_winner
 ```
 
-Outputs `predictions_<year>.csv`, `shap_values_<year>.csv`, `shap_summary_<year>.png`, and per-nominee waterfall plots to `data/reports/<category>/`.
+Win percentages are computed via softmax over logits — this converts the model's independent per-nominee probability estimates into a proper categorical distribution that sums to 100%.
+
+Outputs `predictions_<year>.csv`, `shap_values_<year>.csv`, `shap_summary_<year>.png`, and per-nominee waterfall plots to `data/reports/<award_system>/<category>/`.
 
 ### Supported categories
 
 | `--award-system` | `--category` options |
 |---|---|
-| `oscars` (default) | `best_picture`, `best_director`, `best_actor`, `best_actress`, `best_supporting_actor`, `best_supporting_actress`, `cinematography`, `editing`, `score`, `adapted_screenplay`, `original_screenplay`, `makeup`, `costume_design`, `visual_effects` |
+| `oscars` (default) | `best_picture`, `best_director`, `best_actor`, `best_actress`, `best_supporting_actor`, `best_supporting_actress`, `animated_film`, `international_film`, `documentary`, `best_adapted_screenplay`, `best_original_screenplay`, `cinematography`, `film_editing`, `original_score`, `original_song`, `production_design`, `costume_design`, `sound`, `visual_effects`, `makeup` |
 | `sag` | `best_ensemble_cast`, `best_actor`, `best_actress`, `best_supporting_actor`, `best_supporting_actress` |
-| `bafta` | `best_film`, `best_director`, `best_actor`, `best_actress`, `best_supporting_actor`, `best_supporting_actress` |
+| `bafta` | `best_film`, `best_director`, `best_actor`, `best_actress`, `best_supporting_actor`, `best_supporting_actress`, `best_adapted_screenplay`, `best_original_screenplay`, `cinematography`, `film_editing` |
 
 ## Demo Notebook
 

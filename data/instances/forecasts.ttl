@@ -3961,3 +3961,1018 @@ msh:Forecast_polymarket_oscars_best_director_2025_Josh_Safdie_20260301 a msh:For
     msh:forecastProbability "0.005506"^^xsd:decimal ;
     msh:loggedAt "2026-03-01"^^xsd:date .
 
+
+# ForecastSet: model oscars/best_picture/2025 logged 2026-03-03
+msh:ForecastSet_model_oscars_best_picture_2025_20260303 a msh:ForecastSet ;
+    rdfs:label "oscars best_picture 2025 model forecast logged 2026-03-03" ;
+    msh:forecastSetSource "model" ;
+    msh:forecastSetSystem "oscars" ;
+    msh:forecastSetCategory "best_picture" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-03-03"^^xsd:date ;
+    msh:forecastSetModelType "unknown" ;
+    msh:forecastSetFeatures "" ;
+    msh:forecastSetAUC "0.9339"^^xsd:decimal ;
+    msh:forecastSetTop1Pct "0.0"^^xsd:decimal ;
+    msh:hasForecast msh:Forecast_model_oscars_best_picture_2025_One_Battle_After_Another_20260303,
+        msh:Forecast_model_oscars_best_picture_2025_Sentimental_Value_20260303,
+        msh:Forecast_model_oscars_best_picture_2025_Sinners_20260303,
+        msh:Forecast_model_oscars_best_picture_2025_Marty_Supreme_20260303,
+        msh:Forecast_model_oscars_best_picture_2025_The_Secret_Agent_20260303,
+        msh:Forecast_model_oscars_best_picture_2025_Train_Dreams_20260303,
+        msh:Forecast_model_oscars_best_picture_2025_Frankenstein_20260303,
+        msh:Forecast_model_oscars_best_picture_2025_Hamnet_20260303,
+        msh:Forecast_model_oscars_best_picture_2025_F1_20260303,
+        msh:Forecast_model_oscars_best_picture_2025_Bugonia_20260303 .
+
+msh:Forecast_model_oscars_best_picture_2025_One_Battle_After_Another_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will One Battle After Another win the Academy Award for Best Picture (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_best_picture_one_battle_after_another_b67b23a58c1d73d3 ;
+    msh:forecastProbability "0.330669"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_best_picture_2025_Sentimental_Value_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Sentimental Value win the Academy Award for Best Picture (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_best_picture_sentimental_value_fdef0159f47cec25 ;
+    msh:forecastProbability "0.092907"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_best_picture_2025_Sinners_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Sinners win the Academy Award for Best Picture (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_best_picture_sinners_c477fbb973cc84ff ;
+    msh:forecastProbability "0.091908"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_best_picture_2025_Marty_Supreme_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Marty Supreme win the Academy Award for Best Picture (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_best_picture_marty_supreme_ed51410ab141b705 ;
+    msh:forecastProbability "0.087912"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_best_picture_2025_The_Secret_Agent_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will The Secret Agent win the Academy Award for Best Picture (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_best_picture_the_secret_agent_4ab6e568300784bf ;
+    msh:forecastProbability "0.072927"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_best_picture_2025_Train_Dreams_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Train Dreams win the Academy Award for Best Picture (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_best_picture_train_dreams_7abf30dc6ecde4bf ;
+    msh:forecastProbability "0.071928"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_best_picture_2025_Frankenstein_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Frankenstein win the Academy Award for Best Picture (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_best_picture_frankenstein_09bbb47e39b0539d ;
+    msh:forecastProbability "0.067932"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_best_picture_2025_Hamnet_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Hamnet win the Academy Award for Best Picture (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_best_picture_hamnet_800e8176edce9291 ;
+    msh:forecastProbability "0.064935"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_best_picture_2025_F1_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will F1 win the Academy Award for Best Picture (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_best_picture_f1_f965d5d3ca951af9 ;
+    msh:forecastProbability "0.062937"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_best_picture_2025_Bugonia_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Bugonia win the Academy Award for Best Picture (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_best_picture_bugonia_d9c0f395a2b6cd82 ;
+    msh:forecastProbability "0.055944"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+
+# ForecastSet: model oscars/best_director/2025 logged 2026-03-03
+msh:ForecastSet_model_oscars_best_director_2025_20260303 a msh:ForecastSet ;
+    rdfs:label "oscars best_director 2025 model forecast logged 2026-03-03" ;
+    msh:forecastSetSource "model" ;
+    msh:forecastSetSystem "oscars" ;
+    msh:forecastSetCategory "best_director" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-03-03"^^xsd:date ;
+    msh:forecastSetModelType "unknown" ;
+    msh:forecastSetFeatures "" ;
+    msh:forecastSetAUC "0.9806"^^xsd:decimal ;
+    msh:forecastSetTop1Pct "0.0"^^xsd:decimal ;
+    msh:hasForecast msh:Forecast_model_oscars_best_director_2025_Paul_Thomas_Anderson_20260303,
+        msh:Forecast_model_oscars_best_director_2025_Ryan_Coogler_20260303,
+        msh:Forecast_model_oscars_best_director_2025_Chlo_Zhao_20260303,
+        msh:Forecast_model_oscars_best_director_2025_Josh_Safdie_20260303,
+        msh:Forecast_model_oscars_best_director_2025_Joachim_Trier_20260303 .
+
+msh:Forecast_model_oscars_best_director_2025_Paul_Thomas_Anderson_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Paul Thomas Anderson win the Academy Award for Best Director (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_directing_one_battle_after_another_1f08c6fd44fd16af ;
+    msh:forecastProbability "0.604396"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_best_director_2025_Ryan_Coogler_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Ryan Coogler win the Academy Award for Best Director (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_directing_sinners_d2dd8383ca0ea03c ;
+    msh:forecastProbability "0.106893"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_best_director_2025_Chlo_Zhao_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Chloé Zhao win the Academy Award for Best Director (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_directing_hamnet_752cf6815f32cc7e ;
+    msh:forecastProbability "0.100899"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_best_director_2025_Josh_Safdie_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Josh Safdie win the Academy Award for Best Director (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_directing_marty_supreme_687451c39581c3ea ;
+    msh:forecastProbability "0.0999"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_best_director_2025_Joachim_Trier_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Joachim Trier win the Academy Award for Best Director (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_directing_sentimental_value_9bba9cbfd4be09ba ;
+    msh:forecastProbability "0.087912"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+
+# ForecastSet: model oscars/best_actor/2025 logged 2026-03-03
+msh:ForecastSet_model_oscars_best_actor_2025_20260303 a msh:ForecastSet ;
+    rdfs:label "oscars best_actor 2025 model forecast logged 2026-03-03" ;
+    msh:forecastSetSource "model" ;
+    msh:forecastSetSystem "oscars" ;
+    msh:forecastSetCategory "best_actor" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-03-03"^^xsd:date ;
+    msh:forecastSetModelType "unknown" ;
+    msh:forecastSetFeatures "" ;
+    msh:forecastSetAUC "0.9259"^^xsd:decimal ;
+    msh:forecastSetTop1Pct "0.0"^^xsd:decimal ;
+    msh:hasForecast msh:Forecast_model_oscars_best_actor_2025_Michael_B_Jordan_20260303,
+        msh:Forecast_model_oscars_best_actor_2025_Timoth_e_Chalamet_20260303,
+        msh:Forecast_model_oscars_best_actor_2025_Leonardo_DiCaprio_20260303,
+        msh:Forecast_model_oscars_best_actor_2025_Wagner_Moura_20260303,
+        msh:Forecast_model_oscars_best_actor_2025_Ethan_Hawke_20260303 .
+
+msh:Forecast_model_oscars_best_actor_2025_Michael_B_Jordan_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Michael B. Jordan win the Academy Award for Best Actor (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_actor_in_a_leading_role_sinners_01ff85510c6bc922 ;
+    msh:forecastProbability "0.301698"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_best_actor_2025_Timoth_e_Chalamet_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Timothée Chalamet win the Academy Award for Best Actor (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_actor_in_a_leading_role_marty_supreme_4e48b32be05ebabd ;
+    msh:forecastProbability "0.228771"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_best_actor_2025_Leonardo_DiCaprio_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Leonardo DiCaprio win the Academy Award for Best Actor (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_actor_in_a_leading_role_one_battle_after_another_fe5f2dee74084b63 ;
+    msh:forecastProbability "0.175824"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_best_actor_2025_Wagner_Moura_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Wagner Moura win the Academy Award for Best Actor (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_actor_in_a_leading_role_the_secret_agent_4e45c7666fd729ab ;
+    msh:forecastProbability "0.166833"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_best_actor_2025_Ethan_Hawke_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Ethan Hawke win the Academy Award for Best Actor (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_actor_in_a_leading_role_blue_moon_c3da95a9a92ee150 ;
+    msh:forecastProbability "0.126873"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+
+# ForecastSet: model oscars/best_actress/2025 logged 2026-03-03
+msh:ForecastSet_model_oscars_best_actress_2025_20260303 a msh:ForecastSet ;
+    rdfs:label "oscars best_actress 2025 model forecast logged 2026-03-03" ;
+    msh:forecastSetSource "model" ;
+    msh:forecastSetSystem "oscars" ;
+    msh:forecastSetCategory "best_actress" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-03-03"^^xsd:date ;
+    msh:forecastSetModelType "unknown" ;
+    msh:forecastSetFeatures "" ;
+    msh:forecastSetAUC "0.9259"^^xsd:decimal ;
+    msh:forecastSetTop1Pct "0.0"^^xsd:decimal ;
+    msh:hasForecast msh:Forecast_model_oscars_best_actress_2025_Jessie_Buckley_20260303,
+        msh:Forecast_model_oscars_best_actress_2025_Renate_Reinsve_20260303,
+        msh:Forecast_model_oscars_best_actress_2025_Rose_Byrne_20260303,
+        msh:Forecast_model_oscars_best_actress_2025_Kate_Hudson_20260303,
+        msh:Forecast_model_oscars_best_actress_2025_Emma_Stone_20260303 .
+
+msh:Forecast_model_oscars_best_actress_2025_Jessie_Buckley_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Jessie Buckley win the Academy Award for Best Actress (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_actress_in_a_leading_role_hamnet_79b7eaaeb7ef2159 ;
+    msh:forecastProbability "0.558"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_best_actress_2025_Renate_Reinsve_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Renate Reinsve win the Academy Award for Best Actress (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_actress_in_a_leading_role_sentimental_value_a4c96afec795a3d1 ;
+    msh:forecastProbability "0.134"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_best_actress_2025_Rose_Byrne_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Rose Byrne win the Academy Award for Best Actress (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_actress_in_a_leading_role_if_i_had_legs_id_kick_you_e38fad3445de83d5 ;
+    msh:forecastProbability "0.124"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_best_actress_2025_Kate_Hudson_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Kate Hudson win the Academy Award for Best Actress (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_actress_in_a_leading_role_song_sung_blue_74ae99dc86db0747 ;
+    msh:forecastProbability "0.093"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_best_actress_2025_Emma_Stone_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Emma Stone win the Academy Award for Best Actress (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_actress_in_a_leading_role_bugonia_acd0bb9e067d9bd5 ;
+    msh:forecastProbability "0.091"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+
+# ForecastSet: model oscars/best_supporting_actor/2025 logged 2026-03-03
+msh:ForecastSet_model_oscars_best_supporting_actor_2025_20260303 a msh:ForecastSet ;
+    rdfs:label "oscars best_supporting_actor 2025 model forecast logged 2026-03-03" ;
+    msh:forecastSetSource "model" ;
+    msh:forecastSetSystem "oscars" ;
+    msh:forecastSetCategory "best_supporting_actor" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-03-03"^^xsd:date ;
+    msh:forecastSetModelType "unknown" ;
+    msh:forecastSetFeatures "" ;
+    msh:forecastSetAUC "0.9969"^^xsd:decimal ;
+    msh:forecastSetTop1Pct "0.0"^^xsd:decimal ;
+    msh:hasForecast msh:Forecast_model_oscars_best_supporting_actor_2025_Sean_Penn_20260303,
+        msh:Forecast_model_oscars_best_supporting_actor_2025_Stellan_Skarsg_rd_20260303,
+        msh:Forecast_model_oscars_best_supporting_actor_2025_Benicio_del_Toro_20260303,
+        msh:Forecast_model_oscars_best_supporting_actor_2025_Delroy_Lindo_20260303,
+        msh:Forecast_model_oscars_best_supporting_actor_2025_Jacob_Elordi_20260303 .
+
+msh:Forecast_model_oscars_best_supporting_actor_2025_Sean_Penn_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Sean Penn win the Academy Award for Best Supporting Actor (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_actor_in_a_supporting_role_one_battle_after_another_30ec0741c049d231 ;
+    msh:forecastProbability "0.342"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_best_supporting_actor_2025_Stellan_Skarsg_rd_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Stellan Skarsgård win the Academy Award for Best Supporting Actor (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_actor_in_a_supporting_role_sentimental_value_543365f7fad69b2d ;
+    msh:forecastProbability "0.245"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_best_supporting_actor_2025_Benicio_del_Toro_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Benicio del Toro win the Academy Award for Best Supporting Actor (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_actor_in_a_supporting_role_one_battle_after_another_4f287439e89c8f75 ;
+    msh:forecastProbability "0.194"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_best_supporting_actor_2025_Delroy_Lindo_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Delroy Lindo win the Academy Award for Best Supporting Actor (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_actor_in_a_supporting_role_sinners_65b766ac271f3c47 ;
+    msh:forecastProbability "0.124"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_best_supporting_actor_2025_Jacob_Elordi_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Jacob Elordi win the Academy Award for Best Supporting Actor (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_actor_in_a_supporting_role_frankenstein_6d15803f6743927b ;
+    msh:forecastProbability "0.095"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+
+# ForecastSet: model oscars/best_supporting_actress/2025 logged 2026-03-03
+msh:ForecastSet_model_oscars_best_supporting_actress_2025_20260303 a msh:ForecastSet ;
+    rdfs:label "oscars best_supporting_actress 2025 model forecast logged 2026-03-03" ;
+    msh:forecastSetSource "model" ;
+    msh:forecastSetSystem "oscars" ;
+    msh:forecastSetCategory "best_supporting_actress" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-03-03"^^xsd:date ;
+    msh:forecastSetModelType "unknown" ;
+    msh:forecastSetFeatures "" ;
+    msh:forecastSetAUC "0.9846"^^xsd:decimal ;
+    msh:forecastSetTop1Pct "0.0"^^xsd:decimal ;
+    msh:hasForecast msh:Forecast_model_oscars_best_supporting_actress_2025_Wunmi_Mosaku_20260303,
+        msh:Forecast_model_oscars_best_supporting_actress_2025_Teyana_Taylor_20260303,
+        msh:Forecast_model_oscars_best_supporting_actress_2025_Amy_Madigan_20260303,
+        msh:Forecast_model_oscars_best_supporting_actress_2025_Inga_Ibsdotter_Lilleaas_20260303,
+        msh:Forecast_model_oscars_best_supporting_actress_2025_Elle_Fanning_20260303 .
+
+msh:Forecast_model_oscars_best_supporting_actress_2025_Wunmi_Mosaku_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Wunmi Mosaku win the Academy Award for Best Supporting Actress (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_actress_in_a_supporting_role_sinners_576b94eaad49accd ;
+    msh:forecastProbability "0.235764"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_best_supporting_actress_2025_Teyana_Taylor_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Teyana Taylor win the Academy Award for Best Supporting Actress (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_actress_in_a_supporting_role_one_battle_after_another_f0dc2ccc198a3429 ;
+    msh:forecastProbability "0.230769"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_best_supporting_actress_2025_Amy_Madigan_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Amy Madigan win the Academy Award for Best Supporting Actress (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_actress_in_a_supporting_role_weapons_63e7362acd799fc7 ;
+    msh:forecastProbability "0.20979"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_best_supporting_actress_2025_Inga_Ibsdotter_Lilleaas_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Inga Ibsdotter Lilleaas win the Academy Award for Best Supporting Actress (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_actress_in_a_supporting_role_sentimental_value_47e0577fa2545cda ;
+    msh:forecastProbability "0.163836"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_best_supporting_actress_2025_Elle_Fanning_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Elle Fanning win the Academy Award for Best Supporting Actress (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_actress_in_a_supporting_role_sentimental_value_30af1cdee724cfca ;
+    msh:forecastProbability "0.15984"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+
+# ForecastSet: model oscars/best_adapted_screenplay/2025 logged 2026-03-03
+msh:ForecastSet_model_oscars_best_adapted_screenplay_2025_20260303 a msh:ForecastSet ;
+    rdfs:label "oscars best_adapted_screenplay 2025 model forecast logged 2026-03-03" ;
+    msh:forecastSetSource "model" ;
+    msh:forecastSetSystem "oscars" ;
+    msh:forecastSetCategory "best_adapted_screenplay" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-03-03"^^xsd:date ;
+    msh:forecastSetModelType "unknown" ;
+    msh:forecastSetFeatures "" ;
+    msh:forecastSetAUC "0.6852"^^xsd:decimal ;
+    msh:forecastSetTop1Pct "0.0"^^xsd:decimal ;
+    msh:hasForecast msh:Forecast_model_oscars_best_adapted_screenplay_2025_One_Battle_After_Another_20260303,
+        msh:Forecast_model_oscars_best_adapted_screenplay_2025_Hamnet_20260303,
+        msh:Forecast_model_oscars_best_adapted_screenplay_2025_Frankenstein_20260303,
+        msh:Forecast_model_oscars_best_adapted_screenplay_2025_Bugonia_20260303,
+        msh:Forecast_model_oscars_best_adapted_screenplay_2025_Train_Dreams_20260303 .
+
+msh:Forecast_model_oscars_best_adapted_screenplay_2025_One_Battle_After_Another_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will One Battle After Another win the Academy Award for Best Adapted Screenplay (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_writing_adapted_screenplay_one_battle_after_another_ac97d1e54450ed9e ;
+    msh:forecastProbability "0.484515"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_best_adapted_screenplay_2025_Hamnet_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Hamnet win the Academy Award for Best Adapted Screenplay (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_writing_adapted_screenplay_hamnet_81260a7f38d1e41f ;
+    msh:forecastProbability "0.171828"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_best_adapted_screenplay_2025_Frankenstein_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Frankenstein win the Academy Award for Best Adapted Screenplay (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_writing_adapted_screenplay_frankenstein_88093a765bb044de ;
+    msh:forecastProbability "0.142857"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_best_adapted_screenplay_2025_Bugonia_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Bugonia win the Academy Award for Best Adapted Screenplay (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_writing_adapted_screenplay_bugonia_fff401b79ed47b0a ;
+    msh:forecastProbability "0.101898"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_best_adapted_screenplay_2025_Train_Dreams_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Train Dreams win the Academy Award for Best Adapted Screenplay (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_writing_adapted_screenplay_train_dreams_42f72a4af966bdbe ;
+    msh:forecastProbability "0.098901"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+
+# ForecastSet: model oscars/best_original_screenplay/2025 logged 2026-03-03
+msh:ForecastSet_model_oscars_best_original_screenplay_2025_20260303 a msh:ForecastSet ;
+    rdfs:label "oscars best_original_screenplay 2025 model forecast logged 2026-03-03" ;
+    msh:forecastSetSource "model" ;
+    msh:forecastSetSystem "oscars" ;
+    msh:forecastSetCategory "best_original_screenplay" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-03-03"^^xsd:date ;
+    msh:forecastSetModelType "unknown" ;
+    msh:forecastSetFeatures "" ;
+    msh:forecastSetAUC "0.8642"^^xsd:decimal ;
+    msh:forecastSetTop1Pct "0.0"^^xsd:decimal ;
+    msh:hasForecast msh:Forecast_model_oscars_best_original_screenplay_2025_Sinners_20260303,
+        msh:Forecast_model_oscars_best_original_screenplay_2025_Marty_Supreme_20260303,
+        msh:Forecast_model_oscars_best_original_screenplay_2025_Sentimental_Value_20260303,
+        msh:Forecast_model_oscars_best_original_screenplay_2025_It_Was_Just_an_Accident_20260303,
+        msh:Forecast_model_oscars_best_original_screenplay_2025_Blue_Moon_20260303 .
+
+msh:Forecast_model_oscars_best_original_screenplay_2025_Sinners_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Sinners win the Academy Award for Best Original Screenplay (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_writing_original_screenplay_sinners_30fb9493695a54aa ;
+    msh:forecastProbability "0.32"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_best_original_screenplay_2025_Marty_Supreme_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Marty Supreme win the Academy Award for Best Original Screenplay (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_writing_original_screenplay_marty_supreme_1cd8211f89dd0e8d ;
+    msh:forecastProbability "0.243"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_best_original_screenplay_2025_Sentimental_Value_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Sentimental Value win the Academy Award for Best Original Screenplay (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_writing_original_screenplay_sentimental_value_93b6e383b8e51ead ;
+    msh:forecastProbability "0.188"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_best_original_screenplay_2025_It_Was_Just_an_Accident_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will It Was Just an Accident win the Academy Award for Best Original Screenplay (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_writing_original_screenplay_it_was_just_an_accident_95c48d0f0ef510ab ;
+    msh:forecastProbability "0.136"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_best_original_screenplay_2025_Blue_Moon_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Blue Moon win the Academy Award for Best Original Screenplay (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_writing_original_screenplay_blue_moon_7c750535b0dc87ce ;
+    msh:forecastProbability "0.113"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+
+# ForecastSet: model oscars/animated_film/2025 logged 2026-03-03
+msh:ForecastSet_model_oscars_animated_film_2025_20260303 a msh:ForecastSet ;
+    rdfs:label "oscars animated_film 2025 model forecast logged 2026-03-03" ;
+    msh:forecastSetSource "model" ;
+    msh:forecastSetSystem "oscars" ;
+    msh:forecastSetCategory "animated_film" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-03-03"^^xsd:date ;
+    msh:forecastSetModelType "unknown" ;
+    msh:forecastSetFeatures "" ;
+    msh:forecastSetAUC "0.9691"^^xsd:decimal ;
+    msh:forecastSetTop1Pct "0.0"^^xsd:decimal ;
+    msh:hasForecast msh:Forecast_model_oscars_animated_film_2025_Zootopia_2_20260303,
+        msh:Forecast_model_oscars_animated_film_2025_KPop_Demon_Hunters_20260303,
+        msh:Forecast_model_oscars_animated_film_2025_Little_Am_lie_or_the_Character_of_Rain_20260303,
+        msh:Forecast_model_oscars_animated_film_2025_Elio_20260303,
+        msh:Forecast_model_oscars_animated_film_2025_Arco_20260303 .
+
+msh:Forecast_model_oscars_animated_film_2025_Zootopia_2_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Zootopia 2 win the Academy Award for Best Animated Feature Film (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_animated_feature_film_zootopia_2_22c866968cea8f3a ;
+    msh:forecastProbability "0.325"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_animated_film_2025_KPop_Demon_Hunters_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will KPop Demon Hunters win the Academy Award for Best Animated Feature Film (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_animated_feature_film_kpop_demon_hunters_040fd60fb3814612 ;
+    msh:forecastProbability "0.294"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_animated_film_2025_Little_Am_lie_or_the_Character_of_Rain_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Little Amélie or the Character of Rain win the Academy Award for Best Animated Feature Film (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_animated_feature_film_little_am_lie_or_the_character_of_rain_0da1501d14d9ee0c ;
+    msh:forecastProbability "0.14"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_animated_film_2025_Elio_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Elio win the Academy Award for Best Animated Feature Film (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_animated_feature_film_elio_b4b4e06eed4270a3 ;
+    msh:forecastProbability "0.123"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_animated_film_2025_Arco_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Arco win the Academy Award for Best Animated Feature Film (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_animated_feature_film_arco_0f10c200b949ac24 ;
+    msh:forecastProbability "0.118"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+
+# ForecastSet: model oscars/international_film/2025 logged 2026-03-03
+msh:ForecastSet_model_oscars_international_film_2025_20260303 a msh:ForecastSet ;
+    rdfs:label "oscars international_film 2025 model forecast logged 2026-03-03" ;
+    msh:forecastSetSource "model" ;
+    msh:forecastSetSystem "oscars" ;
+    msh:forecastSetCategory "international_film" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-03-03"^^xsd:date ;
+    msh:forecastSetModelType "unknown" ;
+    msh:forecastSetFeatures "" ;
+    msh:forecastSetAUC "0.8889"^^xsd:decimal ;
+    msh:forecastSetTop1Pct "0.0"^^xsd:decimal ;
+    msh:hasForecast msh:Forecast_model_oscars_international_film_2025_Sentimental_Value_20260303,
+        msh:Forecast_model_oscars_international_film_2025_The_Secret_Agent_20260303,
+        msh:Forecast_model_oscars_international_film_2025_It_Was_Just_an_Accident_20260303,
+        msh:Forecast_model_oscars_international_film_2025_The_Voice_of_Hind_Rajab_20260303,
+        msh:Forecast_model_oscars_international_film_2025_Sir_t_20260303 .
+
+msh:Forecast_model_oscars_international_film_2025_Sentimental_Value_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Sentimental Value win the Academy Award for Best International Feature Film (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_international_feature_film_sentimental_value_faee86db29a54248 ;
+    msh:forecastProbability "0.376623"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_international_film_2025_The_Secret_Agent_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will The Secret Agent win the Academy Award for Best International Feature Film (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_international_feature_film_the_secret_agent_896d1458aa0349e5 ;
+    msh:forecastProbability "0.175824"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_international_film_2025_It_Was_Just_an_Accident_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will It Was Just an Accident win the Academy Award for Best International Feature Film (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_international_feature_film_it_was_just_an_accident_21fdef280ac8074d ;
+    msh:forecastProbability "0.168831"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_international_film_2025_The_Voice_of_Hind_Rajab_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will The Voice of Hind Rajab win the Academy Award for Best International Feature Film (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_international_feature_film_the_voice_of_hind_rajab_477e189dc705da46 ;
+    msh:forecastProbability "0.13986"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_international_film_2025_Sir_t_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Sirāt win the Academy Award for Best International Feature Film (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_international_feature_film_sir_t_9e8ffabbb408ee4c ;
+    msh:forecastProbability "0.138861"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+
+# ForecastSet: model oscars/documentary/2025 logged 2026-03-03
+msh:ForecastSet_model_oscars_documentary_2025_20260303 a msh:ForecastSet ;
+    rdfs:label "oscars documentary 2025 model forecast logged 2026-03-03" ;
+    msh:forecastSetSource "model" ;
+    msh:forecastSetSystem "oscars" ;
+    msh:forecastSetCategory "documentary" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-03-03"^^xsd:date ;
+    msh:forecastSetModelType "unknown" ;
+    msh:forecastSetFeatures "" ;
+    msh:forecastSetAUC "0.9105"^^xsd:decimal ;
+    msh:forecastSetTop1Pct "0.0"^^xsd:decimal ;
+    msh:hasForecast msh:Forecast_model_oscars_documentary_2025_Mr_Nobody_Against_Putin_20260303,
+        msh:Forecast_model_oscars_documentary_2025_The_Perfect_Neighbor_20260303,
+        msh:Forecast_model_oscars_documentary_2025_Come_See_Me_in_the_Good_Light_20260303,
+        msh:Forecast_model_oscars_documentary_2025_Cutting_Through_Rocks_20260303,
+        msh:Forecast_model_oscars_documentary_2025_The_Alabama_Solution_20260303 .
+
+msh:Forecast_model_oscars_documentary_2025_Mr_Nobody_Against_Putin_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Mr Nobody Against Putin win the Academy Award for Best Documentary Feature (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_documentary_feature_mr_nobody_against_putin_dace5c64146ce008 ;
+    msh:forecastProbability "0.346"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_documentary_2025_The_Perfect_Neighbor_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will The Perfect Neighbor win the Academy Award for Best Documentary Feature (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_documentary_feature_the_perfect_neighbor_26f2c8f43221ba7e ;
+    msh:forecastProbability "0.198"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_documentary_2025_Come_See_Me_in_the_Good_Light_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Come See Me in the Good Light win the Academy Award for Best Documentary Feature (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_documentary_feature_come_see_me_in_the_good_light_91ff6b052d8e4bfb ;
+    msh:forecastProbability "0.174"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_documentary_2025_Cutting_Through_Rocks_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Cutting Through Rocks win the Academy Award for Best Documentary Feature (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_documentary_feature_cutting_through_rocks_12906e5c92dc9bbf ;
+    msh:forecastProbability "0.166"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_documentary_2025_The_Alabama_Solution_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will The Alabama Solution win the Academy Award for Best Documentary Feature (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_documentary_feature_the_alabama_solution_875ff682462ba0b9 ;
+    msh:forecastProbability "0.116"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+
+# ForecastSet: model oscars/cinematography/2025 logged 2026-03-03
+msh:ForecastSet_model_oscars_cinematography_2025_20260303 a msh:ForecastSet ;
+    rdfs:label "oscars cinematography 2025 model forecast logged 2026-03-03" ;
+    msh:forecastSetSource "model" ;
+    msh:forecastSetSystem "oscars" ;
+    msh:forecastSetCategory "cinematography" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-03-03"^^xsd:date ;
+    msh:forecastSetModelType "unknown" ;
+    msh:forecastSetFeatures "" ;
+    msh:forecastSetAUC "0.8827"^^xsd:decimal ;
+    msh:forecastSetTop1Pct "0.0"^^xsd:decimal ;
+    msh:hasForecast msh:Forecast_model_oscars_cinematography_2025_Michael_Bauman_20260303,
+        msh:Forecast_model_oscars_cinematography_2025_Autumn_Durald_Arkapaw_20260303,
+        msh:Forecast_model_oscars_cinematography_2025_Dan_Laustsen_20260303,
+        msh:Forecast_model_oscars_cinematography_2025_Darius_Khondji_20260303,
+        msh:Forecast_model_oscars_cinematography_2025_Adolpho_Veloso_20260303 .
+
+msh:Forecast_model_oscars_cinematography_2025_Michael_Bauman_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Michael Bauman win the Academy Award for Best Cinematography (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_cinematography_one_battle_after_another_e5153e9e7fe536b7 ;
+    msh:forecastProbability "0.308691"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_cinematography_2025_Autumn_Durald_Arkapaw_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Autumn Durald Arkapaw win the Academy Award for Best Cinematography (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_cinematography_sinners_e1f02144a29c892f ;
+    msh:forecastProbability "0.256743"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_cinematography_2025_Dan_Laustsen_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Dan Laustsen win the Academy Award for Best Cinematography (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_cinematography_frankenstein_36eb0bd21659cbc1 ;
+    msh:forecastProbability "0.15984"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_cinematography_2025_Darius_Khondji_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Darius Khondji win the Academy Award for Best Cinematography (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_cinematography_marty_supreme_ebead16103333d4a ;
+    msh:forecastProbability "0.153846"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_cinematography_2025_Adolpho_Veloso_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Adolpho Veloso win the Academy Award for Best Cinematography (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_cinematography_train_dreams_a4e2345eb91a74ad ;
+    msh:forecastProbability "0.120879"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+
+# ForecastSet: model oscars/film_editing/2025 logged 2026-03-03
+msh:ForecastSet_model_oscars_film_editing_2025_20260303 a msh:ForecastSet ;
+    rdfs:label "oscars film_editing 2025 model forecast logged 2026-03-03" ;
+    msh:forecastSetSource "model" ;
+    msh:forecastSetSystem "oscars" ;
+    msh:forecastSetCategory "film_editing" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-03-03"^^xsd:date ;
+    msh:forecastSetModelType "unknown" ;
+    msh:forecastSetFeatures "" ;
+    msh:forecastSetAUC "0.7809"^^xsd:decimal ;
+    msh:forecastSetTop1Pct "0.0"^^xsd:decimal ;
+    msh:hasForecast msh:Forecast_model_oscars_film_editing_2025_One_Battle_After_Another_20260303,
+        msh:Forecast_model_oscars_film_editing_2025_Sinners_20260303,
+        msh:Forecast_model_oscars_film_editing_2025_Marty_Supreme_20260303,
+        msh:Forecast_model_oscars_film_editing_2025_F1_20260303,
+        msh:Forecast_model_oscars_film_editing_2025_Sentimental_Value_20260303 .
+
+msh:Forecast_model_oscars_film_editing_2025_One_Battle_After_Another_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will One Battle After Another win the Academy Award for Best Film Editing (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_film_editing_one_battle_after_another_f8e36642d017f0be ;
+    msh:forecastProbability "0.37962"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_film_editing_2025_Sinners_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Sinners win the Academy Award for Best Film Editing (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_film_editing_sinners_e48780f60f7b2d4f ;
+    msh:forecastProbability "0.202797"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_film_editing_2025_Marty_Supreme_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Marty Supreme win the Academy Award for Best Film Editing (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_film_editing_marty_supreme_02f037990470ad88 ;
+    msh:forecastProbability "0.161838"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_film_editing_2025_F1_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will F1 win the Academy Award for Best Film Editing (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_film_editing_f1_9c9befdc2e3716c5 ;
+    msh:forecastProbability "0.13986"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_film_editing_2025_Sentimental_Value_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Sentimental Value win the Academy Award for Best Film Editing (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_film_editing_sentimental_value_32272a25e39468ab ;
+    msh:forecastProbability "0.115884"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+
+# ForecastSet: model oscars/original_score/2025 logged 2026-03-03
+msh:ForecastSet_model_oscars_original_score_2025_20260303 a msh:ForecastSet ;
+    rdfs:label "oscars original_score 2025 model forecast logged 2026-03-03" ;
+    msh:forecastSetSource "model" ;
+    msh:forecastSetSystem "oscars" ;
+    msh:forecastSetCategory "original_score" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-03-03"^^xsd:date ;
+    msh:forecastSetModelType "unknown" ;
+    msh:forecastSetFeatures "" ;
+    msh:forecastSetAUC "0.8852"^^xsd:decimal ;
+    msh:forecastSetTop1Pct "0.0"^^xsd:decimal ;
+    msh:hasForecast msh:Forecast_model_oscars_original_score_2025_Ludwig_G_ransson_20260303,
+        msh:Forecast_model_oscars_original_score_2025_Max_Richter_20260303,
+        msh:Forecast_model_oscars_original_score_2025_Jonny_Greenwood_20260303,
+        msh:Forecast_model_oscars_original_score_2025_Alexandre_Desplat_20260303,
+        msh:Forecast_model_oscars_original_score_2025_Jerskin_Fendrix_20260303 .
+
+msh:Forecast_model_oscars_original_score_2025_Ludwig_G_ransson_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Ludwig Göransson win the Academy Award for Best Original Score (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_music_original_score_sinners_2fa96fa6299f2b56 ;
+    msh:forecastProbability "0.4004"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_original_score_2025_Max_Richter_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Max Richter win the Academy Award for Best Original Score (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_music_original_score_hamnet_ec751e3059419262 ;
+    msh:forecastProbability "0.205205"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_original_score_2025_Jonny_Greenwood_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Jonny Greenwood win the Academy Award for Best Original Score (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_music_original_score_one_battle_after_another_6c9c9dcb2d728003 ;
+    msh:forecastProbability "0.189189"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_original_score_2025_Alexandre_Desplat_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Alexandre Desplat win the Academy Award for Best Original Score (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_music_original_score_frankenstein_b3990197efc0fbbd ;
+    msh:forecastProbability "0.112112"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_original_score_2025_Jerskin_Fendrix_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Jerskin Fendrix win the Academy Award for Best Original Score (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_music_original_score_bugonia_7851f29e1ce62330 ;
+    msh:forecastProbability "0.093093"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+
+# ForecastSet: model oscars/original_song/2025 logged 2026-03-03
+msh:ForecastSet_model_oscars_original_song_2025_20260303 a msh:ForecastSet ;
+    rdfs:label "oscars original_song 2025 model forecast logged 2026-03-03" ;
+    msh:forecastSetSource "model" ;
+    msh:forecastSetSystem "oscars" ;
+    msh:forecastSetCategory "original_song" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-03-03"^^xsd:date ;
+    msh:forecastSetModelType "unknown" ;
+    msh:forecastSetFeatures "" ;
+    msh:forecastSetAUC "0.8333"^^xsd:decimal ;
+    msh:forecastSetTop1Pct "0.0"^^xsd:decimal ;
+    msh:hasForecast msh:Forecast_model_oscars_original_song_2025_KPop_Demon_Hunters_20260303,
+        msh:Forecast_model_oscars_original_song_2025_Sinners_20260303,
+        msh:Forecast_model_oscars_original_song_2025_Train_Dreams_20260303,
+        msh:Forecast_model_oscars_original_song_2025_Relentless_20260303,
+        msh:Forecast_model_oscars_original_song_2025_Viva_Verdi_20260303 .
+
+msh:Forecast_model_oscars_original_song_2025_KPop_Demon_Hunters_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will KPop Demon Hunters win the Academy Award for Best Original Song (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_music_original_song_kpop_demon_hunters_66b38c98d8c399a4 ;
+    msh:forecastProbability "0.397"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_original_song_2025_Sinners_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Sinners win the Academy Award for Best Original Song (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_music_original_song_sinners_70b3d380b0c1d9b7 ;
+    msh:forecastProbability "0.185"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_original_song_2025_Train_Dreams_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Train Dreams win the Academy Award for Best Original Song (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_music_original_song_train_dreams_7732092a36d37693 ;
+    msh:forecastProbability "0.178"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_original_song_2025_Relentless_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Relentless win the Academy Award for Best Original Song (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_music_original_song_relentless_34c9400c40bb7036 ;
+    msh:forecastProbability "0.12"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_original_song_2025_Viva_Verdi_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Viva Verdi! win the Academy Award for Best Original Song (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_music_original_song_viva_verdi_f950f3dc425930df ;
+    msh:forecastProbability "0.12"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+
+# ForecastSet: model oscars/production_design/2025 logged 2026-03-03
+msh:ForecastSet_model_oscars_production_design_2025_20260303 a msh:ForecastSet ;
+    rdfs:label "oscars production_design 2025 model forecast logged 2026-03-03" ;
+    msh:forecastSetSource "model" ;
+    msh:forecastSetSystem "oscars" ;
+    msh:forecastSetCategory "production_design" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-03-03"^^xsd:date ;
+    msh:forecastSetModelType "unknown" ;
+    msh:forecastSetFeatures "" ;
+    msh:forecastSetAUC "0.7840"^^xsd:decimal ;
+    msh:forecastSetTop1Pct "0.0"^^xsd:decimal ;
+    msh:hasForecast msh:Forecast_model_oscars_production_design_2025_Sinners_20260303,
+        msh:Forecast_model_oscars_production_design_2025_One_Battle_After_Another_20260303,
+        msh:Forecast_model_oscars_production_design_2025_Hamnet_20260303,
+        msh:Forecast_model_oscars_production_design_2025_Frankenstein_20260303,
+        msh:Forecast_model_oscars_production_design_2025_Marty_Supreme_20260303 .
+
+msh:Forecast_model_oscars_production_design_2025_Sinners_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Sinners win the Academy Award for Best Production Design (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_production_design_sinners_dff29248373c06ac ;
+    msh:forecastProbability "0.24975"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_production_design_2025_One_Battle_After_Another_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will One Battle After Another win the Academy Award for Best Production Design (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_production_design_one_battle_after_another_9b609a69dd55e6e8 ;
+    msh:forecastProbability "0.238761"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_production_design_2025_Hamnet_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Hamnet win the Academy Award for Best Production Design (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_production_design_hamnet_0617011a61e3bd7b ;
+    msh:forecastProbability "0.184815"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_production_design_2025_Frankenstein_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Frankenstein win the Academy Award for Best Production Design (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_production_design_frankenstein_698b7775ce10202d ;
+    msh:forecastProbability "0.165834"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_production_design_2025_Marty_Supreme_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Marty Supreme win the Academy Award for Best Production Design (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_production_design_marty_supreme_2c86f4d45197d14f ;
+    msh:forecastProbability "0.160839"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+
+# ForecastSet: model oscars/costume_design/2025 logged 2026-03-03
+msh:ForecastSet_model_oscars_costume_design_2025_20260303 a msh:ForecastSet ;
+    rdfs:label "oscars costume_design 2025 model forecast logged 2026-03-03" ;
+    msh:forecastSetSource "model" ;
+    msh:forecastSetSystem "oscars" ;
+    msh:forecastSetCategory "costume_design" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-03-03"^^xsd:date ;
+    msh:forecastSetModelType "unknown" ;
+    msh:forecastSetFeatures "" ;
+    msh:forecastSetAUC "0.6980"^^xsd:decimal ;
+    msh:forecastSetTop1Pct "0.0"^^xsd:decimal ;
+    msh:hasForecast msh:Forecast_model_oscars_costume_design_2025_Kate_Hawley_20260303,
+        msh:Forecast_model_oscars_costume_design_2025_Malgosia_Turzanska_20260303,
+        msh:Forecast_model_oscars_costume_design_2025_Ruth_E_Carter_20260303,
+        msh:Forecast_model_oscars_costume_design_2025_Miyako_Bellizzi_20260303,
+        msh:Forecast_model_oscars_costume_design_2025_Deborah_L_Scott_20260303 .
+
+msh:Forecast_model_oscars_costume_design_2025_Kate_Hawley_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Kate Hawley win the Academy Award for Best Costume Design (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_costume_design_frankenstein_67da38521075c807 ;
+    msh:forecastProbability "0.298"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_costume_design_2025_Malgosia_Turzanska_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Malgosia Turzanska win the Academy Award for Best Costume Design (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_costume_design_hamnet_906af56b123b6721 ;
+    msh:forecastProbability "0.214"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_costume_design_2025_Ruth_E_Carter_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Ruth E. Carter win the Academy Award for Best Costume Design (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_costume_design_sinners_850699d40cd7c009 ;
+    msh:forecastProbability "0.214"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_costume_design_2025_Miyako_Bellizzi_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Miyako Bellizzi win the Academy Award for Best Costume Design (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_costume_design_marty_supreme_6b4a162d4c649df4 ;
+    msh:forecastProbability "0.172"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_costume_design_2025_Deborah_L_Scott_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Deborah L. Scott win the Academy Award for Best Costume Design (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_costume_design_fire_and_ash_4a564876377d9f03 ;
+    msh:forecastProbability "0.102"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+
+# ForecastSet: model oscars/sound/2025 logged 2026-03-03
+msh:ForecastSet_model_oscars_sound_2025_20260303 a msh:ForecastSet ;
+    rdfs:label "oscars sound 2025 model forecast logged 2026-03-03" ;
+    msh:forecastSetSource "model" ;
+    msh:forecastSetSystem "oscars" ;
+    msh:forecastSetCategory "sound" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-03-03"^^xsd:date ;
+    msh:forecastSetModelType "unknown" ;
+    msh:forecastSetFeatures "" ;
+    msh:forecastSetAUC "0.9593"^^xsd:decimal ;
+    msh:forecastSetTop1Pct "0.0"^^xsd:decimal ;
+    msh:hasForecast msh:Forecast_model_oscars_sound_2025_F1_20260303,
+        msh:Forecast_model_oscars_sound_2025_Sinners_20260303,
+        msh:Forecast_model_oscars_sound_2025_One_Battle_After_Another_20260303,
+        msh:Forecast_model_oscars_sound_2025_Frankenstein_20260303,
+        msh:Forecast_model_oscars_sound_2025_Sir_t_20260303 .
+
+msh:Forecast_model_oscars_sound_2025_F1_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will F1 win the Academy Award for Best Sound (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_sound_f1_60a861b23ac1dc55 ;
+    msh:forecastProbability "0.275"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_sound_2025_Sinners_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Sinners win the Academy Award for Best Sound (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_sound_sinners_ea26342bc988c976 ;
+    msh:forecastProbability "0.242"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_sound_2025_One_Battle_After_Another_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will One Battle After Another win the Academy Award for Best Sound (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_sound_one_battle_after_another_c7190d6621a3e4f4 ;
+    msh:forecastProbability "0.222"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_sound_2025_Frankenstein_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Frankenstein win the Academy Award for Best Sound (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_sound_frankenstein_6fbaf78aa9758b56 ;
+    msh:forecastProbability "0.154"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_sound_2025_Sir_t_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Sirāt win the Academy Award for Best Sound (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_sound_sir_t_f6c5efa114a8d290 ;
+    msh:forecastProbability "0.107"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+
+# ForecastSet: model oscars/visual_effects/2025 logged 2026-03-03
+msh:ForecastSet_model_oscars_visual_effects_2025_20260303 a msh:ForecastSet ;
+    rdfs:label "oscars visual_effects 2025 model forecast logged 2026-03-03" ;
+    msh:forecastSetSource "model" ;
+    msh:forecastSetSystem "oscars" ;
+    msh:forecastSetCategory "visual_effects" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-03-03"^^xsd:date ;
+    msh:forecastSetModelType "unknown" ;
+    msh:forecastSetFeatures "" ;
+    msh:forecastSetAUC "0.9506"^^xsd:decimal ;
+    msh:forecastSetTop1Pct "0.0"^^xsd:decimal ;
+    msh:hasForecast msh:Forecast_model_oscars_visual_effects_2025_Sinners_20260303,
+        msh:Forecast_model_oscars_visual_effects_2025_Fire_and_Ash_20260303,
+        msh:Forecast_model_oscars_visual_effects_2025_F1_20260303,
+        msh:Forecast_model_oscars_visual_effects_2025_The_Lost_Bus_20260303,
+        msh:Forecast_model_oscars_visual_effects_2025_Jurassic_World_Rebirth_20260303 .
+
+msh:Forecast_model_oscars_visual_effects_2025_Sinners_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Sinners win the Academy Award for Best Visual Effects (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_visual_effects_sinners_ebaf9e90819b04a9 ;
+    msh:forecastProbability "0.403"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_visual_effects_2025_Fire_and_Ash_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Fire and Ash win the Academy Award for Best Visual Effects (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_visual_effects_fire_and_ash_502a8b23930c9b2e ;
+    msh:forecastProbability "0.216"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_visual_effects_2025_F1_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will F1 win the Academy Award for Best Visual Effects (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_visual_effects_f1_bcb173d2de2ec286 ;
+    msh:forecastProbability "0.165"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_visual_effects_2025_The_Lost_Bus_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will The Lost Bus win the Academy Award for Best Visual Effects (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_visual_effects_the_lost_bus_ee595cdab3696997 ;
+    msh:forecastProbability "0.12"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_visual_effects_2025_Jurassic_World_Rebirth_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Jurassic World Rebirth win the Academy Award for Best Visual Effects (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_visual_effects_jurassic_world_rebirth_2ddb0bd5553a7388 ;
+    msh:forecastProbability "0.096"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+
+# ForecastSet: model oscars/makeup/2025 logged 2026-03-03
+msh:ForecastSet_model_oscars_makeup_2025_20260303 a msh:ForecastSet ;
+    rdfs:label "oscars makeup 2025 model forecast logged 2026-03-03" ;
+    msh:forecastSetSource "model" ;
+    msh:forecastSetSystem "oscars" ;
+    msh:forecastSetCategory "makeup" ;
+    msh:forecastSetYear "2025"^^xsd:gYear ;
+    msh:forecastSetLoggedAt "2026-03-03"^^xsd:date ;
+    msh:forecastSetModelType "unknown" ;
+    msh:forecastSetFeatures "" ;
+    msh:forecastSetAUC "0.9037"^^xsd:decimal ;
+    msh:forecastSetTop1Pct "0.0"^^xsd:decimal ;
+    msh:hasForecast msh:Forecast_model_oscars_makeup_2025_Frankenstein_20260303,
+        msh:Forecast_model_oscars_makeup_2025_Sinners_20260303,
+        msh:Forecast_model_oscars_makeup_2025_Kokuho_20260303,
+        msh:Forecast_model_oscars_makeup_2025_The_Ugly_Stepsister_20260303,
+        msh:Forecast_model_oscars_makeup_2025_The_Smashing_Machine_20260303 .
+
+msh:Forecast_model_oscars_makeup_2025_Frankenstein_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Frankenstein win the Academy Award for Best Makeup and Hairstyling (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_makeup_and_hairstyling_frankenstein_86a8ca58b4906696 ;
+    msh:forecastProbability "0.306"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_makeup_2025_Sinners_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Sinners win the Academy Award for Best Makeup and Hairstyling (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_makeup_and_hairstyling_sinners_41c7d47a350a4130 ;
+    msh:forecastProbability "0.205"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_makeup_2025_Kokuho_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will Kokuho win the Academy Award for Best Makeup and Hairstyling (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_makeup_and_hairstyling_kokuho_f169bd8b92e7cfa0 ;
+    msh:forecastProbability "0.176"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_makeup_2025_The_Ugly_Stepsister_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will The Ugly Stepsister win the Academy Award for Best Makeup and Hairstyling (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_makeup_and_hairstyling_the_ugly_stepsister_9dba32c6078de41a ;
+    msh:forecastProbability "0.16"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+
+msh:Forecast_model_oscars_makeup_2025_The_Smashing_Machine_20260303 a msh:Forecast ;
+    msh:forecastQuestion "Will The Smashing Machine win the Academy Award for Best Makeup and Hairstyling (2025)?" ;
+    msh:predictsNomination msh:Nomination_oscars_2026_makeup_and_hairstyling_the_smashing_machine_c640d63d65817918 ;
+    msh:forecastProbability "0.153"^^xsd:decimal ;
+    msh:loggedAt "2026-03-03"^^xsd:date .
+

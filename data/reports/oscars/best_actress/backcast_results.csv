@@ -1,0 +1,46 @@
+year_film,nominee_label,winner,prob,rank,top_pick,actual_winner,winner_rank,correct
+2016,Emma Stone (La La Land),True,0.8229,1,Emma Stone (La La Land),Emma Stone (La La Land),1,True
+2016,Isabelle Huppert (Elle),False,0.4353,2,Emma Stone (La La Land),Emma Stone (La La Land),1,True
+2016,Ruth Negga (Loving),False,0.3943,3,Emma Stone (La La Land),Emma Stone (La La Land),1,True
+2016,Natalie Portman (Jackie),False,0.3804,4,Emma Stone (La La Land),Emma Stone (La La Land),1,True
+2016,Meryl Streep (Florence Foster Jenkins),False,0.2917,5,Emma Stone (La La Land),Emma Stone (La La Land),1,True
+2017,"Frances McDormand (Three Billboards outside Ebbing, Missouri)",True,0.7594,1,"Frances McDormand (Three Billboards outside Ebbing, Missouri)","Frances McDormand (Three Billboards outside Ebbing, Missouri)",1,True
+2017,Saoirse Ronan (Lady Bird),False,0.5842,2,"Frances McDormand (Three Billboards outside Ebbing, Missouri)","Frances McDormand (Three Billboards outside Ebbing, Missouri)",1,True
+2017,Sally Hawkins (The Shape of Water),False,0.5473,3,"Frances McDormand (Three Billboards outside Ebbing, Missouri)","Frances McDormand (Three Billboards outside Ebbing, Missouri)",1,True
+2017,"Margot Robbie (I, Tonya)",False,0.5009,4,"Frances McDormand (Three Billboards outside Ebbing, Missouri)","Frances McDormand (Three Billboards outside Ebbing, Missouri)",1,True
+2017,Meryl Streep (The Post),False,0.346,5,"Frances McDormand (Three Billboards outside Ebbing, Missouri)","Frances McDormand (Three Billboards outside Ebbing, Missouri)",1,True
+2018,Olivia Colman (The Favourite),True,0.8086,1,Olivia Colman (The Favourite),Olivia Colman (The Favourite),1,True
+2018,Glenn Close (The Wife),False,0.6445,2,Olivia Colman (The Favourite),Olivia Colman (The Favourite),1,True
+2018,Yalitza Aparicio (Roma),False,0.5038,3,Olivia Colman (The Favourite),Olivia Colman (The Favourite),1,True
+2018,Lady Gaga (A Star Is Born),False,0.4738,4,Olivia Colman (The Favourite),Olivia Colman (The Favourite),1,True
+2018,Melissa McCarthy (Can You Ever Forgive Me?),False,0.4321,5,Olivia Colman (The Favourite),Olivia Colman (The Favourite),1,True
+2019,Renée Zellweger (Judy),True,0.6887,1,Renée Zellweger (Judy),Renée Zellweger (Judy),1,True
+2019,Scarlett Johansson (Marriage Story),False,0.5351,2,Renée Zellweger (Judy),Renée Zellweger (Judy),1,True
+2019,Saoirse Ronan (Little Women),False,0.4594,3,Renée Zellweger (Judy),Renée Zellweger (Judy),1,True
+2019,Charlize Theron (Bombshell),False,0.3725,4,Renée Zellweger (Judy),Renée Zellweger (Judy),1,True
+2019,Cynthia Erivo (Harriet),False,0.3717,5,Renée Zellweger (Judy),Renée Zellweger (Judy),1,True
+2020,Viola Davis (Ma Rainey's Black Bottom),False,0.5758,1,Viola Davis (Ma Rainey's Black Bottom),Frances McDormand (Nomadland),2,False
+2020,Frances McDormand (Nomadland),True,0.5331,2,Viola Davis (Ma Rainey's Black Bottom),Frances McDormand (Nomadland),2,False
+2020,Carey Mulligan (Promising Young Woman),False,0.4737,3,Viola Davis (Ma Rainey's Black Bottom),Frances McDormand (Nomadland),2,False
+2020,Andra Day (The United States vs. Billie Holiday),False,0.4141,4,Viola Davis (Ma Rainey's Black Bottom),Frances McDormand (Nomadland),2,False
+2020,Vanessa Kirby (Pieces of a Woman),False,0.3798,5,Viola Davis (Ma Rainey's Black Bottom),Frances McDormand (Nomadland),2,False
+2021,Jessica Chastain (The Eyes of Tammy Faye),True,0.5128,1,Jessica Chastain (The Eyes of Tammy Faye),Jessica Chastain (The Eyes of Tammy Faye),1,True
+2021,Nicole Kidman (Being the Ricardos),False,0.4446,2,Jessica Chastain (The Eyes of Tammy Faye),Jessica Chastain (The Eyes of Tammy Faye),1,True
+2021,Olivia Colman (The Lost Daughter),False,0.3887,3,Jessica Chastain (The Eyes of Tammy Faye),Jessica Chastain (The Eyes of Tammy Faye),1,True
+2021,Kristen Stewart (Spencer),False,0.3676,4,Jessica Chastain (The Eyes of Tammy Faye),Jessica Chastain (The Eyes of Tammy Faye),1,True
+2021,Penélope Cruz (Parallel Mothers),False,0.3321,5,Jessica Chastain (The Eyes of Tammy Faye),Jessica Chastain (The Eyes of Tammy Faye),1,True
+2022,Michelle Yeoh (Everything Everywhere All at Once),True,0.7028,1,Michelle Yeoh (Everything Everywhere All at Once),Michelle Yeoh (Everything Everywhere All at Once),1,True
+2022,Cate Blanchett (Tár),False,0.6047,2,Michelle Yeoh (Everything Everywhere All at Once),Michelle Yeoh (Everything Everywhere All at Once),1,True
+2022,Michelle Williams (The Fabelmans),False,0.4893,3,Michelle Yeoh (Everything Everywhere All at Once),Michelle Yeoh (Everything Everywhere All at Once),1,True
+2022,Andrea Riseborough (To Leslie),False,0.3794,4,Michelle Yeoh (Everything Everywhere All at Once),Michelle Yeoh (Everything Everywhere All at Once),1,True
+2022,Ana de Armas (Blonde),False,0.3014,5,Michelle Yeoh (Everything Everywhere All at Once),Michelle Yeoh (Everything Everywhere All at Once),1,True
+2023,Lily Gladstone (Killers of the Flower Moon),False,0.7272,1,Lily Gladstone (Killers of the Flower Moon),Emma Stone (Poor Things),2,False
+2023,Emma Stone (Poor Things),True,0.6746,2,Lily Gladstone (Killers of the Flower Moon),Emma Stone (Poor Things),2,False
+2023,Sandra Hüller (Anatomy of a Fall),False,0.4342,3,Lily Gladstone (Killers of the Flower Moon),Emma Stone (Poor Things),2,False
+2023,Carey Mulligan (Maestro),False,0.4143,4,Lily Gladstone (Killers of the Flower Moon),Emma Stone (Poor Things),2,False
+2023,Annette Bening (Nyad),False,0.4048,5,Lily Gladstone (Killers of the Flower Moon),Emma Stone (Poor Things),2,False
+2024,Demi Moore (The Substance),False,0.6684,1,Demi Moore (The Substance),Mikey Madison (Anora),2,False
+2024,Mikey Madison (Anora),True,0.5782,2,Demi Moore (The Substance),Mikey Madison (Anora),2,False
+2024,Karla Sofía Gascón (Emilia Pérez),False,0.4637,3,Demi Moore (The Substance),Mikey Madison (Anora),2,False
+2024,Fernanda Torres (I'm Still Here),False,0.4602,4,Demi Moore (The Substance),Mikey Madison (Anora),2,False
+2024,Cynthia Erivo (Wicked),False,0.4592,5,Demi Moore (The Substance),Mikey Madison (Anora),2,False

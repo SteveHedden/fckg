@@ -1,0 +1,8 @@
+rank,feature,importance
+1,editing_nom,0.12246296069206869
+2,bafta_sound_winner,0.10613146045286342
+3,bafta_sound_nominee,0.09832085652780856
+4,imdb_rating,0.09534333902944415
+5,other_noms,0.09370712567177396
+6,country_france,0.045601749060398385
+7,english_language,0.04083058203077849

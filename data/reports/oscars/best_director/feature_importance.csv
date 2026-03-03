@@ -1,0 +1,16 @@
+rank,feature,importance
+1,dga_director_winner,0.22930885158234535
+2,dga_winner,0.22582536949933682
+3,golden_globes_director_winner,0.1038588567666968
+4,editing_nom,0.09749064676138146
+5,genre_romance,0.05491188214337427
+6,bafta_director_winner,0.04765284821233351
+7,golden_globes_director_nominee,0.04306507735860903
+8,country_uk,-0.0408624868437216
+9,rated_R,-0.034382701668825344
+10,bafta_director_nominee,0.03202028360242099
+11,genre_fantasy,-0.03122424558129068
+12,num_production_companies,-0.028330138823779803
+13,previous_director_wins,0.02102030074807736
+14,dga_director_nominee,0.015565900396255165
+15,previous_all_wins,-0.0012916002789888925

@@ -1,0 +1,9 @@
+Category: production_design
+Award system: oscars
+Winning model: ConstrainedLR
+Features (21): ['bafta_production_design_nominee', 'bafta_production_design_winner', 'acting_noms', 'directing_nom', 'music_noms', 'writing_noms', 'other_noms', 'metacritic_score', 'english_language', 'genre_animation', 'genre_music', 'genre_romance', 'num_wikidata_awards', 'lafca_best_film', 'country_us', 'country_france', 'country_non_english', 'nominee_previous_noms_max', 'nominee_previous_noms_avg', 'nominee_previous_wins_sum', 'nominee_previous_wins_avg']
+Years: 2016–2025  (n=9)
+AUC: 0.7840
+top1: 4 (44.4%)
+top3: 9 (100.0%)
+avg_rank: 1.8889

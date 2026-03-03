@@ -1,0 +1,9 @@
+Category: film_editing
+Award system: oscars
+Winning model: ConstrainedLR
+Features (8): ['bafta_film_editing_nominee', 'bafta_film_editing_winner', 'other_noms', 'acting_noms', 'nominee_previous_noms_sum', 'nominee_previous_noms_max', 'english_language', 'dga_winner']
+Years: 2016–2025  (n=9)
+AUC: 0.7809
+top1: 3 (33.3%)
+top3: 9 (100.0%)
+avg_rank: 2.0000

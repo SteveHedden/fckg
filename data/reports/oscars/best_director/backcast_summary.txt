@@ -1,0 +1,9 @@
+Category: best_director
+Award system: oscars
+Winning model: ConstrainedLR
+Features (15): ['bafta_director_nominee', 'bafta_director_winner', 'dga_director_nominee', 'dga_director_winner', 'golden_globes_director_nominee', 'golden_globes_director_winner', 'previous_director_wins', 'genre_romance', 'previous_all_wins', 'country_uk', 'editing_nom', 'dga_winner', 'genre_fantasy', 'rated_R', 'num_production_companies']
+Years: 2016–2025  (n=9)
+AUC: 0.9806
+top1: 8 (88.9%)
+top3: 9 (100.0%)
+avg_rank: 1.2222

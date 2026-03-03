@@ -1,0 +1,40 @@
+year_film,nominee_label,winner,prob,rank,top_pick,actual_winner,winner_rank,correct
+2016,Suicide Squad,True,0.4535,1,Suicide Squad,Suicide Squad,1,True
+2016,Star Trek Beyond,False,0.4447,2,Suicide Squad,Suicide Squad,1,True
+2016,A Man Called Ove,False,0.3737,3,Suicide Squad,Suicide Squad,1,True
+2017,Darkest Hour,True,0.5491,1,Darkest Hour,Darkest Hour,1,True
+2017,Wonder,False,0.5347,2,Darkest Hour,Darkest Hour,1,True
+2017,Victoria & Abdul,False,0.4985,3,Darkest Hour,Darkest Hour,1,True
+2018,Vice,True,0.5158,1,Vice,Vice,1,True
+2018,Mary Queen of Scots,False,0.4787,2,Vice,Vice,1,True
+2018,Border,False,0.4271,3,Vice,Vice,1,True
+2019,Bombshell,True,0.6271,1,Bombshell,Bombshell,1,True
+2019,1917,False,0.5407,2,Bombshell,Bombshell,1,True
+2019,Judy,False,0.5334,3,Bombshell,Bombshell,1,True
+2019,Joker,False,0.5275,4,Bombshell,Bombshell,1,True
+2019,Maleficent: Mistress of Evil,False,0.4461,5,Bombshell,Bombshell,1,True
+2020,Ma Rainey's Black Bottom,True,0.631,1,Ma Rainey's Black Bottom,Ma Rainey's Black Bottom,1,True
+2020,Mank,False,0.5144,2,Ma Rainey's Black Bottom,Ma Rainey's Black Bottom,1,True
+2020,Hillbilly Elegy,False,0.4832,3,Ma Rainey's Black Bottom,Ma Rainey's Black Bottom,1,True
+2020,Pinocchio,False,0.478,4,Ma Rainey's Black Bottom,Ma Rainey's Black Bottom,1,True
+2020,Emma,False,0.4472,5,Ma Rainey's Black Bottom,Ma Rainey's Black Bottom,1,True
+2021,The Eyes of Tammy Faye,True,0.6241,1,The Eyes of Tammy Faye,The Eyes of Tammy Faye,1,True
+2021,Dune,False,0.4443,2,The Eyes of Tammy Faye,The Eyes of Tammy Faye,1,True
+2021,House of Gucci,False,0.4098,3,The Eyes of Tammy Faye,The Eyes of Tammy Faye,1,True
+2021,Cruella,False,0.3936,4,The Eyes of Tammy Faye,The Eyes of Tammy Faye,1,True
+2021,Coming 2 America,False,0.3747,5,The Eyes of Tammy Faye,The Eyes of Tammy Faye,1,True
+2022,Elvis,False,0.552,1,Elvis,The Whale,2,False
+2022,The Whale,True,0.5286,2,Elvis,The Whale,2,False
+2022,All Quiet on the Western Front,False,0.512,3,Elvis,The Whale,2,False
+2022,The Batman,False,0.4017,4,Elvis,The Whale,2,False
+2022,Black Panther: Wakanda Forever,False,0.3648,5,Elvis,The Whale,2,False
+2023,Poor Things,True,0.622,1,Poor Things,Poor Things,1,True
+2023,Oppenheimer,False,0.5154,2,Poor Things,Poor Things,1,True
+2023,Maestro,False,0.4582,3,Poor Things,Poor Things,1,True
+2023,Society of the Snow,False,0.4301,4,Poor Things,Poor Things,1,True
+2023,Golda,False,0.3825,5,Poor Things,Poor Things,1,True
+2024,The Substance,True,0.6246,1,The Substance,The Substance,1,True
+2024,Emilia Pérez,False,0.5143,2,The Substance,The Substance,1,True
+2024,Wicked,False,0.4969,3,The Substance,The Substance,1,True
+2024,Nosferatu,False,0.4648,4,The Substance,The Substance,1,True
+2024,A Different Man,False,0.4459,5,The Substance,The Substance,1,True

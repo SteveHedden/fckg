@@ -54,7 +54,10 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from features.category_extractor import CategoryExtractor
 from model.category_model import MODEL_TYPES, OscarCategoryModel, _make_estimator
 from model.evaluation import YearResult, compute_backtest_metrics
-from model.visualize import plot_feature_importance
+from model.visualize import (
+    compute_direction_signs_from_shap,
+    plot_feature_importance,
+)
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
@@ -74,11 +77,21 @@ def _nominee_labels(df: pd.DataFrame, row_type: str) -> pd.Series:
     )
 
 
-def _fit_pipeline(model_type: str, X_train: np.ndarray, y_train: np.ndarray) -> Pipeline:
+def _fit_pipeline(
+    model_type: str,
+    X_train: np.ndarray,
+    y_train: np.ndarray,
+    *,
+    category: str | None = None,
+    features: list[str] | None = None,
+) -> Pipeline:
     pipe = Pipeline([
         ("imputer", SimpleImputer(strategy="median")),
         ("scaler", StandardScaler()),
-        ("model", _make_estimator(model_type)),
+        (
+            "model",
+            _make_estimator(model_type, category_name=category, features=features),
+        ),
     ])
     if model_type == "GB":
         n_winners = int(y_train.sum())
@@ -122,8 +135,11 @@ def main() -> None:
         help="Last year to include in backtest (default: max year in data).",
     )
     parser.add_argument(
-        "--model-types", nargs="+", choices=MODEL_TYPES, default=list(MODEL_TYPES),
-        help=f"Model types to evaluate (default: all — {MODEL_TYPES}).",
+        "--model-types", nargs="+", choices=MODEL_TYPES, default=["ConstrainedLR"],
+        help=(
+            "Model types to evaluate "
+            f"(default: ['ConstrainedLR']; available: {MODEL_TYPES})."
+        ),
     )
     parser.add_argument("--output-dir", default=None)
     args = parser.parse_args()
@@ -131,8 +147,6 @@ def main() -> None:
     # ── 1. Resolve output directory ───────────────────────────────────────────
     if args.output_dir:
         output_dir = Path(args.output_dir)
-    elif args.award_system == "oscars":
-        output_dir = PROJECT_ROOT / "data" / "reports" / args.category
     else:
         output_dir = PROJECT_ROOT / "data" / "reports" / args.award_system / args.category
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -236,20 +250,31 @@ def main() -> None:
     train_all = data[data["year_film"] < end_year]
     X_imp = train_all[selected].values
     y_imp = train_all["winner"].astype(int).values
-    imp_pipe = _fit_pipeline("LR" if winning_type == "LR+RF" else winning_type, X_imp, y_imp)
+    imp_pipe = _fit_pipeline(
+        "LR" if winning_type == "LR+RF" else winning_type,
+        X_imp,
+        y_imp,
+        category=args.category,
+        features=selected,
+    )
 
-    if winning_type in ("LR", "Ridge", "LR+RF"):
-        # Linear models: direction is encoded in sign of coefficient
+    if winning_type in ("LR", "Ridge", "ConstrainedLR", "LR+RF"):
+        # Linear models: sign in the PNG should match actual coefficients.
         raw_imp = imp_pipe["model"].coef_[0]
         directions = np.sign(raw_imp)
     else:
-        # RF/GB importances are always positive — compute Pearson correlation
-        # to recover the actual directional relationship with winner
+        # Tree-based models expose magnitude-only importances.
         raw_imp = imp_pipe["model"].feature_importances_
-        y_series = train_all["winner"].astype(float)
-        directions = np.array([
-            np.sign(train_all[f].corr(y_series)) for f in selected
-        ])
+        shap_model_type = "LR" if winning_type == "LR+RF" else winning_type
+        directions = compute_direction_signs_from_shap(imp_pipe, X_imp, shap_model_type)
+        if directions is None:
+            # Fallback: infer direction from model outputs (not ground-truth labels).
+            pred_prob = imp_pipe.predict_proba(X_imp)[:, 1]
+            pred_series = pd.Series(pred_prob)
+            directions = np.array([
+                np.sign(train_all[f].corr(pred_series)) for f in selected
+            ])
+            directions = np.nan_to_num(directions, nan=0.0)
 
     plot_feature_importance(
         selected, raw_imp,

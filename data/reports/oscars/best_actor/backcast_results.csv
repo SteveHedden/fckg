@@ -1,0 +1,46 @@
+year_film,nominee_label,winner,prob,rank,top_pick,actual_winner,winner_rank,correct
+2016,Ryan Gosling (La La Land),False,0.6487,1,Ryan Gosling (La La Land),Casey Affleck (Manchester by the Sea),2,False
+2016,Casey Affleck (Manchester by the Sea),True,0.6345,2,Ryan Gosling (La La Land),Casey Affleck (Manchester by the Sea),2,False
+2016,Denzel Washington (Fences),False,0.5986,3,Ryan Gosling (La La Land),Casey Affleck (Manchester by the Sea),2,False
+2016,Andrew Garfield (Hacksaw Ridge),False,0.4225,4,Ryan Gosling (La La Land),Casey Affleck (Manchester by the Sea),2,False
+2016,Viggo Mortensen (Captain Fantastic),False,0.3643,5,Ryan Gosling (La La Land),Casey Affleck (Manchester by the Sea),2,False
+2017,Gary Oldman (Darkest Hour),True,0.7094,1,Gary Oldman (Darkest Hour),Gary Oldman (Darkest Hour),1,True
+2017,Daniel Kaluuya (Get Out),False,0.4125,2,Gary Oldman (Darkest Hour),Gary Oldman (Darkest Hour),1,True
+2017,Timothée Chalamet (Call Me by Your Name),False,0.4104,3,Gary Oldman (Darkest Hour),Gary Oldman (Darkest Hour),1,True
+2017,"Denzel Washington (Roman J. Israel, Esq.)",False,0.3702,4,Gary Oldman (Darkest Hour),Gary Oldman (Darkest Hour),1,True
+2017,Daniel Day Lewis (Phantom Thread),False,0.3695,5,Gary Oldman (Darkest Hour),Gary Oldman (Darkest Hour),1,True
+2018,Rami Malek (Bohemian Rhapsody),True,0.7154,1,Rami Malek (Bohemian Rhapsody),Rami Malek (Bohemian Rhapsody),1,True
+2018,Christian Bale (Vice),False,0.5773,2,Rami Malek (Bohemian Rhapsody),Rami Malek (Bohemian Rhapsody),1,True
+2018,Viggo Mortensen (Green Book),False,0.4872,3,Rami Malek (Bohemian Rhapsody),Rami Malek (Bohemian Rhapsody),1,True
+2018,Bradley Cooper (A Star Is Born),False,0.4058,4,Rami Malek (Bohemian Rhapsody),Rami Malek (Bohemian Rhapsody),1,True
+2018,Willem Dafoe (At Eternity's Gate),False,0.3882,5,Rami Malek (Bohemian Rhapsody),Rami Malek (Bohemian Rhapsody),1,True
+2019,Joaquin Phoenix (Joker),True,0.7789,1,Joaquin Phoenix (Joker),Joaquin Phoenix (Joker),1,True
+2019,Leonardo DiCaprio (Once upon a Time...in Hollywood),False,0.5038,2,Joaquin Phoenix (Joker),Joaquin Phoenix (Joker),1,True
+2019,Adam Driver (Marriage Story),False,0.4806,3,Joaquin Phoenix (Joker),Joaquin Phoenix (Joker),1,True
+2019,Jonathan Pryce (The Two Popes),False,0.4252,4,Joaquin Phoenix (Joker),Joaquin Phoenix (Joker),1,True
+2019,Antonio Banderas (Pain and Glory),False,0.3652,5,Joaquin Phoenix (Joker),Joaquin Phoenix (Joker),1,True
+2020,Chadwick Boseman (Ma Rainey's Black Bottom),False,0.5472,1,Chadwick Boseman (Ma Rainey's Black Bottom),Anthony Hopkins (The Father),3,False
+2020,Steven Yeun (Minari),False,0.5055,2,Chadwick Boseman (Ma Rainey's Black Bottom),Anthony Hopkins (The Father),3,False
+2020,Anthony Hopkins (The Father),True,0.4669,3,Chadwick Boseman (Ma Rainey's Black Bottom),Anthony Hopkins (The Father),3,False
+2020,Riz Ahmed (Sound of Metal),False,0.4239,4,Chadwick Boseman (Ma Rainey's Black Bottom),Anthony Hopkins (The Father),3,False
+2020,Gary Oldman (Mank),False,0.4059,5,Chadwick Boseman (Ma Rainey's Black Bottom),Anthony Hopkins (The Father),3,False
+2021,Will Smith (King Richard),True,0.7417,1,Will Smith (King Richard),Will Smith (King Richard),1,True
+2021,"Andrew Garfield (tick, tick...BOOM!)",False,0.492,2,Will Smith (King Richard),Will Smith (King Richard),1,True
+2021,Benedict Cumberbatch (The Power of the Dog),False,0.4736,3,Will Smith (King Richard),Will Smith (King Richard),1,True
+2021,Denzel Washington (The Tragedy of Macbeth),False,0.3708,4,Will Smith (King Richard),Will Smith (King Richard),1,True
+2021,Javier Bardem (Being the Ricardos),False,0.3584,5,Will Smith (King Richard),Will Smith (King Richard),1,True
+2022,Colin Farrell (The Banshees of Inisherin),False,0.5716,1,Colin Farrell (The Banshees of Inisherin),Brendan Fraser (The Whale),2,False
+2022,Brendan Fraser (The Whale),True,0.5701,2,Colin Farrell (The Banshees of Inisherin),Brendan Fraser (The Whale),2,False
+2022,Austin Butler (Elvis),False,0.5513,3,Colin Farrell (The Banshees of Inisherin),Brendan Fraser (The Whale),2,False
+2022,Bill Nighy (Living),False,0.4235,4,Colin Farrell (The Banshees of Inisherin),Brendan Fraser (The Whale),2,False
+2022,Paul Mescal (Aftersun),False,0.3505,5,Colin Farrell (The Banshees of Inisherin),Brendan Fraser (The Whale),2,False
+2023,Cillian Murphy (Oppenheimer),True,0.7543,1,Cillian Murphy (Oppenheimer),Cillian Murphy (Oppenheimer),1,True
+2023,Paul Giamatti (The Holdovers),False,0.5414,2,Cillian Murphy (Oppenheimer),Cillian Murphy (Oppenheimer),1,True
+2023,Bradley Cooper (Maestro),False,0.3956,3,Cillian Murphy (Oppenheimer),Cillian Murphy (Oppenheimer),1,True
+2023,Jeffrey Wright (American Fiction),False,0.3909,4,Cillian Murphy (Oppenheimer),Cillian Murphy (Oppenheimer),1,True
+2023,Colman Domingo (Rustin),False,0.3835,5,Cillian Murphy (Oppenheimer),Cillian Murphy (Oppenheimer),1,True
+2024,Timothée Chalamet (A Complete Unknown),False,0.6118,1,Timothée Chalamet (A Complete Unknown),Adrien Brody (The Brutalist),2,False
+2024,Adrien Brody (The Brutalist),True,0.6056,2,Timothée Chalamet (A Complete Unknown),Adrien Brody (The Brutalist),2,False
+2024,Sebastian Stan (The Apprentice),False,0.4812,3,Timothée Chalamet (A Complete Unknown),Adrien Brody (The Brutalist),2,False
+2024,Ralph Fiennes (Conclave),False,0.4713,4,Timothée Chalamet (A Complete Unknown),Adrien Brody (The Brutalist),2,False
+2024,Colman Domingo (Sing Sing),False,0.4212,5,Timothée Chalamet (A Complete Unknown),Adrien Brody (The Brutalist),2,False

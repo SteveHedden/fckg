@@ -1,0 +1,9 @@
+Category: animated_film
+Award system: oscars
+Winning model: ConstrainedLR
+Features (8): ['bafta_animated_film_nominee', 'bafta_animated_film_winner', 'golden_globes_animated_film_nominee', 'golden_globes_animated_film_winner', 'metacritic_score', 'globe_winner', 'bafta_winner', 'vote_count']
+Years: 2016–2025  (n=9)
+AUC: 0.9691
+top1: 6 (66.7%)
+top3: 9 (100.0%)
+avg_rank: 1.4444

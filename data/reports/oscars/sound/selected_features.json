@@ -1,0 +1,23 @@
+{
+  "category": "sound",
+  "award_system": "oscars",
+  "train_end_year": 2025,
+  "n_candidates": 79,
+  "n_ceremonies": 93,
+  "feature_cap": 18,
+  "conceptual_reduction": true,
+  "tier1_forced_precursors": [
+    "bafta_sound_nominee",
+    "bafta_sound_winner"
+  ],
+  "generic_precursor_nominees_excluded": [],
+  "selected_features": [
+    "bafta_sound_nominee",
+    "bafta_sound_winner",
+    "imdb_rating",
+    "country_france",
+    "editing_nom",
+    "other_noms",
+    "english_language"
+  ]
+}

@@ -1,0 +1,11 @@
+rank,feature,importance
+1,bafta_makeup_winner,0.18405897132009783
+2,rated_PG13,-0.1029729091490636
+3,bafta_winner,0.07659157652773539
+4,genre_crime,-0.0606979306864334
+5,budget_revenue_ratio,0.06003250508650585
+6,bafta_makeup_nominee,0.050499414252248576
+7,num_wikidata_awards,0.049744936276838875
+8,runtime,-0.043523615158313975
+9,razzie_worst_picture,-0.026560680104507718
+10,pga_winner,0.0

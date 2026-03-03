@@ -1,0 +1,46 @@
+year_film,nominee_label,winner,prob,rank,top_pick,actual_winner,winner_rank,correct
+2016,13th,False,0.7337,1,13th,O.J.: Made in America,3,False
+2016,"Life, Animated",False,0.5279,2,13th,O.J.: Made in America,3,False
+2016,O.J.: Made in America,True,0.5249,3,13th,O.J.: Made in America,3,False
+2016,I Am Not Your Negro,False,0.5204,4,13th,O.J.: Made in America,3,False
+2016,Fire at Sea,False,0.4675,5,13th,O.J.: Made in America,3,False
+2017,Icarus,True,0.5339,1,Icarus,Icarus,1,True
+2017,Faces Places,False,0.5299,2,Icarus,Icarus,1,True
+2017,Strong Island,False,0.4684,3,Icarus,Icarus,1,True
+2017,Last Men in Aleppo,False,0.4453,4,Icarus,Icarus,1,True
+2017,Abacus: Small Enough to Jail,False,0.4438,5,Icarus,Icarus,1,True
+2018,Free Solo,True,0.8702,1,Free Solo,Free Solo,1,True
+2018,Of Fathers and Sons,False,0.5421,2,Free Solo,Free Solo,1,True
+2018,Minding the Gap,False,0.5233,3,Free Solo,Free Solo,1,True
+2018,RBG,False,0.506,4,Free Solo,Free Solo,1,True
+2018,"Hale County This Morning, This Evening",False,0.4862,5,Free Solo,Free Solo,1,True
+2019,For Sama,False,0.7174,1,For Sama,American Factory,2,False
+2019,American Factory,True,0.5393,2,For Sama,American Factory,2,False
+2019,The Edge of Democracy,False,0.5288,3,For Sama,American Factory,2,False
+2019,The Cave,False,0.5015,4,For Sama,American Factory,2,False
+2019,Honeyland,False,0.4979,5,For Sama,American Factory,2,False
+2020,My Octopus Teacher,True,0.6927,1,My Octopus Teacher,My Octopus Teacher,1,True
+2020,The Mole Agent,False,0.5271,2,My Octopus Teacher,My Octopus Teacher,1,True
+2020,Collective,False,0.5044,3,My Octopus Teacher,My Octopus Teacher,1,True
+2020,Time,False,0.5044,4,My Octopus Teacher,My Octopus Teacher,1,True
+2020,Crip Camp,False,0.4834,5,My Octopus Teacher,My Octopus Teacher,1,True
+2021,"Summer of Soul (...Or, When the Revolution Could Not Be Televised)",True,0.6137,1,"Summer of Soul (...Or, When the Revolution Could Not Be Televised)","Summer of Soul (...Or, When the Revolution Could Not Be Televised)",1,True
+2021,Flee,False,0.5166,2,"Summer of Soul (...Or, When the Revolution Could Not Be Televised)","Summer of Soul (...Or, When the Revolution Could Not Be Televised)",1,True
+2021,Ascension,False,0.4991,3,"Summer of Soul (...Or, When the Revolution Could Not Be Televised)","Summer of Soul (...Or, When the Revolution Could Not Be Televised)",1,True
+2021,Attica,False,0.4977,4,"Summer of Soul (...Or, When the Revolution Could Not Be Televised)","Summer of Soul (...Or, When the Revolution Could Not Be Televised)",1,True
+2021,Writing with Fire,False,0.4612,5,"Summer of Soul (...Or, When the Revolution Could Not Be Televised)","Summer of Soul (...Or, When the Revolution Could Not Be Televised)",1,True
+2022,Navalny,True,0.6471,1,Navalny,Navalny,1,True
+2022,All the Beauty and the Bloodshed,False,0.6073,2,Navalny,Navalny,1,True
+2022,Fire of Love,False,0.5306,3,Navalny,Navalny,1,True
+2022,All That Breathes,False,0.4646,4,Navalny,Navalny,1,True
+2022,A House Made of Splinters,False,0.4423,5,Navalny,Navalny,1,True
+2023,20 Days in Mariupol,True,0.7117,1,20 Days in Mariupol,20 Days in Mariupol,1,True
+2023,To Kill a Tiger,False,0.5062,2,20 Days in Mariupol,20 Days in Mariupol,1,True
+2023,Bobi Wine: The People's President,False,0.4835,3,20 Days in Mariupol,20 Days in Mariupol,1,True
+2023,The Eternal Memory,False,0.4579,4,20 Days in Mariupol,20 Days in Mariupol,1,True
+2023,Four Daughters,False,0.4418,5,20 Days in Mariupol,20 Days in Mariupol,1,True
+2024,No Other Land,True,0.556,1,No Other Land,No Other Land,1,True
+2024,Black Box Diaries,False,0.5275,2,No Other Land,No Other Land,1,True
+2024,Soundtrack to a Coup d'Etat,False,0.493,3,No Other Land,No Other Land,1,True
+2024,Sugarcane,False,0.4888,4,No Other Land,No Other Land,1,True
+2024,Porcelain War,False,0.4615,5,No Other Land,No Other Land,1,True

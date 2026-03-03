@@ -1,0 +1,46 @@
+year_film,nominee_label,winner,prob,rank,top_pick,actual_winner,winner_rank,correct
+2016,La La Land,False,0.73,1,La La Land,Manchester by the Sea,2,False
+2016,Manchester by the Sea,True,0.6292,2,La La Land,Manchester by the Sea,2,False
+2016,Hell or High Water,False,0.5543,3,La La Land,Manchester by the Sea,2,False
+2016,20th Century Women,False,0.4203,4,La La Land,Manchester by the Sea,2,False
+2016,The Lobster,False,0.4189,5,La La Land,Manchester by the Sea,2,False
+2017,The Shape of Water,False,0.6204,1,The Shape of Water,Get Out,3,False
+2017,Lady Bird,False,0.5665,2,The Shape of Water,Get Out,3,False
+2017,Get Out,True,0.5173,3,The Shape of Water,Get Out,3,False
+2017,"Three Billboards outside Ebbing, Missouri",False,0.4743,4,The Shape of Water,Get Out,3,False
+2017,The Big Sick,False,0.4198,5,The Shape of Water,Get Out,3,False
+2018,The Favourite,False,0.694,1,The Favourite,Green Book,2,False
+2018,Green Book,True,0.6562,2,The Favourite,Green Book,2,False
+2018,Vice,False,0.6109,3,The Favourite,Green Book,2,False
+2018,Roma,False,0.5391,4,The Favourite,Green Book,2,False
+2018,First Reformed,False,0.4189,5,The Favourite,Green Book,2,False
+2019,Parasite,True,0.6853,1,Parasite,Parasite,1,True
+2019,Marriage Story,False,0.4808,2,Parasite,Parasite,1,True
+2019,Once upon a Time...in Hollywood,False,0.4582,3,Parasite,Parasite,1,True
+2019,1917,False,0.455,4,Parasite,Parasite,1,True
+2019,Knives Out,False,0.4384,5,Parasite,Parasite,1,True
+2020,Promising Young Woman,True,0.6908,1,Promising Young Woman,Promising Young Woman,1,True
+2020,The Trial of the Chicago 7,False,0.6431,2,Promising Young Woman,Promising Young Woman,1,True
+2020,Sound of Metal,False,0.4798,3,Promising Young Woman,Promising Young Woman,1,True
+2020,Minari,False,0.4343,4,Promising Young Woman,Promising Young Woman,1,True
+2020,Judas and the Black Messiah,False,0.419,5,Promising Young Woman,Promising Young Woman,1,True
+2021,Belfast,True,0.657,1,Belfast,Belfast,1,True
+2021,Licorice Pizza,False,0.617,2,Belfast,Belfast,1,True
+2021,Don't Look Up,False,0.5246,3,Belfast,Belfast,1,True
+2021,King Richard,False,0.4945,4,Belfast,Belfast,1,True
+2021,The Worst Person in the World,False,0.4176,5,Belfast,Belfast,1,True
+2022,The Banshees of Inisherin,False,0.7642,1,The Banshees of Inisherin,Everything Everywhere All at Once,2,False
+2022,Everything Everywhere All at Once,True,0.6131,2,The Banshees of Inisherin,Everything Everywhere All at Once,2,False
+2022,Tár,False,0.6022,3,The Banshees of Inisherin,Everything Everywhere All at Once,2,False
+2022,Triangle of Sadness,False,0.5056,4,The Banshees of Inisherin,Everything Everywhere All at Once,2,False
+2022,The Fabelmans,False,0.4668,5,The Banshees of Inisherin,Everything Everywhere All at Once,2,False
+2023,Anatomy of a Fall,True,0.7682,1,Anatomy of a Fall,Anatomy of a Fall,1,True
+2023,The Holdovers,False,0.4931,2,Anatomy of a Fall,Anatomy of a Fall,1,True
+2023,Past Lives,False,0.4865,3,Anatomy of a Fall,Anatomy of a Fall,1,True
+2023,May December,False,0.4195,4,Anatomy of a Fall,Anatomy of a Fall,1,True
+2023,Maestro,False,0.3988,5,Anatomy of a Fall,Anatomy of a Fall,1,True
+2024,Anora,True,0.6106,1,Anora,Anora,1,True
+2024,The Brutalist,False,0.5987,2,Anora,Anora,1,True
+2024,A Real Pain,False,0.5558,3,Anora,Anora,1,True
+2024,The Substance,False,0.5536,4,Anora,Anora,1,True
+2024,September 5,False,0.4218,5,Anora,Anora,1,True

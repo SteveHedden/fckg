@@ -1,0 +1,43 @@
+year_film,nominee_label,winner,prob,rank,top_pick,actual_winner,winner_rank,correct
+2016,La La Land,True,0.7097,1,La La Land,La La Land,1,True
+2016,Jim: The James Foley Story,False,0.4331,2,La La Land,La La Land,1,True
+2016,Moana,False,0.4331,3,La La Land,La La Land,1,True
+2016,Trolls,False,0.4331,4,La La Land,La La Land,1,True
+2017,The Greatest Showman,False,0.7111,1,The Greatest Showman,Coco,2,False
+2017,Coco,True,0.506,2,The Greatest Showman,Coco,2,False
+2017,Call Me by Your Name,False,0.4314,3,The Greatest Showman,Coco,2,False
+2017,Marshall,False,0.4314,4,The Greatest Showman,Coco,2,False
+2017,Mudbound,False,0.4314,5,The Greatest Showman,Coco,2,False
+2018,A Star Is Born,True,0.7078,1,A Star Is Born,A Star Is Born,1,True
+2018,Mary Poppins Returns,False,0.432,2,A Star Is Born,A Star Is Born,1,True
+2018,RBG,False,0.432,3,A Star Is Born,A Star Is Born,1,True
+2018,The Ballad of Buster Scruggs,False,0.432,4,A Star Is Born,A Star Is Born,1,True
+2018,Black Panther,False,0.3718,5,A Star Is Born,A Star Is Born,1,True
+2019,Rocketman,True,0.7095,1,Rocketman,Rocketman,1,True
+2019,Breakthrough,False,0.4303,2,Rocketman,Rocketman,1,True
+2019,Frozen II,False,0.4303,3,Rocketman,Rocketman,1,True
+2019,Harriet,False,0.4303,4,Rocketman,Rocketman,1,True
+2019,Toy Story 4,False,0.4303,5,Rocketman,Rocketman,1,True
+2020,Judas and the Black Messiah,True,0.5073,1,Judas and the Black Messiah,Judas and the Black Messiah,1,True
+2020,The Trial of the Chicago 7,False,0.5073,2,Judas and the Black Messiah,Judas and the Black Messiah,1,True
+2020,Eurovision Song Contest: The Story of Fire Saga,False,0.4286,3,Judas and the Black Messiah,Judas and the Black Messiah,1,True
+2020,One Night in Miami...,False,0.4286,4,Judas and the Black Messiah,Judas and the Black Messiah,1,True
+2020,The Life Ahead (La Vita Davanti a Se),False,0.4286,5,Judas and the Black Messiah,Judas and the Black Messiah,1,True
+2021,No Time to Die,True,0.7115,1,No Time to Die,No Time to Die,1,True
+2021,Belfast,False,0.5086,2,No Time to Die,No Time to Die,1,True
+2021,Encanto,False,0.5086,3,No Time to Die,No Time to Die,1,True
+2021,King Richard,False,0.5086,4,No Time to Die,No Time to Die,1,True
+2021,Four Good Days,False,0.4286,5,No Time to Die,No Time to Die,1,True
+2022,RRR,True,0.7117,1,RRR,RRR,1,True
+2022,Black Panther: Wakanda Forever,False,0.4434,2,RRR,RRR,1,True
+2022,Everything Everywhere All at Once,False,0.4434,3,RRR,RRR,1,True
+2022,Tell It like a Woman,False,0.4276,4,RRR,RRR,1,True
+2022,Top Gun: Maverick,False,0.4276,5,RRR,RRR,1,True
+2023,Killers of the Flower Moon,False,0.5028,1,Killers of the Flower Moon,Barbie,2,False
+2023,Barbie,True,0.4265,2,Killers of the Flower Moon,Barbie,2,False
+2023,American Symphony,False,0.4265,3,Killers of the Flower Moon,Barbie,2,False
+2023,Flamin' Hot,False,0.4265,4,Killers of the Flower Moon,Barbie,2,False
+2024,Emilia Pérez,True,0.5024,1,Emilia Pérez,Emilia Pérez,1,True
+2024,Elton John: Never Too Late,False,0.4278,2,Emilia Pérez,Emilia Pérez,1,True
+2024,Sing Sing,False,0.4278,3,Emilia Pérez,Emilia Pérez,1,True
+2024,The Six Triple Eight,False,0.4278,4,Emilia Pérez,Emilia Pérez,1,True

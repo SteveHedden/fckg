@@ -163,6 +163,7 @@ msh:Category_bafta_Best_Original_Screenplay    msh:realizationOf msh:Concept_Bes
 msh:Category_bafta_Best_Adapted_Screenplay     msh:realizationOf msh:Concept_BestAdaptedScreenplay .
 msh:Category_bafta_Best_Cinematography         msh:realizationOf msh:Concept_BestCinematography .
 msh:Category_bafta_Best_Editing                msh:realizationOf msh:Concept_BestFilmEditing .
+msh:Category_bafta_Best_Documentary            msh:realizationOf msh:Concept_BestDocumentaryFeature .
 # Note: Category_bafta_Outstanding_British_Film has no cross-system equivalent
 
 
@@ -279,6 +280,7 @@ msh:Category_oscars_MUSIC_Scoring_of_a_Musical_Picture                 msh:reali
 msh:Category_oscars_MUSIC_Original_Song                                msh:realizationOf msh:Concept_BestOriginalSong .
 msh:Category_oscars_MUSIC_Song                                         msh:realizationOf msh:Concept_BestOriginalSong .
 msh:Category_oscars_MUSIC_Song_Original_for_the_Picture                msh:realizationOf msh:Concept_BestOriginalSong .
+msh:Category_golden_globes_Best_Original_Song msh:realizationOf msh:Concept_BestOriginalSong .
 
 # Production Design / Art Direction
 msh:Category_oscars_PRODUCTION_DESIGN            msh:realizationOf msh:Concept_BestProductionDesign .
@@ -316,6 +318,8 @@ msh:Category_oscars_INTERNATIONAL_FEATURE_FILM          msh:realizationOf msh:Co
 msh:Category_oscars_FOREIGN_LANGUAGE_FILM               msh:realizationOf msh:Concept_BestInternationalFilm .
 msh:Category_oscars_SPECIAL_FOREIGN_LANGUAGE_FILM_AWARD msh:realizationOf msh:Concept_BestInternationalFilm .
 msh:Category_oscars_HONORARY_FOREIGN_LANGUAGE_FILM_AWARD msh:realizationOf msh:Concept_BestInternationalFilm .
+msh:Category_bafta_Film_Not_in_the_English_Language msh:realizationOf msh:Concept_BestInternationalFilm .
+msh:Category_golden_globes_Best_Non_English_Language_Film msh:realizationOf msh:Concept_BestInternationalFilm .
 
 # Documentary Feature
 msh:Category_oscars_DOCUMENTARY                  msh:realizationOf msh:Concept_BestDocumentaryFeature .
@@ -323,7 +327,28 @@ msh:Category_oscars_DOCUMENTARY_FEATURE_FILM     msh:realizationOf msh:Concept_B
 msh:Category_oscars_DOCUMENTARY_Feature          msh:realizationOf msh:Concept_BestDocumentaryFeature .
 
 # Animated Feature
-msh:Category_oscars_ANIMATED_FEATURE_FILM        msh:realizationOf msh:Concept_BestAnimatedFeature .
+msh:Category_oscars_ANIMATED_FEATURE_FILM              msh:realizationOf msh:Concept_BestAnimatedFeature .
+msh:Category_bafta_Best_Animated_Film                  msh:realizationOf msh:Concept_BestAnimatedFeature .
+msh:Category_golden_globes_Best_Animated_Feature_Film_Motion_Picture msh:realizationOf msh:Concept_BestAnimatedFeature .
+
+# Original Score — GG gives one award; link to concept
+msh:Category_golden_globes_Best_Original_Score_Motion_Picture msh:realizationOf msh:Concept_BestOriginalScore .
+msh:Category_bafta_Best_Original_Music                 msh:realizationOf msh:Concept_BestOriginalScore .
+
+# Production Design — BAFTA equivalent
+msh:Category_bafta_Best_Production_Design              msh:realizationOf msh:Concept_BestProductionDesign .
+
+# Sound — BAFTA equivalent
+msh:Category_bafta_Best_Sound                          msh:realizationOf msh:Concept_BestSound .
+
+# Visual Effects — BAFTA equivalent
+msh:Category_bafta_Best_Special_Visual_Effects         msh:realizationOf msh:Concept_BestVisualEffects .
+
+# Makeup — BAFTA equivalent
+msh:Category_bafta_Best_Makeup_and_Hair                msh:realizationOf msh:Concept_BestMakeup .
+
+# Costume Design — BAFTA equivalent
+msh:Category_bafta_Best_Costume_Design                msh:realizationOf msh:Concept_BestCostumeDesign .
 
 
 # ---------------------------------------------------------------------------

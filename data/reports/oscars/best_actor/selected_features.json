@@ -1,0 +1,37 @@
+{
+  "category": "best_actor",
+  "award_system": "oscars",
+  "train_end_year": 2025,
+  "n_candidates": 81,
+  "n_ceremonies": 97,
+  "feature_cap": 19,
+  "conceptual_reduction": true,
+  "tier1_forced_precursors": [
+    "bafta_actor_nominee",
+    "bafta_actor_winner",
+    "golden_globes_actor_nominee",
+    "golden_globes_actor_winner",
+    "sag_actor_nominee",
+    "sag_actor_winner"
+  ],
+  "generic_precursor_nominees_excluded": [],
+  "selected_features": [
+    "bafta_actor_nominee",
+    "bafta_actor_winner",
+    "golden_globes_actor_nominee",
+    "golden_globes_actor_winner",
+    "sag_actor_nominee",
+    "sag_actor_winner",
+    "previous_actor_nominations",
+    "spirit_best_film",
+    "writing_noms",
+    "rated_R",
+    "nsfc_best_film",
+    "previous_actor_wins",
+    "genre_mystery",
+    "genre_fantasy",
+    "directing_nom",
+    "sag_winner",
+    "num_wikidata_awards"
+  ]
+}

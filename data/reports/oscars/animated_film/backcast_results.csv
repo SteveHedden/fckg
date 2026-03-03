@@ -1,0 +1,46 @@
+year_film,nominee_label,winner,prob,rank,top_pick,actual_winner,winner_rank,correct
+2016,Kubo and the Two Strings,False,0.6537,1,Kubo and the Two Strings,Zootopia,2,False
+2016,Zootopia,True,0.6044,2,Kubo and the Two Strings,Zootopia,2,False
+2016,Moana,False,0.454,3,Kubo and the Two Strings,Zootopia,2,False
+2016,My Life as a Zucchini,False,0.3385,4,Kubo and the Two Strings,Zootopia,2,False
+2016,The Red Turtle,False,0.3346,5,Kubo and the Two Strings,Zootopia,2,False
+2017,Coco,True,0.8326,1,Coco,Coco,1,True
+2017,Loving Vincent,False,0.3178,2,Coco,Coco,1,True
+2017,The Breadwinner,False,0.3098,3,Coco,Coco,1,True
+2017,The Boss Baby,False,0.2769,4,Coco,Coco,1,True
+2017,Ferdinand,False,0.271,5,Coco,Coco,1,True
+2018,Spider-Man: Into the Spider-Verse,True,0.828,1,Spider-Man: Into the Spider-Verse,Spider-Man: Into the Spider-Verse,1,True
+2018,Incredibles 2,False,0.4419,2,Spider-Man: Into the Spider-Verse,Spider-Man: Into the Spider-Verse,1,True
+2018,Isle of Dogs,False,0.3873,3,Spider-Man: Into the Spider-Verse,Spider-Man: Into the Spider-Verse,1,True
+2018,Ralph Breaks the Internet,False,0.3305,4,Spider-Man: Into the Spider-Verse,Spider-Man: Into the Spider-Verse,1,True
+2018,Mirai,False,0.3102,5,Spider-Man: Into the Spider-Verse,Spider-Man: Into the Spider-Verse,1,True
+2019,Klaus,False,0.5506,1,Klaus,Toy Story 4,3,False
+2019,Missing Link,False,0.4306,2,Klaus,Toy Story 4,3,False
+2019,Toy Story 4,True,0.418,3,Klaus,Toy Story 4,3,False
+2019,How to Train Your Dragon: The Hidden World,False,0.3152,4,Klaus,Toy Story 4,3,False
+2019,I Lost My Body,False,0.3052,5,Klaus,Toy Story 4,3,False
+2020,Soul,True,0.7836,1,Soul,Soul,1,True
+2020,Wolfwalkers,False,0.383,2,Soul,Soul,1,True
+2020,Onward,False,0.3388,3,Soul,Soul,1,True
+2020,A Shaun the Sheep Movie: Farmageddon,False,0.2985,4,Soul,Soul,1,True
+2020,Over the Moon,False,0.2576,5,Soul,Soul,1,True
+2021,Encanto,True,0.7615,1,Encanto,Encanto,1,True
+2021,Luca,False,0.3806,2,Encanto,Encanto,1,True
+2021,Flee,False,0.3801,3,Encanto,Encanto,1,True
+2021,The Mitchells vs. the Machines,False,0.3636,4,Encanto,Encanto,1,True
+2021,Raya and the Last Dragon,False,0.3309,5,Encanto,Encanto,1,True
+2022,Guillermo del Toro's Pinocchio,True,0.7333,1,Guillermo del Toro's Pinocchio,Guillermo del Toro's Pinocchio,1,True
+2022,Turning Red,False,0.3844,2,Guillermo del Toro's Pinocchio,Guillermo del Toro's Pinocchio,1,True
+2022,Puss in Boots: The Last Wish,False,0.3767,3,Guillermo del Toro's Pinocchio,Guillermo del Toro's Pinocchio,1,True
+2022,Marcel the Shell with Shoes On,False,0.3379,4,Guillermo del Toro's Pinocchio,Guillermo del Toro's Pinocchio,1,True
+2022,The Sea Beast,False,0.2824,5,Guillermo del Toro's Pinocchio,Guillermo del Toro's Pinocchio,1,True
+2023,The Boy and the Heron,True,0.7636,1,The Boy and the Heron,The Boy and the Heron,1,True
+2023,Spider-Man: Across the Spider-Verse,False,0.4062,2,The Boy and the Heron,The Boy and the Heron,1,True
+2023,Robot Dreams,False,0.3087,3,The Boy and the Heron,The Boy and the Heron,1,True
+2023,Elemental,False,0.3015,4,The Boy and the Heron,The Boy and the Heron,1,True
+2023,Nimona,False,0.2803,5,The Boy and the Heron,The Boy and the Heron,1,True
+2024,Wallace & Gromit: Vengeance Most Fowl,False,0.5651,1,Wallace & Gromit: Vengeance Most Fowl,Flow,2,False
+2024,Flow,True,0.5006,2,Wallace & Gromit: Vengeance Most Fowl,Flow,2,False
+2024,The Wild Robot,False,0.3791,3,Wallace & Gromit: Vengeance Most Fowl,Flow,2,False
+2024,Inside Out 2,False,0.3491,4,Wallace & Gromit: Vengeance Most Fowl,Flow,2,False
+2024,Memoir of a Snail,False,0.2952,5,Wallace & Gromit: Vengeance Most Fowl,Flow,2,False

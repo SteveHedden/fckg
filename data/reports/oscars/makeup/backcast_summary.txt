@@ -1,0 +1,9 @@
+Category: makeup
+Award system: oscars
+Winning model: ConstrainedLR
+Features (10): ['bafta_makeup_nominee', 'bafta_makeup_winner', 'pga_winner', 'bafta_winner', 'runtime', 'budget_revenue_ratio', 'rated_PG13', 'genre_crime', 'num_wikidata_awards', 'razzie_worst_picture']
+Years: 2016–2025  (n=9)
+AUC: 0.9037
+top1: 8 (88.9%)
+top3: 9 (100.0%)
+avg_rank: 1.1111

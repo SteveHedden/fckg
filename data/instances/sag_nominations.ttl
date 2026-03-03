@@ -8952,7 +8952,7 @@ msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_female_acto
     msh:hasFilm msh:Film_Hamnet_2025 ;
     msh:hasNominee msh:Person_Jessie_Buckley ;
     msh:nomineeType "PERSON" ;
-    msh:winner false ;
+    msh:winner true ;
     msh:yearFilm "2025"^^xsd:gYear .
 
 msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_female_actor_in_a_leading_role_if_i_had_legs_id_kick_you_c23cc762b2724e25 a msh:Nomination ;
@@ -9022,7 +9022,7 @@ msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_female_acto
     msh:hasFilm msh:Film_Weapons_2025 ;
     msh:hasNominee msh:Person_Amy_Madigan ;
     msh:nomineeType "PERSON" ;
-    msh:winner false ;
+    msh:winner true ;
     msh:yearFilm "2025"^^xsd:gYear .
 
 msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_female_actor_in_a_supporting_role_wicked_for_good_dd611235113952be a msh:Nomination ;
@@ -9082,7 +9082,7 @@ msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_
     msh:hasFilm msh:Film_Sinners_2025 ;
     msh:hasNominee msh:Person_Michael_B_Jordan ;
     msh:nomineeType "PERSON" ;
-    msh:winner false ;
+    msh:winner true ;
     msh:yearFilm "2025"^^xsd:gYear .
 
 msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_in_a_supporting_role_frankenstein_33eff09e317a9336 a msh:Nomination ;
@@ -9122,7 +9122,7 @@ msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_
     msh:hasFilm msh:Film_One_Battle_After_Another_2025 ;
     msh:hasNominee msh:Person_Sean_Penn ;
     msh:nomineeType "PERSON" ;
-    msh:winner false ;
+    msh:winner true ;
     msh:yearFilm "2025"^^xsd:gYear .
 
 msh:Nomination_sag_2025_actor_award_for_outstanding_performance_by_a_male_actor_in_a_supporting_role_sinners_bc40c11a2b799ab0 a msh:Nomination ;
@@ -9220,7 +9220,7 @@ msh:Nomination_sag_2025_outstanding_performance_by_a_cast_in_a_motion_picture_si
         msh:Person_Omar_Miller,
         msh:Person_Wunmi_Mosaku ;
     msh:nomineeType "COLLABORATION" ;
-    msh:winner false ;
+    msh:winner true ;
     msh:yearFilm "2025"^^xsd:gYear .
 
 <urn:x-evn-master:sag_nominations> a owl:Ontology ;

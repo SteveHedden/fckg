@@ -1,0 +1,47 @@
+year_film,nominee_label,winner,prob,rank,top_pick,actual_winner,winner_rank,correct
+2016,Damien Chazelle (La La Land),True,0.8134,1,Damien Chazelle (La La Land),Damien Chazelle (La La Land),1,True
+2016,Barry Jenkins (Moonlight),False,0.401,2,Damien Chazelle (La La Land),Damien Chazelle (La La Land),1,True
+2016,Denis Villeneuve (Arrival),False,0.3983,3,Damien Chazelle (La La Land),Damien Chazelle (La La Land),1,True
+2016,Kenneth Lonergan (Manchester by the Sea),False,0.3585,4,Damien Chazelle (La La Land),Damien Chazelle (La La Land),1,True
+2016,Mel Gibson (Hacksaw Ridge),False,0.3482,5,Damien Chazelle (La La Land),Damien Chazelle (La La Land),1,True
+2017,Guillermo del Toro (The Shape of Water),True,0.7852,1,Guillermo del Toro (The Shape of Water),Guillermo del Toro (The Shape of Water),1,True
+2017,Christopher Nolan (Dunkirk),False,0.3916,2,Guillermo del Toro (The Shape of Water),Guillermo del Toro (The Shape of Water),1,True
+2017,Greta Gerwig (Lady Bird),False,0.3371,3,Guillermo del Toro (The Shape of Water),Guillermo del Toro (The Shape of Water),1,True
+2017,Paul Thomas Anderson (Phantom Thread),False,0.3327,4,Guillermo del Toro (The Shape of Water),Guillermo del Toro (The Shape of Water),1,True
+2017,Jordan Peele (Get Out),False,0.3074,5,Guillermo del Toro (The Shape of Water),Guillermo del Toro (The Shape of Water),1,True
+2018,Alfonso Cuarón (Roma),True,0.7768,1,Alfonso Cuarón (Roma),Alfonso Cuarón (Roma),1,True
+2018,Adam McKay (Vice),False,0.3974,2,Alfonso Cuarón (Roma),Alfonso Cuarón (Roma),1,True
+2018,Spike Lee (BlacKkKlansman),False,0.3718,3,Alfonso Cuarón (Roma),Alfonso Cuarón (Roma),1,True
+2018,Pawel Pawlikowski (Cold War),False,0.3668,4,Alfonso Cuarón (Roma),Alfonso Cuarón (Roma),1,True
+2018,Yorgos Lanthimos (The Favourite),False,0.3545,5,Alfonso Cuarón (Roma),Alfonso Cuarón (Roma),1,True
+2019,Sam Mendes (1917),False,0.7287,1,Sam Mendes (1917),Bong Joon Ho (Parasite),3,False
+2019,Martin Scorsese (The Irishman),False,0.4231,2,Sam Mendes (1917),Bong Joon Ho (Parasite),3,False
+2019,Bong Joon Ho (Parasite),True,0.4178,3,Sam Mendes (1917),Bong Joon Ho (Parasite),3,False
+2019,Todd Phillips (Joker),False,0.3989,4,Sam Mendes (1917),Bong Joon Ho (Parasite),3,False
+2019,Quentin Tarantino (Once upon a Time...in Hollywood),False,0.346,5,Sam Mendes (1917),Bong Joon Ho (Parasite),3,False
+2020,Chloé Zhao (Nomadland),True,0.7969,1,Chloé Zhao (Nomadland),Chloé Zhao (Nomadland),1,True
+2020,Emerald Fennell (Promising Young Woman),False,0.3781,2,Chloé Zhao (Nomadland),Chloé Zhao (Nomadland),1,True
+2020,David Fincher (Mank),False,0.3623,3,Chloé Zhao (Nomadland),Chloé Zhao (Nomadland),1,True
+2020,Lee Isaac Chung (Minari),False,0.3595,4,Chloé Zhao (Nomadland),Chloé Zhao (Nomadland),1,True
+2020,Thomas Vinterberg (Another Round),False,0.3384,5,Chloé Zhao (Nomadland),Chloé Zhao (Nomadland),1,True
+2021,Jane Campion (The Power of the Dog),True,0.7696,1,Jane Campion (The Power of the Dog),Jane Campion (The Power of the Dog),1,True
+2021,Steven Spielberg (West Side Story),False,0.4028,2,Jane Campion (The Power of the Dog),Jane Campion (The Power of the Dog),1,True
+2021,Paul Thomas Anderson (Licorice Pizza),False,0.3753,3,Jane Campion (The Power of the Dog),Jane Campion (The Power of the Dog),1,True
+2021,Kenneth Branagh (Belfast),False,0.3328,4,Jane Campion (The Power of the Dog),Jane Campion (The Power of the Dog),1,True
+2021,Ryusuke Hamaguchi (Drive My Car),False,0.3232,5,Jane Campion (The Power of the Dog),Jane Campion (The Power of the Dog),1,True
+2022,Daniel Kwan (Everything Everywhere All at Once),True,0.678,1,Daniel Kwan (Everything Everywhere All at Once),Daniel Kwan (Everything Everywhere All at Once),1,True
+2022,Daniel Scheinert (Everything Everywhere All at Once),True,0.678,2,Daniel Kwan (Everything Everywhere All at Once),Daniel Kwan (Everything Everywhere All at Once),1,True
+2022,Steven Spielberg (The Fabelmans),False,0.4494,3,Daniel Kwan (Everything Everywhere All at Once),Daniel Kwan (Everything Everywhere All at Once),1,True
+2022,Todd Field (Tár),False,0.3942,4,Daniel Kwan (Everything Everywhere All at Once),Daniel Kwan (Everything Everywhere All at Once),1,True
+2022,Martin McDonagh (The Banshees of Inisherin),False,0.3865,5,Daniel Kwan (Everything Everywhere All at Once),Daniel Kwan (Everything Everywhere All at Once),1,True
+2022,Ruben Östlund (Triangle of Sadness),False,0.2641,6,Daniel Kwan (Everything Everywhere All at Once),Daniel Kwan (Everything Everywhere All at Once),1,True
+2023,Christopher Nolan (Oppenheimer),True,0.7571,1,Christopher Nolan (Oppenheimer),Christopher Nolan (Oppenheimer),1,True
+2023,Martin Scorsese (Killers of the Flower Moon),False,0.3757,2,Christopher Nolan (Oppenheimer),Christopher Nolan (Oppenheimer),1,True
+2023,Yorgos Lanthimos (Poor Things),False,0.3642,3,Christopher Nolan (Oppenheimer),Christopher Nolan (Oppenheimer),1,True
+2023,Justine Triet (Anatomy of a Fall),False,0.3578,4,Christopher Nolan (Oppenheimer),Christopher Nolan (Oppenheimer),1,True
+2023,Jonathan Glazer (The Zone of Interest),False,0.3134,5,Christopher Nolan (Oppenheimer),Christopher Nolan (Oppenheimer),1,True
+2024,Sean Baker (Anora),True,0.7169,1,Sean Baker (Anora),Sean Baker (Anora),1,True
+2024,Brady Corbet (The Brutalist),False,0.4882,2,Sean Baker (Anora),Sean Baker (Anora),1,True
+2024,Jacques Audiard (Emilia Pérez),False,0.3557,3,Sean Baker (Anora),Sean Baker (Anora),1,True
+2024,Coralie Fargeat (The Substance),False,0.3409,4,Sean Baker (Anora),Sean Baker (Anora),1,True
+2024,James Mangold (A Complete Unknown),False,0.2963,5,Sean Baker (Anora),Sean Baker (Anora),1,True

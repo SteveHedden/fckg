@@ -1,0 +1,46 @@
+year_film,nominee_label,winner,prob,rank,top_pick,actual_winner,winner_rank,correct
+2016,La La Land,True,0.7267,1,La La Land,La La Land,1,True
+2016,Arrival,False,0.5611,2,La La Land,La La Land,1,True
+2016,Fantastic Beasts and Where to Find Them,False,0.4756,3,La La Land,La La Land,1,True
+2016,"Hail, Caesar!",False,0.3829,4,La La Land,La La Land,1,True
+2016,Passengers,False,0.3499,5,La La Land,La La Land,1,True
+2017,The Shape of Water,True,0.7502,1,The Shape of Water,The Shape of Water,1,True
+2017,Dunkirk,False,0.5471,2,The Shape of Water,The Shape of Water,1,True
+2017,Darkest Hour,False,0.5018,3,The Shape of Water,The Shape of Water,1,True
+2017,Blade Runner 2049,False,0.4562,4,The Shape of Water,The Shape of Water,1,True
+2017,Beauty and the Beast,False,0.4327,5,The Shape of Water,The Shape of Water,1,True
+2018,The Favourite,False,0.6927,1,The Favourite,Black Panther,3,False
+2018,Roma,False,0.6117,2,The Favourite,Black Panther,3,False
+2018,Black Panther,True,0.4512,3,The Favourite,Black Panther,3,False
+2018,Mary Poppins Returns,False,0.412,4,The Favourite,Black Panther,3,False
+2018,First Man,False,0.4106,5,The Favourite,Black Panther,3,False
+2019,1917,False,0.6383,1,1917,Once upon a Time...in Hollywood,3,False
+2019,Parasite,False,0.618,2,1917,Once upon a Time...in Hollywood,3,False
+2019,Once upon a Time...in Hollywood,True,0.5824,3,1917,Once upon a Time...in Hollywood,3,False
+2019,The Irishman,False,0.5785,4,1917,Once upon a Time...in Hollywood,3,False
+2019,Jojo Rabbit,False,0.4274,5,1917,Once upon a Time...in Hollywood,3,False
+2020,Mank,True,0.6083,1,Mank,Mank,1,True
+2020,The Father,False,0.5133,2,Mank,Mank,1,True
+2020,Ma Rainey's Black Bottom,False,0.4139,3,Mank,Mank,1,True
+2020,News of the World,False,0.3895,4,Mank,Mank,1,True
+2020,Tenet,False,0.3555,5,Mank,Mank,1,True
+2021,The Power of the Dog,False,0.6264,1,The Power of the Dog,Dune,3,False
+2021,West Side Story,False,0.5571,2,The Power of the Dog,Dune,3,False
+2021,Dune,True,0.5362,3,The Power of the Dog,Dune,3,False
+2021,The Tragedy of Macbeth,False,0.4116,4,The Power of the Dog,Dune,3,False
+2021,Nightmare Alley,False,0.3912,5,The Power of the Dog,Dune,3,False
+2022,The Fabelmans,False,0.5815,1,The Fabelmans,All Quiet on the Western Front,2,False
+2022,All Quiet on the Western Front,True,0.5169,2,The Fabelmans,All Quiet on the Western Front,2,False
+2022,Elvis,False,0.4395,3,The Fabelmans,All Quiet on the Western Front,2,False
+2022,Babylon,False,0.4247,4,The Fabelmans,All Quiet on the Western Front,2,False
+2022,Avatar: The Way of Water,False,0.3832,5,The Fabelmans,All Quiet on the Western Front,2,False
+2023,Poor Things,True,0.6912,1,Poor Things,Poor Things,1,True
+2023,Oppenheimer,False,0.6513,2,Poor Things,Poor Things,1,True
+2023,Killers of the Flower Moon,False,0.5737,3,Poor Things,Poor Things,1,True
+2023,Barbie,False,0.501,4,Poor Things,Poor Things,1,True
+2023,Napoleon,False,0.3779,5,Poor Things,Poor Things,1,True
+2024,The Brutalist,False,0.6156,1,The Brutalist,Wicked,2,False
+2024,Wicked,True,0.562,2,The Brutalist,Wicked,2,False
+2024,Conclave,False,0.4866,3,The Brutalist,Wicked,2,False
+2024,Dune: Part Two,False,0.4244,4,The Brutalist,Wicked,2,False
+2024,Nosferatu,False,0.3891,5,The Brutalist,Wicked,2,False

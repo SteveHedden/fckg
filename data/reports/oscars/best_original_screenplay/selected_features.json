@@ -1,0 +1,33 @@
+{
+  "category": "best_original_screenplay",
+  "award_system": "oscars",
+  "train_end_year": 2025,
+  "n_candidates": 81,
+  "n_ceremonies": 95,
+  "feature_cap": 19,
+  "conceptual_reduction": true,
+  "tier1_forced_precursors": [
+    "bafta_original_screenplay_nominee",
+    "bafta_original_screenplay_winner",
+    "golden_globes_original_screenplay_nominee",
+    "golden_globes_original_screenplay_winner"
+  ],
+  "generic_precursor_nominees_excluded": [],
+  "selected_features": [
+    "bafta_original_screenplay_nominee",
+    "bafta_original_screenplay_winner",
+    "golden_globes_original_screenplay_nominee",
+    "golden_globes_original_screenplay_winner",
+    "writing_noms",
+    "sundance_grand_jury",
+    "cannes_grand_prix",
+    "rated_G",
+    "editing_nom",
+    "genre_war",
+    "genre_animation",
+    "nominee_previous_noms_max",
+    "nominee_previous_noms_avg",
+    "directing_nom",
+    "runtime"
+  ]
+}

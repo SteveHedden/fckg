@@ -1,0 +1,21 @@
+{
+  "category": "original_song",
+  "award_system": "oscars",
+  "train_end_year": 2025,
+  "n_candidates": 79,
+  "n_ceremonies": 91,
+  "feature_cap": 18,
+  "conceptual_reduction": true,
+  "tier1_forced_precursors": [
+    "golden_globes_original_song_nominee",
+    "golden_globes_original_song_winner"
+  ],
+  "generic_precursor_nominees_excluded": [],
+  "selected_features": [
+    "golden_globes_original_song_nominee",
+    "golden_globes_original_song_winner",
+    "genre_horror",
+    "globe_winner",
+    "genre_science_fiction"
+  ]
+}

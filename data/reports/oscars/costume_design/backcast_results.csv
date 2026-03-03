@@ -1,0 +1,49 @@
+year_film,nominee_label,winner,prob,rank,top_pick,actual_winner,winner_rank,correct
+2016,Mary Zophres (La La Land),False,0.6773,1,Mary Zophres (La La Land),Colleen Atwood (Fantastic Beasts and Where to Find Them),3,False
+2016,Madeline Fontaine (Jackie),False,0.4757,2,Mary Zophres (La La Land),Colleen Atwood (Fantastic Beasts and Where to Find Them),3,False
+2016,Colleen Atwood (Fantastic Beasts and Where to Find Them),True,0.4425,3,Mary Zophres (La La Land),Colleen Atwood (Fantastic Beasts and Where to Find Them),3,False
+2016,Consolata Boyle (Florence Foster Jenkins),False,0.4286,4,Mary Zophres (La La Land),Colleen Atwood (Fantastic Beasts and Where to Find Them),3,False
+2016,Joanna Johnston (Allied),False,0.3469,5,Mary Zophres (La La Land),Colleen Atwood (Fantastic Beasts and Where to Find Them),3,False
+2017,Luis Sequeira (The Shape of Water),False,0.6648,1,Luis Sequeira (The Shape of Water),Mark Bridges (Phantom Thread),2,False
+2017,Mark Bridges (Phantom Thread),True,0.5988,2,Luis Sequeira (The Shape of Water),Mark Bridges (Phantom Thread),2,False
+2017,Jacqueline Durran (Beauty and the Beast),False,0.4529,3,Luis Sequeira (The Shape of Water),Mark Bridges (Phantom Thread),2,False
+2017,Consolata Boyle (Victoria & Abdul),False,0.4183,4,Luis Sequeira (The Shape of Water),Mark Bridges (Phantom Thread),2,False
+2018,Sandy Powell (Mary Poppins Returns),False,0.4885,1,Sandy Powell (Mary Poppins Returns),Ruth Carter (Black Panther),2,False
+2018,Ruth Carter (Black Panther),True,0.4754,2,Sandy Powell (Mary Poppins Returns),Ruth Carter (Black Panther),2,False
+2018,Alexandra Byrne (Mary Queen of Scots),False,0.4414,3,Sandy Powell (Mary Poppins Returns),Ruth Carter (Black Panther),2,False
+2018,Mary Zophres (The Ballad of Buster Scruggs),False,0.3273,4,Sandy Powell (Mary Poppins Returns),Ruth Carter (Black Panther),2,False
+2019,Christopher Peterson (The Irishman),False,0.5975,1,Christopher Peterson (The Irishman),Jacqueline Durran (Little Women),3,False
+2019,Sandy Powell (The Irishman),False,0.5975,2,Christopher Peterson (The Irishman),Jacqueline Durran (Little Women),3,False
+2019,Jacqueline Durran (Little Women),True,0.5788,3,Christopher Peterson (The Irishman),Jacqueline Durran (Little Women),3,False
+2019,Mark Bridges (Joker),False,0.5242,4,Christopher Peterson (The Irishman),Jacqueline Durran (Little Women),3,False
+2019,Arianne Phillips (Once upon a Time...in Hollywood),False,0.516,5,Christopher Peterson (The Irishman),Jacqueline Durran (Little Women),3,False
+2019,Mayes C. Rubeo (Jojo Rabbit),False,0.4337,6,Christopher Peterson (The Irishman),Jacqueline Durran (Little Women),3,False
+2020,Trish Summerville (Mank),False,0.6521,1,Trish Summerville (Mank),Ann Roth (Ma Rainey's Black Bottom),2,False
+2020,Ann Roth (Ma Rainey's Black Bottom),True,0.5499,2,Trish Summerville (Mank),Ann Roth (Ma Rainey's Black Bottom),2,False
+2020,Alexandra Byrne (Emma),False,0.4346,3,Trish Summerville (Mank),Ann Roth (Ma Rainey's Black Bottom),2,False
+2020,Bina Daigeler (Mulan),False,0.3746,4,Trish Summerville (Mank),Ann Roth (Ma Rainey's Black Bottom),2,False
+2020,Massimo Cantini Parrini (Pinocchio),False,0.3738,5,Trish Summerville (Mank),Ann Roth (Ma Rainey's Black Bottom),2,False
+2021,Paul Tazewell (West Side Story),False,0.5898,1,Paul Tazewell (West Side Story),Jenny Beavan (Cruella),4,False
+2021,Jacqueline West (Dune),False,0.5794,2,Paul Tazewell (West Side Story),Jenny Beavan (Cruella),4,False
+2021,Robert Morgan (Dune),False,0.5794,3,Paul Tazewell (West Side Story),Jenny Beavan (Cruella),4,False
+2021,Jenny Beavan (Cruella),True,0.5338,4,Paul Tazewell (West Side Story),Jenny Beavan (Cruella),4,False
+2021,Luis Sequeira (Nightmare Alley),False,0.401,5,Paul Tazewell (West Side Story),Jenny Beavan (Cruella),4,False
+2021,Massimo Cantini Parrini (Cyrano),False,0.3972,6,Paul Tazewell (West Side Story),Jenny Beavan (Cruella),4,False
+2021,Jacqueline Durran (Cyrano),False,0.3799,7,Paul Tazewell (West Side Story),Jenny Beavan (Cruella),4,False
+2022,Catherine Martin (Elvis),False,0.6761,1,Catherine Martin (Elvis),Ruth Carter (Black Panther: Wakanda Forever),4,False
+2022,Shirley Kurata (Everything Everywhere All at Once),False,0.471,2,Catherine Martin (Elvis),Ruth Carter (Black Panther: Wakanda Forever),4,False
+2022,Mary Zophres (Babylon),False,0.4228,3,Catherine Martin (Elvis),Ruth Carter (Black Panther: Wakanda Forever),4,False
+2022,Ruth Carter (Black Panther: Wakanda Forever),True,0.4059,4,Catherine Martin (Elvis),Ruth Carter (Black Panther: Wakanda Forever),4,False
+2022,Jenny Beavan (Mrs. Harris Goes to Paris),False,0.3994,5,Catherine Martin (Elvis),Ruth Carter (Black Panther: Wakanda Forever),4,False
+2023,Holly Waddington (Poor Things),True,0.6817,1,Holly Waddington (Poor Things),Holly Waddington (Poor Things),1,True
+2023,Ellen Mirojnick (Oppenheimer),False,0.6321,2,Holly Waddington (Poor Things),Holly Waddington (Poor Things),1,True
+2023,Jacqueline West (Killers of the Flower Moon),False,0.5452,3,Holly Waddington (Poor Things),Holly Waddington (Poor Things),1,True
+2023,Dave Crossman (Napoleon),False,0.4973,4,Holly Waddington (Poor Things),Holly Waddington (Poor Things),1,True
+2023,Janty Yates (Napoleon),False,0.4973,5,Holly Waddington (Poor Things),Holly Waddington (Poor Things),1,True
+2023,Jacqueline Durran (Barbie),False,0.3855,6,Holly Waddington (Poor Things),Holly Waddington (Poor Things),1,True
+2024,Paul Tazewell (Wicked),True,0.6207,1,Paul Tazewell (Wicked),Paul Tazewell (Wicked),1,True
+2024,Linda Muir (Nosferatu),False,0.4827,2,Paul Tazewell (Wicked),Paul Tazewell (Wicked),1,True
+2024,Arianne Phillips (A Complete Unknown),False,0.426,3,Paul Tazewell (Wicked),Paul Tazewell (Wicked),1,True
+2024,Lisy Christl (Conclave),False,0.3724,4,Paul Tazewell (Wicked),Paul Tazewell (Wicked),1,True
+2024,Dave Crossman (Gladiator II),False,0.3597,5,Paul Tazewell (Wicked),Paul Tazewell (Wicked),1,True
+2024,Janty Yates (Gladiator II),False,0.3597,6,Paul Tazewell (Wicked),Paul Tazewell (Wicked),1,True

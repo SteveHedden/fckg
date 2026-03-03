@@ -1,0 +1,84 @@
+year_film,nominee_label,winner,prob,rank,top_pick,actual_winner,winner_rank,correct
+2016,La La Land,False,0.73,1,La La Land,Moonlight,3,False
+2016,Hacksaw Ridge,False,0.4295,2,La La Land,Moonlight,3,False
+2016,Moonlight,True,0.4198,3,La La Land,Moonlight,3,False
+2016,Manchester by the Sea,False,0.4145,4,La La Land,Moonlight,3,False
+2016,Arrival,False,0.3738,5,La La Land,Moonlight,3,False
+2016,Hell or High Water,False,0.3673,6,La La Land,Moonlight,3,False
+2016,Lion,False,0.3623,7,La La Land,Moonlight,3,False
+2016,Hidden Figures,False,0.3606,8,La La Land,Moonlight,3,False
+2016,Fences,False,0.3368,9,La La Land,Moonlight,3,False
+2017,The Shape of Water,True,0.7274,1,The Shape of Water,The Shape of Water,1,True
+2017,Get Out,False,0.4305,2,The Shape of Water,The Shape of Water,1,True
+2017,Dunkirk,False,0.4195,3,The Shape of Water,The Shape of Water,1,True
+2017,Phantom Thread,False,0.4195,4,The Shape of Water,The Shape of Water,1,True
+2017,Lady Bird,False,0.3994,5,The Shape of Water,The Shape of Water,1,True
+2017,Call Me by Your Name,False,0.3675,6,The Shape of Water,The Shape of Water,1,True
+2017,"Three Billboards outside Ebbing, Missouri",False,0.3643,7,The Shape of Water,The Shape of Water,1,True
+2017,Darkest Hour,False,0.3398,8,The Shape of Water,The Shape of Water,1,True
+2017,The Post,False,0.3131,9,The Shape of Water,The Shape of Water,1,True
+2018,Roma,False,0.6113,1,Roma,Green Book,2,False
+2018,Green Book,True,0.4828,2,Roma,Green Book,2,False
+2018,The Favourite,False,0.4281,3,Roma,Green Book,2,False
+2018,BlacKkKlansman,False,0.4246,4,Roma,Green Book,2,False
+2018,Vice,False,0.4175,5,Roma,Green Book,2,False
+2018,A Star Is Born,False,0.3577,6,Roma,Green Book,2,False
+2018,Bohemian Rhapsody,False,0.3577,7,Roma,Green Book,2,False
+2018,Black Panther,False,0.3157,8,Roma,Green Book,2,False
+2019,1917,False,0.7298,1,1917,Parasite,2,False
+2019,Parasite,True,0.4312,2,1917,Parasite,2,False
+2019,Once upon a Time...in Hollywood,False,0.4078,3,1917,Parasite,2,False
+2019,Joker,False,0.4069,4,1917,Parasite,2,False
+2019,The Irishman,False,0.3786,5,1917,Parasite,2,False
+2019,Jojo Rabbit,False,0.3701,6,1917,Parasite,2,False
+2019,Little Women,False,0.3674,7,1917,Parasite,2,False
+2019,Ford v Ferrari,False,0.3665,8,1917,Parasite,2,False
+2019,Marriage Story,False,0.3612,9,1917,Parasite,2,False
+2020,Nomadland,True,0.7169,1,Nomadland,Nomadland,1,True
+2020,Minari,False,0.4343,2,Nomadland,Nomadland,1,True
+2020,Promising Young Woman,False,0.4343,3,Nomadland,Nomadland,1,True
+2020,Mank,False,0.4221,4,Nomadland,Nomadland,1,True
+2020,Sound of Metal,False,0.3732,5,Nomadland,Nomadland,1,True
+2020,Judas and the Black Messiah,False,0.3722,6,Nomadland,Nomadland,1,True
+2020,The Trial of the Chicago 7,False,0.3645,7,Nomadland,Nomadland,1,True
+2020,The Father,False,0.3636,8,Nomadland,Nomadland,1,True
+2021,The Power of the Dog,False,0.6167,1,The Power of the Dog,CODA,2,False
+2021,CODA,True,0.4958,2,The Power of the Dog,CODA,2,False
+2021,Drive My Car,False,0.4324,3,The Power of the Dog,CODA,2,False
+2021,Belfast,False,0.421,4,The Power of the Dog,CODA,2,False
+2021,Licorice Pizza,False,0.4172,5,The Power of the Dog,CODA,2,False
+2021,King Richard,False,0.3657,6,The Power of the Dog,CODA,2,False
+2021,West Side Story,False,0.3615,7,The Power of the Dog,CODA,2,False
+2021,Nightmare Alley,False,0.3442,8,The Power of the Dog,CODA,2,False
+2021,Dune,False,0.3142,9,The Power of the Dog,CODA,2,False
+2021,Don't Look Up,False,0.305,10,The Power of the Dog,CODA,2,False
+2022,Everything Everywhere All at Once,True,0.6932,1,Everything Everywhere All at Once,Everything Everywhere All at Once,1,True
+2022,Triangle of Sadness,False,0.4317,2,Everything Everywhere All at Once,Everything Everywhere All at Once,1,True
+2022,Tár,False,0.4266,3,Everything Everywhere All at Once,Everything Everywhere All at Once,1,True
+2022,The Banshees of Inisherin,False,0.4156,4,Everything Everywhere All at Once,Everything Everywhere All at Once,1,True
+2022,All Quiet on the Western Front,False,0.374,5,Everything Everywhere All at Once,Everything Everywhere All at Once,1,True
+2022,Elvis,False,0.3615,6,Everything Everywhere All at Once,Everything Everywhere All at Once,1,True
+2022,Top Gun: Maverick,False,0.3596,7,Everything Everywhere All at Once,Everything Everywhere All at Once,1,True
+2022,The Fabelmans,False,0.3523,8,Everything Everywhere All at Once,Everything Everywhere All at Once,1,True
+2022,Women Talking,False,0.3474,9,Everything Everywhere All at Once,Everything Everywhere All at Once,1,True
+2022,Avatar: The Way of Water,False,0.3041,10,Everything Everywhere All at Once,Everything Everywhere All at Once,1,True
+2023,Oppenheimer,True,0.7228,1,Oppenheimer,Oppenheimer,1,True
+2023,Anatomy of a Fall,False,0.4311,2,Oppenheimer,Oppenheimer,1,True
+2023,The Zone of Interest,False,0.4291,3,Oppenheimer,Oppenheimer,1,True
+2023,Poor Things,False,0.3752,4,Oppenheimer,Oppenheimer,1,True
+2023,American Fiction,False,0.3722,5,Oppenheimer,Oppenheimer,1,True
+2023,Past Lives,False,0.3702,6,Oppenheimer,Oppenheimer,1,True
+2023,The Holdovers,False,0.3683,7,Oppenheimer,Oppenheimer,1,True
+2023,Killers of the Flower Moon,False,0.3657,8,Oppenheimer,Oppenheimer,1,True
+2023,Barbie,False,0.3547,9,Oppenheimer,Oppenheimer,1,True
+2023,Maestro,False,0.2878,10,Oppenheimer,Oppenheimer,1,True
+2024,Anora,True,0.7437,1,Anora,Anora,1,True
+2024,The Brutalist,False,0.4292,2,Anora,Anora,1,True
+2024,A Complete Unknown,False,0.4254,3,Anora,Anora,1,True
+2024,Emilia Pérez,False,0.4235,4,Anora,Anora,1,True
+2024,Conclave,False,0.3692,5,Anora,Anora,1,True
+2024,I'm Still Here,False,0.3692,6,Anora,Anora,1,True
+2024,Wicked,False,0.3576,7,Anora,Anora,1,True
+2024,Nickel Boys,False,0.3514,8,Anora,Anora,1,True
+2024,The Substance,False,0.35,9,Anora,Anora,1,True
+2024,Dune: Part Two,False,0.3216,10,Anora,Anora,1,True

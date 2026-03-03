@@ -1,0 +1,26 @@
+{
+  "category": "animated_film",
+  "award_system": "oscars",
+  "train_end_year": 2025,
+  "n_candidates": 81,
+  "n_ceremonies": 24,
+  "feature_cap": 4,
+  "conceptual_reduction": true,
+  "tier1_forced_precursors": [
+    "bafta_animated_film_nominee",
+    "bafta_animated_film_winner",
+    "golden_globes_animated_film_nominee",
+    "golden_globes_animated_film_winner"
+  ],
+  "generic_precursor_nominees_excluded": [],
+  "selected_features": [
+    "bafta_animated_film_nominee",
+    "bafta_animated_film_winner",
+    "golden_globes_animated_film_nominee",
+    "golden_globes_animated_film_winner",
+    "metacritic_score",
+    "globe_winner",
+    "bafta_winner",
+    "vote_count"
+  ]
+}

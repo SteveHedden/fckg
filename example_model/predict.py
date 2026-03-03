@@ -52,8 +52,12 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from features.category_extractor import CategoryExtractor
 from model.category_model import MODEL_TYPES, OscarCategoryModel, _make_estimator
+import numpy as np
+
 from model.visualize import (
+    compute_direction_signs_from_shap,
     compute_shap,
+    plot_feature_importance,
     plot_shap_summary,
     plot_shap_waterfall,
     _safe_stem,
@@ -65,8 +69,6 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 def _resolve_output_dir(category: str, award_system: str, output_dir_arg: str | None) -> Path:
     if output_dir_arg:
         return Path(output_dir_arg)
-    if award_system == "oscars":
-        return PROJECT_ROOT / "data" / "reports" / category
     return PROJECT_ROOT / "data" / "reports" / award_system / category
 
 
@@ -179,8 +181,15 @@ def main() -> None:
 
     pred_df = result.predictions.reset_index(drop=True)
     pred_df["rank"] = pred_df.index + 1
-    total = pred_df["prob"].sum()
-    pred_df["win_pct"] = (pred_df["prob"] / total * 100).round(1) if total > 0 else 0.0
+
+    # Convert independent P(win) estimates to a proper categorical distribution.
+    # Raw sigmoid outputs are independent per-nominee; dividing by their sum
+    # produces a flat distribution.  Instead, invert the sigmoid to recover
+    # logits (shared linear scale), then softmax to get a peaked distribution.
+    raw = np.clip(pred_df["prob"].values, 1e-7, 1 - 1e-7)
+    logits = np.log(raw / (1 - raw))
+    exp_logits = np.exp(logits - logits.max())          # shift for numerical stability
+    pred_df["win_pct"] = (exp_logits / exp_logits.sum() * 100).round(1)
 
     if extractor.row_type == "nominee":
         out_df = pred_df[["candidate_name", "film", "win_pct", "rank"]].copy()
@@ -204,12 +213,51 @@ def main() -> None:
     shap_pipe = Pipeline([
         ("imputer", SimpleImputer(strategy="median")),
         ("scaler", StandardScaler()),
-        ("model", _make_estimator(shap_model_type)),
+        (
+            "model",
+            _make_estimator(
+                shap_model_type,
+                category_name=args.category,
+                features=selected,
+            ),
+        ),
     ])
     X_train = train_df[selected].values
     y_train = train_df["winner"].astype(int).values
     X_test = test_df[selected].values
     shap_pipe.fit(X_train, y_train)
+
+    # ── Feature importance ────────────────────────────────────────────────────
+    if shap_model_type in ("LR", "Ridge", "ConstrainedLR"):
+        # Linear models: sign in the PNG should match actual coefficients.
+        raw_imp = shap_pipe["model"].coef_[0]
+        directions = np.sign(raw_imp)
+    else:
+        raw_imp = shap_pipe["model"].feature_importances_
+        directions = compute_direction_signs_from_shap(shap_pipe, X_train, shap_model_type)
+        if directions is None:
+            pred_prob = shap_pipe.predict_proba(X_train)[:, 1]
+            pred_series = pd.Series(pred_prob)
+            directions = np.array([np.sign(train_df[f].corr(pred_series)) for f in selected])
+            directions = np.nan_to_num(directions, nan=0.0)
+
+    importance_df = pd.DataFrame({
+        "rank": range(1, len(selected) + 1),
+        "feature": selected,
+        "importance": raw_imp,
+    }).reindex(
+        pd.Series(np.abs(raw_imp)).sort_values(ascending=False).index
+    ).reset_index(drop=True)
+    importance_df["rank"] = importance_df.index + 1
+    importance_df.to_csv(output_dir / "feature_importance.csv", index=False)
+
+    plot_feature_importance(
+        selected, raw_imp,
+        output_dir / "feature_importance.png",
+        directions=directions,
+        title=f"Feature Importance — {args.category} ({model_type})",
+    )
+    print("  Wrote: feature_importance.csv + feature_importance.png")
 
     sv, base, X_test_t = compute_shap(shap_pipe, X_train, X_test, shap_model_type)
 

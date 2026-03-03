@@ -1,0 +1,9 @@
+rank,feature,importance
+1,vote_count,0.18401151114513353
+2,bafta_winner,0.1754319844388656
+3,globe_winner,0.1711541303576204
+4,golden_globes_animated_film_winner,0.15664928432607528
+5,bafta_animated_film_winner,0.1535504750740002
+6,metacritic_score,0.13229081999962905
+7,bafta_animated_film_nominee,0.0839848395435573
+8,golden_globes_animated_film_nominee,0.014613133303955333

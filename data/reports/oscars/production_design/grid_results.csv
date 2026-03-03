@@ -1,0 +1,2 @@
+model,auc,top1,top1_pct,top3,top3_pct,avg_rank,n_years,n_features
+ConstrainedLR,0.7839506172839507,4,44.44444444444444,9,100.0,1.8888888888888888,9,21

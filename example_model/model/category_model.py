@@ -8,6 +8,8 @@ from __future__ import annotations
 
 import numpy as np
 import pandas as pd
+from scipy.optimize import minimize
+from sklearn.base import BaseEstimator, ClassifierMixin
 from sklearn.ensemble import GradientBoostingClassifier, RandomForestClassifier
 from sklearn.impute import SimpleImputer
 from sklearn.linear_model import LogisticRegression
@@ -21,7 +23,40 @@ from .evaluation import (
     compute_backtest_metrics,
 )
 
-MODEL_TYPES = ["LR", "Ridge", "RF", "GB", "LR+RF"]
+MODEL_TYPES = ["LR", "Ridge", "ConstrainedLR", "RF", "GB", "LR+RF"]
+
+# Category aliases that emit category-specific precursor columns, mapped to the
+# shared suffix used in column names: <system>_<prefix>_(nominee|winner)
+_CATEGORY_PREFIX_BY_ALIAS: dict[str, str] = {
+    "best_actor": "actor",
+    "best_actress": "actress",
+    "best_supporting_actor": "supporting_actor",
+    "best_supporting_actress": "supporting_actress",
+    "best_director": "director",
+    "best_original_screenplay": "original_screenplay",
+    "best_adapted_screenplay": "adapted_screenplay",
+    "cinematography": "cinematography",
+    "film_editing": "film_editing",
+    "original_score": "original_score",
+    "original_song": "original_song",
+    "production_design": "production_design",
+    "costume_design": "costume_design",
+    "sound": "sound",
+    "visual_effects": "visual_effects",
+    "makeup": "makeup",
+    "international_film": "international_film",
+    "documentary": "documentary",
+    "animated_film": "animated_film",
+}
+
+_PRECURSOR_SYSTEM_PREFIXES: tuple[str, ...] = (
+    "oscars",
+    "bafta",
+    "sag",
+    "golden_globes",
+    "pga",
+    "dga",
+)
 
 # Columns that are identifiers, targets, or free-text — never used as features.
 _DEFAULT_EXCLUDE: frozenset[str] = frozenset({
@@ -35,7 +70,128 @@ _DEFAULT_EXCLUDE: frozenset[str] = frozenset({
 })
 
 
-def _make_estimator(name: str):
+def infer_category_specific_precursor_features(category_name: str, features: list[str]) -> list[str]:
+    alias = str(category_name).strip().lower().replace(" ", "_")
+    prefix = _CATEGORY_PREFIX_BY_ALIAS.get(alias)
+    if not prefix:
+        return []
+
+    expected: set[str] = set()
+    for system in _PRECURSOR_SYSTEM_PREFIXES:
+        expected.add(f"{system}_{prefix}_nominee")
+        expected.add(f"{system}_{prefix}_winner")
+
+    return [f for f in features if f in expected]
+
+
+def constrained_nonnegative_indices(category_name: str, features: list[str]) -> tuple[int, ...]:
+    return tuple(
+        i for i, f in enumerate(features)
+        if f.endswith("_winner") or f.endswith("_nominee")
+    )
+
+
+class ConstrainedLogisticRegression(BaseEstimator, ClassifierMixin):
+    """Binary logistic regression with optional non-negative coefficients."""
+
+    def __init__(
+        self,
+        nonnegative_indices: tuple[int, ...] = (),
+        C: float = 1.0,
+        max_iter: int = 1000,
+        class_weight: str | None = "balanced",
+        random_state: int = 42,
+    ) -> None:
+        self.nonnegative_indices = tuple(nonnegative_indices)
+        self.C = C
+        self.max_iter = max_iter
+        self.class_weight = class_weight
+        self.random_state = random_state
+
+    @staticmethod
+    def _sigmoid(z: np.ndarray) -> np.ndarray:
+        z = np.clip(z, -30.0, 30.0)
+        return 1.0 / (1.0 + np.exp(-z))
+
+    def _compute_weights(self, y: np.ndarray, sample_weight: np.ndarray | None) -> np.ndarray:
+        if sample_weight is None:
+            w = np.ones_like(y, dtype=float)
+        else:
+            w = np.asarray(sample_weight, dtype=float).copy()
+
+        if self.class_weight == "balanced":
+            n = len(y)
+            n_pos = max(int(y.sum()), 1)
+            n_neg = max(int(n - y.sum()), 1)
+            pos_w = n / (2.0 * n_pos)
+            neg_w = n / (2.0 * n_neg)
+            w *= np.where(y == 1, pos_w, neg_w)
+        return w
+
+    def fit(self, X: np.ndarray, y: np.ndarray, sample_weight: np.ndarray | None = None):
+        X = np.asarray(X, dtype=float)
+        y = np.asarray(y, dtype=int)
+        if X.ndim != 2:
+            raise ValueError("X must be 2D")
+        if y.ndim != 1:
+            raise ValueError("y must be 1D")
+        if len(np.unique(y)) < 2:
+            raise ValueError("ConstrainedLR requires both winner and non-winner rows")
+
+        n_features = X.shape[1]
+        weights = self._compute_weights(y, sample_weight)
+        nonnegative = {i for i in self.nonnegative_indices if 0 <= i < n_features}
+        l2 = 1.0 / max(float(self.C), 1e-9)
+
+        def objective(params: np.ndarray) -> float:
+            b0 = params[0]
+            b = params[1:]
+            probs = self._sigmoid(b0 + X @ b)
+            eps = 1e-12
+            nll = -np.mean(weights * (y * np.log(probs + eps) + (1 - y) * np.log(1 - probs + eps)))
+            reg = 0.5 * l2 * float(b @ b)
+            return float(nll + reg)
+
+        x0 = np.zeros(n_features + 1, dtype=float)
+        bounds = [(None, None)]
+        bounds.extend((0.0, None) if i in nonnegative else (None, None) for i in range(n_features))
+
+        res = minimize(
+            objective,
+            x0,
+            method="L-BFGS-B",
+            bounds=bounds,
+            options={"maxiter": int(self.max_iter)},
+        )
+        if not res.success:
+            raise ValueError(f"ConstrainedLR optimization failed: {res.message}")
+
+        self.intercept_ = np.array([float(res.x[0])], dtype=float)
+        self.coef_ = np.asarray(res.x[1:], dtype=float).reshape(1, -1)
+        self.classes_ = np.array([0, 1], dtype=int)
+        self.n_features_in_ = n_features
+        return self
+
+    def decision_function(self, X: np.ndarray) -> np.ndarray:
+        X = np.asarray(X, dtype=float)
+        return self.intercept_[0] + X @ self.coef_[0]
+
+    def predict_proba(self, X: np.ndarray) -> np.ndarray:
+        if not hasattr(self, "coef_"):
+            raise ValueError("ConstrainedLR is not fitted")
+        p1 = self._sigmoid(self.decision_function(X))
+        return np.column_stack([1.0 - p1, p1])
+
+    def predict(self, X: np.ndarray) -> np.ndarray:
+        return (self.predict_proba(X)[:, 1] >= 0.5).astype(int)
+
+
+def _make_estimator(
+    name: str,
+    *,
+    category_name: str | None = None,
+    features: list[str] | None = None,
+):
     """Return a fresh sklearn estimator by short name."""
     if name == "LR":
         return LogisticRegression(random_state=42, max_iter=1000, class_weight="balanced")
@@ -46,6 +202,17 @@ def _make_estimator(name: str):
         return LogisticRegression(
             C=0.1, solver="lbfgs",
             random_state=42, max_iter=1000, class_weight="balanced",
+        )
+    if name == "ConstrainedLR":
+        nonnegative_indices: tuple[int, ...] = ()
+        if category_name and features:
+            nonnegative_indices = constrained_nonnegative_indices(category_name, features)
+        return ConstrainedLogisticRegression(
+            nonnegative_indices=nonnegative_indices,
+            C=1.0,
+            max_iter=1000,
+            class_weight="balanced",
+            random_state=42,
         )
     if name == "RF":
         return RandomForestClassifier(
@@ -74,7 +241,8 @@ class OscarCategoryModel:
           numeric non-excluded columns (default).
         - ``"ALL"`` to use every available numeric non-excluded column.
     model_type : str
-        One of ``"LR"``, ``"RF"``, ``"GB"``, ``"LR+RF"``.
+        One of ``"LR"``, ``"Ridge"``, ``"ConstrainedLR"``, ``"RF"``,
+        ``"GB"``, ``"LR+RF"``.
     label_cols : list[str] or None
         Column(s) used to build display labels in backtest results.
         - ``["film"]``  →  label = row["film"]
@@ -175,7 +343,14 @@ class OscarCategoryModel:
         return Pipeline([
             ("imputer", SimpleImputer(strategy="median")),
             ("scaler", StandardScaler()),
-            ("model", _make_estimator(model_type)),
+            (
+                "model",
+                _make_estimator(
+                    model_type,
+                    category_name=self._category_name,
+                    features=self._features,
+                ),
+            ),
         ])
 
     def _fit_and_predict(
@@ -361,7 +536,7 @@ class OscarCategoryModel:
             rf_imp = rf_pipe["model"].feature_importances_
             importances = (lr_imp + rf_imp) / 2
 
-        elif self._model_type in ("LR", "Ridge"):
+        elif self._model_type in ("LR", "Ridge", "ConstrainedLR"):
             pipe = self._build_pipeline(self._model_type)
             pipe.fit(X, y)
             importances = np.abs(pipe["model"].coef_[0])

@@ -1,0 +1,25 @@
+{
+  "category": "cinematography",
+  "award_system": "oscars",
+  "train_end_year": 2025,
+  "n_candidates": 77,
+  "n_ceremonies": 97,
+  "feature_cap": 19,
+  "conceptual_reduction": true,
+  "tier1_forced_precursors": [
+    "bafta_cinematography_nominee",
+    "bafta_cinematography_winner"
+  ],
+  "generic_precursor_nominees_excluded": [],
+  "selected_features": [
+    "bafta_cinematography_nominee",
+    "bafta_cinematography_winner",
+    "genre_romance",
+    "music_noms",
+    "other_noms",
+    "acting_noms",
+    "nsfc_best_film",
+    "genre_comedy",
+    "genre_documentary"
+  ]
+}

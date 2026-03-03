@@ -1,0 +1,24 @@
+{
+  "category": "film_editing",
+  "award_system": "oscars",
+  "train_end_year": 2025,
+  "n_candidates": 79,
+  "n_ceremonies": 91,
+  "feature_cap": 18,
+  "conceptual_reduction": true,
+  "tier1_forced_precursors": [
+    "bafta_film_editing_nominee",
+    "bafta_film_editing_winner"
+  ],
+  "generic_precursor_nominees_excluded": [],
+  "selected_features": [
+    "bafta_film_editing_nominee",
+    "bafta_film_editing_winner",
+    "other_noms",
+    "acting_noms",
+    "nominee_previous_noms_sum",
+    "nominee_previous_noms_max",
+    "english_language",
+    "dga_winner"
+  ]
+}

@@ -1,0 +1,9 @@
+Category: original_score
+Award system: oscars
+Winning model: ConstrainedLR
+Features (14): ['bafta_original_score_nominee', 'bafta_original_score_winner', 'golden_globes_original_score_nominee', 'golden_globes_original_score_winner', 'writing_noms', 'previous_all_nominations', 'previous_original_score_nominations', 'directing_nom', 'imdb_rating', 'genre_thriller', 'editing_nom', 'genre_action', 'genre_music', 'globe_winner']
+Years: 2016–2025  (n=9)
+AUC: 0.8852
+top1: 7 (77.8%)
+top3: 7 (77.8%)
+avg_rank: 1.7778

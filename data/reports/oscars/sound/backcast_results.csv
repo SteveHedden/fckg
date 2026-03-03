@@ -1,0 +1,50 @@
+year_film,nominee_label,winner,prob,rank,top_pick,actual_winner,winner_rank,correct
+2016,Arrival,True,0.6944,1,Arrival,Arrival,1,True
+2016,La La Land,False,0.6509,2,Arrival,Arrival,1,True
+2016,Hacksaw Ridge,True,0.6016,3,Arrival,Arrival,1,True
+2016,Deepwater Horizon,False,0.482,4,Arrival,Arrival,1,True
+2016,Rogue One: A Star Wars Story,False,0.4325,5,Arrival,Arrival,1,True
+2016,Sully,False,0.4135,6,Arrival,Arrival,1,True
+2016,13 Hours: The Secret Soldiers of Benghazi,False,0.4107,7,Arrival,Arrival,1,True
+2017,Dunkirk,True,0.7646,1,Dunkirk,Dunkirk,1,True
+2017,The Shape of Water,False,0.6313,2,Dunkirk,Dunkirk,1,True
+2017,Baby Driver,False,0.561,3,Dunkirk,Dunkirk,1,True
+2017,Blade Runner 2049,False,0.5297,4,Dunkirk,Dunkirk,1,True
+2017,Star Wars: The Last Jedi,False,0.4873,5,Dunkirk,Dunkirk,1,True
+2018,Bohemian Rhapsody,True,0.6737,1,Bohemian Rhapsody,Bohemian Rhapsody,1,True
+2018,A Star Is Born,False,0.537,2,Bohemian Rhapsody,Bohemian Rhapsody,1,True
+2018,First Man,False,0.4971,3,Bohemian Rhapsody,Bohemian Rhapsody,1,True
+2018,A Quiet Place,False,0.4795,4,Bohemian Rhapsody,Bohemian Rhapsody,1,True
+2018,Black Panther,False,0.4548,5,Bohemian Rhapsody,Bohemian Rhapsody,1,True
+2018,Roma,False,0.4229,6,Bohemian Rhapsody,Bohemian Rhapsody,1,True
+2019,Ford v Ferrari,True,0.6698,1,Ford v Ferrari,Ford v Ferrari,1,True
+2019,1917,True,0.6612,2,Ford v Ferrari,Ford v Ferrari,1,True
+2019,Joker,False,0.6365,3,Ford v Ferrari,Ford v Ferrari,1,True
+2019,Once upon a Time...in Hollywood,False,0.485,4,Ford v Ferrari,Ford v Ferrari,1,True
+2019,Star Wars: The Rise of Skywalker,False,0.4603,5,Ford v Ferrari,Ford v Ferrari,1,True
+2019,Ad Astra,False,0.3859,6,Ford v Ferrari,Ford v Ferrari,1,True
+2020,Sound of Metal,True,0.6776,1,Sound of Metal,Sound of Metal,1,True
+2020,Soul,False,0.5057,2,Sound of Metal,Sound of Metal,1,True
+2020,News of the World,False,0.4779,3,Sound of Metal,Sound of Metal,1,True
+2020,Greyhound,False,0.4612,4,Sound of Metal,Sound of Metal,1,True
+2020,Mank,False,0.4595,5,Sound of Metal,Sound of Metal,1,True
+2021,Dune,True,0.7118,1,Dune,Dune,1,True
+2021,The Power of the Dog,False,0.5297,2,Dune,Dune,1,True
+2021,West Side Story,False,0.5065,3,Dune,Dune,1,True
+2021,No Time to Die,False,0.4822,4,Dune,Dune,1,True
+2021,Belfast,False,0.4476,5,Dune,Dune,1,True
+2022,Top Gun: Maverick,True,0.5933,1,Top Gun: Maverick,Top Gun: Maverick,1,True
+2022,Elvis,False,0.5815,2,Top Gun: Maverick,Top Gun: Maverick,1,True
+2022,All Quiet on the Western Front,False,0.5759,3,Top Gun: Maverick,Top Gun: Maverick,1,True
+2022,Avatar: The Way of Water,False,0.4939,4,Top Gun: Maverick,Top Gun: Maverick,1,True
+2022,The Batman,False,0.4347,5,Top Gun: Maverick,Top Gun: Maverick,1,True
+2023,Oppenheimer,False,0.6423,1,Oppenheimer,The Zone of Interest,2,False
+2023,The Zone of Interest,True,0.5969,2,Oppenheimer,The Zone of Interest,2,False
+2023,Maestro,False,0.4846,3,Oppenheimer,The Zone of Interest,2,False
+2023,Mission: Impossible - Dead Reckoning Part One,False,0.4809,4,Oppenheimer,The Zone of Interest,2,False
+2023,The Creator,False,0.395,5,Oppenheimer,The Zone of Interest,2,False
+2024,Dune: Part Two,True,0.6308,1,Dune: Part Two,Dune: Part Two,1,True
+2024,Wicked,False,0.5956,2,Dune: Part Two,Dune: Part Two,1,True
+2024,Emilia Pérez,False,0.5238,3,Dune: Part Two,Dune: Part Two,1,True
+2024,A Complete Unknown,False,0.456,4,Dune: Part Two,Dune: Part Two,1,True
+2024,The Wild Robot,False,0.4469,5,Dune: Part Two,Dune: Part Two,1,True

@@ -1,0 +1,50 @@
+year_film,nominee_label,winner,prob,rank,top_pick,actual_winner,winner_rank,correct
+2016,Justin Hurwitz (La La Land),True,0.789,1,Justin Hurwitz (La La Land),Justin Hurwitz (La La Land),1,True
+2016,Nicholas Britell (Moonlight),False,0.6419,2,Justin Hurwitz (La La Land),Justin Hurwitz (La La Land),1,True
+2016,Dustin O'Halloran (Lion),False,0.483,3,Justin Hurwitz (La La Land),Justin Hurwitz (La La Land),1,True
+2016,Hauschka (Lion),False,0.483,4,Justin Hurwitz (La La Land),Justin Hurwitz (La La Land),1,True
+2016,Mica Levi (Jackie),False,0.4118,5,Justin Hurwitz (La La Land),Justin Hurwitz (La La Land),1,True
+2016,Thomas Newman (Passengers),False,0.3896,6,Justin Hurwitz (La La Land),Justin Hurwitz (La La Land),1,True
+2017,Alexandre Desplat (The Shape of Water),True,0.771,1,Alexandre Desplat (The Shape of Water),Alexandre Desplat (The Shape of Water),1,True
+2017,Hans Zimmer (Dunkirk),False,0.5608,2,Alexandre Desplat (The Shape of Water),Alexandre Desplat (The Shape of Water),1,True
+2017,Jonny Greenwood (Phantom Thread),False,0.5326,3,Alexandre Desplat (The Shape of Water),Alexandre Desplat (The Shape of Water),1,True
+2017,"Carter Burwell (Three Billboards outside Ebbing, Missouri)",False,0.5088,4,Alexandre Desplat (The Shape of Water),Alexandre Desplat (The Shape of Water),1,True
+2017,John Williams (Star Wars: The Last Jedi),False,0.3136,5,Alexandre Desplat (The Shape of Water),Alexandre Desplat (The Shape of Water),1,True
+2018,Terence Blanchard (BlacKkKlansman),False,0.5887,1,Terence Blanchard (BlacKkKlansman),Ludwig Goransson (Black Panther),5,False
+2018,Nicholas Britell (If Beale Street Could Talk),False,0.4807,2,Terence Blanchard (BlacKkKlansman),Ludwig Goransson (Black Panther),5,False
+2018,Alexandre Desplat (Isle of Dogs),False,0.4495,3,Terence Blanchard (BlacKkKlansman),Ludwig Goransson (Black Panther),5,False
+2018,Marc Shaiman (Mary Poppins Returns),False,0.4274,4,Terence Blanchard (BlacKkKlansman),Ludwig Goransson (Black Panther),5,False
+2018,Ludwig Goransson (Black Panther),True,0.393,5,Terence Blanchard (BlacKkKlansman),Ludwig Goransson (Black Panther),5,False
+2019,Hildur Guðnadóttir (Joker),True,0.7695,1,Hildur Guðnadóttir (Joker),Hildur Guðnadóttir (Joker),1,True
+2019,Thomas Newman (1917),False,0.5604,2,Hildur Guðnadóttir (Joker),Hildur Guðnadóttir (Joker),1,True
+2019,Randy Newman (Marriage Story),False,0.4933,3,Hildur Guðnadóttir (Joker),Hildur Guðnadóttir (Joker),1,True
+2019,Alexandre Desplat (Little Women),False,0.4583,4,Hildur Guðnadóttir (Joker),Hildur Guðnadóttir (Joker),1,True
+2019,John Williams (Star Wars: The Rise of Skywalker),False,0.3182,5,Hildur Guðnadóttir (Joker),Hildur Guðnadóttir (Joker),1,True
+2020,Jon Batiste (Soul),True,0.7024,1,Jon Batiste (Soul),Jon Batiste (Soul),1,True
+2020,Atticus Ross (Soul),True,0.7012,2,Jon Batiste (Soul),Jon Batiste (Soul),1,True
+2020,Trent Reznor (Soul),True,0.7012,3,Jon Batiste (Soul),Jon Batiste (Soul),1,True
+2020,Emile Mosseri (Minari),False,0.5621,4,Jon Batiste (Soul),Jon Batiste (Soul),1,True
+2020,James Newton Howard (News of the World),False,0.4223,5,Jon Batiste (Soul),Jon Batiste (Soul),1,True
+2020,Terence Blanchard (Da 5 Bloods),False,0.3891,6,Jon Batiste (Soul),Jon Batiste (Soul),1,True
+2021,Hans Zimmer (Dune),True,0.7311,1,Hans Zimmer (Dune),Hans Zimmer (Dune),1,True
+2021,Jonny Greenwood (The Power of the Dog),False,0.6306,2,Hans Zimmer (Dune),Hans Zimmer (Dune),1,True
+2021,Nicholas Britell (Don't Look Up),False,0.4891,3,Hans Zimmer (Dune),Hans Zimmer (Dune),1,True
+2021,Germaine Franco (Encanto),False,0.4784,4,Hans Zimmer (Dune),Hans Zimmer (Dune),1,True
+2021,Alberto Iglesias (Parallel Mothers),False,0.4224,5,Hans Zimmer (Dune),Hans Zimmer (Dune),1,True
+2022,Carter Burwell (The Banshees of Inisherin),False,0.6462,1,Carter Burwell (The Banshees of Inisherin),Volker Bertelmann (All Quiet on the Western Front),4,False
+2022,Son Lux (Everything Everywhere All at Once),False,0.5976,2,Carter Burwell (The Banshees of Inisherin),Volker Bertelmann (All Quiet on the Western Front),4,False
+2022,Justin Hurwitz (Babylon),False,0.5932,3,Carter Burwell (The Banshees of Inisherin),Volker Bertelmann (All Quiet on the Western Front),4,False
+2022,Volker Bertelmann (All Quiet on the Western Front),True,0.5131,4,Carter Burwell (The Banshees of Inisherin),Volker Bertelmann (All Quiet on the Western Front),4,False
+2022,John Williams (The Fabelmans),False,0.5087,5,Carter Burwell (The Banshees of Inisherin),Volker Bertelmann (All Quiet on the Western Front),4,False
+2023,Ludwig Göransson (Oppenheimer),True,0.8017,1,Ludwig Göransson (Oppenheimer),Ludwig Göransson (Oppenheimer),1,True
+2023,Jerskin Fendrix (Poor Things),False,0.6495,2,Ludwig Göransson (Oppenheimer),Ludwig Göransson (Oppenheimer),1,True
+2023,Robbie Robertson (Killers of the Flower Moon),False,0.6312,3,Ludwig Göransson (Oppenheimer),Ludwig Göransson (Oppenheimer),1,True
+2023,Laura Karpman (American Fiction),False,0.4248,4,Ludwig Göransson (Oppenheimer),Ludwig Göransson (Oppenheimer),1,True
+2023,John Williams (Indiana Jones and the Dial of Destiny),False,0.2971,5,Ludwig Göransson (Oppenheimer),Ludwig Göransson (Oppenheimer),1,True
+2024,Daniel Blumberg (The Brutalist),True,0.7034,1,Daniel Blumberg (The Brutalist),Daniel Blumberg (The Brutalist),1,True
+2024,Camille (Emilia Pérez),False,0.5521,2,Daniel Blumberg (The Brutalist),Daniel Blumberg (The Brutalist),1,True
+2024,Clément Ducol (Emilia Pérez),False,0.5521,3,Daniel Blumberg (The Brutalist),Daniel Blumberg (The Brutalist),1,True
+2024,Volker Bertelmann (Conclave),False,0.5318,4,Daniel Blumberg (The Brutalist),Daniel Blumberg (The Brutalist),1,True
+2024,John Powell (Wicked),False,0.473,5,Daniel Blumberg (The Brutalist),Daniel Blumberg (The Brutalist),1,True
+2024,Stephen Schwartz (Wicked),False,0.4681,6,Daniel Blumberg (The Brutalist),Daniel Blumberg (The Brutalist),1,True
+2024,Kris Bowers (The Wild Robot),False,0.4648,7,Daniel Blumberg (The Brutalist),Daniel Blumberg (The Brutalist),1,True

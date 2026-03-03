@@ -1,0 +1,16 @@
+rank,feature,importance
+1,directing_nom,0.13696007824097045
+2,golden_globes_original_screenplay_winner,0.09965941227832244
+3,editing_nom,0.0972190739354986
+4,writing_noms,0.08820699470062619
+5,golden_globes_original_screenplay_nominee,0.0775310229384443
+6,bafta_original_screenplay_winner,0.06998386639296203
+7,genre_war,-0.03995723805330853
+8,nominee_previous_noms_max,-0.030206203145027907
+9,bafta_original_screenplay_nominee,0.02904451973006745
+10,genre_animation,-0.026028500152816214
+11,nominee_previous_noms_avg,-0.025289303140260788
+12,rated_G,-0.019733866958260727
+13,cannes_grand_prix,-0.018914909445846007
+14,sundance_grand_jury,-0.018548572567277377
+15,runtime,-0.015261859554068067

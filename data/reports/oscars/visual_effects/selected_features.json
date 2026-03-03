@@ -1,0 +1,30 @@
+{
+  "category": "visual_effects",
+  "award_system": "oscars",
+  "train_end_year": 2025,
+  "n_candidates": 79,
+  "n_ceremonies": 60,
+  "feature_cap": 12,
+  "conceptual_reduction": true,
+  "tier1_forced_precursors": [
+    "bafta_visual_effects_nominee",
+    "bafta_visual_effects_winner"
+  ],
+  "generic_precursor_nominees_excluded": [],
+  "selected_features": [
+    "bafta_visual_effects_nominee",
+    "bafta_visual_effects_winner",
+    "bafta_winner",
+    "acting_noms",
+    "cinematography_nom",
+    "technical_noms",
+    "rotten_tomatoes_pct",
+    "metacritic_score",
+    "budget_revenue_ratio",
+    "rated_PG",
+    "rated_G",
+    "genre_adventure",
+    "genre_crime",
+    "genre_war"
+  ]
+}

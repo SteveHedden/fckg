@@ -24,14 +24,13 @@ Usage
 
 Flags
 ─────
-  --conceptual   Enable concept-aware feature reduction before RFECV.
-                 Within each conceptual group (financial scale, critical
-                 reception, audience rating, etc.) only the single best-
-                 performing feature is kept, preventing the model from
-                 double-counting the same underlying signal.  Precursor
-                 award nominee/winner pairs are also auto-detected and
-                 reduced to the winner column.  Recommended for producing
-                 explainable, non-redundant feature sets.
+  --no-conceptual
+                 Disable concept-aware feature reduction before RFECV.
+                 By default, conceptual reduction is enabled: within each
+                 conceptual group (financial scale, critical reception,
+                 audience rating, etc.) only the single best-performing
+                 feature is kept, and precursor nominee/winner pairs are
+                 reduced to the winner column.
 
 Supported categories (oscars)
 ──────────────────────────────
@@ -63,7 +62,11 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from features.category_extractor import CategoryExtractor
 from features.feature_groups import reduce_to_group_representatives
-from model.category_model import OscarCategoryModel, _DEFAULT_EXCLUDE
+from model.category_model import (
+    OscarCategoryModel,
+    _DEFAULT_EXCLUDE,
+    infer_category_specific_precursor_features,
+)
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
@@ -107,13 +110,12 @@ def main() -> None:
         ),
     )
     parser.add_argument(
-        "--conceptual", action="store_true",
+        "--no-conceptual", action="store_true",
         help=(
-            "Enable concept-aware feature reduction before RFECV. "
-            "Keeps one representative per conceptual group (financial, "
-            "critical reception, etc.) and collapses precursor nominee/"
-            "winner pairs to the winner column. Produces more explainable "
-            "feature sets."
+            "Disable concept-aware feature reduction before RFECV. "
+            "By default, keeps one representative per conceptual group "
+            "(financial, critical reception, etc.) and collapses precursor "
+            "nominee/winner pairs to the winner column."
         ),
     )
     args = parser.parse_args()
@@ -148,6 +150,7 @@ def main() -> None:
         c for c in train_df.columns
         if c not in _DEFAULT_EXCLUDE and pd.api.types.is_numeric_dtype(train_df[c])
     ]
+    forced_category_precursors: list[str] = []
 
     # For SAG categories, Oscar winner columns are future leakage — the Oscars
     # happen weeks after the SAG ceremony, so the winner cannot be known at
@@ -161,7 +164,16 @@ def main() -> None:
                   f"(future leakage for SAG): {leaky}")
             candidate_cols = [c for c in candidate_cols if c not in leaky]
 
-    if args.conceptual:
+    forced_category_precursors = infer_category_specific_precursor_features(
+        args.category, candidate_cols
+    )
+    if forced_category_precursors:
+        print(
+            f"  Forcing {len(forced_category_precursors)} category-specific "
+            f"precursor feature(s): {forced_category_precursors}"
+        )
+
+    if not args.no_conceptual:
         print("\nApplying conceptual feature grouping ...")
         report = reduce_to_group_representatives(
             train_df, candidate_cols, category=args.category
@@ -173,38 +185,89 @@ def main() -> None:
         rfecv_df = train_df
         rfecv_cols = candidate_cols   # RFECV will see all candidates
 
-    # ── 3. Run RFECV ──────────────────────────────────────────────────────────
-    print(f"\nRunning RFECV on {len(rfecv_cols)} features (this may take a minute) ...")
-    try:
-        model = OscarCategoryModel(
-            rfecv_df,
-            category_name=args.category,
-            features="RFECV",
-            model_type="LR",
-            label_cols=extractor.label_cols,
-        )
-    except ValueError as exc:
-        print(f"Error: RFECV failed: {exc}", file=sys.stderr)
-        sys.exit(1)
+    if forced_category_precursors:
+        missing_forced = [c for c in forced_category_precursors if c not in rfecv_cols]
+        if missing_forced:
+            print(
+                f"  Restoring {len(missing_forced)} forced precursor feature(s) "
+                f"after conceptual grouping: {missing_forced}"
+            )
+        rfecv_cols = list(dict.fromkeys([*rfecv_cols, *forced_category_precursors]))
+        rfecv_df = train_df[list({*rfecv_cols, "winner", "year_film"})].copy()
 
-    selected = model.features
+    # ── 3. Three-tier precursor handling ─────────────────────────────────────
+    #
+    # Tier 1 — Category-specific precursors (from infer_category_specific_
+    #          precursor_features): always forced, bypass RFECV.
+    # Tier 2 — Generic *_winner flags NOT in Tier 1: go through RFECV so the
+    #          model decides whether they add value.  Generic *_nominee flags
+    #          are excluded entirely (weak/noisy signal).
+    # Tier 3 — Everything else: goes through RFECV as normal.
+    #
+    # RFECV pool = Tier 2 + Tier 3.
+    tier1_feats = [c for c in forced_category_precursors if c in rfecv_cols]
+    tier1_set = set(tier1_feats)
+
+    generic_nominee_excluded = [
+        c for c in rfecv_cols
+        if c.endswith("_nominee") and c not in tier1_set
+    ]
+    generic_nominee_set = set(generic_nominee_excluded)
+
+    tier2_feats = [
+        c for c in rfecv_cols
+        if c.endswith("_winner") and c not in tier1_set
+    ]
+
+    tier3_feats = [
+        c for c in rfecv_cols
+        if c not in tier1_set
+        and c not in generic_nominee_set
+        and not (c.endswith("_winner") and c not in tier1_set)
+    ]
+
+    rfecv_pool = tier2_feats + tier3_feats
+
+    if tier1_feats:
+        print(f"\n  Tier 1 (forced category-specific, bypass RFECV): {tier1_feats}")
+    if tier2_feats:
+        print(f"  Tier 2 (generic winners, go through RFECV): {tier2_feats}")
+    if generic_nominee_excluded:
+        print(f"  Excluded generic nominees (noisy): {generic_nominee_excluded}")
+
+    print(f"\nRunning RFECV on {len(rfecv_pool)} features "
+          f"(Tier 2 + Tier 3; forcing {len(tier1_feats)} Tier 1 features) ...")
+
+    if rfecv_pool:
+        rfecv_pool_df = train_df[
+            list({*rfecv_pool, "winner", "year_film"})
+        ].copy()
+        try:
+            model = OscarCategoryModel(
+                rfecv_pool_df,
+                category_name=args.category,
+                features="RFECV",
+                model_type="LR",
+                label_cols=extractor.label_cols,
+            )
+            rfecv_selected = model.features
+        except ValueError as exc:
+            print(f"Warning: RFECV failed ({exc}); keeping all pool features.",
+                  file=sys.stderr)
+            rfecv_selected = rfecv_pool
+    else:
+        rfecv_selected = []
 
     # ── 4. Apply EPV-based feature cap ────────────────────────────────────────
-    # Precursor award features (*_winner, *_nominee) are each a distinct expert
-    # signal and are never dropped — Ridge handles any correlation between them.
-    # The EPV cap (n_ceremonies ÷ 5) applies only to generic features (financial,
-    # genre, country, ratings, etc.) where overfitting risk is higher.
+    # Tier 1 (forced) features are always kept in full.
+    # The EPV cap (n_ceremonies ÷ 5) applies only to RFECV-selected features.
     n_ceremonies = int(train_df["year_film"].nunique())
     other_cap = args.max_features if args.max_features is not None else max(3, n_ceremonies // 5)
 
-    precursor_feats = [
-        f for f in selected
-        if f.endswith("_winner") or f.endswith("_nominee")
-    ]
-    other_feats = [f for f in selected if f not in set(precursor_feats)]
+    other_feats = rfecv_selected
 
     print(f"\nFeature cap (EPV≈5, n_ceremonies={n_ceremonies}):")
-    print(f"  Precursor features kept in full ({len(precursor_feats)}): {precursor_feats}")
+    print(f"  Tier 1 features (always kept, {len(tier1_feats)}): {tier1_feats}")
 
     if len(other_feats) > other_cap:
         source = (
@@ -212,38 +275,42 @@ def main() -> None:
             if args.max_features is not None
             else f"n_ceremonies={n_ceremonies} ÷ 5 = {other_cap}"
         )
-        print(f"  Generic features: {len(other_feats)} selected → capping at {other_cap} ({source})")
-        non_precursor_rfecv = [
-            c for c in rfecv_cols
-            if not (c.endswith("_winner") or c.endswith("_nominee"))
-        ]
+        print(f"  RFECV-selected features: {len(other_feats)} → capping at {other_cap} ({source})")
         prep = Pipeline([
             ("imputer", SimpleImputer(strategy="median")),
             ("scaler", StandardScaler()),
         ])
-        X_rfe = prep.fit_transform(rfecv_df[non_precursor_rfecv].values)
+        X_rfe = prep.fit_transform(rfecv_df[rfecv_pool].values)
         y_rfe = rfecv_df["winner"].astype(int).values
         rfe = RFE(
             LogisticRegression(random_state=42, max_iter=1000, class_weight="balanced"),
             n_features_to_select=other_cap,
         )
         rfe.fit(X_rfe, y_rfe)
-        other_feats = [non_precursor_rfecv[i] for i in range(len(non_precursor_rfecv)) if rfe.support_[i]]
-        print(f"  → {len(other_feats)} generic features after RFE cap")
+        other_feats = [rfecv_pool[i] for i in range(len(rfecv_pool)) if rfe.support_[i]]
+        print(f"  → {len(other_feats)} features after RFE cap")
     else:
-        print(f"  Generic features: {len(other_feats)} selected — within limit of {other_cap}.")
+        print(f"  RFECV-selected features: {len(other_feats)} — within limit of {other_cap}.")
 
-    selected = precursor_feats + other_feats
+    selected = tier1_feats + other_feats
+
+    # Build tier lookup for display
+    tier2_set = set(tier2_feats)
+    rfecv_survived_set = set(other_feats)
 
     print(f"\nFinal {len(selected)} features (from {_candidate_count(train_df)} candidates):")
     for i, f in enumerate(selected, 1):
-        print(f"  {i:>2}. {f}")
+        if f in tier1_set:
+            tag = "[T1 forced]"
+        elif f in tier2_set:
+            tag = "[T2 generic winner]"
+        else:
+            tag = "[T3]"
+        print(f"  {i:>2}. {f}  {tag}")
 
     # ── 5. Write output ────────────────────────────────────────────────────────
     if args.output_dir:
         output_dir = Path(args.output_dir)
-    elif args.award_system == "oscars":
-        output_dir = PROJECT_ROOT / "data" / "reports" / args.category
     else:
         output_dir = PROJECT_ROOT / "data" / "reports" / args.award_system / args.category
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -255,7 +322,9 @@ def main() -> None:
         "n_candidates": n_candidates,
         "n_ceremonies": n_ceremonies,
         "feature_cap": other_cap,
-        "conceptual_reduction": args.conceptual,
+        "conceptual_reduction": not args.no_conceptual,
+        "tier1_forced_precursors": tier1_feats,
+        "generic_precursor_nominees_excluded": generic_nominee_excluded,
         "selected_features": selected,
     }
     out_path = output_dir / "selected_features.json"

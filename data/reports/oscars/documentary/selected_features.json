@@ -1,0 +1,34 @@
+{
+  "category": "documentary",
+  "award_system": "oscars",
+  "train_end_year": 2025,
+  "n_candidates": 79,
+  "n_ceremonies": 82,
+  "feature_cap": 16,
+  "conceptual_reduction": true,
+  "tier1_forced_precursors": [
+    "bafta_documentary_nominee",
+    "bafta_documentary_winner"
+  ],
+  "generic_precursor_nominees_excluded": [],
+  "selected_features": [
+    "bafta_documentary_nominee",
+    "bafta_documentary_winner",
+    "bafta_winner",
+    "vote_average",
+    "vote_count",
+    "rotten_tomatoes_pct",
+    "release_month",
+    "rated_G",
+    "genre_adventure",
+    "genre_drama",
+    "genre_science_fiction",
+    "genre_war",
+    "sundance_grand_jury",
+    "nominee_previous_noms_sum",
+    "nominee_previous_noms_max",
+    "nominee_previous_noms_avg",
+    "nominee_previous_wins_sum",
+    "nominee_previous_wins_max"
+  ]
+}

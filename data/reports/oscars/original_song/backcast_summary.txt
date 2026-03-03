@@ -1,0 +1,9 @@
+Category: original_song
+Award system: oscars
+Winning model: ConstrainedLR
+Features (5): ['golden_globes_original_song_nominee', 'golden_globes_original_song_winner', 'genre_horror', 'globe_winner', 'genre_science_fiction']
+Years: 2016–2025  (n=9)
+AUC: 0.8333
+top1: 7 (77.8%)
+top3: 9 (100.0%)
+avg_rank: 1.2222

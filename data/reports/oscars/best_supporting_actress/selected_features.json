@@ -1,0 +1,43 @@
+{
+  "category": "best_supporting_actress",
+  "award_system": "oscars",
+  "train_end_year": 2025,
+  "n_candidates": 81,
+  "n_ceremonies": 89,
+  "feature_cap": 17,
+  "conceptual_reduction": true,
+  "tier1_forced_precursors": [
+    "bafta_supporting_actress_nominee",
+    "bafta_supporting_actress_winner",
+    "golden_globes_supporting_actress_nominee",
+    "golden_globes_supporting_actress_winner",
+    "sag_supporting_actress_nominee",
+    "sag_supporting_actress_winner"
+  ],
+  "generic_precursor_nominees_excluded": [],
+  "selected_features": [
+    "bafta_supporting_actress_nominee",
+    "bafta_supporting_actress_winner",
+    "golden_globes_supporting_actress_nominee",
+    "golden_globes_supporting_actress_winner",
+    "sag_supporting_actress_nominee",
+    "sag_supporting_actress_winner",
+    "genre_western",
+    "vote_average",
+    "sag_winner",
+    "previous_supporting_actress_nominations",
+    "rotten_tomatoes_pct",
+    "rated_R",
+    "genre_music",
+    "num_wikidata_awards",
+    "country_non_english",
+    "previous_all_nominations",
+    "vote_count",
+    "editing_nom",
+    "english_language",
+    "release_month",
+    "spirit_best_film",
+    "previous_all_wins",
+    "lafca_best_film"
+  ]
+}

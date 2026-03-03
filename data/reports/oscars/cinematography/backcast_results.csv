@@ -1,0 +1,46 @@
+year_film,nominee_label,winner,prob,rank,top_pick,actual_winner,winner_rank,correct
+2016,Linus Sandgren (La La Land),True,0.6888,1,Linus Sandgren (La La Land),Linus Sandgren (La La Land),1,True
+2016,Greig Fraser (Lion),False,0.5394,2,Linus Sandgren (La La Land),Linus Sandgren (La La Land),1,True
+2016,James Laxton (Moonlight),False,0.5274,3,Linus Sandgren (La La Land),Linus Sandgren (La La Land),1,True
+2016,Bradford Young (Arrival),False,0.5251,4,Linus Sandgren (La La Land),Linus Sandgren (La La Land),1,True
+2016,Rodrigo Prieto (Silence),False,0.4086,5,Linus Sandgren (La La Land),Linus Sandgren (La La Land),1,True
+2017,Dan Laustsen (The Shape of Water),False,0.6546,1,Dan Laustsen (The Shape of Water),Roger A. Deakins (Blade Runner 2049),5,False
+2017,Hoyte van Hoytema (Dunkirk),False,0.5315,2,Dan Laustsen (The Shape of Water),Roger A. Deakins (Blade Runner 2049),5,False
+2017,Bruno Delbonnel (Darkest Hour),False,0.5138,3,Dan Laustsen (The Shape of Water),Roger A. Deakins (Blade Runner 2049),5,False
+2017,Rachel Morrison (Mudbound),False,0.4647,4,Dan Laustsen (The Shape of Water),Roger A. Deakins (Blade Runner 2049),5,False
+2017,Roger A. Deakins (Blade Runner 2049),True,0.4525,5,Dan Laustsen (The Shape of Water),Roger A. Deakins (Blade Runner 2049),5,False
+2018,Alfonso Cuarón (Roma),True,0.6533,1,Alfonso Cuarón (Roma),Alfonso Cuarón (Roma),1,True
+2018,Matthew Libatique (A Star Is Born),False,0.5643,2,Alfonso Cuarón (Roma),Alfonso Cuarón (Roma),1,True
+2018,Robbie Ryan (The Favourite),False,0.5256,3,Alfonso Cuarón (Roma),Alfonso Cuarón (Roma),1,True
+2018,Caleb Deschanel (Never Look Away),False,0.4331,4,Alfonso Cuarón (Roma),Alfonso Cuarón (Roma),1,True
+2018,Lukasz Zal (Cold War),False,0.4102,5,Alfonso Cuarón (Roma),Alfonso Cuarón (Roma),1,True
+2019,Roger Deakins (1917),True,0.6386,1,Roger Deakins (1917),Roger Deakins (1917),1,True
+2019,Lawrence Sher (Joker),False,0.5775,2,Roger Deakins (1917),Roger Deakins (1917),1,True
+2019,Rodrigo Prieto (The Irishman),False,0.5466,3,Roger Deakins (1917),Roger Deakins (1917),1,True
+2019,Robert Richardson (Once upon a Time...in Hollywood),False,0.5043,4,Roger Deakins (1917),Roger Deakins (1917),1,True
+2019,Jarin Blaschke (The Lighthouse),False,0.4406,5,Roger Deakins (1917),Roger Deakins (1917),1,True
+2020,Joshua James Richards (Nomadland),False,0.6026,1,Joshua James Richards (Nomadland),Erik Messerschmidt (Mank),2,False
+2020,Erik Messerschmidt (Mank),True,0.5777,2,Joshua James Richards (Nomadland),Erik Messerschmidt (Mank),2,False
+2020,Sean Bobbitt (Judas and the Black Messiah),False,0.5075,3,Joshua James Richards (Nomadland),Erik Messerschmidt (Mank),2,False
+2020,Phedon Papamichael (The Trial of the Chicago 7),False,0.4876,4,Joshua James Richards (Nomadland),Erik Messerschmidt (Mank),2,False
+2020,Dariusz Wolski (News of the World),False,0.4822,5,Joshua James Richards (Nomadland),Erik Messerschmidt (Mank),2,False
+2021,Greig Fraser (Dune),True,0.6363,1,Greig Fraser (Dune),Greig Fraser (Dune),1,True
+2021,Ari Wegner (The Power of the Dog),False,0.6031,2,Greig Fraser (Dune),Greig Fraser (Dune),1,True
+2021,Janusz Kaminski (West Side Story),False,0.5139,3,Greig Fraser (Dune),Greig Fraser (Dune),1,True
+2021,Bruno Delbonnel (The Tragedy of Macbeth),False,0.4751,4,Greig Fraser (Dune),Greig Fraser (Dune),1,True
+2021,Dan Laustsen (Nightmare Alley),False,0.4724,5,Greig Fraser (Dune),Greig Fraser (Dune),1,True
+2022,James Friend (All Quiet on the Western Front),True,0.6176,1,James Friend (All Quiet on the Western Front),James Friend (All Quiet on the Western Front),1,True
+2022,Mandy Walker (Elvis),False,0.5306,2,James Friend (All Quiet on the Western Front),James Friend (All Quiet on the Western Front),1,True
+2022,Florian Hoffmeister (Tár),False,0.4778,3,James Friend (All Quiet on the Western Front),James Friend (All Quiet on the Western Front),1,True
+2022,Roger Deakins (Empire of Light),False,0.4599,4,James Friend (All Quiet on the Western Front),James Friend (All Quiet on the Western Front),1,True
+2022,"Darius Khondji (Bardo, False Chronicle of a Handful of Truths)",False,0.3735,5,James Friend (All Quiet on the Western Front),James Friend (All Quiet on the Western Front),1,True
+2023,Hoyte van Hoytema (Oppenheimer),True,0.7083,1,Hoyte van Hoytema (Oppenheimer),Hoyte van Hoytema (Oppenheimer),1,True
+2023,Rodrigo Prieto (Killers of the Flower Moon),False,0.5862,2,Hoyte van Hoytema (Oppenheimer),Hoyte van Hoytema (Oppenheimer),1,True
+2023,Robbie Ryan (Poor Things),False,0.5747,3,Hoyte van Hoytema (Oppenheimer),Hoyte van Hoytema (Oppenheimer),1,True
+2023,Matthew Libatique (Maestro),False,0.5546,4,Hoyte van Hoytema (Oppenheimer),Hoyte van Hoytema (Oppenheimer),1,True
+2023,Edward Lachman (El Conde),False,0.3727,5,Hoyte van Hoytema (Oppenheimer),Hoyte van Hoytema (Oppenheimer),1,True
+2024,Lol Crawley (The Brutalist),True,0.6795,1,Lol Crawley (The Brutalist),Lol Crawley (The Brutalist),1,True
+2024,Paul Guilhaume (Emilia Pérez),False,0.5951,2,Lol Crawley (The Brutalist),Lol Crawley (The Brutalist),1,True
+2024,Greig Fraser (Dune: Part Two),False,0.48,3,Lol Crawley (The Brutalist),Lol Crawley (The Brutalist),1,True
+2024,Jarin Blaschke (Nosferatu),False,0.4687,4,Lol Crawley (The Brutalist),Lol Crawley (The Brutalist),1,True
+2024,Ed Lachman (Maria),False,0.4071,5,Lol Crawley (The Brutalist),Lol Crawley (The Brutalist),1,True

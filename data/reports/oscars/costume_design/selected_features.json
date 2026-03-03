@@ -1,0 +1,33 @@
+{
+  "category": "costume_design",
+  "award_system": "oscars",
+  "train_end_year": 2025,
+  "n_candidates": 77,
+  "n_ceremonies": 77,
+  "feature_cap": 15,
+  "conceptual_reduction": true,
+  "tier1_forced_precursors": [
+    "bafta_costume_design_nominee",
+    "bafta_costume_design_winner"
+  ],
+  "generic_precursor_nominees_excluded": [],
+  "selected_features": [
+    "bafta_costume_design_nominee",
+    "bafta_costume_design_winner",
+    "genre_western",
+    "genre_horror",
+    "bafta_winner",
+    "country_non_english",
+    "sag_winner",
+    "genre_romance",
+    "genre_history",
+    "cinematography_nom",
+    "nsfc_best_film",
+    "directing_nom",
+    "num_production_companies",
+    "num_wikidata_awards",
+    "technical_noms",
+    "english_language",
+    "genre_thriller"
+  ]
+}

@@ -1,0 +1,9 @@
+Category: best_actress
+Award system: oscars
+Winning model: ConstrainedLR
+Features (25): ['bafta_actress_nominee', 'bafta_actress_winner', 'golden_globes_actress_nominee', 'golden_globes_actress_winner', 'sag_actress_nominee', 'sag_actress_winner', 'sag_winner', 'acting_noms', 'directing_nom', 'technical_noms', 'other_noms', 'runtime', 'imdb_rating', 'rotten_tomatoes_pct', 'metacritic_score', 'rated_PG', 'rated_G', 'genre_adventure', 'genre_horror', 'genre_war', 'venice_jury_prize', 'sundance_grand_jury', 'country_non_english', 'previous_all_wins', 'previous_actress_nominations']
+Years: 2016–2025  (n=9)
+AUC: 0.9259
+top1: 6 (66.7%)
+top3: 9 (100.0%)
+avg_rank: 1.3333

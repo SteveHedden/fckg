@@ -1,0 +1,46 @@
+year_film,nominee_label,winner,prob,rank,top_pick,actual_winner,winner_rank,correct
+2016,The Jungle Book,True,0.7564,1,The Jungle Book,The Jungle Book,1,True
+2016,Kubo and the Two Strings,False,0.4727,2,The Jungle Book,The Jungle Book,1,True
+2016,Deepwater Horizon,False,0.4278,3,The Jungle Book,The Jungle Book,1,True
+2016,Rogue One: A Star Wars Story,False,0.4244,4,The Jungle Book,The Jungle Book,1,True
+2016,Doctor Strange,False,0.4123,5,The Jungle Book,The Jungle Book,1,True
+2017,Blade Runner 2049,True,0.6873,1,Blade Runner 2049,Blade Runner 2049,1,True
+2017,Star Wars: The Last Jedi,False,0.4643,2,Blade Runner 2049,Blade Runner 2049,1,True
+2017,Guardians of the Galaxy Vol. 2,False,0.4019,3,Blade Runner 2049,Blade Runner 2049,1,True
+2017,War for the Planet of the Apes,False,0.3944,4,Blade Runner 2049,Blade Runner 2049,1,True
+2017,Kong: Skull Island,False,0.3865,5,Blade Runner 2049,Blade Runner 2049,1,True
+2018,First Man,True,0.4861,1,First Man,First Man,1,True
+2018,Avengers: Infinity War,False,0.4044,2,First Man,First Man,1,True
+2018,Ready Player One,False,0.3829,3,First Man,First Man,1,True
+2018,Solo: A Star Wars Story,False,0.374,4,First Man,First Man,1,True
+2018,Christopher Robin,False,0.3467,5,First Man,First Man,1,True
+2019,1917,True,0.6822,1,1917,1917,1,True
+2019,The Irishman,False,0.5472,2,1917,1917,1,True
+2019,The Lion King,False,0.4522,3,1917,1917,1,True
+2019,Avengers: Endgame,False,0.423,4,1917,1917,1,True
+2019,Star Wars: The Rise of Skywalker,False,0.3739,5,1917,1917,1,True
+2020,Tenet,True,0.5612,1,Tenet,Tenet,1,True
+2020,The One and Only Ivan,False,0.394,2,Tenet,Tenet,1,True
+2020,Mulan,False,0.3935,3,Tenet,Tenet,1,True
+2020,Love and Monsters,False,0.3844,4,Tenet,Tenet,1,True
+2020,The Midnight Sky,False,0.3772,5,Tenet,Tenet,1,True
+2021,Dune,True,0.6998,1,Dune,Dune,1,True
+2021,No Time to Die,False,0.4663,2,Dune,Dune,1,True
+2021,Spider-Man: No Way Home,False,0.41,3,Dune,Dune,1,True
+2021,Shang-Chi and the Legend of the Ten Rings,False,0.3944,4,Dune,Dune,1,True
+2021,Free Guy,False,0.3778,5,Dune,Dune,1,True
+2022,All Quiet on the Western Front,False,0.5954,1,All Quiet on the Western Front,Avatar: The Way of Water,2,False
+2022,Avatar: The Way of Water,True,0.5807,2,All Quiet on the Western Front,Avatar: The Way of Water,2,False
+2022,Top Gun: Maverick,False,0.4598,3,All Quiet on the Western Front,Avatar: The Way of Water,2,False
+2022,Black Panther: Wakanda Forever,False,0.4469,4,All Quiet on the Western Front,Avatar: The Way of Water,2,False
+2022,The Batman,False,0.4087,5,All Quiet on the Western Front,Avatar: The Way of Water,2,False
+2023,Godzilla Minus One,True,0.433,1,Godzilla Minus One,Godzilla Minus One,1,True
+2023,Mission: Impossible - Dead Reckoning Part One,False,0.4235,2,Godzilla Minus One,Godzilla Minus One,1,True
+2023,Napoleon,False,0.3897,3,Godzilla Minus One,Godzilla Minus One,1,True
+2023,The Creator,False,0.386,4,Godzilla Minus One,Godzilla Minus One,1,True
+2023,Guardians of the Galaxy Vol. 3,False,0.3785,5,Godzilla Minus One,Godzilla Minus One,1,True
+2024,Dune: Part Two,True,0.6767,1,Dune: Part Two,Dune: Part Two,1,True
+2024,Wicked,False,0.6045,2,Dune: Part Two,Dune: Part Two,1,True
+2024,Better Man,False,0.4111,3,Dune: Part Two,Dune: Part Two,1,True
+2024,Alien: Romulus,False,0.4024,4,Dune: Part Two,Dune: Part Two,1,True
+2024,Kingdom of the Planet of the Apes,False,0.3783,5,Dune: Part Two,Dune: Part Two,1,True

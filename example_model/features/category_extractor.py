@@ -23,6 +23,7 @@ import pandas as pd
 from rdflib import Graph, URIRef
 
 from foundation.loader import load_foundation_graph
+from foundation.manifest import PROJECT_ROOT
 from .utils import normalize_person_name
 
 from .canonical import (
@@ -49,12 +50,13 @@ _FILM_CAT_COLS = [
     "above_line_noms",
     "other_noms",
 ]
-_FILM_HISTORY_COLS = [
-    "previous_nominations_sum",
-    "previous_nominations_max",
-    "previous_nominations_avg",
-    "previous_wins_sum",
-    "previous_wins_max",
+_NOMINEE_HISTORY_COLS = [
+    "nominee_previous_noms_sum",
+    "nominee_previous_noms_max",
+    "nominee_previous_noms_avg",
+    "nominee_previous_wins_sum",
+    "nominee_previous_wins_max",
+    "nominee_previous_wins_avg",
 ]
 
 # Film-level precursor columns added by extract_precursor_features.
@@ -126,20 +128,20 @@ _OSCAR_CATEGORY_SPECS: dict[str, CategorySpec] = {
     "best_supporting_actor":   _S("best_supporting_actor",   "nominee", "Concept_BestMaleSupportingActor",  "supporting_actor"),
     "best_supporting_actress": _S("best_supporting_actress", "nominee", "Concept_BestFemaleSupportingActor","supporting_actress"),
     "best_director":           _S("best_director",           "nominee", "Concept_BestDirector",             "director"),
-    "best_original_screenplay":_S("best_original_screenplay","nominee", "Concept_BestOriginalScreenplay",   "original_screenplay"),
-    "best_adapted_screenplay": _S("best_adapted_screenplay", "nominee", "Concept_BestAdaptedScreenplay",    "adapted_screenplay"),
+    "best_original_screenplay":_S("best_original_screenplay","film",    "Concept_BestOriginalScreenplay","original_screenplay"),
+    "best_adapted_screenplay": _S("best_adapted_screenplay", "film",    "Concept_BestAdaptedScreenplay", "adapted_screenplay"),
     "cinematography":          _S("cinematography",          "nominee", "Concept_BestCinematography",       "cinematography"),
-    "film_editing":            _S("film_editing",            "nominee", "Concept_BestFilmEditing",          "film_editing"),
+    "film_editing":            _S("film_editing",            "film",    "Concept_BestFilmEditing",           "film_editing"),
     "original_score":          _S("original_score",          "nominee", "Concept_BestOriginalScore",        "original_score"),
-    "original_song":           _S("original_song",           "nominee", "Concept_BestOriginalSong",         "original_song"),
-    "production_design":       _S("production_design",       "nominee", "Concept_BestProductionDesign",     "production_design"),
+    "original_song":           _S("original_song",           "film",    "Concept_BestOriginalSong",          "original_song"),
+    "production_design":       _S("production_design",       "film",    "Concept_BestProductionDesign",      "production_design"),
     "costume_design":          _S("costume_design",          "nominee", "Concept_BestCostumeDesign",        "costume_design"),
-    "sound":                   _S("sound",                   "nominee", "Concept_BestSound",                "sound"),
-    "visual_effects":          _S("visual_effects",          "nominee", "Concept_BestVisualEffects",        "visual_effects"),
-    "makeup":                  _S("makeup",                  "nominee", "Concept_BestMakeup",               "makeup"),
-    "international_film":      _S("international_film",      "film",    "Concept_BestInternationalFilm"),
-    "documentary":             _S("documentary",             "film",    "Concept_BestDocumentaryFeature"),
-    "animated_film":           _S("animated_film",           "film",    "Concept_BestAnimatedFeature"),
+    "sound":                   _S("sound",                   "film",    "Concept_BestSound",                 "sound"),
+    "visual_effects":          _S("visual_effects",          "film",    "Concept_BestVisualEffects",         "visual_effects"),
+    "makeup":                  _S("makeup",                  "film",    "Concept_BestMakeup",                "makeup"),
+    "international_film":      _S("international_film",      "film",    "Concept_BestInternationalFilm",     "international_film"),
+    "documentary":             _S("documentary",             "film",    "Concept_BestDocumentaryFeature",    "documentary"),
+    "animated_film":           _S("animated_film",           "film",    "Concept_BestAnimatedFeature",       "animated_film"),
 }
 
 _BAFTA_CATEGORY_SPECS: dict[str, CategorySpec] = {
@@ -240,7 +242,7 @@ def _query_nomination_systems(graph: Graph) -> pd.DataFrame:
 # ---------------------------------------------------------------------------
 
 def _list_enrichment_ttls() -> list[Path]:
-    enriched_dir = Path("data/enriched")
+    enriched_dir = PROJECT_ROOT / "data" / "enriched"
     if not enriched_dir.exists():
         return []
     return sorted(enriched_dir.glob("*.ttl"))
@@ -285,45 +287,50 @@ def _build_person_history(rows: pd.DataFrame) -> dict[tuple[str, int], tuple[int
     return history
 
 
-def _compute_film_history(all_noms: pd.DataFrame) -> pd.DataFrame:
-    cols = ["film_uri", "year_film", *_FILM_HISTORY_COLS]
-    if all_noms.empty:
-        return pd.DataFrame(columns=cols)
+def _compute_film_nominee_history(
+    target: pd.DataFrame,
+    all_noms: pd.DataFrame,
+) -> pd.DataFrame:
+    """Aggregate prior nomination/win history of individual nominees for film-level categories.
 
-    rows: list[dict[str, Any]] = []
-    source = all_noms[all_noms["film_uri"].notna()].copy()
-    if source.empty:
-        return pd.DataFrame(columns=cols)
+    For each film+year in target, finds all persons listed via msh:hasNominee,
+    computes their prior nomination/win history across all categories in the award
+    system, then aggregates to film level:
+      nominee_previous_noms_sum  — total prior noms summed across nominees
+      nominee_previous_noms_max  — max prior noms of any single nominee (star power)
+      nominee_previous_noms_avg  — average prior noms across nominees
+      nominee_previous_wins_sum  — total prior wins summed across nominees
+      nominee_previous_wins_max  — max prior wins of any single nominee
+      nominee_previous_wins_avg  — average prior wins across nominees
 
-    for film_uri, grp in source.groupby("film_uri"):
-        year_counts: dict[int, tuple[int, int]] = {}
-        for year, year_grp in grp.groupby("year_film"):
-            year_int = int(year)
-            nom_count = int(len(year_grp))
-            win_count = int(year_grp["winner"].astype(int).sum())
-            year_counts[year_int] = (nom_count, win_count)
+    Rows without nominees (film-only nominations) get 0 for all columns.
+    """
+    out = target.copy()
+    for col in _NOMINEE_HISTORY_COLS:
+        out[col] = 0.0
 
-        prior_nom_counts: list[int] = []
-        prior_win_counts: list[int] = []
-        for year in sorted(year_counts.keys()):
-            rows.append(
-                {
-                    "film_uri": str(film_uri),
-                    "year_film": int(year),
-                    "previous_nominations_sum": int(sum(prior_nom_counts)),
-                    "previous_nominations_max": int(max(prior_nom_counts)) if prior_nom_counts else 0,
-                    "previous_nominations_avg": float(sum(prior_nom_counts) / len(prior_nom_counts))
-                    if prior_nom_counts
-                    else 0.0,
-                    "previous_wins_sum": int(sum(prior_win_counts)),
-                    "previous_wins_max": int(max(prior_win_counts)) if prior_win_counts else 0,
-                }
-            )
-            nom_count, win_count = year_counts[year]
-            prior_nom_counts.append(nom_count)
-            prior_win_counts.append(win_count)
+    person_all = all_noms[all_noms["nominee"].notna()].copy()
+    if person_all.empty or target["nominee"].isna().all():
+        return out
 
-    return pd.DataFrame(rows, columns=cols)
+    hist = _build_person_history(person_all)
+
+    for (film_uri, year), grp in target.groupby(["film_uri", "year_film"]):
+        nominees = grp["nominee"].dropna().unique()
+        if len(nominees) == 0:
+            continue
+        noms_list = [hist.get((str(n), int(year)), (0, 0))[0] for n in nominees]
+        wins_list = [hist.get((str(n), int(year)), (0, 0))[1] for n in nominees]
+        n = len(noms_list)
+        idx = (out["film_uri"] == film_uri) & (out["year_film"].astype(int) == int(year))
+        out.loc[idx, "nominee_previous_noms_sum"] = sum(noms_list)
+        out.loc[idx, "nominee_previous_noms_max"] = max(noms_list)
+        out.loc[idx, "nominee_previous_noms_avg"] = sum(noms_list) / n
+        out.loc[idx, "nominee_previous_wins_sum"] = sum(wins_list)
+        out.loc[idx, "nominee_previous_wins_max"] = max(wins_list)
+        out.loc[idx, "nominee_previous_wins_avg"] = sum(wins_list) / n
+
+    return out
 
 
 _QUERY_GG_BEST_FILM = """\
@@ -350,6 +357,18 @@ SELECT ?film ?ceremonyYear WHERE {
   ?nom a msh:Nomination ;
        msh:hasFilm ?film ;
        msh:hasCategory msh:Category_bafta_Best_Film ;
+       msh:hasCeremony ?cer ;
+       msh:winner true .
+  ?cer msh:yearCeremony ?ceremonyYear .
+}
+"""
+
+_QUERY_SAG_ENSEMBLE_WINNERS = """\
+PREFIX msh: <http://example.org/ontologies/MovieSHACL3#>
+SELECT ?film ?ceremonyYear WHERE {
+  ?nom a msh:Nomination ;
+       msh:hasFilm ?film ;
+       msh:hasCategory msh:Category_sag_Outstanding_Performance_by_a_Cast_in_a_Motion_Picture ;
        msh:hasCeremony ?cer ;
        msh:winner true .
   ?cer msh:yearCeremony ?ceremonyYear .
@@ -409,6 +428,34 @@ def _compute_best_film_precursors(graph: Graph, df: pd.DataFrame) -> pd.DataFram
             if not bafta_match.empty:
                 out.at[idx, "bafta_best_film_winner"] = 1
 
+    return out
+
+
+def _compute_sag_ensemble_feature(graph: Graph, df: pd.DataFrame) -> pd.DataFrame:
+    """Add sag_ensemble_winner column: 1 if the film won SAG Outstanding Cast."""
+    out = df.copy()
+    out["sag_ensemble_winner"] = 0
+
+    rows = [
+        {"film_uri": str(r.film), "ceremony_year": int(str(r.ceremonyYear)[:4])}
+        for r in graph.query(_QUERY_SAG_ENSEMBLE_WINNERS)
+    ]
+    if not rows:
+        return out
+
+    sag_df = pd.DataFrame(rows)
+    for idx, row in out.iterrows():
+        film_uri = row.get("film_uri")
+        if not film_uri:
+            continue
+        year = int(row["year_film"])
+        match = sag_df[
+            (sag_df["film_uri"] == film_uri)
+            & (sag_df["ceremony_year"] >= year - 1)
+            & (sag_df["ceremony_year"] <= year + 2)
+        ]
+        if not match.empty:
+            out.at[idx, "sag_ensemble_winner"] = 1
     return out
 
 
@@ -512,6 +559,62 @@ def _aggregate_nominee_rows(df: pd.DataFrame) -> pd.DataFrame:
 # Concept-driven cross-system precursor flags
 # ---------------------------------------------------------------------------
 
+def _attach_concept_film_precursor_flags(
+    df: pd.DataFrame,
+    all_noms: pd.DataFrame,
+    concept_uri: str,
+    target_system_key: str,
+    col_prefix: str,
+) -> pd.DataFrame:
+    """Attach film-level winner/nominee flags from precursor systems sharing the same concept.
+
+    Used for film-level categories (e.g. screenplay) where matching is by film URI
+    rather than by person name.  Adds:
+      {system_key}_{col_prefix}_nominee
+      {system_key}_{col_prefix}_winner
+    """
+    out = df.copy()
+    target_short = _SYSTEM_KEYS[target_system_key]
+
+    precursor_noms = all_noms[
+        all_noms["concept_uris"].apply(lambda s: concept_uri in s)
+        & (all_noms["system_short"] != target_short)
+        & all_noms["film_uri"].notna()
+    ].copy()
+
+    if precursor_noms.empty:
+        return out
+
+    short_to_key = {v: k for k, v in _SYSTEM_KEYS.items()}
+
+    for system_short, sys_df in precursor_noms.groupby("system_short"):
+        system_key = short_to_key.get(str(system_short), str(system_short).lower())
+
+        nominee_set: set[tuple[int, str]] = {
+            (int(y), str(f))
+            for y, f in zip(sys_df["year_film"], sys_df["film_uri"])
+            if f
+        }
+        winner_set: set[tuple[int, str]] = {
+            (int(y), str(f))
+            for y, f, w in zip(sys_df["year_film"], sys_df["film_uri"], sys_df["winner"])
+            if f and w
+        }
+
+        nom_col = f"{system_key}_{col_prefix}_nominee"
+        win_col = f"{system_key}_{col_prefix}_winner"
+        out[nom_col] = [
+            1 if (int(y), str(f)) in nominee_set else 0
+            for y, f in zip(out["year_film"].astype(int), out["film_uri"])
+        ]
+        out[win_col] = [
+            1 if (int(y), str(f)) in winner_set else 0
+            for y, f in zip(out["year_film"].astype(int), out["film_uri"])
+        ]
+
+    return out
+
+
 def _attach_concept_precursor_flags(
     df: pd.DataFrame,
     all_noms: pd.DataFrame,
@@ -529,22 +632,28 @@ def _attach_concept_precursor_flags(
 
     The lookup is purely graph-driven via the msh:realizationOf links in
     category_alignments.ttl — no string matchers required.
+
+    For person-level precursor nominations (hasNominee present) matching is
+    done by normalized person name.  For film-level nominations (no hasNominee,
+    e.g. BAFTA Original Music) matching falls back to film URI, which allows
+    craft categories whose precursors track the film rather than the individual
+    technician to still produce useful precursor flags.
     """
     out = df.copy()
     target_short = _SYSTEM_KEYS[target_system_key]
 
+    # Include ALL precursor nominations for this concept — film-level and
+    # person-level alike (the nominee.notna() filter is removed vs old version).
     precursor_noms = all_noms[
         all_noms["concept_uris"].apply(lambda s: concept_uri in s)
         & (all_noms["system_short"] != target_short)
-        & all_noms["nominee"].notna()
     ].copy()
 
     if precursor_noms.empty:
         return out
 
-    precursor_noms = precursor_noms.copy()
     precursor_noms["prec_cand_name"] = precursor_noms["nominee"].apply(
-        lambda uri: _person_name(graph, uri)
+        lambda uri: _person_name(graph, uri) if uri else None
     )
     precursor_noms["prec_cand_key"] = precursor_noms["prec_cand_name"].apply(_norm_person_key)
     precursor_noms["prec_year"] = precursor_noms["year_film"].astype(int)
@@ -555,27 +664,49 @@ def _attach_concept_precursor_flags(
 
     for system_short, sys_df in precursor_noms.groupby("system_short"):
         system_key = short_to_key.get(str(system_short), str(system_short).lower())
+        nom_col = f"{system_key}_{col_prefix}_nominee"
+        win_col = f"{system_key}_{col_prefix}_winner"
 
-        nominee_keys: set[tuple[int, str]] = {
+        # Person-level: match by normalized candidate name.
+        person_df = sys_df[sys_df["nominee"].notna()]
+        nom_by_name: set[tuple[int, str]] = {
             (int(y), str(k))
-            for y, k in zip(sys_df["prec_year"], sys_df["prec_cand_key"])
+            for y, k in zip(person_df["prec_year"], person_df["prec_cand_key"])
             if k
         }
-        winner_keys: set[tuple[int, str]] = {
+        win_by_name: set[tuple[int, str]] = {
             (int(y), str(k))
-            for y, k, w in zip(sys_df["prec_year"], sys_df["prec_cand_key"], sys_df["winner"])
+            for y, k, w in zip(person_df["prec_year"], person_df["prec_cand_key"], person_df["winner"])
             if k and w
         }
 
-        nom_col = f"{system_key}_{col_prefix}_nominee"
-        win_col = f"{system_key}_{col_prefix}_winner"
+        # Film-level: match by film URI (covers craft categories where the
+        # precursor system records the film, not the individual technician).
+        film_df = sys_df[sys_df["nominee"].isna()]
+        nom_by_film: set[tuple[int, str]] = {
+            (int(y), str(f))
+            for y, f in zip(film_df["prec_year"], film_df["film_uri"])
+            if f
+        }
+        win_by_film: set[tuple[int, str]] = {
+            (int(y), str(f))
+            for y, f, w in zip(film_df["prec_year"], film_df["film_uri"], film_df["winner"])
+            if f and w
+        }
+
         out[nom_col] = [
-            1 if (int(y), k) in nominee_keys else 0
-            for y, k in zip(out["year_film"].astype(int), out["prec_cand_key"])
+            1 if (
+                (int(y), k) in nom_by_name
+                or (int(y), str(f)) in nom_by_film
+            ) else 0
+            for y, k, f in zip(out["year_film"].astype(int), out["prec_cand_key"], out["film_uri"])
         ]
         out[win_col] = [
-            1 if (int(y), k) in winner_keys else 0
-            for y, k in zip(out["year_film"].astype(int), out["prec_cand_key"])
+            1 if (
+                (int(y), k) in win_by_name
+                or (int(y), str(f)) in win_by_film
+            ) else 0
+            for y, k, f in zip(out["year_film"].astype(int), out["prec_cand_key"], out["film_uri"])
         ]
 
     out = out.drop(columns=["prec_cand_key"])
@@ -682,18 +813,6 @@ class CategoryExtractor:
                 target[col] = 0
         target[_FILM_CAT_COLS] = target[_FILM_CAT_COLS].fillna(0).astype(int)
 
-        # Per-film nomination/win history.
-        film_history = _compute_film_history(system_noms)
-        if not film_history.empty:
-            target = target.merge(film_history, on=["film_uri", "year_film"], how="left")
-        for col in _FILM_HISTORY_COLS:
-            if col not in target.columns:
-                target[col] = 0
-        target["previous_nominations_avg"] = target["previous_nominations_avg"].fillna(0.0).astype(float)
-        for col in ("previous_nominations_sum", "previous_nominations_max",
-                    "previous_wins_sum", "previous_wins_max"):
-            target[col] = target[col].fillna(0).astype(int)
-
         # Film-level precursor features (cross-system film winners).
         target = extract_precursor_features(graph, target)
         excl_col = _FILM_PRECURSOR_EXCL.get(self._award_system)
@@ -762,6 +881,27 @@ class CategoryExtractor:
             if self._spec.alias == "best_ensemble_cast":
                 target = _compute_best_film_precursors(graph, target)
                 target = _compute_cast_member_history(target, all_noms)
+            # SAG ensemble cast is the film-level Best Picture proxy at SAG.
+            # Compute it as a dedicated feature for Oscar best_picture so RFECV
+            # sees a clean signal instead of the noisy all-SAG-winners sag_winner.
+            if self._award_system == "oscars" and self._spec.alias == "best_picture":
+                target = _compute_sag_ensemble_feature(graph, target)
+            # Aggregate nominee histories (sum, max/star-power, avg) for all
+            # film-level categories that have individual nominees (COLLABORATION
+            # or PERSON). Film-only categories (documentary, animated, etc.)
+            # get 0s since they have no hasNominee triples.
+            target = _compute_film_nominee_history(target, all_noms)
+            # For film-level categories with a col_prefix (e.g. screenplay),
+            # attach category-specific precursor flags from other systems via
+            # film URI matching (analogous to _attach_concept_precursor_flags
+            # but without person-name lookup).
+            if self._spec.col_prefix is not None:
+                target = _attach_concept_film_precursor_flags(
+                    target, all_noms,
+                    concept_uri=concept_uri,
+                    target_system_key=self._award_system,
+                    col_prefix=self._spec.col_prefix,
+                )
             out = _aggregate_film_rows(target)
 
         out = _coerce_year_int(out)

@@ -1,0 +1,9 @@
+Category: best_supporting_actress
+Award system: oscars
+Winning model: ConstrainedLR
+Features (23): ['bafta_supporting_actress_nominee', 'bafta_supporting_actress_winner', 'golden_globes_supporting_actress_nominee', 'golden_globes_supporting_actress_winner', 'sag_supporting_actress_nominee', 'sag_supporting_actress_winner', 'genre_western', 'vote_average', 'sag_winner', 'previous_supporting_actress_nominations', 'rotten_tomatoes_pct', 'rated_R', 'genre_music', 'num_wikidata_awards', 'country_non_english', 'previous_all_nominations', 'vote_count', 'editing_nom', 'english_language', 'release_month', 'spirit_best_film', 'previous_all_wins', 'lafca_best_film']
+Years: 2016–2025  (n=9)
+AUC: 0.9846
+top1: 8 (88.9%)
+top3: 9 (100.0%)
+avg_rank: 1.1111

@@ -1,0 +1,39 @@
+{
+  "category": "best_supporting_actor",
+  "award_system": "oscars",
+  "train_end_year": 2025,
+  "n_candidates": 81,
+  "n_ceremonies": 89,
+  "feature_cap": 17,
+  "conceptual_reduction": true,
+  "tier1_forced_precursors": [
+    "bafta_supporting_actor_nominee",
+    "bafta_supporting_actor_winner",
+    "golden_globes_supporting_actor_nominee",
+    "golden_globes_supporting_actor_winner",
+    "sag_supporting_actor_nominee",
+    "sag_supporting_actor_winner"
+  ],
+  "generic_precursor_nominees_excluded": [],
+  "selected_features": [
+    "bafta_supporting_actor_nominee",
+    "bafta_supporting_actor_winner",
+    "golden_globes_supporting_actor_nominee",
+    "golden_globes_supporting_actor_winner",
+    "sag_supporting_actor_nominee",
+    "sag_supporting_actor_winner",
+    "spirit_best_film",
+    "sag_winner",
+    "technical_noms",
+    "genre_fantasy",
+    "writing_noms",
+    "imdb_rating",
+    "previous_supporting_actor_wins",
+    "genre_horror",
+    "nyfc_best_film",
+    "vote_count",
+    "other_noms",
+    "previous_all_wins",
+    "genre_western"
+  ]
+}

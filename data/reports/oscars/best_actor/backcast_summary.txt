@@ -1,0 +1,9 @@
+Category: best_actor
+Award system: oscars
+Winning model: ConstrainedLR
+Features (17): ['bafta_actor_nominee', 'bafta_actor_winner', 'golden_globes_actor_nominee', 'golden_globes_actor_winner', 'sag_actor_nominee', 'sag_actor_winner', 'previous_actor_nominations', 'spirit_best_film', 'writing_noms', 'rated_R', 'nsfc_best_film', 'previous_actor_wins', 'genre_mystery', 'genre_fantasy', 'directing_nom', 'sag_winner', 'num_wikidata_awards']
+Years: 2016–2025  (n=9)
+AUC: 0.9259
+top1: 5 (55.6%)
+top3: 9 (100.0%)
+avg_rank: 1.5556
