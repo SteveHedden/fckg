@@ -9,6 +9,12 @@ from pathlib import Path
 import shutil
 import sys
 
+# Ensure CLI imports resolve against this checkout so entrypoint mode
+# (`fckg` script vs `python -m fckg.cli`) does not change behavior.
+_REPO_ROOT = Path(__file__).resolve().parents[1]
+if str(_REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(_REPO_ROOT))
+
 import numpy as np
 import pandas as pd
 import yaml
@@ -45,6 +51,18 @@ def _nominee_labels(df: pd.DataFrame, row_type: str) -> pd.Series:
     names = df["candidate_name"].fillna("(unknown)").astype(str)
     films = df["film"].fillna("(unknown)").astype(str)
     return names + " (" + films + ")"
+
+
+def _ordered_feature_slice(columns: Sequence[str], *, required: Sequence[str] = ()) -> list[str]:
+    """Return unique columns in stable order with required columns appended."""
+    seen: set[str] = set()
+    ordered: list[str] = []
+    for col in [*columns, *required]:
+        if col in seen:
+            continue
+        seen.add(col)
+        ordered.append(col)
+    return ordered
 
 
 def _resolve_selected_features(
@@ -89,13 +107,17 @@ def _resolve_selected_features(
             category=config.category,
         )
         rfecv_cols = report.selected
-        rfecv_df = train_slice[list({*rfecv_cols, "winner", "year_film"})].copy()
+        rfecv_df = train_slice[
+            _ordered_feature_slice(rfecv_cols, required=("winner", "year_film"))
+        ].copy()
 
         if forced_category_precursors:
             missing_forced = [c for c in forced_category_precursors if c not in rfecv_cols]
             if missing_forced:
                 rfecv_cols = list(dict.fromkeys([*rfecv_cols, *missing_forced]))
-                rfecv_df = train_slice[list({*rfecv_cols, "winner", "year_film"})].copy()
+                rfecv_df = train_slice[
+                    _ordered_feature_slice(rfecv_cols, required=("winner", "year_film"))
+                ].copy()
 
         tier1_feats = [c for c in forced_category_precursors if c in rfecv_cols]
         tier1_set = set(tier1_feats)
@@ -116,7 +138,9 @@ def _resolve_selected_features(
         rfecv_pool = tier2_feats + tier3_feats
 
         if rfecv_pool:
-            rfecv_pool_df = train_slice[list({*rfecv_pool, "winner", "year_film"})].copy()
+            rfecv_pool_df = train_slice[
+                _ordered_feature_slice(rfecv_pool, required=("winner", "year_film"))
+            ].copy()
             try:
                 model = OscarCategoryModel(
                     rfecv_pool_df,
@@ -156,7 +180,9 @@ def _resolve_selected_features(
 
         if check_leakage and selected:
             OscarCategoryModel(
-                train_slice[list({*selected, "winner", "year_film"})].copy(),
+                train_slice[
+                    _ordered_feature_slice(selected, required=("winner", "year_film"))
+                ].copy(),
                 category_name=config.category,
                 features=selected,
                 model_type="LR",
@@ -469,9 +495,17 @@ def _cleanup_optional_artifacts(output_dir: Path) -> None:
             shap_dir.unlink()
 
 
-def run_pipeline(config_path: str | Path, *, check_leakage: bool = False) -> Path:
+def run_pipeline(
+    config_path: str | Path,
+    *,
+    check_leakage: bool = False,
+    output_dir_override: str | Path | None = None,
+) -> Path:
     config = PipelineConfig.from_yaml(config_path)
-    output_dir = Path(config.output_dir).expanduser()
+    if output_dir_override is None:
+        output_dir = Path(config.output_dir).expanduser()
+    else:
+        output_dir = Path(output_dir_override).expanduser()
     output_dir.mkdir(parents=True, exist_ok=True)
     _cleanup_optional_artifacts(output_dir)
 
@@ -566,6 +600,7 @@ def run_pipeline(config_path: str | Path, *, check_leakage: bool = False) -> Pat
         selected_features=selected_features,
         check_leakage=check_leakage,
     )
+    resolved_payload["output_dir"] = str(output_dir)
     resolved_payload["artifacts"] = {
         "resolved_config": "resolved_config.yaml",
         "selected_features": "selected_features.json",
@@ -596,6 +631,10 @@ def build_parser() -> argparse.ArgumentParser:
     )
     run_parser.add_argument("--config", required=True, help="Path to pipeline YAML config")
     run_parser.add_argument(
+        "--output-dir",
+        help="Optional output directory override for this run only",
+    )
+    run_parser.add_argument(
         "--check-leakage",
         action="store_true",
         help="Enable temporal leakage validation during feature resolution and model runs",
@@ -612,7 +651,11 @@ def main(argv: Sequence[str] | None = None) -> int:
         return 1
 
     try:
-        output_dir = run_pipeline(args.config, check_leakage=bool(args.check_leakage))
+        output_dir = run_pipeline(
+            args.config,
+            check_leakage=bool(args.check_leakage),
+            output_dir_override=args.output_dir,
+        )
     except (ConfigValidationError, LeakageValidationError, ValueError) as exc:
         print(f"Error: {exc}", file=sys.stderr)
         return 1
