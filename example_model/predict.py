@@ -51,6 +51,7 @@ from sklearn.preprocessing import StandardScaler
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from features.category_extractor import CategoryExtractor
+from features.leakage import LeakageValidationError
 from model.category_model import MODEL_TYPES, OscarCategoryModel, _make_estimator
 import numpy as np
 
@@ -114,6 +115,14 @@ def main() -> None:
         "--features", nargs="+", default=None, metavar="FEATURE",
         help="Feature list (default: from selected_features.json).",
     )
+    parser.add_argument(
+        "--check-leakage",
+        action="store_true",
+        help=(
+            "Validate selected features against system-aware leakage guardrails "
+            "before model training."
+        ),
+    )
     parser.add_argument("--output-dir", default=None)
     args = parser.parse_args()
 
@@ -173,8 +182,13 @@ def main() -> None:
             features=selected,
             model_type=model_type,
             label_cols=extractor.label_cols,
+            award_system=args.award_system,
+            check_leakage=args.check_leakage,
         )
         result = model.predict(predict_year)
+    except LeakageValidationError as exc:
+        print(f"Error: {exc}", file=sys.stderr)
+        sys.exit(1)
     except ValueError as exc:
         print(f"Error: {exc}", file=sys.stderr)
         sys.exit(1)

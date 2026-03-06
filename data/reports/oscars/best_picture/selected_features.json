@@ -1,18 +1,20 @@
 {
   "category": "best_picture",
   "award_system": "oscars",
+  "ceremony_year": 2025,
+  "feature_mode": "RFECV",
+  "selected_features": [
+    "directing_nom",
+    "genre_science_fiction",
+    "dga_winner",
+    "nominee_previous_noms_max",
+    "pga_winner"
+  ],
   "train_end_year": 2025,
   "n_candidates": 78,
   "n_ceremonies": 92,
   "feature_cap": 18,
   "conceptual_reduction": true,
   "tier1_forced_precursors": [],
-  "generic_precursor_nominees_excluded": [],
-  "selected_features": [
-    "nominee_previous_noms_max",
-    "genre_science_fiction",
-    "pga_winner",
-    "dga_winner",
-    "directing_nom"
-  ]
+  "generic_precursor_nominees_excluded": []
 }

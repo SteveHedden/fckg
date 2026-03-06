@@ -1,6 +1,6 @@
 rank,feature,importance
-1,dga_winner,0.2849997430749255
-2,pga_winner,0.15165564757985653
-3,directing_nom,0.1193442655721623
-4,nominee_previous_noms_max,-0.050106421366858396
-5,genre_science_fiction,-0.03293597207468147
+1,dga_winner,0.28499975062770627
+2,pga_winner,0.15165566086869242
+3,directing_nom,0.11934427907519667
+4,nominee_previous_noms_max,-0.050106414840722556
+5,genre_science_fiction,-0.03293595992823357

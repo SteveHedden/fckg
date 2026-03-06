@@ -62,6 +62,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from features.category_extractor import CategoryExtractor
 from features.feature_groups import reduce_to_group_representatives
+from features.leakage import LeakageValidationError
 from model.category_model import (
     OscarCategoryModel,
     _DEFAULT_EXCLUDE,
@@ -116,6 +117,14 @@ def main() -> None:
             "By default, keeps one representative per conceptual group "
             "(financial, critical reception, etc.) and collapses precursor "
             "nominee/winner pairs to the winner column."
+        ),
+    )
+    parser.add_argument(
+        "--check-leakage",
+        action="store_true",
+        help=(
+            "Validate features against system-aware leakage guardrails "
+            "before model training."
         ),
     )
     args = parser.parse_args()
@@ -249,8 +258,13 @@ def main() -> None:
                 features="RFECV",
                 model_type="LR",
                 label_cols=extractor.label_cols,
+                award_system=args.award_system,
+                check_leakage=args.check_leakage,
             )
             rfecv_selected = model.features
+        except LeakageValidationError as exc:
+            print(f"Error: {exc}", file=sys.stderr)
+            sys.exit(1)
         except ValueError as exc:
             print(f"Warning: RFECV failed ({exc}); keeping all pool features.",
                   file=sys.stderr)
@@ -293,6 +307,21 @@ def main() -> None:
         print(f"  RFECV-selected features: {len(other_feats)} — within limit of {other_cap}.")
 
     selected = tier1_feats + other_feats
+
+    if args.check_leakage:
+        try:
+            OscarCategoryModel(
+                train_df[list({*selected, "winner", "year_film"})].copy(),
+                category_name=args.category,
+                features=selected,
+                model_type="LR",
+                label_cols=extractor.label_cols,
+                award_system=args.award_system,
+                check_leakage=True,
+            )
+        except LeakageValidationError as exc:
+            print(f"Error: {exc}", file=sys.stderr)
+            sys.exit(1)
 
     # Build tier lookup for display
     tier2_set = set(tier2_feats)

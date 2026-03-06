@@ -52,6 +52,7 @@ from sklearn.preprocessing import StandardScaler
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from features.category_extractor import CategoryExtractor
+from features.leakage import LeakageValidationError
 from model.category_model import MODEL_TYPES, OscarCategoryModel, _make_estimator
 from model.evaluation import YearResult, compute_backtest_metrics
 from model.visualize import (
@@ -141,6 +142,14 @@ def main() -> None:
             f"(default: ['ConstrainedLR']; available: {MODEL_TYPES})."
         ),
     )
+    parser.add_argument(
+        "--check-leakage",
+        action="store_true",
+        help=(
+            "Validate selected features against system-aware leakage guardrails "
+            "before model training."
+        ),
+    )
     parser.add_argument("--output-dir", default=None)
     args = parser.parse_args()
 
@@ -200,8 +209,13 @@ def main() -> None:
                 features=selected,
                 model_type=model_type,
                 label_cols=extractor.label_cols,
+                award_system=args.award_system,
+                check_leakage=args.check_leakage,
             )
             result = model.backtest(start_year=start_year, end_year=end_year)
+        except LeakageValidationError as exc:
+            print(f"Error: {exc}", file=sys.stderr)
+            sys.exit(1)
         except ValueError as exc:
             print(f"  Skipping {model_type}: {exc}", file=sys.stderr)
             continue
@@ -235,13 +249,19 @@ def main() -> None:
     print(f"\nWinning model: {winning_type}")
 
     # ── 5. Full backcast with winning model ────────────────────────────────────
-    winning_model = OscarCategoryModel(
-        data,
-        category_name=args.category,
-        features=selected,
-        model_type=winning_type,
-        label_cols=extractor.label_cols,
-    )
+    try:
+        winning_model = OscarCategoryModel(
+            data,
+            category_name=args.category,
+            features=selected,
+            model_type=winning_type,
+            label_cols=extractor.label_cols,
+            award_system=args.award_system,
+            check_leakage=args.check_leakage,
+        )
+    except LeakageValidationError as exc:
+        print(f"Error: {exc}", file=sys.stderr)
+        sys.exit(1)
 
     importance_df = winning_model.feature_importance(target_year=end_year)
     importance_df.to_csv(output_dir / "feature_importance.csv", index=False)

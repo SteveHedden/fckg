@@ -14,20 +14,20 @@
   "selected_features": [
     "bafta_costume_design_nominee",
     "bafta_costume_design_winner",
+    "nsfc_best_film",
+    "num_production_companies",
+    "country_non_english",
+    "cinematography_nom",
+    "sag_winner",
+    "num_wikidata_awards",
+    "bafta_winner",
+    "genre_romance",
     "genre_western",
     "genre_horror",
-    "bafta_winner",
-    "country_non_english",
-    "sag_winner",
-    "genre_romance",
     "genre_history",
-    "cinematography_nom",
-    "nsfc_best_film",
-    "directing_nom",
-    "num_production_companies",
-    "num_wikidata_awards",
+    "genre_thriller",
     "technical_noms",
-    "english_language",
-    "genre_thriller"
+    "directing_nom",
+    "english_language"
   ]
 }

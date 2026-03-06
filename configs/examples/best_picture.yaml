@@ -1,0 +1,15 @@
+category: Best Picture
+award_system: oscars
+ceremony_year: 2025
+model:
+  type: ConstrainedLR
+  hyperparameters: {}
+features: RFECV
+label_cols:
+  - film
+backtest:
+  start_year: 2015
+  end_year: 2024
+output_dir: data/reports/oscars/best_picture
+shap:
+  enabled: false

@@ -6,6 +6,8 @@ single configurable class that works for any nominee-level or film-level categor
 
 from __future__ import annotations
 
+import sys
+
 import numpy as np
 import pandas as pd
 from scipy.optimize import minimize
@@ -21,6 +23,11 @@ from .evaluation import (
     PredictionResult,
     YearResult,
     compute_backtest_metrics,
+)
+from features.leakage import (
+    LeakageValidationError,
+    check_leakage,
+    format_leakage_violations,
 )
 
 MODEL_TYPES = ["LR", "Ridge", "ConstrainedLR", "RF", "GB", "LR+RF"]
@@ -191,36 +198,85 @@ def _make_estimator(
     *,
     category_name: str | None = None,
     features: list[str] | None = None,
+    estimator_params: dict[str, object] | None = None,
 ):
     """Return a fresh sklearn estimator by short name."""
+    def validated_kwargs(defaults: dict[str, object], model_name: str) -> dict[str, object]:
+        overrides = estimator_params or {}
+        unknown = sorted(set(overrides) - set(defaults))
+        if unknown:
+            allowed = sorted(defaults)
+            raise ValueError(
+                f"Unsupported hyperparameters for {model_name}: {unknown}. "
+                f"Allowed keys: {allowed}"
+            )
+        merged = dict(defaults)
+        merged.update(overrides)
+        return merged
+
     if name == "LR":
-        return LogisticRegression(random_state=42, max_iter=1000, class_weight="balanced")
+        kwargs = validated_kwargs(
+            {
+                "random_state": 42,
+                "max_iter": 1000,
+                "class_weight": "balanced",
+            },
+            "LR",
+        )
+        return LogisticRegression(**kwargs)
     if name == "Ridge":
         # Stronger L2 regularisation (C=0.1) than plain LR.  Shrinks correlated
         # precursor coefficients proportionally so none flip to spurious negatives.
         # penalty='l2' is the default so omitted to avoid the sklearn 1.8 deprecation.
-        return LogisticRegression(
-            C=0.1, solver="lbfgs",
-            random_state=42, max_iter=1000, class_weight="balanced",
+        kwargs = validated_kwargs(
+            {
+                "C": 0.1,
+                "solver": "lbfgs",
+                "random_state": 42,
+                "max_iter": 1000,
+                "class_weight": "balanced",
+            },
+            "Ridge",
         )
+        return LogisticRegression(**kwargs)
     if name == "ConstrainedLR":
         nonnegative_indices: tuple[int, ...] = ()
         if category_name and features:
             nonnegative_indices = constrained_nonnegative_indices(category_name, features)
-        return ConstrainedLogisticRegression(
-            nonnegative_indices=nonnegative_indices,
-            C=1.0,
-            max_iter=1000,
-            class_weight="balanced",
-            random_state=42,
+        kwargs = validated_kwargs(
+            {
+                "nonnegative_indices": nonnegative_indices,
+                "C": 1.0,
+                "max_iter": 1000,
+                "class_weight": "balanced",
+                "random_state": 42,
+            },
+            "ConstrainedLR",
         )
+        return ConstrainedLogisticRegression(**kwargs)
     if name == "RF":
-        return RandomForestClassifier(
-            n_estimators=200, max_depth=10, min_samples_split=5,
-            min_samples_leaf=2, class_weight="balanced", random_state=42,
+        kwargs = validated_kwargs(
+            {
+                "n_estimators": 200,
+                "max_depth": 10,
+                "min_samples_split": 5,
+                "min_samples_leaf": 2,
+                "class_weight": "balanced",
+                "random_state": 42,
+            },
+            "RF",
         )
+        return RandomForestClassifier(**kwargs)
     if name == "GB":
-        return GradientBoostingClassifier(n_estimators=100, max_depth=3, random_state=42)
+        kwargs = validated_kwargs(
+            {
+                "n_estimators": 100,
+                "max_depth": 3,
+                "random_state": 42,
+            },
+            "GB",
+        )
+        return GradientBoostingClassifier(**kwargs)
     raise ValueError(f"Unknown model type: {name!r}. Choose from: {MODEL_TYPES}")
 
 
@@ -251,6 +307,10 @@ class OscarCategoryModel:
     exclude_cols : frozenset or None
         Additional columns to exclude from automatic feature selection.
         Merged with the built-in exclusion set.
+    award_system : str
+        Target award system for leakage checks (e.g. "oscars", "bafta", "sag").
+    check_leakage : bool
+        If True, validate feature columns against temporal leakage guardrails.
     """
 
     def __init__(
@@ -258,9 +318,14 @@ class OscarCategoryModel:
         data: pd.DataFrame,
         category_name: str = "Best Picture",
         features: list[str] | str = "RFECV",
+        # Default is RF for backward compat with legacy scripts.
+        # Config-first pipeline (fckg/config.py) defaults to ConstrainedLR.
         model_type: str = "RF",
         label_cols: list[str] | None = None,
         exclude_cols: frozenset | None = None,
+        award_system: str = "oscars",
+        check_leakage: bool = False,
+        estimator_params: dict[str, object] | None = None,
     ) -> None:
         if model_type not in MODEL_TYPES:
             raise ValueError(f"model_type must be one of {MODEL_TYPES}")
@@ -275,7 +340,12 @@ class OscarCategoryModel:
         self._model_type = model_type
         self._label_cols = label_cols or ["film"]
         self._exclude_cols = _DEFAULT_EXCLUDE | (exclude_cols or frozenset())
+        self._award_system = str(award_system).strip().lower()
+        self._check_leakage = bool(check_leakage)
+        self._leakage_checked = False
+        self._estimator_params = dict(estimator_params or {})
         self._features = self._resolve_features(features)
+        self._validate_leakage()
 
     # ------------------------------------------------------------------
     # Internal helpers
@@ -340,6 +410,7 @@ class OscarCategoryModel:
         return [all_cols[i] for i in range(len(all_cols)) if selector.support_[i]]
 
     def _build_pipeline(self, model_type: str) -> Pipeline:
+        estimator_params = self._resolve_estimator_params(model_type)
         return Pipeline([
             ("imputer", SimpleImputer(strategy="median")),
             ("scaler", StandardScaler()),
@@ -349,9 +420,26 @@ class OscarCategoryModel:
                     model_type,
                     category_name=self._category_name,
                     features=self._features,
+                    estimator_params=estimator_params,
                 ),
             ),
         ])
+
+    def _resolve_estimator_params(self, model_type: str) -> dict[str, object] | None:
+        if not self._estimator_params:
+            return None
+
+        # For LR+RF allow nested per-component overrides:
+        # {"LR": {...}, "RF": {...}}
+        if any(isinstance(v, dict) for v in self._estimator_params.values()):
+            by_key: dict[str, dict[str, object]] = {}
+            for key, value in self._estimator_params.items():
+                if not isinstance(value, dict):
+                    continue
+                by_key[str(key).strip().upper()] = dict(value)
+            return by_key.get(model_type.upper())
+
+        return dict(self._estimator_params)
 
     def _fit_and_predict(
         self,
@@ -392,6 +480,32 @@ class OscarCategoryModel:
             return vals[0]
         return f"{vals[0]} ({', '.join(vals[1:])})"
 
+    def _validate_leakage(self) -> None:
+        """Validate selected feature columns against leakage rules once."""
+        if not self._check_leakage or self._leakage_checked:
+            return
+
+        violations, warnings = check_leakage(self._features, self._award_system)
+        if warnings:
+            print("Leakage guardrails: warnings", file=sys.stderr)
+            for warning in warnings:
+                print(f"  - {warning}", file=sys.stderr)
+
+        if violations:
+            print(
+                format_leakage_violations(
+                    violations=violations,
+                    target_system=self._award_system,
+                    category_name=self._category_name,
+                ),
+                file=sys.stderr,
+            )
+            raise LeakageValidationError(
+                f"Leakage validation failed with {len(violations)} violation(s)"
+            )
+
+        self._leakage_checked = True
+
     # ------------------------------------------------------------------
     # Public API
     # ------------------------------------------------------------------
@@ -410,6 +524,8 @@ class OscarCategoryModel:
         end_year : int or None
             Last year to evaluate (default: latest in data).
         """
+        self._validate_leakage()
+
         if end_year is None:
             end_year = int(self._data["year_film"].max())
 
@@ -477,6 +593,8 @@ class OscarCategoryModel:
 
         Raises ValueError if no data exists for the target year.
         """
+        self._validate_leakage()
+
         test_df = self._data[self._data["year_film"] == target_year].copy()
         if test_df.empty:
             raise ValueError(f"No data for year {target_year}")

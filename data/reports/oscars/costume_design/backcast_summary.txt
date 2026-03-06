@@ -1,9 +1,9 @@
 Category: costume_design
 Award system: oscars
-Winning model: ConstrainedLR
-Features (17): ['bafta_costume_design_nominee', 'bafta_costume_design_winner', 'genre_western', 'genre_horror', 'bafta_winner', 'country_non_english', 'sag_winner', 'genre_romance', 'genre_history', 'cinematography_nom', 'nsfc_best_film', 'directing_nom', 'num_production_companies', 'num_wikidata_awards', 'technical_noms', 'english_language', 'genre_thriller']
+Winning model: LR+RF
+Features (17): ['bafta_costume_design_nominee', 'bafta_costume_design_winner', 'nsfc_best_film', 'num_production_companies', 'country_non_english', 'cinematography_nom', 'sag_winner', 'num_wikidata_awards', 'bafta_winner', 'genre_romance', 'genre_western', 'genre_horror', 'genre_history', 'genre_thriller', 'technical_noms', 'directing_nom', 'english_language']
 Years: 2016–2025  (n=9)
-AUC: 0.6980
-top1: 2 (22.2%)
-top3: 7 (77.8%)
-avg_rank: 2.4444
+AUC: 0.7892
+top1: 5 (55.6%)
+top3: 8 (88.9%)
+avg_rank: 1.8889
