@@ -185,4 +185,4 @@ Oscar nomination data is derived from [DLu/oscar_data](https://github.com/DLu/os
 
 ## License
 
-MIT. See `LICENSE`.
+CC0 1.0 Universal. See `LICENSE`.
