@@ -891,3 +891,378 @@ MovieSHACL3:forecastSetSource
         rdfs:range       xsd:string;
         rdfs:label       "forecastSetSource";
         rdfs:comment     "Origin of the forecast probabilities: 'model' for ML model output, 'kalshi_market' for Kalshi prediction market prices." .
+
+# ── OWL property declarations for Film, Person, Nomination, and related classes ─
+# These mirror the sh:path values in the SHACL PropertyShapes above so that EDG
+# recognises them as queryable RDF properties in its SPARQL interface.
+
+# -- Person datatype properties --
+
+MovieSHACL3:fullName
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:Person;
+        rdfs:range   xsd:string;
+        rdfs:label   "fullName" .
+
+MovieSHACL3:birthYear
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:Person;
+        rdfs:range   xsd:integer;
+        rdfs:label   "birthYear" .
+
+MovieSHACL3:biography
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:Person;
+        rdfs:range   xsd:string;
+        rdfs:label   "biography" .
+
+MovieSHACL3:birthPlace
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:Person;
+        rdfs:range   xsd:string;
+        rdfs:label   "birthPlace" .
+
+MovieSHACL3:tmdbPersonId
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:Person;
+        rdfs:range   xsd:string;
+        rdfs:label   "tmdbPersonId" .
+
+MovieSHACL3:entityType
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:Person;
+        rdfs:range   xsd:string;
+        rdfs:label   "entityType" .
+
+# -- Person object properties --
+
+MovieSHACL3:hasIdentifier
+        rdf:type     owl:ObjectProperty;
+        rdfs:range   MovieSHACL3:Identifier;
+        rdfs:label   "hasIdentifier" .
+
+# -- Identifier datatype/object properties --
+
+MovieSHACL3:value
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:Identifier;
+        rdfs:range   xsd:string;
+        rdfs:label   "value" .
+
+MovieSHACL3:scheme
+        rdf:type     owl:ObjectProperty;
+        rdfs:domain  MovieSHACL3:Identifier;
+        rdfs:range   MovieSHACL3:IdentifierScheme;
+        rdfs:label   "scheme" .
+
+# -- AwardSystem datatype properties --
+
+MovieSHACL3:systemName
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:AwardSystem;
+        rdfs:range   xsd:string;
+        rdfs:label   "systemName" .
+
+MovieSHACL3:shortName
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:AwardSystem;
+        rdfs:range   xsd:string;
+        rdfs:label   "shortName" .
+
+MovieSHACL3:description
+        rdf:type     owl:DatatypeProperty;
+        rdfs:range   xsd:string;
+        rdfs:label   "description" .
+
+# -- AwardCeremony datatype/object properties --
+
+MovieSHACL3:yearCeremony
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:AwardCeremony;
+        rdfs:range   xsd:gYear;
+        rdfs:label   "yearCeremony" .
+
+MovieSHACL3:ceremonyName
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:AwardCeremony;
+        rdfs:range   xsd:string;
+        rdfs:label   "ceremonyName" .
+
+MovieSHACL3:ceremonyDate
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:AwardCeremony;
+        rdfs:range   xsd:date;
+        rdfs:label   "ceremonyDate" .
+
+MovieSHACL3:hasAwardSystem
+        rdf:type     owl:ObjectProperty;
+        rdfs:range   MovieSHACL3:AwardSystem;
+        rdfs:label   "hasAwardSystem" .
+
+# -- Nomination datatype properties --
+
+MovieSHACL3:yearFilm
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:Nomination;
+        rdfs:range   xsd:gYear;
+        rdfs:label   "yearFilm" .
+
+MovieSHACL3:winner
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:Nomination;
+        rdfs:range   xsd:boolean;
+        rdfs:label   "winner" .
+
+MovieSHACL3:previousNominations
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:Nomination;
+        rdfs:range   xsd:integer;
+        rdfs:label   "previousNominations" .
+
+MovieSHACL3:previousWins
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:Nomination;
+        rdfs:range   xsd:integer;
+        rdfs:label   "previousWins" .
+
+MovieSHACL3:nomineeType
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:Nomination;
+        rdfs:range   xsd:string;
+        rdfs:label   "nomineeType" .
+
+MovieSHACL3:submittingCountry
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:Nomination;
+        rdfs:range   xsd:string;
+        rdfs:label   "submittingCountry" .
+
+MovieSHACL3:note
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:Nomination;
+        rdfs:range   xsd:string;
+        rdfs:label   "note" .
+
+# -- Nomination object properties --
+
+MovieSHACL3:hasCeremony
+        rdf:type     owl:ObjectProperty;
+        rdfs:domain  MovieSHACL3:Nomination;
+        rdfs:range   MovieSHACL3:AwardCeremony;
+        rdfs:label   "hasCeremony" .
+
+MovieSHACL3:hasFilm
+        rdf:type     owl:ObjectProperty;
+        rdfs:domain  MovieSHACL3:Nomination;
+        rdfs:range   MovieSHACL3:Film;
+        rdfs:label   "hasFilm" .
+
+MovieSHACL3:hasNominee
+        rdf:type     owl:ObjectProperty;
+        rdfs:domain  MovieSHACL3:Nomination;
+        rdfs:range   MovieSHACL3:Person;
+        rdfs:label   "hasNominee" .
+
+MovieSHACL3:hasCategory
+        rdf:type     owl:ObjectProperty;
+        rdfs:domain  MovieSHACL3:Nomination;
+        rdfs:range   MovieSHACL3:AwardCategory;
+        rdfs:label   "hasCategory" .
+
+MovieSHACL3:hasCanonCategory
+        rdf:type     owl:ObjectProperty;
+        rdfs:domain  MovieSHACL3:Nomination;
+        rdfs:range   MovieSHACL3:AwardCategory;
+        rdfs:label   "hasCanonCategory" .
+
+# -- AwardCategory datatype/object properties --
+
+MovieSHACL3:categoryName
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:AwardCategory;
+        rdfs:range   xsd:string;
+        rdfs:label   "categoryName" .
+
+MovieSHACL3:realizationOf
+        rdf:type     owl:ObjectProperty;
+        rdfs:domain  MovieSHACL3:AwardCategory;
+        rdfs:range   MovieSHACL3:AwardConcept;
+        rdfs:label   "realizationOf" .
+
+# -- Film datatype properties --
+
+MovieSHACL3:title
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:Film;
+        rdfs:range   xsd:string;
+        rdfs:label   "title" .
+
+MovieSHACL3:releaseYear
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:Film;
+        rdfs:range   xsd:gYear;
+        rdfs:label   "releaseYear" .
+
+MovieSHACL3:wikidataId
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:Film;
+        rdfs:range   xsd:string;
+        rdfs:label   "wikidataId" .
+
+MovieSHACL3:tmdbId
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:Film;
+        rdfs:range   xsd:string;
+        rdfs:label   "tmdbId" .
+
+MovieSHACL3:imdbId
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:Film;
+        rdfs:range   xsd:string;
+        rdfs:label   "imdbId" .
+
+MovieSHACL3:runtime
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:Film;
+        rdfs:range   xsd:integer;
+        rdfs:label   "runtime" .
+
+MovieSHACL3:language
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:Film;
+        rdfs:range   xsd:string;
+        rdfs:label   "language" .
+
+MovieSHACL3:country
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:Film;
+        rdfs:range   xsd:string;
+        rdfs:label   "country" .
+
+MovieSHACL3:productionCompany
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:Film;
+        rdfs:range   xsd:string;
+        rdfs:label   "productionCompany" .
+
+MovieSHACL3:budget
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:Film;
+        rdfs:range   xsd:decimal;
+        rdfs:label   "budget" .
+
+MovieSHACL3:revenue
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:Film;
+        rdfs:range   xsd:integer;
+        rdfs:label   "revenue" .
+
+MovieSHACL3:tmdbRating
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:Film;
+        rdfs:range   xsd:float;
+        rdfs:label   "tmdbRating" .
+
+MovieSHACL3:tmdbPopularity
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:Film;
+        rdfs:range   xsd:float;
+        rdfs:label   "tmdbPopularity" .
+
+MovieSHACL3:originalLanguage
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:Film;
+        rdfs:range   xsd:string;
+        rdfs:label   "originalLanguage" .
+
+MovieSHACL3:releaseDate
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:Film;
+        rdfs:range   xsd:date;
+        rdfs:label   "releaseDate" .
+
+MovieSHACL3:imdbRating
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:Film;
+        rdfs:range   xsd:float;
+        rdfs:label   "imdbRating" .
+
+MovieSHACL3:rottenTomatoesScore
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:Film;
+        rdfs:range   xsd:integer;
+        rdfs:label   "rottenTomatoesScore" .
+
+MovieSHACL3:metacriticScore
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:Film;
+        rdfs:range   xsd:integer;
+        rdfs:label   "metacriticScore" .
+
+MovieSHACL3:mpaaRating
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:Film;
+        rdfs:range   xsd:string;
+        rdfs:label   "mpaaRating" .
+
+MovieSHACL3:boxOffice
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:Film;
+        rdfs:range   xsd:decimal;
+        rdfs:label   "boxOffice" .
+
+MovieSHACL3:synopsis
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:Film;
+        rdfs:range   xsd:string;
+        rdfs:label   "synopsis" .
+
+MovieSHACL3:enrichedAt
+        rdf:type     owl:DatatypeProperty;
+        rdfs:domain  MovieSHACL3:Film;
+        rdfs:range   xsd:date;
+        rdfs:label   "enrichedAt" .
+
+# -- Film object properties --
+
+MovieSHACL3:hasDirector
+        rdf:type     owl:ObjectProperty;
+        rdfs:domain  MovieSHACL3:Film;
+        rdfs:range   MovieSHACL3:Person;
+        rdfs:label   "hasDirector" .
+
+MovieSHACL3:hasActor
+        rdf:type     owl:ObjectProperty;
+        rdfs:domain  MovieSHACL3:Film;
+        rdfs:range   MovieSHACL3:Person;
+        rdfs:label   "hasActor" .
+
+MovieSHACL3:hasProducer
+        rdf:type     owl:ObjectProperty;
+        rdfs:domain  MovieSHACL3:Film;
+        rdfs:range   MovieSHACL3:Person;
+        rdfs:label   "hasProducer" .
+
+MovieSHACL3:hasWriter
+        rdf:type     owl:ObjectProperty;
+        rdfs:domain  MovieSHACL3:Film;
+        rdfs:range   MovieSHACL3:Person;
+        rdfs:label   "hasWriter" .
+
+MovieSHACL3:hasComposer
+        rdf:type     owl:ObjectProperty;
+        rdfs:domain  MovieSHACL3:Film;
+        rdfs:range   MovieSHACL3:Person;
+        rdfs:label   "hasComposer" .
+
+MovieSHACL3:hasCinematographer
+        rdf:type     owl:ObjectProperty;
+        rdfs:domain  MovieSHACL3:Film;
+        rdfs:range   MovieSHACL3:Person;
+        rdfs:label   "hasCinematographer" .
+
+MovieSHACL3:hasGenre
+        rdf:type     owl:ObjectProperty;
+        rdfs:domain  MovieSHACL3:Film;
+        rdfs:range   MovieSHACL3:Genre;
+        rdfs:label   "hasGenre" .
